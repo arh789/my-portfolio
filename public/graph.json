@@ -1,0 +1,575 @@
+{
+  "generatedAt": "2026-03-20T21:52:13.527Z",
+  "articles": [
+    {
+      "slug": "art-forms-with-high-audience-resonance",
+      "title": "Art Forms with High Audience Resonance",
+      "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+      "date": "2026-03-15",
+      "tags": [
+        "audience-resonance",
+        "art-analysis",
+        "creative-strategy"
+      ]
+    },
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+      "date": "2026-03-15",
+      "tags": [
+        "creative-strategy",
+        "art-analysis",
+        "audience-resonance"
+      ]
+    },
+    {
+      "slug": "gpt-misuse-is-not-what-people-think",
+      "title": "GPT Misuse Is Not What People Think",
+      "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+      "date": "2026-03-15",
+      "tags": [
+        "generative-ai",
+        "ai-misuse"
+      ]
+    },
+    {
+      "slug": "maximising-artistic-identity",
+      "title": "Maximising Artistic Identity",
+      "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+      "date": "2026-03-15",
+      "tags": [
+        "creative-strategy",
+        "audience-resonance",
+        "art-analysis"
+      ]
+    },
+    {
+      "slug": "most-popular-art-mediums-based-on-the-datasets",
+      "title": "Most Popular Art Mediums Based on the Datasets",
+      "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+      "date": "2026-03-15",
+      "tags": [
+        "art-analysis",
+        "audience-resonance",
+        "creative-strategy"
+      ]
+    },
+    {
+      "slug": "this-process-is-not-seo",
+      "title": "This Process Is Not SEO",
+      "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+      "date": "2026-03-15",
+      "tags": [
+        "seo",
+        "content-strategy",
+        "creative-strategy",
+        "algorithmic-discovery"
+      ]
+    },
+    {
+      "slug": "visibility-under-hostile-conditions",
+      "title": "Visibility Under Hostile Conditions",
+      "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+      "date": "2026-03-15",
+      "tags": [
+        "visibility",
+        "algorithmic-discovery",
+        "seo",
+        "content-strategy"
+      ]
+    }
+  ],
+  "tagIndex": {
+    "audience-resonance": [
+      {
+        "slug": "art-forms-with-high-audience-resonance",
+        "title": "Art Forms with High Audience Resonance",
+        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "date": "2026-03-15",
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis"
+        ]
+      },
+      {
+        "slug": "most-popular-art-mediums-based-on-the-datasets",
+        "title": "Most Popular Art Mediums Based on the Datasets",
+        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "date": "2026-03-15",
+        "tags": [
+          "art-analysis",
+          "audience-resonance",
+          "creative-strategy"
+        ]
+      }
+    ],
+    "art-analysis": [
+      {
+        "slug": "art-forms-with-high-audience-resonance",
+        "title": "Art Forms with High Audience Resonance",
+        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "date": "2026-03-15",
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis"
+        ]
+      },
+      {
+        "slug": "most-popular-art-mediums-based-on-the-datasets",
+        "title": "Most Popular Art Mediums Based on the Datasets",
+        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "date": "2026-03-15",
+        "tags": [
+          "art-analysis",
+          "audience-resonance",
+          "creative-strategy"
+        ]
+      }
+    ],
+    "creative-strategy": [
+      {
+        "slug": "art-forms-with-high-audience-resonance",
+        "title": "Art Forms with High Audience Resonance",
+        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "date": "2026-03-15",
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis"
+        ]
+      },
+      {
+        "slug": "most-popular-art-mediums-based-on-the-datasets",
+        "title": "Most Popular Art Mediums Based on the Datasets",
+        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "date": "2026-03-15",
+        "tags": [
+          "art-analysis",
+          "audience-resonance",
+          "creative-strategy"
+        ]
+      },
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      }
+    ],
+    "generative-ai": [
+      {
+        "slug": "gpt-misuse-is-not-what-people-think",
+        "title": "GPT Misuse Is Not What People Think",
+        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "date": "2026-03-15",
+        "tags": [
+          "generative-ai",
+          "ai-misuse"
+        ]
+      }
+    ],
+    "ai-misuse": [
+      {
+        "slug": "gpt-misuse-is-not-what-people-think",
+        "title": "GPT Misuse Is Not What People Think",
+        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "date": "2026-03-15",
+        "tags": [
+          "generative-ai",
+          "ai-misuse"
+        ]
+      }
+    ],
+    "seo": [
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "visibility",
+          "algorithmic-discovery",
+          "seo",
+          "content-strategy"
+        ]
+      }
+    ],
+    "content-strategy": [
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "visibility",
+          "algorithmic-discovery",
+          "seo",
+          "content-strategy"
+        ]
+      }
+    ],
+    "algorithmic-discovery": [
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "visibility",
+          "algorithmic-discovery",
+          "seo",
+          "content-strategy"
+        ]
+      }
+    ],
+    "visibility": [
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "visibility",
+          "algorithmic-discovery",
+          "seo",
+          "content-strategy"
+        ]
+      }
+    ]
+  },
+  "tagCentrality": [
+    {
+      "tag": "creative-strategy",
+      "count": 5
+    },
+    {
+      "tag": "art-analysis",
+      "count": 4
+    },
+    {
+      "tag": "audience-resonance",
+      "count": 4
+    },
+    {
+      "tag": "algorithmic-discovery",
+      "count": 2
+    },
+    {
+      "tag": "content-strategy",
+      "count": 2
+    },
+    {
+      "tag": "seo",
+      "count": 2
+    },
+    {
+      "tag": "ai-misuse",
+      "count": 1
+    },
+    {
+      "tag": "generative-ai",
+      "count": 1
+    },
+    {
+      "tag": "visibility",
+      "count": 1
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "art-forms-with-high-audience-resonance",
+        "label": "Art Forms with High Audience Resonance",
+        "type": "article",
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy"
+        ],
+        "centrality": 10
+      },
+      {
+        "id": "first-principles",
+        "label": "First Principles",
+        "type": "article",
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance"
+        ],
+        "centrality": 10
+      },
+      {
+        "id": "gpt-misuse-is-not-what-people-think",
+        "label": "GPT Misuse Is Not What People Think",
+        "type": "article",
+        "tags": [
+          "generative-ai",
+          "ai-misuse"
+        ],
+        "centrality": 0
+      },
+      {
+        "id": "maximising-artistic-identity",
+        "label": "Maximising Artistic Identity",
+        "type": "article",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis"
+        ],
+        "centrality": 10
+      },
+      {
+        "id": "most-popular-art-mediums-based-on-the-datasets",
+        "label": "Most Popular Art Mediums Based on the Datasets",
+        "type": "article",
+        "tags": [
+          "art-analysis",
+          "audience-resonance",
+          "creative-strategy"
+        ],
+        "centrality": 10
+      },
+      {
+        "id": "this-process-is-not-seo",
+        "label": "This Process Is Not SEO",
+        "type": "article",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ],
+        "centrality": 7
+      },
+      {
+        "id": "visibility-under-hostile-conditions",
+        "label": "Visibility Under Hostile Conditions",
+        "type": "article",
+        "tags": [
+          "visibility",
+          "algorithmic-discovery",
+          "seo",
+          "content-strategy"
+        ],
+        "centrality": 3
+      }
+    ],
+    "edges": [
+      {
+        "source": "art-forms-with-high-audience-resonance",
+        "target": "first-principles",
+        "weight": 3,
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "art-forms-with-high-audience-resonance",
+        "target": "maximising-artistic-identity",
+        "weight": 3,
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "art-forms-with-high-audience-resonance",
+        "target": "most-popular-art-mediums-based-on-the-datasets",
+        "weight": 3,
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "art-forms-with-high-audience-resonance",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "first-principles",
+        "target": "maximising-artistic-identity",
+        "weight": 3,
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance"
+        ]
+      },
+      {
+        "source": "first-principles",
+        "target": "most-popular-art-mediums-based-on-the-datasets",
+        "weight": 3,
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance"
+        ]
+      },
+      {
+        "source": "first-principles",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "maximising-artistic-identity",
+        "target": "most-popular-art-mediums-based-on-the-datasets",
+        "weight": 3,
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis"
+        ]
+      },
+      {
+        "source": "maximising-artistic-identity",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "most-popular-art-mediums-based-on-the-datasets",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "this-process-is-not-seo",
+        "target": "visibility-under-hostile-conditions",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      }
+    ]
+  }
+}

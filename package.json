@@ -1,0 +1,35 @@
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run watch:metadata & next dev",
+    "buildGraph": "node scripts/buildBlogGraph.js",
+    "build": "npm run buildGraph && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate:metadata": "node src/app/components/generateMetadataJson.js",
+    "watch:metadata": "node src/app/components/watchMetadata.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "cytoscape": "^3.33.1",
+    "cytoscape-fcose": "^2.2.0",
+    "gray-matter": "^4.0.3",
+    "next": "^16.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+.header-section h1,
+.header-section h2,
+.header-section h3,
+.header-section h4,
+.header-section h5,
+.header-section h6 {
+    font-family: 'IM Fell English SC', serif;
+}
+
+/* ========================================= */
+/* ACCESSIBILITY */
+/* ========================================= */
+
+.srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
+/* ========================================= */
+/* PARENT DIV TO WRAP THE ENTIRE CONTENT */
+/* ========================================= */
+
+.content-wrapper {
+    background-color: #333; /* Contrasting background */
+    opacity: 0.9; /* Set opacity of the entire div */
+    padding: 40px;
+    border-radius: 10px; /* Optional, for rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional, for a subtle shadow effect */
+    max-width: 1200px; /* Ensure the parent div doesn't exceed 1200px */
+    margin: 0 auto; /* Centre the parent div */
+    margin-top: 20px; /* Add 20px space above the section */
+    margin-bottom: 20px;
+}
+
+
+/* ========================================= */
+/* SECTION TEXT (HEADER) */
+/* ========================================= */
+
+.header-section {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    transition: font-size 0.3s ease-in-out;
+}
+
+
+/* ========================================= */
+/* PORTRAIT IMAGE */
+/* ========================================= */
+
+.portrait-image-container {
+    text-align: center; /* Centre the image */
+    margin: 10px 0; /* Add space around the image */
+}
+
+.portrait-image {
+    display: block;
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Centre the image itself */
+}
+
+
+/* ========================================= */
+/* PARAGRAPH TEXT SECTION */
+/* ========================================= */
+
+.paragraph-section {
+    font-family: var(--font-family-body);
+    font-size: 2.55rem; /* Increased to compensate for the newer font system */
+    color: #fff;
+    line-height: 1.75;
+    text-align: left; /* Keep left justification */
+    margin-top: 40px;
+    margin-bottom: 10px;
+    transition: font-size 0.3s ease-in-out; /* Transition for font-size */
+}
+
+    /* Target <p> tags specifically inside .paragraph-section for spacing between paragraphs */
+    .paragraph-section p {
+        margin-bottom: 15px; /* Increase space between each <p> tag */
+    }
+
+
+/* ========================================= */
+/* RESPONSIVE ADJUSTMENTS FOR FONT SIZE */
+/* ========================================= */
+
+@media (min-width: 1000px) {
+    .header-section {
+        font-size: 2rem; /* Default font size for larger screens */
+    }
+
+    .paragraph-section {
+        font-size: 1.35rem; /* Increased paragraph size for desktop */
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    .header-section {
+        font-size: 1.4rem; /* Slightly smaller font size for medium screens */
+    }
+
+    .paragraph-section {
+        font-size: 1.2rem; /* Slightly reduced, but still larger than before */
+    }
+}
+
+@media (max-width: 800px) and (min-width: 480px) {
+    .header-section {
+        font-size: 0.9rem; /* Further reduced for smaller screens */
+    }
+
+    .paragraph-section {
+        font-size: 1rem; /* Increased from the original 0.9rem */
+    }
+}
+
+@media (max-width: 480px) {
+    .header-section {
+        font-size: 0.85rem; /* Set font size for very small screens */
+    }
+
+    .paragraph-section {
+        font-size: 0.95rem; /* Increased from the original 0.85rem */
+    }
+}

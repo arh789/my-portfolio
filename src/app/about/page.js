@@ -1,0 +1,60 @@
+import { parseMarkdown } from '../components/markdown';
+import fs from 'fs';
+import path from 'path';
+import styles from './aboutPage.module.css'; // Import the CSS module
+
+export const metadata = {
+    title: 'About | Recursive AI SEO Framework and Symbolic Content Architecture',
+    description: 'An adversarially-structured overview of the system behind this site—fusing grotesque art, recursive SEO automation, symbolic compression, and markdown-driven content logic.',
+    keywords: [
+        'recursive AI SEO',
+        'symbolic content systems',
+        'automated SEO research',
+        'adversarial system mapping',
+        'semantic clustering',
+        'grotesque art framework',
+        'procedural content architecture',
+        'LLM-based metadata generation',
+        'suppression-aware SEO',
+        'content-driven site automation'
+    ]
+};
+
+export default async function About() {
+    // Get the path to the markdown files
+    const headersFilePath = path.join(process.cwd(), 'src', 'app', 'about', 'about-content-headers.md');
+    const paragraphsFilePath = path.join(process.cwd(), 'src', 'app', 'about', 'about-content-paragraphs.md');
+
+    // Read the markdown content from the files
+    const headersMarkdown = fs.readFileSync(headersFilePath, 'utf-8');
+    const paragraphsMarkdown = fs.readFileSync(paragraphsFilePath, 'utf-8');
+
+    // Parse the markdown content to HTML
+    const headersContent = await parseMarkdown(headersMarkdown);
+    const paragraphsContent = await parseMarkdown(paragraphsMarkdown);
+
+    return (
+        <div>
+
+            <h1 className={styles.srOnly}>About — Recursive AI SEO Framework & Symbolic Content Architecture</h1>
+
+            {/* Parent div for both header and paragraph sections */}
+            <div className={styles['content-wrapper']}>
+                {/* Render header content */}
+                <div className={styles['header-section']} dangerouslySetInnerHTML={{ __html: headersContent }} />
+
+                {/* Insert image between header and paragraphs */}
+                <div className={styles['portrait-image-container']}>
+                    <img
+                        src="/images/joker-portrait.png"
+                        alt="About Portrait"
+                        className={styles['portrait-image']}
+                    />
+                </div>
+
+                {/* Render paragraphs content */}
+                <div className={styles['paragraph-section']} dangerouslySetInnerHTML={{ __html: paragraphsContent }} />
+            </div>
+        </div>
+    );
+}

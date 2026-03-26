@@ -1,0 +1,178 @@
+/* ========================================= */
+/* CONTENT WRAPPER */
+/* ========================================= */
+
+.content-wrapper {
+    background-color: #333;
+    opacity: 0.9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+
+/* ========================================= */
+/* PARAGRAPH / MARKDOWN CONTENT */
+/* ========================================= */
+
+.paragraph-section {
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-base);
+    color: #fff;
+    line-height: 1.75;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    transition: font-size 0.3s ease-in-out;
+}
+
+    .paragraph-section p {
+        margin-bottom: 20px;
+    }
+
+    .paragraph-section ul,
+    .paragraph-section ol {
+        margin-bottom: 20px;
+        padding-left: 1.5rem;
+    }
+
+    .paragraph-section li {
+        margin-bottom: 10px;
+    }
+
+    .paragraph-section strong,
+    .paragraph-section b {
+        color: var(--primary-color);
+        font-weight: 700;
+    }
+
+
+    /* ========================================= */
+    /* TABLES */
+    /* ========================================= */
+
+    .paragraph-section table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 24px 0;
+        color: #fff;
+        font-size: 1rem;
+        background-color: rgba(0, 0, 0, 0.18);
+    }
+
+    .paragraph-section th,
+    .paragraph-section td {
+        border: 1px solid #555;
+        padding: 12px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .paragraph-section th {
+        background-color: #444;
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+
+    .paragraph-section tr:nth-child(even) {
+        background-color: #3a3a3a;
+    }
+
+
+    /* ========================================= */
+    /* MARKDOWN HEADINGS */
+    /* ========================================= */
+
+    .paragraph-section h1,
+    .paragraph-section h2,
+    .paragraph-section h3 {
+        color: var(--primary-color);
+        margin-top: 1.8em;
+        margin-bottom: 0.6em;
+        line-height: 1.15;
+        text-transform: uppercase;
+    }
+
+    .paragraph-section h1 {
+        font-family: var(--font-family-title);
+        font-size: 2rem;
+    }
+
+    .paragraph-section h2 {
+        font-family: var(--font-family-title);
+        font-size: 1.6rem;
+    }
+
+    .paragraph-section h3 {
+        font-family: var(--font-family-title);
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+
+/* ========================================= */
+/* RESPONSIVE ADJUSTMENTS */
+/* ========================================= */
+
+@media (min-width: 1000px) {
+    .paragraph-section {
+        font-size: var(--font-size-base);
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    .paragraph-section {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 480px) {
+    .paragraph-section {
+        font-size: 1.05rem;
+    }
+
+        .paragraph-section h1 {
+            font-size: 1.7rem;
+        }
+
+        .paragraph-section h2 {
+            font-size: 1.4rem;
+        }
+
+        .paragraph-section h3 {
+            font-size: 1.2rem;
+        }
+}
+
+@media (max-width: 480px) {
+    .content-wrapper {
+        padding: 24px;
+    }
+
+    .paragraph-section {
+        font-size: 0.95rem;
+    }
+
+        .paragraph-section h1 {
+            font-size: 1.45rem;
+        }
+
+        .paragraph-section h2 {
+            font-size: 1.25rem;
+        }
+
+        .paragraph-section h3 {
+            font-size: 1.1rem;
+        }
+
+        .paragraph-section table {
+            font-size: 0.9rem;
+        }
+
+        .paragraph-section th,
+        .paragraph-section td {
+            padding: 10px;
+        }
+}
