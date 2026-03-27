@@ -28,37 +28,37 @@ export const metadata = {
 const banners = [
     {
         href: '/about',
-        src: '/images/home_menu_images/about1.png',
+        src: '/images/home_menu_images/about2.png',
         alt: 'About page'
     },
     {
         href: '/workflow-structure-breakdown',
-        src: '/images/home_menu_images/workflow_breakdown1.png',
+        src: '/images/home_menu_images/workflow_breakdown2.png',
         alt: 'Workflow structure breakdown'
     },
     {
         href: '/code',
-        src: '/images/home_menu_images/somatic_seo_code1.png',
+        src: '/images/home_menu_images/somatic_seo_code2.png',
         alt: 'Somatic SEO code'
     },
     {
         href: '/datamining-llm',
-        src: '/images/home_menu_images/datamining_a_llm1.png',
+        src: '/images/home_menu_images/datamining_a_llm2.png',
         alt: 'Datamining a large language model'
     },
     {
         href: '/content-strategy',
-        src: '/images/home_menu_images/content_strategy1.png',
+        src: '/images/home_menu_images/content_strategy2.png',
         alt: 'Content strategy'
     },
     {
         href: '/art',
-        src: '/images/home_menu_images/blog1.png',
+        src: '/images/home_menu_images/blog2.png',
         alt: 'Art blog and gallery'
     },
     {
         href: '/contact',
-        src: '/images/home_menu_images/contact1.png',
+        src: '/images/home_menu_images/contact2.png',
         alt: 'Contact form'
     }
 ];
