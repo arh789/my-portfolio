@@ -4,15 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npm run watch:metadata & next dev",
+    "dev": "next dev",
     "buildGraph": "node scripts/buildBlogGraph.js",
     "build": "npm run buildGraph && next build",
     "start": "next start",
-    "lint": "next lint",
-    "generate:metadata": "node src/app/components/generateMetadataJson.js",
-    "watch:metadata": "node src/app/components/watchMetadata.js"
+    "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "chokidar": "^4.0.3",
     "cytoscape": "^3.33.1",
     "cytoscape-fcose": "^2.2.0",
@@ -27,6 +26,8 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
     "eslint": "^9",
     "eslint-config-next": "15.1.0",
     "postcss": "^8",
