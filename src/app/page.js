@@ -38,8 +38,8 @@ const banners = [
     },
     {
         href: '/code',
-        src: '/images/home_menu_images/somatic_seo_code2.png',
-        alt: 'Somatic SEO code'
+        src: '/images/home_menu_images/semantic_seo_code.png',
+        alt: 'Semantic SEO code'
     },
     {
         href: '/datamining-llm',
