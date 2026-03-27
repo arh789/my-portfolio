@@ -34,10 +34,13 @@ export default function CollapsibleSections({ sections }) {
                         <img src={image} alt={title} className={styles.banner} />
                     </button>
                     <div
-                        className={`${styles.content} ${index === active ? styles.active : styles.hidden
-                            }`}
-                        dangerouslySetInnerHTML={{ __html: html }}
-                    />
+                        className={`${styles.content} ${index === active ? styles.active : styles.hidden}`}
+                    >
+                        <div
+                            className={styles['paragraph-section']}
+                            dangerouslySetInnerHTML={{ __html: html }}
+                        />
+                    </div>
                 </section>
             ))}
         </div>
