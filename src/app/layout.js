@@ -75,8 +75,15 @@ export default function RootLayout({ children }) {
                             >
                                 LinkedIn
                             </Link>
+                             <Link
+                                href="https://github.com/arh789/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub
+                            </Link>
                         </div>
-                        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+                        <p>&copy; 2026 My Company. All Rights Reserved.</p>
                     </footer>
                 </div>
             </body>
