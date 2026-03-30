@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
     metadataBase: new URL("https://decrepitfilth.art"),
-    title: "Andrew Hale — DecrepitFilth",
+    title: "Andrew Hale - DecrepitFilth",
     description: "Portfolio, blog, and experimental work exploring procedural systems, art, and algorithmic structure.",
 };
 

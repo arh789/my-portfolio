@@ -71,6 +71,7 @@ function BannerItem({ href, src, alt }) {
                 alt={alt}
                 width={1200}
                 height={400}
+                style={{ width: "70%", height: "auto", margin: "0 auto", display: "block" }}
             />
         </Link>
     );
@@ -103,7 +104,7 @@ export default function Home() {
                     width={1920}
                     height={1080}
                     priority
-                    layout="responsive"
+                    style={{ width: "100%", height: "auto" }}
                 />
             </section>
 
