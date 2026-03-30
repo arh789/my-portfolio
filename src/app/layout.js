@@ -80,17 +80,17 @@ export default function RootLayout({ children }) {
                     type="application/ld+json"
                     strategy="afterInteractive"
                 >
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Person",
-                        "name": "Andrew Hale",
-                        "url": "https://decrepitfilth.art",
-                        "sameAs": [
-                            "https://github.com/arh789",
-                            "https://www.linkedin.com/in/andrewrhale1/",
-                            "https://www.youtube.com/@DecrepitFilth_art"
-                        ]
-                    })}
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Andrew Hale",
+                    "url": "https://decrepitfilth.art",
+                    "sameAs": [
+                        "https://github.com/arh789",
+                        "https://www.linkedin.com/in/andrewrhale1/",
+                        "https://www.youtube.com/@DecrepitFilth_art"
+                    ]
+                })}
                 </Script>
 
                 {/* === GOOGLE ANALYTICS === */}
