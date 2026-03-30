@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: "My Portfolio",
-    description: "My personal website",
+    metadataBase: new URL("https://decrepitfilth.art"),
+    title: "Andrew Hale — DecrepitFilth",
+    description: "Portfolio, blog, and experimental work exploring procedural systems, art, and algorithmic structure.",
 };
 
 export default function RootLayout({ children }) {
@@ -69,12 +70,30 @@ export default function RootLayout({ children }) {
                                 GitHub
                             </Link>
                         </div>
-                        <p>&copy; 2026 My Company. All Rights Reserved.</p>
+                        <p>&copy; 2026 Andrew Hale. All Rights Reserved.</p>
                     </footer>
                 </div>
 
-                {/* === GOOGLE ANALYTICS === */}
+                {/* === STRUCTURED DATA (sameAs) === */}
+                <Script
+                    id="structured-data"
+                    type="application/ld+json"
+                    strategy="afterInteractive"
+                >
+                    {JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "Andrew Hale",
+                        "url": "https://decrepitfilth.art",
+                        "sameAs": [
+                            "https://github.com/arh789",
+                            "https://www.linkedin.com/in/andrewrhale1/",
+                            "https://www.youtube.com/@DecrepitFilth_art"
+                        ]
+                    })}
+                </Script>
 
+                {/* === GOOGLE ANALYTICS === */}
                 <Analytics />
 
                 <Script
