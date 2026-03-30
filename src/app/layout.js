@@ -2,6 +2,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./styles.css";
 import Link from "next/link";
 import PageWrapper from "./PageWrapper";
+import Script from "next/script";
+import Analytics from "./components/Analytics";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -54,38 +56,45 @@ export default function RootLayout({ children }) {
 
                     <footer>
                         <div className="social-links-container">
-                            <Link
-                                href="https://www.youtube.com/@DecrepitFilth_art"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <Link href="https://www.youtube.com/@DecrepitFilth_art" target="_blank" rel="noopener noreferrer">
                                 YouTube
                             </Link>
-                            <Link
-                                href="https://www.instagram.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                                 Instagram
                             </Link>
-                            <Link
-                                href="https://www.linkedin.com/in/andrewrhale1/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <Link href="https://www.linkedin.com/in/andrewrhale1/" target="_blank" rel="noopener noreferrer">
                                 LinkedIn
                             </Link>
-                             <Link
-                                href="https://github.com/arh789/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <Link href="https://github.com/arh789/" target="_blank" rel="noopener noreferrer">
                                 GitHub
                             </Link>
                         </div>
                         <p>&copy; 2026 My Company. All Rights Reserved.</p>
                     </footer>
                 </div>
+
+                {/* === GOOGLE ANALYTICS === */}
+
+                <Analytics />
+
+                <Script
+                    src="https://www.googletagmanager.com/gtag/js?id=G-QDWKVV0NEW"
+                    strategy="afterInteractive"
+                />
+
+                <Script id="ga-script" strategy="afterInteractive">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        window.gtag = gtag;
+
+                        gtag('js', new Date());
+                        gtag('config', 'G-QDWKVV0NEW', {
+                            page_path: window.location.pathname,
+                        });
+                    `}
+                </Script>
+
             </body>
         </html>
     );
