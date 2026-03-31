@@ -1,47 +1,64 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'fs';
+import path from 'path';
 
+/**
+ * Metadata (aligned with actual page content)
+ */
 export const metadata = {
-    title: 'SEO Python Codebase | Recursive Semantic Clustering Output',
-    description: 'Live demonstration of an AI-driven SEO keyword clustering pipeline using semantic embeddings, unsupervised learning, and suppression-aware content architecture.',
-    keywords: [
-        'semantic keyword clustering',
-        'SEO python codebase',
-        'programmatic content strategy',
-        'automated keyword research',
-        'AI SEO pipeline',
-        'unsupervised topic discovery',
-        'suppressed demand detection',
-        'semantic embedding SEO',
-        'machine learning for SEO',
-        'structured keyword mapping'
-    ]
+  title: 'SEO Python Codebase | Recursive Semantic Clustering Output',
+  description:
+    'Python implementation of an AI-driven SEO keyword clustering pipeline using semantic embeddings, KeyBERT extraction, Apriori association mining, and graph-based analysis.',
+  keywords: [
+    'semantic keyword clustering',
+    'SEO python codebase',
+    'programmatic content strategy',
+    'automated keyword research',
+    'AI SEO pipeline',
+    'unsupervised topic discovery',
+    'suppressed demand detection',
+    'semantic embedding SEO',
+    'machine learning for SEO',
+    'structured keyword mapping'
+  ]
 };
 
+/**
+ * /code page
+ * Server-rendered HTML from cleaned notebook export
+ */
 export default function CodePage() {
-    const srOnlyStyle = {
-        position: 'absolute',
-        width: '1px',
-        height: '1px',
-        padding: 0,
-        margin: '-1px',
-        overflow: 'hidden',
-        clip: 'rect(0, 0, 0, 0)',
-        whiteSpace: 'nowrap',
-        border: 0
-    };
+  let html = '';
 
-    return (
-        <div>
-            <h1 style={srOnlyStyle}>
-                SEO Python Codebase — Recursive Semantic Clustering Output
-            </h1>
-
-            <iframe
-                src="/code/seo_keywords.html"
-                style={{ width: '100%', height: '100vh', border: 'none' }}
-                title="Code Page"
-            />
-        </div>
+  try {
+    // Updated filename (as requested)
+    const htmlPath = path.join(
+      process.cwd(),
+      'public',
+      'code',
+      'seo_keywords.html'
     );
+
+    html = fs.readFileSync(htmlPath, 'utf8');
+  } catch (error) {
+    console.error('Failed to load code HTML:', error);
+
+    html = `
+    < main style = "padding:2rem; font-family: monospace;" >
+        <h1>Code page unavailable</h1>
+        <p>There was an error loading the code content.</p>
+      </main >
+    `;
+  }
+
+  return (
+    <main
+      style={{
+        maxWidth: '900px',
+        margin: '0 auto',
+        padding: '2rem',
+      }}
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
 }
+
