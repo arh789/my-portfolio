@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Direct link to your sitemap for discovery
+Sitemap: https://decrepitfilth.art/sitemap.xml
+
+# Direct link to your semantic graph for AI crawlers
+# This reinforces the 'application/json' alternate link in your header
+Sitemap: https://decrepitfilth.art/graph.json

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://decrepitfilth.art/</loc>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/about</loc>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/workflow-structure-breakdown</loc>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/code</loc>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/datamining-llm</loc>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/content-strategy</loc>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art</loc>
+		<priority>0.8</priority>
+	</url>
+</urlset>
