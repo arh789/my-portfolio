@@ -52,7 +52,7 @@ export default async function ArtPage() {
     return (
         <main className="art-page">
             <img
-                src="/images/blog-hero-image.png"
+                src="/images/blog-hero-image.jpg"
                 alt=""
                 className="art-page__hero-image"
             />

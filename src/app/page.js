@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import './styles.css';
-import AudioPlayer from './components/AudioPlayer';
 
 export const metadata = {
     title: 'Recursive AI SEO Portfolio | Symbolic Content Architecture',
@@ -81,6 +80,7 @@ function BannerItem({ href, src, alt }) {
                 width={1200}
                 height={400}
                 style={{ width: "70%", height: "auto", margin: "0 auto", display: "block" }}
+                loading="lazy" // Banners are below the fold, so we lazy load them
             />
         </Link>
     );
@@ -98,26 +98,26 @@ function BannersContainer() {
 
 export default function Home() {
     return (
-        <div>
-            {/* Audio (client component) */}
-            <AudioPlayer />
-
+        <main>
             <section>
                 <h1 className="sr-only">
                     Symbolic Compression SEO — Emergent Structural Mapping and Suppression Audits
                 </h1>
 
+                {/* Optimized Hero Image Implementation */}
                 <Image
-                    src="/images/hero-image.png"
+                    src="/images/hero-image.jpg"
                     alt="Symbolic compression SEO hero: Emergent Structural Mapping and suppression audits"
                     width={1920}
                     height={1080}
-                    priority
+                    priority // Ensures Next.js preloads the image immediately
+                    fetchPriority="high" // High-priority instruction for modern browsers
+                    sizes="100vw"
                     style={{ width: "100%", height: "auto" }}
                 />
             </section>
 
             <BannersContainer />
-        </div>
+        </main>
     );
 }
