@@ -4,7 +4,14 @@ import { parseMarkdown } from '../components/markdown';
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
+import { IM_Fell_English_SC } from 'next/font/google';
 import styles from './aboutPage.module.css';
+
+const fell = IM_Fell_English_SC({
+    weight: '400',
+    subsets: ['latin'],
+    display: 'swap',
+});
 
 export const metadata = {
     title: 'About | Recursive AI SEO Framework and Symbolic Content Architecture',
@@ -47,7 +54,7 @@ export default async function About() {
     const paragraphsContent = await parseMarkdown(paragraphsMarkdown);
 
     return (
-        <main>
+        <main className={fell.className}>
             <h1 className={styles.srOnly}>
                 About — Recursive AI SEO Framework & Symbolic Content Architecture
             </h1>
@@ -63,8 +70,8 @@ export default async function About() {
                     <Image
                         src="/images/joker-portrait.webp"
                         alt="About Portrait"
-                        width={600}
-                        height={800}
+                        width={400}
+                        height={533}
                         priority
                         fetchPriority="high"
                         sizes="(max-width: 768px) 80vw, 400px"
