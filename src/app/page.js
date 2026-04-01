@@ -107,8 +107,8 @@ export default function Home() {
                 <Image
                     src="/images/hero-image.jpg"
                     alt="Symbolic compression SEO hero: Emergent Structural Mapping and suppression audits"
-                    width={1920}
-                    height={1080}
+                    width={1400}
+                    height={788}
                     priority // Ensures Next.js preloads the image immediately
                     fetchPriority="high" // High-priority instruction for modern browsers
                     sizes="100vw"
