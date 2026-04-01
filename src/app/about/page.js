@@ -3,6 +3,7 @@ export const dynamic = 'force-static';
 import { parseMarkdown } from '../components/markdown';
 import fs from 'fs';
 import path from 'path';
+import Image from 'next/image';
 import styles from './aboutPage.module.css';
 
 export const metadata = {
@@ -23,8 +24,21 @@ export const metadata = {
 };
 
 export default async function About() {
-    const headersFilePath = path.join(process.cwd(), 'src', 'app', 'about', 'about-content-headers.md');
-    const paragraphsFilePath = path.join(process.cwd(), 'src', 'app', 'about', 'about-content-paragraphs.md');
+    const headersFilePath = path.join(
+        process.cwd(),
+        'src',
+        'app',
+        'about',
+        'about-content-headers.md'
+    );
+
+    const paragraphsFilePath = path.join(
+        process.cwd(),
+        'src',
+        'app',
+        'about',
+        'about-content-paragraphs.md'
+    );
 
     const headersMarkdown = fs.readFileSync(headersFilePath, 'utf-8');
     const paragraphsMarkdown = fs.readFileSync(paragraphsFilePath, 'utf-8');
@@ -39,15 +53,21 @@ export default async function About() {
             </h1>
 
             <div className={styles['content-wrapper']}>
+
                 <div
                     className={styles['header-section']}
                     dangerouslySetInnerHTML={{ __html: headersContent }}
                 />
 
                 <div className={styles['portrait-image-container']}>
-                    <img
+                    <Image
                         src="/images/joker-portrait.png"
                         alt="About Portrait"
+                        width={600}
+                        height={800}
+                        priority
+                        fetchPriority="high"
+                        sizes="(max-width: 768px) 80vw, 400px"
                         className={styles['portrait-image']}
                     />
                 </div>
@@ -56,6 +76,7 @@ export default async function About() {
                     className={styles['paragraph-section']}
                     dangerouslySetInnerHTML={{ __html: paragraphsContent }}
                 />
+
             </div>
         </main>
     );
