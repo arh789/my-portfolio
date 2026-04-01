@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+/* ========================================= */
+/* HEADER FONT (no external blocking font) */
+/* ========================================= */
 
 .header-section h1,
 .header-section h2,
@@ -6,7 +8,7 @@
 .header-section h4,
 .header-section h5,
 .header-section h6 {
-    font-family: 'IM Fell English SC', serif;
+    font-family: var(--font-family-title);
 }
 
 /* ========================================= */
@@ -25,30 +27,26 @@
     border: 0;
 }
 
-
 /* ========================================= */
-/* PARENT DIV TO WRAP THE ENTIRE CONTENT */
+/* PARENT DIV */
 /* ========================================= */
 
 .content-wrapper {
-    background-color: #333; /* Contrasting background */
-    opacity: 0.9; /* Set opacity of the entire div */
+    background-color: #333;
+    opacity: 0.9;
     padding: 40px;
-    border-radius: 10px; /* Optional, for rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional, for a subtle shadow effect */
-    max-width: 1200px; /* Ensure the parent div doesn't exceed 1200px */
-    margin: 0 auto; /* Centre the parent div */
-    margin-top: 20px; /* Add 20px space above the section */
-    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
-
 /* ========================================= */
-/* SECTION TEXT (HEADER) */
+/* HEADER SECTION */
 /* ========================================= */
 
 .header-section {
-    font-family: 'IM Fell English SC', serif;
+    font-family: var(--font-family-title);
     font-size: 2rem;
     color: #fff;
     line-height: 1.1;
@@ -58,85 +56,81 @@
     transition: font-size 0.3s ease-in-out;
 }
 
-
 /* ========================================= */
-/* PORTRAIT IMAGE */
+/* IMAGE */
 /* ========================================= */
 
 .portrait-image-container {
-    text-align: center; /* Centre the image */
-    margin: 10px 0; /* Add space around the image */
+    text-align: center;
+    margin: 10px 0;
 }
 
 .portrait-image {
     display: block;
-    max-width: 100%; /* Ensure the image is responsive */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 auto; /* Centre the image itself */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
-
 /* ========================================= */
-/* PARAGRAPH TEXT SECTION */
+/* PARAGRAPH SECTION */
 /* ========================================= */
 
 .paragraph-section {
     font-family: var(--font-family-body);
-    font-size: 2.55rem; /* Increased to compensate for the newer font system */
+    font-size: 2.55rem;
     color: #fff;
     line-height: 1.75;
-    text-align: left; /* Keep left justification */
+    text-align: left;
     margin-top: 40px;
     margin-bottom: 10px;
-    transition: font-size 0.3s ease-in-out; /* Transition for font-size */
+    transition: font-size 0.3s ease-in-out;
 }
 
-    /* Target <p> tags specifically inside .paragraph-section for spacing between paragraphs */
     .paragraph-section p {
-        margin-bottom: 15px; /* Increase space between each <p> tag */
+        margin-bottom: 15px;
     }
 
-
 /* ========================================= */
-/* RESPONSIVE ADJUSTMENTS FOR FONT SIZE */
+/* RESPONSIVE */
 /* ========================================= */
 
 @media (min-width: 1000px) {
     .header-section {
-        font-size: 2rem; /* Default font size for larger screens */
+        font-size: 2rem;
     }
 
     .paragraph-section {
-        font-size: 1.35rem; /* Increased paragraph size for desktop */
+        font-size: 1.35rem;
     }
 }
 
 @media (max-width: 1000px) and (min-width: 800px) {
     .header-section {
-        font-size: 1.4rem; /* Slightly smaller font size for medium screens */
+        font-size: 1.4rem;
     }
 
     .paragraph-section {
-        font-size: 1.2rem; /* Slightly reduced, but still larger than before */
+        font-size: 1.2rem;
     }
 }
 
 @media (max-width: 800px) and (min-width: 480px) {
     .header-section {
-        font-size: 0.9rem; /* Further reduced for smaller screens */
+        font-size: 0.9rem;
     }
 
     .paragraph-section {
-        font-size: 1rem; /* Increased from the original 0.9rem */
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 480px) {
     .header-section {
-        font-size: 0.85rem; /* Set font size for very small screens */
+        font-size: 0.85rem;
     }
 
     .paragraph-section {
-        font-size: 0.95rem; /* Increased from the original 0.85rem */
+        font-size: 0.95rem;
     }
 }
