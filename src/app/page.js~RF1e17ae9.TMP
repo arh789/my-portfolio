@@ -73,13 +73,15 @@ const banners = [
 
 function BannerItem({ href, src, alt }) {
     return (
-        <Link href={href} className="banner">
+        /* The banner-wrapper class in your CSS handles 
+           the 70% width and aspect-ratio reservation. */
+        <Link href={href} className="banner-wrapper">
             <Image
                 src={src}
                 alt={alt}
                 width={1200}
                 height={400}
-                sizes="(max-width: 1200px) 100vw, 1200px"
+                loading="lazy"
             />
         </Link>
     );
@@ -98,19 +100,20 @@ function BannersContainer() {
 export default function Home() {
     return (
         <main>
-            <section>
+            {/* The hero-container class in your CSS prevents 
+                the 0.164 Layout Shift during initial load. */}
+            <section className="hero-container">
                 <h1 className="sr-only">
                     Symbolic Compression SEO — Emergent Structural Mapping and Suppression Audits
                 </h1>
 
-                {/* Optimized Hero Image Implementation */}
                 <Image
                     src="/images/hero-image.jpg"
                     alt="Symbolic compression SEO hero: Emergent Structural Mapping and suppression audits"
                     width={1920}
                     height={1080}
-                    priority // Ensures Next.js preloads the image immediately
-                    fetchPriority="high" // High-priority instruction for modern browsers
+                    priority
+                    fetchPriority="high"
                     sizes="100vw"
                     style={{ width: "100%", height: "auto" }}
                 />
