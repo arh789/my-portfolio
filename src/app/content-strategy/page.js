@@ -65,6 +65,7 @@ const sectionDefs = [
 
 export default function Page() {
     const baseDir = path.join(process.cwd(), 'src/app/content-strategy')
+
     const sections = sectionDefs.map(({ file, title, image }) => {
         const content = fs.readFileSync(path.join(baseDir, file), 'utf8')
         return {
@@ -73,8 +74,6 @@ export default function Page() {
             markdown: content,
         }
     })
-
-    console.log(sections)
 
     return (
         <div className={styles.container}>

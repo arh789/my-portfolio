@@ -16,6 +16,7 @@
     "cytoscape": "^3.33.1",
     "cytoscape-fcose": "^2.2.0",
     "gray-matter": "^4.0.3",
+    "marked": "^17.0.5",
     "next": "^16.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

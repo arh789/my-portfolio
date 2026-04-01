@@ -1,48 +1,48 @@
-'use client'
+'use client';
 
-import { useState, useEffect } from 'react'
-import styles from '../content-strategy/contentStrategy.module.css'
-import { parseMarkdown } from './markdown.js'
+import { useState } from 'react';
+import { marked } from 'marked';
+import styles from '../content-strategy/contentStrategy.module.css';
 
 export default function CollapsibleSections({ sections }) {
-    const [active, setActive] = useState(null)
-    const [parsedSections, setParsedSections] = useState([])
-
-    useEffect(() => {
-        async function parseAll() {
-            const htmlSections = await Promise.all(
-                sections.map(async (section) => {
-                    const html = await parseMarkdown(section.markdown)
-                    return { ...section, html }
-                })
-            )
-            setParsedSections(htmlSections)
-        }
-
-        parseAll()
-    }, [sections])
+    const [activeIndex, setActiveIndex] = useState(null);
 
     return (
         <div className={styles.wrapper}>
-            {parsedSections.map(({ title, image, html }, index) => (
-                <section key={index} className={styles.section}>
-                    <button
-                        onClick={() => setActive(index === active ? null : index)}
-                        aria-expanded={index === active}
-                        className={styles.imageButton}
-                    >
-                        <img src={image} alt={title} className={styles.banner} />
-                    </button>
-                    <div
-                        className={`${styles.content} ${index === active ? styles.active : styles.hidden}`}
-                    >
+            {sections.map((section, index) => {
+                const isActive = activeIndex === index;
+
+                return (
+                    <div key={index} className={styles.section}>
+
+                        <button
+                            onClick={() => setActiveIndex(isActive ? null : index)}
+                            className={styles.imageButton}
+                        >
+                            {section.image && (
+                                <img
+                                    src={section.image}
+                                    alt={section.title}
+                                    className={styles.banner}
+                                />
+                            )}
+                        </button>
+
                         <div
-                            className={styles['paragraph-section']}
-                            dangerouslySetInnerHTML={{ __html: html }}
-                        />
+                            className={`${styles.content} ${isActive ? styles.active : styles.hidden
+                                }`}
+                        >
+                            <div
+                                className={styles['paragraph-section']}
+                                dangerouslySetInnerHTML={{
+                                    __html: marked(section.markdown),
+                                }}
+                            />
+                        </div>
+
                     </div>
-                </section>
-            ))}
+                );
+            })}
         </div>
-    )
+    );
 }
