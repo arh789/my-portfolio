@@ -61,7 +61,7 @@ export default async function About() {
 
                 <div className={styles['portrait-image-container']}>
                     <Image
-                        src="/images/joker-portrait.png"
+                        src="/images/joker-portrait.webp"
                         alt="About Portrait"
                         width={600}
                         height={800}
