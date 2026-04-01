@@ -22,7 +22,16 @@ export const metadata = {
         'avant-garde SEO strategy',
         'avant-garde search architecture',
         'avant-garde digital narratives'
-    ]
+    ],
+    alternates: {
+        types: {
+            'application/json': [
+                {
+                    url: '/graph.json'
+                }
+            ]
+        }
+    }
 };
 
 const banners = [
