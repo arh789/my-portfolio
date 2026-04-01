@@ -3,7 +3,6 @@ import "./styles.css";
 import Link from "next/link";
 import PageWrapper from "./PageWrapper";
 import Script from "next/script";
-import Analytics from "./components/Analytics";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -24,28 +23,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body
-                className={`${geistSans.variable} ${geistMono.variable}`}
-                style={{ margin: 0 }}
-            >
-                {/* GLOBAL BLUR OVERLAY */}
-                <div
-                    suppressHydrationWarning
-                    style={{
-                        position: "fixed",
-                        inset: 0,
-                        backdropFilter: "blur(6px)",
-                        background: "rgba(0, 0, 0, 0.22)",
-                        pointerEvents: "none",
-                        zIndex: 0,
-                    }}
-                />
+            <body className={`${geistSans.variable} ${geistMono.variable}`}>
 
                 {/* PAGE CONTENT */}
                 <div
                     style={{
-                        position: "relative",
-                        zIndex: 1,
                         minHeight: "100vh",
                         display: "flex",
                         flexDirection: "column",
@@ -74,34 +56,32 @@ export default function RootLayout({ children }) {
                     </footer>
                 </div>
 
-                {/* === STRUCTURED DATA (sameAs) === */}
+                {/* STRUCTURED DATA */}
                 <Script
                     id="structured-data"
                     type="application/ld+json"
                     strategy="afterInteractive"
                 >
-                {JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "Person",
-                    "name": "Andrew Hale",
-                    "url": "https://decrepitfilth.art",
-                    "sameAs": [
-                        "https://github.com/arh789",
-                        "https://www.linkedin.com/in/andrewrhale1/",
-                        "https://www.youtube.com/@DecrepitFilth_art"
-                    ]
-                })}
+                    {JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "Andrew Hale",
+                        "url": "https://decrepitfilth.art",
+                        "sameAs": [
+                            "https://github.com/arh789",
+                            "https://www.linkedin.com/in/andrewrhale1/",
+                            "https://www.youtube.com/@DecrepitFilth_art"
+                        ]
+                    })}
                 </Script>
 
-                {/* === GOOGLE ANALYTICS === */}
-                <Analytics />
-
+                {/* GOOGLE ANALYTICS (deferred properly) */}
                 <Script
                     src="https://www.googletagmanager.com/gtag/js?id=G-QDWKVV0NEW"
-                    strategy="afterInteractive"
+                    strategy="lazyOnload"
                 />
 
-                <Script id="ga-script" strategy="afterInteractive">
+                <Script id="ga-script" strategy="lazyOnload">
                     {`
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
