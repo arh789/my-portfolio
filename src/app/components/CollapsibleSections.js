@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { marked } from 'marked';
+import Image from 'next/image';
 import styles from '../content-strategy/contentStrategy.module.css';
 
 export default function CollapsibleSections({ sections }) {
@@ -20,17 +21,19 @@ export default function CollapsibleSections({ sections }) {
                             className={styles.imageButton}
                         >
                             {section.image && (
-                                <img
+                                <Image
                                     src={section.image}
                                     alt={section.title}
                                     className={styles.banner}
+                                    width={877}
+                                    height={155}
+                                    loading="lazy"
                                 />
                             )}
                         </button>
 
                         <div
-                            className={`${styles.content} ${isActive ? styles.active : styles.hidden
-                                }`}
+                            className={`${styles.content} ${isActive ? styles.active : styles.hidden}`}
                         >
                             <div
                                 className={styles['paragraph-section']}
