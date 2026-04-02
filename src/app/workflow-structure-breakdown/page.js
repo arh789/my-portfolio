@@ -1,15 +1,17 @@
-// src/app/workflow-structure-breakdown/page.js
-
 import fs from 'fs';
 import path from 'path';
+import { cache } from 'react';
 import { remark } from 'remark';
 import html from 'remark-html';
 import gfm from 'remark-gfm';
 import styles from './contentPage.module.css';
 
+export const dynamic = 'force-static';
+
 export const metadata = {
     title: 'Workflow Structure Breakdown | Semantic SEO Research Pipeline',
-    description: 'A 7-stage execution pipeline for SEO research combining real-time SERP scraping, LLM summarisation, keyword extraction, clustering, and association rule mining. Designed to replace guesswork with structurally aligned, semantically rich keyword data.',
+    description:
+        'A 7-stage execution pipeline for SEO research combining real-time SERP scraping, LLM summarisation, keyword extraction, clustering, and association rule mining. Designed to replace guesswork with structurally aligned, semantically rich keyword data.',
     keywords: [
         'semantic SEO workflow',
         'SEO research pipeline',
@@ -24,17 +26,15 @@ export const metadata = {
     ]
 };
 
+const getContentHtml = cache(async () => {
+    const filePath = path.join(
+        process.cwd(),
+        'src',
+        'app',
+        'workflow-structure-breakdown',
+        'workflow_structured_breakdown.md'
+    );
 
-export default async function MarkdownPage() {
-    const dirPath = path.join(process.cwd(), 'src', 'app', 'workflow-structure-breakdown');
-    const files = fs.readdirSync(dirPath);
-    const mdFile = files.find(file => file.endsWith('.md'));
-
-    if (!mdFile) {
-        return <div className={styles['paragraph-section']}>No Markdown file found.</div>;
-    }
-
-    const filePath = path.join(dirPath, mdFile);
     const fileContent = fs.readFileSync(filePath, 'utf8');
 
     const processedContent = await remark()
@@ -42,14 +42,18 @@ export default async function MarkdownPage() {
         .use(html)
         .process(fileContent);
 
-    const contentHtml = processedContent.toString();
+    return processedContent.toString();
+});
+
+export default async function Page() {
+    const contentHtml = await getContentHtml();
 
     return (
-        <div className={styles['content-wrapper']}>
-            <div
+        <main className={styles['content-wrapper']}>
+            <article
                 className={styles['paragraph-section']}
                 dangerouslySetInnerHTML={{ __html: contentHtml }}
             />
-        </div>
+        </main>
     );
 }

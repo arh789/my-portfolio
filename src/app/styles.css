@@ -92,6 +92,12 @@ body {
     outline: none;
 }
 
+@media (max-width: 768px) {
+    .banner {
+        width: 75%;
+    }
+}
+
     /* Image keeps natural proportions */
     .banner img {
         width: 100%;
