@@ -84,6 +84,7 @@ body {
 .banner {
     display: block;
     width: min(40%, var(--site-max-width));
+    aspect-ratio: 469 / 97;
     text-decoration: none;
     background: transparent;
     line-height: 0;
