@@ -1,25 +1,20 @@
 ﻿import fs from 'fs'
 import path from 'path'
 import Image from 'next/image'
+import { MedievalSharp } from 'next/font/google'
 import CollapsibleSections from '../components/CollapsibleSections.js'
 import styles from './datamining-a-llm.module.css'
 
+/* LOAD FONT (page-specific) */
+const medieval = MedievalSharp({
+    subsets: ['latin'],
+    weight: '400',
+})
+
 export const metadata = {
-    title: 'Recursive SEO Strategy | Symbolic Compression Engine & Emergent Mapping',
-    description: 'Full execution system for adversarial SEO using symbolic compression, structural suppression mapping, and recursive semantic scaffolding. This is not a content strategy—it’s a compression framework.',
-    keywords: [
-        'symbolic compression SEO',
-        'emergent structural mapping',
-        'semantic scaffolding',
-        'adversarial content generation',
-        'suppression-aware architecture',
-        'recursive SEO system',
-        'token collapse strategy',
-        'SDA-3 framework',
-        'LLM-resilient content',
-        'structural SEO methodology'
-    ]
-};
+    title: 'Content Strategy | Recursive Systems & Symbolic Mapping',
+    description: 'Exploration of symbolic compression, emergent mapping, and recursive content structures.',
+}
 
 const sectionDefs = [
     {
@@ -79,18 +74,21 @@ export default function Page() {
     return (
         <div className={styles.container}>
             <main className={styles.main}>
+
                 {/* HERO IMAGE */}
                 <Image
                     src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.webp"
                     alt="Hero Image"
-                    width={1920}
-                    height={848}
-                    sizes="(max-width: 768px) 100vw, 1200px"
+                    className={styles.hero}
+                    width={525}
+                    height={232}
+                    sizes="(max-width: 768px) 100vw, 525px"
                     priority
                     quality={70}
-                    className={styles.hero}
                 />
+
                 <CollapsibleSections sections={sections} />
+
             </main>
         </div>
     )

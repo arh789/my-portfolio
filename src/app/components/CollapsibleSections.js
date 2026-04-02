@@ -3,7 +3,14 @@
 import { useState } from 'react';
 import { marked } from 'marked';
 import Image from 'next/image';
-import styles from '../content-strategy/contentStrategy.module.css';
+import { MedievalSharp } from 'next/font/google';
+import styles from '../datamining-llm/datamining-a-llm.module.css';
+
+const medieval = MedievalSharp({
+    subsets: ['latin'],
+    weight: '400',
+    variable: '--font-medieval',
+});
 
 export default function CollapsibleSections({ sections }) {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -15,7 +22,6 @@ export default function CollapsibleSections({ sections }) {
 
                 return (
                     <div key={index} className={styles.section}>
-
                         <button
                             onClick={() => setActiveIndex(isActive ? null : index)}
                             className={styles.imageButton}
@@ -37,13 +43,12 @@ export default function CollapsibleSections({ sections }) {
                             className={`${styles.content} ${isActive ? styles.active : styles.hidden}`}
                         >
                             <div
-                                className={styles['paragraph-section']}
+                                className={`${styles['paragraph-section']} ${medieval.variable}`}
                                 dangerouslySetInnerHTML={{
                                     __html: marked(section.markdown),
                                 }}
                             />
                         </div>
-
                     </div>
                 );
             })}
