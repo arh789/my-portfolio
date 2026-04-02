@@ -90,6 +90,9 @@ export async function generateMetadata({ params }) {
     return {
         title: article.title,
         description: article.description || `Read ${article.title}.`,
+        alternates: {
+            canonical: `/art/${slug}`,
+        },
     };
 }
 
