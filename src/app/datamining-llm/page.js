@@ -81,13 +81,14 @@ export default function Page() {
             <main className={styles.main}>
                 {/* HERO IMAGE */}
                 <Image
-                    src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.jpg"
+                    src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.webp"
                     alt="Hero Image"
-                    className={styles.hero}
-                    width={525}
-                    height={232}
-                    sizes="(max-width: 768px) 100vw, 525px"
+                    width={1920}
+                    height={848}
+                    sizes="(max-width: 768px) 100vw, 1200px"
                     priority
+                    quality={70}
+                    className={styles.hero}
                 />
                 <CollapsibleSections sections={sections} />
             </main>
