@@ -27,6 +27,7 @@ export default function CollapsibleSections({ sections }) {
                                     className={styles.banner}
                                     width={877}
                                     height={155}
+                                    sizes="(max-width: 768px) 100vw, 522px"
                                     loading="lazy"
                                 />
                             )}

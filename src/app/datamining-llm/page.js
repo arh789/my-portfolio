@@ -80,15 +80,15 @@ export default function Page() {
         <div className={styles.container}>
             <main className={styles.main}>
                 {/* HERO IMAGE */}
-                    <Image
-                        src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.jpg"
-                        alt="Hero Image"
-                        className={styles.hero}
-                        width={1200}
-                        height={600}
-                        priority
-                        fetchPriority="high"
-                    />
+                <Image
+                    src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.jpg"
+                    alt="Hero Image"
+                    className={styles.hero}
+                    width={525}
+                    height={232}
+                    sizes="(max-width: 768px) 100vw, 525px"
+                    priority
+                />
                 <CollapsibleSections sections={sections} />
             </main>
         </div>
