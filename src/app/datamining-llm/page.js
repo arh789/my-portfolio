@@ -1,23 +1,24 @@
 ﻿import fs from 'fs'
 import path from 'path'
+import Image from 'next/image'
 import CollapsibleSections from '../components/CollapsibleSections.js'
 import styles from './datamining-a-llm.module.css'
 
 export const metadata = {
-  title: 'Recursive SEO Strategy | Symbolic Compression Engine & Emergent Mapping',
-  description: 'Full execution system for adversarial SEO using symbolic compression, structural suppression mapping, and recursive semantic scaffolding. This is not a content strategy—it’s a compression framework.',
-  keywords: [
-    'symbolic compression SEO',
-    'emergent structural mapping',
-    'semantic scaffolding',
-    'adversarial content generation',
-    'suppression-aware architecture',
-    'recursive SEO system',
-    'token collapse strategy',
-    'SDA-3 framework',
-    'LLM-resilient content',
-    'structural SEO methodology'
-  ]
+    title: 'Recursive SEO Strategy | Symbolic Compression Engine & Emergent Mapping',
+    description: 'Full execution system for adversarial SEO using symbolic compression, structural suppression mapping, and recursive semantic scaffolding. This is not a content strategy—it’s a compression framework.',
+    keywords: [
+        'symbolic compression SEO',
+        'emergent structural mapping',
+        'semantic scaffolding',
+        'adversarial content generation',
+        'suppression-aware architecture',
+        'recursive SEO system',
+        'token collapse strategy',
+        'SDA-3 framework',
+        'LLM-resilient content',
+        'structural SEO methodology'
+    ]
 };
 
 const sectionDefs = [
@@ -65,6 +66,7 @@ const sectionDefs = [
 
 export default function Page() {
     const baseDir = path.join(process.cwd(), 'src/app/datamining-llm')
+
     const sections = sectionDefs.map(({ file, title, image }) => {
         const content = fs.readFileSync(path.join(baseDir, file), 'utf8')
         return {
@@ -74,16 +76,19 @@ export default function Page() {
         }
     })
 
-    console.log(sections)
-
     return (
         <div className={styles.container}>
             <main className={styles.main}>
-                <img
-                    src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.jpg"
-                    alt="Hero Image"
-                    className={styles.hero}
-                />
+                {/* HERO IMAGE */}
+                    <Image
+                        src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.jpg"
+                        alt="Hero Image"
+                        className={styles.hero}
+                        width={1200}
+                        height={600}
+                        priority
+                        fetchPriority="high"
+                    />
                 <CollapsibleSections sections={sections} />
             </main>
         </div>

@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, MedievalSharp } from "next/font/google";
 import "./styles.css";
 import Link from "next/link";
 import PageWrapper from "./PageWrapper";
@@ -14,6 +14,12 @@ const geistMono = Geist_Mono({
     subsets: ["latin"],
 });
 
+const medieval = MedievalSharp({
+    subsets: ["latin"],
+    weight: "400",
+    display: "swap",
+});
+
 export const metadata = {
     metadataBase: new URL("https://decrepitfilth.art"),
     title: "Andrew Hale - DecrepitFilth",
@@ -23,7 +29,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${geistSans.variable} ${geistMono.variable}`}>
+            <body className={`${geistSans.variable} ${geistMono.variable} ${medieval.className}`}>
 
                 {/* PAGE CONTENT */}
                 <div
