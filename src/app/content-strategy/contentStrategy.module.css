@@ -25,7 +25,7 @@
 
 /* Typography styling for markdown or text content */
 .paragraph-section {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 1.2rem;
     color: #fff;
     line-height: 1.6;
@@ -35,10 +35,12 @@
     transition: font-size 0.3s ease-in-out;
 }
 
+    /* Paragraphs */
     .paragraph-section p {
         margin-bottom: 15px;
     }
 
+    /* Tables */
     .paragraph-section table {
         width: 100%;
         border-collapse: collapse;
@@ -63,15 +65,19 @@
         background-color: #3a3a3a;
     }
 
+    /* Headings (base styling) */
+    /* Headings (ALL use MedievalSharp) */
     .paragraph-section h1,
     .paragraph-section h2,
     .paragraph-section h3 {
+        font-family: var(--font-medieval), cursive;
         color: #fff;
         margin-top: 1.8em;
         margin-bottom: 0.6em;
         line-height: 1.2;
     }
 
+    /* Sizes remain separate */
     .paragraph-section h1 {
         font-size: 2rem;
     }
