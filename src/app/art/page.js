@@ -3,6 +3,7 @@ import path from "node:path";
 import Link from "next/link";
 import "./art.css";
 import ArtGraph from "./components/ArtGraph";
+import Image from 'next/image'
 
 export const metadata = {
     title: "Art",
@@ -51,9 +52,13 @@ export default async function ArtPage() {
 
     return (
         <main className="art-page">
-            <img
+            <Image
                 src="/images/blog-hero-image.jpg"
                 alt=""
+                width={679}
+                height={453}
+                priority
+                sizes="(max-width: 700px) 100vw, 900px"
                 className="art-page__hero-image"
             />
 

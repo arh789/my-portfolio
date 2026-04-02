@@ -1,3 +1,7 @@
+/* ========================================= */
+/* CORE PAGE LAYOUT (CRITICAL PATH) */
+/* ========================================= */
+
 .art-page,
 .art-article,
 .art-tag-page {
@@ -5,6 +9,17 @@
     padding: 2rem 1rem 4rem;
     color: #eaeaea;
 }
+
+.art-page__hero-image {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 1.25rem;
+}
+
+/* ========================================= */
+/* CONTAINERS */
+/* ========================================= */
 
 .art-page__header,
 .art-page__section,
@@ -21,18 +36,11 @@
 .art-article__container,
 .art-tag-page__header,
 .art-tag-page__content {
-    background: rgba(0, 0, 0,0.85);
+    background: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(6px);
     border-radius: 10px;
     padding: 1.5rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.art-page__header,
-.art-tag-page__header,
-.art-tag-page__content,
-.art-article__container,
-.art-page__section {
     box-sizing: border-box;
 }
 
@@ -43,6 +51,10 @@
 .art-tag-page__nav {
     margin-bottom: 1.25rem;
 }
+
+/* ========================================= */
+/* TYPOGRAPHY */
+/* ========================================= */
 
 .art-page__eyebrow,
 .art-tag-page__eyebrow {
@@ -87,6 +99,10 @@
     font-size: 0.95rem;
 }
 
+/* ========================================= */
+/* SECTION HEADINGS */
+/* ========================================= */
+
 .art-page__section-heading {
     margin-bottom: 1rem;
 }
@@ -100,6 +116,10 @@
         margin: 0;
         color: #cfcfcf;
     }
+
+/* ========================================= */
+/* TAG SYSTEM */
+/* ========================================= */
 
 .art-tag-list {
     display: grid;
@@ -154,6 +174,10 @@
 .art-tag-group__top-link {
     margin: 0.75rem 0 1rem;
 }
+
+/* ========================================= */
+/* ARTICLE CARDS */
+/* ========================================= */
 
 .art-article-list {
     display: grid;
@@ -227,16 +251,9 @@
     color: #d8d8d8;
 }
 
-.art-article-page__nav,
-.art-tag-page__nav {
-    max-width: 900px;
-    margin: 0 auto 1rem;
-    background: rgba(0, 0, 0, 0.68);
-    backdrop-filter: blur(4px);
-    border-radius: 10px;
-    padding: 0.9rem 1.25rem;
-    box-sizing: border-box;
-}
+/* ========================================= */
+/* ARTICLE CONTENT */
+/* ========================================= */
 
 .art-article__header {
     margin-bottom: 1.5rem;
@@ -305,7 +322,36 @@
         background: rgba(255, 255, 255, 0.06);
     }
 
+/* ========================================= */
+/* GRAPH */
+/* ========================================= */
+
+.art-page__graph-wrap {
+    max-width: 900px;
+    margin: 0 auto 1.25rem;
+}
+
+.art-graph {
+    background: rgba(0, 0, 0, 0.78);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 1.25rem;
+}
+
+.art-graph__canvas {
+    height: 420px;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+/* ========================================= */
+/* MOBILE OPTIMISATION */
+/* ========================================= */
+
 @media (max-width: 700px) {
+
     .art-page,
     .art-article,
     .art-tag-page {
@@ -328,96 +374,21 @@
         font-size: 1.6rem;
     }
 
-    .art-tag-group__summary {
-        padding: 0.85rem 1rem;
-    }
-
-    .art-tag-group__content {
-        padding: 0 1rem 1rem;
+    /* CRITICAL: remove expensive blur on mobile */
+    .art-page__header,
+    .art-page__section,
+    .art-article__container,
+    .art-tag-page__header,
+    .art-tag-page__content {
+        backdrop-filter: none;
     }
 
     .art-article__content table {
         display: block;
         overflow-x: auto;
     }
-}
-
-
-.art-page__graph-wrap {
-    max-width: 900px;
-    margin: 0 auto 1.25rem;
-}
-
-.art-graph {
-    background: rgba(0, 0, 0, 0.78);
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
-    padding: 1.25rem;
-    box-sizing: border-box;
-}
-
-.art-graph__header {
-    margin-bottom: 0.85rem;
-}
-
-    .art-graph__header h2 {
-        margin: 0 0 0.35rem;
-        font-size: 1.35rem;
-    }
-
-    .art-graph__header p {
-        margin: 0;
-        color: #cfcfcf;
-    }
-
-.art-graph__canvas {
-    height: 420px;
-    width: 100%;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.03);
-}
-
-@media (max-width: 700px) {
-    .art-graph {
-        padding: 1rem;
-    }
 
     .art-graph__canvas {
         height: 300px;
     }
-}
-
-.art-graph__header {
-    position: relative;
-}
-
-.art-graph__hint {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #cfcfcf;
-}
-
-.art-graph__reset {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: rgba(255, 255, 255, 0.08);
-    color: #eaeaea;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 6px;
-    padding: 0.35rem 0.7rem;
-    font-size: 0.85rem;
-    cursor: pointer;
-}
-
-    .art-graph__reset:hover {
-        background: rgba(255, 255, 255, 0.14);
-    }
-
-.art-page__hero-image {
-    display: block;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto 1.25rem;
 }
