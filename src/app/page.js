@@ -105,7 +105,7 @@ export default function Home() {
 
                 {/* Optimized Hero Image Implementation */}
                 <Image
-                    src="/images/hero-image.jpg"
+                    src="/images/hero-image.webp"
                     alt="Symbolic compression SEO hero: Emergent Structural Mapping and suppression audits"
                     width={1400}
                     height={788}
