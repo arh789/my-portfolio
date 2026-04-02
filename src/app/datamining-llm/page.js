@@ -81,7 +81,7 @@ export default function Page() {
             <main className={styles.main}>
                 {/* HERO IMAGE */}
                 <Image
-                    src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.jpg"
+                    src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.webp"
                     alt="Hero Image"
                     width={1920}
                     height={848}
