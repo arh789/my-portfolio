@@ -24,6 +24,9 @@ export const metadata = {
     metadataBase: new URL("https://decrepitfilth.art"),
     title: "Andrew Hale - DecrepitFilth",
     description: "Portfolio, blog, and experimental work exploring procedural systems, art, and algorithmic structure.",
+    alternates: {
+        canonical: "/",
+    },
 };
 
 export default function RootLayout({ children }) {
