@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-03-26T20:15:46.104Z",
+  "generatedAt": "2026-04-06T03:56:23.469Z",
   "articles": [
+    {
+      "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+      "title": "SDA-3 protocol",
+      "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+      "date": "2026-04-06",
+      "tags": [
+        "sda-3",
+        "llm-analysis",
+        "embedding-space",
+        "semantic-structure",
+        "analysis-protocol",
+        "generative-ai"
+      ]
+    },
     {
       "slug": "art-forms-with-high-audience-resonance",
       "title": "Art Forms with High Audience Resonance",
@@ -81,6 +95,112 @@
     }
   ],
   "tagIndex": {
+    "sda-3": [
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      }
+    ],
+    "llm-analysis": [
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      }
+    ],
+    "embedding-space": [
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      }
+    ],
+    "semantic-structure": [
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      }
+    ],
+    "analysis-protocol": [
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      }
+    ],
+    "generative-ai": [
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "slug": "gpt-misuse-is-not-what-people-think",
+        "title": "GPT Misuse Is Not What People Think",
+        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "date": "2026-03-15",
+        "tags": [
+          "generative-ai",
+          "ai-misuse"
+        ]
+      }
+    ],
     "audience-resonance": [
       {
         "slug": "art-forms-with-high-audience-resonance",
@@ -231,18 +351,6 @@
         ]
       }
     ],
-    "generative-ai": [
-      {
-        "slug": "gpt-misuse-is-not-what-people-think",
-        "title": "GPT Misuse Is Not What People Think",
-        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
-        "date": "2026-03-15",
-        "tags": [
-          "generative-ai",
-          "ai-misuse"
-        ]
-      }
-    ],
     "ai-misuse": [
       {
         "slug": "gpt-misuse-is-not-what-people-think",
@@ -370,6 +478,10 @@
       "count": 2
     },
     {
+      "tag": "generative-ai",
+      "count": 2
+    },
+    {
       "tag": "seo",
       "count": 2
     },
@@ -378,7 +490,23 @@
       "count": 1
     },
     {
-      "tag": "generative-ai",
+      "tag": "analysis-protocol",
+      "count": 1
+    },
+    {
+      "tag": "embedding-space",
+      "count": 1
+    },
+    {
+      "tag": "llm-analysis",
+      "count": 1
+    },
+    {
+      "tag": "sda-3",
+      "count": 1
+    },
+    {
+      "tag": "semantic-structure",
       "count": 1
     },
     {
@@ -388,6 +516,20 @@
   ],
   "graph": {
     "nodes": [
+      {
+        "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "label": "SDA-3 protocol",
+        "type": "article",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ],
+        "centrality": 1
+      },
       {
         "id": "art-forms-with-high-audience-resonance",
         "label": "Art Forms with High Audience Resonance",
@@ -418,7 +560,7 @@
           "generative-ai",
           "ai-misuse"
         ],
-        "centrality": 0
+        "centrality": 1
       },
       {
         "id": "maximising-artistic-identity",
@@ -468,6 +610,14 @@
       }
     ],
     "edges": [
+      {
+        "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "target": "gpt-misuse-is-not-what-people-think",
+        "weight": 1,
+        "tags": [
+          "generative-ai"
+        ]
+      },
       {
         "source": "art-forms-with-high-audience-resonance",
         "target": "first-principles",
