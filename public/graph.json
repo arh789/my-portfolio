@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T03:56:23.469Z",
+  "generatedAt": "2026-04-06T07:31:01.746Z",
   "articles": [
     {
       "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -13,6 +13,21 @@
         "semantic-structure",
         "analysis-protocol",
         "generative-ai"
+      ]
+    },
+    {
+      "slug": "structural-extraction-protocol",
+      "title": "Structural Extraction Protocol",
+      "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+      "date": "2026-04-06",
+      "tags": [
+        "sep",
+        "analysis-protocol",
+        "llm-analysis",
+        "semantic-structure",
+        "generative-ai",
+        "embedding-space",
+        "structural-extraction"
       ]
     },
     {
@@ -125,6 +140,21 @@
           "analysis-protocol",
           "generative-ai"
         ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
       }
     ],
     "embedding-space": [
@@ -140,6 +170,21 @@
           "semantic-structure",
           "analysis-protocol",
           "generative-ai"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
         ]
       }
     ],
@@ -157,6 +202,21 @@
           "analysis-protocol",
           "generative-ai"
         ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
       }
     ],
     "analysis-protocol": [
@@ -172,6 +232,21 @@
           "semantic-structure",
           "analysis-protocol",
           "generative-ai"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
         ]
       }
     ],
@@ -191,6 +266,21 @@
         ]
       },
       {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
+      },
+      {
         "slug": "gpt-misuse-is-not-what-people-think",
         "title": "GPT Misuse Is Not What People Think",
         "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
@@ -198,6 +288,40 @@
         "tags": [
           "generative-ai",
           "ai-misuse"
+        ]
+      }
+    ],
+    "sep": [
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
+      }
+    ],
+    "structural-extraction": [
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
         ]
       }
     ],
@@ -470,7 +594,15 @@
       "count": 4
     },
     {
+      "tag": "generative-ai",
+      "count": 3
+    },
+    {
       "tag": "algorithmic-discovery",
+      "count": 2
+    },
+    {
+      "tag": "analysis-protocol",
       "count": 2
     },
     {
@@ -478,7 +610,15 @@
       "count": 2
     },
     {
-      "tag": "generative-ai",
+      "tag": "embedding-space",
+      "count": 2
+    },
+    {
+      "tag": "llm-analysis",
+      "count": 2
+    },
+    {
+      "tag": "semantic-structure",
       "count": 2
     },
     {
@@ -490,23 +630,15 @@
       "count": 1
     },
     {
-      "tag": "analysis-protocol",
-      "count": 1
-    },
-    {
-      "tag": "embedding-space",
-      "count": 1
-    },
-    {
-      "tag": "llm-analysis",
-      "count": 1
-    },
-    {
       "tag": "sda-3",
       "count": 1
     },
     {
-      "tag": "semantic-structure",
+      "tag": "sep",
+      "count": 1
+    },
+    {
+      "tag": "structural-extraction",
       "count": 1
     },
     {
@@ -528,7 +660,22 @@
           "analysis-protocol",
           "generative-ai"
         ],
-        "centrality": 1
+        "centrality": 6
+      },
+      {
+        "id": "structural-extraction-protocol",
+        "label": "Structural Extraction Protocol",
+        "type": "article",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ],
+        "centrality": 6
       },
       {
         "id": "art-forms-with-high-audience-resonance",
@@ -560,7 +707,7 @@
           "generative-ai",
           "ai-misuse"
         ],
-        "centrality": 1
+        "centrality": 2
       },
       {
         "id": "maximising-artistic-identity",
@@ -612,6 +759,26 @@
     "edges": [
       {
         "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "target": "structural-extraction-protocol",
+        "weight": 5,
+        "tags": [
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "target": "gpt-misuse-is-not-what-people-think",
+        "weight": 1,
+        "tags": [
+          "generative-ai"
+        ]
+      },
+      {
+        "source": "structural-extraction-protocol",
         "target": "gpt-misuse-is-not-what-people-think",
         "weight": 1,
         "tags": [
