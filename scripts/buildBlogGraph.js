@@ -8,7 +8,7 @@ import {
   buildTagCentrality,
 } from "../src/app/art/lib/buildGraphData.js";
 
-const articles = readArticles();
+const articles = await readArticles();
 
 const tagIndex = buildTagIndex(articles);
 const graph = buildArticleGraph(articles);

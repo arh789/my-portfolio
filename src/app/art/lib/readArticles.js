@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { parseMarkdown } from "../../components/markdown.js";
+import { parseMarkdown } from "./markdown";
 
 const POSTS_DIR = path.join(process.cwd(), "src/app/art/posts");
 
