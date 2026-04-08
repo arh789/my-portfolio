@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-04-06T07:31:01.746Z",
+  "generatedAt": "2026-04-08T02:33:17.860Z",
   "articles": [
+    {
+      "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+      "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+      "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+      "date": "2026-04-08",
+      "tags": [
+        "sda-3",
+        "llm-analysis",
+        "embedding-space",
+        "semantic-structure",
+        "analysis-protocol",
+        "adversarial-analysis",
+        "generative-ai"
+      ]
+    },
     {
       "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
       "title": "SDA-3 protocol",
@@ -112,6 +127,21 @@
   "tagIndex": {
     "sda-3": [
       {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai"
+        ]
+      },
+      {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
         "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
@@ -127,6 +157,21 @@
       }
     ],
     "llm-analysis": [
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai"
+        ]
+      },
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
@@ -159,6 +204,21 @@
     ],
     "embedding-space": [
       {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai"
+        ]
+      },
+      {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
         "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
@@ -189,6 +249,21 @@
       }
     ],
     "semantic-structure": [
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai"
+        ]
+      },
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
@@ -221,6 +296,21 @@
     ],
     "analysis-protocol": [
       {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai"
+        ]
+      },
+      {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
         "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
@@ -250,7 +340,39 @@
         ]
       }
     ],
+    "adversarial-analysis": [
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai"
+        ]
+      }
+    ],
     "generative-ai": [
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai"
+        ]
+      },
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
@@ -595,6 +717,22 @@
     },
     {
       "tag": "generative-ai",
+      "count": 4
+    },
+    {
+      "tag": "analysis-protocol",
+      "count": 3
+    },
+    {
+      "tag": "embedding-space",
+      "count": 3
+    },
+    {
+      "tag": "llm-analysis",
+      "count": 3
+    },
+    {
+      "tag": "semantic-structure",
       "count": 3
     },
     {
@@ -602,23 +740,11 @@
       "count": 2
     },
     {
-      "tag": "analysis-protocol",
-      "count": 2
-    },
-    {
       "tag": "content-strategy",
       "count": 2
     },
     {
-      "tag": "embedding-space",
-      "count": 2
-    },
-    {
-      "tag": "llm-analysis",
-      "count": 2
-    },
-    {
-      "tag": "semantic-structure",
+      "tag": "sda-3",
       "count": 2
     },
     {
@@ -626,11 +752,11 @@
       "count": 2
     },
     {
-      "tag": "ai-misuse",
+      "tag": "adversarial-analysis",
       "count": 1
     },
     {
-      "tag": "sda-3",
+      "tag": "ai-misuse",
       "count": 1
     },
     {
@@ -649,6 +775,21 @@
   "graph": {
     "nodes": [
       {
+        "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "label": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "type": "article",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai"
+        ],
+        "centrality": 12
+      },
+      {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "label": "SDA-3 protocol",
         "type": "article",
@@ -660,7 +801,7 @@
           "analysis-protocol",
           "generative-ai"
         ],
-        "centrality": 6
+        "centrality": 12
       },
       {
         "id": "structural-extraction-protocol",
@@ -675,7 +816,7 @@
           "embedding-space",
           "structural-extraction"
         ],
-        "centrality": 6
+        "centrality": 11
       },
       {
         "id": "art-forms-with-high-audience-resonance",
@@ -707,7 +848,7 @@
           "generative-ai",
           "ai-misuse"
         ],
-        "centrality": 2
+        "centrality": 3
       },
       {
         "id": "maximising-artistic-identity",
@@ -757,6 +898,39 @@
       }
     ],
     "edges": [
+      {
+        "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 6,
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "target": "structural-extraction-protocol",
+        "weight": 5,
+        "tags": [
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "target": "gpt-misuse-is-not-what-people-think",
+        "weight": 1,
+        "tags": [
+          "generative-ai"
+        ]
+      },
       {
         "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "target": "structural-extraction-protocol",

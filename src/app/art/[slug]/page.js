@@ -42,7 +42,7 @@ async function readArticleBySlug(slug) {
 
         const processed = await remark()
             .use(remarkGfm)
-            .use(remarkHtml)
+            .use(remarkHtml, { sanitize: false })
             .process(content);
 
         return {
