@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<!-- Core pages -->
 	<url>
 		<loc>https://decrepitfilth.art/</loc>
 		<priority>1.0</priority>
@@ -28,4 +30,37 @@
 		<loc>https://decrepitfilth.art/art</loc>
 		<priority>0.8</priority>
 	</url>
+
+	<!-- Articles -->
+	<url>
+		<loc>https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/structural-extraction-protocol</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/art-forms-with-high-audience-resonance</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/first-principles</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/gpt-misuse-is-not-what-people-think</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/maximising-artistic-identity</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/most-popular-art-mediums-based-on-the-datasets</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/this-process-is-not-seo</loc>
+	</url>
+	<url>
+		<loc>https://decrepitfilth.art/art/visibility-under-hostile-conditions</loc>
+	</url>
+
 </urlset>
