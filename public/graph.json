@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T23:37:14.998Z",
+  "generatedAt": "2026-04-23T23:54:16.404Z",
   "articles": [
     {
       "slug": "clustered-output-instagram-dataset",
@@ -18,7 +18,7 @@
       "date": "2026-04-24",
       "tags": [
         "data-analysis",
-        "research-process"
+        "methodology"
       ]
     },
     {
@@ -28,7 +28,8 @@
       "date": "2026-04-24",
       "tags": [
         "research-process",
-        "seerclown-creative-strategy"
+        "seerclown-creative-strategy",
+        "creative-strategy"
       ]
     },
     {
@@ -37,7 +38,7 @@
       "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
       "date": "2026-04-24",
       "tags": [
-        "creative-strategy",
+        "methodology",
         "research-process"
       ]
     },
@@ -186,7 +187,7 @@
         "date": "2026-04-24",
         "tags": [
           "data-analysis",
-          "research-process"
+          "methodology"
         ]
       }
     ],
@@ -202,7 +203,7 @@
         ]
       }
     ],
-    "research-process": [
+    "methodology": [
       {
         "slug": "data-structure-intermediate-stage",
         "title": "What the Data Actually Looks Like",
@@ -210,17 +211,7 @@
         "date": "2026-04-24",
         "tags": [
           "data-analysis",
-          "research-process"
-        ]
-      },
-      {
-        "slug": "methodology-evaluation-and-validity",
-        "title": "Summary of Your Process, Conclusions, and Their Validity",
-        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
-        "date": "2026-04-24",
-        "tags": [
-          "research-process",
-          "seerclown-creative-strategy"
+          "methodology"
         ]
       },
       {
@@ -229,7 +220,30 @@
         "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
         "date": "2026-04-24",
         "tags": [
-          "creative-strategy",
+          "methodology",
+          "research-process"
+        ]
+      }
+    ],
+    "research-process": [
+      {
+        "slug": "methodology-evaluation-and-validity",
+        "title": "Summary of Your Process, Conclusions, and Their Validity",
+        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
+        "date": "2026-04-24",
+        "tags": [
+          "research-process",
+          "seerclown-creative-strategy",
+          "creative-strategy"
+        ]
+      },
+      {
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "date": "2026-04-24",
+        "tags": [
+          "methodology",
           "research-process"
         ]
       }
@@ -242,19 +256,21 @@
         "date": "2026-04-24",
         "tags": [
           "research-process",
-          "seerclown-creative-strategy"
+          "seerclown-creative-strategy",
+          "creative-strategy"
         ]
       }
     ],
     "creative-strategy": [
       {
-        "slug": "seer-clown-research-process",
-        "title": "Research Process Used to Establish the Seer-Clown Archetype",
-        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "slug": "methodology-evaluation-and-validity",
+        "title": "Summary of Your Process, Conclusions, and Their Validity",
+        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
         "date": "2026-04-24",
         "tags": [
-          "creative-strategy",
-          "research-process"
+          "research-process",
+          "seerclown-creative-strategy",
+          "creative-strategy"
         ]
       },
       {
@@ -916,10 +932,6 @@
       "count": 3
     },
     {
-      "tag": "research-process",
-      "count": 3
-    },
-    {
       "tag": "semantic-structure",
       "count": 3
     },
@@ -933,6 +945,14 @@
     },
     {
       "tag": "data-analysis",
+      "count": 2
+    },
+    {
+      "tag": "methodology",
+      "count": 2
+    },
+    {
+      "tag": "research-process",
       "count": 2
     },
     {
@@ -1006,9 +1026,9 @@
         "type": "article",
         "tags": [
           "data-analysis",
-          "research-process"
+          "methodology"
         ],
-        "centrality": 3
+        "centrality": 2
       },
       {
         "id": "methodology-evaluation-and-validity",
@@ -1016,19 +1036,20 @@
         "type": "article",
         "tags": [
           "research-process",
-          "seerclown-creative-strategy"
+          "seerclown-creative-strategy",
+          "creative-strategy"
         ],
-        "centrality": 2
+        "centrality": 5
       },
       {
         "id": "seer-clown-research-process",
         "label": "Research Process Used to Establish the Seer-Clown Archetype",
         "type": "article",
         "tags": [
-          "creative-strategy",
+          "methodology",
           "research-process"
         ],
-        "centrality": 6
+        "centrality": 2
       },
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -1167,18 +1188,10 @@
       },
       {
         "source": "data-structure-intermediate-stage",
-        "target": "methodology-evaluation-and-validity",
-        "weight": 1,
-        "tags": [
-          "research-process"
-        ]
-      },
-      {
-        "source": "data-structure-intermediate-stage",
         "target": "seer-clown-research-process",
         "weight": 1,
         "tags": [
-          "research-process"
+          "methodology"
         ]
       },
       {
@@ -1190,7 +1203,7 @@
         ]
       },
       {
-        "source": "seer-clown-research-process",
+        "source": "methodology-evaluation-and-validity",
         "target": "art-forms-with-high-audience-resonance",
         "weight": 1,
         "tags": [
@@ -1198,7 +1211,7 @@
         ]
       },
       {
-        "source": "seer-clown-research-process",
+        "source": "methodology-evaluation-and-validity",
         "target": "first-principles",
         "weight": 1,
         "tags": [
@@ -1206,7 +1219,7 @@
         ]
       },
       {
-        "source": "seer-clown-research-process",
+        "source": "methodology-evaluation-and-validity",
         "target": "maximising-artistic-identity",
         "weight": 1,
         "tags": [
@@ -1214,7 +1227,7 @@
         ]
       },
       {
-        "source": "seer-clown-research-process",
+        "source": "methodology-evaluation-and-validity",
         "target": "this-process-is-not-seo",
         "weight": 1,
         "tags": [

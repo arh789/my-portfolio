@@ -6,6 +6,7 @@ date: 2026-04-24
 tags:
 - research-process
 - seerclown-creative-strategy
+- creative-strategy
   
 ---
 

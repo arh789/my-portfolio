@@ -5,7 +5,7 @@ description: This post documents the intermediate data produced after scraping a
 date: 2026-04-24
 tags:
   - data-analysis
-  - research-process
+  - methodology
 
 ---
 
