@@ -1,6 +1,47 @@
 {
-  "generatedAt": "2026-04-08T02:33:17.860Z",
+  "generatedAt": "2026-04-23T22:12:29.798Z",
   "articles": [
+    {
+      "slug": "clustered-output-instagram-dataset",
+      "title": "Clustered Output (Dataset)",
+      "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+      "date": "2026-04-24",
+      "tags": [
+        "data-analysis",
+        "instagram"
+      ]
+    },
+    {
+      "slug": "data-structure-intermediate-stage",
+      "title": "What the Data Actually Looks Like",
+      "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+      "date": "2026-04-24",
+      "tags": [
+        "data-analysis",
+        "research-process"
+      ]
+    },
+    {
+      "slug": "methodology-evaluation-and-validity",
+      "title": "Summary of Your Process, Conclusions, and Their Validity",
+      "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
+      "date": "2026-04-24",
+      "tags": [
+        "methodology",
+        "creative-strategy"
+      ]
+    },
+    {
+      "slug": "seer-clown-research-process",
+      "title": "Research Process Used to Establish the Seer-Clown Archetype",
+      "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+      "date": "2026-04-24",
+      "tags": [
+        "research-process",
+        "methodology",
+        "art-analysis"
+      ]
+    },
     {
       "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
       "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
@@ -53,7 +94,8 @@
       "tags": [
         "audience-resonance",
         "art-analysis",
-        "creative-strategy"
+        "creative-strategy",
+        "audience-behaviour"
       ]
     },
     {
@@ -64,7 +106,8 @@
       "tags": [
         "creative-strategy",
         "art-analysis",
-        "audience-resonance"
+        "audience-resonance",
+        "abstraction"
       ]
     },
     {
@@ -85,7 +128,8 @@
       "tags": [
         "creative-strategy",
         "audience-resonance",
-        "art-analysis"
+        "art-analysis",
+        "identity-construction"
       ]
     },
     {
@@ -96,7 +140,7 @@
       "tags": [
         "art-analysis",
         "audience-resonance",
-        "creative-strategy"
+        "medium-analysis"
       ]
     },
     {
@@ -125,6 +169,206 @@
     }
   ],
   "tagIndex": {
+    "data-analysis": [
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Output (Dataset)",
+        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+        "date": "2026-04-24",
+        "tags": [
+          "data-analysis",
+          "instagram"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "data-analysis",
+          "research-process"
+        ]
+      }
+    ],
+    "instagram": [
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Output (Dataset)",
+        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+        "date": "2026-04-24",
+        "tags": [
+          "data-analysis",
+          "instagram"
+        ]
+      }
+    ],
+    "research-process": [
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "data-analysis",
+          "research-process"
+        ]
+      },
+      {
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "date": "2026-04-24",
+        "tags": [
+          "research-process",
+          "methodology",
+          "art-analysis"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "slug": "methodology-evaluation-and-validity",
+        "title": "Summary of Your Process, Conclusions, and Their Validity",
+        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
+        "date": "2026-04-24",
+        "tags": [
+          "methodology",
+          "creative-strategy"
+        ]
+      },
+      {
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "date": "2026-04-24",
+        "tags": [
+          "research-process",
+          "methodology",
+          "art-analysis"
+        ]
+      }
+    ],
+    "creative-strategy": [
+      {
+        "slug": "methodology-evaluation-and-validity",
+        "title": "Summary of Your Process, Conclusions, and Their Validity",
+        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
+        "date": "2026-04-24",
+        "tags": [
+          "methodology",
+          "creative-strategy"
+        ]
+      },
+      {
+        "slug": "art-forms-with-high-audience-resonance",
+        "title": "Art Forms with High Audience Resonance",
+        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "date": "2026-03-15",
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy",
+          "audience-behaviour"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance",
+          "abstraction"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis",
+          "identity-construction"
+        ]
+      },
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      }
+    ],
+    "art-analysis": [
+      {
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "date": "2026-04-24",
+        "tags": [
+          "research-process",
+          "methodology",
+          "art-analysis"
+        ]
+      },
+      {
+        "slug": "art-forms-with-high-audience-resonance",
+        "title": "Art Forms with High Audience Resonance",
+        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "date": "2026-03-15",
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy",
+          "audience-behaviour"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance",
+          "abstraction"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis",
+          "identity-construction"
+        ]
+      },
+      {
+        "slug": "most-popular-art-mediums-based-on-the-datasets",
+        "title": "Most Popular Art Mediums Based on the Datasets",
+        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "date": "2026-03-15",
+        "tags": [
+          "art-analysis",
+          "audience-resonance",
+          "medium-analysis"
+        ]
+      }
+    ],
     "sda-3": [
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -456,7 +700,8 @@
         "tags": [
           "audience-resonance",
           "art-analysis",
-          "creative-strategy"
+          "creative-strategy",
+          "audience-behaviour"
         ]
       },
       {
@@ -467,7 +712,8 @@
         "tags": [
           "creative-strategy",
           "art-analysis",
-          "audience-resonance"
+          "audience-resonance",
+          "abstraction"
         ]
       },
       {
@@ -478,7 +724,8 @@
         "tags": [
           "creative-strategy",
           "audience-resonance",
-          "art-analysis"
+          "art-analysis",
+          "identity-construction"
         ]
       },
       {
@@ -489,11 +736,11 @@
         "tags": [
           "art-analysis",
           "audience-resonance",
-          "creative-strategy"
+          "medium-analysis"
         ]
       }
     ],
-    "art-analysis": [
+    "audience-behaviour": [
       {
         "slug": "art-forms-with-high-audience-resonance",
         "title": "Art Forms with High Audience Resonance",
@@ -502,55 +749,12 @@
         "tags": [
           "audience-resonance",
           "art-analysis",
-          "creative-strategy"
-        ]
-      },
-      {
-        "slug": "first-principles",
-        "title": "First Principles",
-        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
-        "date": "2026-03-15",
-        "tags": [
           "creative-strategy",
-          "art-analysis",
-          "audience-resonance"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-strategy",
-          "audience-resonance",
-          "art-analysis"
-        ]
-      },
-      {
-        "slug": "most-popular-art-mediums-based-on-the-datasets",
-        "title": "Most Popular Art Mediums Based on the Datasets",
-        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
-        "date": "2026-03-15",
-        "tags": [
-          "art-analysis",
-          "audience-resonance",
-          "creative-strategy"
+          "audience-behaviour"
         ]
       }
     ],
-    "creative-strategy": [
-      {
-        "slug": "art-forms-with-high-audience-resonance",
-        "title": "Art Forms with High Audience Resonance",
-        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
-        "date": "2026-03-15",
-        "tags": [
-          "audience-resonance",
-          "art-analysis",
-          "creative-strategy"
-        ]
-      },
+    "abstraction": [
       {
         "slug": "first-principles",
         "title": "First Principles",
@@ -559,41 +763,8 @@
         "tags": [
           "creative-strategy",
           "art-analysis",
-          "audience-resonance"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-strategy",
           "audience-resonance",
-          "art-analysis"
-        ]
-      },
-      {
-        "slug": "most-popular-art-mediums-based-on-the-datasets",
-        "title": "Most Popular Art Mediums Based on the Datasets",
-        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
-        "date": "2026-03-15",
-        "tags": [
-          "art-analysis",
-          "audience-resonance",
-          "creative-strategy"
-        ]
-      },
-      {
-        "slug": "this-process-is-not-seo",
-        "title": "This Process Is Not SEO",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "creative-strategy",
-          "algorithmic-discovery"
+          "abstraction"
         ]
       }
     ],
@@ -606,6 +777,33 @@
         "tags": [
           "generative-ai",
           "ai-misuse"
+        ]
+      }
+    ],
+    "identity-construction": [
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis",
+          "identity-construction"
+        ]
+      }
+    ],
+    "medium-analysis": [
+      {
+        "slug": "most-popular-art-mediums-based-on-the-datasets",
+        "title": "Most Popular Art Mediums Based on the Datasets",
+        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "date": "2026-03-15",
+        "tags": [
+          "art-analysis",
+          "audience-resonance",
+          "medium-analysis"
         ]
       }
     ],
@@ -704,12 +902,12 @@
   },
   "tagCentrality": [
     {
-      "tag": "creative-strategy",
+      "tag": "art-analysis",
       "count": 5
     },
     {
-      "tag": "art-analysis",
-      "count": 4
+      "tag": "creative-strategy",
+      "count": 5
     },
     {
       "tag": "audience-resonance",
@@ -744,6 +942,18 @@
       "count": 2
     },
     {
+      "tag": "data-analysis",
+      "count": 2
+    },
+    {
+      "tag": "methodology",
+      "count": 2
+    },
+    {
+      "tag": "research-process",
+      "count": 2
+    },
+    {
       "tag": "sda-3",
       "count": 2
     },
@@ -752,11 +962,31 @@
       "count": 2
     },
     {
+      "tag": "abstraction",
+      "count": 1
+    },
+    {
       "tag": "adversarial-analysis",
       "count": 1
     },
     {
       "tag": "ai-misuse",
+      "count": 1
+    },
+    {
+      "tag": "audience-behaviour",
+      "count": 1
+    },
+    {
+      "tag": "identity-construction",
+      "count": 1
+    },
+    {
+      "tag": "instagram",
+      "count": 1
+    },
+    {
+      "tag": "medium-analysis",
       "count": 1
     },
     {
@@ -774,6 +1004,47 @@
   ],
   "graph": {
     "nodes": [
+      {
+        "id": "clustered-output-instagram-dataset",
+        "label": "Clustered Output (Dataset)",
+        "type": "article",
+        "tags": [
+          "data-analysis",
+          "instagram"
+        ],
+        "centrality": 1
+      },
+      {
+        "id": "data-structure-intermediate-stage",
+        "label": "What the Data Actually Looks Like",
+        "type": "article",
+        "tags": [
+          "data-analysis",
+          "research-process"
+        ],
+        "centrality": 2
+      },
+      {
+        "id": "methodology-evaluation-and-validity",
+        "label": "Summary of Your Process, Conclusions, and Their Validity",
+        "type": "article",
+        "tags": [
+          "methodology",
+          "creative-strategy"
+        ],
+        "centrality": 5
+      },
+      {
+        "id": "seer-clown-research-process",
+        "label": "Research Process Used to Establish the Seer-Clown Archetype",
+        "type": "article",
+        "tags": [
+          "research-process",
+          "methodology",
+          "art-analysis"
+        ],
+        "centrality": 6
+      },
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
         "label": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
@@ -825,9 +1096,10 @@
         "tags": [
           "audience-resonance",
           "art-analysis",
-          "creative-strategy"
+          "creative-strategy",
+          "audience-behaviour"
         ],
-        "centrality": 10
+        "centrality": 11
       },
       {
         "id": "first-principles",
@@ -836,9 +1108,10 @@
         "tags": [
           "creative-strategy",
           "art-analysis",
-          "audience-resonance"
+          "audience-resonance",
+          "abstraction"
         ],
-        "centrality": 10
+        "centrality": 11
       },
       {
         "id": "gpt-misuse-is-not-what-people-think",
@@ -857,9 +1130,10 @@
         "tags": [
           "creative-strategy",
           "audience-resonance",
-          "art-analysis"
+          "art-analysis",
+          "identity-construction"
         ],
-        "centrality": 10
+        "centrality": 11
       },
       {
         "id": "most-popular-art-mediums-based-on-the-datasets",
@@ -868,9 +1142,9 @@
         "tags": [
           "art-analysis",
           "audience-resonance",
-          "creative-strategy"
+          "medium-analysis"
         ],
-        "centrality": 10
+        "centrality": 7
       },
       {
         "id": "this-process-is-not-seo",
@@ -898,6 +1172,94 @@
       }
     ],
     "edges": [
+      {
+        "source": "clustered-output-instagram-dataset",
+        "target": "data-structure-intermediate-stage",
+        "weight": 1,
+        "tags": [
+          "data-analysis"
+        ]
+      },
+      {
+        "source": "data-structure-intermediate-stage",
+        "target": "seer-clown-research-process",
+        "weight": 1,
+        "tags": [
+          "research-process"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "seer-clown-research-process",
+        "weight": 1,
+        "tags": [
+          "methodology"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "art-forms-with-high-audience-resonance",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "first-principles",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "maximising-artistic-identity",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "seer-clown-research-process",
+        "target": "art-forms-with-high-audience-resonance",
+        "weight": 1,
+        "tags": [
+          "art-analysis"
+        ]
+      },
+      {
+        "source": "seer-clown-research-process",
+        "target": "first-principles",
+        "weight": 1,
+        "tags": [
+          "art-analysis"
+        ]
+      },
+      {
+        "source": "seer-clown-research-process",
+        "target": "maximising-artistic-identity",
+        "weight": 1,
+        "tags": [
+          "art-analysis"
+        ]
+      },
+      {
+        "source": "seer-clown-research-process",
+        "target": "most-popular-art-mediums-based-on-the-datasets",
+        "weight": 1,
+        "tags": [
+          "art-analysis"
+        ]
+      },
       {
         "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
         "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -982,11 +1344,10 @@
       {
         "source": "art-forms-with-high-audience-resonance",
         "target": "most-popular-art-mediums-based-on-the-datasets",
-        "weight": 3,
+        "weight": 2,
         "tags": [
           "audience-resonance",
-          "art-analysis",
-          "creative-strategy"
+          "art-analysis"
         ]
       },
       {
@@ -1010,9 +1371,8 @@
       {
         "source": "first-principles",
         "target": "most-popular-art-mediums-based-on-the-datasets",
-        "weight": 3,
+        "weight": 2,
         "tags": [
-          "creative-strategy",
           "art-analysis",
           "audience-resonance"
         ]
@@ -1028,23 +1388,14 @@
       {
         "source": "maximising-artistic-identity",
         "target": "most-popular-art-mediums-based-on-the-datasets",
-        "weight": 3,
+        "weight": 2,
         "tags": [
-          "creative-strategy",
           "audience-resonance",
           "art-analysis"
         ]
       },
       {
         "source": "maximising-artistic-identity",
-        "target": "this-process-is-not-seo",
-        "weight": 1,
-        "tags": [
-          "creative-strategy"
-        ]
-      },
-      {
-        "source": "most-popular-art-mediums-based-on-the-datasets",
         "target": "this-process-is-not-seo",
         "weight": 1,
         "tags": [

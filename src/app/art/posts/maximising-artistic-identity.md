@@ -6,6 +6,7 @@ tags:
   - creative-strategy
   - audience-resonance
   - art-analysis
+  - identity-construction
 ---
 
 ## Context

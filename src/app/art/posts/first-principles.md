@@ -6,6 +6,7 @@ tags:
   - creative-strategy
   - art-analysis
   - audience-resonance
+  - abstraction
 ---
 
 ## Context

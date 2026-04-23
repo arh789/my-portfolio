@@ -5,7 +5,7 @@ date: 2026-03-15
 tags:
   - art-analysis
   - audience-resonance
-  - creative-strategy
+  - medium-analysis
 ---
 
 ## Context
