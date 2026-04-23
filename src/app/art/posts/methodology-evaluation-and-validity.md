@@ -4,8 +4,9 @@ title: Summary of Your Process, Conclusions, and Their Validity
 description: This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.
 date: 2026-04-24
 tags:
-  - methodology
-  - creative-strategy
+- research-process
+- seerclown-creative-strategy
+  
 ---
 
 ## Context
