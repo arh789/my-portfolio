@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T23:54:16.404Z",
+  "generatedAt": "2026-04-24T00:18:13.423Z",
   "articles": [
     {
       "slug": "clustered-output-instagram-dataset",
@@ -140,7 +140,8 @@
       "tags": [
         "art-analysis",
         "audience-resonance",
-        "medium-analysis"
+        "medium-analysis",
+        "creative-strategy"
       ]
     },
     {
@@ -307,6 +308,18 @@
           "audience-resonance",
           "art-analysis",
           "identity-construction"
+        ]
+      },
+      {
+        "slug": "most-popular-art-mediums-based-on-the-datasets",
+        "title": "Most Popular Art Mediums Based on the Datasets",
+        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "date": "2026-03-15",
+        "tags": [
+          "art-analysis",
+          "audience-resonance",
+          "medium-analysis",
+          "creative-strategy"
         ]
       },
       {
@@ -689,7 +702,8 @@
         "tags": [
           "art-analysis",
           "audience-resonance",
-          "medium-analysis"
+          "medium-analysis",
+          "creative-strategy"
         ]
       }
     ],
@@ -738,7 +752,8 @@
         "tags": [
           "art-analysis",
           "audience-resonance",
-          "medium-analysis"
+          "medium-analysis",
+          "creative-strategy"
         ]
       }
     ],
@@ -805,7 +820,8 @@
         "tags": [
           "art-analysis",
           "audience-resonance",
-          "medium-analysis"
+          "medium-analysis",
+          "creative-strategy"
         ]
       }
     ],
@@ -905,7 +921,7 @@
   "tagCentrality": [
     {
       "tag": "creative-strategy",
-      "count": 5
+      "count": 6
     },
     {
       "tag": "art-analysis",
@@ -1039,7 +1055,7 @@
           "seerclown-creative-strategy",
           "creative-strategy"
         ],
-        "centrality": 5
+        "centrality": 6
       },
       {
         "id": "seer-clown-research-process",
@@ -1105,7 +1121,7 @@
           "creative-strategy",
           "audience-behaviour"
         ],
-        "centrality": 10
+        "centrality": 11
       },
       {
         "id": "first-principles",
@@ -1117,7 +1133,7 @@
           "audience-resonance",
           "abstraction"
         ],
-        "centrality": 10
+        "centrality": 11
       },
       {
         "id": "gpt-misuse-is-not-what-people-think",
@@ -1139,7 +1155,7 @@
           "art-analysis",
           "identity-construction"
         ],
-        "centrality": 10
+        "centrality": 11
       },
       {
         "id": "most-popular-art-mediums-based-on-the-datasets",
@@ -1148,9 +1164,10 @@
         "tags": [
           "art-analysis",
           "audience-resonance",
-          "medium-analysis"
+          "medium-analysis",
+          "creative-strategy"
         ],
-        "centrality": 6
+        "centrality": 11
       },
       {
         "id": "this-process-is-not-seo",
@@ -1162,7 +1179,7 @@
           "creative-strategy",
           "algorithmic-discovery"
         ],
-        "centrality": 7
+        "centrality": 8
       },
       {
         "id": "visibility-under-hostile-conditions",
@@ -1221,6 +1238,14 @@
       {
         "source": "methodology-evaluation-and-validity",
         "target": "maximising-artistic-identity",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "most-popular-art-mediums-based-on-the-datasets",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -1318,10 +1343,11 @@
       {
         "source": "art-forms-with-high-audience-resonance",
         "target": "most-popular-art-mediums-based-on-the-datasets",
-        "weight": 2,
+        "weight": 3,
         "tags": [
           "audience-resonance",
-          "art-analysis"
+          "art-analysis",
+          "creative-strategy"
         ]
       },
       {
@@ -1345,8 +1371,9 @@
       {
         "source": "first-principles",
         "target": "most-popular-art-mediums-based-on-the-datasets",
-        "weight": 2,
+        "weight": 3,
         "tags": [
+          "creative-strategy",
           "art-analysis",
           "audience-resonance"
         ]
@@ -1362,14 +1389,23 @@
       {
         "source": "maximising-artistic-identity",
         "target": "most-popular-art-mediums-based-on-the-datasets",
-        "weight": 2,
+        "weight": 3,
         "tags": [
+          "creative-strategy",
           "audience-resonance",
           "art-analysis"
         ]
       },
       {
         "source": "maximising-artistic-identity",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "most-popular-art-mediums-based-on-the-datasets",
         "target": "this-process-is-not-seo",
         "weight": 1,
         "tags": [
