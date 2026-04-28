@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T21:56:10.072Z",
+  "generatedAt": "2026-04-28T05:30:40.634Z",
   "articles": [
     {
       "slug": "research-pipeline",
@@ -70,6 +70,15 @@
       ]
     },
     {
+      "slug": "youtube-video-index",
+      "title": "YouTube",
+      "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+      "date": "2026-04-08",
+      "tags": [
+        "zombie-survival"
+      ]
+    },
+    {
       "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
       "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
       "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
@@ -81,7 +90,8 @@
         "semantic-structure",
         "analysis-protocol",
         "adversarial-analysis",
-        "generative-ai"
+        "generative-ai",
+        "zombie-survival"
       ]
     },
     {
@@ -260,7 +270,8 @@
           "semantic-structure",
           "analysis-protocol",
           "adversarial-analysis",
-          "generative-ai"
+          "generative-ai",
+          "zombie-survival"
         ]
       },
       {
@@ -479,7 +490,8 @@
           "semantic-structure",
           "analysis-protocol",
           "adversarial-analysis",
-          "generative-ai"
+          "generative-ai",
+          "zombie-survival"
         ]
       },
       {
@@ -683,6 +695,33 @@
         ]
       }
     ],
+    "zombie-survival": [
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "zombie-survival"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival"
+        ]
+      }
+    ],
     "sda-3": [
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -696,7 +735,8 @@
           "semantic-structure",
           "analysis-protocol",
           "adversarial-analysis",
-          "generative-ai"
+          "generative-ai",
+          "zombie-survival"
         ]
       },
       {
@@ -727,7 +767,8 @@
           "semantic-structure",
           "analysis-protocol",
           "adversarial-analysis",
-          "generative-ai"
+          "generative-ai",
+          "zombie-survival"
         ]
       },
       {
@@ -773,7 +814,8 @@
           "semantic-structure",
           "analysis-protocol",
           "adversarial-analysis",
-          "generative-ai"
+          "generative-ai",
+          "zombie-survival"
         ]
       },
       {
@@ -819,7 +861,8 @@
           "semantic-structure",
           "analysis-protocol",
           "adversarial-analysis",
-          "generative-ai"
+          "generative-ai",
+          "zombie-survival"
         ]
       }
     ],
@@ -836,7 +879,8 @@
           "semantic-structure",
           "analysis-protocol",
           "adversarial-analysis",
-          "generative-ai"
+          "generative-ai",
+          "zombie-survival"
         ]
       },
       {
@@ -1158,6 +1202,10 @@
       "count": 2
     },
     {
+      "tag": "zombie-survival",
+      "count": 2
+    },
+    {
       "tag": "abstraction",
       "count": 1
     },
@@ -1277,6 +1325,15 @@
         "centrality": 3
       },
       {
+        "id": "youtube-video-index",
+        "label": "YouTube",
+        "type": "article",
+        "tags": [
+          "zombie-survival"
+        ],
+        "centrality": 1
+      },
+      {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
         "label": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
         "type": "article",
@@ -1287,9 +1344,10 @@
           "semantic-structure",
           "analysis-protocol",
           "adversarial-analysis",
-          "generative-ai"
+          "generative-ai",
+          "zombie-survival"
         ],
-        "centrality": 14
+        "centrality": 15
       },
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -1600,6 +1658,14 @@
         "weight": 1,
         "tags": [
           "creative-strategy"
+        ]
+      },
+      {
+        "source": "youtube-video-index",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 1,
+        "tags": [
+          "zombie-survival"
         ]
       },
       {
