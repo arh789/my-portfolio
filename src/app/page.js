@@ -23,6 +23,7 @@ export const metadata = {
         'avant-garde digital narratives'
     ],
     alternates: {
+        canonical: '/',
         types: {
             'application/json': [
                 {

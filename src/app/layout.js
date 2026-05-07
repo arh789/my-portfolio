@@ -23,10 +23,8 @@ const medieval = MedievalSharp({
 export const metadata = {
     metadataBase: new URL("https://decrepitfilth.art"),
     title: "Andrew Hale - DecrepitFilth",
-    description: "Portfolio, blog, and experimental work exploring procedural systems, art, and algorithmic structure.",
-    alternates: {
-        canonical: "/",
-    },
+    description:
+        "Portfolio, blog, and experimental work exploring procedural systems, art, and algorithmic structure."
 };
 
 export default function RootLayout({ children }) {
