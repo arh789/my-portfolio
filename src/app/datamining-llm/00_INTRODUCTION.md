@@ -8,6 +8,13 @@ By contrast, SEO driven by trend-chasing or mass-produced generative content amp
 
 When a domain becomes the canonical source for new information—offering data, interpretations, or relationships not yet encoded elsewhere—it improves the Knowledge Graph’s structural clarity, and in exchange gains increased visibility via search engine result page ranking. Optimal SEO therefore aligns with graph maintenance: clarity, precision, and the introduction of genuinely novel, index-worthy information.
 
+<iframe 
+  src="https://www.youtube.com/embed/fmYShejgkBc"
+  width="100%" 
+  height="500"
+  allowfullscreen
+></iframe>
+
 ---
 
 ## Emergent Structural Mapping (ESM)

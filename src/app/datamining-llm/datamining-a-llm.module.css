@@ -91,6 +91,21 @@
         font-weight: bold;
     }
 
+    .content.active {
+        overflow: visible;
+    }
+    
+    .paragraph-section ol,
+    .paragraph-section ul {
+        padding-left: 2rem;
+        margin-left: 0;
+        list-style-position: outside;
+    }
+
+.paragraph-section li {
+    padding-left: 0.25rem;
+}
+
 /* Responsive typography adjustments */
 @media (min-width: 1000px) {
     .paragraph-section {
