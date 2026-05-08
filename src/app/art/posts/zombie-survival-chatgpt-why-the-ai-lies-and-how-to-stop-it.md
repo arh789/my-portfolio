@@ -12,6 +12,7 @@ tags:
   - adversarial-analysis
   - generative-ai
   - zombie-survival
+  - youtube
 ---
 
 This video outlines a methodology I created called **[SDA-3 (Structured Dimensional Analysis)](https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models)**. It is designed to bypass the **sycophancy** and **coherence-smoothing** inherent in AI systems like ChatGPT and extract structurally grounded information.

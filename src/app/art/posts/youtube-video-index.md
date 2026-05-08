@@ -4,6 +4,7 @@ description: "A central index for video work connected to the site, including lo
 date: 2026-04-08
 type: index
 tags:
+  - youtube
   - zombie-survival
   - sda-3-tldr
 ---
