@@ -5,6 +5,7 @@ date: 2026-04-08
 type: index
 tags:
   - zombie-survival
+  - sda-3-tldr
 ---
 
 This page collects the YouTube videos connected to the site.
@@ -25,3 +26,20 @@ The video shows how SDA-3 shifts the model away from fluent answer-generation an
 ></iframe>
 
 **Related post:** [Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)](https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)
+
+---
+
+## SDA-3 tl;dr: Mapping LLM Response Structure
+
+This video is the short companion to the longer zombie-survival SDA-3 analysis. It explains the method directly: not as a zombie scenario, but as a structural process for making a large language model expose the pressures shaping its response.
+
+The video introduces SDA-3 as a way to distinguish truth from coherent generation. It explains why the method does not reveal a model’s hidden reasoning, chain of thought, weights, or literal embedding space, but instead produces a structured estimate of what the response appears to depend on: central topics, adjacent topics, suppressed material, associated noise, and emerging signals.
+
+<iframe 
+  src="https://www.youtube.com/embed/fmYShejgkBc"
+  width="100%" 
+  height="500"
+  allowfullscreen
+></iframe>
+
+**Related post:** [## SDA-3 tl;dr: Mapping LLM Response Structure](https://decrepitfilth.art/art/sda3-tldr)
