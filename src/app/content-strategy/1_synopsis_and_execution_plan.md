@@ -1,6 +1,8 @@
 # Synopsis
 
-**Based on the datasets, what people fear most are things that remind them of the passage of time.**
+**Based on the [datasets](/art/clustered-output-instagram-dataset), what people fear most are things that remind them of the passage of time.**
+
+**This content strategy was generated from a [Python-based semantic SEO and clustering workflow](/code), which analysed search and image-description data to identify recurring themes, unresolved topic clusters, and strategic artistic directions.**
 
 Most persistent fears revolve around decay, transformation, and things that evoke the passage of time:
 
@@ -11,29 +13,29 @@ Most persistent fears revolve around decay, transformation, and things that evok
 - Glitches, flickering images, and digital decay (technology mimicking entropy).
 - Cosmic horror and existential dread (insignificance in the vastness of time).
 
-At its core, the datasets suggest that horror is often the realisation that time is uncontrollable and inevitable—everything fades, decays, or transforms beyond recognition.
+At its core, the datasets suggest that horror is often the realisation that time is uncontrollable and inevitableï¿½everything fades, decays, or transforms beyond recognition.
 
 # Execution Plan: How to Solidify & Market the Niche
 
 ## Refine Symbolism & Ritualistic Themes
 
 - Create recurring icons: figures that embody the corruption of faith, culture, and meaning itself.
-- Blur performance and horror—your characters are actors in a cosmic tragedy, their existence itself a warning.
+- Blur performance and horrorï¿½your characters are actors in a cosmic tragedy, their existence itself a warning.
 
 ## Lean Into Hyper-Saturated, Subversive Horror
 
 - Maintain the candy-dystopian contrast (bright colours against horror) but evolve it into something more ceremonial, more decadent.
-- Introduce themes of decay & ruinous opulence—your worlds should feel once-glorious, now diseased.
+- Introduce themes of decay & ruinous opulenceï¿½your worlds should feel once-glorious, now diseased.
 
 ## Expand the Narrative Behind the Work
 
 - The pieces should feel like part of a cursed archive, an ongoing prophecy unfolding through images.
-- **Blog & Writing**: Integrate short, cryptic narratives—artwork as fragments of lost myths, corrupted gospel, or forbidden rituals.
+- **Blog & Writing**: Integrate short, cryptic narrativesï¿½artwork as fragments of lost myths, corrupted gospel, or forbidden rituals.
 
 ## Dominate the Intersection of Pop-Surrealism, Ritual Horror, and Cosmic Decay
 
-- The work is not just horror—it is the final performance of a world rotting from within.
-- Embrace the role of the 'Unholy Harbinger'— art serves as a transmission from the inevitable collapse.
+- The work is not just horrorï¿½it is the final performance of a world rotting from within.
+- Embrace the role of the 'Unholy Harbinger'ï¿½ art serves as a transmission from the inevitable collapse.
 
 ## Final Positioning Statement
 
