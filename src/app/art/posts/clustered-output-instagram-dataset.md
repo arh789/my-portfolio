@@ -9,13 +9,9 @@ tags:
 
 ## Context
 
-This post contains the structured output produced after processing scraped data from Instagram.
+This post contains the structured cluster data derived from Instagram image analysis, used as one evidence layer in a broader [Python-based semantic SEO and clustering workflow](/code).
 
-It is presented in full.
-
-No interpretation has been applied.
-
-Its purpose is to make the dataset visible.
+It is presented in full without interpretation so the underlying dataset remains visible before it is developed into the site’s [content strategy](/content-strategy).
 
 ---
 
