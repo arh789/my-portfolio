@@ -12,11 +12,13 @@ tags:
 
 ## Context
 
-This is a GPT-based analysis and evaluation of the research process, designed to assess the validity and internal consistency of the methodology, its conclusions, and the interpretive framework built upon it.
+## Context
 
-The process is based on a full-spectrum interpretive inquiry rooted in a dataset of keywords and images scraped from contemporary web content related to horror, surrealism, and symbolic aesthetics. 
+This is a GPT-based analysis and evaluation of the [research process](/code), designed to assess the validity and internal consistency of the methodology, its conclusions, and the interpretive framework built upon it.
 
-The process unfolds in structured phases.
+The process is based on a full-spectrum interpretive inquiry rooted in a [dataset of keywords and images](/art/clustered-output-instagram-dataset) scraped from contemporary web content related to horror, surrealism, and symbolic aesthetics. 
+
+The process unfolds in structured phases, moving from data collection and clustering into interpretive review, symbolic framing, and the site’s broader [content strategy](/content-strategy).
 
 ---
 
