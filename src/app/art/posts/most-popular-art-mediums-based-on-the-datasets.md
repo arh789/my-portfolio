@@ -11,13 +11,15 @@ tags:
 
 ## Context
 
-This blog post documents a ChatGPT response generated during an analysis I was carrying out as part of my SEO research process.
+This blog post documents a ChatGPT response generated during an analysis I was carrying out as part of my [SEO research process](/code).
 
 The response was generated in relation to two statistical outputs derived from that research. One output focused on patterns in artistic styles and subject matter, while the other focused more specifically on **production mediums** that appear frequently in datasets associated with audience engagement and discoverability.
 
 The purpose of the analysis was to better understand how artistic production methods might influence the way work travels through discovery systems and resonates with audiences.
 
 This particular response focuses on **medium-level strategy** — the tools, materials, and hybrid workflows most commonly associated with work that appears in these datasets.
+
+It sits between the raw [clustered Instagram dataset](/art/clustered-output-instagram-dataset) and the site’s broader [content strategy](/content-strategy).
 
 The response below is reproduced exactly as it was generated during that analysis.
 
