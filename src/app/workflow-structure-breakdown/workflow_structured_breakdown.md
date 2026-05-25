@@ -4,6 +4,7 @@
 
 ## STAGE 1: QUERY-DRIVEN DATA ACQUISITION
 **Process:**  
+- This workflow is implemented in the siteâ€™s [SEO Python codebase](/code), which renders the notebook as static, crawlable HTML.
 - Uses a pre-defined set of structured search queries targeting specific themes (e.g. "Unholy Carnival and Twisted Clowns").  
 - Queries are passed to the Google Custom Search API to fetch top-ranked URLs.
 
@@ -138,7 +139,7 @@
 | Dimension                     | This Workflow                               | Standard Best Practice (e.g. SEMrush, Ahrefs, SurferSEO) |
 |------------------------------|---------------------------------------------|-----------------------------------------------------------|
 | **Seed Generation**          | Empirical (via live SERPs)                  | Speculative (via brainstorming/trends)                    |
-| **Bias Resistance**          | High (Google-ranked + model filtering)      | Low–Moderate (human heuristics)                           |
+| **Bias Resistance**          | High (Google-ranked + model filtering)      | Lowï¿½Moderate (human heuristics)                           |
 | **Granularity of Input**     | High (multi-element extraction)             | Medium (titles/headings/body skims)                       |
 | **Thematic Resolution**      | High (summarisation + NLP filtering)        | Low (manual or volume-based sorting)                      |
 | **Keyword Validity Controls**| Strong (POS + rule mining + co-occurrence)  | Moderate (search volume, CPC)                             |
