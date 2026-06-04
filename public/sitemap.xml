@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 	<!-- Core pages -->
@@ -96,6 +96,10 @@
 
 	<url>
 	<loc>https://decrepitfilth.art/art/python-nlp-semantic-seo</loc>
+	</url>
+
+	<url>
+	<loc>https://decrepitfilth.art/art/semantic-seo-is-graph-positioning</loc>
 	</url>
 
 </urlset>

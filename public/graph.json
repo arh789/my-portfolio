@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-05-31T03:25:00.126Z",
+  "generatedAt": "2026-06-04T23:49:27.996Z",
   "articles": [
+    {
+      "slug": "semantic-seo-is-graph-positioning",
+      "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+      "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+      "date": "2026-06-05",
+      "tags": [
+        "seo",
+        "semantic-structure",
+        "content-strategy",
+        "algorithmic-discovery"
+      ]
+    },
     {
       "slug": "python-nlp-semantic-seo",
       "title": "Python for NLP and Semantic SEO: A Practical Reference",
@@ -251,6 +263,294 @@
   "tagIndex": {
     "seo": [
       {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "semantic-structure",
+          "algorithmic-discovery",
+          "python",
+          "nlp"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "semantic-structure",
+          "methodology",
+          "algorithmic-discovery",
+          "data-analysis"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "methodology",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "llm-analysis"
+        ]
+      },
+      {
+        "slug": "who-benefits-most-from-this-system",
+        "title": "Who Benefits Most From This System",
+        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+        "date": "2026-04-25",
+        "tags": [
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "strategic-positioning"
+        ]
+      },
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "visibility",
+          "algorithmic-discovery",
+          "seo",
+          "content-strategy"
+        ]
+      }
+    ],
+    "semantic-structure": [
+      {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "semantic-structure",
+          "algorithmic-discovery",
+          "python",
+          "nlp"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "semantic-structure",
+          "methodology",
+          "algorithmic-discovery",
+          "data-analysis"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "methodology",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "llm-analysis"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival",
+          "youtube"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
+      }
+    ],
+    "content-strategy": [
+      {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "semantic-structure",
+          "methodology",
+          "algorithmic-discovery",
+          "data-analysis"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "methodology",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "llm-analysis"
+        ]
+      },
+      {
+        "slug": "who-benefits-most-from-this-system",
+        "title": "Who Benefits Most From This System",
+        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+        "date": "2026-04-25",
+        "tags": [
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "strategic-positioning"
+        ]
+      },
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "visibility",
+          "algorithmic-discovery",
+          "seo",
+          "content-strategy"
+        ]
+      }
+    ],
+    "algorithmic-discovery": [
+      {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
         "slug": "python-nlp-semantic-seo",
         "title": "Python for NLP and Semantic SEO: A Practical Reference",
         "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
@@ -447,179 +747,6 @@
         ]
       }
     ],
-    "semantic-structure": [
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "seo",
-          "data-analysis",
-          "methodology",
-          "semantic-structure",
-          "algorithmic-discovery",
-          "python",
-          "nlp"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "semantic-structure",
-          "methodology",
-          "algorithmic-discovery",
-          "data-analysis"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "methodology",
-          "semantic-structure",
-          "content-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "llm-analysis"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "adversarial-analysis",
-          "generative-ai",
-          "zombie-survival",
-          "youtube"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "generative-ai"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "sep",
-          "analysis-protocol",
-          "llm-analysis",
-          "semantic-structure",
-          "generative-ai",
-          "embedding-space",
-          "structural-extraction"
-        ]
-      }
-    ],
-    "algorithmic-discovery": [
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "seo",
-          "data-analysis",
-          "methodology",
-          "semantic-structure",
-          "algorithmic-discovery",
-          "python",
-          "nlp"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "semantic-structure",
-          "methodology",
-          "algorithmic-discovery",
-          "data-analysis"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "methodology",
-          "semantic-structure",
-          "content-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "llm-analysis"
-        ]
-      },
-      {
-        "slug": "who-benefits-most-from-this-system",
-        "title": "Who Benefits Most From This System",
-        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
-        "date": "2026-04-25",
-        "tags": [
-          "content-strategy",
-          "creative-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "this-process-is-not-seo",
-        "title": "This Process Is Not SEO",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "creative-strategy",
-          "algorithmic-discovery"
-        ]
-      },
-      {
-        "slug": "visibility-under-hostile-conditions",
-        "title": "Visibility Under Hostile Conditions",
-        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
-        "date": "2026-03-15",
-        "tags": [
-          "visibility",
-          "algorithmic-discovery",
-          "seo",
-          "content-strategy"
-        ]
-      }
-    ],
     "python": [
       {
         "slug": "python-nlp-semantic-seo",
@@ -651,73 +778,6 @@
           "algorithmic-discovery",
           "python",
           "nlp"
-        ]
-      }
-    ],
-    "content-strategy": [
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "semantic-structure",
-          "methodology",
-          "algorithmic-discovery",
-          "data-analysis"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "methodology",
-          "semantic-structure",
-          "content-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "llm-analysis"
-        ]
-      },
-      {
-        "slug": "who-benefits-most-from-this-system",
-        "title": "Who Benefits Most From This System",
-        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
-        "date": "2026-04-25",
-        "tags": [
-          "content-strategy",
-          "creative-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "this-process-is-not-seo",
-        "title": "This Process Is Not SEO",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "creative-strategy",
-          "algorithmic-discovery"
-        ]
-      },
-      {
-        "slug": "visibility-under-hostile-conditions",
-        "title": "Visibility Under Hostile Conditions",
-        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
-        "date": "2026-03-15",
-        "tags": [
-          "visibility",
-          "algorithmic-discovery",
-          "seo",
-          "content-strategy"
         ]
       }
     ],
@@ -1450,24 +1510,24 @@
   },
   "tagCentrality": [
     {
+      "tag": "algorithmic-discovery",
+      "count": 7
+    },
+    {
       "tag": "creative-strategy",
       "count": 7
     },
     {
-      "tag": "algorithmic-discovery",
-      "count": 6
-    },
-    {
       "tag": "semantic-structure",
-      "count": 6
+      "count": 7
     },
     {
       "tag": "seo",
-      "count": 6
+      "count": 7
     },
     {
       "tag": "content-strategy",
-      "count": 5
+      "count": 6
     },
     {
       "tag": "methodology",
@@ -1581,6 +1641,18 @@
   "graph": {
     "nodes": [
       {
+        "id": "semantic-seo-is-graph-positioning",
+        "label": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "type": "article",
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery"
+        ],
+        "centrality": 23
+      },
+      {
         "id": "python-nlp-semantic-seo",
         "label": "Python for NLP and Semantic SEO: A Practical Reference",
         "type": "article",
@@ -1593,7 +1665,7 @@
           "python",
           "nlp"
         ],
-        "centrality": 22
+        "centrality": 25
       },
       {
         "id": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -1607,7 +1679,7 @@
           "algorithmic-discovery",
           "data-analysis"
         ],
-        "centrality": 26
+        "centrality": 30
       },
       {
         "id": "sda3-tldr",
@@ -1631,7 +1703,7 @@
           "seo",
           "llm-analysis"
         ],
-        "centrality": 26
+        "centrality": 30
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -1644,7 +1716,7 @@
           "seo",
           "strategic-positioning"
         ],
-        "centrality": 20
+        "centrality": 23
       },
       {
         "id": "clustered-output-instagram-dataset",
@@ -1713,7 +1785,7 @@
           "zombie-survival",
           "youtube"
         ],
-        "centrality": 19
+        "centrality": 20
       },
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -1727,7 +1799,7 @@
           "analysis-protocol",
           "generative-ai"
         ],
-        "centrality": 17
+        "centrality": 18
       },
       {
         "id": "structural-extraction-protocol",
@@ -1742,7 +1814,7 @@
           "embedding-space",
           "structural-extraction"
         ],
-        "centrality": 15
+        "centrality": 16
       },
       {
         "id": "art-forms-with-high-audience-resonance",
@@ -1812,7 +1884,7 @@
           "creative-strategy",
           "algorithmic-discovery"
         ],
-        "centrality": 20
+        "centrality": 23
       },
       {
         "id": "visibility-under-hostile-conditions",
@@ -1824,10 +1896,96 @@
           "seo",
           "content-strategy"
         ],
-        "centrality": 14
+        "centrality": 17
       }
     ],
     "edges": [
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "python-nlp-semantic-seo",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "weight": 4,
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "research-pipeline",
+        "weight": 4,
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "who-benefits-most-from-this-system",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "structural-extraction-protocol",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "this-process-is-not-seo",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "visibility-under-hostile-conditions",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
       {
         "source": "python-nlp-semantic-seo",
         "target": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
