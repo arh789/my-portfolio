@@ -32,6 +32,8 @@ It is the structure surrounding that content.
 
 Understanding how modern information systems select, retrieve, and recommend information helps explain why this happens and what can be done about it.
 
+---
+
 ## Search Systems
 
 Most people encounter search systems through platforms such as Google, YouTube, Amazon, and Spotify.
@@ -208,6 +210,8 @@ The same underlying logic.
 The challenge is not observing reality directly.
 
 The challenge is building useful representations of it.
+
+---
 
 ## How Systems Represent Information
 
@@ -457,6 +461,8 @@ This idea is explored from a creative perspective in [Maximising Artistic Identi
 The underlying artistic doctrine is described in [First Principles](/art/first-principles).
 
 From an information-retrieval perspective, the same issue appears in [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-not-content-optimisation-it-is-graph-positioning).
+
+---
 
 ## Search, Recommendation, and AI Retrieval
 
