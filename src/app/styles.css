@@ -78,32 +78,40 @@ body {
     align-items: center;
     width: 100%;
     padding: var(--section-padding-y) 0;
+    gap: 0;
 }
 
 /* Container controls width only */
 .banner {
     display: block;
-    width: min(40%, var(--site-max-width));
-    aspect-ratio: 469 / 97;
+    width: min(40%, 469px);
     text-decoration: none;
     background: transparent;
     line-height: 0;
     font-size: 0;
     border: none;
     outline: none;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 768px) {
     .banner {
         width: 75%;
     }
+
+    .banners-container {
+        padding: 1px 0 0;
+    }
 }
 
     /* Image keeps natural proportions */
     .banner img {
+        display: block;
         width: 100%;
         height: auto;
-        display: block;
+        margin: 0;
+        padding: 0;
         border: none;
     }
 

@@ -37,37 +37,42 @@ export const metadata = {
 const banners = [
     {
         href: '/about',
-        src: '/images/home_menu_images/about2.png',
+        src: '/images/home_menu_images/01_about.png',
         alt: 'About page'
     },
     {
+        href: '/how-to-locate-hidden-structure',
+        src: '/images/home_menu_images/02_discovering_hidden_structure.png',
+        alt: 'Discovering hidden structure'
+    },
+    {
         href: '/workflow-structure-breakdown',
-        src: '/images/home_menu_images/workflow_breakdown2.png',
+        src: '/images/home_menu_images/03_workflow_breakdown.png',
         alt: 'Workflow structure breakdown'
     },
     {
         href: '/code',
-        src: '/images/home_menu_images/semantic_seo_code.png',
+        src: '/images/home_menu_images/04_semantic_seo_code.png',
         alt: 'Semantic SEO code'
     },
     {
         href: '/datamining-llm',
-        src: '/images/home_menu_images/datamining_a_llm2.png',
+        src: '/images/home_menu_images/05_datamining_a_llm.png',
         alt: 'Datamining a large language model'
     },
     {
         href: '/content-strategy',
-        src: '/images/home_menu_images/content_strategy2.png',
+        src: '/images/home_menu_images/06_content_strategy.png',
         alt: 'Content strategy'
     },
     {
         href: '/art',
-        src: '/images/home_menu_images/blog2.png',
+        src: '/images/home_menu_images/07_blog.png',
         alt: 'Art blog and gallery'
     },
     {
         href: '/contact',
-        src: '/images/home_menu_images/contact2.png',
+        src: '/images/home_menu_images/08_contact.png',
         alt: 'Contact form'
     }
 ];
@@ -78,8 +83,8 @@ function BannerItem({ href, src, alt }) {
             <Image
                 src={src}
                 alt={alt}
-                width={1200}
-                height={400}
+                width={469}
+                height={97}
                 sizes="(max-width: 1200px) 100vw, 1200px"
             />
         </Link>
