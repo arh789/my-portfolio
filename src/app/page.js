@@ -41,9 +41,9 @@ const banners = [
         alt: 'About page'
     },
     {
-        href: '/how-to-locate-hidden-structure',
+        href: '/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content',
         src: '/images/home_menu_images/02_discovering_hidden_structure.png',
-        alt: 'Discovering hidden structure'
+        alt: 'How AI, Network Analysis and LLMs Reveal Hidden Structure in Content'
     },
     {
         href: '/workflow-structure-breakdown',

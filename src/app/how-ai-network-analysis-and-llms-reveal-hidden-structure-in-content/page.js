@@ -9,7 +9,7 @@ import styles from './contentPage.module.css';
 export const dynamic = 'force-static';
 
 export const metadata = {
-    title: 'How to Locate Hidden Structure | DecrepitFilth.art',
+    title: 'How AI, Network Analysis and LLMs Reveal Hidden Structure in Content | DecrepitFilth.art',
     description:
         'A framework for understanding how deep learning, network analysis, LLMs, and human judgement locate hidden structure by recovering what representations conceal.',
     keywords: [
@@ -34,8 +34,8 @@ const getContentHtml = cache(async () => {
         process.cwd(),
         'src',
         'app',
-        'how-to-locate-hidden-structure',
-        'how-to-locate-hidden-structure.md'
+        'how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content',
+        'how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content.md'
     );
 
     const fileContent = fs.readFileSync(filePath, 'utf8');

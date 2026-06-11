@@ -1,4 +1,4 @@
-# HOW TO LOCATE HIDDEN STRUCTURE
+# How AI, Network Analysis and LLMs Reveal Hidden Structure in Content
 
 ---
 
