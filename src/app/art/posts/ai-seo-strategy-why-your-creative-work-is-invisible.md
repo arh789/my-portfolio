@@ -25,6 +25,13 @@ Most creative work does not fail because it is bad.
 
 It fails because it has no clear position inside the systems that decide what becomes visible.
 
+<iframe 
+  src="https://www.youtube.com/embed/DHU3EJnyg9o"
+  width="100%" 
+  height="500"
+  allowfullscreen>
+</iframe>
+
 Search engines, recommendation systems, AI retrieval tools, and social platforms do not simply reward quality. They reward recognisable structure: repeated entities, stable relationships, clear topic boundaries, useful connections, and content that helps organise a wider field.
 
 That creates a problem for artists, writers, researchers, and independent creators.
@@ -44,13 +51,6 @@ That means identifying places where related ideas exist near each other, but hav
 In the case study shown here, the method is applied to an obscure horror and surrealist art website.
 
 The result is not just a content plan. It becomes a creative operating system: a way of turning search data, network analysis, and structural interpretation into a coherent artistic direction.
-
-<iframe 
-  src="https://www.youtube.com/embed/DHU3EJnyg9o"
-  width="100%" 
-  height="500"
-  allowfullscreen>
-</iframe>
 
 ## What the video covers
 
