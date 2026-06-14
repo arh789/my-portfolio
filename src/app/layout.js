@@ -3,6 +3,7 @@ import "./styles.css";
 import Link from "next/link";
 import PageWrapper from "./PageWrapper";
 import Script from "next/script";
+import SiteIndexNav from "./SiteIndexNav";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={`${geistSans.variable} ${geistMono.variable}`}>
+                <SiteIndexNav />
 
                 {/* PAGE CONTENT */}
                 <div
