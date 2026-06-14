@@ -23,6 +23,16 @@ This article explains the relationship between the site’s [workflow structure 
 
 The workflow page explains the research process. The code page shows the implementation. This page explains why the method matters.
 
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/9UeCmC79z3I"
+  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
 ## What Semantic SEO with Python Means
 
 Semantic SEO is not only concerned with individual keywords. It is concerned with relationships between meanings.

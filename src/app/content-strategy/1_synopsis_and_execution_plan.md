@@ -15,6 +15,16 @@ Most persistent fears revolve around decay, transformation, and things that evok
 
 At its core, the datasets suggest that horror is often the realisation that time is uncontrollable and inevitable�everything fades, decays, or transforms beyond recognition.
 
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/9UeCmC79z3I"
+  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
 # Execution Plan: How to Solidify & Market the Niche
 
 ## Refine Symbolism & Ritualistic Themes

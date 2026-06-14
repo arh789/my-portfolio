@@ -32,6 +32,16 @@ This pipeline is a single system:
 
 This pipeline behaves like an archaeological reconstruction of a black-box semantic system, filtered through evolutionary selection and stabilised via statistical and model-based inference.
 
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/9UeCmC79z3I"
+  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
 ---
 
 ## Step-by-Step Structure
