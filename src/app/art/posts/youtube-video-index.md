@@ -8,6 +8,7 @@ tags:
   - zombie-survival
   - sda-3-tldr
   - haunted-machine
+  - haunted-machine_tldr
 ---
 
 This page collects the YouTube videos connected to the site.
@@ -58,6 +59,30 @@ The video shows how search results can be turned into a semantic network, then a
   width="100%"
   height="500"
   src="https://www.youtube.com/embed/9UeCmC79z3I"
+  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+---
+
+## AI SEO Strategy: Why Your Creative Work Is Invisible
+
+Originality can be systematically discovered by identifying unresolved structures in existing knowledge networks.
+
+The traditional SEO playbook assumes that value comes from finding existing demand and producing content around it.
+
+Generative AI changes that equation.
+
+As AI systems become better at summarising common information, generic content becomes easier to compress, replace, and ignore. The advantage increasingly shifts toward identifying important missing structures: relationships, explanations, frameworks, and conceptual bridges that nobody has properly connected yet.
+
+In this video I outline a research methodology designed to find those structures.
+
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/DHU3EJnyg9o"
   title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
