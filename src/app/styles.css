@@ -198,12 +198,12 @@ body.has-site-index-nav .site-shell {
 
 @media (max-width: 768px) {
     body.has-site-index-nav .site-shell {
-        padding-top: 82px;
+        padding-top: 41px;
     }
 
     .site-index-nav-trigger {
         top: 10px;
-        width: min(92vw, 640px);
+        width: min(64.4vw, 448px);
     }
 
     .site-index-nav-trigger.is-visible {
