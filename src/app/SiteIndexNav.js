@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
     { href: "/", label: "Home" },
@@ -20,9 +21,11 @@ const NAV_ITEMS = [
 ];
 
 export default function SiteIndexNav() {
+    const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
     const [isTriggerVisible, setIsTriggerVisible] = useState(true);
     const lastScrollYRef = useRef(0);
+    const isHomePage = pathname === "/";
 
     useEffect(() => {
         lastScrollYRef.current = window.scrollY;
@@ -76,7 +79,19 @@ export default function SiteIndexNav() {
         };
     }, [isOpen]);
 
+    useEffect(() => {
+        document.body.classList.toggle("has-site-index-nav", !isHomePage);
+
+        return () => {
+            document.body.classList.remove("has-site-index-nav");
+        };
+    }, [isHomePage]);
+
     const showTrigger = isOpen || isTriggerVisible;
+
+    if (isHomePage) {
+        return null;
+    }
 
     return (
         <>
@@ -89,11 +104,11 @@ export default function SiteIndexNav() {
                 onClick={() => setIsOpen(true)}
             >
                 <Image
-                    src="/images/nav-icons-banner.png"
+                    src="/images/nav-icons-banner.webp"
                     alt=""
-                    width={469}
-                    height={97}
-                    sizes="(max-width: 768px) 72vw, 320px"
+                    width={2048}
+                    height={276}
+                    sizes="(max-width: 768px) 90vw, 960px"
                     priority
                 />
             </button>

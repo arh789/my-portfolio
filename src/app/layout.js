@@ -32,16 +32,17 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={`${geistSans.variable} ${geistMono.variable}`}>
-                <SiteIndexNav />
-
                 {/* PAGE CONTENT */}
                 <div
+                    className="site-shell"
                     style={{
                         minHeight: "100vh",
                         display: "flex",
                         flexDirection: "column",
                     }}
                 >
+                    <SiteIndexNav />
+
                     <PageWrapper>
                         <div style={{ flex: 1 }}>{children}</div>
                     </PageWrapper>
