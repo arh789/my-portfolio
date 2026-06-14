@@ -16,6 +16,16 @@ Understanding how different systems discover structure—and where they fail—p
 
 Ultimately, this topic matters because the greatest failures rarely come from misunderstanding what is visible; they come from failing to recognise what is absent or lost.
 
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/9UeCmC79z3I"
+  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
 ---
 
 ## Deep Learning
