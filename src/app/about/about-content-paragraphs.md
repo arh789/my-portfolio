@@ -3,6 +3,16 @@ This site documents a personal system for applying **machine learning to content
 It is not a product or service.  
 It is a working environment—used to develop, test, and deploy a methodology across real pages.
 
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/DHU3EJnyg9o"
+  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
 ---
 
 ## 🔷 What This Site Is
