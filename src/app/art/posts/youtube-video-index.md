@@ -7,6 +7,7 @@ tags:
   - youtube
   - zombie-survival
   - sda-3-tldr
+  - haunted-machine
 ---
 
 This page collects the YouTube videos connected to the site.
@@ -44,3 +45,21 @@ The video introduces SDA-3 as a way to distinguish truth from coherent generatio
 ></iframe>
 
 **Related post:** [## SDA-3 tl;dr: Mapping LLM Response Structure](https://decrepitfilth.art/art/sda3-tldr)
+
+---
+
+## From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System
+
+This video follows the development of a research pipeline for promoting an obscure horror and surrealist art website without flattening it into trend-chasing, generic SEO, or interchangeable AI content.
+
+The video shows how search results can be turned into a semantic network, then analysed for suppressed nodes, emerging structures, weak bridges, and unresolved relationships. The result is not a conventional keyword strategy, but a creative operating system: a way of turning AI-era search research into content strategy, site architecture, and art direction.
+
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/9UeCmC79z3I"
+  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>

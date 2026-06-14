@@ -1,4 +1,20 @@
-# From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System
+---
+title: "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+description: This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.
+date: 2026-06-14
+type: analysis
+tags:
+  - seo
+  - algorithmic-discovery
+  - semantic-structure
+  - content-strategy
+  - creative-strategy
+  - methodology
+  - data-analysis
+  - generative-ai
+  - youtube
+  - haunted-machine
+---
 
 Most SEO advice focuses on finding existing demand.
 
@@ -12,10 +28,13 @@ This video explores a different question:
 
 My answer is that the strategic advantage shifts away from producing more content about already-visible topics, and toward identifying important missing structures: relationships, explanations, frameworks, and conceptual bridges that nobody has properly connected yet.
 
-<iframe 
-  src="https://youtu.be/9UeCmC79z3I"
-  width="100%" 
+<iframe
+  width="100%"
   height="500"
+  src="https://www.youtube.com/embed/9UeCmC79z3I"
+  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
 ></iframe>
 
