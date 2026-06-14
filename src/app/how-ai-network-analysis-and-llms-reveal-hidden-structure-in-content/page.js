@@ -1,9 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { cache } from 'react';
-import { remark } from 'remark';
-import html from 'remark-html';
-import gfm from 'remark-gfm';
+import { parseMarkdown } from '../components/markdown';
 import styles from './contentPage.module.css';
 
 export const dynamic = 'force-static';
@@ -40,12 +38,7 @@ const getContentHtml = cache(async () => {
 
     const fileContent = fs.readFileSync(filePath, 'utf8');
 
-    const processedContent = await remark()
-        .use(gfm)
-        .use(html)
-        .process(fileContent);
-
-    return processedContent.toString();
+    return await parseMarkdown(fileContent);
 });
 
 export default async function Page() {
