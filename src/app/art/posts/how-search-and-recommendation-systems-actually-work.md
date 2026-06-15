@@ -303,7 +303,7 @@ They are attempting to understand how users, interests, behaviours, creators, an
 
 The resulting graph becomes more valuable than any individual item within it.
 
-This idea sits at the centre of [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-not-content-optimisation-it-is-graph-positioning).
+This idea sits at the centre of [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
 
 A practical implementation of this process is described in [Semantic SEO in Python: From Search Results to Original Content Strategy](/art/semantic-seo-in-python-from-search-results-to-original-content-strategy).
 
@@ -460,7 +460,7 @@ This idea is explored from a creative perspective in [Maximising Artistic Identi
 
 The underlying artistic doctrine is described in [First Principles](/art/first-principles).
 
-From an information-retrieval perspective, the same issue appears in [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-not-content-optimisation-it-is-graph-positioning).
+From an information-retrieval perspective, the same issue appears in [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
 
 ---
 
@@ -638,7 +638,7 @@ It clarifies relationships.
 
 It improves the retrievability of adjacent information.
 
-This is the central argument of [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-not-content-optimisation-it-is-graph-positioning).
+This is the central argument of [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
 
 A practical implementation of that approach is described in [Semantic SEO in Python: From Search Results to Original Content Strategy](/art/semantic-seo-in-python-from-search-results-to-original-content-strategy).
 
@@ -795,7 +795,7 @@ Meaning becomes visible when it becomes structurally legible.
 
 To explore the methodology behind this process, see [Research Pipeline](/art/research-pipeline).
 
-For its application to search, see [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-not-content-optimisation-it-is-graph-positioning).
+For its application to search, see [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
 
 For a broader discussion of visibility and discovery, see [This Process Is Not SEO](/art/this-process-is-not-seo).
 
@@ -817,7 +817,7 @@ This article explains how search results, recommendation outputs, and other obse
 
 Continue with:
 
-→ [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-not-content-optimisation-it-is-graph-positioning)
+→ [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning)
 
 This article explores why visibility increasingly depends on relationships between entities, concepts, and information structures rather than isolated page optimisation.
 
