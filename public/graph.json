@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T02:25:55.640Z",
+  "generatedAt": "2026-06-15T01:19:04.797Z",
   "articles": [
     {
       "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -299,6 +299,18 @@
       ]
     },
     {
+      "slug": "this-process-is-not-seo",
+      "title": "This Process Is Not SEO",
+      "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+      "date": "2026-03-15",
+      "tags": [
+        "seo",
+        "content-strategy",
+        "creative-strategy",
+        "algorithmic-discovery"
+      ]
+    },
+    {
       "slug": "visibility-under-hostile-conditions",
       "title": "Visibility Under Hostile Conditions",
       "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
@@ -443,6 +455,18 @@
         ]
       },
       {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
         "slug": "visibility-under-hostile-conditions",
         "title": "Visibility Under Hostile Conditions",
         "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
@@ -576,6 +600,18 @@
       {
         "slug": "seo-visibility-structural-legibility",
         "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -866,6 +902,18 @@
         ]
       },
       {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
         "slug": "visibility-under-hostile-conditions",
         "title": "Visibility Under Hostile Conditions",
         "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
@@ -991,6 +1039,18 @@
       {
         "slug": "seo-visibility-structural-legibility",
         "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "this-process-is-not-seo",
+        "title": "This Process Is Not SEO",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -2035,23 +2095,23 @@
   "tagCentrality": [
     {
       "tag": "algorithmic-discovery",
+      "count": 11
+    },
+    {
+      "tag": "seo",
+      "count": 11
+    },
+    {
+      "tag": "content-strategy",
+      "count": 10
+    },
+    {
+      "tag": "creative-strategy",
       "count": 10
     },
     {
       "tag": "semantic-structure",
       "count": 10
-    },
-    {
-      "tag": "seo",
-      "count": 10
-    },
-    {
-      "tag": "content-strategy",
-      "count": 9
-    },
-    {
-      "tag": "creative-strategy",
-      "count": 9
     },
     {
       "tag": "methodology",
@@ -2189,7 +2249,7 @@
           "haunted-machine",
           "haunted-machine-tldr"
         ],
-        "centrality": 65
+        "centrality": 69
       },
       {
         "id": "from-seo-keywords-to-the-haunted-machine",
@@ -2207,7 +2267,7 @@
           "youtube",
           "haunted-machine"
         ],
-        "centrality": 64
+        "centrality": 68
       },
       {
         "id": "how-search-and-recommendation-systems-actually-work",
@@ -2219,7 +2279,7 @@
           "semantic-structure",
           "content-strategy"
         ],
-        "centrality": 35
+        "centrality": 38
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -2231,7 +2291,7 @@
           "content-strategy",
           "algorithmic-discovery"
         ],
-        "centrality": 35
+        "centrality": 38
       },
       {
         "id": "python-nlp-semantic-seo",
@@ -2246,7 +2306,7 @@
           "python",
           "nlp"
         ],
-        "centrality": 38
+        "centrality": 40
       },
       {
         "id": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -2260,7 +2320,7 @@
           "algorithmic-discovery",
           "data-analysis"
         ],
-        "centrality": 46
+        "centrality": 49
       },
       {
         "id": "sda3-tldr",
@@ -2284,7 +2344,7 @@
           "seo",
           "llm-analysis"
         ],
-        "centrality": 44
+        "centrality": 47
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -2297,7 +2357,7 @@
           "seo",
           "strategic-positioning"
         ],
-        "centrality": 34
+        "centrality": 38
       },
       {
         "id": "clustered-output-instagram-dataset",
@@ -2328,7 +2388,7 @@
           "seerclown-creative-strategy",
           "creative-strategy"
         ],
-        "centrality": 9
+        "centrality": 10
       },
       {
         "id": "seer-clown-research-process",
@@ -2409,7 +2469,7 @@
           "creative-strategy",
           "audience-behaviour"
         ],
-        "centrality": 14
+        "centrality": 15
       },
       {
         "id": "first-principles",
@@ -2421,7 +2481,7 @@
           "audience-resonance",
           "abstraction"
         ],
-        "centrality": 14
+        "centrality": 15
       },
       {
         "id": "gpt-misuse-is-not-what-people-think",
@@ -2443,7 +2503,7 @@
           "art-analysis",
           "identity-construction"
         ],
-        "centrality": 14
+        "centrality": 15
       },
       {
         "id": "most-popular-art-mediums-based-on-the-datasets",
@@ -2455,7 +2515,7 @@
           "medium-analysis",
           "creative-strategy"
         ],
-        "centrality": 14
+        "centrality": 15
       },
       {
         "id": "seo-visibility-structural-legibility",
@@ -2467,7 +2527,19 @@
           "creative-strategy",
           "algorithmic-discovery"
         ],
-        "centrality": 34
+        "centrality": 38
+      },
+      {
+        "id": "this-process-is-not-seo",
+        "label": "This Process Is Not SEO",
+        "type": "article",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ],
+        "centrality": 38
       },
       {
         "id": "visibility-under-hostile-conditions",
@@ -2479,7 +2551,7 @@
           "seo",
           "content-strategy"
         ],
-        "centrality": 26
+        "centrality": 29
       }
     ],
     "edges": [
@@ -2694,6 +2766,17 @@
       },
       {
         "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "this-process-is-not-seo",
+        "weight": 4,
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "content-strategy",
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
@@ -2895,6 +2978,17 @@
       },
       {
         "source": "from-seo-keywords-to-the-haunted-machine",
+        "target": "this-process-is-not-seo",
+        "weight": 4,
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "content-strategy",
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "from-seo-keywords-to-the-haunted-machine",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
@@ -2992,6 +3086,16 @@
       },
       {
         "source": "how-search-and-recommendation-systems-actually-work",
+        "target": "this-process-is-not-seo",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "content-strategy"
+        ]
+      },
+      {
+        "source": "how-search-and-recommendation-systems-actually-work",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
@@ -3078,6 +3182,16 @@
       },
       {
         "source": "semantic-seo-is-graph-positioning",
+        "target": "this-process-is-not-seo",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
@@ -3178,6 +3292,15 @@
       },
       {
         "source": "python-nlp-semantic-seo",
+        "target": "this-process-is-not-seo",
+        "weight": 2,
+        "tags": [
+          "seo",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "python-nlp-semantic-seo",
         "target": "visibility-under-hostile-conditions",
         "weight": 2,
         "tags": [
@@ -3259,6 +3382,16 @@
       {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
         "target": "seo-visibility-structural-legibility",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "target": "this-process-is-not-seo",
         "weight": 3,
         "tags": [
           "seo",
@@ -3365,6 +3498,16 @@
       },
       {
         "source": "research-pipeline",
+        "target": "this-process-is-not-seo",
+        "weight": 3,
+        "tags": [
+          "content-strategy",
+          "algorithmic-discovery",
+          "seo"
+        ]
+      },
+      {
+        "source": "research-pipeline",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
@@ -3416,6 +3559,17 @@
       {
         "source": "who-benefits-most-from-this-system",
         "target": "seo-visibility-structural-legibility",
+        "weight": 4,
+        "tags": [
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery",
+          "seo"
+        ]
+      },
+      {
+        "source": "who-benefits-most-from-this-system",
+        "target": "this-process-is-not-seo",
         "weight": 4,
         "tags": [
           "content-strategy",
@@ -3493,6 +3647,14 @@
       {
         "source": "methodology-evaluation-and-validity",
         "target": "seo-visibility-structural-legibility",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "this-process-is-not-seo",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -3607,6 +3769,14 @@
         ]
       },
       {
+        "source": "art-forms-with-high-audience-resonance",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
         "source": "first-principles",
         "target": "maximising-artistic-identity",
         "weight": 3,
@@ -3635,6 +3805,14 @@
         ]
       },
       {
+        "source": "first-principles",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
         "source": "maximising-artistic-identity",
         "target": "most-popular-art-mediums-based-on-the-datasets",
         "weight": 3,
@@ -3653,6 +3831,14 @@
         ]
       },
       {
+        "source": "maximising-artistic-identity",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
         "source": "most-popular-art-mediums-based-on-the-datasets",
         "target": "seo-visibility-structural-legibility",
         "weight": 1,
@@ -3661,7 +3847,36 @@
         ]
       },
       {
+        "source": "most-popular-art-mediums-based-on-the-datasets",
+        "target": "this-process-is-not-seo",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
         "source": "seo-visibility-structural-legibility",
+        "target": "this-process-is-not-seo",
+        "weight": 4,
+        "tags": [
+          "seo",
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "seo-visibility-structural-legibility",
+        "target": "visibility-under-hostile-conditions",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "source": "this-process-is-not-seo",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
