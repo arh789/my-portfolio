@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T04:54:44.652Z",
+  "generatedAt": "2026-06-16T05:00:08.144Z",
   "articles": [
     {
       "slug": "google-maps-review-mining-unmet-demand",
@@ -7,12 +7,10 @@
       "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
       "date": "2026-06-16",
       "tags": [
+        "seo",
         "data-analysis",
-        "audience-resonance",
-        "google-maps",
+        "methodology",
         "llm-analysis",
-        "audience-behaviour",
-        "identity-construction",
         "python",
         "strategic-positioning"
       ]
@@ -340,397 +338,21 @@
     }
   ],
   "tagIndex": {
-    "data-analysis": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "data-analysis",
-          "audience-resonance",
-          "google-maps",
-          "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
-          "python",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy",
-          "creative-strategy",
-          "methodology",
-          "data-analysis",
-          "generative-ai",
-          "youtube",
-          "haunted-machine",
-          "haunted-machine-tldr"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy",
-          "creative-strategy",
-          "methodology",
-          "data-analysis",
-          "generative-ai",
-          "youtube",
-          "haunted-machine"
-        ]
-      },
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "seo",
-          "data-analysis",
-          "methodology",
-          "semantic-structure",
-          "algorithmic-discovery",
-          "python",
-          "nlp"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "semantic-structure",
-          "methodology",
-          "algorithmic-discovery",
-          "data-analysis"
-        ]
-      },
-      {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Output (Dataset)",
-        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
-        "date": "2026-04-24",
-        "tags": [
-          "data-analysis",
-          "instagram"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "data-analysis",
-          "methodology"
-        ]
-      }
-    ],
-    "audience-resonance": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "data-analysis",
-          "audience-resonance",
-          "google-maps",
-          "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
-          "python",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "art-forms-with-high-audience-resonance",
-        "title": "Art Forms with High Audience Resonance",
-        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
-        "date": "2026-03-15",
-        "tags": [
-          "audience-resonance",
-          "art-analysis",
-          "creative-strategy",
-          "audience-behaviour"
-        ]
-      },
-      {
-        "slug": "first-principles",
-        "title": "First Principles",
-        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-strategy",
-          "art-analysis",
-          "audience-resonance",
-          "abstraction"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-strategy",
-          "audience-resonance",
-          "art-analysis",
-          "identity-construction"
-        ]
-      },
-      {
-        "slug": "most-popular-art-mediums-based-on-the-datasets",
-        "title": "Most Popular Art Mediums Based on the Datasets",
-        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
-        "date": "2026-03-15",
-        "tags": [
-          "art-analysis",
-          "audience-resonance",
-          "medium-analysis",
-          "creative-strategy"
-        ]
-      }
-    ],
-    "google-maps": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "data-analysis",
-          "audience-resonance",
-          "google-maps",
-          "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
-          "python",
-          "strategic-positioning"
-        ]
-      }
-    ],
-    "llm-analysis": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "data-analysis",
-          "audience-resonance",
-          "google-maps",
-          "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
-          "python",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "methodology",
-          "semantic-structure",
-          "content-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "llm-analysis"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "adversarial-analysis",
-          "generative-ai",
-          "zombie-survival",
-          "youtube"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "generative-ai"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "sep",
-          "analysis-protocol",
-          "llm-analysis",
-          "semantic-structure",
-          "generative-ai",
-          "embedding-space",
-          "structural-extraction"
-        ]
-      }
-    ],
-    "audience-behaviour": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "data-analysis",
-          "audience-resonance",
-          "google-maps",
-          "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
-          "python",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "art-forms-with-high-audience-resonance",
-        "title": "Art Forms with High Audience Resonance",
-        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
-        "date": "2026-03-15",
-        "tags": [
-          "audience-resonance",
-          "art-analysis",
-          "creative-strategy",
-          "audience-behaviour"
-        ]
-      }
-    ],
-    "identity-construction": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "data-analysis",
-          "audience-resonance",
-          "google-maps",
-          "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
-          "python",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-strategy",
-          "audience-resonance",
-          "art-analysis",
-          "identity-construction"
-        ]
-      }
-    ],
-    "python": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "data-analysis",
-          "audience-resonance",
-          "google-maps",
-          "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
-          "python",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "seo",
-          "data-analysis",
-          "methodology",
-          "semantic-structure",
-          "algorithmic-discovery",
-          "python",
-          "nlp"
-        ]
-      }
-    ],
-    "strategic-positioning": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "data-analysis",
-          "audience-resonance",
-          "google-maps",
-          "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
-          "python",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "who-benefits-most-from-this-system",
-        "title": "Who Benefits Most From This System",
-        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
-        "date": "2026-04-25",
-        "tags": [
-          "content-strategy",
-          "creative-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "strategic-positioning"
-        ]
-      }
-    ],
     "seo": [
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "llm-analysis",
+          "python",
+          "strategic-positioning"
+        ]
+      },
       {
         "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
@@ -882,6 +504,360 @@
           "algorithmic-discovery",
           "seo",
           "content-strategy"
+        ]
+      }
+    ],
+    "data-analysis": [
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "llm-analysis",
+          "python",
+          "strategic-positioning"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy",
+          "creative-strategy",
+          "methodology",
+          "data-analysis",
+          "generative-ai",
+          "youtube",
+          "haunted-machine",
+          "haunted-machine-tldr"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy",
+          "creative-strategy",
+          "methodology",
+          "data-analysis",
+          "generative-ai",
+          "youtube",
+          "haunted-machine"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "semantic-structure",
+          "algorithmic-discovery",
+          "python",
+          "nlp"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "semantic-structure",
+          "methodology",
+          "algorithmic-discovery",
+          "data-analysis"
+        ]
+      },
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Output (Dataset)",
+        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+        "date": "2026-04-24",
+        "tags": [
+          "data-analysis",
+          "instagram"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "data-analysis",
+          "methodology"
+        ]
+      }
+    ],
+    "methodology": [
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "llm-analysis",
+          "python",
+          "strategic-positioning"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy",
+          "creative-strategy",
+          "methodology",
+          "data-analysis",
+          "generative-ai",
+          "youtube",
+          "haunted-machine",
+          "haunted-machine-tldr"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy",
+          "creative-strategy",
+          "methodology",
+          "data-analysis",
+          "generative-ai",
+          "youtube",
+          "haunted-machine"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "semantic-structure",
+          "algorithmic-discovery",
+          "python",
+          "nlp"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "semantic-structure",
+          "methodology",
+          "algorithmic-discovery",
+          "data-analysis"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "methodology",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "llm-analysis"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "data-analysis",
+          "methodology"
+        ]
+      },
+      {
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "date": "2026-04-24",
+        "tags": [
+          "methodology",
+          "research-process"
+        ]
+      }
+    ],
+    "llm-analysis": [
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "llm-analysis",
+          "python",
+          "strategic-positioning"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "methodology",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "llm-analysis"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival",
+          "youtube"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
+      }
+    ],
+    "python": [
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "llm-analysis",
+          "python",
+          "strategic-positioning"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "semantic-structure",
+          "algorithmic-discovery",
+          "python",
+          "nlp"
+        ]
+      }
+    ],
+    "strategic-positioning": [
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "llm-analysis",
+          "python",
+          "strategic-positioning"
+        ]
+      },
+      {
+        "slug": "who-benefits-most-from-this-system",
+        "title": "Who Benefits Most From This System",
+        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+        "date": "2026-04-25",
+        "tags": [
+          "content-strategy",
+          "creative-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "strategic-positioning"
         ]
       }
     ],
@@ -1467,108 +1443,6 @@
         ]
       }
     ],
-    "methodology": [
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy",
-          "creative-strategy",
-          "methodology",
-          "data-analysis",
-          "generative-ai",
-          "youtube",
-          "haunted-machine",
-          "haunted-machine-tldr"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy",
-          "creative-strategy",
-          "methodology",
-          "data-analysis",
-          "generative-ai",
-          "youtube",
-          "haunted-machine"
-        ]
-      },
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "seo",
-          "data-analysis",
-          "methodology",
-          "semantic-structure",
-          "algorithmic-discovery",
-          "python",
-          "nlp"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "semantic-structure",
-          "methodology",
-          "algorithmic-discovery",
-          "data-analysis"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "methodology",
-          "semantic-structure",
-          "content-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "llm-analysis"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "data-analysis",
-          "methodology"
-        ]
-      },
-      {
-        "slug": "seer-clown-research-process",
-        "title": "Research Process Used to Establish the Seer-Clown Archetype",
-        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
-        "date": "2026-04-24",
-        "tags": [
-          "methodology",
-          "research-process"
-        ]
-      }
-    ],
     "generative-ai": [
       {
         "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -2133,6 +2007,56 @@
         ]
       }
     ],
+    "audience-resonance": [
+      {
+        "slug": "art-forms-with-high-audience-resonance",
+        "title": "Art Forms with High Audience Resonance",
+        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "date": "2026-03-15",
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy",
+          "audience-behaviour"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "art-analysis",
+          "audience-resonance",
+          "abstraction"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis",
+          "identity-construction"
+        ]
+      },
+      {
+        "slug": "most-popular-art-mediums-based-on-the-datasets",
+        "title": "Most Popular Art Mediums Based on the Datasets",
+        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "date": "2026-03-15",
+        "tags": [
+          "art-analysis",
+          "audience-resonance",
+          "medium-analysis",
+          "creative-strategy"
+        ]
+      }
+    ],
     "art-analysis": [
       {
         "slug": "art-forms-with-high-audience-resonance",
@@ -2183,6 +2107,20 @@
         ]
       }
     ],
+    "audience-behaviour": [
+      {
+        "slug": "art-forms-with-high-audience-resonance",
+        "title": "Art Forms with High Audience Resonance",
+        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "date": "2026-03-15",
+        "tags": [
+          "audience-resonance",
+          "art-analysis",
+          "creative-strategy",
+          "audience-behaviour"
+        ]
+      }
+    ],
     "abstraction": [
       {
         "slug": "first-principles",
@@ -2206,6 +2144,20 @@
         "tags": [
           "generative-ai",
           "ai-misuse"
+        ]
+      }
+    ],
+    "identity-construction": [
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-strategy",
+          "audience-resonance",
+          "art-analysis",
+          "identity-construction"
         ]
       }
     ],
@@ -2240,11 +2192,11 @@
   },
   "tagCentrality": [
     {
-      "tag": "algorithmic-discovery",
-      "count": 11
+      "tag": "seo",
+      "count": 12
     },
     {
-      "tag": "seo",
+      "tag": "algorithmic-discovery",
       "count": 11
     },
     {
@@ -2260,11 +2212,11 @@
       "count": 10
     },
     {
-      "tag": "data-analysis",
-      "count": 7
+      "tag": "methodology",
+      "count": 8
     },
     {
-      "tag": "methodology",
+      "tag": "data-analysis",
       "count": 7
     },
     {
@@ -2272,15 +2224,15 @@
       "count": 6
     },
     {
-      "tag": "audience-resonance",
-      "count": 5
-    },
-    {
       "tag": "llm-analysis",
       "count": 5
     },
     {
       "tag": "art-analysis",
+      "count": 4
+    },
+    {
+      "tag": "audience-resonance",
       "count": 4
     },
     {
@@ -2304,15 +2256,7 @@
       "count": 3
     },
     {
-      "tag": "audience-behaviour",
-      "count": 2
-    },
-    {
       "tag": "haunted-machine-tldr",
-      "count": 2
-    },
-    {
-      "tag": "identity-construction",
       "count": 2
     },
     {
@@ -2348,7 +2292,11 @@
       "count": 1
     },
     {
-      "tag": "google-maps",
+      "tag": "audience-behaviour",
+      "count": 1
+    },
+    {
+      "tag": "identity-construction",
       "count": 1
     },
     {
@@ -2387,16 +2335,14 @@
         "label": "Mining Google Maps Reviews for Unmet Customer Demand",
         "type": "article",
         "tags": [
+          "seo",
           "data-analysis",
-          "audience-resonance",
-          "google-maps",
+          "methodology",
           "llm-analysis",
-          "audience-behaviour",
-          "identity-construction",
           "python",
           "strategic-positioning"
         ],
-        "centrality": 18
+        "centrality": 30
       },
       {
         "id": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -2415,7 +2361,7 @@
           "haunted-machine",
           "haunted-machine-tldr"
         ],
-        "centrality": 70
+        "centrality": 72
       },
       {
         "id": "from-seo-keywords-to-the-haunted-machine",
@@ -2433,7 +2379,7 @@
           "youtube",
           "haunted-machine"
         ],
-        "centrality": 69
+        "centrality": 71
       },
       {
         "id": "how-search-and-recommendation-systems-actually-work",
@@ -2445,7 +2391,7 @@
           "semantic-structure",
           "content-strategy"
         ],
-        "centrality": 38
+        "centrality": 39
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -2457,7 +2403,7 @@
           "content-strategy",
           "algorithmic-discovery"
         ],
-        "centrality": 38
+        "centrality": 39
       },
       {
         "id": "python-nlp-semantic-seo",
@@ -2472,7 +2418,7 @@
           "python",
           "nlp"
         ],
-        "centrality": 42
+        "centrality": 44
       },
       {
         "id": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -2486,7 +2432,7 @@
           "algorithmic-discovery",
           "data-analysis"
         ],
-        "centrality": 50
+        "centrality": 52
       },
       {
         "id": "sda3-tldr",
@@ -2510,7 +2456,7 @@
           "seo",
           "llm-analysis"
         ],
-        "centrality": 48
+        "centrality": 50
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -2523,7 +2469,7 @@
           "seo",
           "strategic-positioning"
         ],
-        "centrality": 39
+        "centrality": 40
       },
       {
         "id": "clustered-output-instagram-dataset",
@@ -2543,7 +2489,7 @@
           "data-analysis",
           "methodology"
         ],
-        "centrality": 12
+        "centrality": 13
       },
       {
         "id": "methodology-evaluation-and-validity",
@@ -2564,7 +2510,7 @@
           "methodology",
           "research-process"
         ],
-        "centrality": 7
+        "centrality": 8
       },
       {
         "id": "youtube-video-index",
@@ -2635,7 +2581,7 @@
           "creative-strategy",
           "audience-behaviour"
         ],
-        "centrality": 17
+        "centrality": 15
       },
       {
         "id": "first-principles",
@@ -2647,7 +2593,7 @@
           "audience-resonance",
           "abstraction"
         ],
-        "centrality": 16
+        "centrality": 15
       },
       {
         "id": "gpt-misuse-is-not-what-people-think",
@@ -2669,7 +2615,7 @@
           "art-analysis",
           "identity-construction"
         ],
-        "centrality": 17
+        "centrality": 15
       },
       {
         "id": "most-popular-art-mediums-based-on-the-datasets",
@@ -2681,7 +2627,7 @@
           "medium-analysis",
           "creative-strategy"
         ],
-        "centrality": 16
+        "centrality": 15
       },
       {
         "id": "seo-visibility-structural-legibility",
@@ -2693,7 +2639,7 @@
           "creative-strategy",
           "algorithmic-discovery"
         ],
-        "centrality": 38
+        "centrality": 39
       },
       {
         "id": "this-process-is-not-seo",
@@ -2705,7 +2651,7 @@
           "creative-strategy",
           "algorithmic-discovery"
         ],
-        "centrality": 38
+        "centrality": 39
       },
       {
         "id": "visibility-under-hostile-conditions",
@@ -2717,56 +2663,83 @@
           "seo",
           "content-strategy"
         ],
-        "centrality": 29
+        "centrality": 30
       }
     ],
     "edges": [
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "weight": 1,
+        "weight": 3,
         "tags": [
-          "data-analysis"
+          "seo",
+          "data-analysis",
+          "methodology"
         ]
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "from-seo-keywords-to-the-haunted-machine",
+        "weight": 3,
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology"
+        ]
+      },
+      {
+        "source": "google-maps-review-mining-unmet-demand",
+        "target": "how-search-and-recommendation-systems-actually-work",
         "weight": 1,
         "tags": [
-          "data-analysis"
+          "seo"
+        ]
+      },
+      {
+        "source": "google-maps-review-mining-unmet-demand",
+        "target": "semantic-seo-is-graph-positioning",
+        "weight": 1,
+        "tags": [
+          "seo"
         ]
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "python-nlp-semantic-seo",
-        "weight": 2,
+        "weight": 4,
         "tags": [
+          "seo",
           "data-analysis",
+          "methodology",
           "python"
         ]
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "weight": 1,
+        "weight": 3,
         "tags": [
-          "data-analysis"
+          "seo",
+          "data-analysis",
+          "methodology"
         ]
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "research-pipeline",
-        "weight": 1,
+        "weight": 3,
         "tags": [
+          "seo",
+          "methodology",
           "llm-analysis"
         ]
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "who-benefits-most-from-this-system",
-        "weight": 1,
+        "weight": 2,
         "tags": [
+          "seo",
           "strategic-positioning"
         ]
       },
@@ -2781,9 +2754,18 @@
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "data-structure-intermediate-stage",
+        "weight": 2,
+        "tags": [
+          "data-analysis",
+          "methodology"
+        ]
+      },
+      {
+        "source": "google-maps-review-mining-unmet-demand",
+        "target": "seer-clown-research-process",
         "weight": 1,
         "tags": [
-          "data-analysis"
+          "methodology"
         ]
       },
       {
@@ -2812,36 +2794,26 @@
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
-        "target": "art-forms-with-high-audience-resonance",
-        "weight": 2,
-        "tags": [
-          "audience-resonance",
-          "audience-behaviour"
-        ]
-      },
-      {
-        "source": "google-maps-review-mining-unmet-demand",
-        "target": "first-principles",
+        "target": "seo-visibility-structural-legibility",
         "weight": 1,
         "tags": [
-          "audience-resonance"
+          "seo"
         ]
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
-        "target": "maximising-artistic-identity",
-        "weight": 2,
-        "tags": [
-          "audience-resonance",
-          "identity-construction"
-        ]
-      },
-      {
-        "source": "google-maps-review-mining-unmet-demand",
-        "target": "most-popular-art-mediums-based-on-the-datasets",
+        "target": "this-process-is-not-seo",
         "weight": 1,
         "tags": [
-          "audience-resonance"
+          "seo"
+        ]
+      },
+      {
+        "source": "google-maps-review-mining-unmet-demand",
+        "target": "visibility-under-hostile-conditions",
+        "weight": 1,
+        "tags": [
+          "seo"
         ]
       },
       {

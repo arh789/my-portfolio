@@ -3,12 +3,10 @@ title: "Mining Google Maps Reviews for Unmet Customer Demand"
 description: "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis."
 date: "2026-06-16"
 tags:
+  - seo
   - data-analysis
-  - audience-resonance
-  - google maps
+  - methodology
   - llm-analysis
-  - audience-behaviour
-  - identity-construction
   - python
   - strategic-positioning
 
