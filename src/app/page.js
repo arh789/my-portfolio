@@ -38,54 +38,63 @@ const banners = [
     {
         href: '/about',
         src: '/images/home_menu_images/01_about.png',
-        alt: 'About page'
+        alt: 'About page',
+        height: 193
     },
     {
         href: '/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content',
         src: '/images/home_menu_images/02_discovering_hidden_structure.png',
-        alt: 'How AI, Network Analysis and LLMs Reveal Hidden Structure in Content'
+        alt: 'How AI, Network Analysis and LLMs Reveal Hidden Structure in Content',
+        height: 194
     },
     {
         href: '/workflow-structure-breakdown',
         src: '/images/home_menu_images/03_workflow_breakdown.png',
-        alt: 'Workflow structure breakdown'
+        alt: 'Workflow structure breakdown',
+        height: 193
     },
     {
         href: '/code',
         src: '/images/home_menu_images/04_semantic_seo_code.png',
-        alt: 'Semantic SEO code'
+        alt: 'Semantic SEO code',
+        height: 193
     },
     {
         href: '/datamining-llm',
         src: '/images/home_menu_images/05_datamining_a_llm.png',
-        alt: 'Datamining a large language model'
+        alt: 'Datamining a large language model',
+        height: 193
     },
     {
         href: '/content-strategy',
         src: '/images/home_menu_images/06_content_strategy.png',
-        alt: 'Content strategy'
+        alt: 'Content strategy',
+        height: 194
     },
     {
         href: '/art',
         src: '/images/home_menu_images/07_blog.png',
-        alt: 'Art blog and gallery'
+        alt: 'Art blog and gallery',
+        height: 193
     },
     {
         href: '/contact',
         src: '/images/home_menu_images/08_contact.png',
-        alt: 'Contact form'
+        alt: 'Contact form',
+        height: 193
     }
 ];
 
-function BannerItem({ href, src, alt }) {
+function BannerItem({ href, src, alt, height }) {
     return (
         <Link href={href} className="banner">
             <Image
                 src={src}
                 alt={alt}
-                width={469}
-                height={97}
-                sizes="(max-width: 1200px) 100vw, 1200px"
+                width={1106}
+                height={height}
+                sizes="(max-width: 768px) 75vw, (max-width: 1172px) 40vw, 469px"
+                style={{ width: "100%", height: "auto" }}
             />
         </Link>
     );
