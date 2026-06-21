@@ -58,6 +58,9 @@ export default function RootLayout({ children }) {
                             <Link href="https://www.linkedin.com/in/andrewrhale1/" target="_blank" rel="noopener noreferrer">
                                 LinkedIn
                             </Link>
+                            <Link href="https://www.tiktok.com/@decrepitfilth.art" target="_blank" rel="noopener noreferrer">
+                                TikTok
+                            </Link>
                             <Link href="https://github.com/arh789/" target="_blank" rel="noopener noreferrer">
                                 GitHub
                             </Link>
