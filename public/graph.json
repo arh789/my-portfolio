@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-06-16T05:00:08.144Z",
+  "generatedAt": "2026-06-27T03:49:12.123Z",
   "articles": [
+    {
+      "slug": "adversarial-questioning-chatgpt-zombie-survival",
+      "title": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+      "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+      "date": "2026-06-27",
+      "tags": [
+        "youtube",
+        "zombie-survival",
+        "sda-3-tldr"
+      ]
+    },
     {
       "slug": "google-maps-review-mining-unmet-demand",
       "title": "Mining Google Maps Reviews for Unmet Customer Demand",
@@ -338,6 +349,165 @@
     }
   ],
   "tagIndex": {
+    "youtube": [
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "youtube",
+          "zombie-survival",
+          "sda-3-tldr"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy",
+          "creative-strategy",
+          "methodology",
+          "data-analysis",
+          "generative-ai",
+          "youtube",
+          "haunted-machine",
+          "haunted-machine-tldr"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy",
+          "creative-strategy",
+          "methodology",
+          "data-analysis",
+          "generative-ai",
+          "youtube",
+          "haunted-machine"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival",
+          "sda-3-tldr",
+          "haunted-machine",
+          "haunted-machine-tldr"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival",
+          "youtube"
+        ]
+      }
+    ],
+    "zombie-survival": [
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "youtube",
+          "zombie-survival",
+          "sda-3-tldr"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival",
+          "sda-3-tldr",
+          "haunted-machine",
+          "haunted-machine-tldr"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival",
+          "youtube"
+        ]
+      }
+    ],
+    "sda-3-tldr": [
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "youtube",
+          "zombie-survival",
+          "sda-3-tldr"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "sda-3",
+          "sda-3-tldr"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival",
+          "sda-3-tldr",
+          "haunted-machine",
+          "haunted-machine-tldr"
+        ]
+      }
+    ],
     "seo": [
       {
         "slug": "google-maps-review-mining-unmet-demand",
@@ -1538,75 +1708,6 @@
         ]
       }
     ],
-    "youtube": [
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy",
-          "creative-strategy",
-          "methodology",
-          "data-analysis",
-          "generative-ai",
-          "youtube",
-          "haunted-machine",
-          "haunted-machine-tldr"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy",
-          "creative-strategy",
-          "methodology",
-          "data-analysis",
-          "generative-ai",
-          "youtube",
-          "haunted-machine"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival",
-          "sda-3-tldr",
-          "haunted-machine",
-          "haunted-machine-tldr"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "adversarial-analysis",
-          "generative-ai",
-          "zombie-survival",
-          "youtube"
-        ]
-      }
-    ],
     "haunted-machine": [
       {
         "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -1753,31 +1854,6 @@
         ]
       }
     ],
-    "sda-3-tldr": [
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "sda-3",
-          "sda-3-tldr"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival",
-          "sda-3-tldr",
-          "haunted-machine",
-          "haunted-machine-tldr"
-        ]
-      }
-    ],
     "instagram": [
       {
         "slug": "clustered-output-instagram-dataset",
@@ -1823,38 +1899,6 @@
           "research-process",
           "seerclown-creative-strategy",
           "creative-strategy"
-        ]
-      }
-    ],
-    "zombie-survival": [
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival",
-          "sda-3-tldr",
-          "haunted-machine",
-          "haunted-machine-tldr"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "adversarial-analysis",
-          "generative-ai",
-          "zombie-survival",
-          "youtube"
         ]
       }
     ],
@@ -2228,15 +2272,15 @@
       "count": 5
     },
     {
+      "tag": "youtube",
+      "count": 5
+    },
+    {
       "tag": "art-analysis",
       "count": 4
     },
     {
       "tag": "audience-resonance",
-      "count": 4
-    },
-    {
-      "tag": "youtube",
       "count": 4
     },
     {
@@ -2256,6 +2300,14 @@
       "count": 3
     },
     {
+      "tag": "sda-3-tldr",
+      "count": 3
+    },
+    {
+      "tag": "zombie-survival",
+      "count": 3
+    },
+    {
       "tag": "haunted-machine-tldr",
       "count": 2
     },
@@ -2268,15 +2320,7 @@
       "count": 2
     },
     {
-      "tag": "sda-3-tldr",
-      "count": 2
-    },
-    {
       "tag": "strategic-positioning",
-      "count": 2
-    },
-    {
-      "tag": "zombie-survival",
       "count": 2
     },
     {
@@ -2331,6 +2375,17 @@
   "graph": {
     "nodes": [
       {
+        "id": "adversarial-questioning-chatgpt-zombie-survival",
+        "label": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+        "type": "article",
+        "tags": [
+          "youtube",
+          "zombie-survival",
+          "sda-3-tldr"
+        ],
+        "centrality": 8
+      },
+      {
         "id": "google-maps-review-mining-unmet-demand",
         "label": "Mining Google Maps Reviews for Unmet Customer Demand",
         "type": "article",
@@ -2361,7 +2416,7 @@
           "haunted-machine",
           "haunted-machine-tldr"
         ],
-        "centrality": 72
+        "centrality": 73
       },
       {
         "id": "from-seo-keywords-to-the-haunted-machine",
@@ -2379,7 +2434,7 @@
           "youtube",
           "haunted-machine"
         ],
-        "centrality": 71
+        "centrality": 72
       },
       {
         "id": "how-search-and-recommendation-systems-actually-work",
@@ -2442,7 +2497,7 @@
           "sda-3",
           "sda-3-tldr"
         ],
-        "centrality": 3
+        "centrality": 4
       },
       {
         "id": "research-pipeline",
@@ -2523,7 +2578,7 @@
           "haunted-machine",
           "haunted-machine-tldr"
         ],
-        "centrality": 8
+        "centrality": 11
       },
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -2540,7 +2595,7 @@
           "zombie-survival",
           "youtube"
         ],
-        "centrality": 28
+        "centrality": 30
       },
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -2667,6 +2722,49 @@
       }
     ],
     "edges": [
+      {
+        "source": "adversarial-questioning-chatgpt-zombie-survival",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "weight": 1,
+        "tags": [
+          "youtube"
+        ]
+      },
+      {
+        "source": "adversarial-questioning-chatgpt-zombie-survival",
+        "target": "from-seo-keywords-to-the-haunted-machine",
+        "weight": 1,
+        "tags": [
+          "youtube"
+        ]
+      },
+      {
+        "source": "adversarial-questioning-chatgpt-zombie-survival",
+        "target": "sda3-tldr",
+        "weight": 1,
+        "tags": [
+          "sda-3-tldr"
+        ]
+      },
+      {
+        "source": "adversarial-questioning-chatgpt-zombie-survival",
+        "target": "youtube-video-index",
+        "weight": 3,
+        "tags": [
+          "youtube",
+          "zombie-survival",
+          "sda-3-tldr"
+        ]
+      },
+      {
+        "source": "adversarial-questioning-chatgpt-zombie-survival",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 2,
+        "tags": [
+          "youtube",
+          "zombie-survival"
+        ]
+      },
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "ai-seo-strategy-why-your-creative-work-is-invisible",

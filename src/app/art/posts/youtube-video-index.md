@@ -32,6 +32,28 @@ The video shows how SDA-3 shifts the model away from fluent answer-generation an
 
 ---
 
+## ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This
+
+This video continues the zombie-survival analysis by focusing on fuel, mobility, and adversarial questioning.
+
+The question is not whether vehicles are useful in a collapse scenario. The question is whether ChatGPT’s mobile-fortress logic survives once fuel, maintenance, roads, noise, and long-term scarcity are treated as real constraints.
+
+The video shows how adversarial questioning forces the answer to reorganise: fuel-dependent mobility stops being foundational, static defence does not become viable again, and the surviving structure becomes adaptive mobility under scarcity.
+
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/0ti2eVmW9UI"
+  title="ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+**Related post:** [ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This](https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival)
+
+---
+
 ## SDA-3 tl;dr: Mapping LLM Response Structure
 
 This video is the short companion to the longer zombie-survival SDA-3 analysis. It explains the method directly: not as a zombie scenario, but as a structural process for making a large language model expose the pressures shaping its response.
