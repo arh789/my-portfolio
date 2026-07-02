@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { marked } from 'marked';
 import Image from 'next/image';
 import { MedievalSharp } from 'next/font/google';
 import styles from '../datamining-llm/datamining-a-llm.module.css';
@@ -45,7 +44,7 @@ export default function CollapsibleSections({ sections }) {
                             <div
                                 className={`${styles['paragraph-section']} ${medieval.variable}`}
                                 dangerouslySetInnerHTML={{
-                                    __html: marked(section.markdown),
+                                    __html: section.html,
                                 }}
                             />
                         </div>

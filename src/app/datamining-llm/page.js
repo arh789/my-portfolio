@@ -1,8 +1,9 @@
-﻿import fs from 'fs'
+import fs from 'fs'
 import path from 'path'
 import Image from 'next/image'
 import { MedievalSharp } from 'next/font/google'
 import CollapsibleSections from '../components/CollapsibleSections.js'
+import { parseMarkdown } from '../components/markdown.js'
 import styles from './datamining-a-llm.module.css'
 
 /* LOAD FONT (page-specific) */
@@ -59,17 +60,17 @@ const sectionDefs = [
     },
 ]
 
-export default function Page() {
+export default async function Page() {
     const baseDir = path.join(process.cwd(), 'src/app/datamining-llm')
 
-    const sections = sectionDefs.map(({ file, title, image }) => {
+    const sections = await Promise.all(sectionDefs.map(async ({ file, title, image }) => {
         const content = fs.readFileSync(path.join(baseDir, file), 'utf8')
         return {
             title,
             image,
-            markdown: content,
+            html: await parseMarkdown(content),
         }
-    })
+    }))
 
     return (
         <div className={styles.container}>

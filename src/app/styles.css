@@ -289,6 +289,30 @@ body.has-site-index-nav .site-shell {
         z-index: 10;
     }
 
+
+/* ============================= */
+/* YOUTUBE EMBEDS */
+/* ============================= */
+
+.youtube-embed {
+    width: 100%;
+    max-width: 960px;
+    margin: 1.5rem auto;
+    aspect-ratio: 16 / 9;
+}
+
+.youtube-embed--portrait {
+    max-width: 420px;
+    aspect-ratio: 9 / 16;
+}
+
+.youtube-embed__frame {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 /* ============================= */
 /* FOOTER */
 /* ============================= */
@@ -345,3 +369,5 @@ footer p {
     white-space: nowrap;
     border: 0;
 }
+
+

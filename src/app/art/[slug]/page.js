@@ -2,9 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import Link from "next/link";
 import matter from "gray-matter";
-import { remark } from "remark";
-import remarkGfm from "remark-gfm";
-import remarkHtml from "remark-html";
+import { parseMarkdown } from "../../components/markdown.js";
 import "../art.css";
 
 const POSTS_DIR = path.join(process.cwd(), "src/app/art/posts");
@@ -40,10 +38,7 @@ async function readArticleBySlug(slug) {
 
         if (derivedSlug !== slug) continue;
 
-        const processed = await remark()
-            .use(remarkGfm)
-            .use(remarkHtml, { sanitize: false })
-            .process(content);
+        const contentHtml = await parseMarkdown(content);
 
         return {
             slug: derivedSlug,
@@ -51,7 +46,7 @@ async function readArticleBySlug(slug) {
             description: data.description ?? "",
             date: normaliseDate(data.date),
             tags: normaliseTags(data.tags),
-            contentHtml: processed.toString(),
+            contentHtml,
         };
     }
 

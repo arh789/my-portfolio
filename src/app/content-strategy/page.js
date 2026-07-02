@@ -1,7 +1,8 @@
-﻿import fs from 'fs'
+import fs from 'fs'
 import path from 'path'
 import Image from 'next/image'
 import CollapsibleSections from '../components/CollapsibleSections.js'
+import { parseMarkdown } from '../components/markdown.js'
 import styles from './contentStrategy.module.css'
 
 export const metadata = {
@@ -64,18 +65,18 @@ const sectionDefs = [
     },
 ]
 
-export default function Page() {
+export default async function Page() {
     const baseDir = path.join(process.cwd(), 'src/app/content-strategy')
 
-    const sections = sectionDefs.map(({ file, title, image }) => {
+    const sections = await Promise.all(sectionDefs.map(async ({ file, title, image }) => {
         const content = fs.readFileSync(path.join(baseDir, file), 'utf8')
 
         return {
             title,
             image,
-            markdown: content, // ✅ matches CollapsibleSections
+            html: await parseMarkdown(content),
         }
-    })
+    }))
 
     return (
         <div className={styles.container}>

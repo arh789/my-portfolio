@@ -1,21 +1,13 @@
 This site documents a personal system for applying **machine learning to content strategy and SEO**, tested through a body of grotesque, surreal, and technically experimental (but otherwise shitty) artwork.
 
 It is not a product or service.  
-It is a working environment—used to develop, test, and deploy a methodology across real pages.
+It is a working environmentâ€”used to develop, test, and deploy a methodology across real pages.
 
-<iframe
-  width="100%"
-  height="500"
-  src="https://www.youtube.com/embed/DHU3EJnyg9o"
-  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
+{{ youtube id="DHU3EJnyg9o" title="AI SEO Strategy: Why Your Creative Work Is Invisible" }}
 
 ---
 
-## 🔷 What This Site Is
+## ðŸ”· What This Site Is
 
 A **modular, content-driven website** that demonstrates:
 
@@ -29,7 +21,7 @@ It functions as **difficult subject matter**, used to test whether the system ca
 
 ---
 
-## 🔧 Technical Core
+## ðŸ”§ Technical Core
 
 - **Reusable Site Structure**  
   One underlying logic; content and design vary without changing system behaviour  
@@ -50,7 +42,7 @@ It functions as **difficult subject matter**, used to test whether the system ca
 
 ---
 
-## 🧠 Methodological Framework
+## ðŸ§  Methodological Framework
 
 The system is built around a personal methodology referred to as **Emergent Structural Mapping (ESM)**.
 
@@ -68,7 +60,7 @@ Documentation and implementation examples are available throughout the project.
 
 ---
 
-## 🎨 Artistic Context
+## ðŸŽ¨ Artistic Context
 
 - **Themes**: grotesque surrealism, digital decay, semantic corruption, pop horror  
 - **Mediums**:
@@ -77,11 +69,11 @@ Documentation and implementation examples are available throughout the project.
   - Symbolic alphabets  
   - High-contrast, jarring colour palettes  
 
-The artwork exists to introduce instability, ambiguity, and resistance—conditions where structure must be actively constructed rather than assumed.
+The artwork exists to introduce instability, ambiguity, and resistanceâ€”conditions where structure must be actively constructed rather than assumed.
 
 ---
 
-## 📦 What This Site Produces
+## ðŸ“¦ What This Site Produces
 
 - A **live demonstration** of automated SEO deployment  
 - Applied LLM workflows for:
@@ -94,7 +86,7 @@ The artwork exists to introduce instability, ambiguity, and resistance—conditi
 
 ---
 
-## 🧱 Positioning
+## ðŸ§± Positioning
 
 This is not a traditional portfolio.
 
@@ -106,6 +98,7 @@ It is a **procedural artefact** that integrates:
 - Technical deployment infrastructure  
 
 Each page is both output and test case.
+
 
 
 

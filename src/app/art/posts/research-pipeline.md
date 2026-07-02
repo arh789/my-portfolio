@@ -32,15 +32,7 @@ This pipeline is a single system:
 
 This pipeline behaves like an archaeological reconstruction of a black-box semantic system, filtered through evolutionary selection and stabilised via statistical and model-based inference.
 
-<iframe
-  width="100%"
-  height="500"
-  src="https://www.youtube.com/embed/9UeCmC79z3I"
-  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
+{{ youtube id="9UeCmC79z3I" title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System" }}
 
 ---
 
@@ -52,7 +44,7 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 
 **Process:**
 
-- Seed term → prefix expansion (a–z)
+- Seed term â†’ prefix expansion (aâ€“z)
 - Query Google autocomplete
 - Collect suggested queries
 
@@ -156,7 +148,7 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 
 - Transforms:
 
-  statistical clusters → interpreted structures
+  statistical clusters â†’ interpreted structures
 
 ---
 
@@ -189,7 +181,7 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 
 - Converts:
 
-  interpreted structure → tested structure
+  interpreted structure â†’ tested structure
 
 ---
 
@@ -221,29 +213,29 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 
 - Converts:
 
-  structure → actionable decisions
+  structure â†’ actionable decisions
 
 ---
 
 ## Unified Pipeline
 
 [1] Autocomplete
-    → Query space (what can exist)
+    â†’ Query space (what can exist)
 
 [2] SERP + Content
-    → Survivorship (what persists)
+    â†’ Survivorship (what persists)
 
 [3] Statistics + Clustering
-    → Proto-structure (what relates)
+    â†’ Proto-structure (what relates)
 
 [4] LLM Interpretation
-    → Semantic structure (what it means)
+    â†’ Semantic structure (what it means)
 
 [5] Curvature Interrogation
-    → Validated structure (what holds)
+    â†’ Validated structure (what holds)
 
 [6] Strategy Extraction
-    → Selection logic (what to do)
+    â†’ Selection logic (what to do)
 
 ---
 
@@ -321,4 +313,5 @@ The final purpose is:
 
 ## Final Compression
 
-Probe → Filter → Structure → Interpret → Stress-test → Select
+Probe â†’ Filter â†’ Structure â†’ Interpret â†’ Stress-test â†’ Select
+

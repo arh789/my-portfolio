@@ -25,12 +25,7 @@ Most creative work does not fail because it is bad.
 
 It fails because it has no clear position inside the systems that decide what becomes visible.
 
-<iframe 
-  src="https://www.youtube.com/embed/DHU3EJnyg9o"
-  width="100%" 
-  height="500"
-  allowfullscreen>
-</iframe>
+{{ youtube id="DHU3EJnyg9o" title="AI SEO Strategy: Why Your Creative Work Is Invisible" }}
 
 Search engines, recommendation systems, AI retrieval tools, and social platforms do not simply reward quality. They reward recognisable structure: repeated entities, stable relationships, clear topic boundaries, useful connections, and content that helps organise a wider field.
 
@@ -91,3 +86,5 @@ For the full methodology behind the video, start here:
 * [Research Pipeline](https://decrepitfilth.art/art/research-pipeline)
 * [Semantic SEO Is Graph Positioning](https://decrepitfilth.art/art/semantic-seo-is-graph-positioning)
 * [How Search and Recommendation Systems Actually Work](https://decrepitfilth.art/art/how-search-and-recommendation-systems-actually-work)
+
+

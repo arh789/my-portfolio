@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-27T03:49:12.123Z",
+  "generatedAt": "2026-07-01T08:56:09.482Z",
   "articles": [
     {
       "slug": "adversarial-questioning-chatgpt-zombie-survival",
-      "title": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+      "title": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
       "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
       "date": "2026-06-27",
       "tags": [
@@ -209,7 +209,7 @@
     },
     {
       "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-      "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+      "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
       "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
       "date": "2026-04-08",
       "tags": [
@@ -352,7 +352,7 @@
     "youtube": [
       {
         "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+        "title": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
         "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
         "date": "2026-06-27",
         "tags": [
@@ -413,7 +413,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -432,7 +432,7 @@
     "zombie-survival": [
       {
         "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+        "title": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
         "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
         "date": "2026-06-27",
         "tags": [
@@ -456,7 +456,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -475,7 +475,7 @@
     "sda-3-tldr": [
       {
         "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+        "title": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
         "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
         "date": "2026-06-27",
         "tags": [
@@ -926,7 +926,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -1293,7 +1293,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -1653,7 +1653,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -1824,7 +1824,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -1905,7 +1905,7 @@
     "embedding-space": [
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -1953,7 +1953,7 @@
     "analysis-protocol": [
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -2001,7 +2001,7 @@
     "adversarial-analysis": [
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -2376,7 +2376,7 @@
     "nodes": [
       {
         "id": "adversarial-questioning-chatgpt-zombie-survival",
-        "label": "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This",
+        "label": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
         "type": "article",
         "tags": [
           "youtube",
@@ -2582,7 +2582,7 @@
       },
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "label": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "label": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
         "type": "article",
         "tags": [
           "sda-3",

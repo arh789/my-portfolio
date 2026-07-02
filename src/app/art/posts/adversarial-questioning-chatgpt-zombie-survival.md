@@ -1,6 +1,6 @@
 ---
 
-title: "ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This"
+title: "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This"
 description: "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse."
 date: 2026-06-27
 tags:
@@ -10,25 +10,17 @@ tags:
 
 ---
 
-# ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This
+# ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This
 
-<iframe
-  width="100%"
-  height="500"
-  src="https://www.youtube.com/embed/0ti2eVmW9UI"
-  title="ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
+{{ youtube id="0ti2eVmW9UI" title="ChatGPT's Zombie Survival Plan Falls Apart When You Ask This" }}
 
 ## Related videos
 
 If you're new to this series, these earlier videos provide the broader context:
 
-1. **[Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)](/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)** — the full case study introducing the zombie-survival analysis.
+1. **[Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)](/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)** â€” the full case study introducing the zombie-survival analysis.
 
-2. **[SDA-3 tl;dr: Mapping LLM Response Structure](/art/sda3-tldr)** — a short overview of the SDA-3 methodology used throughout this series.
+2. **[SDA-3 tl;dr: Mapping LLM Response Structure](/art/sda3-tldr)** â€” a short overview of the SDA-3 methodology used throughout this series.
 
 ## What this video covers
 
@@ -312,3 +304,5 @@ That leads into:
 * controlled engagement distance
 * weapon selection shaped by geometry
 * combat systems designed around withdrawal rather than heroic last stands
+
+

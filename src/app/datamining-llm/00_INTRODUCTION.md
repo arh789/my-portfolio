@@ -1,4 +1,4 @@
-﻿# Datamining a LLM: Extracting Structural Meaning from Generative Collapse Using Symbolic Compression  
+# Datamining a LLM: Extracting Structural Meaning from Generative Collapse Using Symbolic Compression  
 
 ## TL;DR
 
@@ -8,12 +8,7 @@ By contrast, SEO driven by trend-chasing or mass-produced generative content amp
 
 When a domain becomes the canonical source for new information—offering data, interpretations, or relationships not yet encoded elsewhere—it improves the Knowledge Graph’s structural clarity, and in exchange gains increased visibility via search engine result page ranking. Optimal SEO therefore aligns with graph maintenance: clarity, precision, and the introduction of genuinely novel, index-worthy information.
 
-<iframe 
-  src="https://www.youtube.com/embed/fmYShejgkBc"
-  width="100%" 
-  height="500"
-  allowfullscreen
-></iframe>
+{{ youtube id="fmYShejgkBc" title="SDA-3 tl;dr: Mapping LLM Response Structure" }}
 
 ---
 
@@ -144,3 +139,4 @@ It is a **compression framework**—a system that turns expressive, unstable, or
 
 👉 Proceed to **01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md**  
 Learn how this system works structurally: including the symbolic grammar, suppression logic, and core operators used to interrogate and encode meaning.
+

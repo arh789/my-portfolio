@@ -1,8 +1,14 @@
-import { remark } from 'remark'; // Correct import for the named export
-import html from 'remark-html';  // Import the HTML processor for markdown
+import { remark } from "remark";
+import remarkGfm from "remark-gfm";
+import html from "remark-html";
+import remarkYouTubeEmbed from "./remarkYouTubeEmbed.js";
 
 export async function parseMarkdown(markdown) {
-    const processor = remark().use(html, { sanitize: false });  // Use the html plugin on the processor
-    const result = await processor.process(markdown);  // Process the markdown to HTML
-    return result.toString();  // Convert the markdown to HTML string
+    const result = await remark()
+        .use(remarkGfm)
+        .use(remarkYouTubeEmbed)
+        .use(html, { sanitize: false })
+        .process(markdown);
+
+    return result.toString();
 }

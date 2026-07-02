@@ -12,19 +12,11 @@ The central question is therefore not whether a model, algorithm, graph, or huma
 
 Hidden variables, missing incentives, suppressed information, unobserved relationships, and alternative explanations are often more important than the visible pattern itself. 
 
-Understanding how different systems discover structure—and where they fail—provides a practical framework for identifying blind spots in AI, strategy, research, business, science, and decision-making. 
+Understanding how different systems discover structureâ€”and where they failâ€”provides a practical framework for identifying blind spots in AI, strategy, research, business, science, and decision-making. 
 
 Ultimately, this topic matters because the greatest failures rarely come from misunderstanding what is visible; they come from failing to recognise what is absent or lost.
 
-<iframe
-  width="100%"
-  height="500"
-  src="https://www.youtube.com/embed/9UeCmC79z3I"
-  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
+{{ youtube id="9UeCmC79z3I" title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System" }}
 
 ---
 
@@ -46,7 +38,7 @@ The model adjusts itself to reduce future errors.
 
 Compressed:
 
-> **inputs → patterns → outputs → error correction**
+> **inputs â†’ patterns â†’ outputs â†’ error correction**
 
 This raises a simple question.
 
@@ -454,3 +446,4 @@ They are not being treated as separate technical interests.
 They are being used as different ways of locating hidden structure.
 
 test
+

@@ -19,19 +19,11 @@ It is a way to turn search results into a structured map of meaning.
 
 Python can collect search-result data, extract page-level language signals, reduce noise, identify recurring terms, map relationships between concepts, and expose the unresolved clusters that ordinary keyword lists often miss. The result is not just a list of things to write about. The result is a way to understand how a search space is organised, where it is already saturated, where it is underdeveloped, and where an original content strategy can legitimately emerge.
 
-This article explains the relationship between the site’s [workflow structure breakdown](/workflow-structure-breakdown), the [SEO Python codebase](/code), and the resulting [content strategy](/content-strategy).
+This article explains the relationship between the siteâ€™s [workflow structure breakdown](/workflow-structure-breakdown), the [SEO Python codebase](/code), and the resulting [content strategy](/content-strategy).
 
 The workflow page explains the research process. The code page shows the implementation. This page explains why the method matters.
 
-<iframe
-  width="100%"
-  height="500"
-  src="https://www.youtube.com/embed/9UeCmC79z3I"
-  title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
+{{ youtube id="9UeCmC79z3I" title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System" }}
 
 ## What Semantic SEO with Python Means
 
@@ -83,7 +75,7 @@ This is where semantic SEO becomes more than search optimisation. It becomes a m
 The full pipeline is documented in the [workflow structure breakdown](/workflow-structure-breakdown), while the implementation is shown in the [SEO Python codebase](/code). In plain English, the process can be understood as a sequence:
 
 ```text id="5x98r0"
-search → scrape → extract → clean → summarise → cluster → map → interpret → strategy
+search â†’ scrape â†’ extract â†’ clean â†’ summarise â†’ cluster â†’ map â†’ interpret â†’ strategy
 ```
 
 Each stage changes the material.
@@ -118,7 +110,7 @@ image alt text
 visible page language
 ```
 
-Different page elements carry different kinds of meaning. A title tag often compresses the page’s intended subject. A meta description often reveals how the page wants to be understood in search. Headings expose internal structure. Body text provides detail. Image alt text can reveal visual or descriptive associations that are not obvious from titles alone.
+Different page elements carry different kinds of meaning. A title tag often compresses the pageâ€™s intended subject. A meta description often reveals how the page wants to be understood in search. Headings expose internal structure. Body text provides detail. Image alt text can reveal visual or descriptive associations that are not obvious from titles alone.
 
 This matters because semantic SEO is not only about counting words. It is about understanding how meaning is distributed across page structures.
 
@@ -144,7 +136,7 @@ This is the point where the workflow begins to move away from flat keyword resea
 
 ### 5. Relationships Are Mapped
 
-The next question is not only “which terms appear?” but “which terms appear together?”
+The next question is not only â€œwhich terms appear?â€ but â€œwhich terms appear together?â€
 
 Co-occurrence analysis shows which concepts repeatedly occupy the same pages, sections, or extracted language fields. Network analysis then turns those relationships into a visible structure.
 
@@ -226,13 +218,13 @@ For this site, the relationship is:
 
 ```text id="ff54fw"
 dataset evidence
-    ↓
+    â†“
 Python implementation
-    ↓
+    â†“
 workflow explanation
-    ↓
+    â†“
 interpretive analysis
-    ↓
+    â†“
 content strategy
 ```
 
@@ -258,7 +250,7 @@ The [methodology evaluation and validity](/art/methodology-evaluation-and-validi
 
 The final strategic layer is the [content strategy](/content-strategy), which turns the analysis into a direction for future work.
 
-This matters because it shows the difference between data-driven imitation and structure-driven originality. The process does not say “make whatever the dataset says is popular.” It says “understand the structure of the dataset, identify what it implies, then use that structure to refine an existing creative direction.”
+This matters because it shows the difference between data-driven imitation and structure-driven originality. The process does not say â€œmake whatever the dataset says is popular.â€ It says â€œunderstand the structure of the dataset, identify what it implies, then use that structure to refine an existing creative direction.â€
 
 ## Why This Matters After AI Snippets
 
@@ -313,12 +305,12 @@ The [clustered Instagram dataset](/art/clustered-output-instagram-dataset) provi
 
 The interpretation layer includes [art forms with high audience resonance](/art/art-forms-with-high-audience-resonance), [most popular art mediums based on the datasets](/art/most-popular-art-mediums-based-on-the-datasets), and [methodology evaluation and validity](/art/methodology-evaluation-and-validity).
 
-The strategic output is the site’s [content strategy](/content-strategy).
+The strategic output is the siteâ€™s [content strategy](/content-strategy).
 
 Together, these pages show the full chain:
 
 ```text id="bcjq13"
-workflow → code → dataset → interpretation → strategy
+workflow â†’ code â†’ dataset â†’ interpretation â†’ strategy
 ```
 
 This article exists to make that chain legible.
@@ -338,3 +330,4 @@ The value of semantic SEO in Python is not automation alone. Its value is that i
 Used well, the process does not flatten creative work into whatever is already popular. It does the opposite. It helps identify where an original direction can enter an existing search space with evidence, coherence, and purpose.
 
 The result is content strategy built from structure rather than imitation.
+
