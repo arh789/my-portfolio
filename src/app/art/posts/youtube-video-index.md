@@ -15,7 +15,7 @@ This page collects the YouTube videos connected to the site.
 
 Each video functions as a media version of a larger written thread: a long-form explanation, demonstration, or visual essay linked back into the broader research and art system. The videos are grouped here by format, while the individual posts remain connected to their own conceptual clusters.
 
-## Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)
+## Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)
 
 This video introduces **[SDA-3 (Structured Dimensional Analysis)](https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models)** through a zombie-survival stress test. The point is not the zombie scenario itself, but the way it exposes how ChatGPT can produce coherent answers that fail under pressure.
 
@@ -23,21 +23,21 @@ The video shows how SDA-3 shifts the model away from fluent answer-generation an
 
 {{ youtube id="-EFYSBwJzo0" title="Zombie Survival by ChatGPT - Why the AI Lies (and How to Stop It)" }}
 
-**Related post:** [Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)](https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)
+**Related post:** [Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)](https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)
 
 ---
 
-## ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This
+## ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This
 
 This video continues the zombie-survival analysis by focusing on fuel, mobility, and adversarial questioning.
 
-The question is not whether vehicles are useful in a collapse scenario. The question is whether ChatGPTâ€™s mobile-fortress logic survives once fuel, maintenance, roads, noise, and long-term scarcity are treated as real constraints.
+The question is not whether vehicles are useful in a collapse scenario. The question is whether ChatGPT’s mobile-fortress logic survives once fuel, maintenance, roads, noise, and long-term scarcity are treated as real constraints.
 
 The video shows how adversarial questioning forces the answer to reorganise: fuel-dependent mobility stops being foundational, static defence does not become viable again, and the surviving structure becomes adaptive mobility under scarcity.
 
 {{ youtube id="0ti2eVmW9UI" title="ChatGPT's Zombie Survival Plan Falls Apart When You Ask This" }}
 
-**Related post:** [ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This](https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival)
+**Related post:** [ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This](https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival)
 
 ---
 
@@ -45,7 +45,7 @@ The video shows how adversarial questioning forces the answer to reorganise: fue
 
 This video is the short companion to the longer zombie-survival SDA-3 analysis. It explains the method directly: not as a zombie scenario, but as a structural process for making a large language model expose the pressures shaping its response.
 
-The video introduces SDA-3 as a way to distinguish truth from coherent generation. It explains why the method does not reveal a modelâ€™s hidden reasoning, chain of thought, weights, or literal embedding space, but instead produces a structured estimate of what the response appears to depend on: central topics, adjacent topics, suppressed material, associated noise, and emerging signals.
+The video introduces SDA-3 as a way to distinguish truth from coherent generation. It explains why the method does not reveal a model’s hidden reasoning, chain of thought, weights, or literal embedding space, but instead produces a structured estimate of what the response appears to depend on: central topics, adjacent topics, suppressed material, associated noise, and emerging signals.
 
 {{ youtube id="fmYShejgkBc" title="SDA-3 tl;dr: Mapping LLM Response Structure" }}
 

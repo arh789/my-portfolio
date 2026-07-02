@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef } from "react";
 import cytoscape from "cytoscape";
@@ -153,3 +153,4 @@ export default function ArtGraph() {
         </section>
     );
 }
+

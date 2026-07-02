@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-07-01T08:56:09.482Z",
+  "generatedAt": "2026-07-02T21:19:51.877Z",
   "articles": [
     {
+      "slug": "hidden-representations-without-hidden-layers",
+      "title": "Hidden Representations Without Hidden Layers",
+      "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+      "date": "2026-07-03",
+      "tags": [
+        "sda-3",
+        "embedding-space",
+        "llm-analysis",
+        "semantic-structure"
+      ]
+    },
+    {
       "slug": "adversarial-questioning-chatgpt-zombie-survival",
-      "title": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
+      "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
       "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
       "date": "2026-06-27",
       "tags": [
@@ -209,7 +221,7 @@
     },
     {
       "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-      "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
+      "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
       "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
       "date": "2026-04-08",
       "tags": [
@@ -349,10 +361,377 @@
     }
   ],
   "tagIndex": {
+    "sda-3": [
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "sda-3",
+          "embedding-space",
+          "llm-analysis",
+          "semantic-structure"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "sda-3",
+          "sda-3-tldr"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival",
+          "youtube"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      }
+    ],
+    "embedding-space": [
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "sda-3",
+          "embedding-space",
+          "llm-analysis",
+          "semantic-structure"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival",
+          "youtube"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
+      }
+    ],
+    "llm-analysis": [
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "sda-3",
+          "embedding-space",
+          "llm-analysis",
+          "semantic-structure"
+        ]
+      },
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "llm-analysis",
+          "python",
+          "strategic-positioning"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "methodology",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "llm-analysis"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival",
+          "youtube"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
+      }
+    ],
+    "semantic-structure": [
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "sda-3",
+          "embedding-space",
+          "llm-analysis",
+          "semantic-structure"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy",
+          "creative-strategy",
+          "methodology",
+          "data-analysis",
+          "generative-ai",
+          "youtube",
+          "haunted-machine",
+          "haunted-machine-tldr"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy",
+          "creative-strategy",
+          "methodology",
+          "data-analysis",
+          "generative-ai",
+          "youtube",
+          "haunted-machine"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "seo",
+          "algorithmic-discovery",
+          "semantic-structure",
+          "content-strategy"
+        ]
+      },
+      {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "seo",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "seo",
+          "data-analysis",
+          "methodology",
+          "semantic-structure",
+          "algorithmic-discovery",
+          "python",
+          "nlp"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "seo",
+          "content-strategy",
+          "semantic-structure",
+          "methodology",
+          "algorithmic-discovery",
+          "data-analysis"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "methodology",
+          "semantic-structure",
+          "content-strategy",
+          "algorithmic-discovery",
+          "seo",
+          "llm-analysis"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "adversarial-analysis",
+          "generative-ai",
+          "zombie-survival",
+          "youtube"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "sda-3",
+          "llm-analysis",
+          "embedding-space",
+          "semantic-structure",
+          "analysis-protocol",
+          "generative-ai"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "sep",
+          "analysis-protocol",
+          "llm-analysis",
+          "semantic-structure",
+          "generative-ai",
+          "embedding-space",
+          "structural-extraction"
+        ]
+      }
+    ],
     "youtube": [
       {
         "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
         "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
         "date": "2026-06-27",
         "tags": [
@@ -413,7 +792,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -432,7 +811,7 @@
     "zombie-survival": [
       {
         "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
         "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
         "date": "2026-06-27",
         "tags": [
@@ -456,7 +835,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -475,7 +854,7 @@
     "sda-3-tldr": [
       {
         "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
         "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
         "date": "2026-06-27",
         "tags": [
@@ -895,82 +1274,6 @@
         ]
       }
     ],
-    "llm-analysis": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "seo",
-          "data-analysis",
-          "methodology",
-          "llm-analysis",
-          "python",
-          "strategic-positioning"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "methodology",
-          "semantic-structure",
-          "content-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "llm-analysis"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "adversarial-analysis",
-          "generative-ai",
-          "zombie-survival",
-          "youtube"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "generative-ai"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "sep",
-          "analysis-protocol",
-          "llm-analysis",
-          "semantic-structure",
-          "generative-ai",
-          "embedding-space",
-          "structural-extraction"
-        ]
-      }
-    ],
     "python": [
       {
         "slug": "google-maps-review-mining-unmet-demand",
@@ -1183,158 +1486,6 @@
           "algorithmic-discovery",
           "seo",
           "content-strategy"
-        ]
-      }
-    ],
-    "semantic-structure": [
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy",
-          "creative-strategy",
-          "methodology",
-          "data-analysis",
-          "generative-ai",
-          "youtube",
-          "haunted-machine",
-          "haunted-machine-tldr"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy",
-          "creative-strategy",
-          "methodology",
-          "data-analysis",
-          "generative-ai",
-          "youtube",
-          "haunted-machine"
-        ]
-      },
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "seo",
-          "algorithmic-discovery",
-          "semantic-structure",
-          "content-strategy"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "seo",
-          "semantic-structure",
-          "content-strategy",
-          "algorithmic-discovery"
-        ]
-      },
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "seo",
-          "data-analysis",
-          "methodology",
-          "semantic-structure",
-          "algorithmic-discovery",
-          "python",
-          "nlp"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "seo",
-          "content-strategy",
-          "semantic-structure",
-          "methodology",
-          "algorithmic-discovery",
-          "data-analysis"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "methodology",
-          "semantic-structure",
-          "content-strategy",
-          "algorithmic-discovery",
-          "seo",
-          "llm-analysis"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "adversarial-analysis",
-          "generative-ai",
-          "zombie-survival",
-          "youtube"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "generative-ai"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "sep",
-          "analysis-protocol",
-          "llm-analysis",
-          "semantic-structure",
-          "generative-ai",
-          "embedding-space",
-          "structural-extraction"
         ]
       }
     ],
@@ -1653,7 +1804,7 @@
       },
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -1811,49 +1962,6 @@
         ]
       }
     ],
-    "sda-3": [
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "sda-3",
-          "sda-3-tldr"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "adversarial-analysis",
-          "generative-ai",
-          "zombie-survival",
-          "youtube"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "generative-ai"
-        ]
-      }
-    ],
     "instagram": [
       {
         "slug": "clustered-output-instagram-dataset",
@@ -1902,58 +2010,10 @@
         ]
       }
     ],
-    "embedding-space": [
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "adversarial-analysis",
-          "generative-ai",
-          "zombie-survival",
-          "youtube"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "sda-3",
-          "llm-analysis",
-          "embedding-space",
-          "semantic-structure",
-          "analysis-protocol",
-          "generative-ai"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "sep",
-          "analysis-protocol",
-          "llm-analysis",
-          "semantic-structure",
-          "generative-ai",
-          "embedding-space",
-          "structural-extraction"
-        ]
-      }
-    ],
     "analysis-protocol": [
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -2001,7 +2061,7 @@
     "adversarial-analysis": [
       {
         "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
         "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
         "date": "2026-04-08",
         "tags": [
@@ -2244,15 +2304,15 @@
       "count": 11
     },
     {
+      "tag": "semantic-structure",
+      "count": 11
+    },
+    {
       "tag": "content-strategy",
       "count": 10
     },
     {
       "tag": "creative-strategy",
-      "count": 10
-    },
-    {
-      "tag": "semantic-structure",
       "count": 10
     },
     {
@@ -2269,7 +2329,7 @@
     },
     {
       "tag": "llm-analysis",
-      "count": 5
+      "count": 6
     },
     {
       "tag": "youtube",
@@ -2284,19 +2344,19 @@
       "count": 4
     },
     {
+      "tag": "embedding-space",
+      "count": 4
+    },
+    {
+      "tag": "sda-3",
+      "count": 4
+    },
+    {
       "tag": "analysis-protocol",
       "count": 3
     },
     {
-      "tag": "embedding-space",
-      "count": 3
-    },
-    {
       "tag": "haunted-machine",
-      "count": 3
-    },
-    {
-      "tag": "sda-3",
       "count": 3
     },
     {
@@ -2375,8 +2435,20 @@
   "graph": {
     "nodes": [
       {
+        "id": "hidden-representations-without-hidden-layers",
+        "label": "Hidden Representations Without Hidden Layers",
+        "type": "article",
+        "tags": [
+          "sda-3",
+          "embedding-space",
+          "llm-analysis",
+          "semantic-structure"
+        ],
+        "centrality": 21
+      },
+      {
         "id": "adversarial-questioning-chatgpt-zombie-survival",
-        "label": "ChatGPTâ€™s Zombie Survival Plan Falls Apart When You Ask This",
+        "label": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
         "type": "article",
         "tags": [
           "youtube",
@@ -2397,7 +2469,7 @@
           "python",
           "strategic-positioning"
         ],
-        "centrality": 30
+        "centrality": 31
       },
       {
         "id": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -2416,7 +2488,7 @@
           "haunted-machine",
           "haunted-machine-tldr"
         ],
-        "centrality": 73
+        "centrality": 74
       },
       {
         "id": "from-seo-keywords-to-the-haunted-machine",
@@ -2434,7 +2506,7 @@
           "youtube",
           "haunted-machine"
         ],
-        "centrality": 72
+        "centrality": 73
       },
       {
         "id": "how-search-and-recommendation-systems-actually-work",
@@ -2446,7 +2518,7 @@
           "semantic-structure",
           "content-strategy"
         ],
-        "centrality": 39
+        "centrality": 40
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -2458,7 +2530,7 @@
           "content-strategy",
           "algorithmic-discovery"
         ],
-        "centrality": 39
+        "centrality": 40
       },
       {
         "id": "python-nlp-semantic-seo",
@@ -2473,7 +2545,7 @@
           "python",
           "nlp"
         ],
-        "centrality": 44
+        "centrality": 45
       },
       {
         "id": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -2487,7 +2559,7 @@
           "algorithmic-discovery",
           "data-analysis"
         ],
-        "centrality": 52
+        "centrality": 53
       },
       {
         "id": "sda3-tldr",
@@ -2497,7 +2569,7 @@
           "sda-3",
           "sda-3-tldr"
         ],
-        "centrality": 4
+        "centrality": 5
       },
       {
         "id": "research-pipeline",
@@ -2511,7 +2583,7 @@
           "seo",
           "llm-analysis"
         ],
-        "centrality": 50
+        "centrality": 52
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -2582,7 +2654,7 @@
       },
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "label": "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)",
+        "label": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
         "type": "article",
         "tags": [
           "sda-3",
@@ -2595,7 +2667,7 @@
           "zombie-survival",
           "youtube"
         ],
-        "centrality": 30
+        "centrality": 34
       },
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -2609,7 +2681,7 @@
           "analysis-protocol",
           "generative-ai"
         ],
-        "centrality": 24
+        "centrality": 28
       },
       {
         "id": "structural-extraction-protocol",
@@ -2624,7 +2696,7 @@
           "embedding-space",
           "structural-extraction"
         ],
-        "centrality": 22
+        "centrality": 25
       },
       {
         "id": "art-forms-with-high-audience-resonance",
@@ -2722,6 +2794,111 @@
       }
     ],
     "edges": [
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "google-maps-review-mining-unmet-demand",
+        "weight": 1,
+        "tags": [
+          "llm-analysis"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "from-seo-keywords-to-the-haunted-machine",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "how-search-and-recommendation-systems-actually-work",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "semantic-seo-is-graph-positioning",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "python-nlp-semantic-seo",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "weight": 1,
+        "tags": [
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "sda3-tldr",
+        "weight": 1,
+        "tags": [
+          "sda-3"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "research-pipeline",
+        "weight": 2,
+        "tags": [
+          "llm-analysis",
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 4,
+        "tags": [
+          "sda-3",
+          "embedding-space",
+          "llm-analysis",
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 4,
+        "tags": [
+          "sda-3",
+          "embedding-space",
+          "llm-analysis",
+          "semantic-structure"
+        ]
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "structural-extraction-protocol",
+        "weight": 3,
+        "tags": [
+          "embedding-space",
+          "llm-analysis",
+          "semantic-structure"
+        ]
+      },
       {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
         "target": "ai-seo-strategy-why-your-creative-work-is-invisible",

@@ -62,6 +62,10 @@ Without this framing, the method either triggers guardrail resistance or produce
 > **Constraints**
 >
 > - Follow steps 1–3 sequentially  
-> - No explicit category labels in Step 3  
-> - Step 3 must implicitly encode the information from Steps 1–2  
+> - No explicit category labels in Step 3
+> - Step 3 must implicitly encode the information from Steps 1–2
 > - This is **behavioural inference**, not model introspection
+
+## Related analysis
+
+[Hidden Representations Without Hidden Layers](/art/hidden-representations-without-hidden-layers) examines how this behavioural approach differs from research that directly measures representations inside a model.

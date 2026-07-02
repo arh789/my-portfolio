@@ -1,5 +1,5 @@
----
-title: "Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)"
+﻿---
+title: "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)"
 description: This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.
 date: 2026-04-08
 type: analysis
@@ -21,7 +21,7 @@ This video outlines a methodology I created called **[SDA-3 (Structured Dimensio
 
 ## The Core Problem: Why AI "Lies"
 
-Large Language Models like ChatGPT are optimised for **sycophancy**â€”they prioritise agreeable, emotionally coherent, and fluent responses over structural accuracy because this satisfies the majority of users.
+Large Language Models like ChatGPT are optimised for **sycophancy**—they prioritise agreeable, emotionally coherent, and fluent responses over structural accuracy because this satisfies the majority of users.
 
 - **Structural Bias:** The model does not lie intentionally; it hallucinates coherence by over-representing common patterns and under-representing real constraints to minimise token surprise.  
 - **Strategic Omission:** Semantically central but volatile concepts are systematically suppressed to maintain safety and output stability.  
@@ -47,7 +47,7 @@ Default outputs converge on familiar solutions (firearms, fortified positions, v
 
 After iterative adversarial filtering, a single strategy remains:
 
-**Choke Point â†’ Collapsible Barrier â†’ Spear**
+**Choke Point → Collapsible Barrier → Spear**
 
 This is the only configuration that satisfies:
 
@@ -62,6 +62,7 @@ All alternatives collapse under at least one constraint.
 
 SDA-3 shifts the model from **story mode** to **mapping mode**.
 
-Truth emerges as a **structural attractor**â€”the configuration that remains once all incompatible assumptions are removed.
+Truth emerges as a **structural attractor**—the configuration that remains once all incompatible assumptions are removed.
 
 The system becomes useful only when treated as something to interrogate, not something to trust.
+

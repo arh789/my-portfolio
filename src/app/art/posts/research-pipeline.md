@@ -44,7 +44,7 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 
 **Process:**
 
-- Seed term â†’ prefix expansion (aâ€“z)
+- Seed term → prefix expansion (a–z)
 - Query Google autocomplete
 - Collect suggested queries
 
@@ -148,7 +148,7 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 
 - Transforms:
 
-  statistical clusters â†’ interpreted structures
+  statistical clusters → interpreted structures
 
 ---
 
@@ -181,7 +181,7 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 
 - Converts:
 
-  interpreted structure â†’ tested structure
+  interpreted structure → tested structure
 
 ---
 
@@ -213,29 +213,29 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 
 - Converts:
 
-  structure â†’ actionable decisions
+  structure → actionable decisions
 
 ---
 
 ## Unified Pipeline
 
 [1] Autocomplete
-    â†’ Query space (what can exist)
+    → Query space (what can exist)
 
 [2] SERP + Content
-    â†’ Survivorship (what persists)
+    → Survivorship (what persists)
 
 [3] Statistics + Clustering
-    â†’ Proto-structure (what relates)
+    → Proto-structure (what relates)
 
 [4] LLM Interpretation
-    â†’ Semantic structure (what it means)
+    → Semantic structure (what it means)
 
 [5] Curvature Interrogation
-    â†’ Validated structure (what holds)
+    → Validated structure (what holds)
 
 [6] Strategy Extraction
-    â†’ Selection logic (what to do)
+    → Selection logic (what to do)
 
 ---
 
@@ -313,5 +313,5 @@ The final purpose is:
 
 ## Final Compression
 
-Probe â†’ Filter â†’ Structure â†’ Interpret â†’ Stress-test â†’ Select
+Probe → Filter → Structure → Interpret → Stress-test → Select
 

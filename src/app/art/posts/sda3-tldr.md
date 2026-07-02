@@ -103,7 +103,7 @@ The reconstruction is organised into functional roles:
 - **Emerging (E)**  
   Elements not fully integrated but exerting directional pressure
 
-These are not labels of contentâ€”they are **roles in maintaining coherence**.
+These are not labels of content—they are **roles in maintaining coherence**.
 
 ---
 
@@ -115,7 +115,7 @@ The percentage allocation is:
 
 It answers:
 
-- how much of the outputâ€™s coherence burden each category carries
+- how much of the output’s coherence burden each category carries
 
 It is determined by:
 
@@ -133,7 +133,7 @@ It is a **minimum-cost explanation constraint**.
 
 ---
 
-## 6. Anchor set (Topâ‚™ tokens)
+## 6. Anchor set (Top′ tokens)
 
 A ranked subset of elements is extracted based on:
 
@@ -154,7 +154,7 @@ They reduce ambiguity and define the local structure explicitly.
 The final output is generated under constraint:
 
 - must remain consistent with Struct%
-- must reconcile Topâ‚™ anchors
+- must reconcile Top′ anchors
 - must resolve tensions implied by suppression and adjacency
 
 This works because:
@@ -204,7 +204,7 @@ Equivalent framing:
 
 ## 10. Constraint and limitation
 
-- Based on a single sample â†’ underdetermined
+- Based on a single sample → underdetermined
 - Multiple internal configurations could produce similar outputs
 - Therefore SDA-3 selects:
 
@@ -251,7 +251,7 @@ Without:
 
 ## Related
 
-**Full zombie survival SDA-3 analysis:** [Zombie Survival by ChatGPT â€” Why the AI Lies (and How to Stop It)](https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)
+**Full zombie survival SDA-3 analysis:** [Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)](https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)
 
 ---
 
