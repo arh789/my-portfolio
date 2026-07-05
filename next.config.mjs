@@ -3,6 +3,11 @@ const nextConfig = {
     async redirects() {
         return [
             {
+                source: '/art/this-process-is-not-seo',
+                destination: '/art/semantic-seo-begins-before-optimisation',
+                permanent: true,
+            },
+            {
                 source: '/:path*',
                 has: [
                     {

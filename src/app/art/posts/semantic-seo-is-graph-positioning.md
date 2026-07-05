@@ -32,7 +32,7 @@ Increasingly, the more useful question is:
 
 > Where does this content sit within the larger semantic structure of the web?
 
-This distinction is similar to the one discussed in [This Process Is Not SEO](/art/this-process-is-not-seo).
+This distinction is similar to the one discussed in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
 
 Visibility often emerges from structure long before optimisation is applied.
 
@@ -322,4 +322,4 @@ For a practical implementation of this approach, see [Semantic SEO in Python: Fr
 
 For the broader methodology behind the process, see [Research Pipeline](/art/research-pipeline).
 
-For the underlying philosophical distinction, see [This Process Is Not SEO](/art/this-process-is-not-seo).
+For the underlying philosophical distinction, see [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).

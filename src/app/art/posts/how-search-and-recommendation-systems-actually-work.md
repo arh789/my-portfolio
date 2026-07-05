@@ -161,7 +161,7 @@ This distinction helps explain why optimisation and visibility often diverge.
 
 It also helps explain why process frequently matters more than isolated content improvements.
 
-A related discussion appears in [This Process Is Not SEO](/art/this-process-is-not-seo).
+A related discussion appears in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
 
 Understanding these systems is particularly useful for people operating under constraint, as discussed in [Who Benefits Most From This System](/art/who-benefits-most-from-this-system).
 
@@ -380,7 +380,7 @@ The deeper problem remains unresolved.
 
 The system still lacks a useful representation of what the content actually is.
 
-This issue is explored further in [This Process Is Not SEO](/art/this-process-is-not-seo).
+This issue is explored further in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
 
 The visibility consequences of weak structural legibility are discussed in [Visibility Under Hostile Conditions](/art/visibility-under-hostile-conditions).
 
@@ -797,7 +797,7 @@ To explore the methodology behind this process, see [Research Pipeline](/art/res
 
 For its application to search, see [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
 
-For a broader discussion of visibility and discovery, see [This Process Is Not SEO](/art/this-process-is-not-seo).
+For a broader discussion of visibility and discovery, see [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
 
 ## Where to Go Next
 

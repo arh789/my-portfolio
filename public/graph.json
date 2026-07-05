@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T21:19:51.877Z",
+  "generatedAt": "2026-07-05T02:53:12.092Z",
   "articles": [
     {
       "slug": "hidden-representations-without-hidden-layers",
@@ -324,8 +324,8 @@
       ]
     },
     {
-      "slug": "seo-visibility-structural-legibility",
-      "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+      "slug": "semantic-seo-begins-before-optimisation",
+      "title": "Semantic SEO Begins Before Optimisation",
       "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
       "date": "2026-03-15",
       "tags": [
@@ -336,8 +336,8 @@
       ]
     },
     {
-      "slug": "this-process-is-not-seo",
-      "title": "This Process Is Not SEO",
+      "slug": "seo-visibility-structural-legibility",
+      "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
       "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
       "date": "2026-03-15",
       "tags": [
@@ -1020,8 +1020,8 @@
         ]
       },
       {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "slug": "semantic-seo-begins-before-optimisation",
+        "title": "Semantic SEO Begins Before Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -1032,8 +1032,8 @@
         ]
       },
       {
-        "slug": "this-process-is-not-seo",
-        "title": "This Process Is Not SEO",
+        "slug": "seo-visibility-structural-legibility",
+        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -1453,8 +1453,8 @@
         ]
       },
       {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "slug": "semantic-seo-begins-before-optimisation",
+        "title": "Semantic SEO Begins Before Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -1465,8 +1465,8 @@
         ]
       },
       {
-        "slug": "this-process-is-not-seo",
-        "title": "This Process Is Not SEO",
+        "slug": "seo-visibility-structural-legibility",
+        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -1593,8 +1593,8 @@
         ]
       },
       {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "slug": "semantic-seo-begins-before-optimisation",
+        "title": "Semantic SEO Begins Before Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -1605,8 +1605,8 @@
         ]
       },
       {
-        "slug": "this-process-is-not-seo",
-        "title": "This Process Is Not SEO",
+        "slug": "seo-visibility-structural-legibility",
+        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -1740,8 +1740,8 @@
         ]
       },
       {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "slug": "semantic-seo-begins-before-optimisation",
+        "title": "Semantic SEO Begins Before Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -1752,8 +1752,8 @@
         ]
       },
       {
-        "slug": "this-process-is-not-seo",
-        "title": "This Process Is Not SEO",
+        "slug": "seo-visibility-structural-legibility",
+        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
         "date": "2026-03-15",
         "tags": [
@@ -2757,8 +2757,8 @@
         "centrality": 15
       },
       {
-        "id": "seo-visibility-structural-legibility",
-        "label": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "id": "semantic-seo-begins-before-optimisation",
+        "label": "Semantic SEO Begins Before Optimisation",
         "type": "article",
         "tags": [
           "seo",
@@ -2769,8 +2769,8 @@
         "centrality": 39
       },
       {
-        "id": "this-process-is-not-seo",
-        "label": "This Process Is Not SEO",
+        "id": "seo-visibility-structural-legibility",
+        "label": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
         "type": "article",
         "tags": [
           "seo",
@@ -3069,7 +3069,7 @@
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
           "seo"
@@ -3077,7 +3077,7 @@
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 1,
         "tags": [
           "seo"
@@ -3291,7 +3291,7 @@
       },
       {
         "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 4,
         "tags": [
           "seo",
@@ -3302,7 +3302,7 @@
       },
       {
         "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 4,
         "tags": [
           "seo",
@@ -3503,7 +3503,7 @@
       },
       {
         "source": "from-seo-keywords-to-the-haunted-machine",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 4,
         "tags": [
           "seo",
@@ -3514,7 +3514,7 @@
       },
       {
         "source": "from-seo-keywords-to-the-haunted-machine",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 4,
         "tags": [
           "seo",
@@ -3612,7 +3612,7 @@
       },
       {
         "source": "how-search-and-recommendation-systems-actually-work",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 3,
         "tags": [
           "seo",
@@ -3622,7 +3622,7 @@
       },
       {
         "source": "how-search-and-recommendation-systems-actually-work",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 3,
         "tags": [
           "seo",
@@ -3708,7 +3708,7 @@
       },
       {
         "source": "semantic-seo-is-graph-positioning",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 3,
         "tags": [
           "seo",
@@ -3718,7 +3718,7 @@
       },
       {
         "source": "semantic-seo-is-graph-positioning",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 3,
         "tags": [
           "seo",
@@ -3819,7 +3819,7 @@
       },
       {
         "source": "python-nlp-semantic-seo",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 2,
         "tags": [
           "seo",
@@ -3828,7 +3828,7 @@
       },
       {
         "source": "python-nlp-semantic-seo",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 2,
         "tags": [
           "seo",
@@ -3917,7 +3917,7 @@
       },
       {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 3,
         "tags": [
           "seo",
@@ -3927,7 +3927,7 @@
       },
       {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 3,
         "tags": [
           "seo",
@@ -4024,7 +4024,7 @@
       },
       {
         "source": "research-pipeline",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 3,
         "tags": [
           "content-strategy",
@@ -4034,7 +4034,7 @@
       },
       {
         "source": "research-pipeline",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 3,
         "tags": [
           "content-strategy",
@@ -4094,7 +4094,7 @@
       },
       {
         "source": "who-benefits-most-from-this-system",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 4,
         "tags": [
           "content-strategy",
@@ -4105,7 +4105,7 @@
       },
       {
         "source": "who-benefits-most-from-this-system",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 4,
         "tags": [
           "content-strategy",
@@ -4182,7 +4182,7 @@
       },
       {
         "source": "methodology-evaluation-and-validity",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -4190,7 +4190,7 @@
       },
       {
         "source": "methodology-evaluation-and-validity",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -4298,7 +4298,7 @@
       },
       {
         "source": "art-forms-with-high-audience-resonance",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -4306,7 +4306,7 @@
       },
       {
         "source": "art-forms-with-high-audience-resonance",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -4334,7 +4334,7 @@
       },
       {
         "source": "first-principles",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -4342,7 +4342,7 @@
       },
       {
         "source": "first-principles",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -4360,7 +4360,7 @@
       },
       {
         "source": "maximising-artistic-identity",
-        "target": "seo-visibility-structural-legibility",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -4368,7 +4368,15 @@
       },
       {
         "source": "maximising-artistic-identity",
-        "target": "this-process-is-not-seo",
+        "target": "seo-visibility-structural-legibility",
+        "weight": 1,
+        "tags": [
+          "creative-strategy"
+        ]
+      },
+      {
+        "source": "most-popular-art-mediums-based-on-the-datasets",
+        "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
           "creative-strategy"
@@ -4383,16 +4391,8 @@
         ]
       },
       {
-        "source": "most-popular-art-mediums-based-on-the-datasets",
-        "target": "this-process-is-not-seo",
-        "weight": 1,
-        "tags": [
-          "creative-strategy"
-        ]
-      },
-      {
-        "source": "seo-visibility-structural-legibility",
-        "target": "this-process-is-not-seo",
+        "source": "semantic-seo-begins-before-optimisation",
+        "target": "seo-visibility-structural-legibility",
         "weight": 4,
         "tags": [
           "seo",
@@ -4402,7 +4402,7 @@
         ]
       },
       {
-        "source": "seo-visibility-structural-legibility",
+        "source": "semantic-seo-begins-before-optimisation",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
@@ -4412,7 +4412,7 @@
         ]
       },
       {
-        "source": "this-process-is-not-seo",
+        "source": "seo-visibility-structural-legibility",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
