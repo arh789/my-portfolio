@@ -4,9 +4,11 @@ title: Research Process Used to Establish the Seer-Clown Archetype
 description: This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.
 date: 2026-04-24
 tags:
-  - methodology
-  - research-process
-
+  - creative-identity-system
+  - seer-clown
+  - aesthetic-research-system
+  - aesthetic-analysis
+  - artistic-system-building
 ---
 
 ## Context

@@ -1,5 +1,6 @@
 ---
 title: "AI Visibility Is Not Value, Part 6 — AI Visibility Measurement Cannot Prove Value"
+slug: ai-visibility-measurement-cannot-prove-value
 description: "AI visibility metrics can observe mentions, citations, answer presence, and prompt-level appearances. They cannot by themselves prove causation, representation quality, traffic, conversion, or retained value."
 date: "2026-07-08"
 type: analysis

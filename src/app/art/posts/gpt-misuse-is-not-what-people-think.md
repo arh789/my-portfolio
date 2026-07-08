@@ -3,8 +3,9 @@ title: GPT Misuse Is Not What People Think
 description: Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.
 date: 2026-03-15
 tags:
-  - generative-ai
-  - ai-misuse
+  - llm-structural-analysis
+  - llm-failure-analysis
+  - model-structure-analysis
 ---
 
 ## 🔻 Estimated Misuse Rate  

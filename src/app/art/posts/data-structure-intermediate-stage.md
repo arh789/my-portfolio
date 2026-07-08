@@ -4,9 +4,11 @@ title: What the Data Actually Looks Like
 description: This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.
 date: 2026-04-24
 tags:
-  - data-analysis
-  - methodology
-
+  - aesthetic-research-system
+  - dataset-structure
+  - semantic-research-pipeline
+  - research-methods
+  - aesthetic-analysis
 ---
 
 ## Context

@@ -5,10 +5,11 @@ date: 2026-04-08
 type: index
 tags:
   - youtube
-  - zombie-survival
+  - zombie-survival-video
+  - haunted-machine-video
+  - ai-seo-video
   - sda-3-tldr
-  - haunted-machine
-  - haunted-machine_tldr
+  - video-index-system
 ---
 
 This page collects the YouTube videos connected to the site.

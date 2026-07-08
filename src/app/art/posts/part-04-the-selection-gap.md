@@ -1,5 +1,6 @@
 ---
 title: "AI Visibility Is Not Value, Part 4 — The Selection Gap"
+slug: the-selection-gap
 description: "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility."
 date: "2026-07-08"
 type: analysis

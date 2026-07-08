@@ -1,5 +1,6 @@
 ---
 title: "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited"
+slug: selected-does-not-mean-cited
 description: "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes."
 date: "2026-07-08"
 type: analysis

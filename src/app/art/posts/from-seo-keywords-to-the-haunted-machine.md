@@ -4,16 +4,14 @@ description: This video case study shows how AI-era search changes the value of 
 date: 2026-06-14
 type: analysis
 tags:
-  - seo
-  - algorithmic-discovery
-  - semantic-structure
-  - content-strategy
-  - creative-strategy
-  - methodology
-  - data-analysis
-  - generative-ai
+  - creative-search-system
+  - creative-identity-system
+  - semantic-archive
   - youtube
+  - haunted-machine-video
   - haunted-machine
+  - artistic-system-building
+  - video-index-system
 ---
 
 Most SEO advice focuses on finding existing demand.

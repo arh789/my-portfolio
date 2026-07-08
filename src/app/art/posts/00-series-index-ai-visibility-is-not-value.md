@@ -1,5 +1,6 @@
 ---
 title: "AI Visibility Is Not Value"
+slug: ai-visibility-is-not-value
 description: "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to."
 date: "2026-07-08"
 type: index
@@ -14,10 +15,9 @@ tags:
   - value-transfer
   - hard-to-exhaust-archive
   - representation-governance
-  - seo
-  - semantic-structure
-  - algorithmic-discovery
-  - content-strategy
+  - semantic-archive
+  - search-and-discovery-systems
+  - ai-search
 ---
 
 ## AI Visibility Is Not Value

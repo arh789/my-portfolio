@@ -3,13 +3,9 @@ title: Structural Extraction Protocol
 description: A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.
 date: 2026-04-06
 tags:
-  - sep
-  - analysis-protocol
-  - llm-analysis
-  - semantic-structure
-  - generative-ai
-  - embedding-space
+  - llm-structural-analysis
   - structural-extraction
+  - model-structure-analysis
 ---
 
 # Structural Extraction Protocol (SEP)

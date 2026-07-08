@@ -4,10 +4,13 @@ title: "How Search and Recommendation Systems Actually Work"
 description: "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities."
 date: "2026-06-05"
 tags:
-- seo
-- algorithmic-discovery
-- semantic-structure
-- content-strategy
+  - search-and-discovery-systems
+  - semantic-seo
+  - graph-positioning
+  - structural-legibility
+  - hostile-visibility
+  - ai-search
+  - discovery-systems-map
 ---
 
 ## Why Visibility Increasingly Feels Unpredictable

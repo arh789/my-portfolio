@@ -4,10 +4,9 @@ description: "What can be inferred about a language model’s semantic structure
 date: 2026-07-03
 type: analysis
 tags:
-  - sda-3
-  - embedding-space
-  - llm-analysis
-  - semantic-structure
+  - llm-structural-analysis
+  - hidden-representations
+  - model-structure-analysis
 ---
 
 The paper [*Layer by Layer: Uncovering Hidden Representations in Language Models*](https://arxiv.org/abs/2502.02013) examines a problem that is easy to overlook when using large language models: the final layer is not necessarily where the most useful representation lives.

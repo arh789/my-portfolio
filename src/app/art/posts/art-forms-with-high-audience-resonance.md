@@ -3,10 +3,9 @@ title: Art Forms with High Audience Resonance
 description: This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.
 date: 2026-03-15
 tags:
+  - aesthetic-research-system
   - audience-resonance
-  - art-analysis
-  - creative-strategy
-  - audience-behaviour
+  - aesthetic-analysis
 ---
 
 ## Context

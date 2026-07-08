@@ -4,8 +4,12 @@ description: "A short explanation of SDA-3 as a method for mapping LLM response 
 date: 2026-05-08
 type: analysis
 tags:
+  - llm-structural-analysis
   - sda-3
+  - youtube
   - sda-3-tldr
+  - model-structure-analysis
+  - video-index-system
 ---
 
 SDA-3 can be described as a **reverse-engineering method applied to a single observed output of a black-box system**.

@@ -3,12 +3,15 @@ title: Research pipeline
 description: A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.
 date: 2026-04-25
 tags:
-  - methodology
-  - semantic-structure
-  - content-strategy
-  - algorithmic-discovery
-  - seo
-  - llm-analysis
+  - semantic-research-pipeline
+  - python-nlp
+  - search-results-to-strategy
+  - review-mining
+  - dataset-structure
+  - clustering-method
+  - search-and-discovery-systems
+  - discovery-systems-map
+  - research-methods
 ---
 
 ## System Definition

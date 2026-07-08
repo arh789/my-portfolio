@@ -3,8 +3,12 @@ title: Clustered Output (Dataset)
 description: This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.
 date: 2026-04-24
 tags:
-  - data-analysis
-  - instagram
+  - aesthetic-research-system
+  - instagram-dataset
+  - semantic-research-pipeline
+  - clustering-method
+  - research-methods
+  - aesthetic-analysis
 ---
 
 ## Context

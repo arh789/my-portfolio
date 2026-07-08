@@ -3,12 +3,14 @@ title: "SDA-3 protocol"
 description: This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.
 date: 2026-04-06
 tags:
+  - llm-structural-analysis
   - sda-3
-  - llm-analysis
   - embedding-space
-  - semantic-structure
-  - analysis-protocol
-  - generative-ai
+  - structural-extraction
+  - hidden-representations
+  - llm-failure-analysis
+  - zombie-survival
+  - model-structure-analysis
 ---
 
 ## SDA-3

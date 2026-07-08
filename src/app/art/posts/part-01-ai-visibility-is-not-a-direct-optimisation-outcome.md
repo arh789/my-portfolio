@@ -1,5 +1,6 @@
 ---
 title: "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome"
+slug: ai-visibility-is-not-a-direct-optimisation-outcome
 description: "Appearing in AI-generated answers is not proof that optimisation caused visibility, attribution, traffic, or retained value. AI visibility is an observed output inside a larger source-selection system."
 date: "2026-07-08"
 type: analysis

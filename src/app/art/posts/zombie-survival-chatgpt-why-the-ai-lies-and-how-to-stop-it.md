@@ -4,15 +4,12 @@ description: This video demonstrates how AI systems optimise for coherence rathe
 date: 2026-04-08
 type: analysis
 tags:
-  - sda-3
-  - llm-analysis
-  - embedding-space
-  - semantic-structure
-  - analysis-protocol
-  - adversarial-analysis
-  - generative-ai
+  - llm-structural-analysis
   - zombie-survival
   - youtube
+  - zombie-survival-video
+  - model-structure-analysis
+  - video-index-system
 ---
 
 This video outlines a methodology I created called **[SDA-3 (Structured Dimensional Analysis)](https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models)**. It is designed to bypass the **sycophancy** and **coherence-smoothing** inherent in AI systems like ChatGPT and extract structurally grounded information.

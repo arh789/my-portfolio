@@ -3,10 +3,9 @@ title: First Principles
 description: These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.
 date: 2026-03-15
 tags:
-  - creative-strategy
-  - art-analysis
-  - audience-resonance
-  - abstraction
+  - creative-identity-system
+  - first-principles
+  - artistic-system-building
 ---
 
 ## Context

@@ -3,12 +3,9 @@ title: "Semantic SEO in Python: From Search Results to Original Content Strategy
 description: "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation."
 date: "2026-05-25"
 tags:
-  - seo
-  - content-strategy
-  - semantic-structure
-  - methodology
-  - algorithmic-discovery
-  - data-analysis
+  - semantic-research-pipeline
+  - search-results-to-strategy
+  - research-methods
 ---
 
 # Semantic SEO in Python: From Search Results to Original Content Strategy

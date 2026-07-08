@@ -3,10 +3,13 @@ title: Maximising Artistic Identity
 description: This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.
 date: 2026-03-15
 tags:
-  - creative-strategy
-  - audience-resonance
-  - art-analysis
-  - identity-construction
+  - creative-identity-system
+  - first-principles
+  - seer-clown
+  - haunted-machine
+  - artistic-identity
+  - structural-legibility
+  - artistic-system-building
 ---
 
 ## Context
