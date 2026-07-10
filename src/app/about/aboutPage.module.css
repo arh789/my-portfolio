@@ -31,14 +31,24 @@
 /* PARENT DIV */
 /* ========================================= */
 
+.about-page {
+    width: 100%;
+    padding: clamp(1.5rem, 5vw, 4rem) clamp(1rem, 5vw, 4rem);
+}
+
 .content-wrapper {
-    background-color: #333;
-    opacity: 0.9;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    max-width: 1200px;
-    margin: 20px auto;
+    width: min(100%, 1080px);
+    margin: 0 auto;
+    padding: clamp(1.25rem, 4vw, 3.25rem);
+    border: 1px solid rgba(245, 227, 109, 0.18);
+    border-radius: 18px;
+    background:
+        linear-gradient(180deg, rgba(28, 28, 28, 0.88), rgba(16, 16, 16, 0.82)),
+        rgba(25, 25, 25, 0.86);
+    box-shadow:
+        0 24px 70px rgba(0, 0, 0, 0.36),
+        inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(2px);
 }
 
 /* ========================================= */
@@ -47,13 +57,24 @@
 
 .header-section {
     font-family: inherit;
-    font-size: 2rem;
     color: #fff;
-    line-height: 1.1;
     text-align: center;
-    margin-bottom: 50px;
+    max-width: 840px;
+    margin: 0 auto clamp(1.5rem, 4vw, 2.75rem);
     word-wrap: break-word;
-    transition: font-size 0.3s ease-in-out;
+}
+
+.header-section h2 {
+    color: var(--primary-color);
+    font-size: clamp(1.2rem, 3vw, 2.25rem);
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: 0.025em;
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.65);
+}
+
+.header-section h2 + h2 {
+    margin-top: 0.35rem;
 }
 
 /* ========================================= */
@@ -62,7 +83,8 @@
 
 .portrait-image-container {
     text-align: center;
-    margin: 10px 0;
+    width: min(68vw, 360px);
+    margin: 0 auto clamp(1.5rem, 4vw, 2.75rem);
 }
 
 .portrait-image {
@@ -70,6 +92,7 @@
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+    filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.45));
 }
 
 /* ========================================= */
@@ -78,60 +101,90 @@
 
 .paragraph-section {
     font-family: var(--font-family-body);
-    font-size: 2.55rem;
     color: #fff;
-    line-height: 1.75;
+    font-size: clamp(0.98rem, 1.2vw, 1.08rem);
+    line-height: 1.72;
     text-align: left;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    transition: font-size 0.3s ease-in-out;
+    max-width: 980px;
+    margin: 0 auto;
+    text-wrap: pretty;
 }
 
-    .paragraph-section p {
-        margin-bottom: 15px;
-    }
+.paragraph-section h1 {
+    color: #fff;
+    font-family: var(--font-family-title);
+    font-size: clamp(2rem, 5vw, 3.55rem);
+    font-weight: 700;
+    line-height: 0.95;
+    letter-spacing: 0.01em;
+    margin-bottom: 1rem;
+    text-wrap: balance;
+}
+
+.paragraph-section p {
+    margin-bottom: 1rem;
+}
+
+.paragraph-section ol {
+    margin: 1.25rem 0 1.35rem;
+    padding-left: 1.35rem;
+}
+
+.paragraph-section li + li {
+    margin-top: 0.35rem;
+}
+
+.paragraph-section blockquote {
+    margin: 1.4rem 0;
+    padding: 0.9rem 1rem;
+    color: var(--primary-color);
+    background: rgba(0, 0, 0, 0.28);
+    border-left: 3px solid var(--primary-color);
+}
+
+.paragraph-section blockquote p {
+    margin: 0;
+}
+
+.paragraph-section pre {
+    max-width: 100%;
+    margin: 1.4rem 0 1.6rem;
+    padding: 1rem;
+    overflow-x: auto;
+    color: #f7f7f7;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    font-family: var(--font-geist-mono), "Courier New", monospace;
+    font-size: clamp(0.72rem, 1vw, 0.92rem);
+    line-height: 1.48;
+    white-space: pre;
+}
+
+.paragraph-section code {
+    font-family: var(--font-geist-mono), "Courier New", monospace;
+}
 
 /* ========================================= */
 /* RESPONSIVE */
 /* ========================================= */
 
 @media (min-width: 1000px) {
-    .header-section {
-        font-size: 2rem;
-        line-height: 1.6;
-    }
-
-    .paragraph-section {
-        font-size: 1.35rem;
-    }
-}
-
-@media (max-width: 1000px) and (min-width: 800px) {
-    .header-section {
-        font-size: 1.4rem;
-    }
-
-    .paragraph-section {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 800px) and (min-width: 480px) {
-    .header-section {
-        font-size: 0.9rem;
-    }
-
-    .paragraph-section {
-        font-size: 1rem;
+    .content-wrapper {
+        padding-inline: clamp(3rem, 6vw, 5rem);
     }
 }
 
 @media (max-width: 480px) {
-    .header-section {
-        font-size: 0.85rem;
+    .about-page {
+        padding: 0.85rem;
     }
 
-    .paragraph-section {
-        font-size: 0.95rem;
+    .content-wrapper {
+        border-radius: 14px;
+    }
+
+    .paragraph-section pre {
+        padding: 0.85rem;
     }
 }

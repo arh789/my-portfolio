@@ -139,7 +139,7 @@
 | Dimension                     | This Workflow                               | Standard Best Practice (e.g. SEMrush, Ahrefs, SurferSEO) |
 |------------------------------|---------------------------------------------|-----------------------------------------------------------|
 | **Seed Generation**          | Empirical (via live SERPs)                  | Speculative (via brainstorming/trends)                    |
-| **Bias Resistance**          | High (Google-ranked + model filtering)      | Low�Moderate (human heuristics)                           |
+| **Bias Resistance**          | High (Google-ranked + model filtering)      | Low-Moderate (human heuristics)                           |
 | **Granularity of Input**     | High (multi-element extraction)             | Medium (titles/headings/body skims)                       |
 | **Thematic Resolution**      | High (summarisation + NLP filtering)        | Low (manual or volume-based sorting)                      |
 | **Keyword Validity Controls**| Strong (POS + rule mining + co-occurrence)  | Moderate (search volume, CPC)                             |

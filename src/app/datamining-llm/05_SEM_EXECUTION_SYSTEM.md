@@ -65,7 +65,7 @@ This self-correcting loop ensures that the semantic architecture evolves in resp
 
 ### 5. Expansion Through Emergent Signal
 
-The final stage monitors campaign query data and drift in language patterns. If new candidate terms emerge—either via LLM suggestion or observed query echo—they are tested for alignment and added to the field if confirmed. Otherwise, they are suppressed and logged.
+The final stage monitors campaign query data and drift in language patterns. If new candidate terms emerge - either via LLM suggestion or observed query echo - they are tested for alignment and added to the field if confirmed. Otherwise, they are suppressed and logged.
 
 This approach enables the campaign to expand its reach organically, anchored by the original symbolic logic while adapting to real-time search behaviour.
 

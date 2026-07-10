@@ -3,24 +3,20 @@ import Link from 'next/link';
 import './styles.css';
 
 export const metadata = {
-    title: 'Recursive AI SEO Portfolio | Symbolic Content Architecture',
+    title: 'Decrepit Filth | Grotesque Art, Semantic Structure, and AI Visibility',
     description:
-        'Portfolio showcasing recursive semantic SEO automation using grotesque experimental art. Explores suppression-based content logic, symbolic compression, and adversarial indexing in a markdown-driven system.',
+        'A grotesque art archive and semantic testbed for building hard-to-flatten structure across search, LLMs, content strategy, AI visibility, and platform representation.',
     keywords: [
-        'AI SEO automation',
-        'semantic content system',
-        'recursive markdown framework',
-        'structured metadata generation',
-        'symbolic compression in SEO',
-        'strategic suppression detection',
-        'adversarial indexing',
-        'non-linear content logic',
-        'programmatic SEO for artists',
-        'grotesque art SEO testbed',
-        'avant-garde content architecture',
-        'avant-garde SEO strategy',
-        'avant-garde search architecture',
-        'avant-garde digital narratives'
+        'grotesque art archive',
+        'AI visibility',
+        'semantic SEO',
+        'LLM representation',
+        'content strategy',
+        'semantic structure',
+        'search visibility',
+        'article graph',
+        'AI-mediated representation',
+        'hard-to-exhaust archive'
     ],
     alternates: {
         canonical: '/',

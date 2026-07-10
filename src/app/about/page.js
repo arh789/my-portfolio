@@ -54,7 +54,7 @@ export default async function About() {
     const paragraphsContent = await parseMarkdown(paragraphsMarkdown);
 
     return (
-        <main className={fell.className}>
+        <main className={`${fell.className} ${styles['about-page']}`}>
             <h1 className={styles.srOnly}>
                 About — Recursive AI SEO Framework & Symbolic Content Architecture
             </h1>
