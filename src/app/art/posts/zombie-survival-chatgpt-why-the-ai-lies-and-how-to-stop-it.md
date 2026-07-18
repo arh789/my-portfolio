@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)"
 description: This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.
 date: 2026-04-08
@@ -8,6 +8,7 @@ tags:
   - zombie-survival
   - youtube
   - zombie-survival-video
+  - zombie-survival-strategy
   - model-structure-analysis
   - video-index-system
 ---

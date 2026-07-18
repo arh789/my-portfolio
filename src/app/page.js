@@ -117,7 +117,7 @@ export default function Home() {
                 {/* Optimized Hero Image Implementation */}
                 <Image
                     src="/images/hero-image.webp"
-                    alt="Symbolic compression SEO hero: Emergent Structural Mapping and suppression audits"
+                    alt="A research portfolio using machine learning and dark surreal art to test semantic SEO, content strategy and structural analysis."
                     width={1400}
                     height={788}
                     priority // Ensures Next.js preloads the image immediately

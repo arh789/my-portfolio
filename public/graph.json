@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-07-08T06:15:51.666Z",
+  "generatedAt": "2026-07-18T06:19:45.042Z",
   "articles": [
+    {
+      "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+      "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+      "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+      "date": "2026-07-18",
+      "tags": [
+        "llm-structural-analysis",
+        "llm-failure-analysis",
+        "youtube",
+        "zombie-survival-video",
+        "zombie-survival-strategy",
+        "model-structure-analysis",
+        "video-index-system"
+      ]
+    },
     {
       "slug": "representation-governance",
       "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
@@ -134,6 +149,7 @@
         "llm-failure-analysis",
         "youtube",
         "zombie-survival-video",
+        "zombie-survival-strategy",
         "model-structure-analysis",
         "video-index-system"
       ]
@@ -334,6 +350,7 @@
       "tags": [
         "youtube",
         "zombie-survival-video",
+        "zombie-survival-strategy",
         "haunted-machine-video",
         "ai-seo-video",
         "sda-3-tldr",
@@ -350,6 +367,7 @@
         "zombie-survival",
         "youtube",
         "zombie-survival-video",
+        "zombie-survival-strategy",
         "model-structure-analysis",
         "video-index-system"
       ]
@@ -477,6 +495,619 @@
     }
   ],
   "tagIndex": {
+    "llm-structural-analysis": [
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "gpt-misuse-is-not-what-people-think",
+        "title": "GPT Misuse Is Not What People Think",
+        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "date": "2026-03-15",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      }
+    ],
+    "llm-failure-analysis": [
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "gpt-misuse-is-not-what-people-think",
+        "title": "GPT Misuse Is Not What People Think",
+        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "date": "2026-03-15",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      }
+    ],
+    "youtube": [
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      }
+    ],
+    "zombie-survival-video": [
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      }
+    ],
+    "zombie-survival-strategy": [
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      }
+    ],
+    "model-structure-analysis": [
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "gpt-misuse-is-not-what-people-think",
+        "title": "GPT Misuse Is Not What People Think",
+        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "date": "2026-03-15",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      }
+    ],
+    "video-index-system": [
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      }
+    ],
     "ai-visibility-is-not-value": [
       {
         "slug": "representation-governance",
@@ -1093,99 +1724,6 @@
         ]
       }
     ],
-    "llm-structural-analysis": [
-      {
-        "slug": "hidden-representations-without-hidden-layers",
-        "title": "Hidden Representations Without Hidden Layers",
-        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
-        "date": "2026-07-03",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "gpt-misuse-is-not-what-people-think",
-        "title": "GPT Misuse Is Not What People Think",
-        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
-        "date": "2026-03-15",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis"
-        ]
-      }
-    ],
     "hidden-representations": [
       {
         "slug": "hidden-representations-without-hidden-layers",
@@ -1212,360 +1750,6 @@
           "llm-failure-analysis",
           "zombie-survival",
           "model-structure-analysis"
-        ]
-      }
-    ],
-    "model-structure-analysis": [
-      {
-        "slug": "hidden-representations-without-hidden-layers",
-        "title": "Hidden Representations Without Hidden Layers",
-        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
-        "date": "2026-07-03",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "gpt-misuse-is-not-what-people-think",
-        "title": "GPT Misuse Is Not What People Think",
-        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
-        "date": "2026-03-15",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis"
-        ]
-      }
-    ],
-    "llm-failure-analysis": [
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "gpt-misuse-is-not-what-people-think",
-        "title": "GPT Misuse Is Not What People Think",
-        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
-        "date": "2026-03-15",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis"
-        ]
-      }
-    ],
-    "youtube": [
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      }
-    ],
-    "zombie-survival-video": [
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      }
-    ],
-    "video-index-system": [
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "model-structure-analysis",
-          "video-index-system"
         ]
       }
     ],
@@ -1935,6 +2119,7 @@
         "tags": [
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "haunted-machine-video",
           "ai-seo-video",
           "sda-3-tldr",
@@ -2054,6 +2239,7 @@
         "tags": [
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "haunted-machine-video",
           "ai-seo-video",
           "sda-3-tldr",
@@ -2417,6 +2603,7 @@
         "tags": [
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "haunted-machine-video",
           "ai-seo-video",
           "sda-3-tldr",
@@ -2820,6 +3007,7 @@
           "zombie-survival",
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "model-structure-analysis",
           "video-index-system"
         ]
@@ -2941,14 +3129,22 @@
     },
     {
       "tag": "llm-structural-analysis",
-      "count": 7
+      "count": 8
     },
     {
       "tag": "model-structure-analysis",
-      "count": 7
+      "count": 8
     },
     {
       "tag": "search-and-discovery-systems",
+      "count": 7
+    },
+    {
+      "tag": "video-index-system",
+      "count": 7
+    },
+    {
+      "tag": "youtube",
       "count": 7
     },
     {
@@ -2972,14 +3168,6 @@
       "count": 6
     },
     {
-      "tag": "video-index-system",
-      "count": 6
-    },
-    {
-      "tag": "youtube",
-      "count": 6
-    },
-    {
       "tag": "creative-search-system",
       "count": 5
     },
@@ -2992,6 +3180,10 @@
       "count": 4
     },
     {
+      "tag": "llm-failure-analysis",
+      "count": 4
+    },
+    {
       "tag": "semantic-archive",
       "count": 4
     },
@@ -3000,15 +3192,15 @@
       "count": 4
     },
     {
-      "tag": "llm-failure-analysis",
-      "count": 3
-    },
-    {
-      "tag": "seer-clown",
-      "count": 3
+      "tag": "zombie-survival-strategy",
+      "count": 4
     },
     {
       "tag": "zombie-survival-video",
+      "count": 4
+    },
+    {
+      "tag": "seer-clown",
       "count": 3
     },
     {
@@ -3159,6 +3351,21 @@
   "graph": {
     "nodes": [
       {
+        "id": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "label": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "type": "article",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ],
+        "centrality": 35
+      },
+      {
         "id": "representation-governance",
         "label": "AI Visibility Is Not Value, Part 9 — Representation Governance",
         "type": "article",
@@ -3279,7 +3486,7 @@
           "hidden-representations",
           "model-structure-analysis"
         ],
-        "centrality": 13
+        "centrality": 15
       },
       {
         "id": "adversarial-questioning-chatgpt-zombie-survival",
@@ -3290,10 +3497,11 @@
           "llm-failure-analysis",
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 26
+        "centrality": 35
       },
       {
         "id": "google-maps-review-mining-unmet-demand",
@@ -3321,7 +3529,7 @@
           "artistic-system-building",
           "video-index-system"
         ],
-        "centrality": 25
+        "centrality": 27
       },
       {
         "id": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -3334,7 +3542,7 @@
           "haunted-machine-tldr",
           "video-index-system"
         ],
-        "centrality": 15
+        "centrality": 17
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -3398,7 +3606,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 24
+        "centrality": 28
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -3490,12 +3698,13 @@
         "tags": [
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "haunted-machine-video",
           "ai-seo-video",
           "sda-3-tldr",
           "video-index-system"
         ],
-        "centrality": 15
+        "centrality": 21
       },
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -3506,10 +3715,11 @@
           "zombie-survival",
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 25
+        "centrality": 33
       },
       {
         "id": "structural-extraction-protocol",
@@ -3520,7 +3730,7 @@
           "structural-extraction",
           "model-structure-analysis"
         ],
-        "centrality": 13
+        "centrality": 15
       },
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -3536,7 +3746,7 @@
           "zombie-survival",
           "model-structure-analysis"
         ],
-        "centrality": 18
+        "centrality": 21
       },
       {
         "id": "maximising-artistic-identity",
@@ -3586,7 +3796,7 @@
           "llm-failure-analysis",
           "model-structure-analysis"
         ],
-        "centrality": 14
+        "centrality": 17
       },
       {
         "id": "art-forms-with-high-audience-resonance",
@@ -3634,6 +3844,111 @@
       }
     ],
     "edges": [
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "hidden-representations-without-hidden-layers",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "adversarial-questioning-chatgpt-zombie-survival",
+        "weight": 7,
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "from-seo-keywords-to-the-haunted-machine",
+        "weight": 2,
+        "tags": [
+          "youtube",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "weight": 2,
+        "tags": [
+          "youtube",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "sda3-tldr",
+        "weight": 4,
+        "tags": [
+          "llm-structural-analysis",
+          "youtube",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "youtube-video-index",
+        "weight": 4,
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 6,
+        "tags": [
+          "llm-structural-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "structural-extraction-protocol",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 3,
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "gpt-misuse-is-not-what-people-think",
+        "weight": 3,
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      },
       {
         "source": "representation-governance",
         "target": "ai-visibility-measurement-cannot-prove-value",
@@ -4165,21 +4480,23 @@
       {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
         "target": "youtube-video-index",
-        "weight": 3,
+        "weight": 4,
         "tags": [
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "video-index-system"
         ]
       },
       {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
         "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "weight": 5,
+        "weight": 6,
         "tags": [
           "llm-structural-analysis",
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "model-structure-analysis",
           "video-index-system"
         ]
@@ -4844,10 +5161,11 @@
       {
         "source": "youtube-video-index",
         "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "weight": 3,
+        "weight": 4,
         "tags": [
           "youtube",
           "zombie-survival-video",
+          "zombie-survival-strategy",
           "video-index-system"
         ]
       },

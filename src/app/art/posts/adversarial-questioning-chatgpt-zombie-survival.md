@@ -1,4 +1,4 @@
-﻿---
+---
 
 title: "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This"
 description: "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse."
@@ -8,6 +8,7 @@ tags:
   - llm-failure-analysis
   - youtube
   - zombie-survival-video
+  - zombie-survival-strategy
   - model-structure-analysis
   - video-index-system
 ---

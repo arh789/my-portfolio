@@ -6,6 +6,7 @@ type: index
 tags:
   - youtube
   - zombie-survival-video
+  - zombie-survival-strategy
   - haunted-machine-video
   - ai-seo-video
   - sda-3-tldr
@@ -42,6 +43,28 @@ The video shows how adversarial questioning forces the answer to reorganise: fue
 
 ---
 
+## The Zombie Survival Strategy ChatGPT Couldn’t See
+
+This video continues the zombie-survival sequence by focusing on the point where broad possibility has to collapse into a stable defensive structure.
+
+ChatGPT already had the pieces: choke points, collapsible barriers, and spears. What it could not reliably do was converge on the relationship between them.
+
+The video follows that convergence into one pressure-stable kernel:
+
+```text
+CHOKE POINT + COLLAPSIBLE BARRIER + SPEAR
+```
+
+A narrow geometry strips away the horde’s numerical advantage. A portable obstacle creates distance, delay, and a predictable strike window. The spear works because the environment selects it: silent, maintainable, ammunition-free, and usable beyond grappling range.
+
+The zombie scenario is only the test domain. The real subject is how a language model preserves plausible branches when optimisation requires those branches to be tested, broken, and discarded.
+
+{{ youtube id="ri5xsKhICys" title="The Zombie Survival Strategy ChatGPT Couldn’t See" }}
+
+**Related post:** [The Zombie Survival Strategy ChatGPT Couldn’t See](https://decrepitfilth.art/art/the-zombie-survival-strategy-chatgpt-could-not-see)
+
+---
+
 ## SDA-3 tl;dr: Mapping LLM Response Structure
 
 This video is the short companion to the longer zombie-survival SDA-3 analysis. It explains the method directly: not as a zombie scenario, but as a structural process for making a large language model expose the pressures shaping its response.
@@ -50,7 +73,7 @@ The video introduces SDA-3 as a way to distinguish truth from coherent generatio
 
 {{ youtube id="fmYShejgkBc" title="SDA-3 tl;dr: Mapping LLM Response Structure" }}
 
-**Related post:** [## SDA-3 tl;dr: Mapping LLM Response Structure](https://decrepitfilth.art/art/sda3-tldr)
+**Related post:** [SDA-3 tl;dr: Mapping LLM Response Structure](https://decrepitfilth.art/art/sda3-tldr)
 
 ---
 
@@ -77,4 +100,3 @@ As AI systems become better at summarising common information, generic content b
 In this video I outline a research methodology designed to find those structures.
 
 {{ youtube id="DHU3EJnyg9o" title="AI SEO Strategy: Why Your Creative Work Is Invisible" }}
-
