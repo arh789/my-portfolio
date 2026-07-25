@@ -7,6 +7,7 @@ tags:
   - youtube
   - zombie-survival-video
   - zombie-survival-strategy
+  - zombie-survival-history
   - haunted-machine-video
   - ai-seo-video
   - sda-3-tldr
@@ -62,6 +63,22 @@ The zombie scenario is only the test domain. The real subject is how a language 
 {{ youtube id="ri5xsKhICys" title="The Zombie Survival Strategy ChatGPT Couldn’t See" }}
 
 **Related post:** [The Zombie Survival Strategy ChatGPT Couldn’t See](https://decrepitfilth.art/art/the-zombie-survival-strategy-chatgpt-could-not-see)
+
+---
+
+## AI Zombie Survival: Why Fortresses Fail
+
+This Short continues the zombie-survival sequence by adding history as an external reality check.
+
+The earlier videos narrowed ChatGPT's broad survival logic into a pressure-stable defensive kernel. This one asks whether that result was just genre drift, or whether it matched older patterns of scarcity warfare.
+
+The answer is that the pattern was not new. Medieval siege warfare, steppe mobility, guerrilla insurgency, trench raids, and collapse-era redoubts all point towards the same structure: when central authority and supply systems collapse, warfare collapses into siege, mobility, and attrition.
+
+The Short focuses on why permanent fortresses fail and why the surviving defensive form gets smaller: foxholes, trenchlets, choke points, and temporary barricade nodes.
+
+{{ youtube id="0sJDU1LP6F4" title="AI Zombie Survival: Why Fortresses Fail" orientation="portrait" }}
+
+**Related post:** [AI Zombie Survival: Why Fortresses Fail](https://decrepitfilth.art/art/ai-zombie-survival-why-fortresses-fail)
 
 ---
 

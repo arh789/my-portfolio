@@ -1,4 +1,6 @@
 node_modules
 .next
 .env
+notebooks/.local/
+notebooks/.ipynb_checkpoints/
 
