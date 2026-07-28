@@ -36,6 +36,13 @@ function stripInlineMarkdown(text) {
         .trim();
 }
 
+function displayHeadingText(text) {
+    return stripInlineMarkdown(text)
+        .replace(/^Part B supervision note:\s*/i, "")
+        .replace(/^13\.\s+Output manifest$/i, "Output manifest")
+        .trim();
+}
+
 function escapeHtml(text) {
     return text
         .replaceAll("&", "&amp;")
@@ -45,7 +52,7 @@ function escapeHtml(text) {
 }
 
 function slugBase(text) {
-    const slug = stripInlineMarkdown(text)
+    const slug = displayHeadingText(text)
         .toLowerCase()
         .replace(/&/g, " and ")
         .replace(/[^a-z0-9]+/g, "-")
@@ -64,6 +71,15 @@ function createSlugger() {
 
         return count === 0 ? base : `${base}-${count + 1}`;
     };
+}
+
+function shouldSkipCell(cell) {
+    const source = sourceToText(cell.source);
+
+    return (
+        /^##\s+13\.\s+Output manifest\s*$/im.test(source) ||
+        source.includes("# Purpose: Write an output manifest")
+    );
 }
 
 function getHeadings(markdown, slugify) {
@@ -87,9 +103,10 @@ function getHeadings(markdown, slugify) {
 
         const level = match[1].length;
         const rawText = match[2].trim();
+        const text = displayHeadingText(rawText);
         headings.push({
             level,
-            text: stripInlineMarkdown(rawText),
+            text,
             slug: slugify(rawText),
         });
     }
@@ -198,6 +215,10 @@ export async function loadNotebook() {
     const cells = [];
 
     for (const [cellIndex, cell] of notebook.cells.entries()) {
+        if (shouldSkipCell(cell)) {
+            continue;
+        }
+
         if (cell.cell_type === "markdown") {
             const markdown = sourceToText(cell.source);
             const cellHeadings = getHeadings(markdown, slugify);
