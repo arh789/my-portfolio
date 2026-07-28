@@ -1,134 +1,368 @@
 .page {
     min-height: 100vh;
-    padding: clamp(2rem, 5vw, 5rem) 1rem;
+    padding: clamp(1rem, 3vw, 3rem);
+    color: var(--text-color, #f4f0df);
+    background:
+        radial-gradient(circle at top left, rgba(245, 227, 109, 0.12), transparent 28rem),
+        radial-gradient(circle at 80% 20%, rgba(144, 94, 255, 0.12), transparent 24rem),
+        rgba(0, 0, 0, 0.96);
 }
 
-.container {
-    width: min(100%, 960px);
+.shell {
+    display: grid;
+    grid-template-columns: minmax(14rem, 18rem) minmax(0, 1fr);
+    gap: clamp(1rem, 2.5vw, 2rem);
+    width: min(100%, 1440px);
     margin: 0 auto;
-    padding: clamp(1.5rem, 4vw, 3.5rem);
-    color: var(--text-color);
-    background: rgba(0, 0, 0, 0.9);
-    border: 1px solid var(--border-color);
-    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.48);
+    align-items: start;
 }
 
-.header {
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--border-color);
+.sidebar {
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow: hidden;
 }
 
-.eyebrow {
-    margin-bottom: 0.75rem;
-    color: var(--primary-color);
-    font-family: var(--font-family-title);
-    font-size: 0.95rem;
-    letter-spacing: 0.09em;
+.sidebarInner {
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+    padding: 1rem;
+    background: rgba(5, 5, 5, 0.86);
+    border: 1px solid rgba(245, 227, 109, 0.22);
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.4);
+}
+
+.sidebarEyebrow {
+    margin: 0 0 0.85rem;
+    color: var(--primary-color, #f5e36d);
+    font-family: var(--font-family-title, inherit);
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
 }
 
-.header h1,
-.section h2,
-.panel h2 {
-    font-family: var(--font-family-title);
+.sidebarNav {
+    display: grid;
+    gap: 0.15rem;
+}
+
+.sidebarLink {
+    display: block;
+    padding: 0.35rem 0.45rem;
+    color: rgba(244, 240, 223, 0.72);
+    border-left: 2px solid transparent;
+    font-size: 0.82rem;
+    line-height: 1.25;
+    text-decoration: none;
+}
+
+.sidebarLink:hover,
+.sidebarLink:focus-visible {
+    color: var(--primary-color, #f5e36d);
+    background: rgba(245, 227, 109, 0.08);
+    border-left-color: var(--primary-color, #f5e36d);
+    outline: none;
+}
+
+.sidebarLink[data-level="1"] {
+    margin-top: 0.4rem;
+    color: rgba(245, 227, 109, 0.92);
+    font-weight: 700;
+}
+
+.sidebarLink[data-level="2"] {
+    padding-left: 0.9rem;
+}
+
+.sidebarLink[data-level="3"],
+.sidebarLink[data-level="4"],
+.sidebarLink[data-level="5"],
+.sidebarLink[data-level="6"] {
+    padding-left: 1.35rem;
+    color: rgba(244, 240, 223, 0.6);
+    font-size: 0.78rem;
+}
+
+.notebook {
+    display: grid;
+    gap: 1rem;
+    min-width: 0;
+}
+
+.cell {
+    min-width: 0;
+    scroll-margin-top: 1.5rem;
+    background: rgba(8, 8, 8, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 0 14px 42px rgba(0, 0, 0, 0.28);
+}
+
+.markdownCell {
+    padding: clamp(1.2rem, 3vw, 2rem);
+}
+
+.markdownCell h1,
+.markdownCell h2,
+.markdownCell h3,
+.markdownCell h4,
+.markdownCell h5,
+.markdownCell h6 {
+    scroll-margin-top: 1.5rem;
+    color: var(--primary-color, #f5e36d);
+    font-family: var(--font-family-title, inherit);
     letter-spacing: 0.025em;
 }
 
-.header h1 {
-    color: var(--primary-color);
-    font-size: clamp(2.5rem, 8vw, 5.5rem);
-    line-height: 0.95;
+.markdownCell h1 {
+    max-width: 58rem;
+    margin: 0 0 1.5rem;
+    font-size: clamp(2.35rem, 6vw, 5rem);
+    line-height: 0.96;
     text-transform: uppercase;
 }
 
-.lede {
-    max-width: 46rem;
-    margin-top: 1.25rem;
-    color: var(--muted-text-color);
-    font-size: clamp(1.05rem, 2vw, 1.25rem);
-    line-height: 1.65;
+.markdownCell h2 {
+    margin: 0 0 1rem;
+    font-size: clamp(1.45rem, 3vw, 2.2rem);
 }
 
-.panel,
-.section {
-    margin-top: 2rem;
+.markdownCell h3,
+.markdownCell h4 {
+    margin: 1.25rem 0 0.75rem;
 }
 
-.split {
+.markdownCell p,
+.markdownCell li,
+.markdownCell blockquote {
+    max-width: 72rem;
+    color: rgba(244, 240, 223, 0.88);
+    font-size: 1rem;
+    line-height: 1.72;
+}
+
+.markdownCell p {
+    margin: 0 0 1rem;
+}
+
+.markdownCell ul,
+.markdownCell ol {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem;
+    margin: 1rem 0;
+    padding-left: 1.35rem;
+}
+
+.markdownCell blockquote {
+    margin: 1.25rem 0;
+    padding: 0.85rem 1rem;
+    color: rgba(244, 240, 223, 0.78);
+    background: rgba(245, 227, 109, 0.06);
+    border-left: 4px solid var(--primary-color, #f5e36d);
+}
+
+.markdownCell code {
+    color: var(--primary-color, #f5e36d);
+    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.92em;
+}
+
+.markdownCell pre {
+    overflow-x: auto;
+    margin: 1rem 0;
+    padding: 1rem;
+    color: #f4f0df;
+    background: rgba(0, 0, 0, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.markdownCell pre code {
+    color: inherit;
+}
+
+.markdownCell a {
+    color: var(--primary-color, #f5e36d);
+    text-underline-offset: 0.18em;
+}
+
+.codeCell {
+    overflow: hidden;
+}
+
+.cellHeader {
+    display: flex;
+    justify-content: space-between;
     gap: 1rem;
-    margin-top: 2rem;
+    padding: 0.65rem 0.9rem;
+    color: rgba(244, 240, 223, 0.68);
+    background: rgba(245, 227, 109, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.panel {
-    padding: 1.25rem;
-    background: rgba(245, 227, 109, 0.08);
-    border-left: 4px solid var(--primary-color);
+.codeBlock {
+    overflow-x: auto;
+    margin: 0;
+    padding: 1rem;
+    color: #f7f4e8;
+    background: #050505;
+    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.86rem;
+    line-height: 1.62;
+    tab-size: 4;
 }
 
-.card {
-    padding: 1.25rem;
-    background: rgba(255, 255, 255, 0.045);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-}
-
-.panel h2,
-.section h2,
-.card h2 {
-    margin-bottom: 0.75rem;
-    color: var(--primary-color);
-    font-size: clamp(1.35rem, 3vw, 1.8rem);
-}
-
-.panel p,
-.section p,
-.workflow,
-.card p,
-.compactList {
-    color: var(--text-color);
-    line-height: 1.7;
-}
-
-.workflow {
+.outputs {
     display: grid;
     gap: 0.75rem;
-    padding-left: 1.5rem;
+    padding: 0.9rem;
+    background: rgba(255, 255, 255, 0.025);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.compactList {
-    display: grid;
-    gap: 0.45rem;
-    margin-top: 1rem;
-    padding-left: 1.25rem;
+.outputDetails {
+    min-width: 0;
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(255, 255, 255, 0.11);
 }
 
-.section a {
-    color: var(--primary-color);
-    text-underline-offset: 0.2em;
+.outputDetails summary {
+    cursor: pointer;
+    padding: 0.6rem 0.75rem;
+    color: rgba(244, 240, 223, 0.74);
+    background: rgba(0, 0, 0, 0.28);
+    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.78rem;
+    text-transform: uppercase;
 }
 
-.section a:hover {
-    color: var(--accent-color);
+.consoleOutput,
+.plainOutput {
+    max-height: 28rem;
+    overflow: auto;
+    margin: 0;
+    padding: 0.85rem;
+    color: rgba(244, 240, 223, 0.88);
+    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.8rem;
+    line-height: 1.55;
+    white-space: pre-wrap;
 }
 
-.section code {
-    color: var(--primary-color);
-    font-family: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    font-size: 0.95em;
+.consoleOutput {
+    color: #d8f7cf;
+    background: rgba(5, 16, 8, 0.72);
+}
+
+.plainOutput {
+    background: rgba(0, 0, 0, 0.48);
+}
+
+.htmlOutput {
+    max-height: 36rem;
+    overflow: auto;
+    padding: 0.85rem;
+    color: #111;
+    background: #f7f4ea;
+}
+
+.htmlOutput :global(table) {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+}
+
+.htmlOutput :global(th),
+.htmlOutput :global(td) {
+    padding: 0.45rem 0.55rem;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    vertical-align: top;
+}
+
+.htmlOutput :global(th) {
+    background: rgba(0, 0, 0, 0.08);
+    font-weight: 700;
+}
+
+.figure {
+    margin: 0;
+    padding: 0.75rem;
+    overflow-x: auto;
+    background: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.figure img {
+    display: block;
+    width: 100%;
+    min-width: min(760px, 100%);
+    height: auto;
+}
+
+@media (max-width: 980px) {
+    .shell {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        position: static;
+        max-height: none;
+    }
+
+    .sidebarInner {
+        max-height: none;
+    }
+
+    .sidebarNav {
+        display: flex;
+        gap: 0.25rem;
+        overflow-x: auto;
+        padding-bottom: 0.25rem;
+    }
+
+    .sidebarLink,
+    .sidebarLink[data-level="1"],
+    .sidebarLink[data-level="2"],
+    .sidebarLink[data-level="3"],
+    .sidebarLink[data-level="4"],
+    .sidebarLink[data-level="5"],
+    .sidebarLink[data-level="6"] {
+        flex: 0 0 auto;
+        max-width: 16rem;
+        padding: 0.45rem 0.65rem;
+        border-left: 0;
+        border-bottom: 2px solid transparent;
+        background: rgba(255, 255, 255, 0.04);
+    }
+
+    .sidebarLink:hover,
+    .sidebarLink:focus-visible {
+        border-left-color: transparent;
+        border-bottom-color: var(--primary-color, #f5e36d);
+    }
 }
 
 @media (max-width: 640px) {
     .page {
-        padding-inline: 0.5rem;
+        padding: 0.5rem;
     }
 
-    .container {
-        padding-inline: 1.1rem;
+    .markdownCell {
+        padding: 1rem;
     }
 
-    .split {
-        grid-template-columns: 1fr;
+    .codeBlock,
+    .consoleOutput,
+    .plainOutput {
+        font-size: 0.76rem;
+    }
+
+    .cellHeader {
+        flex-direction: column;
+        gap: 0.25rem;
     }
 }

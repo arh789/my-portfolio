@@ -1,3 +1,4 @@
+import { loadNotebook } from "./notebookRenderer.js";
 import styles from "./semanticSeoLab.module.css";
 
 export const metadata = {
@@ -8,6 +9,7 @@ export const metadata = {
         "semantic seo python",
         "Python SEO automation",
         "NLP for SEO",
+        "spaCy SEO",
         "BERT semantic SEO",
         "RoBERTa semantic similarity SEO",
         "keyword clustering Python",
@@ -21,139 +23,128 @@ export const metadata = {
     },
 };
 
-const partAMethods = [
-    "TF-IDF",
-    "c-TF-IDF",
-    "NetworkX/Louvain",
-    "BERT",
-    "RoBERTa",
-    "KMeans",
-    "HDBSCAN/BERTopic-style clustering",
-];
+function NotebookSidebar({ headings }) {
+    return (
+        <aside className={styles.sidebar} aria-label="Notebook outline">
+            <div className={styles.sidebarInner}>
+                <p className={styles.sidebarEyebrow}>Notebook outline</p>
+                <nav className={styles.sidebarNav}>
+                    {headings.map((heading) => (
+                        <a
+                            className={styles.sidebarLink}
+                            data-level={heading.level}
+                            href={`#${heading.slug}`}
+                            key={heading.slug}
+                        >
+                            {heading.text}
+                        </a>
+                    ))}
+                </nav>
+            </div>
+        </aside>
+    );
+}
 
-const partBSteps = [
-    "agent builds the notebook",
-    "agent runs the methods",
-    "agent builds the graph",
-    "human interrogates the representation",
-    "agent answers under constraint",
-    "human challenges smoothing and overreach",
-    "agent separates evidence from interpretation",
-    "the notebook preserves the correction trail",
-    "SEO conclusions are only taken from what survives that process",
-];
+function Output({ output, index }) {
+    if (output.type === "image") {
+        return (
+            <figure className={styles.figure}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                    alt={`Notebook figure ${index + 1}`}
+                    loading="lazy"
+                    src={output.src}
+                />
+            </figure>
+        );
+    }
 
-export default function SemanticSeoLabPage() {
+    if (output.type === "html") {
+        return (
+            <details className={styles.outputDetails} open>
+                <summary>{output.label}</summary>
+                <div
+                    className={styles.htmlOutput}
+                    dangerouslySetInnerHTML={{ __html: output.html }}
+                />
+            </details>
+        );
+    }
+
+    const longOutput = output.text.length > 1200;
+
+    return (
+        <details className={styles.outputDetails} open={!longOutput}>
+            <summary>{output.label}</summary>
+            <pre
+                className={
+                    output.type === "stream"
+                        ? styles.consoleOutput
+                        : styles.plainOutput
+                }
+            >
+                {output.text}
+            </pre>
+        </details>
+    );
+}
+
+function NotebookCell({ cell, index }) {
+    if (cell.type === "markdown") {
+        return (
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                data-cell-index={index}
+                id={cell.headings[0]?.slug ? undefined : cell.id}
+            >
+                <div dangerouslySetInnerHTML={{ __html: cell.html }} />
+            </section>
+        );
+    }
+
+    return (
+        <section
+            className={`${styles.cell} ${styles.codeCell}`}
+            data-cell-index={index}
+            id={cell.id}
+        >
+            <div className={styles.cellHeader}>
+                <span>Python code</span>
+                {cell.executionCount ? (
+                    <span>executed #{cell.executionCount}</span>
+                ) : null}
+            </div>
+            <pre className={styles.codeBlock}>
+                <code>{cell.source}</code>
+            </pre>
+            {cell.outputs.length ? (
+                <div className={styles.outputs}>
+                    {cell.outputs.map((output, outputIndex) => (
+                        <Output
+                            index={outputIndex}
+                            key={`${cell.id}-output-${outputIndex}`}
+                            output={output}
+                        />
+                    ))}
+                </div>
+            ) : null}
+        </section>
+    );
+}
+
+export default async function SemanticSeoLabPage() {
+    const notebook = await loadNotebook();
+
     return (
         <main className={styles.page}>
-            <article className={styles.container}>
-                <header className={styles.header}>
-                    <p className={styles.eyebrow}>Public Semantic SEO lab</p>
-                    <h1>Semantic SEO With Python</h1>
-                    <p className={styles.lede}>
-                        This page demonstrates an agent-run, human-supervised,
-                        code-grounded and graph-mediated Semantic SEO research
-                        process.
-                    </p>
-                    <p className={styles.lede}>
-                        The notebook shows how to use Python, graph analysis,
-                        transformer embeddings and agent supervision to test
-                        whether a Semantic SEO representation is meaningful
-                        enough to guide content strategy.
-                    </p>
-                </header>
-
-                <section className={styles.panel}>
-                    <h2>Core Question</h2>
-                    <p>
-                        Standard keyword research asks: which keywords should
-                        we target?
-                    </p>
-                    <p>
-                        This workflow asks: do the structures produced from
-                        this search space actually support the topics,
-                        relationships and content decisions we are about to
-                        make?
-                    </p>
-                </section>
-
-                <section className={styles.section}>
-                    <h2>Why This Notebook Exists</h2>
-                    <p>
-                        Semantic SEO research should not stop at keyword
-                        clustering, embeddings, graphs or topic labels. A
-                        keyword cluster is not automatically a topic. An
-                        embedding similarity score is not automatically a
-                        strategic relationship. A graph community is not
-                        automatically a content plan.
-                    </p>
-                    <p>
-                        The missing step is a supervised interpretive process
-                        that tests whether those representations are
-                        evidentially supported and usable.
-                    </p>
-                </section>
-
-                <section className={styles.split}>
-                    <div className={styles.card}>
-                        <h2>Part A</h2>
-                        <p>
-                            The first part implements the more typical
-                            Python-based Semantic SEO methods visible in the
-                            current search space.
-                        </p>
-                        <ul className={styles.compactList}>
-                            {partAMethods.map((method) => (
-                                <li key={method}>{method}</li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div className={styles.card}>
-                        <h2>Part B</h2>
-                        <p>
-                            The second part adds the agent-supervised analysis
-                            process.
-                        </p>
-                        <ul className={styles.compactList}>
-                            {partBSteps.map((step) => (
-                                <li key={step}>{step}</li>
-                            ))}
-                        </ul>
-                    </div>
-                </section>
-
-                <section className={styles.section}>
-                    <h2>Recursive SEO Intervention</h2>
-                    <p>
-                        DecrepitFilth.art started appearing for{" "}
-                        <code>semantic seo python</code> queries. The
-                        surrounding SERP connects terms such as{" "}
-                        <code>Python</code>, <code>SEO automation</code>,{" "}
-                        <code>NLP</code>, <code>spaCy</code>,{" "}
-                        <code>BERT</code>, <code>RoBERTa</code>,{" "}
-                        <code>semantic similarity</code>,{" "}
-                        <code>keyword clustering</code>, <code>NetworkX</code>,{" "}
-                        <code>content gaps</code> and{" "}
-                        <code>internal linking</code>.
-                    </p>
-                    <p>
-                        This notebook responds by implementing those terms as a
-                        working Python workflow, rather than merely using them
-                        as article keywords.
-                    </p>
-                    <p>
-                        The central finding is that the SERP contains the parts
-                        of a modern Semantic SEO Python workflow, but not the
-                        coherent workflow itself.
-                    </p>
-                    <p>
-                        The research process demonstrated here was used to
-                        identify that SEO gap. The page now uses the same
-                        workflow to occupy it.
-                    </p>
-                </section>
-            </article>
+            <div className={styles.shell}>
+                <NotebookSidebar headings={notebook.headings} />
+                <article className={styles.notebook}>
+                    {notebook.cells.map((cell, index) => (
+                        <NotebookCell cell={cell} index={index} key={cell.id} />
+                    ))}
+                </article>
+            </div>
         </main>
     );
 }
