@@ -4,21 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-const NAV_ITEMS = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    {
-        href: "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
-        label: "Discovering Hidden Structure",
-    },
-    { href: "/workflow-structure-breakdown", label: "Workflow Breakdown" },
-    { href: "/code", label: "Semantic SEO Code" },
-    { href: "/datamining-llm", label: "Datamining a LLM" },
-    { href: "/content-strategy", label: "Content Strategy" },
-    { href: "/art", label: "Blog" },
-    { href: "/contact", label: "Contact" },
-];
+import { SIDE_NAVIGATION } from "./siteNavigation";
 
 export default function SiteIndexNav() {
     const pathname = usePathname();
@@ -137,7 +123,7 @@ export default function SiteIndexNav() {
                 </div>
 
                 <nav className="site-index-nav-drawer__nav" aria-label="Site">
-                    {NAV_ITEMS.map((item) => (
+                    {SIDE_NAVIGATION.map((item) => (
                         <Link
                             key={item.href}
                             href={item.href}

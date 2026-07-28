@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import './styles.css';
+import { SITE_NAVIGATION } from './siteNavigation';
 
 export const metadata = {
     title: 'Decrepit Filth | Grotesque Art, Semantic Structure, and AI Visibility',
@@ -30,57 +31,6 @@ export const metadata = {
     }
 };
 
-const banners = [
-    {
-        href: '/about',
-        src: '/images/home_menu_images/01_about.png',
-        alt: 'About page',
-        height: 193
-    },
-    {
-        href: '/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content',
-        src: '/images/home_menu_images/02_discovering_hidden_structure.png',
-        alt: 'How AI, Network Analysis and LLMs Reveal Hidden Structure in Content',
-        height: 194
-    },
-    {
-        href: '/workflow-structure-breakdown',
-        src: '/images/home_menu_images/03_workflow_breakdown.png',
-        alt: 'Workflow structure breakdown',
-        height: 193
-    },
-    {
-        href: '/code',
-        src: '/images/home_menu_images/04_semantic_seo_code.png',
-        alt: 'Semantic SEO code',
-        height: 193
-    },
-    {
-        href: '/datamining-llm',
-        src: '/images/home_menu_images/05_datamining_a_llm.png',
-        alt: 'Datamining a large language model',
-        height: 193
-    },
-    {
-        href: '/content-strategy',
-        src: '/images/home_menu_images/06_content_strategy.png',
-        alt: 'Content strategy',
-        height: 194
-    },
-    {
-        href: '/art',
-        src: '/images/home_menu_images/07_blog.png',
-        alt: 'Art blog and gallery',
-        height: 193
-    },
-    {
-        href: '/contact',
-        src: '/images/home_menu_images/08_contact.png',
-        alt: 'Contact form',
-        height: 193
-    }
-];
-
 function BannerItem({ href, src, alt, height }) {
     return (
         <Link href={href} className="banner">
@@ -99,7 +49,7 @@ function BannerItem({ href, src, alt, height }) {
 function BannersContainer() {
     return (
         <section className="banners-container">
-            {banners.map((item) => (
+            {SITE_NAVIGATION.map((item) => (
                 <BannerItem key={item.href} {...item} />
             ))}
         </section>
@@ -111,7 +61,7 @@ export default function Home() {
         <main>
             <section>
                 <h1 className="sr-only">
-                    Symbolic Compression SEO — Emergent Structural Mapping and Suppression Audits
+                    Symbolic Compression SEO - Emergent Structural Mapping and Suppression Audits
                 </h1>
 
                 {/* Optimized Hero Image Implementation */}

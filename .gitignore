@@ -4,3 +4,7 @@ node_modules
 notebooks/.local/
 notebooks/.ipynb_checkpoints/
 
+.pid
+.gitignore.save
+*.patch
+references/
