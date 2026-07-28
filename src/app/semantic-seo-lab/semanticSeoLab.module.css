@@ -134,6 +134,37 @@
 
 .markdownCell p,
 .markdownCell li,
+
+.markdownCell :global(.supervisionLabel) {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 1.15rem 0 0.85rem;
+    padding: 0.55rem 0.75rem;
+    color: rgba(244, 240, 223, 0.96);
+    background: rgba(245, 227, 109, 0.08);
+    border: 1px solid rgba(245, 227, 109, 0.28);
+    border-left: 4px solid var(--primary-color, #f5e36d);
+    font-size: 0.98rem;
+    line-height: 1.5;
+}
+
+.markdownCell :global(.supervisionLabel strong) {
+    color: var(--primary-color, #f5e36d);
+    font-family: var(--font-family-title, inherit);
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+}
+
+.markdownCell :global(.supervisionLabel--codex) {
+    background: rgba(144, 94, 255, 0.09);
+    border-color: rgba(144, 94, 255, 0.34);
+    border-left-color: rgba(190, 160, 255, 0.92);
+}
+
+.markdownCell :global(.supervisionLabel--codex strong) {
+    color: rgba(215, 198, 255, 0.98);
+}
 .markdownCell blockquote {
     max-width: 72rem;
     color: rgba(244, 240, 223, 0.88);
@@ -153,6 +184,37 @@
     padding-left: 1.35rem;
 }
 
+
+.markdownCell :global(.supervisionLabel) {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 1.15rem 0 0.85rem;
+    padding: 0.55rem 0.75rem;
+    color: rgba(244, 240, 223, 0.96);
+    background: rgba(245, 227, 109, 0.08);
+    border: 1px solid rgba(245, 227, 109, 0.28);
+    border-left: 4px solid var(--primary-color, #f5e36d);
+    font-size: 0.98rem;
+    line-height: 1.5;
+}
+
+.markdownCell :global(.supervisionLabel strong) {
+    color: var(--primary-color, #f5e36d);
+    font-family: var(--font-family-title, inherit);
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+}
+
+.markdownCell :global(.supervisionLabel--codex) {
+    background: rgba(144, 94, 255, 0.09);
+    border-color: rgba(144, 94, 255, 0.34);
+    border-left-color: rgba(190, 160, 255, 0.92);
+}
+
+.markdownCell :global(.supervisionLabel--codex strong) {
+    color: rgba(215, 198, 255, 0.98);
+}
 .markdownCell blockquote {
     margin: 1.25rem 0;
     padding: 0.85rem 1rem;

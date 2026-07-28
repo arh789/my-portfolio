@@ -36,11 +36,17 @@ function stripInlineMarkdown(text) {
         .trim();
 }
 
+function uppercaseFirstLetter(text) {
+    return text.replace(/[A-Za-z]/, (letter) => letter.toUpperCase());
+}
+
 function displayHeadingText(text) {
-    return stripInlineMarkdown(text)
+    const stripped = stripInlineMarkdown(text)
         .replace(/^Part B supervision note:\s*/i, "")
         .replace(/^13\.\s+Output manifest$/i, "Output manifest")
         .trim();
+
+    return uppercaseFirstLetter(stripped);
 }
 
 function escapeHtml(text) {
@@ -149,6 +155,16 @@ function injectHeadingIds(markdown, headings) {
         .join("\n");
 }
 
+function markSupervisionLabels(html) {
+    return html.replace(
+        /<p><strong>(Human supervision question|Codex response):<\/strong>(.*?)<\/p>/g,
+        (_, label, rest) => {
+            const kind = label === "Codex response" ? "codex" : "human";
+            return `<p class="supervisionLabel supervisionLabel--${kind}"><strong>${label}:</strong>${rest}</p>`;
+        },
+    );
+}
+
 async function renderMarkdown(markdown, headings) {
     const withHeadingIds = injectHeadingIds(markdown, headings);
     const result = await remark()
@@ -156,7 +172,7 @@ async function renderMarkdown(markdown, headings) {
         .use(html, { sanitize: false })
         .process(withHeadingIds);
 
-    return result.toString();
+    return markSupervisionLabels(result.toString());
 }
 
 function figurePath(cellIndex, outputIndex) {
