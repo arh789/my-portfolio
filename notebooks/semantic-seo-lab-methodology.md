@@ -1888,3 +1888,21 @@ export was not sufficiently human-reviewable.
 The next phase is not publication-led expansion. It is a supervised revision of representation validity,
 relationship validity, and review ergonomics, followed by a larger multi-query sample and comparative
 evaluation.
+
+## 13. BERT/RoBERTa representation audit
+
+During stabilization of the classical-method baseline notebook, the human supervisor identified a trust problem in the way the notebook described its BERT and RoBERTa permutations.
+
+The notebook headings and method labels made it appear that the analysis was using actual BERT/RoBERTa embeddings. In practice, the implementation could load cached embeddings when available, but otherwise fell back to deterministic TF-IDF/SVD vectors while retaining BERT/RoBERTa-labelled sections.
+
+That is a material audit finding because the public page is intended to critique and improve current Semantic SEO Python practice. It cannot credibly overclaim its own model use while criticizing other methods for weak representation validity.
+
+The correction is:
+
+```text
+if the notebook says BERT or RoBERTa
+→ the notebook must run actual BERT/RoBERTa transformer embeddings
+→ or the output must be explicitly labelled as a fallback representation
+```
+
+For the public-facing notebook, the preferred fix is to use actual transformer embeddings rather than fallback vectors. If a fallback is ever used, the fallback must be visible in the section heading, run facts, method critique, and output manifest.
