@@ -1,11 +1,55 @@
-﻿# Semantic SEO with Python: classical baseline notebook
+# Semantic SEO With Python: An Agent-Run, Human-Supervised Research Notebook
 
-This notebook began from a practical search observation: DecrepitFilth.art had started appearing around `semantic seo python` queries. The surrounding search space connected Semantic SEO, Python, NLP, spaCy, BERT, RoBERTa, semantic similarity, keyword clustering, NetworkX, internal linking, content gaps and SEO automation.
+This page demonstrates an agent-run, human-supervised, code-grounded and graph-mediated Semantic SEO research process.
 
-This notebook is the response to that opportunity. Rather than treating those terms as article keywords, it implements them as a working Python workflow: search acquisition, page extraction, corpus construction, TF-IDF, c-TF-IDF, NetworkX/Louvain, BERT, RoBERTa, KMeans and HDBSCAN/BERTopic-style clustering.
+The notebook shows how to use Python, graph analysis, transformer embeddings and agent supervision to test whether a Semantic SEO representation is meaningful enough to guide content strategy.
 
-The code is exposed because implementation choices determine the representation. Each method shows what it finds, what it misses, and what kind of SEO interpretation it can or cannot support.
+Standard keyword research asks:
 
-This is an experiment, not a success narrative. The notebook is also an intervention in the system it measures: a code-heavy public page designed to make the site more useful, more inspectable, and more structurally present in the Semantic SEO Python search space.
+```text
+Which keywords should we target?
+```
 
-The central finding is that the SERP contains the parts of a modern Semantic SEO Python workflow, but not the coherent workflow itself. This notebook occupies that gap by implementing the classical methods, comparing their outputs, and using critique plus human supervision to decide what is actually useful.
+This workflow asks:
+
+```text
+Do the structures produced from this search space actually support the topics, relationships and content decisions we are about to make?
+```
+
+Semantic SEO research should not stop at keyword clustering, embeddings, graphs or topic labels. A keyword cluster is not automatically a topic. An embedding similarity score is not automatically a strategic relationship. A graph community is not automatically a content plan. The missing step is a supervised interpretive process that tests whether those representations are evidentially supported and usable.
+
+This notebook has two parts.
+
+Part A implements the more typical Python-based Semantic SEO methods visible in the current search space:
+
+```text
+TF-IDF
+c-TF-IDF
+NetworkX/Louvain
+BERT
+RoBERTa
+KMeans
+HDBSCAN/BERTopic-style clustering
+```
+
+Part B adds the agent-supervised analysis process:
+
+```text
+agent builds the notebook
+agent runs the methods
+agent builds the graph
+human interrogates the representation
+agent answers under constraint
+human challenges smoothing and overreach
+agent separates evidence from interpretation
+the notebook preserves the correction trail
+SEO conclusions are only taken from what survives that process
+```
+
+This page is also a recursive SEO intervention. DecrepitFilth.art started appearing for `semantic seo python` queries. The surrounding SERP connects terms such as `Python`, `SEO automation`, `NLP`, `spaCy`, `BERT`, `RoBERTa`, `semantic similarity`, `keyword clustering`, `NetworkX`, `content gaps` and `internal linking`.
+
+This notebook responds by implementing those terms as a working Python workflow, rather than merely using them as article keywords.
+
+The central finding is that the SERP contains the parts of a modern Semantic SEO Python workflow, but not the coherent workflow itself.
+
+The research process demonstrated here was used to identify that SEO gap. The page now uses the same workflow to occupy it.

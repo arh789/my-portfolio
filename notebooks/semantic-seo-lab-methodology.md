@@ -1906,3 +1906,8 @@ if the notebook says BERT or RoBERTa
 ```
 
 For the public-facing notebook, the preferred fix is to use actual transformer embeddings rather than fallback vectors. If a fallback is ever used, the fallback must be visible in the section heading, run facts, method critique, and output manifest.
+
+Current resolution: the executed notebook now records actual `bert-base-uncased` and `roberta-base`
+transformer embeddings for the BERT and RoBERTa sections, with `transformer_device: cuda`. The public
+framing should therefore state that transformer embeddings were used in this run, while preserving the rule
+that any future fallback run must be visibly labelled.

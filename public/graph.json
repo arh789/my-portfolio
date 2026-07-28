@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T23:41:20.215Z",
+  "generatedAt": "2026-07-28T02:21:01.164Z",
   "articles": [
     {
       "slug": "ai-zombie-survival-why-fortresses-fail",
@@ -33,74 +33,13 @@
       ]
     },
     {
-      "slug": "ai-visibility-is-not-value",
-      "title": "AI Visibility Is Not Value",
-      "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+      "slug": "representation-governance",
+      "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
+      "description": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
       "date": "2026-07-08",
       "tags": [
         "ai-visibility-is-not-value",
-        "ai-visibility-causality",
-        "source-eligibility",
-        "answer-regimes",
-        "selection-gap",
-        "ai-attribution",
-        "ai-visibility-measurement",
-        "value-transfer",
-        "hard-to-exhaust-archive",
-        "representation-governance",
-        "semantic-archive",
-        "search-and-discovery-systems",
-        "ai-search"
-      ]
-    },
-    {
-      "slug": "ai-visibility-is-not-a-direct-optimisation-outcome",
-      "title": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
-      "description": "Appearing in AI-generated answers is not proof that optimisation caused visibility, attribution, traffic, or retained value. AI visibility is an observed output inside a larger source-selection system.",
-      "date": "2026-07-08",
-      "tags": [
-        "ai-visibility-is-not-value",
-        "ai-visibility-causality"
-      ]
-    },
-    {
-      "slug": "source-eligibility-being-available-is-not-being-chosen",
-      "title": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
-      "description": "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer.",
-      "date": "2026-07-08",
-      "tags": [
-        "ai-visibility-is-not-value",
-        "source-eligibility"
-      ]
-    },
-    {
-      "slug": "ai-visibility-is-not-one-environment",
-      "title": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
-      "description": "AI visibility changes across answer regimes. Some systems retrieve, some synthesise, some cite, some retain users, and some combine those behaviours in different ways.",
-      "date": "2026-07-08",
-      "tags": [
-        "ai-visibility-is-not-value",
-        "answer-regimes"
-      ]
-    },
-    {
-      "slug": "the-selection-gap",
-      "title": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
-      "description": "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility.",
-      "date": "2026-07-08",
-      "tags": [
-        "ai-visibility-is-not-value",
-        "selection-gap"
-      ]
-    },
-    {
-      "slug": "selected-does-not-mean-cited",
-      "title": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
-      "description": "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes.",
-      "date": "2026-07-08",
-      "tags": [
-        "ai-visibility-is-not-value",
-        "ai-attribution"
+        "representation-governance"
       ]
     },
     {
@@ -124,6 +63,77 @@
       ]
     },
     {
+      "slug": "the-selection-gap",
+      "title": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
+      "description": "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility.",
+      "date": "2026-07-08",
+      "tags": [
+        "ai-visibility-is-not-value",
+        "selection-gap"
+      ]
+    },
+    {
+      "slug": "ai-visibility-is-not-a-direct-optimisation-outcome",
+      "title": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
+      "description": "Appearing in AI-generated answers is not proof that optimisation caused visibility, attribution, traffic, or retained value. AI visibility is an observed output inside a larger source-selection system.",
+      "date": "2026-07-08",
+      "tags": [
+        "ai-visibility-is-not-value",
+        "ai-visibility-causality"
+      ]
+    },
+    {
+      "slug": "source-eligibility-being-available-is-not-being-chosen",
+      "title": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
+      "description": "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer.",
+      "date": "2026-07-08",
+      "tags": [
+        "ai-visibility-is-not-value",
+        "source-eligibility"
+      ]
+    },
+    {
+      "slug": "selected-does-not-mean-cited",
+      "title": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
+      "description": "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes.",
+      "date": "2026-07-08",
+      "tags": [
+        "ai-visibility-is-not-value",
+        "ai-attribution"
+      ]
+    },
+    {
+      "slug": "ai-visibility-is-not-value",
+      "title": "AI Visibility Is Not Value",
+      "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+      "date": "2026-07-08",
+      "tags": [
+        "ai-visibility-is-not-value",
+        "ai-visibility-causality",
+        "source-eligibility",
+        "answer-regimes",
+        "selection-gap",
+        "ai-attribution",
+        "ai-visibility-measurement",
+        "value-transfer",
+        "hard-to-exhaust-archive",
+        "representation-governance",
+        "semantic-archive",
+        "search-and-discovery-systems",
+        "ai-search"
+      ]
+    },
+    {
+      "slug": "ai-visibility-is-not-one-environment",
+      "title": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
+      "description": "AI visibility changes across answer regimes. Some systems retrieve, some synthesise, some cite, some retain users, and some combine those behaviours in different ways.",
+      "date": "2026-07-08",
+      "tags": [
+        "ai-visibility-is-not-value",
+        "answer-regimes"
+      ]
+    },
+    {
       "slug": "the-citable-hard-to-exhaust-archive",
       "title": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
       "description": "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture.",
@@ -132,16 +142,6 @@
         "ai-visibility-is-not-value",
         "hard-to-exhaust-archive",
         "semantic-archive"
-      ]
-    },
-    {
-      "slug": "representation-governance",
-      "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
-      "description": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
-      "date": "2026-07-08",
-      "tags": [
-        "ai-visibility-is-not-value",
-        "representation-governance"
       ]
     },
     {
@@ -183,19 +183,6 @@
       ]
     },
     {
-      "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-      "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-      "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-      "date": "2026-06-14",
-      "tags": [
-        "creative-search-system",
-        "youtube",
-        "ai-seo-video",
-        "haunted-machine-tldr",
-        "video-index-system"
-      ]
-    },
-    {
       "slug": "from-seo-keywords-to-the-haunted-machine",
       "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
       "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
@@ -212,18 +199,16 @@
       ]
     },
     {
-      "slug": "how-search-and-recommendation-systems-actually-work",
-      "title": "How Search and Recommendation Systems Actually Work",
-      "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-      "date": "2026-06-05",
+      "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+      "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+      "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+      "date": "2026-06-14",
       "tags": [
-        "search-and-discovery-systems",
-        "semantic-seo",
-        "graph-positioning",
-        "structural-legibility",
-        "hostile-visibility",
-        "ai-search",
-        "discovery-systems-map"
+        "creative-search-system",
+        "youtube",
+        "ai-seo-video",
+        "haunted-machine-tldr",
+        "video-index-system"
       ]
     },
     {
@@ -236,6 +221,21 @@
         "graph-positioning",
         "creative-search-system",
         "semantic-archive",
+        "discovery-systems-map"
+      ]
+    },
+    {
+      "slug": "how-search-and-recommendation-systems-actually-work",
+      "title": "How Search and Recommendation Systems Actually Work",
+      "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+      "date": "2026-06-05",
+      "tags": [
+        "search-and-discovery-systems",
+        "semantic-seo",
+        "graph-positioning",
+        "structural-legibility",
+        "hostile-visibility",
+        "ai-search",
         "discovery-systems-map"
       ]
     },
@@ -276,6 +276,17 @@
       ]
     },
     {
+      "slug": "who-benefits-most-from-this-system",
+      "title": "Who Benefits Most From This System",
+      "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+      "date": "2026-04-25",
+      "tags": [
+        "creative-search-system",
+        "strategic-positioning",
+        "independent-operators"
+      ]
+    },
+    {
       "slug": "research-pipeline",
       "title": "Research pipeline",
       "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
@@ -293,41 +304,16 @@
       ]
     },
     {
-      "slug": "who-benefits-most-from-this-system",
-      "title": "Who Benefits Most From This System",
-      "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
-      "date": "2026-04-25",
-      "tags": [
-        "creative-search-system",
-        "strategic-positioning",
-        "independent-operators"
-      ]
-    },
-    {
-      "slug": "clustered-output-instagram-dataset",
-      "title": "Clustered Output (Dataset)",
-      "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+      "slug": "seer-clown-research-process",
+      "title": "Research Process Used to Establish the Seer-Clown Archetype",
+      "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
       "date": "2026-04-24",
       "tags": [
+        "creative-identity-system",
+        "seer-clown",
         "aesthetic-research-system",
-        "instagram-dataset",
-        "semantic-research-pipeline",
-        "clustering-method",
-        "research-methods",
-        "aesthetic-analysis"
-      ]
-    },
-    {
-      "slug": "data-structure-intermediate-stage",
-      "title": "What the Data Actually Looks Like",
-      "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-      "date": "2026-04-24",
-      "tags": [
-        "aesthetic-research-system",
-        "dataset-structure",
-        "semantic-research-pipeline",
-        "research-methods",
-        "aesthetic-analysis"
+        "aesthetic-analysis",
+        "artistic-system-building"
       ]
     },
     {
@@ -346,16 +332,30 @@
       ]
     },
     {
-      "slug": "seer-clown-research-process",
-      "title": "Research Process Used to Establish the Seer-Clown Archetype",
-      "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+      "slug": "data-structure-intermediate-stage",
+      "title": "What the Data Actually Looks Like",
+      "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
       "date": "2026-04-24",
       "tags": [
-        "creative-identity-system",
-        "seer-clown",
         "aesthetic-research-system",
-        "aesthetic-analysis",
-        "artistic-system-building"
+        "dataset-structure",
+        "semantic-research-pipeline",
+        "research-methods",
+        "aesthetic-analysis"
+      ]
+    },
+    {
+      "slug": "clustered-output-instagram-dataset",
+      "title": "Clustered Output (Dataset)",
+      "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+      "date": "2026-04-24",
+      "tags": [
+        "aesthetic-research-system",
+        "instagram-dataset",
+        "semantic-research-pipeline",
+        "clustering-method",
+        "research-methods",
+        "aesthetic-analysis"
       ]
     },
     {
@@ -390,6 +390,17 @@
       ]
     },
     {
+      "slug": "structural-extraction-protocol",
+      "title": "Structural Extraction Protocol",
+      "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+      "date": "2026-04-06",
+      "tags": [
+        "llm-structural-analysis",
+        "structural-extraction",
+        "model-structure-analysis"
+      ]
+    },
+    {
       "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
       "title": "SDA-3 protocol",
       "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
@@ -406,25 +417,31 @@
       ]
     },
     {
-      "slug": "structural-extraction-protocol",
-      "title": "Structural Extraction Protocol",
-      "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-      "date": "2026-04-06",
+      "slug": "maximising-artistic-identity",
+      "title": "Maximising Artistic Identity",
+      "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+      "date": "2026-03-15",
       "tags": [
-        "llm-structural-analysis",
-        "structural-extraction",
-        "model-structure-analysis"
+        "creative-identity-system",
+        "first-principles",
+        "seer-clown",
+        "haunted-machine",
+        "artistic-identity",
+        "structural-legibility",
+        "artistic-system-building"
       ]
     },
     {
-      "slug": "art-forms-with-high-audience-resonance",
-      "title": "Art Forms with High Audience Resonance",
-      "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+      "slug": "semantic-seo-begins-before-optimisation",
+      "title": "Semantic SEO Begins Before Optimisation",
+      "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
       "date": "2026-03-15",
       "tags": [
-        "aesthetic-research-system",
-        "audience-resonance",
-        "aesthetic-analysis"
+        "search-and-discovery-systems",
+        "semantic-seo",
+        "creative-search-system",
+        "structural-legibility",
+        "discovery-systems-map"
       ]
     },
     {
@@ -450,42 +467,14 @@
       ]
     },
     {
-      "slug": "maximising-artistic-identity",
-      "title": "Maximising Artistic Identity",
-      "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-      "date": "2026-03-15",
-      "tags": [
-        "creative-identity-system",
-        "first-principles",
-        "seer-clown",
-        "haunted-machine",
-        "artistic-identity",
-        "structural-legibility",
-        "artistic-system-building"
-      ]
-    },
-    {
-      "slug": "most-popular-art-mediums-based-on-the-datasets",
-      "title": "Most Popular Art Mediums Based on the Datasets",
-      "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+      "slug": "art-forms-with-high-audience-resonance",
+      "title": "Art Forms with High Audience Resonance",
+      "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
       "date": "2026-03-15",
       "tags": [
         "aesthetic-research-system",
-        "art-medium-analysis",
+        "audience-resonance",
         "aesthetic-analysis"
-      ]
-    },
-    {
-      "slug": "semantic-seo-begins-before-optimisation",
-      "title": "Semantic SEO Begins Before Optimisation",
-      "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-      "date": "2026-03-15",
-      "tags": [
-        "search-and-discovery-systems",
-        "semantic-seo",
-        "creative-search-system",
-        "structural-legibility",
-        "discovery-systems-map"
       ]
     },
     {
@@ -508,6 +497,17 @@
         "search-and-discovery-systems",
         "hostile-visibility",
         "discovery-systems-map"
+      ]
+    },
+    {
+      "slug": "most-popular-art-mediums-based-on-the-datasets",
+      "title": "Most Popular Art Mediums Based on the Datasets",
+      "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+      "date": "2026-03-15",
+      "tags": [
+        "aesthetic-research-system",
+        "art-medium-analysis",
+        "aesthetic-analysis"
       ]
     }
   ],
@@ -600,6 +600,17 @@
         ]
       },
       {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
         "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
@@ -612,17 +623,6 @@
           "hidden-representations",
           "llm-failure-analysis",
           "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
           "model-structure-analysis"
         ]
       },
@@ -761,19 +761,6 @@
         ]
       },
       {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
         "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
@@ -786,6 +773,19 @@
           "haunted-machine-video",
           "haunted-machine",
           "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
           "video-index-system"
         ]
       },
@@ -1115,6 +1115,17 @@
         ]
       },
       {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
         "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
@@ -1127,17 +1138,6 @@
           "hidden-representations",
           "llm-failure-analysis",
           "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
           "model-structure-analysis"
         ]
       },
@@ -1201,19 +1201,6 @@
         ]
       },
       {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
         "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
@@ -1226,6 +1213,19 @@
           "haunted-machine-video",
           "haunted-machine",
           "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
           "video-index-system"
         ]
       },
@@ -1277,74 +1277,13 @@
     ],
     "ai-visibility-is-not-value": [
       {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "slug": "representation-governance",
+        "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
+        "description": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
         "date": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "title": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
-        "description": "Appearing in AI-generated answers is not proof that optimisation caused visibility, attribution, traffic, or retained value. AI visibility is an observed output inside a larger source-selection system.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality"
-        ]
-      },
-      {
-        "slug": "source-eligibility-being-available-is-not-being-chosen",
-        "title": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
-        "description": "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "source-eligibility"
-        ]
-      },
-      {
-        "slug": "ai-visibility-is-not-one-environment",
-        "title": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
-        "description": "AI visibility changes across answer regimes. Some systems retrieve, some synthesise, some cite, some retain users, and some combine those behaviours in different ways.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "answer-regimes"
-        ]
-      },
-      {
-        "slug": "the-selection-gap",
-        "title": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
-        "description": "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "selection-gap"
-        ]
-      },
-      {
-        "slug": "selected-does-not-mean-cited",
-        "title": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
-        "description": "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-attribution"
+          "representation-governance"
         ]
       },
       {
@@ -1368,47 +1307,13 @@
         ]
       },
       {
-        "slug": "the-citable-hard-to-exhaust-archive",
-        "title": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
-        "description": "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture.",
+        "slug": "the-selection-gap",
+        "title": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
+        "description": "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility.",
         "date": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
-          "hard-to-exhaust-archive",
-          "semantic-archive"
-        ]
-      },
-      {
-        "slug": "representation-governance",
-        "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
-        "description": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "representation-governance"
-        ]
-      }
-    ],
-    "ai-visibility-causality": [
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
+          "selection-gap"
         ]
       },
       {
@@ -1420,9 +1325,27 @@
           "ai-visibility-is-not-value",
           "ai-visibility-causality"
         ]
-      }
-    ],
-    "source-eligibility": [
+      },
+      {
+        "slug": "source-eligibility-being-available-is-not-being-chosen",
+        "title": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
+        "description": "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "source-eligibility"
+        ]
+      },
+      {
+        "slug": "selected-does-not-mean-cited",
+        "title": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
+        "description": "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-attribution"
+        ]
+      },
       {
         "slug": "ai-visibility-is-not-value",
         "title": "AI Visibility Is Not Value",
@@ -1445,6 +1368,194 @@
         ]
       },
       {
+        "slug": "ai-visibility-is-not-one-environment",
+        "title": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
+        "description": "AI visibility changes across answer regimes. Some systems retrieve, some synthesise, some cite, some retain users, and some combine those behaviours in different ways.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "answer-regimes"
+        ]
+      },
+      {
+        "slug": "the-citable-hard-to-exhaust-archive",
+        "title": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
+        "description": "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "hard-to-exhaust-archive",
+          "semantic-archive"
+        ]
+      }
+    ],
+    "representation-governance": [
+      {
+        "slug": "representation-governance",
+        "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
+        "description": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "representation-governance"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      }
+    ],
+    "ai-visibility-measurement": [
+      {
+        "slug": "ai-visibility-measurement-cannot-prove-value",
+        "title": "AI Visibility Is Not Value, Part 6 — AI Visibility Measurement Cannot Prove Value",
+        "description": "AI visibility metrics can observe mentions, citations, answer presence, and prompt-level appearances. They cannot by themselves prove causation, representation quality, traffic, conversion, or retained value.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-measurement"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      }
+    ],
+    "value-transfer": [
+      {
+        "slug": "value-transfer-retention-and-platform-capture",
+        "title": "AI Visibility Is Not Value, Part 7 — Value Transfer, Retention, and Platform Capture",
+        "description": "When source material improves an AI answer, who receives the value? AI visibility may produce source value, shared value, or platform capture depending on whether attention, trust, traffic, and relationship value return to the source.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "value-transfer"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      }
+    ],
+    "selection-gap": [
+      {
+        "slug": "the-selection-gap",
+        "title": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
+        "description": "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "selection-gap"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      }
+    ],
+    "ai-visibility-causality": [
+      {
+        "slug": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "title": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
+        "description": "Appearing in AI-generated answers is not proof that optimisation caused visibility, attribution, traffic, or retained value. AI visibility is an observed output inside a larger source-selection system.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      }
+    ],
+    "source-eligibility": [
+      {
         "slug": "source-eligibility-being-available-is-not-being-chosen",
         "title": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
         "description": "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer.",
@@ -1452,6 +1563,60 @@
         "tags": [
           "ai-visibility-is-not-value",
           "source-eligibility"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      }
+    ],
+    "ai-attribution": [
+      {
+        "slug": "selected-does-not-mean-cited",
+        "title": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
+        "description": "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-attribution"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
         ]
       }
     ],
@@ -1488,138 +1653,6 @@
         ]
       }
     ],
-    "selection-gap": [
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "the-selection-gap",
-        "title": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
-        "description": "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "selection-gap"
-        ]
-      }
-    ],
-    "ai-attribution": [
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "selected-does-not-mean-cited",
-        "title": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
-        "description": "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-attribution"
-        ]
-      }
-    ],
-    "ai-visibility-measurement": [
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "ai-visibility-measurement-cannot-prove-value",
-        "title": "AI Visibility Is Not Value, Part 6 — AI Visibility Measurement Cannot Prove Value",
-        "description": "AI visibility metrics can observe mentions, citations, answer presence, and prompt-level appearances. They cannot by themselves prove causation, representation quality, traffic, conversion, or retained value.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-measurement"
-        ]
-      }
-    ],
-    "value-transfer": [
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "value-transfer-retention-and-platform-capture",
-        "title": "AI Visibility Is Not Value, Part 7 — Value Transfer, Retention, and Platform Capture",
-        "description": "When source material improves an AI answer, who receives the value? AI visibility may produce source value, shared value, or platform capture depending on whether attention, trust, traffic, and relationship value return to the source.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "value-transfer"
-        ]
-      }
-    ],
     "hard-to-exhaust-archive": [
       {
         "slug": "ai-visibility-is-not-value",
@@ -1651,39 +1684,6 @@
           "ai-visibility-is-not-value",
           "hard-to-exhaust-archive",
           "semantic-archive"
-        ]
-      }
-    ],
-    "representation-governance": [
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "representation-governance",
-        "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
-        "description": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "representation-governance"
         ]
       }
     ],
@@ -1773,6 +1773,19 @@
         ]
       },
       {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "graph-positioning",
+          "creative-search-system",
+          "semantic-archive",
+          "discovery-systems-map"
+        ]
+      },
+      {
         "slug": "how-search-and-recommendation-systems-actually-work",
         "title": "How Search and Recommendation Systems Actually Work",
         "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
@@ -1784,19 +1797,6 @@
           "structural-legibility",
           "hostile-visibility",
           "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
           "discovery-systems-map"
         ]
       },
@@ -1973,6 +1973,19 @@
         ]
       },
       {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
         "slug": "clustered-output-instagram-dataset",
         "title": "Clustered Output (Dataset)",
         "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
@@ -1982,19 +1995,6 @@
           "instagram-dataset",
           "semantic-research-pipeline",
           "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
           "research-methods",
           "aesthetic-analysis"
         ]
@@ -2109,6 +2109,19 @@
         ]
       },
       {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
         "slug": "clustered-output-instagram-dataset",
         "title": "Clustered Output (Dataset)",
         "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
@@ -2121,35 +2134,9 @@
           "research-methods",
           "aesthetic-analysis"
         ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
       }
     ],
     "creative-search-system": [
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
@@ -2163,6 +2150,19 @@
           "haunted-machine-video",
           "haunted-machine",
           "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
           "video-index-system"
         ]
       },
@@ -2204,52 +2204,6 @@
         ]
       }
     ],
-    "ai-seo-video": [
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system"
-        ]
-      }
-    ],
-    "haunted-machine-tldr": [
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      }
-    ],
     "creative-identity-system": [
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
@@ -2281,17 +2235,6 @@
         ]
       },
       {
-        "slug": "first-principles",
-        "title": "First Principles",
-        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "artistic-system-building"
-        ]
-      },
-      {
         "slug": "maximising-artistic-identity",
         "title": "Maximising Artistic Identity",
         "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
@@ -2303,6 +2246,17 @@
           "haunted-machine",
           "artistic-identity",
           "structural-legibility",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
           "artistic-system-building"
         ]
       }
@@ -2405,17 +2359,6 @@
         ]
       },
       {
-        "slug": "first-principles",
-        "title": "First Principles",
-        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "artistic-system-building"
-        ]
-      },
-      {
         "slug": "maximising-artistic-identity",
         "title": "Maximising Artistic Identity",
         "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
@@ -2428,6 +2371,175 @@
           "artistic-identity",
           "structural-legibility",
           "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "artistic-system-building"
+        ]
+      }
+    ],
+    "ai-seo-video": [
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system"
+        ]
+      }
+    ],
+    "haunted-machine-tldr": [
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
+        ]
+      }
+    ],
+    "graph-positioning": [
+      {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "graph-positioning",
+          "creative-search-system",
+          "semantic-archive",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      }
+    ],
+    "discovery-systems-map": [
+      {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "graph-positioning",
+          "creative-search-system",
+          "semantic-archive",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "semantic-seo-begins-before-optimisation",
+        "title": "Semantic SEO Begins Before Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "seo-visibility-structural-legibility",
+        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "structural-legibility",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "hostile-visibility",
+          "discovery-systems-map"
         ]
       }
     ],
@@ -2457,36 +2569,6 @@
           "semantic-seo",
           "creative-search-system",
           "structural-legibility",
-          "discovery-systems-map"
-        ]
-      }
-    ],
-    "graph-positioning": [
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
           "discovery-systems-map"
         ]
       }
@@ -2560,88 +2642,6 @@
           "structural-legibility",
           "hostile-visibility",
           "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "visibility-under-hostile-conditions",
-        "title": "Visibility Under Hostile Conditions",
-        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "hostile-visibility",
-          "discovery-systems-map"
-        ]
-      }
-    ],
-    "discovery-systems-map": [
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "structural-legibility",
           "discovery-systems-map"
         ]
       },
@@ -2781,6 +2781,19 @@
         ]
       }
     ],
+    "independent-operators": [
+      {
+        "slug": "who-benefits-most-from-this-system",
+        "title": "Who Benefits Most From This System",
+        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+        "date": "2026-04-25",
+        "tags": [
+          "creative-search-system",
+          "strategic-positioning",
+          "independent-operators"
+        ]
+      }
+    ],
     "dataset-structure": [
       {
         "slug": "research-pipeline",
@@ -2846,45 +2859,18 @@
         ]
       }
     ],
-    "independent-operators": [
+    "seer-clown": [
       {
-        "slug": "who-benefits-most-from-this-system",
-        "title": "Who Benefits Most From This System",
-        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
-        "date": "2026-04-25",
-        "tags": [
-          "creative-search-system",
-          "strategic-positioning",
-          "independent-operators"
-        ]
-      }
-    ],
-    "aesthetic-research-system": [
-      {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Output (Dataset)",
-        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
         "date": "2026-04-24",
         "tags": [
+          "creative-identity-system",
+          "seer-clown",
           "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
+          "aesthetic-analysis",
+          "artistic-system-building"
         ]
       },
       {
@@ -2903,6 +2889,23 @@
         ]
       },
       {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "seer-clown",
+          "haunted-machine",
+          "artistic-identity",
+          "structural-legibility",
+          "artistic-system-building"
+        ]
+      }
+    ],
+    "aesthetic-research-system": [
+      {
         "slug": "seer-clown-research-process",
         "title": "Research Process Used to Establish the Seer-Clown Archetype",
         "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
@@ -2913,6 +2916,127 @@
           "aesthetic-research-system",
           "aesthetic-analysis",
           "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "methodology-evaluation-and-validity",
+        "title": "Summary of the Process, Conclusions, and Their Validity",
+        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "audience-resonance",
+          "art-medium-analysis",
+          "seer-clown",
+          "validation",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Output (Dataset)",
+        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "art-forms-with-high-audience-resonance",
+        "title": "Art Forms with High Audience Resonance",
+        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "date": "2026-03-15",
+        "tags": [
+          "aesthetic-research-system",
+          "audience-resonance",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "most-popular-art-mediums-based-on-the-datasets",
+        "title": "Most Popular Art Mediums Based on the Datasets",
+        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "date": "2026-03-15",
+        "tags": [
+          "aesthetic-research-system",
+          "art-medium-analysis",
+          "aesthetic-analysis"
+        ]
+      }
+    ],
+    "aesthetic-analysis": [
+      {
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "date": "2026-04-24",
+        "tags": [
+          "creative-identity-system",
+          "seer-clown",
+          "aesthetic-research-system",
+          "aesthetic-analysis",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "methodology-evaluation-and-validity",
+        "title": "Summary of the Process, Conclusions, and Their Validity",
+        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "audience-resonance",
+          "art-medium-analysis",
+          "seer-clown",
+          "validation",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Output (Dataset)",
+        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
+          "aesthetic-analysis"
         ]
       },
       {
@@ -2940,64 +3064,6 @@
     ],
     "instagram-dataset": [
       {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Output (Dataset)",
-        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "methodology-evaluation-and-validity",
-        "title": "Summary of the Process, Conclusions, and Their Validity",
-        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "audience-resonance",
-          "art-medium-analysis",
-          "seer-clown",
-          "validation",
-          "aesthetic-analysis"
-        ]
-      }
-    ],
-    "aesthetic-analysis": [
-      {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Output (Dataset)",
-        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
         "slug": "methodology-evaluation-and-validity",
         "title": "Summary of the Process, Conclusions, and Their Validity",
         "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
@@ -3013,37 +3079,16 @@
         ]
       },
       {
-        "slug": "seer-clown-research-process",
-        "title": "Research Process Used to Establish the Seer-Clown Archetype",
-        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Output (Dataset)",
+        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
         "date": "2026-04-24",
         "tags": [
-          "creative-identity-system",
-          "seer-clown",
           "aesthetic-research-system",
-          "aesthetic-analysis",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "slug": "art-forms-with-high-audience-resonance",
-        "title": "Art Forms with High Audience Resonance",
-        "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
-        "date": "2026-03-15",
-        "tags": [
-          "aesthetic-research-system",
-          "audience-resonance",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "most-popular-art-mediums-based-on-the-datasets",
-        "title": "Most Popular Art Mediums Based on the Datasets",
-        "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
-        "date": "2026-03-15",
-        "tags": [
-          "aesthetic-research-system",
-          "art-medium-analysis",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
           "aesthetic-analysis"
         ]
       }
@@ -3104,51 +3149,6 @@
         ]
       }
     ],
-    "seer-clown": [
-      {
-        "slug": "methodology-evaluation-and-validity",
-        "title": "Summary of the Process, Conclusions, and Their Validity",
-        "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "audience-resonance",
-          "art-medium-analysis",
-          "seer-clown",
-          "validation",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "seer-clown-research-process",
-        "title": "Research Process Used to Establish the Seer-Clown Archetype",
-        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
-        "date": "2026-04-24",
-        "tags": [
-          "creative-identity-system",
-          "seer-clown",
-          "aesthetic-research-system",
-          "aesthetic-analysis",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "seer-clown",
-          "haunted-machine",
-          "artistic-identity",
-          "structural-legibility",
-          "artistic-system-building"
-        ]
-      }
-    ],
     "validation": [
       {
         "slug": "methodology-evaluation-and-validity",
@@ -3199,6 +3199,35 @@
         ]
       }
     ],
+    "structural-extraction": [
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      }
+    ],
     "embedding-space": [
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -3217,47 +3246,7 @@
         ]
       }
     ],
-    "structural-extraction": [
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
-          "model-structure-analysis"
-        ]
-      }
-    ],
     "first-principles": [
-      {
-        "slug": "first-principles",
-        "title": "First Principles",
-        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "artistic-system-building"
-        ]
-      },
       {
         "slug": "maximising-artistic-identity",
         "title": "Maximising Artistic Identity",
@@ -3270,6 +3259,17 @@
           "haunted-machine",
           "artistic-identity",
           "structural-legibility",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
           "artistic-system-building"
         ]
       }
@@ -3556,73 +3556,12 @@
         "centrality": 42
       },
       {
-        "id": "ai-visibility-is-not-value",
-        "label": "AI Visibility Is Not Value",
+        "id": "representation-governance",
+        "label": "AI Visibility Is Not Value, Part 9 — Representation Governance",
         "type": "article",
         "tags": [
           "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ],
-        "centrality": 28
-      },
-      {
-        "id": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "label": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
-        "type": "article",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality"
-        ],
-        "centrality": 10
-      },
-      {
-        "id": "source-eligibility-being-available-is-not-being-chosen",
-        "label": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
-        "type": "article",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "source-eligibility"
-        ],
-        "centrality": 10
-      },
-      {
-        "id": "ai-visibility-is-not-one-environment",
-        "label": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
-        "type": "article",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "answer-regimes"
-        ],
-        "centrality": 10
-      },
-      {
-        "id": "the-selection-gap",
-        "label": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
-        "type": "article",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "selection-gap"
-        ],
-        "centrality": 10
-      },
-      {
-        "id": "selected-does-not-mean-cited",
-        "label": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
-        "type": "article",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-attribution"
+          "representation-governance"
         ],
         "centrality": 10
       },
@@ -3647,6 +3586,77 @@
         "centrality": 10
       },
       {
+        "id": "the-selection-gap",
+        "label": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
+        "type": "article",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "selection-gap"
+        ],
+        "centrality": 10
+      },
+      {
+        "id": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "label": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
+        "type": "article",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality"
+        ],
+        "centrality": 10
+      },
+      {
+        "id": "source-eligibility-being-available-is-not-being-chosen",
+        "label": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
+        "type": "article",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "source-eligibility"
+        ],
+        "centrality": 10
+      },
+      {
+        "id": "selected-does-not-mean-cited",
+        "label": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
+        "type": "article",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-attribution"
+        ],
+        "centrality": 10
+      },
+      {
+        "id": "ai-visibility-is-not-value",
+        "label": "AI Visibility Is Not Value",
+        "type": "article",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ],
+        "centrality": 28
+      },
+      {
+        "id": "ai-visibility-is-not-one-environment",
+        "label": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
+        "type": "article",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "answer-regimes"
+        ],
+        "centrality": 10
+      },
+      {
         "id": "the-citable-hard-to-exhaust-archive",
         "label": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
         "type": "article",
@@ -3656,16 +3666,6 @@
           "semantic-archive"
         ],
         "centrality": 13
-      },
-      {
-        "id": "representation-governance",
-        "label": "AI Visibility Is Not Value, Part 9 — Representation Governance",
-        "type": "article",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "representation-governance"
-        ],
-        "centrality": 10
       },
       {
         "id": "hidden-representations-without-hidden-layers",
@@ -3706,19 +3706,6 @@
         "centrality": 12
       },
       {
-        "id": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "label": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "type": "article",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ],
-        "centrality": 19
-      },
-      {
         "id": "from-seo-keywords-to-the-haunted-machine",
         "label": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
         "type": "article",
@@ -3735,19 +3722,17 @@
         "centrality": 29
       },
       {
-        "id": "how-search-and-recommendation-systems-actually-work",
-        "label": "How Search and Recommendation Systems Actually Work",
+        "id": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "label": "AI SEO Strategy: Why Your Creative Work Is Invisible",
         "type": "article",
         "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
         ],
-        "centrality": 18
+        "centrality": 19
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -3761,6 +3746,21 @@
           "discovery-systems-map"
         ],
         "centrality": 19
+      },
+      {
+        "id": "how-search-and-recommendation-systems-actually-work",
+        "label": "How Search and Recommendation Systems Actually Work",
+        "type": "article",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ],
+        "centrality": 18
       },
       {
         "id": "python-nlp-semantic-seo",
@@ -3799,6 +3799,17 @@
         "centrality": 32
       },
       {
+        "id": "who-benefits-most-from-this-system",
+        "label": "Who Benefits Most From This System",
+        "type": "article",
+        "tags": [
+          "creative-search-system",
+          "strategic-positioning",
+          "independent-operators"
+        ],
+        "centrality": 5
+      },
+      {
         "id": "research-pipeline",
         "label": "Research pipeline",
         "type": "article",
@@ -3816,42 +3827,17 @@
         "centrality": 26
       },
       {
-        "id": "who-benefits-most-from-this-system",
-        "label": "Who Benefits Most From This System",
+        "id": "seer-clown-research-process",
+        "label": "Research Process Used to Establish the Seer-Clown Archetype",
         "type": "article",
         "tags": [
-          "creative-search-system",
-          "strategic-positioning",
-          "independent-operators"
-        ],
-        "centrality": 5
-      },
-      {
-        "id": "clustered-output-instagram-dataset",
-        "label": "Clustered Output (Dataset)",
-        "type": "article",
-        "tags": [
+          "creative-identity-system",
+          "seer-clown",
           "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
+          "aesthetic-analysis",
+          "artistic-system-building"
         ],
-        "centrality": 22
-      },
-      {
-        "id": "data-structure-intermediate-stage",
-        "label": "What the Data Actually Looks Like",
-        "type": "article",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
-        ],
-        "centrality": 21
+        "centrality": 18
       },
       {
         "id": "methodology-evaluation-and-validity",
@@ -3869,17 +3855,31 @@
         "centrality": 15
       },
       {
-        "id": "seer-clown-research-process",
-        "label": "Research Process Used to Establish the Seer-Clown Archetype",
+        "id": "data-structure-intermediate-stage",
+        "label": "What the Data Actually Looks Like",
         "type": "article",
         "tags": [
-          "creative-identity-system",
-          "seer-clown",
           "aesthetic-research-system",
-          "aesthetic-analysis",
-          "artistic-system-building"
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
         ],
-        "centrality": 18
+        "centrality": 21
+      },
+      {
+        "id": "clustered-output-instagram-dataset",
+        "label": "Clustered Output (Dataset)",
+        "type": "article",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
+          "aesthetic-analysis"
+        ],
+        "centrality": 22
       },
       {
         "id": "youtube-video-index",
@@ -3913,6 +3913,17 @@
         "centrality": 39
       },
       {
+        "id": "structural-extraction-protocol",
+        "label": "Structural Extraction Protocol",
+        "type": "article",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
+          "model-structure-analysis"
+        ],
+        "centrality": 17
+      },
+      {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "label": "SDA-3 protocol",
         "type": "article",
@@ -3929,26 +3940,32 @@
         "centrality": 24
       },
       {
-        "id": "structural-extraction-protocol",
-        "label": "Structural Extraction Protocol",
+        "id": "maximising-artistic-identity",
+        "label": "Maximising Artistic Identity",
         "type": "article",
         "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
-          "model-structure-analysis"
+          "creative-identity-system",
+          "first-principles",
+          "seer-clown",
+          "haunted-machine",
+          "artistic-identity",
+          "structural-legibility",
+          "artistic-system-building"
         ],
-        "centrality": 17
+        "centrality": 13
       },
       {
-        "id": "art-forms-with-high-audience-resonance",
-        "label": "Art Forms with High Audience Resonance",
+        "id": "semantic-seo-begins-before-optimisation",
+        "label": "Semantic SEO Begins Before Optimisation",
         "type": "article",
         "tags": [
-          "aesthetic-research-system",
-          "audience-resonance",
-          "aesthetic-analysis"
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map"
         ],
-        "centrality": 11
+        "centrality": 19
       },
       {
         "id": "first-principles",
@@ -3973,43 +3990,15 @@
         "centrality": 20
       },
       {
-        "id": "maximising-artistic-identity",
-        "label": "Maximising Artistic Identity",
-        "type": "article",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "seer-clown",
-          "haunted-machine",
-          "artistic-identity",
-          "structural-legibility",
-          "artistic-system-building"
-        ],
-        "centrality": 13
-      },
-      {
-        "id": "most-popular-art-mediums-based-on-the-datasets",
-        "label": "Most Popular Art Mediums Based on the Datasets",
+        "id": "art-forms-with-high-audience-resonance",
+        "label": "Art Forms with High Audience Resonance",
         "type": "article",
         "tags": [
           "aesthetic-research-system",
-          "art-medium-analysis",
+          "audience-resonance",
           "aesthetic-analysis"
         ],
         "centrality": 11
-      },
-      {
-        "id": "semantic-seo-begins-before-optimisation",
-        "label": "Semantic SEO Begins Before Optimisation",
-        "type": "article",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ],
-        "centrality": 19
       },
       {
         "id": "seo-visibility-structural-legibility",
@@ -4032,6 +4021,17 @@
           "discovery-systems-map"
         ],
         "centrality": 12
+      },
+      {
+        "id": "most-popular-art-mediums-based-on-the-datasets",
+        "label": "Most Popular Art Mediums Based on the Datasets",
+        "type": "article",
+        "tags": [
+          "aesthetic-research-system",
+          "art-medium-analysis",
+          "aesthetic-analysis"
+        ],
+        "centrality": 11
       }
     ],
     "edges": [
@@ -4074,7 +4074,7 @@
       },
       {
         "source": "ai-zombie-survival-why-fortresses-fail",
-        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "from-seo-keywords-to-the-haunted-machine",
         "weight": 2,
         "tags": [
           "youtube",
@@ -4083,7 +4083,7 @@
       },
       {
         "source": "ai-zombie-survival-why-fortresses-fail",
-        "target": "from-seo-keywords-to-the-haunted-machine",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "weight": 2,
         "tags": [
           "youtube",
@@ -4128,20 +4128,20 @@
       },
       {
         "source": "ai-zombie-survival-why-fortresses-fail",
-        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "weight": 3,
+        "target": "structural-extraction-protocol",
+        "weight": 2,
         "tags": [
           "llm-structural-analysis",
-          "llm-failure-analysis",
           "model-structure-analysis"
         ]
       },
       {
         "source": "ai-zombie-survival-why-fortresses-fail",
-        "target": "structural-extraction-protocol",
-        "weight": 2,
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 3,
         "tags": [
           "llm-structural-analysis",
+          "llm-failure-analysis",
           "model-structure-analysis"
         ]
       },
@@ -4180,7 +4180,7 @@
       },
       {
         "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "from-seo-keywords-to-the-haunted-machine",
         "weight": 2,
         "tags": [
           "youtube",
@@ -4189,7 +4189,7 @@
       },
       {
         "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "target": "from-seo-keywords-to-the-haunted-machine",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "weight": 2,
         "tags": [
           "youtube",
@@ -4233,20 +4233,20 @@
       },
       {
         "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "weight": 3,
+        "target": "structural-extraction-protocol",
+        "weight": 2,
         "tags": [
           "llm-structural-analysis",
-          "llm-failure-analysis",
           "model-structure-analysis"
         ]
       },
       {
         "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "target": "structural-extraction-protocol",
-        "weight": 2,
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 3,
         "tags": [
           "llm-structural-analysis",
+          "llm-failure-analysis",
           "model-structure-analysis"
         ]
       },
@@ -4261,8 +4261,268 @@
         ]
       },
       {
-        "source": "ai-visibility-is-not-value",
+        "source": "representation-governance",
+        "target": "ai-visibility-measurement-cannot-prove-value",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "representation-governance",
+        "target": "value-transfer-retention-and-platform-capture",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "representation-governance",
+        "target": "the-selection-gap",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "representation-governance",
         "target": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "representation-governance",
+        "target": "source-eligibility-being-available-is-not-being-chosen",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "representation-governance",
+        "target": "selected-does-not-mean-cited",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "representation-governance",
+        "target": "ai-visibility-is-not-value",
+        "weight": 2,
+        "tags": [
+          "ai-visibility-is-not-value",
+          "representation-governance"
+        ]
+      },
+      {
+        "source": "representation-governance",
+        "target": "ai-visibility-is-not-one-environment",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "representation-governance",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "value-transfer-retention-and-platform-capture",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "the-selection-gap",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "source-eligibility-being-available-is-not-being-chosen",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "selected-does-not-mean-cited",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "ai-visibility-is-not-value",
+        "weight": 2,
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-measurement"
+        ]
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "ai-visibility-is-not-one-environment",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "the-selection-gap",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "source-eligibility-being-available-is-not-being-chosen",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "selected-does-not-mean-cited",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "ai-visibility-is-not-value",
+        "weight": 2,
+        "tags": [
+          "ai-visibility-is-not-value",
+          "value-transfer"
+        ]
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "ai-visibility-is-not-one-environment",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "the-selection-gap",
+        "target": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "the-selection-gap",
+        "target": "source-eligibility-being-available-is-not-being-chosen",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "the-selection-gap",
+        "target": "selected-does-not-mean-cited",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "the-selection-gap",
+        "target": "ai-visibility-is-not-value",
+        "weight": 2,
+        "tags": [
+          "ai-visibility-is-not-value",
+          "selection-gap"
+        ]
+      },
+      {
+        "source": "the-selection-gap",
+        "target": "ai-visibility-is-not-one-environment",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "the-selection-gap",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "target": "source-eligibility-being-available-is-not-being-chosen",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "target": "selected-does-not-mean-cited",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "target": "ai-visibility-is-not-value",
         "weight": 2,
         "tags": [
           "ai-visibility-is-not-value",
@@ -4270,12 +4530,77 @@
         ]
       },
       {
-        "source": "ai-visibility-is-not-value",
-        "target": "source-eligibility-being-available-is-not-being-chosen",
+        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "target": "ai-visibility-is-not-one-environment",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "source-eligibility-being-available-is-not-being-chosen",
+        "target": "selected-does-not-mean-cited",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "source-eligibility-being-available-is-not-being-chosen",
+        "target": "ai-visibility-is-not-value",
         "weight": 2,
         "tags": [
           "ai-visibility-is-not-value",
           "source-eligibility"
+        ]
+      },
+      {
+        "source": "source-eligibility-being-available-is-not-being-chosen",
+        "target": "ai-visibility-is-not-one-environment",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "source-eligibility-being-available-is-not-being-chosen",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "selected-does-not-mean-cited",
+        "target": "ai-visibility-is-not-value",
+        "weight": 2,
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-attribution"
+        ]
+      },
+      {
+        "source": "selected-does-not-mean-cited",
+        "target": "ai-visibility-is-not-one-environment",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
+        ]
+      },
+      {
+        "source": "selected-does-not-mean-cited",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "weight": 1,
+        "tags": [
+          "ai-visibility-is-not-value"
         ]
       },
       {
@@ -4285,42 +4610,6 @@
         "tags": [
           "ai-visibility-is-not-value",
           "answer-regimes"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
-        "target": "the-selection-gap",
-        "weight": 2,
-        "tags": [
-          "ai-visibility-is-not-value",
-          "selection-gap"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
-        "target": "selected-does-not-mean-cited",
-        "weight": 2,
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-attribution"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
-        "target": "ai-visibility-measurement-cannot-prove-value",
-        "weight": 2,
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-measurement"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
-        "target": "value-transfer-retention-and-platform-capture",
-        "weight": 2,
-        "tags": [
-          "ai-visibility-is-not-value",
-          "value-transfer"
         ]
       },
       {
@@ -4335,28 +4624,10 @@
       },
       {
         "source": "ai-visibility-is-not-value",
-        "target": "representation-governance",
-        "weight": 2,
-        "tags": [
-          "ai-visibility-is-not-value",
-          "representation-governance"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
         "target": "from-seo-keywords-to-the-haunted-machine",
         "weight": 1,
         "tags": [
           "semantic-archive"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
-        "target": "how-search-and-recommendation-systems-actually-work",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "ai-search"
         ]
       },
       {
@@ -4366,6 +4637,15 @@
         "tags": [
           "semantic-archive",
           "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "ai-visibility-is-not-value",
+        "target": "how-search-and-recommendation-systems-actually-work",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "ai-search"
         ]
       },
       {
@@ -4401,288 +4681,8 @@
         ]
       },
       {
-        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "target": "source-eligibility-being-available-is-not-being-chosen",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "target": "ai-visibility-is-not-one-environment",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "target": "the-selection-gap",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "target": "selected-does-not-mean-cited",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "target": "ai-visibility-measurement-cannot-prove-value",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "target": "value-transfer-retention-and-platform-capture",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "target": "the-citable-hard-to-exhaust-archive",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
-        "target": "representation-governance",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "source-eligibility-being-available-is-not-being-chosen",
-        "target": "ai-visibility-is-not-one-environment",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "source-eligibility-being-available-is-not-being-chosen",
-        "target": "the-selection-gap",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "source-eligibility-being-available-is-not-being-chosen",
-        "target": "selected-does-not-mean-cited",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "source-eligibility-being-available-is-not-being-chosen",
-        "target": "ai-visibility-measurement-cannot-prove-value",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "source-eligibility-being-available-is-not-being-chosen",
-        "target": "value-transfer-retention-and-platform-capture",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "source-eligibility-being-available-is-not-being-chosen",
-        "target": "the-citable-hard-to-exhaust-archive",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "source-eligibility-being-available-is-not-being-chosen",
-        "target": "representation-governance",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-one-environment",
-        "target": "the-selection-gap",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-one-environment",
-        "target": "selected-does-not-mean-cited",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-one-environment",
-        "target": "ai-visibility-measurement-cannot-prove-value",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-one-environment",
-        "target": "value-transfer-retention-and-platform-capture",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
         "source": "ai-visibility-is-not-one-environment",
         "target": "the-citable-hard-to-exhaust-archive",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-one-environment",
-        "target": "representation-governance",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "the-selection-gap",
-        "target": "selected-does-not-mean-cited",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "the-selection-gap",
-        "target": "ai-visibility-measurement-cannot-prove-value",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "the-selection-gap",
-        "target": "value-transfer-retention-and-platform-capture",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "the-selection-gap",
-        "target": "the-citable-hard-to-exhaust-archive",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "the-selection-gap",
-        "target": "representation-governance",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "selected-does-not-mean-cited",
-        "target": "ai-visibility-measurement-cannot-prove-value",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "selected-does-not-mean-cited",
-        "target": "value-transfer-retention-and-platform-capture",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "selected-does-not-mean-cited",
-        "target": "the-citable-hard-to-exhaust-archive",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "selected-does-not-mean-cited",
-        "target": "representation-governance",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-measurement-cannot-prove-value",
-        "target": "value-transfer-retention-and-platform-capture",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-measurement-cannot-prove-value",
-        "target": "the-citable-hard-to-exhaust-archive",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "ai-visibility-measurement-cannot-prove-value",
-        "target": "representation-governance",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "value-transfer-retention-and-platform-capture",
-        "target": "the-citable-hard-to-exhaust-archive",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "value-transfer-retention-and-platform-capture",
-        "target": "representation-governance",
-        "weight": 1,
-        "tags": [
-          "ai-visibility-is-not-value"
-        ]
-      },
-      {
-        "source": "the-citable-hard-to-exhaust-archive",
-        "target": "representation-governance",
         "weight": 1,
         "tags": [
           "ai-visibility-is-not-value"
@@ -4733,20 +4733,20 @@
       },
       {
         "source": "hidden-representations-without-hidden-layers",
-        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "weight": 3,
+        "target": "structural-extraction-protocol",
+        "weight": 2,
         "tags": [
           "llm-structural-analysis",
-          "hidden-representations",
           "model-structure-analysis"
         ]
       },
       {
         "source": "hidden-representations-without-hidden-layers",
-        "target": "structural-extraction-protocol",
-        "weight": 2,
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 3,
         "tags": [
           "llm-structural-analysis",
+          "hidden-representations",
           "model-structure-analysis"
         ]
       },
@@ -4761,7 +4761,7 @@
       },
       {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
-        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "from-seo-keywords-to-the-haunted-machine",
         "weight": 2,
         "tags": [
           "youtube",
@@ -4770,7 +4770,7 @@
       },
       {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
-        "target": "from-seo-keywords-to-the-haunted-machine",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "weight": 2,
         "tags": [
           "youtube",
@@ -4814,20 +4814,20 @@
       },
       {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
-        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "weight": 3,
+        "target": "structural-extraction-protocol",
+        "weight": 2,
         "tags": [
           "llm-structural-analysis",
-          "llm-failure-analysis",
           "model-structure-analysis"
         ]
       },
       {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
-        "target": "structural-extraction-protocol",
-        "weight": 2,
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 3,
         "tags": [
           "llm-structural-analysis",
+          "llm-failure-analysis",
           "model-structure-analysis"
         ]
       },
@@ -4861,16 +4861,6 @@
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
-        "target": "research-pipeline",
-        "weight": 3,
-        "tags": [
-          "semantic-research-pipeline",
-          "review-mining",
-          "research-methods"
-        ]
-      },
-      {
-        "source": "google-maps-review-mining-unmet-demand",
         "target": "who-benefits-most-from-this-system",
         "weight": 1,
         "tags": [
@@ -4879,10 +4869,11 @@
       },
       {
         "source": "google-maps-review-mining-unmet-demand",
-        "target": "clustered-output-instagram-dataset",
-        "weight": 2,
+        "target": "research-pipeline",
+        "weight": 3,
         "tags": [
           "semantic-research-pipeline",
+          "review-mining",
           "research-methods"
         ]
       },
@@ -4896,65 +4887,22 @@
         ]
       },
       {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "from-seo-keywords-to-the-haunted-machine",
+        "source": "google-maps-review-mining-unmet-demand",
+        "target": "clustered-output-instagram-dataset",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "from-seo-keywords-to-the-haunted-machine",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "weight": 3,
         "tags": [
           "creative-search-system",
           "youtube",
           "video-index-system"
-        ]
-      },
-      {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "semantic-seo-is-graph-positioning",
-        "weight": 1,
-        "tags": [
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "sda3-tldr",
-        "weight": 2,
-        "tags": [
-          "youtube",
-          "video-index-system"
-        ]
-      },
-      {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "who-benefits-most-from-this-system",
-        "weight": 1,
-        "tags": [
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "youtube-video-index",
-        "weight": 3,
-        "tags": [
-          "youtube",
-          "ai-seo-video",
-          "video-index-system"
-        ]
-      },
-      {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "weight": 2,
-        "tags": [
-          "youtube",
-          "video-index-system"
-        ]
-      },
-      {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 1,
-        "tags": [
-          "creative-search-system"
         ]
       },
       {
@@ -5013,15 +4961,6 @@
       },
       {
         "source": "from-seo-keywords-to-the-haunted-machine",
-        "target": "first-principles",
-        "weight": 2,
-        "tags": [
-          "creative-identity-system",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "source": "from-seo-keywords-to-the-haunted-machine",
         "target": "maximising-artistic-identity",
         "weight": 3,
         "tags": [
@@ -5039,12 +4978,118 @@
         ]
       },
       {
-        "source": "how-search-and-recommendation-systems-actually-work",
+        "source": "from-seo-keywords-to-the-haunted-machine",
+        "target": "first-principles",
+        "weight": 2,
+        "tags": [
+          "creative-identity-system",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "target": "semantic-seo-is-graph-positioning",
+        "weight": 1,
+        "tags": [
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "sda3-tldr",
+        "weight": 2,
+        "tags": [
+          "youtube",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "who-benefits-most-from-this-system",
+        "weight": 1,
+        "tags": [
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "youtube-video-index",
+        "weight": 3,
+        "tags": [
+          "youtube",
+          "ai-seo-video",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 2,
+        "tags": [
+          "youtube",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "semantic-seo-begins-before-optimisation",
+        "weight": 1,
+        "tags": [
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "how-search-and-recommendation-systems-actually-work",
         "weight": 3,
         "tags": [
           "search-and-discovery-systems",
           "graph-positioning",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "who-benefits-most-from-this-system",
+        "weight": 1,
+        "tags": [
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "research-pipeline",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "semantic-seo-begins-before-optimisation",
+        "weight": 3,
+        "tags": [
+          "search-and-discovery-systems",
+          "creative-search-system",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "seo-visibility-structural-legibility",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "visibility-under-hostile-conditions",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
           "discovery-systems-map"
         ]
       },
@@ -5097,51 +5142,6 @@
         ]
       },
       {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "research-pipeline",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "who-benefits-most-from-this-system",
-        "weight": 1,
-        "tags": [
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 3,
-        "tags": [
-          "search-and-discovery-systems",
-          "creative-search-system",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "visibility-under-hostile-conditions",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "discovery-systems-map"
-        ]
-      },
-      {
         "source": "python-nlp-semantic-seo",
         "target": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
         "weight": 2,
@@ -5162,7 +5162,7 @@
       },
       {
         "source": "python-nlp-semantic-seo",
-        "target": "clustered-output-instagram-dataset",
+        "target": "data-structure-intermediate-stage",
         "weight": 2,
         "tags": [
           "semantic-research-pipeline",
@@ -5171,7 +5171,7 @@
       },
       {
         "source": "python-nlp-semantic-seo",
-        "target": "data-structure-intermediate-stage",
+        "target": "clustered-output-instagram-dataset",
         "weight": 2,
         "tags": [
           "semantic-research-pipeline",
@@ -5190,7 +5190,7 @@
       },
       {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "target": "clustered-output-instagram-dataset",
+        "target": "data-structure-intermediate-stage",
         "weight": 2,
         "tags": [
           "semantic-research-pipeline",
@@ -5199,7 +5199,7 @@
       },
       {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "target": "data-structure-intermediate-stage",
+        "target": "clustered-output-instagram-dataset",
         "weight": 2,
         "tags": [
           "semantic-research-pipeline",
@@ -5229,20 +5229,20 @@
       },
       {
         "source": "sda3-tldr",
-        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "weight": 3,
+        "target": "structural-extraction-protocol",
+        "weight": 2,
         "tags": [
           "llm-structural-analysis",
-          "sda-3",
           "model-structure-analysis"
         ]
       },
       {
         "source": "sda3-tldr",
-        "target": "structural-extraction-protocol",
-        "weight": 2,
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 3,
         "tags": [
           "llm-structural-analysis",
+          "sda-3",
           "model-structure-analysis"
         ]
       },
@@ -5256,13 +5256,11 @@
         ]
       },
       {
-        "source": "research-pipeline",
-        "target": "clustered-output-instagram-dataset",
-        "weight": 3,
+        "source": "who-benefits-most-from-this-system",
+        "target": "semantic-seo-begins-before-optimisation",
+        "weight": 1,
         "tags": [
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
+          "creative-search-system"
         ]
       },
       {
@@ -5272,6 +5270,16 @@
         "tags": [
           "semantic-research-pipeline",
           "dataset-structure",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "research-pipeline",
+        "target": "clustered-output-instagram-dataset",
+        "weight": 3,
+        "tags": [
+          "semantic-research-pipeline",
+          "clustering-method",
           "research-methods"
         ]
       },
@@ -5303,37 +5311,18 @@
         ]
       },
       {
-        "source": "who-benefits-most-from-this-system",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 1,
-        "tags": [
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "clustered-output-instagram-dataset",
-        "target": "data-structure-intermediate-stage",
-        "weight": 4,
-        "tags": [
-          "aesthetic-research-system",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "source": "clustered-output-instagram-dataset",
+        "source": "seer-clown-research-process",
         "target": "methodology-evaluation-and-validity",
         "weight": 3,
         "tags": [
+          "seer-clown",
           "aesthetic-research-system",
-          "instagram-dataset",
           "aesthetic-analysis"
         ]
       },
       {
-        "source": "clustered-output-instagram-dataset",
-        "target": "seer-clown-research-process",
+        "source": "seer-clown-research-process",
+        "target": "data-structure-intermediate-stage",
         "weight": 2,
         "tags": [
           "aesthetic-research-system",
@@ -5341,7 +5330,35 @@
         ]
       },
       {
-        "source": "clustered-output-instagram-dataset",
+        "source": "seer-clown-research-process",
+        "target": "clustered-output-instagram-dataset",
+        "weight": 2,
+        "tags": [
+          "aesthetic-research-system",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "source": "seer-clown-research-process",
+        "target": "maximising-artistic-identity",
+        "weight": 3,
+        "tags": [
+          "creative-identity-system",
+          "seer-clown",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "source": "seer-clown-research-process",
+        "target": "first-principles",
+        "weight": 2,
+        "tags": [
+          "creative-identity-system",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "source": "seer-clown-research-process",
         "target": "art-forms-with-high-audience-resonance",
         "weight": 2,
         "tags": [
@@ -5350,43 +5367,7 @@
         ]
       },
       {
-        "source": "clustered-output-instagram-dataset",
-        "target": "most-popular-art-mediums-based-on-the-datasets",
-        "weight": 2,
-        "tags": [
-          "aesthetic-research-system",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "source": "data-structure-intermediate-stage",
-        "target": "methodology-evaluation-and-validity",
-        "weight": 2,
-        "tags": [
-          "aesthetic-research-system",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "source": "data-structure-intermediate-stage",
-        "target": "seer-clown-research-process",
-        "weight": 2,
-        "tags": [
-          "aesthetic-research-system",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "source": "data-structure-intermediate-stage",
-        "target": "art-forms-with-high-audience-resonance",
-        "weight": 2,
-        "tags": [
-          "aesthetic-research-system",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "source": "data-structure-intermediate-stage",
+        "source": "seer-clown-research-process",
         "target": "most-popular-art-mediums-based-on-the-datasets",
         "weight": 2,
         "tags": [
@@ -5396,12 +5377,29 @@
       },
       {
         "source": "methodology-evaluation-and-validity",
-        "target": "seer-clown-research-process",
+        "target": "data-structure-intermediate-stage",
+        "weight": 2,
+        "tags": [
+          "aesthetic-research-system",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "clustered-output-instagram-dataset",
         "weight": 3,
         "tags": [
           "aesthetic-research-system",
-          "seer-clown",
+          "instagram-dataset",
           "aesthetic-analysis"
+        ]
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "maximising-artistic-identity",
+        "weight": 1,
+        "tags": [
+          "seer-clown"
         ]
       },
       {
@@ -5416,14 +5414,6 @@
       },
       {
         "source": "methodology-evaluation-and-validity",
-        "target": "maximising-artistic-identity",
-        "weight": 1,
-        "tags": [
-          "seer-clown"
-        ]
-      },
-      {
-        "source": "methodology-evaluation-and-validity",
         "target": "most-popular-art-mediums-based-on-the-datasets",
         "weight": 3,
         "tags": [
@@ -5433,7 +5423,18 @@
         ]
       },
       {
-        "source": "seer-clown-research-process",
+        "source": "data-structure-intermediate-stage",
+        "target": "clustered-output-instagram-dataset",
+        "weight": 4,
+        "tags": [
+          "aesthetic-research-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "source": "data-structure-intermediate-stage",
         "target": "art-forms-with-high-audience-resonance",
         "weight": 2,
         "tags": [
@@ -5442,26 +5443,25 @@
         ]
       },
       {
-        "source": "seer-clown-research-process",
-        "target": "first-principles",
+        "source": "data-structure-intermediate-stage",
+        "target": "most-popular-art-mediums-based-on-the-datasets",
         "weight": 2,
         "tags": [
-          "creative-identity-system",
-          "artistic-system-building"
+          "aesthetic-research-system",
+          "aesthetic-analysis"
         ]
       },
       {
-        "source": "seer-clown-research-process",
-        "target": "maximising-artistic-identity",
-        "weight": 3,
+        "source": "clustered-output-instagram-dataset",
+        "target": "art-forms-with-high-audience-resonance",
+        "weight": 2,
         "tags": [
-          "creative-identity-system",
-          "seer-clown",
-          "artistic-system-building"
+          "aesthetic-research-system",
+          "aesthetic-analysis"
         ]
       },
       {
-        "source": "seer-clown-research-process",
+        "source": "clustered-output-instagram-dataset",
         "target": "most-popular-art-mediums-based-on-the-datasets",
         "weight": 2,
         "tags": [
@@ -5482,20 +5482,20 @@
       },
       {
         "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "weight": 3,
+        "target": "structural-extraction-protocol",
+        "weight": 2,
         "tags": [
           "llm-structural-analysis",
-          "zombie-survival",
           "model-structure-analysis"
         ]
       },
       {
         "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "target": "structural-extraction-protocol",
-        "weight": 2,
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 3,
         "tags": [
           "llm-structural-analysis",
+          "zombie-survival",
           "model-structure-analysis"
         ]
       },
@@ -5509,12 +5509,21 @@
         ]
       },
       {
-        "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "target": "structural-extraction-protocol",
+        "source": "structural-extraction-protocol",
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "weight": 3,
         "tags": [
           "llm-structural-analysis",
           "structural-extraction",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "structural-extraction-protocol",
+        "target": "gpt-misuse-is-not-what-people-think",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
           "model-structure-analysis"
         ]
       },
@@ -5529,39 +5538,21 @@
         ]
       },
       {
-        "source": "structural-extraction-protocol",
-        "target": "gpt-misuse-is-not-what-people-think",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "source": "art-forms-with-high-audience-resonance",
-        "target": "most-popular-art-mediums-based-on-the-datasets",
-        "weight": 2,
-        "tags": [
-          "aesthetic-research-system",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "source": "first-principles",
-        "target": "maximising-artistic-identity",
-        "weight": 3,
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "artistic-system-building"
-        ]
-      },
-      {
         "source": "maximising-artistic-identity",
         "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
           "structural-legibility"
+        ]
+      },
+      {
+        "source": "maximising-artistic-identity",
+        "target": "first-principles",
+        "weight": 3,
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "artistic-system-building"
         ]
       },
       {
@@ -5589,6 +5580,15 @@
         "tags": [
           "search-and-discovery-systems",
           "discovery-systems-map"
+        ]
+      },
+      {
+        "source": "art-forms-with-high-audience-resonance",
+        "target": "most-popular-art-mediums-based-on-the-datasets",
+        "weight": 2,
+        "tags": [
+          "aesthetic-research-system",
+          "aesthetic-analysis"
         ]
       },
       {
