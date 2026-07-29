@@ -46,10 +46,10 @@ the notebook preserves the correction trail
 SEO conclusions are only taken from what survives that process
 ```
 
-This page is also a recursive SEO intervention. DecrepitFilth.art started appearing for `semantic seo python` queries. The surrounding SERP connects terms such as `Python`, `SEO automation`, `NLP`, `spaCy`, `BERT`, `RoBERTa`, `semantic similarity`, `keyword clustering`, `NetworkX`, `content gaps` and `internal linking`.
+This page is also a recursive SEO intervention. DecrepitFilth.art started appearing for `semantic seo python` queries after earlier work on [Semantic SEO in Python](/art/semantic-seo-in-python-from-search-results-to-original-content-strategy) and [Python for NLP and Semantic SEO](/art/python-nlp-semantic-seo). The surrounding SERP connects terms such as `Python`, `SEO automation`, `NLP`, `spaCy`, `BERT`, `RoBERTa`, `semantic similarity`, `keyword clustering`, `NetworkX`, `content gaps` and `internal linking`.
 
 This notebook responds by implementing those terms as a working Python workflow, rather than merely using them as article keywords.
 
 The central finding is that the SERP contains the parts of a modern Semantic SEO Python workflow, but not the coherent workflow itself.
 
-The research process demonstrated here was used to identify that SEO gap. The page now uses the same workflow to occupy it.
+The research process demonstrated here was used to identify that SEO gap and connects the notebook back to the site's broader [content strategy](/content-strategy). The page now uses the same workflow to occupy it.

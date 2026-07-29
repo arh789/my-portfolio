@@ -109,6 +109,7 @@ export default function SiteIndexNav() {
                 id="site-index-nav-drawer"
                 className={`site-index-nav-drawer${isOpen ? " is-open" : ""}`}
                 aria-hidden={!isOpen}
+                inert={isOpen ? undefined : ""}
             >
                 <div className="site-index-nav-drawer__header">
                     <p className="site-index-nav-drawer__eyebrow">Site Index</p>
