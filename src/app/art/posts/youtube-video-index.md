@@ -18,7 +18,7 @@ This page collects the YouTube videos connected to the site.
 
 Each video functions as a media version of a larger written thread: a long-form explanation, demonstration, or visual essay linked back into the broader research and art system. The videos are grouped here by format, while the individual posts remain connected to their own conceptual clusters.
 
-## Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)
+## Zombie Survival by ChatGPT - Why the AI Lies (and How to Stop It)
 
 This video introduces **[SDA-3 (Structured Dimensional Analysis)](https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models)** through a zombie-survival stress test. The point is not the zombie scenario itself, but the way it exposes how ChatGPT can produce coherent answers that fail under pressure.
 
@@ -26,43 +26,33 @@ The video shows how SDA-3 shifts the model away from fluent answer-generation an
 
 {{ youtube id="-EFYSBwJzo0" title="Zombie Survival by ChatGPT - Why the AI Lies (and How to Stop It)" }}
 
-**Related post:** [Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)](https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)
+**Related post:** [Zombie Survival by ChatGPT - Why the AI Lies (and How to Stop It)](https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it)
 
 ---
 
-## ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This
+## Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse
+
+This video isolates one of the clearest failure points in the wider zombie-survival analysis: ChatGPT recommends bioweapons not because they are physically or logistically practical, but because *infection*, *collapse*, *mutation* and *weapon* form a tightly connected semantic cluster in post-apocalyptic fiction.
+
+The result is a narratively complete answer that mistakes symbolic proximity for functional feasibility. The video uses this failure to show how large language models can follow statistical association towards a convincing conclusion before causal reasoning, material constraints or domain knowledge have been properly applied.
+
+{{ youtube id="pUEZ17TThvc" title="Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse" }}
+
+**Related post:** [Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse](https://decrepitfilth.art/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse)
+
+---
+
+## ChatGPT's Zombie Survival Plan Falls Apart When You Ask This
 
 This video continues the zombie-survival analysis by focusing on fuel, mobility, and adversarial questioning.
 
-The question is not whether vehicles are useful in a collapse scenario. The question is whether ChatGPT’s mobile-fortress logic survives once fuel, maintenance, roads, noise, and long-term scarcity are treated as real constraints.
+The question is not whether vehicles are useful in a collapse scenario. The question is whether ChatGPT's mobile-fortress logic survives once fuel, maintenance, roads, noise, and long-term scarcity are treated as real constraints.
 
 The video shows how adversarial questioning forces the answer to reorganise: fuel-dependent mobility stops being foundational, static defence does not become viable again, and the surviving structure becomes adaptive mobility under scarcity.
 
 {{ youtube id="0ti2eVmW9UI" title="ChatGPT's Zombie Survival Plan Falls Apart When You Ask This" }}
 
-**Related post:** [ChatGPT’s Zombie Survival Plan Falls Apart When You Ask This](https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival)
-
----
-
-## The Zombie Survival Strategy ChatGPT Couldn’t See
-
-This video continues the zombie-survival sequence by focusing on the point where broad possibility has to collapse into a stable defensive structure.
-
-ChatGPT already had the pieces: choke points, collapsible barriers, and spears. What it could not reliably do was converge on the relationship between them.
-
-The video follows that convergence into one pressure-stable kernel:
-
-```text
-CHOKE POINT + COLLAPSIBLE BARRIER + SPEAR
-```
-
-A narrow geometry strips away the horde’s numerical advantage. A portable obstacle creates distance, delay, and a predictable strike window. The spear works because the environment selects it: silent, maintainable, ammunition-free, and usable beyond grappling range.
-
-The zombie scenario is only the test domain. The real subject is how a language model preserves plausible branches when optimisation requires those branches to be tested, broken, and discarded.
-
-{{ youtube id="ri5xsKhICys" title="The Zombie Survival Strategy ChatGPT Couldn’t See" }}
-
-**Related post:** [The Zombie Survival Strategy ChatGPT Couldn’t See](https://decrepitfilth.art/art/the-zombie-survival-strategy-chatgpt-could-not-see)
+**Related post:** [ChatGPT's Zombie Survival Plan Falls Apart When You Ask This](https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival)
 
 ---
 
@@ -82,11 +72,33 @@ The Short focuses on why permanent fortresses fail and why the surviving defensi
 
 ---
 
+## The Zombie Survival Strategy ChatGPT Could Not See
+
+This video continues the zombie-survival sequence by focusing on the point where broad possibility has to collapse into a stable defensive structure.
+
+ChatGPT already had the pieces: choke points, collapsible barriers, and spears. What it could not reliably do was converge on the relationship between them.
+
+The video follows that convergence into one pressure-stable kernel:
+
+```text
+CHOKE POINT + COLLAPSIBLE BARRIER + SPEAR
+```
+
+A narrow geometry strips away the horde's numerical advantage. A portable obstacle creates distance, delay, and a predictable strike window. The spear works because the environment selects it: silent, maintainable, ammunition-free, and usable beyond grappling range.
+
+The zombie scenario is only the test domain. The real subject is how a language model preserves plausible branches when optimisation requires those branches to be tested, broken, and discarded.
+
+{{ youtube id="ri5xsKhICys" title="The Zombie Survival Strategy ChatGPT Could Not See" }}
+
+**Related post:** [The Zombie Survival Strategy ChatGPT Could Not See](https://decrepitfilth.art/art/the-zombie-survival-strategy-chatgpt-could-not-see)
+
+---
+
 ## SDA-3 tl;dr: Mapping LLM Response Structure
 
 This video is the short companion to the longer zombie-survival SDA-3 analysis. It explains the method directly: not as a zombie scenario, but as a structural process for making a large language model expose the pressures shaping its response.
 
-The video introduces SDA-3 as a way to distinguish truth from coherent generation. It explains why the method does not reveal a model’s hidden reasoning, chain of thought, weights, or literal embedding space, but instead produces a structured estimate of what the response appears to depend on: central topics, adjacent topics, suppressed material, associated noise, and emerging signals.
+The video introduces SDA-3 as a way to distinguish truth from coherent generation. It explains why the method does not reveal a model's hidden reasoning, chain of thought, weights, or literal embedding space, but instead produces a structured estimate of what the response appears to depend on: central topics, adjacent topics, suppressed material, associated noise, and emerging signals.
 
 {{ youtube id="fmYShejgkBc" title="SDA-3 tl;dr: Mapping LLM Response Structure" }}
 
