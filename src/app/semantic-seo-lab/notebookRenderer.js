@@ -7,7 +7,9 @@ import html from "remark-html";
 
 const NOTEBOOK_PATH = path.join(
     process.cwd(),
-    "notebooks",
+    "src",
+    "app",
+    "semantic-seo-lab",
     "semantic-seo-classical-method-baseline.executed.ipynb",
 );
 

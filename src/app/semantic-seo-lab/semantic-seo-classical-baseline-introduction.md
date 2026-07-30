@@ -20,6 +20,8 @@ Semantic SEO research should not stop at keyword clustering, embeddings, graphs 
 
 This notebook has two parts.
 
+The clean source notebook used for this page is available on GitHub at [arh789/semantic_seo](https://github.com/arh789/semantic_seo). The rendered page below preserves the executed code, outputs, visualisations and supervised interpretation.
+
 Part A implements the more typical Python-based Semantic SEO methods visible in the current search space:
 
 ```text
