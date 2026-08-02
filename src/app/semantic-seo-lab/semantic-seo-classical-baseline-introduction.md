@@ -4,17 +4,9 @@ This page demonstrates an agent-run, human-supervised, code-grounded and graph-m
 
 The notebook shows how to use Python, graph analysis, transformer embeddings and agent supervision to test whether a Semantic SEO representation is meaningful enough to guide content strategy.
 
-Standard keyword research asks:
+**Keyword research question:** Which keywords should we target?
 
-```text
-Which keywords should we target?
-```
-
-This workflow asks:
-
-```text
-Do the structures produced from this search space actually support the topics, relationships and content decisions we are about to make?
-```
+**Method question:** Do the structures produced from this search space actually support the topics, relationships and content decisions we are about to make?
 
 Semantic SEO research should not stop at keyword clustering, embeddings, graphs or topic labels. A keyword cluster is not automatically a topic. An embedding similarity score is not automatically a strategic relationship. A graph community is not automatically a content plan. The missing step is a supervised interpretive process that tests whether those representations are evidentially supported and usable.
 

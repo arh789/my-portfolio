@@ -157,12 +157,20 @@ function injectHeadingIds(markdown, headings) {
         .join("\n");
 }
 
-function markSupervisionLabels(html) {
+function markSpecialLabels(html) {
     return html.replace(
-        /<p><strong>(Human supervision question|Codex response):<\/strong>(.*?)<\/p>/g,
+        /<p><strong>(Human supervision question|Codex response|Keyword research question|Method question):<\/strong>(.*?)<\/p>/g,
         (_, label, rest) => {
-            const kind = label === "Codex response" ? "codex" : "human";
-            return `<p class="supervisionLabel supervisionLabel--${kind}"><strong>${label}:</strong>${rest}</p>`;
+            if (label === "Codex response") {
+                return `<p class="supervisionLabel supervisionLabel--codex"><strong>${label}:</strong>${rest}</p>`;
+            }
+
+            if (label === "Human supervision question") {
+                return `<p class="supervisionLabel supervisionLabel--human"><strong>${label}:</strong>${rest}</p>`;
+            }
+
+            const kind = label === "Method question" ? "method" : "keyword";
+            return `<p class="questionLabel questionLabel--${kind}"><strong>${label}:</strong>${rest}</p>`;
         },
     );
 }
@@ -174,7 +182,7 @@ async function renderMarkdown(markdown, headings) {
         .use(html, { sanitize: false })
         .process(withHeadingIds);
 
-    return markSupervisionLabels(result.toString());
+    return markSpecialLabels(result.toString());
 }
 
 function figurePath(cellIndex, outputIndex) {
