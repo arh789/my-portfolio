@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useRef } from "react";
 import cytoscape from "cytoscape";
@@ -46,11 +46,11 @@ export default function ArtGraph() {
                     randomize: true,
                     animate: false,
                     fit: true,
-                    padding: 64,
-                    nodeRepulsion: 900000,
-                    idealEdgeLength: 220,
+                    padding: 48,
+                    nodeRepulsion: 760000,
+                    idealEdgeLength: 185,
                     edgeElasticity: 0.25,
-                    gravity: 0.12,
+                    gravity: 0.16,
                 },
                 style: [
                     {
@@ -153,4 +153,3 @@ export default function ArtGraph() {
         </section>
     );
 }
-

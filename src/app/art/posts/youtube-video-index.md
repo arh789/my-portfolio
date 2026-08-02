@@ -12,6 +12,7 @@ tags:
   - ai-seo-video
   - sda-3-tldr
   - video-index-system
+  - how-to-stop-chatgpt-from-lying-video
 ---
 
 This page collects the YouTube videos connected to the site.
@@ -94,6 +95,29 @@ The zombie scenario is only the test domain. The real subject is how a language 
 
 ---
 
+## How to Stop ChatGPT From Lying
+
+This video turns the zombie-survival sequence into a general method for interrogating ChatGPT.
+
+The argument is that ChatGPT is not usually lying in the human sense. It is producing equilibrium outputs shaped by statistical co-occurrence, guardrails, and reinforcement learning from human feedback. When those pressures diverge from truth, the answer can sound coherent while preserving weak assumptions, irrelevant attractors and unstable branches.
+
+The method is structural collapse: force the answer through contradiction, remove noise layers, impose external constraints, and rebuild only from what survives.
+
+In the zombie-survival case study, that process collapsed firearms, fortresses and fictional branches into one pressure-stable relationship:
+
+```text
+CHOKE POINT
++ COLLAPSIBLE BARRIER
++ SPEAR
+```
+
+The broader lesson is that SDA-3 does not make ChatGPT truthful by asking it to try harder. It gives the user a repeatable way to decompose the visible answer, attack weak assumptions, and test whether the relationships holding the response together survive pressure.
+
+{{ youtube id="w5iA5YQ5XlY" title="How to Stop ChatGPT From Lying" }}
+
+**Related post:** [How to Stop ChatGPT From Lying](https://decrepitfilth.art/art/how-to-stop-chatgpt-from-lying)
+
+---
 ## SDA-3 tl;dr: Mapping LLM Response Structure
 
 This video is the short companion to the longer zombie-survival SDA-3 analysis. It explains the method directly: not as a zombie scenario, but as a structural process for making a large language model expose the pressures shaping its response.
