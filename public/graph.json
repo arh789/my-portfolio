@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-08-02T04:46:59.164Z",
+  "generatedAt": "2026-08-13T20:43:57.446Z",
   "articles": [
+    {
+      "slug": "tiktok-zombie-survival-series",
+      "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+      "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+      "date": "2026-08-14",
+      "tags": [
+        "tiktok",
+        "tiktok-zombie-series",
+        "short-form-video",
+        "zombie-survival-video",
+        "zombie-survival-strategy",
+        "sda-3",
+        "llm-structural-analysis",
+        "llm-failure-analysis",
+        "model-structure-analysis",
+        "video-index-system",
+        "how-to-stop-chatgpt-from-lying-video"
+      ]
+    },
     {
       "slug": "how-to-stop-chatgpt-from-lying",
       "title": "How to Stop ChatGPT From Lying",
@@ -548,7 +567,443 @@
     }
   ],
   "tagIndex": {
+    "tiktok": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      }
+    ],
+    "tiktok-zombie-series": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      }
+    ],
+    "short-form-video": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      }
+    ],
+    "zombie-survival-video": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+        "date": "2026-07-31",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-zombie-survival-why-fortresses-fail",
+        "title": "AI Zombie Survival: Why Fortresses Fail",
+        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
+        "date": "2026-07-25",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      }
+    ],
+    "zombie-survival-strategy": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+        "date": "2026-07-31",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-zombie-survival-why-fortresses-fail",
+        "title": "AI Zombie Survival: Why Fortresses Fail",
+        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
+        "date": "2026-07-25",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      }
+    ],
+    "sda-3": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+        "date": "2026-07-31",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      }
+    ],
     "llm-structural-analysis": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
       {
         "slug": "how-to-stop-chatgpt-from-lying",
         "title": "How to Stop ChatGPT From Lying",
@@ -711,6 +1166,25 @@
     ],
     "llm-failure-analysis": [
       {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
         "slug": "how-to-stop-chatgpt-from-lying",
         "title": "How to Stop ChatGPT From Lying",
         "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
@@ -819,122 +1293,26 @@
         ]
       }
     ],
-    "sda-3": [
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
-        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
-        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
-        "date": "2026-07-31",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      }
-    ],
-    "structural-extraction": [
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
-          "model-structure-analysis"
-        ]
-      }
-    ],
     "model-structure-analysis": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
       {
         "slug": "how-to-stop-chatgpt-from-lying",
         "title": "How to Stop ChatGPT From Lying",
@@ -1091,6 +1469,288 @@
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      }
+    ],
+    "video-index-system": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+        "date": "2026-07-31",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-zombie-survival-why-fortresses-fail",
+        "title": "AI Zombie Survival: Why Fortresses Fail",
+        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
+        "date": "2026-07-25",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      }
+    ],
+    "how-to-stop-chatgpt-from-lying-video": [
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      }
+    ],
+    "structural-extraction": [
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
           "model-structure-analysis"
         ]
       }
@@ -1253,236 +1913,6 @@
         ]
       }
     ],
-    "zombie-survival-video": [
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
-        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
-        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
-        "date": "2026-07-31",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-zombie-survival-why-fortresses-fail",
-        "title": "AI Zombie Survival: Why Fortresses Fail",
-        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
-        "date": "2026-07-25",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
-        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
-        "date": "2026-07-18",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      }
-    ],
-    "zombie-survival-strategy": [
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
-        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
-        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
-        "date": "2026-07-31",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-zombie-survival-why-fortresses-fail",
-        "title": "AI Zombie Survival: Why Fortresses Fail",
-        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
-        "date": "2026-07-25",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
-        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
-        "date": "2026-07-18",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      }
-    ],
     "zombie-survival": [
       {
         "slug": "how-to-stop-chatgpt-from-lying",
@@ -1532,202 +1962,6 @@
           "llm-failure-analysis",
           "zombie-survival",
           "model-structure-analysis"
-        ]
-      }
-    ],
-    "video-index-system": [
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
-        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
-        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
-        "date": "2026-07-31",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-zombie-survival-why-fortresses-fail",
-        "title": "AI Zombie Survival: Why Fortresses Fail",
-        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
-        "date": "2026-07-25",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
-        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
-        "date": "2026-07-18",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      }
-    ],
-    "how-to-stop-chatgpt-from-lying-video": [
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
         ]
       }
     ],
@@ -3695,18 +3929,18 @@
   "tagCentrality": [
     {
       "tag": "llm-structural-analysis",
-      "count": 11
+      "count": 12
     },
     {
       "tag": "model-structure-analysis",
+      "count": 12
+    },
+    {
+      "tag": "video-index-system",
       "count": 11
     },
     {
       "tag": "ai-visibility-is-not-value",
-      "count": 10
-    },
-    {
-      "tag": "video-index-system",
       "count": 10
     },
     {
@@ -3715,18 +3949,18 @@
     },
     {
       "tag": "llm-failure-analysis",
-      "count": 7
-    },
-    {
-      "tag": "search-and-discovery-systems",
-      "count": 7
+      "count": 8
     },
     {
       "tag": "zombie-survival-strategy",
-      "count": 7
+      "count": 8
     },
     {
       "tag": "zombie-survival-video",
+      "count": 8
+    },
+    {
+      "tag": "search-and-discovery-systems",
       "count": 7
     },
     {
@@ -3754,15 +3988,15 @@
       "count": 5
     },
     {
+      "tag": "sda-3",
+      "count": 5
+    },
+    {
       "tag": "artistic-system-building",
       "count": 4
     },
     {
       "tag": "creative-identity-system",
-      "count": 4
-    },
-    {
-      "tag": "sda-3",
       "count": 4
     },
     {
@@ -3772,6 +4006,10 @@
     {
       "tag": "structural-legibility",
       "count": 4
+    },
+    {
+      "tag": "how-to-stop-chatgpt-from-lying-video",
+      "count": 3
     },
     {
       "tag": "seer-clown",
@@ -3854,10 +4092,6 @@
       "count": 2
     },
     {
-      "tag": "how-to-stop-chatgpt-from-lying-video",
-      "count": 2
-    },
-    {
       "tag": "instagram-dataset",
       "count": 2
     },
@@ -3922,12 +4156,43 @@
       "count": 1
     },
     {
+      "tag": "short-form-video",
+      "count": 1
+    },
+    {
+      "tag": "tiktok",
+      "count": 1
+    },
+    {
+      "tag": "tiktok-zombie-series",
+      "count": 1
+    },
+    {
       "tag": "validation",
       "count": 1
     }
   ],
   "graph": {
     "nodes": [
+      {
+        "id": "tiktok-zombie-survival-series",
+        "label": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "type": "article",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ],
+        "centrality": 59
+      },
       {
         "id": "how-to-stop-chatgpt-from-lying",
         "label": "How to Stop ChatGPT From Lying",
@@ -3945,7 +4210,7 @@
           "video-index-system",
           "how-to-stop-chatgpt-from-lying-video"
         ],
-        "centrality": 64
+        "centrality": 72
       },
       {
         "id": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
@@ -3961,7 +4226,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 59
+        "centrality": 66
       },
       {
         "id": "ai-zombie-survival-why-fortresses-fail",
@@ -3977,7 +4242,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 57
+        "centrality": 63
       },
       {
         "id": "the-zombie-survival-strategy-chatgpt-could-not-see",
@@ -3992,7 +4257,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 56
+        "centrality": 62
       },
       {
         "id": "ai-visibility-is-not-value",
@@ -4115,7 +4380,7 @@
           "hidden-representations",
           "model-structure-analysis"
         ],
-        "centrality": 21
+        "centrality": 23
       },
       {
         "id": "adversarial-questioning-chatgpt-zombie-survival",
@@ -4130,7 +4395,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 56
+        "centrality": 62
       },
       {
         "id": "google-maps-review-mining-unmet-demand",
@@ -4155,7 +4420,7 @@
           "haunted-machine-tldr",
           "video-index-system"
         ],
-        "centrality": 23
+        "centrality": 24
       },
       {
         "id": "from-seo-keywords-to-the-haunted-machine",
@@ -4171,7 +4436,7 @@
           "artistic-system-building",
           "video-index-system"
         ],
-        "centrality": 33
+        "centrality": 34
       },
       {
         "id": "how-search-and-recommendation-systems-actually-work",
@@ -4235,7 +4500,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 42
+        "centrality": 46
       },
       {
         "id": "research-pipeline",
@@ -4335,7 +4600,7 @@
           "video-index-system",
           "how-to-stop-chatgpt-from-lying-video"
         ],
-        "centrality": 35
+        "centrality": 39
       },
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -4350,7 +4615,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 52
+        "centrality": 57
       },
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -4366,7 +4631,7 @@
           "zombie-survival",
           "model-structure-analysis"
         ],
-        "centrality": 34
+        "centrality": 38
       },
       {
         "id": "structural-extraction-protocol",
@@ -4377,7 +4642,7 @@
           "structural-extraction",
           "model-structure-analysis"
         ],
-        "centrality": 22
+        "centrality": 24
       },
       {
         "id": "art-forms-with-high-audience-resonance",
@@ -4410,7 +4675,7 @@
           "llm-failure-analysis",
           "model-structure-analysis"
         ],
-        "centrality": 26
+        "centrality": 29
       },
       {
         "id": "maximising-artistic-identity",
@@ -4475,6 +4740,163 @@
       }
     ],
     "edges": [
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "how-to-stop-chatgpt-from-lying",
+        "weight": 8,
+        "tags": [
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "weight": 7,
+        "tags": [
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "ai-zombie-survival-why-fortresses-fail",
+        "weight": 6,
+        "tags": [
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "weight": 6,
+        "tags": [
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "hidden-representations-without-hidden-layers",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "adversarial-questioning-chatgpt-zombie-survival",
+        "weight": 6,
+        "tags": [
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "from-seo-keywords-to-the-haunted-machine",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "sda3-tldr",
+        "weight": 4,
+        "tags": [
+          "sda-3",
+          "llm-structural-analysis",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "youtube-video-index",
+        "weight": 4,
+        "tags": [
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 5,
+        "tags": [
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "llm-structural-analysis",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 4,
+        "tags": [
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "structural-extraction-protocol",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "gpt-misuse-is-not-what-people-think",
+        "weight": 3,
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      },
       {
         "source": "how-to-stop-chatgpt-from-lying",
         "target": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",

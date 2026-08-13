@@ -314,6 +314,30 @@ body.has-site-index-nav .site-shell {
 }
 
 /* ============================= */
+/* TIKTOK EMBEDS */
+/* ============================= */
+
+.tiktok-embed-frame {
+    width: min(325px, 100%);
+    height: min(760px, 82vh);
+    min-height: 620px;
+    margin: 1.5rem auto;
+    overflow: hidden;
+    background: transparent;
+}
+
+.tiktok-embed-frame__iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 560px) {
+    .tiktok-embed-frame {
+        min-height: 540px;
+    }
+}
 /* FOOTER */
 /* ============================= */
 
