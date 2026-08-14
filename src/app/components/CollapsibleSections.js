@@ -13,17 +13,20 @@ const medieval = MedievalSharp({
 
 export default function CollapsibleSections({ sections }) {
     const [activeIndex, setActiveIndex] = useState(null);
+    const activeSection = activeIndex === null ? null : sections[activeIndex];
 
     return (
         <div className={styles.wrapper}>
-            {sections.map((section, index) => {
-                const isActive = activeIndex === index;
+            <div className={styles.menuContainer}>
+                {sections.map((section, index) => {
+                    const isActive = activeIndex === index;
 
-                return (
-                    <div key={index} className={styles.section}>
+                    return (
                         <button
+                            key={index}
                             onClick={() => setActiveIndex(isActive ? null : index)}
                             className={styles.imageButton}
+                            aria-expanded={isActive}
                         >
                             {section.image && (
                                 <Image
@@ -32,25 +35,27 @@ export default function CollapsibleSections({ sections }) {
                                     className={styles.banner}
                                     width={877}
                                     height={155}
-                                    sizes="(max-width: 768px) 100vw, 522px"
+                                    sizes="(max-width: 768px) 75vw, 469px"
                                     loading="lazy"
                                 />
                             )}
                         </button>
+                    );
+                })}
+            </div>
 
-                        <div
-                            className={`${styles.content} ${isActive ? styles.active : styles.hidden}`}
-                        >
-                            <div
-                                className={`${styles['paragraph-section']} ${medieval.variable}`}
-                                dangerouslySetInnerHTML={{
-                                    __html: section.html,
-                                }}
-                            />
-                        </div>
-                    </div>
-                );
-            })}
+            <div
+                className={`${styles.content} ${activeSection ? styles.active : styles.hidden}`}
+            >
+                {activeSection && (
+                    <div
+                        className={`${styles['paragraph-section']} ${medieval.variable}`}
+                        dangerouslySetInnerHTML={{
+                            __html: activeSection.html,
+                        }}
+                    />
+                )}
+            </div>
         </div>
     );
 }

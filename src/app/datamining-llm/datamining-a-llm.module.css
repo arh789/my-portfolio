@@ -133,31 +133,36 @@
 
 /* Collapsible Sections / Accordion Styles */
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
+    width: 100%;
 }
 
-.section {
-    border: 1px solid #444;
-    border-radius: 0.5rem;
-    overflow: hidden;
+.menuContainer {
+    width: min(100%, 469px);
+    margin: 0 auto;
 }
 
 .imageButton {
+    display: block;
     width: 100%;
     border: none;
     background: none;
     padding: 0;
     cursor: pointer;
+    line-height: 0;
 }
 
 .banner {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
+    margin: 0;
 }
 
+@media (max-width: 768px) {
+    .menuContainer {
+        width: 75%;
+    }
+}
 .content {
     transition: all 0.3s ease-in-out;
     max-height: 0;
