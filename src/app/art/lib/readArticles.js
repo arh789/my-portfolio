@@ -17,6 +17,11 @@ function normaliseTags(tags = []) {
     return [...new Set(tags.map((tag) => slugify(tag)).filter(Boolean))];
 }
 
+function normaliseProjectOrder(value) {
+    const order = Number(value);
+    return Number.isFinite(order) ? order : Number.MAX_SAFE_INTEGER;
+}
+
 export async function readArticles() {
     const filenames = fs
         .readdirSync(POSTS_DIR)
@@ -41,6 +46,13 @@ export async function readArticles() {
                     ? new Date(data.date).toISOString().slice(0, 10)
                     : "",
                 tags: normaliseTags(data.tags),
+                type: data.type ? slugify(String(data.type)) : "article",
+                project: data.project ? slugify(String(data.project)) : "",
+                projectOrder: normaliseProjectOrder(data.projectOrder),
+                projectRole: data.projectRole
+                    ? slugify(String(data.projectRole))
+                    : "",
+                medium: data.medium ? slugify(String(data.medium)) : "article",
                 content: parsedContent,
             };
         })

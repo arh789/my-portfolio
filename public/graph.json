@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T20:43:57.446Z",
+  "generatedAt": "2026-08-14T02:48:13.355Z",
   "articles": [
     {
       "slug": "tiktok-zombie-survival-series",
@@ -18,7 +18,12 @@
         "model-structure-analysis",
         "video-index-system",
         "how-to-stop-chatgpt-from-lying-video"
-      ]
+      ],
+      "type": "article",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 20,
+      "projectRole": "media-index",
+      "medium": "tiktok-series"
     },
     {
       "slug": "how-to-stop-chatgpt-from-lying",
@@ -37,7 +42,12 @@
         "zombie-survival",
         "video-index-system",
         "how-to-stop-chatgpt-from-lying-video"
-      ]
+      ],
+      "type": "analysis",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 6,
+      "projectRole": "chapter",
+      "medium": "article-video"
     },
     {
       "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
@@ -53,7 +63,12 @@
         "sda-3",
         "model-structure-analysis",
         "video-index-system"
-      ]
+      ],
+      "type": "analysis",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 5,
+      "projectRole": "chapter",
+      "medium": "article-video"
     },
     {
       "slug": "ai-zombie-survival-why-fortresses-fail",
@@ -69,7 +84,12 @@
         "zombie-survival-history",
         "model-structure-analysis",
         "video-index-system"
-      ]
+      ],
+      "type": "analysis",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 4,
+      "projectRole": "chapter",
+      "medium": "article-video"
     },
     {
       "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
@@ -84,7 +104,12 @@
         "zombie-survival-strategy",
         "model-structure-analysis",
         "video-index-system"
-      ]
+      ],
+      "type": "analysis",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 3,
+      "projectRole": "chapter",
+      "medium": "article-video"
     },
     {
       "slug": "ai-visibility-is-not-value",
@@ -105,7 +130,12 @@
         "semantic-archive",
         "search-and-discovery-systems",
         "ai-search"
-      ]
+      ],
+      "type": "index",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -115,7 +145,12 @@
       "tags": [
         "ai-visibility-is-not-value",
         "ai-visibility-causality"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "source-eligibility-being-available-is-not-being-chosen",
@@ -125,7 +160,12 @@
       "tags": [
         "ai-visibility-is-not-value",
         "source-eligibility"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "ai-visibility-is-not-one-environment",
@@ -135,7 +175,12 @@
       "tags": [
         "ai-visibility-is-not-value",
         "answer-regimes"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "the-selection-gap",
@@ -145,7 +190,12 @@
       "tags": [
         "ai-visibility-is-not-value",
         "selection-gap"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "selected-does-not-mean-cited",
@@ -155,7 +205,12 @@
       "tags": [
         "ai-visibility-is-not-value",
         "ai-attribution"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "ai-visibility-measurement-cannot-prove-value",
@@ -165,7 +220,12 @@
       "tags": [
         "ai-visibility-is-not-value",
         "ai-visibility-measurement"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "value-transfer-retention-and-platform-capture",
@@ -175,7 +235,12 @@
       "tags": [
         "ai-visibility-is-not-value",
         "value-transfer"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "the-citable-hard-to-exhaust-archive",
@@ -186,7 +251,12 @@
         "ai-visibility-is-not-value",
         "hard-to-exhaust-archive",
         "semantic-archive"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "representation-governance",
@@ -196,7 +266,12 @@
       "tags": [
         "ai-visibility-is-not-value",
         "representation-governance"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "hidden-representations-without-hidden-layers",
@@ -207,7 +282,12 @@
         "llm-structural-analysis",
         "hidden-representations",
         "model-structure-analysis"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "adversarial-questioning-chatgpt-zombie-survival",
@@ -222,7 +302,12 @@
         "zombie-survival-strategy",
         "model-structure-analysis",
         "video-index-system"
-      ]
+      ],
+      "type": "article",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 2,
+      "projectRole": "chapter",
+      "medium": "article-video"
     },
     {
       "slug": "google-maps-review-mining-unmet-demand",
@@ -234,7 +319,12 @@
         "review-mining",
         "strategic-positioning",
         "research-methods"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -247,7 +337,12 @@
         "ai-seo-video",
         "haunted-machine-tldr",
         "video-index-system"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "from-seo-keywords-to-the-haunted-machine",
@@ -263,7 +358,12 @@
         "haunted-machine",
         "artistic-system-building",
         "video-index-system"
-      ]
+      ],
+      "type": "analysis",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "how-search-and-recommendation-systems-actually-work",
@@ -278,7 +378,12 @@
         "hostile-visibility",
         "ai-search",
         "discovery-systems-map"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "semantic-seo-is-graph-positioning",
@@ -291,7 +396,12 @@
         "creative-search-system",
         "semantic-archive",
         "discovery-systems-map"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "python-nlp-semantic-seo",
@@ -302,7 +412,12 @@
         "semantic-research-pipeline",
         "python-nlp",
         "research-methods"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -313,7 +428,12 @@
         "semantic-research-pipeline",
         "search-results-to-strategy",
         "research-methods"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "sda3-tldr",
@@ -327,7 +447,12 @@
         "sda-3-tldr",
         "model-structure-analysis",
         "video-index-system"
-      ]
+      ],
+      "type": "analysis",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 11,
+      "projectRole": "methodology",
+      "medium": "methodology"
     },
     {
       "slug": "research-pipeline",
@@ -344,7 +469,12 @@
         "search-and-discovery-systems",
         "discovery-systems-map",
         "research-methods"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "who-benefits-most-from-this-system",
@@ -355,7 +485,12 @@
         "creative-search-system",
         "strategic-positioning",
         "independent-operators"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "clustered-output-instagram-dataset",
@@ -369,7 +504,12 @@
         "clustering-method",
         "research-methods",
         "aesthetic-analysis"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "data-structure-intermediate-stage",
@@ -382,7 +522,12 @@
         "semantic-research-pipeline",
         "research-methods",
         "aesthetic-analysis"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "methodology-evaluation-and-validity",
@@ -397,7 +542,12 @@
         "seer-clown",
         "validation",
         "aesthetic-analysis"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "seer-clown-research-process",
@@ -410,7 +560,12 @@
         "aesthetic-research-system",
         "aesthetic-analysis",
         "artistic-system-building"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "youtube-video-index",
@@ -427,7 +582,12 @@
         "sda-3-tldr",
         "video-index-system",
         "how-to-stop-chatgpt-from-lying-video"
-      ]
+      ],
+      "type": "index",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 21,
+      "projectRole": "media-index",
+      "medium": "youtube-index"
     },
     {
       "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -442,7 +602,12 @@
         "zombie-survival-strategy",
         "model-structure-analysis",
         "video-index-system"
-      ]
+      ],
+      "type": "analysis",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 1,
+      "projectRole": "chapter",
+      "medium": "article-video"
     },
     {
       "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -458,7 +623,12 @@
         "llm-failure-analysis",
         "zombie-survival",
         "model-structure-analysis"
-      ]
+      ],
+      "type": "article",
+      "project": "chatgpt-structural-failure",
+      "projectOrder": 10,
+      "projectRole": "methodology",
+      "medium": "methodology"
     },
     {
       "slug": "structural-extraction-protocol",
@@ -469,7 +639,12 @@
         "llm-structural-analysis",
         "structural-extraction",
         "model-structure-analysis"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "art-forms-with-high-audience-resonance",
@@ -480,7 +655,12 @@
         "aesthetic-research-system",
         "audience-resonance",
         "aesthetic-analysis"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "first-principles",
@@ -491,7 +671,12 @@
         "creative-identity-system",
         "first-principles",
         "artistic-system-building"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "gpt-misuse-is-not-what-people-think",
@@ -502,7 +687,12 @@
         "llm-structural-analysis",
         "llm-failure-analysis",
         "model-structure-analysis"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "maximising-artistic-identity",
@@ -517,7 +707,12 @@
         "artistic-identity",
         "structural-legibility",
         "artistic-system-building"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "most-popular-art-mediums-based-on-the-datasets",
@@ -528,7 +723,12 @@
         "aesthetic-research-system",
         "art-medium-analysis",
         "aesthetic-analysis"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "semantic-seo-begins-before-optimisation",
@@ -541,7 +741,12 @@
         "creative-search-system",
         "structural-legibility",
         "discovery-systems-map"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "seo-visibility-structural-legibility",
@@ -552,7 +757,12 @@
         "search-and-discovery-systems",
         "structural-legibility",
         "discovery-systems-map"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     },
     {
       "slug": "visibility-under-hostile-conditions",
@@ -563,7 +773,12 @@
         "search-and-discovery-systems",
         "hostile-visibility",
         "discovery-systems-map"
-      ]
+      ],
+      "type": "article",
+      "project": "",
+      "projectOrder": 9007199254740991,
+      "projectRole": "",
+      "medium": "article"
     }
   ],
   "tagIndex": {
@@ -4172,6 +4387,231 @@
       "count": 1
     }
   ],
+  "projects": [
+    {
+      "slug": "chatgpt-structural-failure",
+      "title": "How to Stop ChatGPT From Lying",
+      "eyebrow": "Guided investigation",
+      "description": "A staged investigation using a zombie-survival stress test to expose coherence smoothing, hidden assumptions and structurally weak answers in ChatGPT.",
+      "introduction": "Follow the investigation from ChatGPT's initial survival answer through adversarial questioning, structural convergence, historical testing, a bioweapons failure and the final supervised method.",
+      "chapters": [
+        {
+          "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+          "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+          "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+          "date": "2026-04-08",
+          "tags": [
+            "llm-structural-analysis",
+            "zombie-survival",
+            "youtube",
+            "zombie-survival-video",
+            "zombie-survival-strategy",
+            "model-structure-analysis",
+            "video-index-system"
+          ],
+          "type": "analysis",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 1,
+          "projectRole": "chapter",
+          "medium": "article-video"
+        },
+        {
+          "slug": "adversarial-questioning-chatgpt-zombie-survival",
+          "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+          "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+          "date": "2026-06-27",
+          "tags": [
+            "llm-structural-analysis",
+            "llm-failure-analysis",
+            "youtube",
+            "zombie-survival-video",
+            "zombie-survival-strategy",
+            "model-structure-analysis",
+            "video-index-system"
+          ],
+          "type": "article",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 2,
+          "projectRole": "chapter",
+          "medium": "article-video"
+        },
+        {
+          "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+          "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+          "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+          "date": "2026-07-18",
+          "tags": [
+            "llm-structural-analysis",
+            "llm-failure-analysis",
+            "youtube",
+            "zombie-survival-video",
+            "zombie-survival-strategy",
+            "model-structure-analysis",
+            "video-index-system"
+          ],
+          "type": "analysis",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 3,
+          "projectRole": "chapter",
+          "medium": "article-video"
+        },
+        {
+          "slug": "ai-zombie-survival-why-fortresses-fail",
+          "title": "AI Zombie Survival: Why Fortresses Fail",
+          "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
+          "date": "2026-07-25",
+          "tags": [
+            "llm-structural-analysis",
+            "llm-failure-analysis",
+            "youtube",
+            "zombie-survival-video",
+            "zombie-survival-strategy",
+            "zombie-survival-history",
+            "model-structure-analysis",
+            "video-index-system"
+          ],
+          "type": "analysis",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 4,
+          "projectRole": "chapter",
+          "medium": "article-video"
+        },
+        {
+          "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+          "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+          "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+          "date": "2026-07-31",
+          "tags": [
+            "llm-structural-analysis",
+            "llm-failure-analysis",
+            "youtube",
+            "zombie-survival-video",
+            "zombie-survival-strategy",
+            "sda-3",
+            "model-structure-analysis",
+            "video-index-system"
+          ],
+          "type": "analysis",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 5,
+          "projectRole": "chapter",
+          "medium": "article-video"
+        },
+        {
+          "slug": "how-to-stop-chatgpt-from-lying",
+          "title": "How to Stop ChatGPT From Lying",
+          "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+          "date": "2026-08-02",
+          "tags": [
+            "llm-structural-analysis",
+            "llm-failure-analysis",
+            "sda-3",
+            "structural-extraction",
+            "model-structure-analysis",
+            "youtube",
+            "zombie-survival-video",
+            "zombie-survival-strategy",
+            "zombie-survival",
+            "video-index-system",
+            "how-to-stop-chatgpt-from-lying-video"
+          ],
+          "type": "analysis",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 6,
+          "projectRole": "chapter",
+          "medium": "article-video"
+        }
+      ],
+      "resources": [
+        {
+          "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+          "title": "SDA-3 protocol",
+          "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+          "date": "2026-04-06",
+          "tags": [
+            "llm-structural-analysis",
+            "sda-3",
+            "embedding-space",
+            "structural-extraction",
+            "hidden-representations",
+            "llm-failure-analysis",
+            "zombie-survival",
+            "model-structure-analysis"
+          ],
+          "type": "article",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 10,
+          "projectRole": "methodology",
+          "medium": "methodology"
+        },
+        {
+          "slug": "sda3-tldr",
+          "title": "SDA-3 tl;dr",
+          "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+          "date": "2026-05-08",
+          "tags": [
+            "llm-structural-analysis",
+            "sda-3",
+            "youtube",
+            "sda-3-tldr",
+            "model-structure-analysis",
+            "video-index-system"
+          ],
+          "type": "analysis",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 11,
+          "projectRole": "methodology",
+          "medium": "methodology"
+        },
+        {
+          "slug": "tiktok-zombie-survival-series",
+          "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+          "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+          "date": "2026-08-14",
+          "tags": [
+            "tiktok",
+            "tiktok-zombie-series",
+            "short-form-video",
+            "zombie-survival-video",
+            "zombie-survival-strategy",
+            "sda-3",
+            "llm-structural-analysis",
+            "llm-failure-analysis",
+            "model-structure-analysis",
+            "video-index-system",
+            "how-to-stop-chatgpt-from-lying-video"
+          ],
+          "type": "article",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 20,
+          "projectRole": "media-index",
+          "medium": "tiktok-series"
+        },
+        {
+          "slug": "youtube-video-index",
+          "title": "YouTube",
+          "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+          "date": "2026-04-08",
+          "tags": [
+            "youtube",
+            "zombie-survival-video",
+            "zombie-survival-strategy",
+            "zombie-survival-history",
+            "haunted-machine-video",
+            "ai-seo-video",
+            "sda-3-tldr",
+            "video-index-system",
+            "how-to-stop-chatgpt-from-lying-video"
+          ],
+          "type": "index",
+          "project": "chatgpt-structural-failure",
+          "projectOrder": 21,
+          "projectRole": "media-index",
+          "medium": "youtube-index"
+        }
+      ]
+    }
+  ],
   "graph": {
     "nodes": [
       {
@@ -6751,6 +7191,106 @@
           "search-and-discovery-systems",
           "discovery-systems-map"
         ]
+      }
+    ],
+    "projectNodes": [
+      {
+        "id": "project:chatgpt-structural-failure",
+        "label": "How to Stop ChatGPT From Lying",
+        "route": "/art/project/chatgpt-structural-failure",
+        "type": "project"
+      }
+    ],
+    "projectEdges": [
+      {
+        "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "target": "project:chatgpt-structural-failure",
+        "type": "belongs-to-project",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "adversarial-questioning-chatgpt-zombie-survival",
+        "target": "project:chatgpt-structural-failure",
+        "type": "belongs-to-project",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "project:chatgpt-structural-failure",
+        "type": "belongs-to-project",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "ai-zombie-survival-why-fortresses-fail",
+        "target": "project:chatgpt-structural-failure",
+        "type": "belongs-to-project",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "target": "project:chatgpt-structural-failure",
+        "type": "belongs-to-project",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "how-to-stop-chatgpt-from-lying",
+        "target": "project:chatgpt-structural-failure",
+        "type": "belongs-to-project",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "target": "project:chatgpt-structural-failure",
+        "type": "supports-methodology",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "sda3-tldr",
+        "target": "project:chatgpt-structural-failure",
+        "type": "supports-methodology",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "project:chatgpt-structural-failure",
+        "type": "alternate-media",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "youtube-video-index",
+        "target": "project:chatgpt-structural-failure",
+        "type": "alternate-media",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "target": "adversarial-questioning-chatgpt-zombie-survival",
+        "type": "precedes",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "adversarial-questioning-chatgpt-zombie-survival",
+        "target": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "type": "precedes",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "ai-zombie-survival-why-fortresses-fail",
+        "type": "precedes",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "ai-zombie-survival-why-fortresses-fail",
+        "target": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "type": "precedes",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "target": "how-to-stop-chatgpt-from-lying",
+        "type": "precedes",
+        "project": "chatgpt-structural-failure"
       }
     ]
   }

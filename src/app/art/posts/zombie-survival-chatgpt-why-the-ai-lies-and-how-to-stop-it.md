@@ -2,6 +2,10 @@
 title: "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)"
 description: This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.
 date: 2026-04-08
+project: chatgpt-structural-failure
+projectOrder: 1
+projectRole: chapter
+medium: article-video
 type: analysis
 tags:
   - llm-structural-analysis
@@ -63,4 +67,3 @@ SDA-3 shifts the model from **story mode** to **mapping mode**.
 Truth emerges as a **structural attractor**—the configuration that remains once all incompatible assumptions are removed.
 
 The system becomes useful only when treated as something to interrogate, not something to trust.
-

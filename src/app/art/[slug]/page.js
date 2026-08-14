@@ -1,75 +1,27 @@
-import fs from "node:fs/promises";
-import path from "node:path";
 import Link from "next/link";
-import matter from "gray-matter";
-import { parseMarkdown } from "../../components/markdown.js";
+import { notFound } from "next/navigation";
+import ProjectPathway from "../components/ProjectPathway.js";
+import { readArticles } from "../lib/readArticles.js";
+import { buildProjectIndex, findProject } from "../lib/projectData.js";
 import "../art.css";
 
-const POSTS_DIR = path.join(process.cwd(), "src/app/art/posts");
+const SITE_URL = "https://decrepitfilth.art";
 
-function slugify(value) {
-    return value
-        .toLowerCase()
-        .trim()
-        .replace(/\.md$/, "")
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-+|-+$/g, "");
-}
-
-function normaliseTags(tags = []) {
-    return [...new Set(tags.map((tag) => slugify(tag)).filter(Boolean))];
-}
-
-function normaliseDate(value) {
-    if (!value) return "";
-    return new Date(value).toISOString().slice(0, 10);
+function safeJsonLd(value) {
+    return JSON.stringify(value).replace(/</g, "\\u003c");
 }
 
 async function readArticleBySlug(slug) {
-    const filenames = await fs.readdir(POSTS_DIR);
-    const markdownFiles = filenames.filter((file) => file.endsWith(".md"));
-
-    for (const filename of markdownFiles) {
-        const fullPath = path.join(POSTS_DIR, filename);
-        const raw = await fs.readFile(fullPath, "utf8");
-        const { data, content } = matter(raw);
-
-        const derivedSlug = data.slug ? slugify(data.slug) : slugify(filename);
-
-        if (derivedSlug !== slug) continue;
-
-        const contentHtml = await parseMarkdown(content);
-
-        return {
-            slug: derivedSlug,
-            title: data.title ?? derivedSlug,
-            description: data.description ?? "",
-            date: normaliseDate(data.date),
-            tags: normaliseTags(data.tags),
-            contentHtml,
-        };
-    }
-
-    return null;
+    const articles = await readArticles();
+    return articles.find((article) => article.slug === slug) ?? null;
 }
 
 export async function generateStaticParams() {
-    const filenames = await fs.readdir(POSTS_DIR);
-    const markdownFiles = filenames.filter((file) => file.endsWith(".md"));
+    const articles = await readArticles();
 
-    const params = [];
-
-    for (const filename of markdownFiles) {
-        const fullPath = path.join(POSTS_DIR, filename);
-        const raw = await fs.readFile(fullPath, "utf8");
-        const { data } = matter(raw);
-
-        params.push({
-            slug: data.slug ? slugify(data.slug) : slugify(filename),
-        });
-    }
-
-    return params;
+    return articles.map((article) => ({
+        slug: article.slug,
+    }));
 }
 
 export async function generateMetadata({ params }) {
@@ -93,23 +45,77 @@ export async function generateMetadata({ params }) {
 
 export default async function ArticlePage({ params }) {
     const { slug } = await params;
-    const article = await readArticleBySlug(slug);
+    const articles = await readArticles();
+    const article = articles.find((item) => item.slug === slug);
 
-    if (!article) {
-        return (
-            <main className="art-article">
-                <div className="art-article__container">
-                    <p>Article not found.</p>
-                    <p>
-                        <Link href="/art">Back to Art</Link>
-                    </p>
-                </div>
-            </main>
-        );
+    if (!article) notFound();
+
+    const projects = buildProjectIndex(articles);
+    const project = article.project
+        ? findProject(projects, article.project)
+        : null;
+    const articleUrl = `${SITE_URL}/art/${article.slug}`;
+    const projectUrl = project
+        ? `${SITE_URL}/art/project/${project.slug}`
+        : null;
+
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: article.title,
+        description: article.description,
+        datePublished: article.date || undefined,
+        url: articleUrl,
+        mainEntityOfPage: articleUrl,
+        isPartOf: project
+            ? {
+                  "@type": "CollectionPage",
+                  name: project.title,
+                  url: projectUrl,
+              }
+            : undefined,
+    };
+
+    const breadcrumbItems = [
+        {
+            "@type": "ListItem",
+            position: 1,
+            name: "Art",
+            item: `${SITE_URL}/art`,
+        },
+    ];
+
+    if (project) {
+        breadcrumbItems.push({
+            "@type": "ListItem",
+            position: 2,
+            name: project.title,
+            item: projectUrl,
+        });
     }
+
+    breadcrumbItems.push({
+        "@type": "ListItem",
+        position: breadcrumbItems.length + 1,
+        name: article.title,
+        item: articleUrl,
+    });
+
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: breadcrumbItems,
+    };
 
     return (
         <main className="art-article">
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: safeJsonLd([articleSchema, breadcrumbSchema]),
+                }}
+                type="application/ld+json"
+            />
+
             <div className="art-article__container">
                 <nav className="art-article-page__nav">
                     <Link href="/art">Back to Art</Link>
@@ -144,9 +150,13 @@ export default async function ArticlePage({ params }) {
                         ) : null}
                     </header>
 
+                    {project ? (
+                        <ProjectPathway article={article} project={project} />
+                    ) : null}
+
                     <div
                         className="art-article__content"
-                        dangerouslySetInnerHTML={{ __html: article.contentHtml }}
+                        dangerouslySetInnerHTML={{ __html: article.content }}
                     />
                 </article>
             </div>

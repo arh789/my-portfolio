@@ -7,11 +7,22 @@ import {
   buildArticleGraph,
   buildTagCentrality,
 } from "../src/app/art/lib/buildGraphData.js";
+import {
+  buildProjectGraph,
+  buildProjectIndex,
+} from "../src/app/art/lib/projectData.js";
 
 const articles = await readArticles();
 
 const tagIndex = buildTagIndex(articles);
-const graph = buildArticleGraph(articles);
+const articleGraph = buildArticleGraph(articles);
+const projects = buildProjectIndex(articles);
+const projectGraph = buildProjectGraph(projects);
+const graph = {
+  ...articleGraph,
+  projectNodes: projectGraph.nodes,
+  projectEdges: projectGraph.edges,
+};
 const tagCentrality = buildTagCentrality(tagIndex);
 
 const output = {
@@ -19,6 +30,7 @@ const output = {
   articles: articles.map(({ content, ...article }) => article),
   tagIndex,
   tagCentrality,
+  projects,
   graph,
 };
 

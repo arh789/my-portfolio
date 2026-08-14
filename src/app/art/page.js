@@ -44,6 +44,7 @@ export default async function ArtPage() {
         tagCentrality = [],
         graph = { nodes: [], edges: [] },
         articles = [],
+        projects = [],
     } = data;
 
     const centralityMap = buildCentralityMap(graph);
@@ -76,6 +77,47 @@ export default async function ArtPage() {
                     <span>{totalTags} tags</span>
                 </div>
             </header>
+
+            {projects.length ? (
+                <section
+                    aria-labelledby="guided-pathways-title"
+                    className="art-page__section"
+                >
+                    <div className="art-page__section-heading">
+                        <p className="art-page__eyebrow">Guided pathways</p>
+                        <h2 id="guided-pathways-title">Follow an investigation</h2>
+                        <p>
+                            The graph shows conceptual adjacency. These pathways record
+                            the intended sequence of an argument.
+                        </p>
+                    </div>
+
+                    <div className="art-project-cards">
+                        {projects.map((project) => (
+                            <article className="art-project-card" key={project.slug}>
+                                <div>
+                                    <p className="art-project-card__meta">
+                                        {project.chapters.length} stages ·{" "}
+                                        {project.resources.length} supporting resources
+                                    </p>
+                                    <h3>
+                                        <Link href={"/art/project/" + project.slug}>
+                                            {project.title}
+                                        </Link>
+                                    </h3>
+                                    <p>{project.description}</p>
+                                </div>
+                                <Link
+                                    className="art-project-card__link"
+                                    href={"/art/project/" + project.slug}
+                                >
+                                    Follow pathway
+                                </Link>
+                            </article>
+                        ))}
+                    </div>
+                </section>
+            ) : null}
 
             <section className="art-page__graph-wrap">
                 <ArtGraph />
