@@ -78,6 +78,10 @@ export default async function ArtPage() {
                 </div>
             </header>
 
+            <section className="art-page__graph-wrap">
+                <ArtGraph />
+            </section>
+
             {projects.length ? (
                 <section
                     aria-labelledby="guided-pathways-title"
@@ -118,10 +122,6 @@ export default async function ArtPage() {
                     </div>
                 </section>
             ) : null}
-
-            <section className="art-page__graph-wrap">
-                <ArtGraph />
-            </section>
 
             <section className="art-page__section">
                 <div className="art-page__section-heading">
