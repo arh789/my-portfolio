@@ -2,6 +2,10 @@
 title: Most Popular Art Mediums Based on the Datasets
 description: This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.
 date: 2026-03-15
+projects:
+  - slug: seer-clown-research
+    order: 2
+    role: chapter
 tags:
   - aesthetic-research-system
   - art-medium-analysis

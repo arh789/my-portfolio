@@ -549,11 +549,23 @@
 }
 
 .project-pathway {
-    margin: 0 0 1.75rem;
+    margin: 0;
     padding: 1rem;
     border: 1px solid rgba(240, 192, 79, 0.35);
     border-radius: 8px;
     background: rgba(240, 192, 79, 0.07);
+}
+
+.project-pathways {
+    margin: 0 0 1.75rem;
+}
+
+.project-pathways .project-pathway {
+    margin-bottom: 0.75rem;
+}
+
+.project-pathways .project-pathway:last-child {
+    margin-bottom: 0;
 }
 
 .project-pathway__heading {

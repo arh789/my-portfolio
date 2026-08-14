@@ -3,6 +3,10 @@
 title: What the Data Actually Looks Like
 description: This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.
 date: 2026-04-24
+projects:
+  - slug: seer-clown-research
+    order: 3
+    role: chapter
 tags:
   - aesthetic-research-system
   - dataset-structure

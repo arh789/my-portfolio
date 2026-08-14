@@ -97,7 +97,7 @@ export default async function ArtPage() {
                             <article className="art-project-card" key={project.slug}>
                                 <div>
                                     <p className="art-project-card__meta">
-                                        {project.chapters.length} stages ·{" "}
+                                        {project.chapters.length} stages &middot;{" "}
                                         {project.resources.length} supporting resources
                                     </p>
                                     <h3>

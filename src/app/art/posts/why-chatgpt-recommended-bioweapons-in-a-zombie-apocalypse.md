@@ -2,9 +2,10 @@
 title: "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse"
 description: "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility."
 date: 2026-07-31
-project: chatgpt-structural-failure
-projectOrder: 5
-projectRole: chapter
+projects:
+  - slug: chatgpt-structural-failure
+    order: 5
+    role: chapter
 medium: article-video
 type: analysis
 tags:

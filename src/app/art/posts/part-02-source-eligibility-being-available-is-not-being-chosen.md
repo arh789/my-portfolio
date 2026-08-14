@@ -3,6 +3,10 @@ title: "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Availab
 slug: source-eligibility-being-available-is-not-being-chosen
 description: "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer."
 date: "2026-07-08"
+projects:
+  - slug: ai-visibility-is-not-value
+    order: 2
+    role: chapter
 type: analysis
 tags:
   - ai-visibility-is-not-value

@@ -2,9 +2,10 @@
 title: "The Zombie Survival Strategy ChatGPT Couldn’t See"
 description: "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear."
 date: 2026-07-18
-project: chatgpt-structural-failure
-projectOrder: 3
-projectRole: chapter
+projects:
+  - slug: chatgpt-structural-failure
+    order: 3
+    role: chapter
 medium: article-video
 type: analysis
 tags:

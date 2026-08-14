@@ -2,6 +2,10 @@
 title: Clustered Output (Dataset)
 description: This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.
 date: 2026-04-24
+projects:
+  - slug: seer-clown-research
+    order: 4
+    role: chapter
 tags:
   - aesthetic-research-system
   - instagram-dataset

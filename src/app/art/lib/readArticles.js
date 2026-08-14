@@ -22,6 +22,40 @@ function normaliseProjectOrder(value) {
     return Number.isFinite(order) ? order : Number.MAX_SAFE_INTEGER;
 }
 
+function normaliseProjects(data) {
+    const configured = Array.isArray(data.projects) ? data.projects : [];
+    const legacy = data.project
+        ? [
+              {
+                  slug: data.project,
+                  order: data.projectOrder,
+                  role: data.projectRole,
+              },
+          ]
+        : [];
+    const memberships = new Map();
+
+    for (const entry of [...configured, ...legacy]) {
+        const rawSlug = typeof entry === "string" ? entry : entry?.slug;
+        const slug = rawSlug ? slugify(String(rawSlug)) : "";
+
+        if (!slug || memberships.has(slug)) continue;
+
+        memberships.set(slug, {
+            slug,
+            order: normaliseProjectOrder(
+                typeof entry === "string" ? undefined : entry.order
+            ),
+            role:
+                typeof entry === "string" || !entry.role
+                    ? "resource"
+                    : slugify(String(entry.role)),
+        });
+    }
+
+    return [...memberships.values()];
+}
+
 export async function readArticles() {
     const filenames = fs
         .readdirSync(POSTS_DIR)
@@ -47,11 +81,7 @@ export async function readArticles() {
                     : "",
                 tags: normaliseTags(data.tags),
                 type: data.type ? slugify(String(data.type)) : "article",
-                project: data.project ? slugify(String(data.project)) : "",
-                projectOrder: normaliseProjectOrder(data.projectOrder),
-                projectRole: data.projectRole
-                    ? slugify(String(data.projectRole))
-                    : "",
+                projects: normaliseProjects(data),
                 medium: data.medium ? slugify(String(data.medium)) : "article",
                 content: parsedContent,
             };

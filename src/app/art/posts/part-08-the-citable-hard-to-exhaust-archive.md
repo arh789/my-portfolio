@@ -3,6 +3,10 @@ title: "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Arch
 slug: the-citable-hard-to-exhaust-archive
 description: "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture."
 date: "2026-07-08"
+projects:
+  - slug: ai-visibility-is-not-value
+    order: 8
+    role: chapter
 type: analysis
 tags:
   - ai-visibility-is-not-value

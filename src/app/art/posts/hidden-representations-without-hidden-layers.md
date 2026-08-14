@@ -2,6 +2,10 @@
 title: "Hidden Representations Without Hidden Layers"
 description: "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?"
 date: 2026-07-03
+projects:
+  - slug: sda3-structural-extraction
+    order: 4
+    role: chapter
 type: analysis
 tags:
   - llm-structural-analysis

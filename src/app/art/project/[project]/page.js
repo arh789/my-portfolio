@@ -151,10 +151,10 @@ export default async function ProjectPage({ params }) {
             {project.resources.length ? (
                 <section className="art-project-page__section">
                     <div className="art-page__section-heading">
-                        <h2>Methods and media collections</h2>
+                        <h2>Supporting material</h2>
                         <p>
-                            Inspect the underlying method or watch the investigation in
-                            another format.
+                            These articles provide methodology, summaries, overviews or
+                            alternate media for the main sequence.
                         </p>
                     </div>
 

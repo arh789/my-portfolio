@@ -3,6 +3,10 @@ title: "AI Visibility Is Not Value, Part 9 — Representation Governance"
 slug: representation-governance
 description: "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable."
 date: "2026-07-08"
+projects:
+  - slug: ai-visibility-is-not-value
+    order: 9
+    role: chapter
 type: analysis
 tags:
   - ai-visibility-is-not-value

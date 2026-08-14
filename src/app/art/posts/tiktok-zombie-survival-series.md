@@ -2,9 +2,10 @@
 title: "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying"
 description: "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence."
 date: 2026-08-14
-project: chatgpt-structural-failure
-projectOrder: 20
-projectRole: media-index
+projects:
+  - slug: chatgpt-structural-failure
+    order: 20
+    role: media-index
 medium: tiktok-series
 tags:
   - tiktok

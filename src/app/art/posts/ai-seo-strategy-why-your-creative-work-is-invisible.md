@@ -2,6 +2,10 @@
 title: "AI SEO Strategy: Why Your Creative Work Is Invisible"
 description: This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.
 date: 2026-06-14
+projects:
+  - slug: semantic-seo-graph-positioning
+    order: 5
+    role: chapter
 type: analysis
 tags:
   - creative-search-system

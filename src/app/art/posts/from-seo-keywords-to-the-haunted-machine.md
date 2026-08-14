@@ -2,6 +2,10 @@
 title: "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
 description: This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.
 date: 2026-06-14
+projects:
+  - slug: semantic-seo-graph-positioning
+    order: 6
+    role: chapter
 type: analysis
 tags:
   - creative-search-system

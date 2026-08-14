@@ -2,9 +2,10 @@
 title: "YouTube"
 description: "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays."
 date: 2026-04-08
-project: chatgpt-structural-failure
-projectOrder: 21
-projectRole: media-index
+projects:
+  - slug: chatgpt-structural-failure
+    order: 21
+    role: media-index
 medium: youtube-index
 type: index
 tags:

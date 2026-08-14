@@ -2,6 +2,14 @@
 title: Research pipeline
 description: A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.
 date: 2026-04-25
+projects:
+  - slug: semantic-seo-graph-positioning
+    order: 22
+    role: methodology
+  - slug: seer-clown-research
+    order: 10
+    role: methodology
+medium: methodology
 tags:
   - semantic-research-pipeline
   - python-nlp

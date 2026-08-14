@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { formatProjectMedium } from "../lib/projectData.js";
 
-export default function ProjectPathway({ article, project }) {
+function PathwayCard({ article, project }) {
     const chapterIndex = project.chapters.findIndex(
         (chapter) => chapter.slug === article.slug
     );
@@ -13,10 +13,10 @@ export default function ProjectPathway({ article, project }) {
     );
 
     return (
-        <aside className="project-pathway" aria-label="Project pathway">
+        <aside className="project-pathway">
             <div className="project-pathway__heading">
                 <div>
-                    <p className="project-pathway__eyebrow">Guided investigation</p>
+                    <p className="project-pathway__eyebrow">{project.eyebrow}</p>
                     <h2>
                         <Link href={`/art/project/${project.slug}`}>
                             {project.title}
@@ -78,5 +78,21 @@ export default function ProjectPathway({ article, project }) {
                 </p>
             ) : null}
         </aside>
+    );
+}
+
+export default function ProjectPathway({ memberships }) {
+    if (!memberships.length) return null;
+
+    return (
+        <section className="project-pathways" aria-label="Project pathways">
+            {memberships.map(({ project, item }) => (
+                <PathwayCard
+                    article={item}
+                    key={project.slug}
+                    project={project}
+                />
+            ))}
+        </section>
     );
 }

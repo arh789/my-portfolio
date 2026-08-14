@@ -2,9 +2,10 @@
 title: "AI Zombie Survival: Why Fortresses Fail"
 description: "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications."
 date: 2026-07-25
-project: chatgpt-structural-failure
-projectOrder: 4
-projectRole: chapter
+projects:
+  - slug: chatgpt-structural-failure
+    order: 4
+    role: chapter
 medium: article-video
 type: analysis
 tags:

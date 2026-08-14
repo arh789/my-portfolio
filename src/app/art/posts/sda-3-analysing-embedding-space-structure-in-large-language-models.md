@@ -2,9 +2,13 @@
 title: "SDA-3 protocol"
 description: This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.
 date: 2026-04-06
-project: chatgpt-structural-failure
-projectOrder: 10
-projectRole: methodology
+projects:
+  - slug: chatgpt-structural-failure
+    order: 10
+    role: methodology
+  - slug: sda3-structural-extraction
+    order: 2
+    role: chapter
 medium: methodology
 tags:
   - llm-structural-analysis

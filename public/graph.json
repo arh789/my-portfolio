@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T02:48:13.355Z",
+  "generatedAt": "2026-08-14T03:49:50.217Z",
   "articles": [
     {
       "slug": "tiktok-zombie-survival-series",
@@ -20,9 +20,13 @@
         "how-to-stop-chatgpt-from-lying-video"
       ],
       "type": "article",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 20,
-      "projectRole": "media-index",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 20,
+          "role": "media-index"
+        }
+      ],
       "medium": "tiktok-series"
     },
     {
@@ -44,9 +48,13 @@
         "how-to-stop-chatgpt-from-lying-video"
       ],
       "type": "analysis",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 6,
-      "projectRole": "chapter",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 6,
+          "role": "chapter"
+        }
+      ],
       "medium": "article-video"
     },
     {
@@ -65,9 +73,13 @@
         "video-index-system"
       ],
       "type": "analysis",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 5,
-      "projectRole": "chapter",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 5,
+          "role": "chapter"
+        }
+      ],
       "medium": "article-video"
     },
     {
@@ -86,9 +98,13 @@
         "video-index-system"
       ],
       "type": "analysis",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 4,
-      "projectRole": "chapter",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 4,
+          "role": "chapter"
+        }
+      ],
       "medium": "article-video"
     },
     {
@@ -106,9 +122,13 @@
         "video-index-system"
       ],
       "type": "analysis",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 3,
-      "projectRole": "chapter",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 3,
+          "role": "chapter"
+        }
+      ],
       "medium": "article-video"
     },
     {
@@ -132,10 +152,14 @@
         "ai-search"
       ],
       "type": "index",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
-      "medium": "article"
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 0,
+          "role": "overview"
+        }
+      ],
+      "medium": "overview"
     },
     {
       "slug": "ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -147,9 +171,13 @@
         "ai-visibility-causality"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 1,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -162,9 +190,13 @@
         "source-eligibility"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 2,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -177,9 +209,13 @@
         "answer-regimes"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 3,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -192,9 +228,13 @@
         "selection-gap"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 4,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -207,9 +247,13 @@
         "ai-attribution"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 5,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -222,9 +266,13 @@
         "ai-visibility-measurement"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 6,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -237,9 +285,13 @@
         "value-transfer"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 7,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -253,9 +305,13 @@
         "semantic-archive"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 8,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -268,9 +324,13 @@
         "representation-governance"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "order": 9,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -284,9 +344,13 @@
         "model-structure-analysis"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "sda3-structural-extraction",
+          "order": 4,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -304,9 +368,13 @@
         "video-index-system"
       ],
       "type": "article",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 2,
-      "projectRole": "chapter",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 2,
+          "role": "chapter"
+        }
+      ],
       "medium": "article-video"
     },
     {
@@ -321,9 +389,7 @@
         "research-methods"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [],
       "medium": "article"
     },
     {
@@ -339,9 +405,13 @@
         "video-index-system"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 5,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -360,9 +430,13 @@
         "video-index-system"
       ],
       "type": "analysis",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 6,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -380,9 +454,13 @@
         "discovery-systems-map"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 3,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -398,9 +476,13 @@
         "discovery-systems-map"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 4,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -414,10 +496,14 @@
         "research-methods"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
-      "medium": "article"
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 21,
+          "role": "methodology"
+        }
+      ],
+      "medium": "methodology"
     },
     {
       "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -430,10 +516,14 @@
         "research-methods"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
-      "medium": "article"
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 20,
+          "role": "methodology"
+        }
+      ],
+      "medium": "methodology"
     },
     {
       "slug": "sda3-tldr",
@@ -449,9 +539,18 @@
         "video-index-system"
       ],
       "type": "analysis",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 11,
-      "projectRole": "methodology",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 11,
+          "role": "methodology"
+        },
+        {
+          "slug": "sda3-structural-extraction",
+          "order": 10,
+          "role": "summary"
+        }
+      ],
       "medium": "methodology"
     },
     {
@@ -471,10 +570,19 @@
         "research-methods"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
-      "medium": "article"
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 22,
+          "role": "methodology"
+        },
+        {
+          "slug": "seer-clown-research",
+          "order": 10,
+          "role": "methodology"
+        }
+      ],
+      "medium": "methodology"
     },
     {
       "slug": "who-benefits-most-from-this-system",
@@ -487,9 +595,7 @@
         "independent-operators"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [],
       "medium": "article"
     },
     {
@@ -506,9 +612,13 @@
         "aesthetic-analysis"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "seer-clown-research",
+          "order": 4,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -524,9 +634,13 @@
         "aesthetic-analysis"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "seer-clown-research",
+          "order": 3,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -544,9 +658,13 @@
         "aesthetic-analysis"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "seer-clown-research",
+          "order": 6,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -562,9 +680,13 @@
         "artistic-system-building"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "seer-clown-research",
+          "order": 5,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -584,9 +706,13 @@
         "how-to-stop-chatgpt-from-lying-video"
       ],
       "type": "index",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 21,
-      "projectRole": "media-index",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 21,
+          "role": "media-index"
+        }
+      ],
       "medium": "youtube-index"
     },
     {
@@ -604,9 +730,13 @@
         "video-index-system"
       ],
       "type": "analysis",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 1,
-      "projectRole": "chapter",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 1,
+          "role": "chapter"
+        }
+      ],
       "medium": "article-video"
     },
     {
@@ -625,9 +755,18 @@
         "model-structure-analysis"
       ],
       "type": "article",
-      "project": "chatgpt-structural-failure",
-      "projectOrder": 10,
-      "projectRole": "methodology",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 10,
+          "role": "methodology"
+        },
+        {
+          "slug": "sda3-structural-extraction",
+          "order": 2,
+          "role": "chapter"
+        }
+      ],
       "medium": "methodology"
     },
     {
@@ -641,9 +780,13 @@
         "model-structure-analysis"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "sda3-structural-extraction",
+          "order": 3,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -657,9 +800,13 @@
         "aesthetic-analysis"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "seer-clown-research",
+          "order": 1,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -673,9 +820,7 @@
         "artistic-system-building"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [],
       "medium": "article"
     },
     {
@@ -689,9 +834,13 @@
         "model-structure-analysis"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "sda3-structural-extraction",
+          "order": 1,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -709,9 +858,7 @@
         "artistic-system-building"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [],
       "medium": "article"
     },
     {
@@ -725,9 +872,13 @@
         "aesthetic-analysis"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "seer-clown-research",
+          "order": 2,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -743,9 +894,13 @@
         "discovery-systems-map"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 1,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -759,9 +914,13 @@
         "discovery-systems-map"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 2,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -775,9 +934,7 @@
         "discovery-systems-map"
       ],
       "type": "article",
-      "project": "",
-      "projectOrder": 9007199254740991,
-      "projectRole": "",
+      "projects": [],
       "medium": "article"
     }
   ],
@@ -4410,10 +4567,16 @@
             "video-index-system"
           ],
           "type": "analysis",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 1,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article-video",
           "projectOrder": 1,
-          "projectRole": "chapter",
-          "medium": "article-video"
+          "projectRole": "chapter"
         },
         {
           "slug": "adversarial-questioning-chatgpt-zombie-survival",
@@ -4430,10 +4593,16 @@
             "video-index-system"
           ],
           "type": "article",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 2,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article-video",
           "projectOrder": 2,
-          "projectRole": "chapter",
-          "medium": "article-video"
+          "projectRole": "chapter"
         },
         {
           "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
@@ -4450,10 +4619,16 @@
             "video-index-system"
           ],
           "type": "analysis",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 3,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article-video",
           "projectOrder": 3,
-          "projectRole": "chapter",
-          "medium": "article-video"
+          "projectRole": "chapter"
         },
         {
           "slug": "ai-zombie-survival-why-fortresses-fail",
@@ -4471,10 +4646,16 @@
             "video-index-system"
           ],
           "type": "analysis",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 4,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article-video",
           "projectOrder": 4,
-          "projectRole": "chapter",
-          "medium": "article-video"
+          "projectRole": "chapter"
         },
         {
           "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
@@ -4492,10 +4673,16 @@
             "video-index-system"
           ],
           "type": "analysis",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 5,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article-video",
           "projectOrder": 5,
-          "projectRole": "chapter",
-          "medium": "article-video"
+          "projectRole": "chapter"
         },
         {
           "slug": "how-to-stop-chatgpt-from-lying",
@@ -4516,10 +4703,16 @@
             "how-to-stop-chatgpt-from-lying-video"
           ],
           "type": "analysis",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 6,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article-video",
           "projectOrder": 6,
-          "projectRole": "chapter",
-          "medium": "article-video"
+          "projectRole": "chapter"
         }
       ],
       "resources": [
@@ -4539,10 +4732,21 @@
             "model-structure-analysis"
           ],
           "type": "article",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 10,
+              "role": "methodology"
+            },
+            {
+              "slug": "sda3-structural-extraction",
+              "order": 2,
+              "role": "chapter"
+            }
+          ],
+          "medium": "methodology",
           "projectOrder": 10,
-          "projectRole": "methodology",
-          "medium": "methodology"
+          "projectRole": "methodology"
         },
         {
           "slug": "sda3-tldr",
@@ -4558,10 +4762,21 @@
             "video-index-system"
           ],
           "type": "analysis",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 11,
+              "role": "methodology"
+            },
+            {
+              "slug": "sda3-structural-extraction",
+              "order": 10,
+              "role": "summary"
+            }
+          ],
+          "medium": "methodology",
           "projectOrder": 11,
-          "projectRole": "methodology",
-          "medium": "methodology"
+          "projectRole": "methodology"
         },
         {
           "slug": "tiktok-zombie-survival-series",
@@ -4582,10 +4797,16 @@
             "how-to-stop-chatgpt-from-lying-video"
           ],
           "type": "article",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 20,
+              "role": "media-index"
+            }
+          ],
+          "medium": "tiktok-series",
           "projectOrder": 20,
-          "projectRole": "media-index",
-          "medium": "tiktok-series"
+          "projectRole": "media-index"
         },
         {
           "slug": "youtube-video-index",
@@ -4604,10 +4825,810 @@
             "how-to-stop-chatgpt-from-lying-video"
           ],
           "type": "index",
-          "project": "chatgpt-structural-failure",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 21,
+              "role": "media-index"
+            }
+          ],
+          "medium": "youtube-index",
           "projectOrder": 21,
-          "projectRole": "media-index",
-          "medium": "youtube-index"
+          "projectRole": "media-index"
+        }
+      ]
+    },
+    {
+      "slug": "ai-visibility-is-not-value",
+      "title": "AI Visibility Is Not Value",
+      "eyebrow": "Guided analysis",
+      "description": "A nine-part analysis, with a series overview, separating AI visibility from selection, citation, value transfer and durable audience value.",
+      "introduction": "Begin with the series argument, then follow the distinction between being available to an AI system, being selected, being cited and retaining any resulting value.",
+      "chapters": [
+        {
+          "slug": "ai-visibility-is-not-a-direct-optimisation-outcome",
+          "title": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
+          "description": "Appearing in AI-generated answers is not proof that optimisation caused visibility, attribution, traffic, or retained value. AI visibility is an observed output inside a larger source-selection system.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "ai-visibility-causality"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 1,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 1,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "source-eligibility-being-available-is-not-being-chosen",
+          "title": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
+          "description": "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "source-eligibility"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 2,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 2,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "ai-visibility-is-not-one-environment",
+          "title": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
+          "description": "AI visibility changes across answer regimes. Some systems retrieve, some synthesise, some cite, some retain users, and some combine those behaviours in different ways.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "answer-regimes"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 3,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 3,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "the-selection-gap",
+          "title": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
+          "description": "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "selection-gap"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 4,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 4,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "selected-does-not-mean-cited",
+          "title": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
+          "description": "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "ai-attribution"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 5,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 5,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "ai-visibility-measurement-cannot-prove-value",
+          "title": "AI Visibility Is Not Value, Part 6 — AI Visibility Measurement Cannot Prove Value",
+          "description": "AI visibility metrics can observe mentions, citations, answer presence, and prompt-level appearances. They cannot by themselves prove causation, representation quality, traffic, conversion, or retained value.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "ai-visibility-measurement"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 6,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 6,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "value-transfer-retention-and-platform-capture",
+          "title": "AI Visibility Is Not Value, Part 7 — Value Transfer, Retention, and Platform Capture",
+          "description": "When source material improves an AI answer, who receives the value? AI visibility may produce source value, shared value, or platform capture depending on whether attention, trust, traffic, and relationship value return to the source.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "value-transfer"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 7,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 7,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "the-citable-hard-to-exhaust-archive",
+          "title": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
+          "description": "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "hard-to-exhaust-archive",
+            "semantic-archive"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 8,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 8,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "representation-governance",
+          "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
+          "description": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "representation-governance"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 9,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 9,
+          "projectRole": "chapter"
+        }
+      ],
+      "resources": [
+        {
+          "slug": "ai-visibility-is-not-value",
+          "title": "AI Visibility Is Not Value",
+          "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+          "date": "2026-07-08",
+          "tags": [
+            "ai-visibility-is-not-value",
+            "ai-visibility-causality",
+            "source-eligibility",
+            "answer-regimes",
+            "selection-gap",
+            "ai-attribution",
+            "ai-visibility-measurement",
+            "value-transfer",
+            "hard-to-exhaust-archive",
+            "representation-governance",
+            "semantic-archive",
+            "search-and-discovery-systems",
+            "ai-search"
+          ],
+          "type": "index",
+          "projects": [
+            {
+              "slug": "ai-visibility-is-not-value",
+              "order": 0,
+              "role": "overview"
+            }
+          ],
+          "medium": "overview",
+          "projectOrder": 0,
+          "projectRole": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "sda3-structural-extraction",
+      "title": "SDA-3 and LLM Structural Extraction",
+      "eyebrow": "Guided methodology",
+      "description": "A method-led pathway for extracting and testing structural information from language-model outputs without claiming access to hidden model states.",
+      "introduction": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
+      "chapters": [
+        {
+          "slug": "gpt-misuse-is-not-what-people-think",
+          "title": "GPT Misuse Is Not What People Think",
+          "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+          "date": "2026-03-15",
+          "tags": [
+            "llm-structural-analysis",
+            "llm-failure-analysis",
+            "model-structure-analysis"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "sda3-structural-extraction",
+              "order": 1,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 1,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+          "title": "SDA-3 protocol",
+          "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+          "date": "2026-04-06",
+          "tags": [
+            "llm-structural-analysis",
+            "sda-3",
+            "embedding-space",
+            "structural-extraction",
+            "hidden-representations",
+            "llm-failure-analysis",
+            "zombie-survival",
+            "model-structure-analysis"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 10,
+              "role": "methodology"
+            },
+            {
+              "slug": "sda3-structural-extraction",
+              "order": 2,
+              "role": "chapter"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 2,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "structural-extraction-protocol",
+          "title": "Structural Extraction Protocol",
+          "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+          "date": "2026-04-06",
+          "tags": [
+            "llm-structural-analysis",
+            "structural-extraction",
+            "model-structure-analysis"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "sda3-structural-extraction",
+              "order": 3,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 3,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "hidden-representations-without-hidden-layers",
+          "title": "Hidden Representations Without Hidden Layers",
+          "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+          "date": "2026-07-03",
+          "tags": [
+            "llm-structural-analysis",
+            "hidden-representations",
+            "model-structure-analysis"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "sda3-structural-extraction",
+              "order": 4,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 4,
+          "projectRole": "chapter"
+        }
+      ],
+      "resources": [
+        {
+          "slug": "sda3-tldr",
+          "title": "SDA-3 tl;dr",
+          "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+          "date": "2026-05-08",
+          "tags": [
+            "llm-structural-analysis",
+            "sda-3",
+            "youtube",
+            "sda-3-tldr",
+            "model-structure-analysis",
+            "video-index-system"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 11,
+              "role": "methodology"
+            },
+            {
+              "slug": "sda3-structural-extraction",
+              "order": 10,
+              "role": "summary"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 10,
+          "projectRole": "summary"
+        }
+      ]
+    },
+    {
+      "slug": "semantic-seo-graph-positioning",
+      "title": "Semantic SEO as Graph Positioning",
+      "eyebrow": "Guided strategy",
+      "description": "A connected argument that reframes Semantic SEO as structural legibility and graph positioning rather than isolated content optimisation.",
+      "introduction": "Follow the argument from pre-optimisation structure through search-system behaviour, graph positioning, creative visibility and the resulting content operating system.",
+      "chapters": [
+        {
+          "slug": "semantic-seo-begins-before-optimisation",
+          "title": "Semantic SEO Begins Before Optimisation",
+          "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+          "date": "2026-03-15",
+          "tags": [
+            "search-and-discovery-systems",
+            "semantic-seo",
+            "creative-search-system",
+            "structural-legibility",
+            "discovery-systems-map"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 1,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 1,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "seo-visibility-structural-legibility",
+          "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+          "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+          "date": "2026-03-15",
+          "tags": [
+            "search-and-discovery-systems",
+            "structural-legibility",
+            "discovery-systems-map"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 2,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 2,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "how-search-and-recommendation-systems-actually-work",
+          "title": "How Search and Recommendation Systems Actually Work",
+          "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+          "date": "2026-06-05",
+          "tags": [
+            "search-and-discovery-systems",
+            "semantic-seo",
+            "graph-positioning",
+            "structural-legibility",
+            "hostile-visibility",
+            "ai-search",
+            "discovery-systems-map"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 3,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 3,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "semantic-seo-is-graph-positioning",
+          "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+          "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+          "date": "2026-06-05",
+          "tags": [
+            "search-and-discovery-systems",
+            "graph-positioning",
+            "creative-search-system",
+            "semantic-archive",
+            "discovery-systems-map"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 4,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 4,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+          "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+          "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+          "date": "2026-06-14",
+          "tags": [
+            "creative-search-system",
+            "youtube",
+            "ai-seo-video",
+            "haunted-machine-tldr",
+            "video-index-system"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 5,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 5,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "from-seo-keywords-to-the-haunted-machine",
+          "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+          "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+          "date": "2026-06-14",
+          "tags": [
+            "creative-search-system",
+            "creative-identity-system",
+            "semantic-archive",
+            "youtube",
+            "haunted-machine-video",
+            "haunted-machine",
+            "artistic-system-building",
+            "video-index-system"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 6,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 6,
+          "projectRole": "chapter"
+        }
+      ],
+      "resources": [
+        {
+          "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+          "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+          "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+          "date": "2026-05-25",
+          "tags": [
+            "semantic-research-pipeline",
+            "search-results-to-strategy",
+            "research-methods"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 20,
+              "role": "methodology"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 20,
+          "projectRole": "methodology"
+        },
+        {
+          "slug": "python-nlp-semantic-seo",
+          "title": "Python for NLP and Semantic SEO: A Practical Reference",
+          "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+          "date": "2026-05-31",
+          "tags": [
+            "semantic-research-pipeline",
+            "python-nlp",
+            "research-methods"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 21,
+              "role": "methodology"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 21,
+          "projectRole": "methodology"
+        },
+        {
+          "slug": "research-pipeline",
+          "title": "Research pipeline",
+          "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+          "date": "2026-04-25",
+          "tags": [
+            "semantic-research-pipeline",
+            "python-nlp",
+            "search-results-to-strategy",
+            "review-mining",
+            "dataset-structure",
+            "clustering-method",
+            "search-and-discovery-systems",
+            "discovery-systems-map",
+            "research-methods"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 22,
+              "role": "methodology"
+            },
+            {
+              "slug": "seer-clown-research",
+              "order": 10,
+              "role": "methodology"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 22,
+          "projectRole": "methodology"
+        }
+      ]
+    },
+    {
+      "slug": "seer-clown-research",
+      "title": "From Aesthetic Research to the Seer-Clown",
+      "eyebrow": "Guided research process",
+      "description": "An evidence-led pathway from audience and medium research through source data, clustering, interpretation and the Seer-Clown archetype.",
+      "introduction": "This sequence exposes both the research outputs and the intermediate representations used to turn audience evidence into an artistic identity system.",
+      "chapters": [
+        {
+          "slug": "art-forms-with-high-audience-resonance",
+          "title": "Art Forms with High Audience Resonance",
+          "description": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+          "date": "2026-03-15",
+          "tags": [
+            "aesthetic-research-system",
+            "audience-resonance",
+            "aesthetic-analysis"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "seer-clown-research",
+              "order": 1,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 1,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "most-popular-art-mediums-based-on-the-datasets",
+          "title": "Most Popular Art Mediums Based on the Datasets",
+          "description": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+          "date": "2026-03-15",
+          "tags": [
+            "aesthetic-research-system",
+            "art-medium-analysis",
+            "aesthetic-analysis"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "seer-clown-research",
+              "order": 2,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 2,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "data-structure-intermediate-stage",
+          "title": "What the Data Actually Looks Like",
+          "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+          "date": "2026-04-24",
+          "tags": [
+            "aesthetic-research-system",
+            "dataset-structure",
+            "semantic-research-pipeline",
+            "research-methods",
+            "aesthetic-analysis"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "seer-clown-research",
+              "order": 3,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 3,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "clustered-output-instagram-dataset",
+          "title": "Clustered Output (Dataset)",
+          "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+          "date": "2026-04-24",
+          "tags": [
+            "aesthetic-research-system",
+            "instagram-dataset",
+            "semantic-research-pipeline",
+            "clustering-method",
+            "research-methods",
+            "aesthetic-analysis"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "seer-clown-research",
+              "order": 4,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 4,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "seer-clown-research-process",
+          "title": "Research Process Used to Establish the Seer-Clown Archetype",
+          "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+          "date": "2026-04-24",
+          "tags": [
+            "creative-identity-system",
+            "seer-clown",
+            "aesthetic-research-system",
+            "aesthetic-analysis",
+            "artistic-system-building"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "seer-clown-research",
+              "order": 5,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 5,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "methodology-evaluation-and-validity",
+          "title": "Summary of the Process, Conclusions, and Their Validity",
+          "description": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
+          "date": "2026-04-24",
+          "tags": [
+            "aesthetic-research-system",
+            "instagram-dataset",
+            "audience-resonance",
+            "art-medium-analysis",
+            "seer-clown",
+            "validation",
+            "aesthetic-analysis"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "seer-clown-research",
+              "order": 6,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 6,
+          "projectRole": "chapter"
+        }
+      ],
+      "resources": [
+        {
+          "slug": "research-pipeline",
+          "title": "Research pipeline",
+          "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+          "date": "2026-04-25",
+          "tags": [
+            "semantic-research-pipeline",
+            "python-nlp",
+            "search-results-to-strategy",
+            "review-mining",
+            "dataset-structure",
+            "clustering-method",
+            "search-and-discovery-systems",
+            "discovery-systems-map",
+            "research-methods"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 22,
+              "role": "methodology"
+            },
+            {
+              "slug": "seer-clown-research",
+              "order": 10,
+              "role": "methodology"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 10,
+          "projectRole": "methodology"
         }
       ]
     }
@@ -7199,6 +8220,30 @@
         "label": "How to Stop ChatGPT From Lying",
         "route": "/art/project/chatgpt-structural-failure",
         "type": "project"
+      },
+      {
+        "id": "project:ai-visibility-is-not-value",
+        "label": "AI Visibility Is Not Value",
+        "route": "/art/project/ai-visibility-is-not-value",
+        "type": "project"
+      },
+      {
+        "id": "project:sda3-structural-extraction",
+        "label": "SDA-3 and LLM Structural Extraction",
+        "route": "/art/project/sda3-structural-extraction",
+        "type": "project"
+      },
+      {
+        "id": "project:semantic-seo-graph-positioning",
+        "label": "Semantic SEO as Graph Positioning",
+        "route": "/art/project/semantic-seo-graph-positioning",
+        "type": "project"
+      },
+      {
+        "id": "project:seer-clown-research",
+        "label": "From Aesthetic Research to the Seer-Clown",
+        "route": "/art/project/seer-clown-research",
+        "type": "project"
       }
     ],
     "projectEdges": [
@@ -7291,6 +8336,318 @@
         "target": "how-to-stop-chatgpt-from-lying",
         "type": "precedes",
         "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "source-eligibility-being-available-is-not-being-chosen",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "ai-visibility-is-not-one-environment",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "the-selection-gap",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "selected-does-not-mean-cited",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "the-citable-hard-to-exhaust-archive",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "representation-governance",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "ai-visibility-is-not-value",
+        "target": "project:ai-visibility-is-not-value",
+        "type": "belongs-to-project",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "ai-visibility-is-not-a-direct-optimisation-outcome",
+        "target": "source-eligibility-being-available-is-not-being-chosen",
+        "type": "precedes",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "source-eligibility-being-available-is-not-being-chosen",
+        "target": "ai-visibility-is-not-one-environment",
+        "type": "precedes",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "ai-visibility-is-not-one-environment",
+        "target": "the-selection-gap",
+        "type": "precedes",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "the-selection-gap",
+        "target": "selected-does-not-mean-cited",
+        "type": "precedes",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "selected-does-not-mean-cited",
+        "target": "ai-visibility-measurement-cannot-prove-value",
+        "type": "precedes",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "ai-visibility-measurement-cannot-prove-value",
+        "target": "value-transfer-retention-and-platform-capture",
+        "type": "precedes",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "value-transfer-retention-and-platform-capture",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "type": "precedes",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "the-citable-hard-to-exhaust-archive",
+        "target": "representation-governance",
+        "type": "precedes",
+        "project": "ai-visibility-is-not-value"
+      },
+      {
+        "source": "gpt-misuse-is-not-what-people-think",
+        "target": "project:sda3-structural-extraction",
+        "type": "belongs-to-project",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "target": "project:sda3-structural-extraction",
+        "type": "supports-methodology",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "structural-extraction-protocol",
+        "target": "project:sda3-structural-extraction",
+        "type": "belongs-to-project",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "project:sda3-structural-extraction",
+        "type": "belongs-to-project",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "sda3-tldr",
+        "target": "project:sda3-structural-extraction",
+        "type": "supports-methodology",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "gpt-misuse-is-not-what-people-think",
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "type": "precedes",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "target": "structural-extraction-protocol",
+        "type": "precedes",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "structural-extraction-protocol",
+        "target": "hidden-representations-without-hidden-layers",
+        "type": "precedes",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "semantic-seo-begins-before-optimisation",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "belongs-to-project",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "seo-visibility-structural-legibility",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "belongs-to-project",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "how-search-and-recommendation-systems-actually-work",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "belongs-to-project",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "belongs-to-project",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "belongs-to-project",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "from-seo-keywords-to-the-haunted-machine",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "belongs-to-project",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "supports-methodology",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "python-nlp-semantic-seo",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "supports-methodology",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "research-pipeline",
+        "target": "project:semantic-seo-graph-positioning",
+        "type": "supports-methodology",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "semantic-seo-begins-before-optimisation",
+        "target": "seo-visibility-structural-legibility",
+        "type": "precedes",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "seo-visibility-structural-legibility",
+        "target": "how-search-and-recommendation-systems-actually-work",
+        "type": "precedes",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "how-search-and-recommendation-systems-actually-work",
+        "target": "semantic-seo-is-graph-positioning",
+        "type": "precedes",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "semantic-seo-is-graph-positioning",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "type": "precedes",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "target": "from-seo-keywords-to-the-haunted-machine",
+        "type": "precedes",
+        "project": "semantic-seo-graph-positioning"
+      },
+      {
+        "source": "art-forms-with-high-audience-resonance",
+        "target": "project:seer-clown-research",
+        "type": "belongs-to-project",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "most-popular-art-mediums-based-on-the-datasets",
+        "target": "project:seer-clown-research",
+        "type": "belongs-to-project",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "data-structure-intermediate-stage",
+        "target": "project:seer-clown-research",
+        "type": "belongs-to-project",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "clustered-output-instagram-dataset",
+        "target": "project:seer-clown-research",
+        "type": "belongs-to-project",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "seer-clown-research-process",
+        "target": "project:seer-clown-research",
+        "type": "belongs-to-project",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "methodology-evaluation-and-validity",
+        "target": "project:seer-clown-research",
+        "type": "belongs-to-project",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "research-pipeline",
+        "target": "project:seer-clown-research",
+        "type": "supports-methodology",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "art-forms-with-high-audience-resonance",
+        "target": "most-popular-art-mediums-based-on-the-datasets",
+        "type": "precedes",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "most-popular-art-mediums-based-on-the-datasets",
+        "target": "data-structure-intermediate-stage",
+        "type": "precedes",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "data-structure-intermediate-stage",
+        "target": "clustered-output-instagram-dataset",
+        "type": "precedes",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "clustered-output-instagram-dataset",
+        "target": "seer-clown-research-process",
+        "type": "precedes",
+        "project": "seer-clown-research"
+      },
+      {
+        "source": "seer-clown-research-process",
+        "target": "methodology-evaluation-and-validity",
+        "type": "precedes",
+        "project": "seer-clown-research"
       }
     ]
   }

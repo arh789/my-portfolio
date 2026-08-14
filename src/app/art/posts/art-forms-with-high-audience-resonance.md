@@ -2,6 +2,10 @@
 title: Art Forms with High Audience Resonance
 description: This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.
 date: 2026-03-15
+projects:
+  - slug: seer-clown-research
+    order: 1
+    role: chapter
 tags:
   - aesthetic-research-system
   - audience-resonance

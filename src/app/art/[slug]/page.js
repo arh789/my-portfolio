@@ -2,7 +2,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProjectPathway from "../components/ProjectPathway.js";
 import { readArticles } from "../lib/readArticles.js";
-import { buildProjectIndex, findProject } from "../lib/projectData.js";
+import {
+    buildProjectIndex,
+    findArticleProjectMemberships,
+} from "../lib/projectData.js";
 import "../art.css";
 
 const SITE_URL = "https://decrepitfilth.art";
@@ -51,12 +54,11 @@ export default async function ArticlePage({ params }) {
     if (!article) notFound();
 
     const projects = buildProjectIndex(articles);
-    const project = article.project
-        ? findProject(projects, article.project)
-        : null;
+    const memberships = findArticleProjectMemberships(projects, article.slug);
+    const primaryProject = memberships[0]?.project ?? null;
     const articleUrl = `${SITE_URL}/art/${article.slug}`;
-    const projectUrl = project
-        ? `${SITE_URL}/art/project/${project.slug}`
+    const projectUrl = primaryProject
+        ? `${SITE_URL}/art/project/${primaryProject.slug}`
         : null;
 
     const articleSchema = {
@@ -67,12 +69,12 @@ export default async function ArticlePage({ params }) {
         datePublished: article.date || undefined,
         url: articleUrl,
         mainEntityOfPage: articleUrl,
-        isPartOf: project
-            ? {
+        isPartOf: memberships.length
+            ? memberships.map(({ project }) => ({
                   "@type": "CollectionPage",
                   name: project.title,
-                  url: projectUrl,
-              }
+                  url: `${SITE_URL}/art/project/${project.slug}`,
+              }))
             : undefined,
     };
 
@@ -85,11 +87,11 @@ export default async function ArticlePage({ params }) {
         },
     ];
 
-    if (project) {
+    if (primaryProject) {
         breadcrumbItems.push({
             "@type": "ListItem",
             position: 2,
-            name: project.title,
+            name: primaryProject.title,
             item: projectUrl,
         });
     }
@@ -150,9 +152,7 @@ export default async function ArticlePage({ params }) {
                         ) : null}
                     </header>
 
-                    {project ? (
-                        <ProjectPathway article={article} project={project} />
-                    ) : null}
+                    <ProjectPathway memberships={memberships} />
 
                     <div
                         className="art-article__content"

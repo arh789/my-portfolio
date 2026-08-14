@@ -2,6 +2,10 @@
 title: Semantic SEO Begins Before Optimisation
 description: Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.
 date: 2026-03-15
+projects:
+  - slug: semantic-seo-graph-positioning
+    order: 1
+    role: chapter
 tags:
   - search-and-discovery-systems
   - semantic-seo
