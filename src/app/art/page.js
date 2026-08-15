@@ -3,7 +3,6 @@ import path from "node:path";
 import Link from "next/link";
 import "./art.css";
 import ArtGraph from "./components/ArtGraph";
-import Image from 'next/image'
 
 export const metadata = {
     title: "Art",
@@ -53,23 +52,14 @@ export default async function ArtPage() {
 
     return (
         <main className="art-page">
-            <Image
-                src="/images/blog-hero-image.jpg"
-                alt=""
-                width={679}
-                height={453}
-                priority
-                sizes="(max-width: 700px) 100vw, 900px"
-                className="art-page__hero-image"
-            />
-
             <header className="art-page__header">
                 <p className="art-page__eyebrow">Concept Hub</p>
                 <h1 className="art-page__title">Art</h1>
                 <p className="art-page__intro">
-                    This section is organised as a tag-based concept network. The dropdowns
-                    below are the primary navigation system. Each tag expands to show the
-                    related articles, ordered by their position in the current article graph.
+                    This page maps the site's articles as a visible concept network. The
+                    graph shows how posts connect through shared tags, the guided pathways
+                    group articles into larger investigations, and the tag index lets you
+                    browse the underlying topics directly.
                 </p>
 
                 <div className="art-page__meta">
