@@ -24,8 +24,50 @@ const PART_C_HEADINGS = [
     },
     {
         level: 2,
+        text: "Analytics evidence summary",
+        slug: "analytics-evidence-summary",
+    },
+    {
+        level: 2,
         text: "What the evidence supports",
         slug: "what-the-evidence-supports",
+    },
+];
+
+const ANALYTICS_EVIDENCE_SUMMARY = [
+    {
+        field: "Data window",
+        value: "31 March-18 August 2026",
+    },
+    {
+        field: "Lab publication-ready date",
+        value: "28 July 2026",
+    },
+    {
+        field: "Source",
+        value: "Google Search Console export",
+    },
+    {
+        field: "Query cluster",
+        value:
+            "semantic seo python; python for semantic seo; how to use python for nlp and semantic seo",
+    },
+    {
+        field: "Primary observed page",
+        value: "/semantic-seo-lab",
+    },
+    {
+        field: "Metrics used",
+        value: "impressions; average position; query; page",
+    },
+    {
+        field: "Main observed outcome",
+        value: "visibility expanded and consolidated around the lab page",
+    },
+    {
+        field: "Limitation",
+        value:
+            "observational Search Console evidence, not direct proof of Google's internal ranking process",
     },
 ];
 
@@ -245,6 +287,29 @@ function PartCAnalyticsSnapshot() {
                     </figure>
                 </section>
             ))}
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="analytics-evidence-summary"
+            >
+                <h2>Analytics Evidence Summary</h2>
+                <p>
+                    This table makes the chart evidence explicit for readers and
+                    crawlers. It summarises the date window, source, query
+                    cluster, metrics and interpretive limit of the Part C
+                    analysis.
+                </p>
+                <table className={styles.evidenceTable}>
+                    <tbody>
+                        {ANALYTICS_EVIDENCE_SUMMARY.map((row) => (
+                            <tr key={row.field}>
+                                <th scope="row">{row.field}</th>
+                                <td>{row.value}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </section>
 
             <section
                 className={`${styles.cell} ${styles.markdownCell}`}

@@ -354,6 +354,37 @@
     font-weight: 700;
 }
 
+.evidenceTable {
+    width: 100%;
+    max-width: 72rem;
+    border-collapse: collapse;
+    margin: 1.1rem 0 0;
+    color: rgba(244, 240, 223, 0.9);
+    background: rgba(255, 255, 255, 0.025);
+    font-size: 0.94rem;
+    line-height: 1.55;
+}
+
+.evidenceTable th,
+.evidenceTable td {
+    padding: 0.7rem 0.8rem;
+    border: 1px solid rgba(245, 227, 109, 0.2);
+    vertical-align: top;
+}
+
+.evidenceTable th {
+    width: 32%;
+    color: var(--primary-color, #f5e36d);
+    background: rgba(245, 227, 109, 0.075);
+    font-family: var(--font-family-title, inherit);
+    letter-spacing: 0.035em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.evidenceTable td {
+    background: rgba(0, 0, 0, 0.22);
+}
 .figure {
     margin: 0;
     padding: 0.75rem;
