@@ -597,6 +597,107 @@ until the scene reclassifies itself
 
 That is the kind of conclusion the pipeline is designed to make reachable.
 
+
+## What The CreepyTok Analysis Found
+
+The highest-view videos were not united by one subject. They did not all belong to the same semantic cluster, use the same format, or depend on the same monster, story type or hashtag.
+
+The shared structure was functional:
+
+```text
+human-centred scene + immediate frame + anomaly + partial evidence -> reclassification
+```
+
+The strongest pattern was not "make something creepy". It was:
+
+```text
+make the viewer reclassify what they are looking at
+```
+
+Everest bodies, HANI, the human-skin bag, the mimic, the skinwalker footage and the woman with the apple are different topics. What links them is that each turns a legible object into evidence of something else.
+
+### Finding 1: Topic Did Not Explain The Top Group
+
+The top 10 videos were spread across six semantic clusters. The bottom 10 were spread across five. That means cluster membership alone did not separate high and low performance.
+
+The important distinction was not:
+
+```text
+this topic performs
+```
+
+It was:
+
+```text
+this operation appears across multiple topics
+```
+
+### Finding 2: The Top Group Favoured Reclassification
+
+The top videos repeatedly made something change status:
+
+| First status | Reclassified status |
+|---|---|
+| corpse | route marker |
+| school bag | human-skin object |
+| AI | biological entity |
+| roommate voice | mimic evidence |
+| ordinary woman | possible non-human presence |
+| apple scene | implied threat |
+
+The repeated payoff was not simply fear. It was a change in what the viewer thought they were seeing.
+
+### Finding 3: The Bottom Group Declared Horror More Often
+
+The bottom videos more often began from the label:
+
+```text
+horror / creepy / scary -> scary fragment
+```
+
+The top videos more often created an interpretive task:
+
+```text
+ordinary or ambiguous scene -> wrong detail -> new meaning
+```
+
+That is the useful contrast.
+
+### Finding 4: The Video Files Refined The JSON Finding
+
+The JSON identified the semantic pattern. Direct video inspection clarified the execution.
+
+The important correction was that the anomaly was not always hidden until late. In many top videos, the anomaly appeared early. What was delayed was its meaning.
+
+So the stronger formula became:
+
+```text
+immediate frame -> sustained object -> guided inspection -> delayed reinterpretation
+```
+
+### Finding 5: The Production Rule
+
+The practical finding is:
+
+```text
+make something reclassifiable
+```
+
+Not:
+
+```text
+make a creepy video
+```
+
+A usable CreepyTok concept should therefore:
+
+1. start with a socially readable scene
+2. give the viewer one wrong detail
+3. frame attention immediately
+4. make text and image depend on each other
+5. reclassify the object, person or scene
+6. leave enough unresolved for replay, comments or argument
+
 ## What The Pattern Looks Like
 
 In the `creepy tok` proof of concept, the high-view videos were not concentrated in one topic cluster.

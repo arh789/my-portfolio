@@ -296,6 +296,43 @@
         color: #f0c04f;
     }
 
+    .art-article__content :not(pre) > code {
+        padding: 0.08rem 0.35rem;
+        color: #ffe66f;
+        background: rgba(240, 192, 79, 0.14);
+        border: 1px solid rgba(240, 192, 79, 0.26);
+        border-radius: 0.25rem;
+        font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.9em;
+        white-space: break-spaces;
+    }
+
+    .art-article__content pre {
+        overflow-x: auto;
+        margin: 1.15rem 0;
+        padding: 1rem 1.1rem;
+        color: #d8ffb0;
+        background:
+            linear-gradient(135deg, rgba(240, 192, 79, 0.08), transparent 45%),
+            rgba(0, 0, 0, 0.82);
+        border: 1px solid rgba(240, 192, 79, 0.34);
+        border-left: 4px solid rgba(240, 192, 79, 0.72);
+        border-radius: 0.35rem;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.035);
+    }
+
+    .art-article__content pre code {
+        display: block;
+        color: inherit;
+        background: transparent;
+        border: 0;
+        padding: 0;
+        font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.92rem;
+        line-height: 1.62;
+        white-space: pre;
+    }
+
     .art-article__content blockquote {
         padding-left: 1rem;
         border-left: 3px solid rgba(240, 192, 79, 0.6);
