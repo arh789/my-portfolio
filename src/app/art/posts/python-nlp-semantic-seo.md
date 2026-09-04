@@ -577,6 +577,24 @@ Run each modelling stage sequentially, not in parallel, to avoid OOM errors.
 
 ---
 
+## Observed Search Role
+
+This practical reference was published on 31 May 2026. Its first Search Console exposure was brief, but the page re-emerged after the later [Semantic SEO Lab](/semantic-seo-lab) became established.
+
+Across the equal 14-day observation window from 19 August to 1 September:
+
+- this page received **161 complete page impressions**
+- `how to use python for nlp and semantic seo` produced **124 visible-query impressions** at an impression-weighted position of **17.8**
+- `semantic seo python` produced only **4 visible-query impressions** at position **79.0**
+
+During the same period, the lab showed the inverse pattern: it remained the stronger page for the broader `semantic seo python` formulation, while this page became the stronger result for procedural intent.
+
+The current evidence therefore supports two related but distinct retrieval roles: this page acts as the practical reference, while the lab acts as the broader research synthesis. These are Search Console visibility findings, not engagement findings; neither observation window produced a click.
+
+The complete graphs, comparison windows and limitations are recorded in [Part C of the Semantic SEO Lab](/semantic-seo-lab#part-c-observed-search-outcome).
+
+---
+
 ## Further Reading
 
 - [KeyBERT documentation](https://maartengr.github.io/KeyBERT/)

@@ -385,6 +385,26 @@
 .evidenceTable td {
     background: rgba(0, 0, 0, 0.22);
 }
+
+.comparisonTable th {
+    width: auto;
+    text-transform: none;
+}
+
+.comparisonTable {
+    table-layout: fixed;
+}
+
+.comparisonTable thead th {
+    color: #111;
+    background: var(--primary-color, #f5e36d);
+}
+
+.comparisonTable code {
+    overflow-wrap: anywhere;
+    white-space: normal;
+}
+
 .figure {
     margin: 0;
     padding: 0.75rem;
@@ -461,5 +481,11 @@
     .cellHeader {
         flex-direction: column;
         gap: 0.25rem;
+    }
+
+    .comparisonTable {
+        display: block;
+        overflow-x: auto;
+        table-layout: auto;
     }
 }

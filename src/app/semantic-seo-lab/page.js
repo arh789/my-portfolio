@@ -9,6 +9,11 @@ const PART_C_HEADINGS = [
     },
     {
         level: 2,
+        text: "Part C.1 - Initial consolidation",
+        slug: "part-c-1-initial-consolidation",
+    },
+    {
+        level: 2,
         text: "Site trajectory",
         slug: "site-trajectory",
     },
@@ -31,6 +36,36 @@ const PART_C_HEADINGS = [
         level: 2,
         text: "What the evidence supports",
         slug: "what-the-evidence-supports",
+    },
+    {
+        level: 2,
+        text: "Part C.2 - Later query-page differentiation",
+        slug: "part-c-2-later-query-page-differentiation",
+    },
+    {
+        level: 2,
+        text: "Site trajectory (updated)",
+        slug: "part-c-2-site-trajectory",
+    },
+    {
+        level: 2,
+        text: "Six-page impression trajectory (updated)",
+        slug: "part-c-2-six-page-impression-trajectory",
+    },
+    {
+        level: 2,
+        text: "Query-specific page ranking (updated)",
+        slug: "part-c-2-query-specific-page-ranking",
+    },
+    {
+        level: 3,
+        text: "Updated evidence",
+        slug: "updated-evidence",
+    },
+    {
+        level: 3,
+        text: "What changed",
+        slug: "what-changed",
     },
 ];
 
@@ -95,6 +130,73 @@ const ANALYTICS_FIGURES = [
         alt: "Multi-panel chart showing fixed-query impressions and weighted page position for Semantic SEO pages.",
         description:
             "Each row follows one fixed query across /code, /semantic-seo-lab, and the two earlier Semantic SEO pages. The left panel shows trailing seven-day impression totals; the right panel shows trailing seven-day impression-weighted position for exactly the same query-page pair.",
+    },
+];
+
+const PART_C2_FIGURES = [
+    {
+        id: "part-c-2-site-trajectory",
+        title: "Site trajectory",
+        src: "/semantic-seo-lab/analytics/part-c2-site-visibility-trajectory.png",
+        alt: "Updated line chart showing the site's trailing seven-day average impressions and fitted trend through 1 September 2026.",
+        description:
+            "The same C.1 site-trajectory calculation, rerun with Search Console data through 1 September 2026.",
+    },
+    {
+        id: "part-c-2-six-page-impression-trajectory",
+        title: "Six-page impression trajectory",
+        src: "/semantic-seo-lab/analytics/part-c2-six-page-impression-trajectory.png",
+        alt: "Updated line chart comparing trailing seven-day impressions for the same six pages through 1 September 2026.",
+        description:
+            "The same C.1 six-page trailing seven-day calculation, rerun with page data through 1 September 2026.",
+    },
+    {
+        id: "part-c-2-query-specific-page-ranking",
+        title: "Query-specific page ranking",
+        src: "/semantic-seo-lab/analytics/part-c2-query-specific-page-ranking.png",
+        alt: "Updated multi-panel chart showing fixed-query impressions and weighted page position through 1 September 2026.",
+        description:
+            "The same C.1 fixed-query impressions and impression-weighted position calculation, rerun through 1 September 2026.",
+    },
+];
+
+const PART_C2_PHASE_ROWS = [
+    {
+        metric: "Site impressions",
+        initial: "190",
+        later: "365",
+        change: "+92%",
+    },
+    {
+        metric: "/art/python-nlp-semantic-seo impressions",
+        initial: "4",
+        later: "161",
+        change: "+157",
+    },
+    {
+        metric: "/semantic-seo-lab impressions",
+        initial: "131",
+        later: "180",
+        change: "+49",
+    },
+    {
+        metric: "Site clicks",
+        initial: "0",
+        later: "0",
+        change: "No change",
+    },
+];
+
+const PART_C2_QUERY_ROWS = [
+    {
+        query: "how to use python for nlp and semantic seo",
+        reference: "124 impressions; position 17.8",
+        lab: "12 impressions; position 48.1",
+    },
+    {
+        query: "semantic seo python",
+        reference: "4 impressions; position 79.0",
+        lab: "98 impressions; position 20.5",
     },
 ];
 
@@ -237,6 +339,9 @@ function PartCAnalyticsSnapshot() {
                 id="part-c-observed-search-outcome"
             >
                 <h1>Part C - Observed Search Outcome</h1>
+                <h2 id="part-c-1-initial-consolidation">
+                    Part C.1 - Initial consolidation
+                </h2>
                 <p>
                     This snapshot measures the site&apos;s earliest available Google
                     Search Console visibility, covering 31 March to 18 August
@@ -381,6 +486,143 @@ function PartCAnalyticsSnapshot() {
                     describes the observed Search Console pattern. It is an
                     interpretation of ranking behaviour, not direct evidence of
                     Google&apos;s internal testing process.
+                </p>
+            </section>
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="part-c-2-later-query-page-differentiation"
+            >
+                <h2>Part C.2 - Later query-page differentiation</h2>
+                <p>
+                    This follow-up preserves the initial result above, then tests
+                    what changed during the equal 14-day window from 19 August to
+                    1 September 2026. The later evidence does not simply repeat
+                    the first snapshot: it shows the earlier consolidation
+                    developing into two distinct query-page relationships.
+                </p>
+            </section>
+
+            {PART_C2_FIGURES.map((figure) => (
+                <section
+                    className={`${styles.cell} ${styles.markdownCell}`}
+                    id={figure.id}
+                    key={figure.id}
+                >
+                    <h2>{figure.title}</h2>
+                    <p>{figure.description}</p>
+                    <figure className={styles.figure}>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img alt={figure.alt} loading="lazy" src={figure.src} />
+                    </figure>
+                </section>
+            ))}
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="updated-evidence"
+            >
+                <h2>Updated Evidence</h2>
+                <p>
+                    Complete site and page totals compare equal 14-day windows.
+                    The query table then isolates the visible query rows that
+                    explain how the two pages differentiated.
+                </p>
+                <table
+                    className={`${styles.evidenceTable} ${styles.comparisonTable}`}
+                >
+                    <thead>
+                        <tr>
+                            <th scope="col">Metric</th>
+                            <th scope="col">5-18 August</th>
+                            <th scope="col">19 August-1 September</th>
+                            <th scope="col">Change</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {PART_C2_PHASE_ROWS.map((row) => (
+                            <tr key={row.metric}>
+                                <th scope="row">{row.metric}</th>
+                                <td>{row.initial}</td>
+                                <td>{row.later}</td>
+                                <td>{row.change}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+
+                <table
+                    className={`${styles.evidenceTable} ${styles.comparisonTable}`}
+                >
+                    <thead>
+                        <tr>
+                            <th scope="col">Visible query</th>
+                            <th scope="col">Practical reference</th>
+                            <th scope="col">Research lab</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {PART_C2_QUERY_ROWS.map((row) => (
+                            <tr key={row.query}>
+                                <th scope="row">
+                                    <code>{row.query}</code>
+                                </th>
+                                <td>{row.reference}</td>
+                                <td>{row.lab}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+                <p>
+                    Query positions are impression-weighted averages. Query-level
+                    rows exclude anonymised queries, while the site and page totals
+                    above do not.
+                </p>
+            </section>
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="what-changed"
+            >
+                <h2>What Changed</h2>
+                <ul>
+                    <li>
+                        <strong>Site visibility continued to expand:</strong> total
+                        impressions increased by 92% between the equal 14-day
+                        windows.
+                    </li>
+                    <li>
+                        <strong>The practical reference re-emerged:</strong>{" "}
+                        <code>/art/python-nlp-semantic-seo</code> rose from 4 to
+                        161 complete page impressions while the lab also increased.
+                    </li>
+                    <li>
+                        <strong>Query intent separated the pages:</strong> the
+                        practical reference became the stronger result for{" "}
+                        <code>how to use python for nlp and semantic seo</code>,
+                        while the lab remained stronger for{" "}
+                        <code>semantic seo python</code>.
+                    </li>
+                    <li>
+                        <strong>The preferred-page claim became narrower:</strong>{" "}
+                        the lab was not the preferred destination for every query
+                        in the cluster. Google Search Console instead showed a
+                        query-dependent division between practical and conceptual
+                        intent.
+                    </li>
+                    <li>
+                        <strong>Visibility is not engagement validation:</strong>{" "}
+                        neither window produced a click, so the evidence supports
+                        retrieval and ranking conclusions, not claims about user
+                        response or value.
+                    </li>
+                </ul>
+                <p>
+                    The strongest current interpretation is therefore a progression
+                    from initial consolidation to later differentiation. This is
+                    consistent with the two pages strengthening the same semantic
+                    cluster while serving different query formulations; it does not
+                    prove a specific internal Google testing process.
                 </p>
             </section>
         </>
