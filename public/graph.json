@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-08-21T02:17:07.999Z",
+  "generatedAt": "2026-09-04T01:42:14.607Z",
   "articles": [
+    {
+      "slug": "tiktok-video-analysis-with-python",
+      "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+      "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+      "date": "2026-09-04",
+      "tags": [
+        "tiktok",
+        "short-form-video",
+        "video-index-system",
+        "semantic-research-pipeline",
+        "research-methods",
+        "search-results-to-strategy",
+        "search-and-discovery-systems",
+        "creative-search-system"
+      ],
+      "type": "article",
+      "projects": [],
+      "medium": "article"
+    },
     {
       "slug": "tiktok-zombie-survival-series",
       "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
@@ -941,26 +960,21 @@
   "tagIndex": {
     "tiktok": [
       {
-        "slug": "tiktok-zombie-survival-series",
-        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
-        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
-        "date": "2026-08-14",
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
         "tags": [
           "tiktok",
-          "tiktok-zombie-series",
           "short-form-video",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis",
           "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
         ]
-      }
-    ],
-    "tiktok-zombie-series": [
+      },
       {
         "slug": "tiktok-zombie-survival-series",
         "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
@@ -982,6 +996,677 @@
       }
     ],
     "short-form-video": [
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      }
+    ],
+    "video-index-system": [
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+        "date": "2026-07-31",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-zombie-survival-why-fortresses-fail",
+        "title": "AI Zombie Survival: Why Fortresses Fail",
+        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
+        "date": "2026-07-25",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "youtube-video-index",
+        "title": "YouTube",
+        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "date": "2026-04-08",
+        "tags": [
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "haunted-machine-video",
+          "ai-seo-video",
+          "sda-3-tldr",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      }
+    ],
+    "semantic-research-pipeline": [
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "semantic-research-pipeline",
+          "review-mining",
+          "strategic-positioning",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "search-results-to-strategy",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Output (Dataset)",
+        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      }
+    ],
+    "research-methods": [
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "semantic-research-pipeline",
+          "review-mining",
+          "strategic-positioning",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "search-results-to-strategy",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Output (Dataset)",
+        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      }
+    ],
+    "search-results-to-strategy": [
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "search-results-to-strategy",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      }
+    ],
+    "search-and-discovery-systems": [
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "graph-positioning",
+          "creative-search-system",
+          "semantic-archive",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "semantic-seo-begins-before-optimisation",
+        "title": "Semantic SEO Begins Before Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "seo-visibility-structural-legibility",
+        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "structural-legibility",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "hostile-visibility",
+          "discovery-systems-map"
+        ]
+      }
+    ],
+    "creative-search-system": [
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "semantic-seo-is-graph-positioning",
+        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "graph-positioning",
+          "creative-search-system",
+          "semantic-archive",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "who-benefits-most-from-this-system",
+        "title": "Who Benefits Most From This System",
+        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+        "date": "2026-04-25",
+        "tags": [
+          "creative-search-system",
+          "strategic-positioning",
+          "independent-operators"
+        ]
+      },
+      {
+        "slug": "semantic-seo-begins-before-optimisation",
+        "title": "Semantic SEO Begins Before Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map"
+        ]
+      }
+    ],
+    "tiktok-zombie-series": [
       {
         "slug": "tiktok-zombie-survival-series",
         "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
@@ -1845,183 +2530,6 @@
         ]
       }
     ],
-    "video-index-system": [
-      {
-        "slug": "tiktok-zombie-survival-series",
-        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
-        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
-        "date": "2026-08-14",
-        "tags": [
-          "tiktok",
-          "tiktok-zombie-series",
-          "short-form-video",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
-        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
-        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
-        "date": "2026-07-31",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-zombie-survival-why-fortresses-fail",
-        "title": "AI Zombie Survival: Why Fortresses Fail",
-        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
-        "date": "2026-07-25",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
-        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
-        "date": "2026-07-18",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "youtube-video-index",
-        "title": "YouTube",
-        "description": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
-        "date": "2026-04-08",
-        "tags": [
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "haunted-machine-video",
-          "ai-seo-video",
-          "sda-3-tldr",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "This video demonstrates how AI systems optimise for coherence rather than structural accuracy. SDA-3 reframes the model as a system to interrogate, forcing it to expose suppressed variables and recover constraint-compatible truth.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      }
-    ],
     "how-to-stop-chatgpt-from-lying-video": [
       {
         "slug": "tiktok-zombie-survival-series",
@@ -2847,109 +3355,6 @@
         ]
       }
     ],
-    "search-and-discovery-systems": [
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "visibility-under-hostile-conditions",
-        "title": "Visibility Under Hostile Conditions",
-        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "hostile-visibility",
-          "discovery-systems-map"
-        ]
-      }
-    ],
     "ai-search": [
       {
         "slug": "ai-visibility-is-not-value",
@@ -3017,86 +3422,6 @@
         ]
       }
     ],
-    "semantic-research-pipeline": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "semantic-research-pipeline",
-          "review-mining",
-          "strategic-positioning",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "search-results-to-strategy",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Output (Dataset)",
-        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      }
-    ],
     "review-mining": [
       {
         "slug": "google-maps-review-mining-unmet-demand",
@@ -3150,154 +3475,6 @@
           "creative-search-system",
           "strategic-positioning",
           "independent-operators"
-        ]
-      }
-    ],
-    "research-methods": [
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "semantic-research-pipeline",
-          "review-mining",
-          "strategic-positioning",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "search-results-to-strategy",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Output (Dataset)",
-        "description": "This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      }
-    ],
-    "creative-search-system": [
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "who-benefits-most-from-this-system",
-        "title": "Who Benefits Most From This System",
-        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
-        "date": "2026-04-25",
-        "tags": [
-          "creative-search-system",
-          "strategic-positioning",
-          "independent-operators"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
         ]
       }
     ],
@@ -3765,36 +3942,6 @@
         "tags": [
           "semantic-research-pipeline",
           "python-nlp",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      }
-    ],
-    "search-results-to-strategy": [
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "search-results-to-strategy",
           "research-methods"
         ]
       },
@@ -4309,7 +4456,7 @@
     },
     {
       "tag": "video-index-system",
-      "count": 11
+      "count": 12
     },
     {
       "tag": "ai-visibility-is-not-value",
@@ -4324,6 +4471,10 @@
       "count": 8
     },
     {
+      "tag": "search-and-discovery-systems",
+      "count": 8
+    },
+    {
       "tag": "zombie-survival-strategy",
       "count": 8
     },
@@ -4332,7 +4483,11 @@
       "count": 8
     },
     {
-      "tag": "search-and-discovery-systems",
+      "tag": "research-methods",
+      "count": 7
+    },
+    {
+      "tag": "semantic-research-pipeline",
       "count": 7
     },
     {
@@ -4344,20 +4499,12 @@
       "count": 6
     },
     {
+      "tag": "creative-search-system",
+      "count": 6
+    },
+    {
       "tag": "discovery-systems-map",
       "count": 6
-    },
-    {
-      "tag": "research-methods",
-      "count": 6
-    },
-    {
-      "tag": "semantic-research-pipeline",
-      "count": 6
-    },
-    {
-      "tag": "creative-search-system",
-      "count": 5
     },
     {
       "tag": "sda-3",
@@ -4381,6 +4528,10 @@
     },
     {
       "tag": "how-to-stop-chatgpt-from-lying-video",
+      "count": 3
+    },
+    {
+      "tag": "search-results-to-strategy",
       "count": 3
     },
     {
@@ -4484,10 +4635,6 @@
       "count": 2
     },
     {
-      "tag": "search-results-to-strategy",
-      "count": 2
-    },
-    {
       "tag": "selection-gap",
       "count": 2
     },
@@ -4496,11 +4643,19 @@
       "count": 2
     },
     {
+      "tag": "short-form-video",
+      "count": 2
+    },
+    {
       "tag": "source-eligibility",
       "count": 2
     },
     {
       "tag": "strategic-positioning",
+      "count": 2
+    },
+    {
+      "tag": "tiktok",
       "count": 2
     },
     {
@@ -4525,14 +4680,6 @@
     },
     {
       "tag": "independent-operators",
-      "count": 1
-    },
-    {
-      "tag": "short-form-video",
-      "count": 1
-    },
-    {
-      "tag": "tiktok",
       "count": 1
     },
     {
@@ -5636,6 +5783,22 @@
   "graph": {
     "nodes": [
       {
+        "id": "tiktok-video-analysis-with-python",
+        "label": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "type": "article",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ],
+        "centrality": 39
+      },
+      {
         "id": "tiktok-zombie-survival-series",
         "label": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
         "type": "article",
@@ -5652,7 +5815,7 @@
           "video-index-system",
           "how-to-stop-chatgpt-from-lying-video"
         ],
-        "centrality": 59
+        "centrality": 62
       },
       {
         "id": "how-to-stop-chatgpt-from-lying",
@@ -5671,7 +5834,7 @@
           "video-index-system",
           "how-to-stop-chatgpt-from-lying-video"
         ],
-        "centrality": 72
+        "centrality": 73
       },
       {
         "id": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
@@ -5687,7 +5850,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 66
+        "centrality": 67
       },
       {
         "id": "ai-zombie-survival-why-fortresses-fail",
@@ -5703,7 +5866,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 63
+        "centrality": 64
       },
       {
         "id": "the-zombie-survival-strategy-chatgpt-could-not-see",
@@ -5718,7 +5881,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 62
+        "centrality": 63
       },
       {
         "id": "ai-visibility-is-not-value",
@@ -5739,7 +5902,7 @@
           "search-and-discovery-systems",
           "ai-search"
         ],
-        "centrality": 28
+        "centrality": 29
       },
       {
         "id": "ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -5856,7 +6019,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 62
+        "centrality": 63
       },
       {
         "id": "google-maps-review-mining-unmet-demand",
@@ -5868,7 +6031,7 @@
           "strategic-positioning",
           "research-methods"
         ],
-        "centrality": 12
+        "centrality": 14
       },
       {
         "id": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -5881,7 +6044,7 @@
           "haunted-machine-tldr",
           "video-index-system"
         ],
-        "centrality": 24
+        "centrality": 26
       },
       {
         "id": "from-seo-keywords-to-the-haunted-machine",
@@ -5897,7 +6060,7 @@
           "artistic-system-building",
           "video-index-system"
         ],
-        "centrality": 34
+        "centrality": 36
       },
       {
         "id": "how-search-and-recommendation-systems-actually-work",
@@ -5912,7 +6075,7 @@
           "ai-search",
           "discovery-systems-map"
         ],
-        "centrality": 18
+        "centrality": 19
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -5925,7 +6088,7 @@
           "semantic-archive",
           "discovery-systems-map"
         ],
-        "centrality": 19
+        "centrality": 21
       },
       {
         "id": "python-nlp-semantic-seo",
@@ -5936,7 +6099,7 @@
           "python-nlp",
           "research-methods"
         ],
-        "centrality": 11
+        "centrality": 13
       },
       {
         "id": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -5947,7 +6110,7 @@
           "search-results-to-strategy",
           "research-methods"
         ],
-        "centrality": 11
+        "centrality": 14
       },
       {
         "id": "sda3-tldr",
@@ -5961,7 +6124,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 46
+        "centrality": 47
       },
       {
         "id": "research-pipeline",
@@ -5978,7 +6141,7 @@
           "discovery-systems-map",
           "research-methods"
         ],
-        "centrality": 26
+        "centrality": 30
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -5989,7 +6152,7 @@
           "strategic-positioning",
           "independent-operators"
         ],
-        "centrality": 5
+        "centrality": 6
       },
       {
         "id": "clustered-output-instagram-dataset",
@@ -6003,7 +6166,7 @@
           "research-methods",
           "aesthetic-analysis"
         ],
-        "centrality": 22
+        "centrality": 24
       },
       {
         "id": "data-structure-intermediate-stage",
@@ -6016,7 +6179,7 @@
           "research-methods",
           "aesthetic-analysis"
         ],
-        "centrality": 21
+        "centrality": 23
       },
       {
         "id": "methodology-evaluation-and-validity",
@@ -6061,7 +6224,7 @@
           "video-index-system",
           "how-to-stop-chatgpt-from-lying-video"
         ],
-        "centrality": 39
+        "centrality": 40
       },
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -6076,7 +6239,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 57
+        "centrality": 58
       },
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -6175,7 +6338,7 @@
           "structural-legibility",
           "discovery-systems-map"
         ],
-        "centrality": 19
+        "centrality": 21
       },
       {
         "id": "seo-visibility-structural-legibility",
@@ -6186,7 +6349,7 @@
           "structural-legibility",
           "discovery-systems-map"
         ],
-        "centrality": 14
+        "centrality": 15
       },
       {
         "id": "visibility-under-hostile-conditions",
@@ -6197,10 +6360,217 @@
           "hostile-visibility",
           "discovery-systems-map"
         ],
-        "centrality": 12
+        "centrality": 13
       }
     ],
     "edges": [
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "tiktok-zombie-survival-series",
+        "weight": 3,
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "how-to-stop-chatgpt-from-lying",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "ai-zombie-survival-why-fortresses-fail",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "ai-visibility-is-not-value",
+        "weight": 1,
+        "tags": [
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "adversarial-questioning-chatgpt-zombie-survival",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "google-maps-review-mining-unmet-demand",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "weight": 2,
+        "tags": [
+          "video-index-system",
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "from-seo-keywords-to-the-haunted-machine",
+        "weight": 2,
+        "tags": [
+          "video-index-system",
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "how-search-and-recommendation-systems-actually-work",
+        "weight": 1,
+        "tags": [
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "semantic-seo-is-graph-positioning",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "python-nlp-semantic-seo",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "weight": 3,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "sda3-tldr",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "research-pipeline",
+        "weight": 4,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "who-benefits-most-from-this-system",
+        "weight": 1,
+        "tags": [
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "clustered-output-instagram-dataset",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "data-structure-intermediate-stage",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "youtube-video-index",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 1,
+        "tags": [
+          "video-index-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "semantic-seo-begins-before-optimisation",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "seo-visibility-structural-legibility",
+        "weight": 1,
+        "tags": [
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "visibility-under-hostile-conditions",
+        "weight": 1,
+        "tags": [
+          "search-and-discovery-systems"
+        ]
+      },
       {
         "source": "tiktok-zombie-survival-series",
         "target": "how-to-stop-chatgpt-from-lying",
