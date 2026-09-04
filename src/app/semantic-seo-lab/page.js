@@ -364,8 +364,9 @@ function PartCAnalyticsSnapshot() {
                     After the lab appeared, impressions for the same query
                     cluster increased sharply, exposure shifted from{" "}
                     <code>semantic seo python</code> to the specific{" "}
-                    <code>how to use...</code> query before returning back to the
-                    broader <code>semantic seo python</code>, and the lab page
+                    <code>how to use python for nlp and semantic seo</code> query
+                    before returning back to the broader{" "}
+                    <code>semantic seo python</code>, and the lab page
                     became the preferred landing page with meaningful visibility
                     around page two. Total site impressions increased,
                     indicating that the lab expanded visibility rather than
@@ -454,8 +455,8 @@ function PartCAnalyticsSnapshot() {
                         &quot;Cycling&quot; here means Google reallocating exposure
                         between candidate query formulations, not necessarily a
                         recurring periodic cycle. The handoff from{" "}
-                        <code>how to use...</code> toward{" "}
-                        <code>semantic seo python</code> supports this
+                        <code>how to use python for nlp and semantic seo</code>{" "}
+                        toward <code>semantic seo python</code> supports this
                         interpretation.
                     </li>
                     <li>
@@ -465,8 +466,9 @@ function PartCAnalyticsSnapshot() {
                         <code>python for semantic seo</code>{" "}around position 11.
                         The lab&apos;s aggregate meaningful exposure therefore
                         consolidated around page two, even though{" "}
-                        <code>how to use...</code> later weakened toward position
-                        27 as impressions for the other associated search terms
+                        <code>how to use python for nlp and semantic seo</code>{" "}
+                        later weakened toward position 27 as impressions for the
+                        other associated search terms
                         increased.
                     </li>
                     <li>
@@ -618,11 +620,21 @@ function PartCAnalyticsSnapshot() {
                     </li>
                 </ul>
                 <p>
-                    The strongest current interpretation is therefore a progression
-                    from initial consolidation to later differentiation. This is
-                    consistent with the two pages strengthening the same semantic
-                    cluster while serving different query formulations; it does not
-                    prove a specific internal Google testing process.
+                    <strong>Methodological conclusion:</strong>{" "}
+                    The research process was directionally successful. It identified
+                    a coherent semantic-SEO query cluster and supported a content
+                    structure that Google could distinguish by intent: the lab became
+                    the stronger conceptual destination for{" "}
+                    <code>semantic seo python</code>, while the practical reference
+                    became stronger for the procedural{" "}
+                    <code>how to use python for nlp and semantic seo</code> query.
+                    Because both pages and total site impressions increased, the
+                    outcome is better described as incremental visibility with
+                    query-page specialisation than cannibalisation. This validates
+                    the methodology for improving semantic association and search
+                    architecture, but not yet for engagement or user value: no clicks
+                    were recorded, and the observational data cannot establish
+                    causality or reveal Google&apos;s internal ranking process.
                 </p>
             </section>
         </>
