@@ -46,6 +46,16 @@
     margin-bottom: 1.25rem;
 }
 
+
+.art-article__outline-shell {
+    gap: 1rem;
+}
+
+.art-article__container--outline {
+    margin-left: 0;
+    margin-right: auto;
+}
+
 /* ========================================= */
 /* TYPOGRAPHY */
 /* ========================================= */

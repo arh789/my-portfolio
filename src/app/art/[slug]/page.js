@@ -7,8 +7,32 @@ import {
     findArticleProjectMemberships,
 } from "../lib/projectData.js";
 import "../art.css";
+import labStyles from "../../semantic-seo-lab/semanticSeoLab.module.css";
 
 const SITE_URL = "https://decrepitfilth.art";
+
+
+function ArticleSidebar({ outline }) {
+    return (
+        <aside className={labStyles.sidebar} aria-label="Article outline">
+            <div className={labStyles.sidebarInner}>
+                <p className={labStyles.sidebarEyebrow}>Article outline</p>
+                <nav className={labStyles.sidebarNav}>
+                    {outline.map((heading) => (
+                        <a
+                            className={labStyles.sidebarLink}
+                            data-level={heading.level}
+                            href={`#${heading.id}`}
+                            key={heading.id}
+                        >
+                            {heading.text}
+                        </a>
+                    ))}
+                </nav>
+            </div>
+        </aside>
+    );
+}
 
 function safeJsonLd(value) {
     return JSON.stringify(value).replace(/</g, "\\u003c");
@@ -56,6 +80,8 @@ export default async function ArticlePage({ params }) {
     const projects = buildProjectIndex(articles);
     const memberships = findArticleProjectMemberships(projects, article.slug);
     const primaryProject = memberships[0]?.project ?? null;
+    const articleOutline = article.outline ?? [];
+    const articleContent = article.content;
     const articleUrl = `${SITE_URL}/art/${article.slug}`;
     const projectUrl = primaryProject
         ? `${SITE_URL}/art/project/${primaryProject.slug}`
@@ -118,48 +144,96 @@ export default async function ArticlePage({ params }) {
                 type="application/ld+json"
             />
 
-            <div className="art-article__container">
-                <nav className="art-article-page__nav">
-                    <Link href="/art">Back to Art</Link>
-                </nav>
+            {articleOutline.length > 0 ? (
+                <div className={`${labStyles.shell} art-article__outline-shell`}>
+                    <ArticleSidebar outline={articleOutline} />
+                    <div className="art-article__container art-article__container--outline">
+                        <nav className="art-article-page__nav">
+                            <Link href="/art">Back to Art</Link>
+                        </nav>
 
-                <article className="art-article__content-wrap">
-                    <header className="art-article__header">
-                        <h1 className="art-article__title">{article.title}</h1>
+                        <article className="art-article__content-wrap">
+                            <header className="art-article__header">
+                                <h1 className="art-article__title">{article.title}</h1>
 
-                        {article.date ? (
-                            <p className="art-article__date">
-                                <time dateTime={article.date}>{article.date}</time>
-                            </p>
-                        ) : null}
+                                {article.date ? (
+                                    <p className="art-article__date">
+                                        <time dateTime={article.date}>{article.date}</time>
+                                    </p>
+                                ) : null}
 
-                        {article.description ? (
-                            <p className="art-article__description">{article.description}</p>
-                        ) : null}
+                                {article.description ? (
+                                    <p className="art-article__description">{article.description}</p>
+                                ) : null}
 
-                        {article.tags.length > 0 ? (
-                            <div className="art-article__tags">
-                                {article.tags.map((tag) => (
-                                    <Link
-                                        key={tag}
-                                        href={`/art/tag/${tag}`}
-                                        className="art-article__tag"
-                                    >
-                                        {tag}
-                                    </Link>
-                                ))}
-                            </div>
-                        ) : null}
-                    </header>
+                                {article.tags.length > 0 ? (
+                                    <div className="art-article__tags">
+                                        {article.tags.map((tag) => (
+                                            <Link
+                                                key={tag}
+                                                href={`/art/tag/${tag}`}
+                                                className="art-article__tag"
+                                            >
+                                                {tag}
+                                            </Link>
+                                        ))}
+                                    </div>
+                                ) : null}
+                            </header>
 
-                    <ProjectPathway memberships={memberships} />
+                            <ProjectPathway memberships={memberships} />
 
-                    <div
-                        className="art-article__content"
-                        dangerouslySetInnerHTML={{ __html: article.content }}
-                    />
-                </article>
-            </div>
+                            <div
+                                className="art-article__content"
+                                dangerouslySetInnerHTML={{ __html: articleContent }}
+                            />
+                        </article>
+                    </div>
+                </div>
+            ) : (
+                <div className="art-article__container">
+                    <nav className="art-article-page__nav">
+                        <Link href="/art">Back to Art</Link>
+                    </nav>
+
+                    <article className="art-article__content-wrap">
+                        <header className="art-article__header">
+                            <h1 className="art-article__title">{article.title}</h1>
+
+                            {article.date ? (
+                                <p className="art-article__date">
+                                    <time dateTime={article.date}>{article.date}</time>
+                                </p>
+                            ) : null}
+
+                            {article.description ? (
+                                <p className="art-article__description">{article.description}</p>
+                            ) : null}
+
+                            {article.tags.length > 0 ? (
+                                <div className="art-article__tags">
+                                    {article.tags.map((tag) => (
+                                        <Link
+                                            key={tag}
+                                            href={`/art/tag/${tag}`}
+                                            className="art-article__tag"
+                                        >
+                                            {tag}
+                                        </Link>
+                                    ))}
+                                </div>
+                            ) : null}
+                        </header>
+
+                        <ProjectPathway memberships={memberships} />
+
+                        <div
+                            className="art-article__content"
+                            dangerouslySetInnerHTML={{ __html: article.content }}
+                        />
+                    </article>
+                </div>
+            )}
         </main>
     );
 }

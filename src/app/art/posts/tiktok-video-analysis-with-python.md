@@ -1,6 +1,7 @@
-﻿---
+---
 title: "TikTok Trend Analysis With Python: A Story About CreepyTok"
 description: "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts."
+showOutline: true
 date: "2026-09-04"
 tags:
   - tiktok

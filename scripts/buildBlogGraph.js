@@ -27,7 +27,7 @@ const tagCentrality = buildTagCentrality(tagIndex);
 
 const output = {
   generatedAt: new Date().toISOString(),
-  articles: articles.map(({ content, ...article }) => article),
+  articles: articles.map(({ content, outline, ...article }) => article),
   tagIndex,
   tagCentrality,
   projects,

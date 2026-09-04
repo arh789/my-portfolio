@@ -56,6 +56,60 @@ function normaliseProjects(data) {
     return [...memberships.values()];
 }
 
+function stripHeadingMarkdown(value) {
+    return value
+        .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")
+        .replace(/[`*_~]/g, "")
+        .trim();
+}
+
+function extractArticleHeadings(markdown) {
+    const headings = [];
+    const usedSlugs = new Map();
+    let inCodeFence = false;
+
+    for (const line of markdown.split(/\r?\n/)) {
+        if (/^\s*(```|~~~)/.test(line)) {
+            inCodeFence = !inCodeFence;
+            continue;
+        }
+
+        if (inCodeFence) continue;
+
+        const match = line.match(/^(#{2,3})\s+(.+?)\s*#*\s*$/);
+
+        if (!match) continue;
+
+        const text = stripHeadingMarkdown(match[2]);
+        const baseId = slugify(text);
+        const priorUses = usedSlugs.get(baseId) ?? 0;
+        const id = priorUses ? `${baseId}-${priorUses + 1}` : baseId;
+
+        usedSlugs.set(baseId, priorUses + 1);
+
+        headings.push({
+            id,
+            level: match[1].length - 1,
+            text,
+        });
+    }
+
+    return headings;
+}
+
+function addHeadingIds(htmlContent, headings) {
+    let headingIndex = 0;
+
+    return htmlContent.replace(/<h([23])>(.*?)<\/h\1>/g, (match, level, text) => {
+        const heading = headings[headingIndex];
+        headingIndex += 1;
+
+        if (!heading) return match;
+
+        return `<h${level} id="${heading.id}">${text}</h${level}>`;
+    });
+}
+
 export async function readArticles() {
     const filenames = fs
         .readdirSync(POSTS_DIR)
@@ -70,7 +124,11 @@ export async function readArticles() {
 
             const slug = data.slug ? slugify(data.slug) : slugify(filename);
 
-            const parsedContent = await parseMarkdown(rawContent);
+            const headings = extractArticleHeadings(rawContent);
+            const parsedContent = addHeadingIds(
+                await parseMarkdown(rawContent),
+                headings
+            );
 
             return {
                 slug,
@@ -83,6 +141,7 @@ export async function readArticles() {
                 type: data.type ? slugify(String(data.type)) : "article",
                 projects: normaliseProjects(data),
                 medium: data.medium ? slugify(String(data.medium)) : "article",
+                outline: data.showOutline ? headings : [],
                 content: parsedContent,
             };
         })

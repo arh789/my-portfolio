@@ -1,6 +1,7 @@
 ---
 title: "Python for NLP and Semantic SEO: A Practical Reference"
 description: "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research."
+showOutline: true
 date: "2026-05-31"
 projects:
   - slug: semantic-seo-graph-positioning
