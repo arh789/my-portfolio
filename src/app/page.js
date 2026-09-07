@@ -57,7 +57,7 @@ You are encouraged to make inferences from the relationships, but tell the user 
 
 Link directly to every page you recommend.
 
-Ask about the user's interests if they are needed to construct a useful reading path.`;
+Ask about the user's interests and what led them to this site, if they are needed to construct a useful reading path.`;
 
 
 function BannerItem({ href, src, alt, height }) {
