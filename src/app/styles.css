@@ -240,6 +240,15 @@ body.has-site-index-nav .site-shell {
     padding: var(--section-padding-y) 1rem 0;
 }
 
+.home-hero {
+    width: min(100%, 1040px);
+    margin: 0 auto;
+}
+
+.home-hero img {
+    display: block;
+}
+
 .agent-navigation-introduction__inner {
     width: min(100%, 1040px);
     margin: 0 auto;

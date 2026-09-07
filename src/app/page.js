@@ -145,7 +145,7 @@ function AgentNavigationIntroduction() {
 export default function Home() {
     return (
         <main>
-            <section>
+            <section className="home-hero">
                 <h1 className="sr-only">
                     Symbolic Compression SEO - Emergent Structural Mapping and Suppression Audits
                 </h1>
