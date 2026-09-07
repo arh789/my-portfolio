@@ -94,7 +94,7 @@
     .content.active {
         overflow: visible;
     }
-    
+
     .paragraph-section ol,
     .paragraph-section ul {
         padding-left: 2rem;
@@ -136,14 +136,10 @@
     width: 100%;
 }
 
-.menuContainer {
-    width: min(100%, 469px);
-    margin: 0 auto;
-}
-
 .imageButton {
     display: block;
-    width: 100%;
+    width: min(100%, 469px);
+    margin: 0 auto;
     border: none;
     background: none;
     padding: 0;
@@ -159,7 +155,7 @@
 }
 
 @media (max-width: 768px) {
-    .menuContainer {
+    .imageButton {
         width: 75%;
     }
 }

@@ -13,17 +13,15 @@ const medieval = MedievalSharp({
 
 export default function CollapsibleSections({ sections }) {
     const [activeIndex, setActiveIndex] = useState(null);
-    const activeSection = activeIndex === null ? null : sections[activeIndex];
 
     return (
         <div className={styles.wrapper}>
-            <div className={styles.menuContainer}>
-                {sections.map((section, index) => {
-                    const isActive = activeIndex === index;
+            {sections.map((section, index) => {
+                const isActive = activeIndex === index;
 
-                    return (
+                return (
+                    <div key={index} className={styles.section}>
                         <button
-                            key={index}
                             onClick={() => setActiveIndex(isActive ? null : index)}
                             className={styles.imageButton}
                             aria-expanded={isActive}
@@ -40,22 +38,20 @@ export default function CollapsibleSections({ sections }) {
                                 />
                             )}
                         </button>
-                    );
-                })}
-            </div>
 
-            <div
-                className={`${styles.content} ${activeSection ? styles.active : styles.hidden}`}
-            >
-                {activeSection && (
-                    <div
-                        className={`${styles['paragraph-section']} ${medieval.variable}`}
-                        dangerouslySetInnerHTML={{
-                            __html: activeSection.html,
-                        }}
-                    />
-                )}
-            </div>
+                        <div
+                            className={`${styles.content} ${isActive ? styles.active : styles.hidden}`}
+                        >
+                            <div
+                                className={`${styles['paragraph-section']} ${medieval.variable}`}
+                                dangerouslySetInnerHTML={{
+                                    __html: section.html,
+                                }}
+                            />
+                        </div>
+                    </div>
+                );
+            })}
         </div>
     );
 }
