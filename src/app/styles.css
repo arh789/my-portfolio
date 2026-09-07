@@ -237,7 +237,7 @@ body.has-site-index-nav .site-shell {
 
 .agent-navigation-introduction {
     width: 100%;
-    padding: clamp(1.5rem, 4vw, 3rem) 1rem 0;
+    padding: var(--section-padding-y) 1rem 0;
 }
 
 .agent-navigation-introduction__inner {
@@ -330,7 +330,7 @@ body.has-site-index-nav .site-shell {
 
 @media (max-width: 560px) {
     .agent-navigation-introduction {
-        padding-inline: 0.65rem;
+        padding: 1px 0.65rem 0;
     }
 
     .agent-navigation-introduction__inner {
