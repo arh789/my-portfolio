@@ -143,6 +143,8 @@ The video shows how search results can be turned into a semantic network, then a
 
 {{ youtube id="9UeCmC79z3I" title="From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System" }}
 
+**Related post:** [From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System](https://decrepitfilth.art/art/from-seo-keywords-to-the-haunted-machine)
+
 ---
 
 ## AI SEO Strategy: Why Your Creative Work Is Invisible
@@ -158,3 +160,5 @@ As AI systems become better at summarising common information, generic content b
 In this video I outline a research methodology designed to find those structures.
 
 {{ youtube id="DHU3EJnyg9o" title="AI SEO Strategy: Why Your Creative Work Is Invisible" }}
+
+**Related post:** [AI SEO Strategy: Why Your Creative Work Is Invisible](https://decrepitfilth.art/art/ai-seo-strategy-why-your-creative-work-is-invisible)
