@@ -117,7 +117,7 @@ Google results
 
 ## State 3 — The early category-based interpretation
 
-An early model response used the [clustered Instagram dataset](/art/clustered-output-instagram-dataset) alongside SEO outputs to recommend artistic forms such as macabre surrealism, gothic portraiture, mixed media, candy horror and cinematic concept art.
+An early model response used a [model-generated analysis of clustered Instagram data](/art/clustered-output-instagram-dataset) alongside SEO outputs to recommend artistic forms such as macabre surrealism, gothic portraiture, mixed media, candy horror and cinematic concept art.
 
 That response is preserved in [Art Forms with High Audience Resonance](/art/art-forms-with-high-audience-resonance).
 

@@ -1,6 +1,6 @@
 ---
-title: Clustered Output (Dataset)
-description: This post contains the structured cluster data derived from Instagram image analysis. It is presented in full without interpretation.
+title: "Clustered Instagram Output: Model-Generated Symbolic Compression"
+description: This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.
 date: 2026-04-24
 projects:
   - slug: seer-clown-research
@@ -17,12 +17,62 @@ tags:
 
 ## Context
 
-This post contains the structured cluster data derived from Instagram image analysis, used as one evidence layer in a broader [Python-based semantic SEO and clustering workflow](/code).
+This page preserves an early model-generated interpretation of nine clusters derived from Instagram image-analysis data. It is an intermediate analytical record, not the raw dataset and not evidence that any aesthetic category produced audience response.
 
-It is presented in full without interpretation so the underlying dataset remains visible before it is developed into the site’s [content strategy](/content-strategy).
+The cluster memberships and terms were supplied to the model. The model then compressed them into symbolic roles, tensions, failure modes, leverage points and possible hybrids. That output later became evidence for the site's [content strategy](/content-strategy), its [Python-based semantic SEO and clustering workflow](/code), and the revised analysis documented in [From SEO Keywords to the Haunted Machine](/art/from-seo-keywords-to-the-haunted-machine).
+
+## Data lineage and epistemic status
+
+```text
+Instagram-derived image-analysis inputs
+→ upstream cluster membership and terms
+→ model-generated symbolic compression
+→ category-based creative recommendations
+→ later network interrogation
+```
+
+- **Preserved evidence:** the supplied clusters and their associated terms.
+- **Model interpretation:** the assigned cores, peripheries, satellites, tensions, failure modes, leverage points, hybrids and descriptions.
+- **Not measured here:** audience response, engagement, future performance, causal relationships or objective importance.
+- **Not preserved on this page:** the upstream sample size, collection period and clustering parameters.
+
+## Cluster index
+
+| Cluster | Model-assigned label | Supplied core terms |
+|---:|---|---|
+| 0 | Hybrid AI Tattoo Horror System | darkart, horrorart, tattoo, aiart, digitalart |
+| 1 | Gothic Horror Identity Cluster | darkart, darkartist, horrorart, darkaesthetic, gothic |
+| 2 | Cross-Cultural Dark Art System | darkart, gothic, illustration, art, artist |
+| 3 | Tattoo Metal Horror System | art, dark, tattoo, horrorart |
+| 4 | Dark Tattoo Aesthetic Core | darkart, tattoo, darkaesthetic, blackwork |
+| 5 | Dark Fantasy Symbolic System | darkart, art, artist, dark, artwork |
+| 6 | Tattoo Practice Convergence System | darkart, tattoo, artist, blackwork, tattooartist |
+| 7 | Realism Tattoo Subculture Network | tattoo, tattooartist, blackandgreytattoo, ink |
+| 8 | Cultural Symbolic Tattoo System | tattooartist, tattooideas, artist |
+
+## Interpretation schema
+
+| Label | Meaning within this model-generated record |
+|---|---|
+| C | Core identity or central terms |
+| P | Peripheral terms extending the core |
+| S | Satellites, exclusions or drift |
+| A | Amplifiers |
+| SL | Symbolic lenses or supportive lattice |
+| Medium | Production medium or modality |
+| Tone | Affective or genre tone |
+| Symbology | Recurring symbolic vocabulary |
+| F | Failure modes |
+| L | Leverage points |
+| H | Hybrid or expansion paths |
+| I | Interlocks, tensions or stabilising relations |
+| LF | Fractures or long-term instability |
+
+These labels are model-generated interpretive devices. They are not native clustering outputs or standard network metrics.
+
+## Preserved cluster records
 
 ---
-
 ## Cluster 0 — Hybrid AI Tattoo Horror System
 
 Source: symbolic_compression from cluster_0
