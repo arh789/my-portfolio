@@ -25,7 +25,9 @@ tags:
 
 ### Analysing Embedding Space Structure in Large Language Models
 
-SDA-3 is a structured analytical protocol designed to infer the topology of an LLM’s semantic embedding space through observable behaviour. It does not access internal weights or training data; instead, it reconstructs the model’s latent structure by examining how meaning is stabilised, suppressed, and related during generation. The protocol translates implicit semantic dynamics into a reproducible framework, allowing hidden structure to be analysed without requiring direct visibility into the system itself.
+SDA-3 treats an observable response as a prompt-conditioned projection influenced by the model’s learned embedding and representational structure. It constructs a response-local topology for interrogation; it does not claim to measure the model’s embedding space directly.
+
+Technical terms such as *semantic gravity*, *suppression* and *embedding-space topology* function as deliberate semantic probes. They activate and organise relevant associations in the model’s response. Their usefulness is measured by the behavioural structure they expose or produce, not by assuming they literally name internal mechanisms.
 
 ## Operational Framing
 

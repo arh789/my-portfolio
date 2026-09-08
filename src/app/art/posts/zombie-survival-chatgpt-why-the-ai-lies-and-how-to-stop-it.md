@@ -456,7 +456,7 @@ Choke points reduced numerical advantage, controlled engagement width, required 
 
 **Human intervention**
 
-The researcher challenged ChatGPT's firearm-and-blade combinations, strengthened crossbows and tool-weapons as awkward compromises that reopened firearm dependency.
+The researcher challenged ChatGPT's firearm-and-blade combinations as awkward compromises that reopened firearm dependency, and strengthened the case for crossbows and tool-weapons.
 
 **Status:** Choke points retained and strengthened. Hybrid weapons remained provisional.
 
