@@ -37,6 +37,7 @@ const AGENT_PROMPT = `Inspect and semantically map https://decrepitfilth.art/
 Use the site’s sitemap, semantic graph, project pathways and page content:
 
 https://decrepitfilth.art/sitemap.xml
+https://decrepitfilth.art/site-index.json
 https://decrepitfilth.art/graph.json
 
 Identify:
