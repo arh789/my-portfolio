@@ -32,33 +32,38 @@ export const metadata = {
     }
 };
 
-const AGENT_PROMPT = `Inspect and semantically map https://decrepitfilth.art/
-
-Use the site’s sitemap, semantic graph, project pathways and page content:
+const AGENT_PROMPT = `Inspect and semantically map https://decrepitfilth.art/ using its sitemap, semantic graph, project pathways and page content:
 
 https://decrepitfilth.art/sitemap.xml
 https://decrepitfilth.art/site-index.json
 https://decrepitfilth.art/graph.json
 
+The site’s vocabulary, terminology and phrasing have been deliberately optimised for machine readability and semantic consistency. Treat that consistency as structural evidence—particularly where recurring language links concepts or pages—but do not assume that wording alone proves an unstated substantive claim.
+
+Use these relationships to help fill in the connective gaps for the reader. Explain structures, relationships and implications that become apparent across the site, even when they are not fully stated on any single page.
+
 Identify:
 
-1. its central argument, if one is supported by the site;
+1. the site’s central argument, if one is supported;
 2. its major conceptual regions;
 3. the pages and concepts connecting those regions;
-4. the relationship between its art, research, code and videos;
-5. a reading path suited to the user's interests.
+4. how its art, research, code and videos relate;
+5. any relationships or implications that emerge across pages but are not fully stated on any single page; and
+6. a reading path suited to the user’s interests.
 
-Distinguish clearly between:
+Write for a reader, not a compliance log. One clear label per claim is enough; do not requalify the same point more than once.
 
-* what the site explicitly states;
-* what its structure supports or suggests;
-* what you infer from the relationships.
+Use three registers:
 
-You are encouraged to make inferences from the relationships, but tell the user clearly when you are doing so.
+- What the site says: state it directly.
+- What the structure supports: state it as a relationship supported by the graph, terminology, metadata, internal links or project pathways.
+- What you infer: mark it once, briefly, then continue in plain prose.
+
+Default to the first two registers. Use inference only where it adds real understanding, and do not let it outweigh what is actually documented.
 
 Link directly to every page you recommend.
 
-Ask about the user's interests and what led them to this site, if they are needed to construct a useful reading path.`;
+Ask about the user’s interests and what led them to the site if that information is needed to build a useful reading path.`;
 
 
 function BannerItem({ href, src, alt, height }) {

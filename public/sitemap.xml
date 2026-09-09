@@ -4,6 +4,7 @@
 	<!-- Core pages -->
 	<url>
 		<loc>https://decrepitfilth.art/</loc>
+		<lastmod>2026-09-09</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>
@@ -193,6 +194,11 @@
 
 	<url>
 	<loc>https://decrepitfilth.art/art/how-to-stop-chatgpt-from-lying</loc>
+	</url>
+
+	<url>
+		<loc>https://decrepitfilth.art/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse</loc>
+		<lastmod>2026-07-31</lastmod>
 	</url>
 
 	<url>
