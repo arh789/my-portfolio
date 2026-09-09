@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { MedievalSharp } from 'next/font/google';
 import styles from '../datamining-llm/datamining-a-llm.module.css';
@@ -13,6 +13,20 @@ const medieval = MedievalSharp({
 
 export default function CollapsibleSections({ sections }) {
     const [activeIndex, setActiveIndex] = useState(null);
+    const contentRefs = useRef([]);
+
+    useEffect(() => {
+        if (activeIndex === null) return undefined;
+
+        const frame = requestAnimationFrame(() => {
+            contentRefs.current[activeIndex]?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        });
+
+        return () => cancelAnimationFrame(frame);
+    }, [activeIndex]);
 
     return (
         <div className={styles.wrapper}>
@@ -43,6 +57,9 @@ export default function CollapsibleSections({ sections }) {
                             className={`${styles.content} ${isActive ? styles.active : styles.hidden}`}
                         >
                             <div
+                                ref={(element) => {
+                                    contentRefs.current[index] = element;
+                                }}
                                 className={`${styles['paragraph-section']} ${medieval.variable}`}
                                 dangerouslySetInnerHTML={{
                                     __html: section.html,

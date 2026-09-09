@@ -1,4 +1,4 @@
-﻿## 06_FULL_THREAD_ARCHIVE_REFERENCE.md
+## 06_FULL_THREAD_ARCHIVE_REFERENCE.md
 
 ## Full System Archive: Symbolic Compression and Structural SEO Framework
 
@@ -59,8 +59,8 @@ Each cluster includes:
 - Integrated structural logic map  
 - Shows how clusters relate, mutate, or invert one another
 
-### 6. **Suppression Audit**
-- Identifies platform-, culture-, and algorithm-based suppressions  
+### 6. **Underrepresentation Audit**
+- Records platform-, culture-, and algorithm-related patterns of underrepresentation  
 - Tracks what topics or expressions fail to surface and why
 
 ### 7. **Unified Symbolic Payload**
@@ -82,9 +82,9 @@ Each cluster includes:
 
 ---
 
-## 🔍 SEO Keywords Embedded
+## 🔍 Concepts Covered
 
-`symbolic archive`, `SEO content system`, `semantic compression`, `content cluster mapping`, `aesthetic logic tree`, `algorithmic suppression`, `full content system archive`, `symbolic payload`, `generative content backup`, `recursive SEO framework`, `structural knowledge preservation`, `semantic cluster recombination`
+`symbolic archive`, `SEO content system`, `semantic compression`, `content cluster mapping`, `aesthetic logic tree`, `observed underrepresentation`, `full content system archive`, `symbolic payload`, `generative content backup`, `recursive SEO framework`, `structural knowledge preservation`, `semantic cluster recombination`
 
 ---
 

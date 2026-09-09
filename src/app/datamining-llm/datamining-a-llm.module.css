@@ -90,11 +90,6 @@
         font-size: 1.4rem;
         font-weight: bold;
     }
-
-    .content.active {
-        overflow: visible;
-    }
-
     .paragraph-section ol,
     .paragraph-section ul {
         padding-left: 2rem;
@@ -160,18 +155,17 @@
     }
 }
 .content {
-    transition: all 0.3s ease-in-out;
-    max-height: 0;
-    overflow: hidden;
+    display: none;
     padding: 0;
 }
 
 .active {
-    max-height: 5000px;
+    display: block;
+    max-height: none;
+    overflow: visible;
     padding: 1rem;
 }
 
 .hidden {
-    max-height: 0;
-    overflow: hidden;
+    display: none;
 }

@@ -1,4 +1,4 @@
-﻿## 03_SYMBOLIC_ENGINE_SCHEMA.md
+## 03_SYMBOLIC_ENGINE_SCHEMA.md
 
 ## The Symbolic Engine: Structuring Meaning, Aesthetic, and Message into Unique Content
 
@@ -94,7 +94,7 @@ Form:
 - 🔄 **Flip meaning** → Invert expectations to reframe message  
 - 🧠 **Break surface structure** → Expose what polished outputs conceal  
 - 🎨 **Blend aesthetic codes** → Combine styles in intentional tension  
-- 🗂️ **Classify hidden patterns** → Group outputs by internal structure, not just surface content
+- 🗂️ **Classify recurring patterns** → Group outputs by proposed relationships, not just surface content
 
 ---
 
@@ -103,7 +103,7 @@ Form:
 This engine deliberately resists automation collapse by using:
 
 - **Structural contradiction** to break repetition  
-- **Forced coherence failure** to reveal raw meaning  
+- **Forced coherence failure** to surface assumptions hidden by polished prose  
 - **Symbolic recursion** to evolve outputs over time
 
 No single artefact is static—each is **a node in a shifting symbolic system**.
@@ -150,9 +150,9 @@ The Symbolic Engine:
 
 ---
 
-## 🔍 SEO Keywords Embedded
+## 🔍 Concepts Covered
 
-`symbolic engine`, `content structure system`, `SEO content schema`, `compression-stable output`, `aesthetic strategy`, `narrative framing`, `LLM content generation`, `AI prompt structuring`, `content system architecture`, `recursive meaning`, `semantic inversion`, `visual strategy`, `originality preservation`, `symbolic compression`
+`symbolic engine`, `content structure system`, `SEO content schema`, `relationship-stable output`, `aesthetic strategy`, `narrative framing`, `LLM content generation`, `AI prompt structuring`, `content system architecture`, `recursive meaning`, `semantic inversion`, `visual strategy`, `originality preservation`, `symbolic compression`
 
 ---
 

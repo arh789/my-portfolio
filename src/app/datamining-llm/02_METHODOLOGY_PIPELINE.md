@@ -1,9 +1,9 @@
-﻿## 02_METHODOLOGY_PIPELINE.md
+## 02_METHODOLOGY_PIPELINE.md
 
 ## Emergent Structural Mapping (ESM) Pipeline: From Raw Inputs to SEO-Ready Content Systems
 
 This guide outlines how the **Emergent Structural Mapping (ESM)** framework is operationalised.  
-Each step transforms complex input—SEO data, AI outputs, symbolic references—into **compression-stable, structurally resilient content** optimised for search engines, generative models, and strategic rollout.
+Each step transforms complex input—SEO data, AI outputs, symbolic references—into content whose central relationships remain legible across reformulation, generative models, and strategic rollout.
 
 > 🎥 *The full pipeline is demonstrated step-by-step in the accompanying video.*
 
@@ -15,7 +15,7 @@ Each step transforms complex input—SEO data, AI outputs, symbolic references�
 - ✅ Build semantic relationships  
 - ✅ Compress structure under constraint  
 - ✅ Reconstruct meaning in symbolic form  
-- ✅ Output content ready for ranking, reuse, or strategic mutation
+- ✅ Output content ready for publication, reuse, comparison, or strategic mutation
 
 ---
 
@@ -25,7 +25,7 @@ Each step transforms complex input—SEO data, AI outputs, symbolic references�
 Trigger a **low-friction, unconstrained response** from a language model.
 
 ### 🔹 Why It Matters  
-Unshaped outputs reveal **default logic**, **biases**, and **suppressed pathways** before external structure is imposed.
+Unshaped outputs provide baseline evidence of **default associations**, **biases**, and **omitted or weakly represented pathways** before external structure is imposed.
 
 ---
 
@@ -48,21 +48,21 @@ Capture content in its **raw, uncompressed state**—prior to symbolic transform
 - Detect **emergent content clusters** via community detection algorithms
 
 ### 🔹 Output  
-A **relational map of meaning**—showing how concepts interact, suppress, or reinforce one another in your data.
+A **relational map of meaning**—showing how concepts co-occur, separate, or reinforce one another in the sampled data.
 
 ---
 
 ## 4. Emergent Structural Mapping
 
 ### 🔹 Techniques  
-- **Latent Projection:** Force-aligned structures into coherence  
+- **Provisional Projection:** Arrange observed relationships into a testable structure  
 - **Recursive Subsetting:** Shift analysis boundaries to reveal constraint logic  
-- **Suppression Detection:** Highlight gaps, hedges, and algorithmic omissions  
+- **Underrepresentation Check:** Highlight gaps, hedges, and recurring omissions  
 - **Structural Completion:** Fill voids using LLM coherence bias  
 - **Role Projection:** Treat entities as functional agents in a system
 
 ### 🔹 Goal  
-Reveal the **symbolic scaffolding** behind your content—allowing you to build structure-aware, platform-resilient assets.
+Construct a **provisional symbolic scaffold** from the observed content—allowing you to build structure-aware assets for later testing.
 
 ---
 
@@ -74,7 +74,7 @@ Reveal the **symbolic scaffolding** behind your content—allowing you to build 
 - **Necessity Audit:** Isolate structural vs rhetorical dependencies
 
 ### 🔹 Goal  
-Expose **what survives collapse**—the irreducible symbolic logic beneath generative content.
+Identify **what persists under reformulation** after assumptions and rhetorical scaffolding are challenged.
 
 ---
 
@@ -83,8 +83,8 @@ Expose **what survives collapse**—the irreducible symbolic logic beneath gener
 ### 🔹 Four-Part Interrogation  
 1. What remains under pressure?  
 2. What reappears after contradiction?  
-3. What was erased to maintain smooth output?  
-4. What generative force shaped what survived?
+3. What disappeared or became less represented during reformulation?  
+4. What constraints best explain what remained?
 
 ### 🔹 Goal  
 Refine content through **recursion, contradiction, and selective survivorship**—distilling structural integrity.
@@ -100,7 +100,7 @@ Refine content through **recursion, contradiction, and selective survivorship**�
 Each cycle **amplifies semantic clarity** and **removes derivative elements**—resulting in outputs that are:
 - Parseable by machines  
 - Structurally original  
-- Compression-stable for SEO/LLM environments
+- Central relationships remain legible across SEO/LLM reformulation
 
 ---
 
@@ -114,13 +114,13 @@ Each cycle **amplifies semantic clarity** and **removes derivative elements**—
 - Recursive **logic trees** for content series or strategy
 
 ### 🔹 Result  
-Each output is **rankable**, **resilient**, and **strategically expressive**—built from symbolic infrastructure, not surface imitation.
+Each output is **machine-readable**, **ready for testing**, and **strategically expressive**—built from symbolic infrastructure, not surface imitation.
 
 ---
 
-## SEO Keywords Embedded
+## Concepts Covered
 
-`semantic network`, `structured content pipeline`, `generative content strategy`, `symbolic compression`, `content recompression`, `SEO mapping`, `keyword clustering`, `content system design`, `LLM prompt structure`, `content collapse audit`, `suppressed meaning`, `machine-readable schema`, `algorithm-resistant SEO`
+`semantic network`, `structured content pipeline`, `generative content strategy`, `symbolic compression`, `content recompression`, `SEO mapping`, `keyword clustering`, `content system design`, `LLM prompt structure`, `content collapse audit`, `suppressed meaning`, `machine-readable schema`, `representation-aware SEO`
 
 ---
 
@@ -130,7 +130,7 @@ You now possess a repeatable method to:
 
 - Convert raw symbolic input into structurally mapped outputs  
 - Collapse generative noise into usable meaning  
-- Deploy outputs that rank, adapt, and persist
+- Deploy outputs that can be published, compared, measured, and revised
 
 This isn’t a prompt template. It’s a **recursive architecture for symbolic content systems**.
 
@@ -139,5 +139,5 @@ This isn’t a prompt template. It’s a **recursive architecture for symbolic c
 ## Next Step
 
 👉 Proceed to **03_SYMBOLIC_ENGINE_SCHEMA.md**  
-This next section explains how each symbolic component—visual tone, narrative frame, conceptual weight—is constructed and recombined to ensure original, compression-stable outputs across platforms.
+This next section explains how each symbolic component—visual tone, narrative frame, conceptual weight—is constructed and recombined to ensure original outputs whose central relationships remain legible across platforms.
 

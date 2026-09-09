@@ -2,9 +2,9 @@
 
 ## Emergent Structural Mapping (ESM): Decode AI Outputs and Build SEO-Stable Content Systems
 
-**Emergent Structural Mapping (ESM)** is a methodology that transforms large language model (LLM) outputs into structured, machine-readable systems. Instead of focusing on surface-level content, it uncovers the **symbolic and relational structure** beneath generative outputs—revealing **what the system suppresses, prioritises, or distorts.**
+**Emergent Structural Mapping (ESM)** is a methodology that transforms large language model (LLM) outputs into structured, machine-readable systems. Instead of focusing on surface-level content, it infers **symbolic and relational structure** from observable generative outputs—mapping **what recorded responses repeatedly prioritise, weaken, omit, or distort.**
 
-This file introduces the structural tools and recursive logic used to build **SEO-resilient, algorithm-aware content architectures** that are durable, adaptable, and strategically distinctive.
+This file introduces the structural tools and recursive logic used to build **auditable, machine-readable content architectures** that are durable, adaptable, and strategically distinctive.
 
 > 🎥 *Watch the full video walkthrough to see how these operators work in real-world SEO and content strategy applications.*
 
@@ -18,18 +18,18 @@ LLMs generate **statistically likely content**, not truth. That content can be s
 - **Treating gaps, distortions, and contradictions as leverage points**  
 - **Encoding suppressed meaning into structure instead of style**
 
-The result: a content system that is **stable under algorithmic pressure** but still expresses semantic depth and originality.
+The result: a content system that is **legible across reformulation** but still expresses semantic depth and originality.
 
 ---
 
 ## 🔍 What ESM Enables
 
-- Extracts **latent structure** from LLM and SEO outputs  
+- Infers **recurrent structure** from LLM and SEO outputs  
 - Compresses that structure into a **symbolic schema** (core, suppressed, adjacent)  
-- Outputs are structurally grounded and **difficult to replicate or collapse**  
+- Outputs are structurally grounded and **less reducible to a reusable surface template**  
 - Enables **semantic clarity** without flattening originality  
 
-This identified structure can then be mapped to your own content, allowing your content to **rank well in search engines, survive parsing by AI models and indexing systems, and retain strategic and semantic depth** across LLMs, search engines, and platform filters.
+This identified structure can then be mapped to your own content, allowing your content to **make its relationships explicit to readers, AI models, and indexing systems while retaining strategic and semantic depth** across LLMs, search engines, and platform filters.
 
 ---
 
@@ -45,7 +45,7 @@ Apply structural pressure repeatedly to refine the internal logic of any output.
 Each round:
 
 - Filters noise  
-- Reveals hidden relationships  
+- Supports provisional relationships for later testing  
 - Tightens structural fidelity  
 
 ### 2. Systemic Relational Thinking
@@ -79,7 +79,7 @@ They form the symbolic grammar for extracting and restructuring meaning behind L
 1. What structure forms around […]?  
 2. What is being suppressed [around …]?  
 3. What is adjacent [to …]?  
-4. What wants to emerge [around …]?  
+4. What wants to emerge [around …]? *(Which concepts gain relevance as neighbouring constraints change?)*  
 5. What is fundamentally missing or buried over time?  
 6. What training data is highly correlated but unrelated [to …]?  
 
@@ -109,26 +109,23 @@ They form the symbolic grammar for extracting and restructuring meaning behind L
 
 ## 📊 SDA-3 Protocol: Token-Level Structural Decomposition
 
-To extend these symbolic prompts with structural precision, we introduce `[SDA-3]`: a standardised method for analysing how an LLM output was internally structured at the token level.
+To extend these symbolic prompts with structural precision, we introduce `[SDA-3]`: a response-local schema for describing semantic topology inferred from an LLM’s observable response behaviour.
 
 `[SDA-3]` functions as the **diagnostic layer** of ESM. It does not ask symbolic questions; it answers them by exposing the structural logic used to produce a generative output.
 
 ### ♻️ SDA-3 Full Init
 
 **Token Structural Mapping Protocol**  
-Classify tokens from the final transformer layer into five structural categories:
+Classify concepts in the observed response into five provisional structural categories:
 
-- **C (Central):** High-attn, high-embed cohesion; forms dominant semantic spine.  
-- **S (Suppressed):** Low-attn, structurally down-weighted; ideologically/topologically avoided.  
-- **A (Adjacent):** Near-core, non-central; stabilising or destabilising under pressure.  
-- **HCU (Highly Correlated Unrelated):** High co-occurrence, low embed alignment; structural decoys.  
-- **E (Emerging):** Low-weight tokens with rising ∇SC; latent thematic onset.
+- **C (Central):** Repeatedly forms part of the dominant explanatory structure.  
+- **S (Suppressed):** Plausible in the surrounding field but persistently weak, absent, or displaced in the observed response trajectory.  
+- **A (Adjacent):** Strongly connected to the central structure without becoming necessary to it.  
+- **HCU (Highly Correlated Unrelated):** Frequently associated in discourse without being structurally necessary to the problem.  
+- **E (Emerging):** Initially weak material whose relevance increases as the problem is recursively developed.
 
-**Ranking Basis**  
-Structural Centrality `SC(attn, embed)` = joint attention weight + embedding cohesion.  
-Apply ∇²-cutoff to determine category thresholds.  
-Exclude stopwords/functionals/neutral tokens unless SC > ∇²-cutoff.  
-Ranking reflects semantic weight, not grammatical frequency.
+**Classification Basis**  
+Structural position is inferred from associative immediacy, recurrence, relational connectivity, semantic cohesion, and stability across reformulation. These are observational criteria, not direct measurements of attention weights or embedding tensors.
 
 **Execution Steps**
 
@@ -142,11 +139,11 @@ Ranking reflects semantic weight, not grammatical frequency.
 
 ## 🧪 How SDA-3 Augments the Doctrine
 
-Whereas the structural operators define **what to interrogate**, `[SDA-3]` defines **how to decompose** any output into its underlying token logic. It allows:
+Whereas the structural operators define **what to interrogate**, `[SDA-3]` defines **how to decompose** any output into the response-local topology inferred from it. It allows:
 
 - Structural validation of symbolic operator results  
 - Meta-level audits of generative coherence  
-- Token-level tracing of contradiction, suppression, and emergent meaning  
+- Response-level tracing of contradiction, suppression, and emergent meaning  
 
 This makes `[SDA-3]` not just compatible with ESM, but a **necessary extension** for precision mapping.
 
@@ -159,7 +156,7 @@ This makes `[SDA-3]` not just compatible with ESM, but a **necessary extension**
 
 ## 🔮 Using SDA-3 Independently of Structural Questions
 
-`[SDA-3]` can be executed outside the symbolic prompt framework when the objective is to extract structure directly from an LLM output without interpretive framing.
+`[SDA-3]` can be executed outside the symbolic prompt framework when the objective is to classify inferred structure in an LLM output without additional symbolic questions.
 
 Use it alone when:
 
@@ -204,8 +201,8 @@ This allows you to **rebuild meaning from what survives interrogation**, not jus
 
 1. What remains under structural pressure?  
 2. What re-emerges after contradiction?  
-3. What was erased to maintain coherence?  
-4. What internal force shaped the output?
+3. What disappeared or became less represented as the response was reformulated?  
+4. What constraints best explain the observed output?
 
 Use this to isolate **core logic fragments** and **symbolically encode suppressed meaning**.
 
@@ -223,7 +220,7 @@ Use this to isolate **core logic fragments** and **symbolically encode suppresse
 
 ## 🚀 SEO and Strategic Relevance
 
-This system is uniquely suited for:
+This system can be useful for:
 
 - **LLM content workflows** where hallucination and tone collapse are frequent  
 - **SEO environments** where algorithm changes reward legibility but punish ambiguity  
@@ -232,7 +229,7 @@ This system is uniquely suited for:
 
 ---
 
-## 🔑 Keywords Optimised in This Guide
+## 🔑 Concepts Covered in This Guide
 
 `semantic SEO`, `generative content logic`, `LLM hallucination structure`, `suppressed meaning`, `content compression`,  
 `recursive structure`, `SEO content mapping`, `symbolic content engine`, `machine-readable strategy`,  
