@@ -2,6 +2,12 @@
 
 Decrepit Filth is not primarily a portfolio, a blog, an SEO project, or an art archive. It is a self-describing semantic system that uses grotesque art as a difficult test domain for building, testing, and defending hidden structure across search, LLMs, content strategy, and representation.
 
+## Who This Is For
+
+This system is designed primarily for independent creators, niche publishers, research-led operators, and artists whose work is difficult for search and recommendation systems to classify. These users often lack inherited authority or distribution, so the method helps them compete through structural clarity rather than scale.
+
+See [Who This Semantic SEO System Is For—and Why](/art/who-benefits-most-from-this-system) for the complete audience and suitability map.
+
 
 1. Grotesque art is the difficult test domain.
 2. The archive exists as anti-flattening infrastructure.
@@ -54,6 +60,12 @@ symbolic proof
 
 
 That is the bridge between the artistic and technical sides.
+
+## Where the Method Is Demonstrated
+
+This is not only a conceptual description of the site. The [Semantic SEO Lab](/semantic-seo-lab) exposes the working Python implementation: search acquisition, semantic extraction, network construction, classical clustering methods, agent interpretation, human supervision, and subsequent Search Console measurement.
+
+The lab provides the practical evidence behind the About page's claim that the website operates as a recursive semantic system.
 
 
 ```text

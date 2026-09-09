@@ -51,6 +51,10 @@ body {
     overflow-x: hidden;
 }
 
+a:visited {
+    color: #d6b85a;
+}
+
 body.site-index-nav-open {
     overflow: hidden;
 }
