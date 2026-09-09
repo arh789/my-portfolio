@@ -13,8 +13,23 @@ const medieval = MedievalSharp({
 })
 
 export const metadata = {
-    title: 'Content Strategy | Recursive Systems & Symbolic Mapping',
-    description: 'Exploration of symbolic compression, emergent mapping, and recursive content structures.',
+    title: 'Data-Mining an LLM: Emergent Structural Mapping | DecrepitFilth.art',
+    description: 'A framework for analysing LLM outputs under generative pressure, identifying persistent semantic structures, and converting them into evidence-led content and SEO systems.',
+    keywords: [
+        'data mining large language models',
+        'emergent structural mapping',
+        'LLM output analysis',
+        'generative pressure',
+        'semantic structure analysis',
+        'symbolic compression',
+        'SDA-3',
+        'AI content research',
+        'semantic SEO',
+        'black-box model analysis',
+    ],
+    alternates: {
+        canonical: '/datamining-llm',
+    },
 }
 
 const sectionDefs = [
