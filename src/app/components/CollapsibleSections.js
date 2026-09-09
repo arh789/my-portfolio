@@ -1,26 +1,25 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
 import Image from 'next/image';
-import { MedievalSharp } from 'next/font/google';
-import styles from '../datamining-llm/datamining-a-llm.module.css';
-
-const medieval = MedievalSharp({
-    subsets: ['latin'],
-    weight: '400',
-    variable: '--font-medieval',
-});
+import styles from './CollapsibleSections.module.css';
+import proseStyles from './MarkdownContent.module.css';
 
 export default function CollapsibleSections({ sections }) {
     const [activeIndex, setActiveIndex] = useState(null);
     const contentRefs = useRef([]);
+    const accordionId = useId();
 
     useEffect(() => {
         if (activeIndex === null) return undefined;
 
         const frame = requestAnimationFrame(() => {
+            const prefersReducedMotion = window.matchMedia(
+                '(prefers-reduced-motion: reduce)'
+            ).matches;
+
             contentRefs.current[activeIndex]?.scrollIntoView({
-                behavior: 'smooth',
+                behavior: prefersReducedMotion ? 'auto' : 'smooth',
                 block: 'start',
             });
         });
@@ -32,41 +31,58 @@ export default function CollapsibleSections({ sections }) {
         <div className={styles.wrapper}>
             {sections.map((section, index) => {
                 const isActive = activeIndex === index;
+                const buttonId = `${accordionId}-button-${index}`;
+                const panelId = `${accordionId}-panel-${index}`;
 
                 return (
-                    <div key={index} className={styles.section}>
-                        <button
-                            onClick={() => setActiveIndex(isActive ? null : index)}
-                            className={styles.imageButton}
-                            aria-expanded={isActive}
-                        >
-                            {section.image && (
-                                <Image
-                                    src={section.image}
-                                    alt={section.title}
-                                    className={styles.banner}
-                                    width={877}
-                                    height={155}
-                                    sizes="(max-width: 768px) 75vw, 469px"
-                                    loading="lazy"
-                                />
-                            )}
-                        </button>
+                    <section key={section.title} className={styles.section}>
+                        <h2 className={styles.sectionHeading}>
+                            <button
+                                id={buttonId}
+                                type="button"
+                                onClick={() => setActiveIndex(isActive ? null : index)}
+                                className={styles.imageButton}
+                                aria-controls={panelId}
+                                aria-expanded={isActive}
+                            >
+                                {section.image && (
+                                    <Image
+                                        src={section.image}
+                                        alt=""
+                                        className={styles.banner}
+                                        width={877}
+                                        height={155}
+                                        sizes="(max-width: 768px) calc(100vw - 3rem), 469px"
+                                        loading="lazy"
+                                    />
+                                )}
+                                <span className={styles.titleRow}>
+                                    <span>{section.title}</span>
+                                    <span className={styles.indicator} aria-hidden="true">
+                                        {isActive ? '\u2212' : '+'}
+                                    </span>
+                                </span>
+                            </button>
+                        </h2>
 
                         <div
-                            className={`${styles.content} ${isActive ? styles.active : styles.hidden}`}
+                            id={panelId}
+                            role="region"
+                            aria-labelledby={buttonId}
+                            hidden={!isActive}
+                            className={styles.panel}
+                            ref={(element) => {
+                                contentRefs.current[index] = element;
+                            }}
                         >
                             <div
-                                ref={(element) => {
-                                    contentRefs.current[index] = element;
-                                }}
-                                className={`${styles['paragraph-section']} ${medieval.variable}`}
+                                className={proseStyles.prose}
                                 dangerouslySetInnerHTML={{
                                     __html: section.html,
                                 }}
                             />
                         </div>
-                    </div>
+                    </section>
                 );
             })}
         </div>

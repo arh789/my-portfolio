@@ -1,6 +1,4 @@
-# Data-Mining an LLM: Mapping What Survives Generative Pressure  
-
-## TL;DR
+### TL;DR
 
 One useful approach to SEO is system hygiene. A site can be treated as a low-entropy subgraph within the observable search environment—reducing redundant or ambiguous signals while introducing clearly defined entities and relationships. Canonical discipline, consistent schema, and explicit lifecycle management (301, 410, lastmod, ID stability) reduce crawl waste, accelerate indexing, and consolidate entity authority.
 
@@ -12,7 +10,7 @@ When a domain consistently supplies distinct information, interpretations, or re
 
 ---
 
-## Emergent Structural Mapping (ESM)
+### Emergent Structural Mapping (ESM)
 
 **Emergent Structural Mapping (ESM)** transforms optimisation into **graph maintenance rather than keyword manipulation**.  
 It measures **adjacency and suppression** to detect redundancy and opportunity, identifies **weakly represented or unresolved semantic territory**, and aligns site structure with patterns consistent with how search systems organise, consolidate, and retrieve information.
@@ -25,7 +23,7 @@ This reverses the usual SEO direction: rather than pushing keywords into the ind
 
 ---
 
-## Ranking Implications
+### Ranking Implications
 
 A working hypothesis is that durable search visibility depends partly on how clearly a domain contributes distinct entities and relationships, not only on surface keyword matching. Pages that:
 
@@ -39,7 +37,7 @@ Domains that generate redundant or ambiguous data increase entropy and therefore
 
 ---
 
-## Emergent Structural Mapping: A New SEO and AI Content Framework
+### Emergent Structural Mapping: A New SEO and AI Content Framework
 
 The basis of **Emergent Structural Mapping (ESM)** lies in mapping observable search results, then using deterministic analysis and LLM response behaviour to propose patterns of entities and relationships for human review. It does not directly inspect Google’s Knowledge Graph or an LLM’s hidden embedding and attention states.
 
@@ -58,7 +56,7 @@ It is a methodology that transforms complex, semantically rich ideas into **mach
 
 ---
 
-## Why Traditional SEO and AI Strategies Fail
+### Why Traditional SEO and AI Strategies Fail
 
 Most SEO or AI-generated content systems fall short because they rely on:
 
@@ -75,7 +73,7 @@ This leads to content that is:
 
 ---
 
-## Why Generative Content Lacks Trust
+### Why Generative Content Lacks Trust
 
 Large Language Models (LLMs) do not understand content; they simulate it. Their outputs are:
 
@@ -87,7 +85,7 @@ Yet this instability is usable. When structurally interrogated, these outputs **
 
 ---
 
-## What Emergent Structural Mapping (ESM) Does
+### What Emergent Structural Mapping (ESM) Does
 
 **ESM reframes generative outputs** not as answers, but as **structured artefacts**. It transforms raw original creative content into symbolic logic whose central relationships remain legible under summarisation or reformulation.
 
@@ -99,7 +97,7 @@ Yet this instability is usable. When structurally interrogated, these outputs **
 
 ---
 
-## Key Outcomes of Using ESM
+### Key Outcomes of Using ESM
 
 ✅ **Semantic Compression** — Converts abstract or volatile ideas into symbolic logic  
 ✅ **Structural Clarity** — Ensures outputs are parseable by search engines and generative models  
@@ -108,7 +106,7 @@ Yet this instability is usable. When structurally interrogated, these outputs **
 
 ---
 
-## When This Matters Most
+### When This Matters Most
 
 You need this method if you’re operating in environments defined by:
 
@@ -119,7 +117,7 @@ You need this method if you’re operating in environments defined by:
 
 ---
 
-## What This Method Is Not
+### What This Method Is Not
 
 - ❌ It is not a keyword checklist  
 - ❌ It is not a tone-of-voice guide  
@@ -129,13 +127,13 @@ It is a **compression framework**—a system that turns expressive, unstable, or
 
 ---
 
-## Concepts Covered
+### Concepts Covered
 
 `semantic SEO`, `generative content structure`, `AI content stability`, `compression-ready content`, `SEO cluster mapping`, `representation-aware strategy`, `symbolic SEO`, `hallucination compression`, `content architecture`, `search indexing logic`
 
 ---
 
-## Next Step
+### Next Step
 
 👉 Proceed to **01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md**  
 Learn how this system works structurally: including the symbolic grammar, suppression logic, and core operators used to interrogate and encode meaning.

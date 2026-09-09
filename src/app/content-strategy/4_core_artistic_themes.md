@@ -1,5 +1,3 @@
-﻿## Core Artistic Themes to Pursue (Based on Dataset)
-
 - **Clown as Seer & Truth-Teller**  
   - The fool who speaks hidden truths  
   - Grotesque laughter masking wisdom  

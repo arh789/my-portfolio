@@ -1,10 +1,8 @@
-﻿# The Role of the Clown: Transformation, Theatrical Horror, and Duality
-
 The clown functions as a thematic core, embodying transformation, distortion, and theatrical grotesquerie. It unifies key motifs—decay, masks, ritual, and horror in the passage of time—into a single visual and symbolic structure.
 
 ---
 
-## 1. The Clown as a Mask of Duality (Between Laughter and Horror, Joy and Terror)
+### 1. The Clown as a Mask of Duality (Between Laughter and Horror, Joy and Terror)
 
 - An unnatural exaggeration of the human face, ideal for distortion, ambiguity, and psychological unease.  
 - Represents contradiction—simultaneously inviting and repelling, familiar yet alien, oscillating between entertainer and nightmare.  
@@ -12,7 +10,7 @@ The clown functions as a thematic core, embodying transformation, distortion, an
 
 ---
 
-## 2. The Clown as an Expression of Theatrical Grotesquerie (Performance, Exaggeration, and Ritual)
+### 2. The Clown as an Expression of Theatrical Grotesquerie (Performance, Exaggeration, and Ritual)
 
 - Theatrical grotesquerie is defined by excess and distortion—qualities embodied by the clown.  
 - Clown makeup, as exaggerated emotion, becomes monstrous when decayed or malformed.  
@@ -25,7 +23,7 @@ The clown functions as a thematic core, embodying transformation, distortion, an
 
 ---
 
-## 3. The Clown as an Agent of Time and Decay (Aged Performance, Forgotten Spectacles)
+### 3. The Clown as an Agent of Time and Decay (Aged Performance, Forgotten Spectacles)
 
 - Clowns symbolise the remnants of obsolete entertainment.  
 - As decayed figures, they embody forgotten joy and abandoned spectacle.  
@@ -38,7 +36,7 @@ The clown functions as a thematic core, embodying transformation, distortion, an
 
 ---
 
-## 4. The Clown as a Liminal Entity (Neither Human nor Monster, Always Between States)
+### 4. The Clown as a Liminal Entity (Neither Human nor Monster, Always Between States)
 
 - Occupies a transitional state—between mask and face, humour and fear, performer and enigma.  
 - Embodies themes of transformation, concealment, and unstable identity.  
@@ -51,7 +49,7 @@ The clown functions as a thematic core, embodying transformation, distortion, an
 
 ---
 
-## 5. The Clown as a Vessel for Horror in the Passage of Time  
+### 5. The Clown as a Vessel for Horror in the Passage of Time
 *(Eternal Performance, Inescapable Identity)*
 
 - Exists solely as performance, unable to escape role or repetition.  
@@ -65,7 +63,7 @@ The clown functions as a thematic core, embodying transformation, distortion, an
 
 ---
 
-## Summary: The Clown as a Central Motif
+### Summary: The Clown as a Central Motif
 
 The clown functions as a unifying symbol across decay, horror, transformation, and theatricality. It embodies:
 

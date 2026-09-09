@@ -1,16 +1,9 @@
 import fs from 'fs'
 import path from 'path'
 import Image from 'next/image'
-import { MedievalSharp } from 'next/font/google'
 import CollapsibleSections from '../components/CollapsibleSections.js'
 import { parseMarkdown } from '../components/markdown.js'
-import styles from './datamining-a-llm.module.css'
-
-/* LOAD FONT (page-specific) */
-const medieval = MedievalSharp({
-    subsets: ['latin'],
-    weight: '400',
-})
+import pageStyles from '../components/CollapsiblePage.module.css'
 
 export const metadata = {
     title: 'Data-Mining an LLM: Emergent Structural Mapping | DecrepitFilth.art',
@@ -35,42 +28,42 @@ export const metadata = {
 const sectionDefs = [
     {
         file: '00_INTRODUCTION.md',
-        title: 'Synopsis & Execution Plan',
+        title: 'Introduction',
         image: '/images/datamining_a_llm_menu_images/00_INTRODUCTION.jpg',
     },
     {
         file: '01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md',
-        title: 'Defining a Niche',
+        title: 'Emergent Structural Mapping Doctrine',
         image: '/images/datamining_a_llm_menu_images/01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.jpg',
     },
     {
         file: '02_METHODOLOGY_PIPELINE.md',
-        title: 'Specialised Niche Directions',
+        title: 'Methodology Pipeline',
         image: '/images/datamining_a_llm_menu_images/02_METHODOLOGY_PIPELINE.jpg',
     },
     {
         file: '03_SYMBOLIC_ENGINE_SCHEMA.md',
-        title: 'Core Artistic Themes',
+        title: 'Symbolic Engine Schema',
         image: '/images/datamining_a_llm_menu_images/03_SYMBOLIC_ENGINE_SCHEMA.jpg',
     },
     {
         file: '04_IMPLEMENTATION_EXAMPLE.md',
-        title: 'The Truth-Teller Perceived as a Fool',
+        title: 'Implementation Example',
         image: '/images/datamining_a_llm_menu_images/04_IMPLEMENTATION_EXAMPLE.jpg',
     },
     {
         file: '05_SEM_EXECUTION_SYSTEM.md',
-        title: 'Role of the Clown',
+        title: 'SEM Execution System',
         image: '/images/datamining_a_llm_menu_images/05_SEM_EXECUTION_SYSTEM.jpg',
     },
     {
         file: '06_FULL_THREAD_ARCHIVE_REFERENCE.md',
-        title: 'Role of the Seer',
+        title: 'Full Thread Archive Reference',
         image: '/images/datamining_a_llm_menu_images/06_FULL_THREAD_ARCHIVE_REFERENCE.jpg',
     },
     {
         file: '07_FINAL_CONCLUSION_AND_NEXT_STEPS.md',
-        title: 'Video Production Approach',
+        title: 'Final Conclusion and Next Steps',
         image: '/images/datamining_a_llm_menu_images/07_FINAL_CONCLUSION_AND_NEXT_STEPS.jpg',
     },
 ]
@@ -88,24 +81,23 @@ export default async function Page() {
     }))
 
     return (
-        <div className={styles.container}>
-            <main className={styles.main}>
+        <main className={pageStyles.page}>
+            <div className={pageStyles.container}>
+                <h1 className={pageStyles.pageTitle}>Data-Mining an LLM</h1>
 
-                {/* HERO IMAGE */}
                 <Image
                     src="/images/datamining_a_llm_menu_images/datamining_llm_hero_image.webp"
-                    alt="Hero Image"
-                    className={styles.hero}
+                    alt="Data-Mining an LLM"
+                    className={pageStyles.hero}
                     width={525}
                     height={232}
-                    sizes="(max-width: 768px) 100vw, 525px"
+                    sizes="(max-width: 768px) calc(100vw - 3.5rem), 852px"
                     priority
                     quality={70}
                 />
 
                 <CollapsibleSections sections={sections} />
-
-            </main>
-        </div>
+            </div>
+        </main>
     )
 }

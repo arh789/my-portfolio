@@ -1,10 +1,8 @@
-﻿# The Role of the Seer and Its Unification with the Clown
-
 The seer and the clown represent opposing forces—prophecy versus chaos, insight versus deception. When unified, they form a paradox: a truth-teller mistaken for a fool, a performer revealing hidden knowledge through absurdity, an oracle whose language is riddles and laughter.
 
 ---
 
-## 1. The Seer as a Guide Through Decay and Time  
+### 1. The Seer as a Guide Through Decay and Time
 *(Prophecy, Ruin, and the Inescapability of Fate)*
 
 The seer observes beyond the present—into decay, entropy, and inevitability.
@@ -25,7 +23,7 @@ The seer observes beyond the present—into decay, entropy, and inevitability.
 
 ---
 
-## 2. The Seer as a Trickster of Hidden Knowledge  
+### 2. The Seer as a Trickster of Hidden Knowledge
 *(The Mask of Comedy Hiding the Face of Horror)*
 
 Deception and revelation merge—truth is obscured to be seen.
@@ -45,7 +43,7 @@ Deception and revelation merge—truth is obscured to be seen.
 
 ---
 
-## 3. The Seer-Clown as an Agent of Ritual and Transformation  
+### 3. The Seer-Clown as an Agent of Ritual and Transformation
 *(Prophetic Laughter, Ritualistic Chaos, and the Unmasking of Reality)*
 
 Absurdity becomes ceremony. Meaning is fragmented, obscured, reconfigured.
@@ -66,7 +64,7 @@ Absurdity becomes ceremony. Meaning is fragmented, obscured, reconfigured.
 
 ---
 
-## 4. The Seer-Clown as an Avatar of Cosmic Horror  
+### 4. The Seer-Clown as an Avatar of Cosmic Horror
 *(The Laughing Prophet of an Unknowable Universe)*
 
 Overexposure to truth fractures the seer. The clown remains.
@@ -87,7 +85,7 @@ Overexposure to truth fractures the seer. The clown remains.
 
 ---
 
-## Summary: The Seer-Clown as a Core Archetype
+### Summary: The Seer-Clown as a Core Archetype
 
 This archetype synthesises key thematic structures:
 

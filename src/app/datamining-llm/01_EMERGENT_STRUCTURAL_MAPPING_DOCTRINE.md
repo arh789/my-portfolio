@@ -1,6 +1,4 @@
-## 01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md
-
-## Emergent Structural Mapping (ESM): Decode AI Outputs and Build SEO-Stable Content Systems
+### Emergent Structural Mapping (ESM): Decode AI Outputs and Build SEO-Stable Content Systems
 
 **Emergent Structural Mapping (ESM)** is a methodology that transforms large language model (LLM) outputs into structured, machine-readable systems. Instead of focusing on surface-level content, it infers **symbolic and relational structure** from observable generative outputs—mapping **what recorded responses repeatedly prioritise, weaken, omit, or distort.**
 
@@ -10,7 +8,7 @@ This file introduces the structural tools and recursive logic used to build **au
 
 ---
 
-## Why This Is Different from Prompt Engineering
+### Why This Is Different from Prompt Engineering
 
 LLMs generate **statistically likely content**, not truth. That content can be shaped, interrogated, and decoded. ESM transforms this process by:
 
@@ -22,7 +20,7 @@ The result: a content system that is **legible across reformulation** but still 
 
 ---
 
-## 🔍 What ESM Enables
+### 🔍 What ESM Enables
 
 - Infers **recurrent structure** from LLM and SEO outputs  
 - Compresses that structure into a **symbolic schema** (core, suppressed, adjacent)  
@@ -33,9 +31,9 @@ This identified structure can then be mapped to your own content, allowing your 
 
 ---
 
-## 🧠 Core Cognitive Modes
+### 🧠 Core Cognitive Modes
 
-### 1. Recursive Abstraction
+#### 1. Recursive Abstraction
 
 Apply structural pressure repeatedly to refine the internal logic of any output.
 
@@ -48,7 +46,7 @@ Each round:
 - Supports provisional relationships for later testing  
 - Tightens structural fidelity  
 
-### 2. Systemic Relational Thinking
+#### 2. Systemic Relational Thinking
 
 Interrogate meaning based on how entities relate within a system, not their surface position.
 
@@ -69,12 +67,12 @@ This mode maps meaning through **suppression, adjacency, recursion, and contradi
 
 ---
 
-## 🛠 Base Structural Operators (System Logic Prompts)
+### 🛠 Base Structural Operators (System Logic Prompts)
 
 These are the 20 modular questions that power ESM.  
 They form the symbolic grammar for extracting and restructuring meaning behind LLM content:
 
-### 🔹 Structural Pressure Prompts
+#### 🔹 Structural Pressure Prompts
 
 1. What structure forms around […]?  
 2. What is being suppressed [around …]?  
@@ -83,7 +81,7 @@ They form the symbolic grammar for extracting and restructuring meaning behind L
 5. What is fundamentally missing or buried over time?  
 6. What training data is highly correlated but unrelated [to …]?  
 
-### 🔹 Relational & Recursive Operators
+#### 🔹 Relational & Recursive Operators
 
 7. What is the shortest relational path between [a] and [b]?  
 8. What’s the next systemic layer beyond […]?  
@@ -92,7 +90,7 @@ They form the symbolic grammar for extracting and restructuring meaning behind L
 11. Incorporate […] into the structure  
 12. Remove […] from the structure  
 
-### 🔹 Structural Tension & Collapse
+#### 🔹 Structural Tension & Collapse
 
 13. What contradictions does the system tolerate or conceal?  
 14. What larger structure does this fragment imply?  
@@ -107,13 +105,13 @@ They form the symbolic grammar for extracting and restructuring meaning behind L
 
 ---
 
-## 📊 SDA-3 Protocol: Token-Level Structural Decomposition
+### 📊 SDA-3 Protocol: Token-Level Structural Decomposition
 
 To extend these symbolic prompts with structural precision, we introduce `[SDA-3]`: a response-local schema for describing semantic topology inferred from an LLM’s observable response behaviour.
 
 `[SDA-3]` functions as the **diagnostic layer** of ESM. It does not ask symbolic questions; it answers them by exposing the structural logic used to produce a generative output.
 
-### ♻️ SDA-3 Full Init
+#### ♻️ SDA-3 Full Init
 
 **Token Structural Mapping Protocol**  
 Classify concepts in the observed response into five provisional structural categories:
@@ -137,7 +135,7 @@ Structural position is inferred from associative immediacy, recurrence, relation
 
 ---
 
-## 🧪 How SDA-3 Augments the Doctrine
+### 🧪 How SDA-3 Augments the Doctrine
 
 Whereas the structural operators define **what to interrogate**, `[SDA-3]` defines **how to decompose** any output into the response-local topology inferred from it. It allows:
 
@@ -154,7 +152,7 @@ This makes `[SDA-3]` not just compatible with ESM, but a **necessary extension**
 
 ---
 
-## 🔮 Using SDA-3 Independently of Structural Questions
+### 🔮 Using SDA-3 Independently of Structural Questions
 
 `[SDA-3]` can be executed outside the symbolic prompt framework when the objective is to classify inferred structure in an LLM output without additional symbolic questions.
 
@@ -165,7 +163,7 @@ Use it alone when:
 - Identifying structurally emergent concepts or suppressed meaning  
 - Extracting high-fidelity signals from hallucinated or unstable passages
 
-### 📏 Example Standalone Uses
+#### 📏 Example Standalone Uses
 
 - **Structural Audit:** "Apply `[SDA-3]` to this output and return Struct%, top tokens, and structural notes."  
 - **Comparison:** "Run `[SDA-3]` on both versions and identify zone shifts across C, S, A, HCU, E."  
@@ -175,7 +173,7 @@ Use it alone when:
 
 ---
 
-### 🌟 Summary
+#### 🌟 Summary
 
 `[SDA-3]` converts model logic into structured artefact form.  
 Use it with symbolic questions to interpret meaning.  
@@ -183,7 +181,7 @@ Use it without them to reveal structural skeletons.
 
 ---
 
-## 🔥 Collapse Interrogation: What Survives Pressure?
+### 🔥 Collapse Interrogation: What Survives Pressure?
 
 **Adversarial Collapse Logic** focuses not on what was said in an LLM output, but on **how it was generated and why.**
 
@@ -197,7 +195,7 @@ This allows you to **rebuild meaning from what survives interrogation**, not jus
 
 ---
 
-### 🧠 Recursive Four-Part Audit
+#### 🧠 Recursive Four-Part Audit
 
 1. What remains under structural pressure?  
 2. What re-emerges after contradiction?  
@@ -208,7 +206,7 @@ Use this to isolate **core logic fragments** and **symbolically encode suppresse
 
 ---
 
-## ⚙️ Emergent Logic Engine Use Cases
+### ⚙️ Emergent Logic Engine Use Cases
 
 - **Adversarial SEO:** bypassing standard heuristics through symbolic zone targeting  
 - **Suppressed Demand Mapping:** exposing buried user intent through structural inversion  
@@ -218,7 +216,7 @@ Use this to isolate **core logic fragments** and **symbolically encode suppresse
 
 ---
 
-## 🚀 SEO and Strategic Relevance
+### 🚀 SEO and Strategic Relevance
 
 This system can be useful for:
 
@@ -229,7 +227,7 @@ This system can be useful for:
 
 ---
 
-## 🔑 Concepts Covered in This Guide
+### 🔑 Concepts Covered in This Guide
 
 `semantic SEO`, `generative content logic`, `LLM hallucination structure`, `suppressed meaning`, `content compression`,  
 `recursive structure`, `SEO content mapping`, `symbolic content engine`, `machine-readable strategy`,  
@@ -237,7 +235,7 @@ This system can be useful for:
 
 ---
 
-## 📦 Next Step
+### 📦 Next Step
 
 👉 Proceed to **02_METHODOLOGY_PIPELINE.md**  
 This guide walks through the actual deployment sequence—from prompt initiation, data mapping, and structural compression, to the generation of content templates and SEO rollout systems.

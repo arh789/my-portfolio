@@ -1,5 +1,3 @@
-﻿# The Truth-Teller Perceived as a Fool
-
 *(The Seer-Clown as an Unheeded Prophet, a Mockery of Revelation, and a Cosmic Jester)*
 
 A truth-teller perceived as a fool is a figure of contradiction—someone who speaks reality plainly, yet is ignored, mocked, or misunderstood. This is where the seer and the clown fully merge:
@@ -12,7 +10,7 @@ This archetype operates at the intersection of horror, theatre, and surrealism�
 
 ---
 
-## 1. The Seer-Clown as the Rejected Oracle  
+### 1. The Seer-Clown as the Rejected Oracle
 *(Prophecy Rendered Useless by the Absurdity of the World)*
 
 - If the seer is cursed to know the truth, the clown is cursed to be ignored.  
@@ -26,7 +24,7 @@ This archetype operates at the intersection of horror, theatre, and surrealism�
 
 ---
 
-## 2. The Jester as the Only One Who Knows the Truth  
+### 2. The Jester as the Only One Who Knows the Truth
 *(A Fool in Appearance, a Prophet in Reality)*
 
 Throughout history, jesters and clowns have been the only ones allowed to speak truth to power, yet their words were treated as mere entertainment.
@@ -47,7 +45,7 @@ Throughout history, jesters and clowns have been the only ones allowed to speak 
 
 ---
 
-## 3. The Cosmic Jester: The Horror of Truth in a Nonsensical Universe  
+### 3. The Cosmic Jester: The Horror of Truth in a Nonsensical Universe
 *(When Reality is Too Absurd to be Anything but a Joke)*
 
 This iteration of the Seer-Clown aligns with cosmic horror:
@@ -70,7 +68,7 @@ The Seer-Clown sees beyond the veil and realises everything is a performance, a 
 
 ---
 
-## 4. The Ritual Clown: A Fool Who is a Gatekeeper of Forbidden Knowledge  
+### 4. The Ritual Clown: A Fool Who is a Gatekeeper of Forbidden Knowledge
 *(Absurdity as a Key to the Arcane, Chaos as a Sacred Language)*
 
 - In some traditions, fools and tricksters hold hidden wisdom, concealed behind layers of deception.  
@@ -89,7 +87,7 @@ The Seer-Clown sees beyond the veil and realises everything is a performance, a 
 
 ---
 
-## 5. The Horror of the Laughing Prophet: When No One Believes the Truth  
+### 5. The Horror of the Laughing Prophet: When No One Believes the Truth
 *(The Fool Who Knows Everything and Can Change Nothing)*
 
 - The ultimate horror of the truth-teller perceived as a fool is that it doesn’t matter if they are right—no one will listen.  
@@ -108,7 +106,7 @@ The Seer-Clown sees beyond the veil and realises everything is a performance, a 
 
 ---
 
-## Summary: The Seer-Clown as the Ultimate Warning
+### Summary: The Seer-Clown as the Ultimate Warning
 
 This character is not just a fool or a prophet—it is a mirror, reflecting a world that refuses to listen, a universe that plays out the same tragedies over and over.
 

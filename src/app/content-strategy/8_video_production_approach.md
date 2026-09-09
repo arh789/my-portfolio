@@ -1,10 +1,8 @@
-﻿# Custom Video Production Approach: Maximising Artistic Identity
-
 An artistic identity built on structured chaos, horror surrealism, decay, neon aesthetics, and unsettling contrast requires a bespoke video production approach. A hybrid workflow that merges tactile and digital elements—particularly airbrushing, stop-motion, mixed media, After Effects, and Houdini—offers the most coherent path forward.
 
 ---
 
-## 1. Core Video Style: “Digital Decay & The Occult Glitch”
+### 1. Core Video Style: “Digital Decay & The Occult Glitch”
 
 This visual identity thrives on distortion, texture, and contrast. Video execution should amplify these through:
 
@@ -18,9 +16,9 @@ A structured workflow should incorporate procedural digital effects, airbrushed 
 
 ---
 
-## 2. Primary Workflow: Hybrid Practical–Digital
+### 2. Primary Workflow: Hybrid Practical–Digital
 
-### Step 1: Tactile Elements and Raw Materials
+#### Step 1: Tactile Elements and Raw Materials
 
 Airbrushed and physical texture work can be directly integrated via:
 
@@ -33,11 +31,11 @@ Airbrushed and physical texture work can be directly integrated via:
 
 ---
 
-### Step 2: Procedural Digital Enhancements
+#### Step 2: Procedural Digital Enhancements
 
 Captured material can be imported into After Effects and Houdini for surreal extension and refinement.
 
-#### After Effects (Motion Control, Post-Processing, Compositing)
+##### After Effects (Motion Control, Post-Processing, Compositing)
 
 - Controlled glitch effects via displacement and databending  
 - Typographic distortion for psychological impact  
@@ -47,7 +45,7 @@ Captured material can be imported into After Effects and Houdini for surreal ext
 
 **Purpose**: Maintains tactile presence while deepening thematic structure.
 
-#### Houdini (Procedural Horror, Decay, Unnatural Motion)
+##### Houdini (Procedural Horror, Decay, Unnatural Motion)
 
 - Decay simulations using particles and erosion shaders  
 - Procedural growth of veins, tendrils, and glitch-organic structures  
@@ -59,26 +57,26 @@ Captured material can be imported into After Effects and Houdini for surreal ext
 
 ---
 
-## 3. Experimental Aesthetic Techniques
+### 3. Experimental Aesthetic Techniques
 
-### Corrupting Reality
+#### Corrupting Reality
 
 - Datamoshing for broken, haunted movement  
 - AI-driven animation using models trained on distorted artwork  
 
-### Hybrid Stop-Motion & Digital Augmentation
+#### Hybrid Stop-Motion & Digital Augmentation
 
 - Static paintings animated digitally with shifting elements  
 - Frame-rate blending between real and procedural motion  
 
-### Uncanny Human Movement
+#### Uncanny Human Movement
 
 - Frame interpolation artefacts for ghost-trailing effects  
 - Facial feature warping via displacement and mesh distortion  
 
 ---
 
-## 4. Resonant Content Types
+### 4. Resonant Content Types
 
 Formats that maximise impact and audience engagement:
 
@@ -89,7 +87,7 @@ Formats that maximise impact and audience engagement:
 
 ---
 
-## 5. Conclusion
+### 5. Conclusion
 
 Effective execution requires:
 

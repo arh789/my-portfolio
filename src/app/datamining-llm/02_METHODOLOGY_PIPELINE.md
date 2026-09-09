@@ -1,6 +1,4 @@
-## 02_METHODOLOGY_PIPELINE.md
-
-## Emergent Structural Mapping (ESM) Pipeline: From Raw Inputs to SEO-Ready Content Systems
+### Emergent Structural Mapping (ESM) Pipeline: From Raw Inputs to SEO-Ready Content Systems
 
 This guide outlines how the **Emergent Structural Mapping (ESM)** framework is operationalised.  
 Each step transforms complex input—SEO data, AI outputs, symbolic references—into content whose central relationships remain legible across reformulation, generative models, and strategic rollout.
@@ -9,7 +7,7 @@ Each step transforms complex input—SEO data, AI outputs, symbolic references�
 
 ---
 
-## Overview: ESM Pipeline in 8 Structured Stages
+### Overview: ESM Pipeline in 8 Structured Stages
 
 - ✅ Capture raw signals  
 - ✅ Build semantic relationships  
@@ -19,84 +17,84 @@ Each step transforms complex input—SEO data, AI outputs, symbolic references�
 
 ---
 
-## 1. Prompt Initiation
+### 1. Prompt Initiation
 
-### 🔹 What Happens  
+#### 🔹 What Happens
 Trigger a **low-friction, unconstrained response** from a language model.
 
-### 🔹 Why It Matters  
+#### 🔹 Why It Matters
 Unshaped outputs provide baseline evidence of **default associations**, **biases**, and **omitted or weakly represented pathways** before external structure is imposed.
 
 ---
 
-## 2. Surface Capture
+### 2. Surface Capture
 
-### 🔹 Inputs  
+#### 🔹 Inputs
 - **SEO Data:** URLs, metadata, keywords, page content  
 - **Symbolic Anchors:** Thematic image sets, moodboards, or motif clusters
 
-### 🔹 Purpose  
+#### 🔹 Purpose
 Capture content in its **raw, uncompressed state**—prior to symbolic transformation.
 
 ---
 
-## 3. Semantic Network Construction
+### 3. Semantic Network Construction
 
-### 🔹 Actions  
+#### 🔹 Actions
 - Build **keyword co-occurrence graphs**  
 - Measure **centrality** and **relational weight**  
 - Detect **emergent content clusters** via community detection algorithms
 
-### 🔹 Output  
+#### 🔹 Output
 A **relational map of meaning**—showing how concepts co-occur, separate, or reinforce one another in the sampled data.
 
 ---
 
-## 4. Emergent Structural Mapping
+### 4. Emergent Structural Mapping
 
-### 🔹 Techniques  
+#### 🔹 Techniques
 - **Provisional Projection:** Arrange observed relationships into a testable structure  
 - **Recursive Subsetting:** Shift analysis boundaries to reveal constraint logic  
 - **Underrepresentation Check:** Highlight gaps, hedges, and recurring omissions  
 - **Structural Completion:** Fill voids using LLM coherence bias  
 - **Role Projection:** Treat entities as functional agents in a system
 
-### 🔹 Goal  
+#### 🔹 Goal
 Construct a **provisional symbolic scaffold** from the observed content—allowing you to build structure-aware assets for later testing.
 
 ---
 
-## 5. Collapse Interrogation
+### 5. Collapse Interrogation
 
-### 🔹 Techniques  
+#### 🔹 Techniques
 - **Adversarial Logic Critique:** Interrogate logic paths, not just surface coherence  
 - **Assumption Extraction:** Identify invisible premises and content scaffolds  
 - **Necessity Audit:** Isolate structural vs rhetorical dependencies
 
-### 🔹 Goal  
+#### 🔹 Goal
 Identify **what persists under reformulation** after assumptions and rhetorical scaffolding are challenged.
 
 ---
 
-## 6. Recursive Audit
+### 6. Recursive Audit
 
-### 🔹 Four-Part Interrogation  
+#### 🔹 Four-Part Interrogation
 1. What remains under pressure?  
 2. What reappears after contradiction?  
 3. What disappeared or became less represented during reformulation?  
 4. What constraints best explain what remained?
 
-### 🔹 Goal  
+#### 🔹 Goal
 Refine content through **recursion, contradiction, and selective survivorship**—distilling structural integrity.
 
 ---
 
-## 7. Recursive Recompression
+### 7. Recursive Recompression
 
-### 🔁 Cycle  
+#### 🔁 Cycle
 `Compress → Query → Expand → Recompress`
 
-### 🔹 Goal  
+#### 🔹 Goal
 Each cycle **amplifies semantic clarity** and **removes derivative elements**—resulting in outputs that are:
 - Parseable by machines  
 - Structurally original  
@@ -104,27 +102,27 @@ Each cycle **amplifies semantic clarity** and **removes derivative elements**—
 
 ---
 
-## 8. Strategic Output Generation
+### 8. Strategic Output Generation
 
-### 📦 Deployment Formats  
+#### 📦 Deployment Formats
 - SEO-optimised **caption templates**  
 - **Hashtag clusters** with symbolic function  
 - Visual or thematic **rollout matrices**  
 - **Symbolic schema blueprints** for structured content  
 - Recursive **logic trees** for content series or strategy
 
-### 🔹 Result  
+#### 🔹 Result
 Each output is **machine-readable**, **ready for testing**, and **strategically expressive**—built from symbolic infrastructure, not surface imitation.
 
 ---
 
-## Concepts Covered
+### Concepts Covered
 
 `semantic network`, `structured content pipeline`, `generative content strategy`, `symbolic compression`, `content recompression`, `SEO mapping`, `keyword clustering`, `content system design`, `LLM prompt structure`, `content collapse audit`, `suppressed meaning`, `machine-readable schema`, `representation-aware SEO`
 
 ---
 
-## Summary: What You Now Have
+### Summary: What You Now Have
 
 You now possess a repeatable method to:
 
@@ -136,7 +134,7 @@ This isn’t a prompt template. It’s a **recursive architecture for symbolic c
 
 ---
 
-## Next Step
+### Next Step
 
 👉 Proceed to **03_SYMBOLIC_ENGINE_SCHEMA.md**  
 This next section explains how each symbolic component—visual tone, narrative frame, conceptual weight—is constructed and recombined to ensure original outputs whose central relationships remain legible across platforms.

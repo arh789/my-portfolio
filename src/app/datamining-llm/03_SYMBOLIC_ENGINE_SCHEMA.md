@@ -1,6 +1,4 @@
-## 03_SYMBOLIC_ENGINE_SCHEMA.md
-
-## The Symbolic Engine: Structuring Meaning, Aesthetic, and Message into Unique Content
+### The Symbolic Engine: Structuring Meaning, Aesthetic, and Message into Unique Content
 
 The **Symbolic Engine** is a generative content framework that transforms raw input—whether visual, conceptual, or textual—into **original, structured, and symbolically coherent artefacts**.
 
@@ -14,29 +12,29 @@ Unlike typical content creation, this method ensures your work is:
 
 ---
 
-## 🎯 What the Symbolic Engine Is For
+### 🎯 What the Symbolic Engine Is For
 
 Originally designed to create a unified style across this site's images, captions, and tags, the engine now serves as a **scalable method for symbolic content architecture**—optimised for both **generative workflows** and **search engine ecosystems**.
 
 ---
 
-## 🔧 Core Components of the Engine
+### 🔧 Core Components of the Engine
 
 Every artefact produced by the engine combines **three primary symbolic layers**:
 
-### 1. **Symbolic Root** → _What it’s about_
+#### 1. **Symbolic Root** → _What it’s about_
 
 The core semantic meaning beneath the surface.  
 Examples:  
 `decay`, `control`, `distortion`, `isolation`, `collapse`
 
-### 2. **Aesthetic Engine** → _How it looks and feels_
+#### 2. **Aesthetic Engine** → _How it looks and feels_
 
 Defines visual tone, mood, and sensory coherence.  
 Examples:  
 `glitch`, `high contrast`, `neon`, `grain`, `surreal colour`
 
-### 3. **Narrative Frame** → _What message it carries_
+#### 3. **Narrative Frame** → _What message it carries_
 
 Encodes the interpretive or emotional stance.  
 Examples:  
@@ -46,7 +44,7 @@ Each output uses all three—deliberately chosen to **interact under structural 
 
 ---
 
-## 🧩 Optional Symbolic Modifiers (Add Complexity or Instability)
+### 🧩 Optional Symbolic Modifiers (Add Complexity or Instability)
 
 Use these to introduce philosophical weight, ambiguity, or multi-layered meaning:
 
@@ -59,27 +57,27 @@ These are **not decorative**—they strategically **destabilise repetition** and
 
 ---
 
-## ⚙️ Step-by-Step Engine Process
+### ⚙️ Step-by-Step Engine Process
 
-### 1. Start with an Input  
+#### 1. Start with an Input
 This can be a phrase, topic, AI prompt, image, or emotion.
 
-### 2. Extract Symbolic Features  
+#### 2. Extract Symbolic Features
 Identify what it means, how it should feel, and what message it carries.
 
-### 3. Map Each Feature  
+#### 3. Map Each Feature
 Assign each to a layer:  
 - Symbolic Root  
 - Aesthetic Engine  
 - Narrative Frame
 
-### 4. Apply Modifiers (Optional)  
+#### 4. Apply Modifiers (Optional)
 Add contradiction, compression, or reference layers as needed.
 
-### 5. Compress  
+#### 5. Compress
 Merge all layers into a single unified symbolic artefact.
 
-### 6. Generate Output  
+#### 6. Generate Output
 Form:  
 - Caption  
 - Hashtag cluster  
@@ -89,7 +87,7 @@ Form:
 
 ---
 
-## 🌀 What This Engine Can Do
+### 🌀 What This Engine Can Do
 
 - 🔄 **Flip meaning** → Invert expectations to reframe message  
 - 🧠 **Break surface structure** → Expose what polished outputs conceal  
@@ -98,7 +96,7 @@ Form:
 
 ---
 
-## 🧠 How It Maintains Originality
+### 🧠 How It Maintains Originality
 
 This engine deliberately resists automation collapse by using:
 
@@ -110,7 +108,7 @@ No single artefact is static—each is **a node in a shifting symbolic system**.
 
 ---
 
-## 🕸️ How Outputs Stay Connected
+### 🕸️ How Outputs Stay Connected
 
 Each content unit (caption, tag, asset, etc.) is:
 
@@ -124,7 +122,7 @@ This creates **a recursive system of meaning**—not just isolated posts.
 
 ---
 
-## 🛑 What the Engine Intentionally Avoids
+### 🛑 What the Engine Intentionally Avoids
 
 To protect originality and symbolic integrity, the engine prevents:
 
@@ -139,7 +137,7 @@ It is designed to **resist flattening by generative models, SEO heuristics, and 
 
 ---
 
-## ✅ Summary
+### ✅ Summary
 
 The Symbolic Engine:
 
@@ -150,13 +148,13 @@ The Symbolic Engine:
 
 ---
 
-## 🔍 Concepts Covered
+### 🔍 Concepts Covered
 
 `symbolic engine`, `content structure system`, `SEO content schema`, `relationship-stable output`, `aesthetic strategy`, `narrative framing`, `LLM content generation`, `AI prompt structuring`, `content system architecture`, `recursive meaning`, `semantic inversion`, `visual strategy`, `originality preservation`, `symbolic compression`
 
 ---
 
-## 👉 Next Step
+### 👉 Next Step
 
 Continue to **04_IMPLEMENTATION_EXAMPLE.md**  
 This walkthrough shows how the symbolic engine is used in practice—from scraping data and building aesthetic clusters to rolling out content and preserving symbolic coherence across campaigns.

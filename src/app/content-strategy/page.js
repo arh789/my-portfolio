@@ -3,7 +3,7 @@ import path from 'path'
 import Image from 'next/image'
 import CollapsibleSections from '../components/CollapsibleSections.js'
 import { parseMarkdown } from '../components/markdown.js'
-import styles from './contentStrategy.module.css'
+import pageStyles from '../components/CollapsiblePage.module.css'
 
 export const metadata = {
     title: 'Symbolic SEO Engine | Grotesque Automation & Content Compression',
@@ -79,25 +79,24 @@ export default async function Page() {
     }))
 
     return (
-        <div className={styles.container}>
-            <main className={styles.main}>
+        <main className={pageStyles.page}>
+            <div className={pageStyles.container}>
+                <h1 className={pageStyles.pageTitle}>Content Strategy</h1>
 
-                {/* HERO IMAGE */}
                 <Image
                     src="/images/content_strategy_menu_images/content_strategy_hero_image.jpg"
-                    alt="Hero Image"
-                    className={styles.hero}
+                    alt="Content Strategy"
+                    className={pageStyles.hero}
                     width={525}
                     height={232}
-                    sizes="(max-width: 768px) 100vw, 525px"
+                    sizes="(max-width: 768px) calc(100vw - 3.5rem), 852px"
                     priority
                     fetchPriority="high"
                     quality={70}
                 />
 
                 <CollapsibleSections sections={sections} />
-
-            </main>
-        </div>
+            </div>
+        </main>
     )
 }
