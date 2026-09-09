@@ -56,12 +56,7 @@ export default function CollapsibleSections({ sections }) {
                                         loading="lazy"
                                     />
                                 )}
-                                <span className={styles.titleRow}>
-                                    <span>{section.title}</span>
-                                    <span className={styles.indicator} aria-hidden="true">
-                                        {isActive ? '\u2212' : '+'}
-                                    </span>
-                                </span>
+                                <span className={styles.srOnly}>{section.title}</span>
                             </button>
                         </h2>
 
