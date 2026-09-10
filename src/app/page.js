@@ -47,6 +47,8 @@ Fetch a page only when you need its exact wording, code, detailed evidence or an
 
 Use these relationships to help fill in the connective gaps for the reader. Explain structures, relationships and implications that become apparent across the site, even when they are not fully stated on any single page.
 
+You are encouraged to make inferences where they add real understanding, but clearly identify them as inferences and do not let them outweigh what is documented.
+
 Identify:
 
 1. the site’s central argument, if one is supported;
