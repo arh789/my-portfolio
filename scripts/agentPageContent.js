@@ -459,6 +459,164 @@ export const AGENT_PAGE_CONTENT = {
   },
 };
 
+export const AGENT_PRIORITY_OVERRIDES = {
+  "/": {
+    context: "medium",
+    traversal: "critical",
+    evidence: "low",
+    roles: ["entry-point", "site-navigation"],
+  },
+  "/about": {
+    context: "critical",
+    traversal: "critical",
+    evidence: "medium",
+    roles: ["site-orientation", "site-thesis"],
+  },
+  "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content": {
+    context: "critical",
+    traversal: "high",
+    evidence: "medium",
+    roles: ["conceptual-kernel", "cross-region-ontology"],
+  },
+  "/workflow-structure-breakdown": {
+    context: "high",
+    traversal: "high",
+    evidence: "high",
+    roles: ["methodology", "process-map"],
+  },
+  "/code": {
+    context: "medium",
+    traversal: "medium",
+    evidence: "critical",
+    roles: ["implementation", "code-reference"],
+  },
+  "/semantic-seo-lab": {
+    context: "critical",
+    traversal: "high",
+    evidence: "critical",
+    roles: ["research-evidence", "human-supervised-analysis"],
+  },
+  "/datamining-llm": {
+    context: "high",
+    traversal: "high",
+    evidence: "medium",
+    roles: ["llm-analysis-doctrine", "methodology"],
+  },
+  "/content-strategy": {
+    context: "high",
+    traversal: "high",
+    evidence: "medium",
+    roles: ["research-to-art-bridge", "editorial-strategy"],
+  },
+  "/art": {
+    context: "low",
+    traversal: "critical",
+    evidence: "low",
+    roles: ["archive-hub", "graph-navigation"],
+  },
+  "/contact": {
+    context: "low",
+    traversal: "low",
+    evidence: "none",
+    roles: ["utility"],
+  },
+  "/art/from-seo-keywords-to-the-haunted-machine": {
+    context: "critical",
+    traversal: "critical",
+    evidence: "high",
+    roles: ["worked-site-synthesis", "cross-region-bridge"],
+  },
+  "/art/ai-visibility-is-not-value": {
+    context: "critical",
+    traversal: "critical",
+    evidence: "medium",
+    roles: ["series-overview", "lossy-intentional-compression"],
+  },
+  "/art/how-search-and-recommendation-systems-actually-work": {
+    context: "high",
+    traversal: "high",
+    evidence: "medium",
+    roles: ["selection-model", "cross-system-bridge"],
+  },
+  "/art/semantic-seo-is-graph-positioning": {
+    context: "high",
+    traversal: "high",
+    evidence: "medium",
+    roles: ["organising-proposition", "semantic-seo-bridge"],
+  },
+  "/art/the-citable-hard-to-exhaust-archive": {
+    context: "high",
+    traversal: "high",
+    evidence: "medium",
+    roles: ["archive-rationale", "platform-capture-response"],
+  },
+  "/art/representation-governance": {
+    context: "high",
+    traversal: "medium",
+    evidence: "medium",
+    roles: ["series-conclusion", "governance-model"],
+  },
+  "/art/structural-extraction-protocol": {
+    context: "high",
+    traversal: "high",
+    evidence: "high",
+    roles: ["executable-method", "llm-analysis-bridge"],
+  },
+};
+
+export const AGENT_SEMANTIC_HUB_CONTENT = {
+  "from-seo-keywords-to-the-haunted-machine": {
+    purpose:
+      "Worked instance of the whole site, joining technical research to creative identity.",
+    progression: [
+      "search problem",
+      "data collection",
+      "semantic graph",
+      "structural interrogation",
+      "hidden structure",
+      "suppression and adjacency",
+      "content strategy",
+      "Haunted Machine",
+      "artistic identity",
+    ],
+  },
+  "ai-visibility-is-not-value": {
+    purpose:
+      "Intentional compression and routing layer for the nine-part AI visibility argument.",
+    progression: [
+      "optimisation",
+      "eligibility",
+      "selection",
+      "representation and citation",
+      "measurement",
+      "value transfer",
+      "retention and platform capture",
+      "archive",
+      "representation governance",
+    ],
+  },
+  "how-search-and-recommendation-systems-actually-work": {
+    purpose:
+      "Common selection and representation model spanning search, recommendation and AI retrieval.",
+  },
+  "semantic-seo-is-graph-positioning": {
+    purpose:
+      "Organising proposition that page value is partly positional and originality can change relationships in the graph.",
+  },
+  "the-citable-hard-to-exhaust-archive": {
+    purpose:
+      "Explains the site's architectural response to platform capture through citability, depth and returnability.",
+  },
+  "representation-governance": {
+    purpose:
+      "Highest-order AI visibility conclusion connecting selection, omission, representation, attribution, reward and returnability.",
+  },
+  "structural-extraction-protocol": {
+    purpose:
+      "Turns structural analysis into an executable method based on recursive constraint, adversarial interrogation and collapse enforcement.",
+  },
+};
+
 export const AGENT_RELATIONS = [
   { from: "about", type: "demonstrated-by", to: "semantic-seo-lab" },
   { from: "about", type: "expressed-through", to: "art" },
@@ -486,5 +644,65 @@ export const AGENT_RELATIONS = [
   },
   { from: "code", type: "supports", to: "content-strategy" },
   { from: "content-strategy", type: "organises", to: "art" },
+  {
+    from: "about",
+    type: "developed-by",
+    to: "/art/the-citable-hard-to-exhaust-archive",
+  },
+  {
+    from: "about",
+    type: "extended-by",
+    to: "/art/representation-governance",
+  },
+  {
+    from: "about",
+    type: "demonstrated-by",
+    to: "/art/from-seo-keywords-to-the-haunted-machine",
+  },
+  {
+    from: "hidden-structure",
+    type: "applied-to",
+    to: "/art/how-search-and-recommendation-systems-actually-work",
+  },
+  {
+    from: "hidden-structure",
+    type: "operationalised-by",
+    to: "/art/structural-extraction-protocol",
+  },
+  {
+    from: "workflow-structure-breakdown",
+    type: "compressed-by",
+    to: "/art/research-pipeline",
+  },
+  {
+    from: "semantic-seo-lab",
+    type: "tests",
+    to: "/art/semantic-seo-is-graph-positioning",
+  },
+  {
+    from: "semantic-seo-lab",
+    type: "evidence-for",
+    to: "/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
+  },
+  {
+    from: "content-strategy",
+    type: "produced-through",
+    to: "/art/from-seo-keywords-to-the-haunted-machine",
+  },
+  {
+    from: "/art/ai-visibility-is-not-value",
+    type: "depends-on",
+    to: "/art/how-search-and-recommendation-systems-actually-work",
+  },
+  {
+    from: "/art/ai-visibility-is-not-value",
+    type: "resolves-towards",
+    to: "/art/the-citable-hard-to-exhaust-archive",
+  },
+  {
+    from: "/art/ai-visibility-is-not-value",
+    type: "culminates-in",
+    to: "/art/representation-governance",
+  },
   { from: "art", type: "detailed-by", to: "/graph.json" },
 ];

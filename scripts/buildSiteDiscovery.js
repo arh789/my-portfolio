@@ -17,7 +17,9 @@ import {
 } from "../src/app/siteManifest.js";
 import {
   AGENT_PAGE_CONTENT,
+  AGENT_PRIORITY_OVERRIDES,
   AGENT_RELATIONS,
+  AGENT_SEMANTIC_HUB_CONTENT,
   CLAIM_STATUS,
 } from "./agentPageContent.js";
 
@@ -235,6 +237,209 @@ const urlIndex = [
   ...projectUrlEntries,
 ];
 
+const staticPagePaths = new Map(
+  staticPages.map((page) => [page.id, page.path])
+);
+
+function buildAgentPriority(pagePath, structural, defaults) {
+  const override = AGENT_PRIORITY_OVERRIDES[pagePath] ?? {};
+
+  return {
+    structural,
+    context: override.context ?? defaults.context,
+    traversal: override.traversal ?? defaults.traversal,
+    evidence: override.evidence ?? defaults.evidence,
+    roles: override.roles ?? defaults.roles,
+  };
+}
+
+const siteGraphNodes = [
+  ...staticPages.map((page) => {
+    const agentPriority = buildAgentPriority(page.path, "core", {
+      context: "medium",
+      traversal: "medium",
+      evidence: "medium",
+      roles: ["core-page"],
+    });
+
+    return {
+      id: page.path,
+      pageId: page.id,
+      path: page.path,
+      url: page.url,
+      kind: page.kind,
+      title: page.title,
+      summary: page.summary,
+      agentPriority,
+      source: "/agent-map.json#pages/" + page.id,
+    };
+  }),
+  ...articles.map((article) => {
+    const articlePath = "/art/" + article.slug;
+    const agentPriority = buildAgentPriority(articlePath, "supporting", {
+      context: "standard",
+      traversal: article.projects.length ? "high" : "medium",
+      evidence: "medium",
+      roles: ["published-article"],
+    });
+
+    return {
+      id: articlePath,
+      path: articlePath,
+      url: absoluteUrl(articlePath),
+      kind: "article",
+      title: article.title,
+      summary: article.description,
+      published: article.date,
+      tags: article.tags,
+      contentType: article.type,
+      medium: article.medium,
+      projects: article.projects,
+      agentPriority,
+      source: "/graph.json#articles/" + article.slug,
+    };
+  }),
+  ...projects.map((project) => {
+    const projectPath = "/art/project/" + project.slug;
+    const agentPriority = buildAgentPriority(projectPath, "supporting", {
+      context: "medium",
+      traversal: "critical",
+      evidence: "medium",
+      roles: ["ordered-investigation", "guided-reading-path"],
+    });
+
+    return {
+      id: projectPath,
+      path: projectPath,
+      url: absoluteUrl(projectPath),
+      kind: "project",
+      title: project.title,
+      summary: project.description,
+      introduction: project.introduction,
+      articleCounts: {
+        chapters: project.chapters.length,
+        resources: project.resources.length,
+      },
+      agentPriority,
+      source: "/graph.json#projects/" + project.slug,
+    };
+  }),
+];
+
+const articleBySlug = new Map(
+  articles.map((article) => [article.slug, article])
+);
+
+const semanticHubs = Object.entries(AGENT_SEMANTIC_HUB_CONTENT).map(
+  ([slug, compressedContent]) => {
+    const article = articleBySlug.get(slug);
+
+    if (!article) {
+      throw new Error('Semantic hub article not found: "' + slug + '"');
+    }
+
+    const hubPath = "/art/" + slug;
+
+    return {
+      id: hubPath,
+      path: hubPath,
+      url: absoluteUrl(hubPath),
+      title: article.title,
+      summary: article.description,
+      agentPriority: buildAgentPriority(hubPath, "supporting", {
+        context: "high",
+        traversal: "high",
+        evidence: "medium",
+        roles: ["semantic-hub"],
+      }),
+      ...compressedContent,
+      source: "/graph.json#articles/" + slug,
+    };
+  }
+);
+
+const projectHubs = projects.map((project) => {
+  const projectPath = "/art/project/" + project.slug;
+
+  return {
+    id: projectPath,
+    path: projectPath,
+    url: absoluteUrl(projectPath),
+    title: project.title,
+    summary: project.description,
+    introduction: project.introduction,
+    agentPriority: buildAgentPriority(projectPath, "supporting", {
+      context: "medium",
+      traversal: "critical",
+      evidence: "medium",
+      roles: ["ordered-investigation", "guided-reading-path"],
+    }),
+    sequence: project.chapters.map((article) => ({
+      order: article.projectOrder,
+      path: "/art/" + article.slug,
+      title: article.title,
+      role: article.projectRole,
+    })),
+    supportingResources: project.resources.map((article) => ({
+      order: article.projectOrder,
+      path: "/art/" + article.slug,
+      title: article.title,
+      role: article.projectRole,
+    })),
+    source: "/graph.json#projects/" + project.slug,
+  };
+});
+
+const curatedPageEdges = AGENT_RELATIONS.map((relation) => ({
+  source: staticPagePaths.get(relation.from) ?? relation.from,
+  target: staticPagePaths.get(relation.to) ?? relation.to,
+  type: relation.type,
+})).filter(
+  (edge) => edge.source !== "/graph.json" && edge.target !== "/graph.json"
+);
+
+const archiveEdges = [
+  ...articles.map((article) => ({
+    source: "/art",
+    target: "/art/" + article.slug,
+    type: "contains-article",
+  })),
+  ...projects.map((project) => ({
+    source: "/art",
+    target: "/art/project/" + project.slug,
+    type: "contains-project",
+  })),
+];
+
+const projectEdges = projectGraph.edges.map((edge) => ({
+  source: edge.source.startsWith("project:")
+    ? "/art/project/" + edge.source.slice("project:".length)
+    : "/art/" + edge.source,
+  target: edge.target.startsWith("project:")
+    ? "/art/project/" + edge.target.slice("project:".length)
+    : "/art/" + edge.target,
+  type: edge.type,
+  ...(edge.project ? { project: edge.project } : {}),
+}));
+
+const siteGraph = {
+  purpose:
+    "Complete page-level map. Every indexed page is a node; semanticHubs and projectHubs provide progressive resolution without giving every page equal detail.",
+  agentPriorityDimensions: {
+    structural:
+      "Whether a page defines the site's formal architecture (core) or develops it (supporting).",
+    context:
+      "How much of the site's conceptual structure the page compresses.",
+    traversal:
+      "How useful the page is for routing an agent through related arguments.",
+    evidence:
+      "How strongly the page grounds claims in implementation, recorded observations or procedural detail.",
+    roles: "The page's specific functions in the site's semantic system.",
+  },
+  nodes: siteGraphNodes,
+  edges: [...curatedPageEdges, ...archiveEdges, ...projectEdges],
+};
+
 assertUnique(
   articles.map((article) => article.slug),
   "article slugs"
@@ -247,9 +452,60 @@ assertUnique(
   urlIndex.map((entry) => entry.path),
   "generated URL paths"
 );
+assertUnique(
+  siteGraph.nodes.map((node) => node.id),
+  "site graph node ids"
+);
+
+const indexedPaths = new Set(urlIndex.map((entry) => entry.path));
+const siteGraphNodeIds = new Set(siteGraph.nodes.map((node) => node.id));
+const missingSiteGraphNodes = [...indexedPaths].filter(
+  (entryPath) => !siteGraphNodeIds.has(entryPath)
+);
+const nonIndexedSiteGraphNodes = [...siteGraphNodeIds].filter(
+  (nodeId) => !indexedPaths.has(nodeId)
+);
+const unknownAgentPriorityPaths = Object.keys(AGENT_PRIORITY_OVERRIDES).filter(
+  (entryPath) => !indexedPaths.has(entryPath)
+);
+const unknownSiteGraphEndpoints = siteGraph.edges.flatMap((edge) =>
+  [edge.source, edge.target].filter(
+    (endpoint) => !siteGraphNodeIds.has(endpoint)
+  )
+);
+
+if (
+  missingSiteGraphNodes.length ||
+  nonIndexedSiteGraphNodes.length ||
+  unknownAgentPriorityPaths.length ||
+  unknownSiteGraphEndpoints.length
+) {
+  throw new Error(
+    [
+      missingSiteGraphNodes.length
+        ? "Indexed paths without site graph nodes: " +
+          missingSiteGraphNodes.join(", ")
+        : "",
+      nonIndexedSiteGraphNodes.length
+        ? "Site graph nodes without indexed paths: " +
+          nonIndexedSiteGraphNodes.join(", ")
+        : "",
+      unknownAgentPriorityPaths.length
+        ? "Agent-priority paths without indexed pages: " +
+          unknownAgentPriorityPaths.join(", ")
+        : "",
+      unknownSiteGraphEndpoints.length
+        ? "Unknown site graph edge endpoints: " +
+          [...new Set(unknownSiteGraphEndpoints)].join(", ")
+        : "",
+    ]
+      .filter(Boolean)
+      .join(". ")
+  );
+}
 
 const agentMap = {
-  schemaVersion: 2,
+  schemaVersion: 4,
   generatedAt,
   site: {
     name: "Decrepit Filth",
@@ -259,9 +515,9 @@ const agentMap = {
   },
   agentInstructions: {
     default:
-      "Use this file for site orientation, compressed core-page content and URL discovery before fetching HTML.",
+      "Start with pages, semanticHubs, projectHubs and siteGraph to understand the whole site cheaply. Agent priority separates structural, contextual, traversal and evidence value.",
     articleDiscovery:
-      "Use graph.json for article metadata, tags, projects and graph relationships.",
+      "Resolve from semanticHubs or projectHubs into siteGraph, then use graph.json for detailed article metadata, tags and shared-tag relationships. Fetch HTML only when full-resolution content is required.",
     fetchSourceWhen: [
       "verbatim wording or quotations are required",
       "implementation details or code are required",
@@ -273,6 +529,7 @@ const agentMap = {
     sitemap: "/sitemap.xml",
     articleGraph: "/graph.json",
     pageMap: "/agent-map.json",
+    siteGraph: "/agent-map.json#siteGraph",
   },
   claimStatus: CLAIM_STATUS,
   counts: {
@@ -280,9 +537,16 @@ const agentMap = {
     articles: articles.length,
     projects: projects.length,
     indexedUrls: urlIndex.length,
+    siteGraphNodes: siteGraph.nodes.length,
+    siteGraphEdges: siteGraph.edges.length,
+    semanticHubs: semanticHubs.length,
+    projectHubs: projectHubs.length,
   },
   pages: staticPages,
-  relations: AGENT_RELATIONS,
+  semanticHubs,
+  projectHubs,
+  relations: curatedPageEdges,
+  siteGraph,
   urlIndex,
 };
 
