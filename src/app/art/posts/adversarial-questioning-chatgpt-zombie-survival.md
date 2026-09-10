@@ -18,8 +18,6 @@ tags:
   - video-index-system
 ---
 
-# ChatGPT's Zombie Survival Plan Falls Apart When You Ask This
-
 {{ youtube id="0ti2eVmW9UI" title="ChatGPT's Zombie Survival Plan Falls Apart When You Ask This" }}
 
 ## Related videos

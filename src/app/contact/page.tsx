@@ -70,7 +70,8 @@ export default function ContactPage() {
             style={{
               fontSize: '2rem',
               marginBottom: '1.5rem',
-              color: '#e6c84f'
+              color: '#e6c84f',
+              fontFamily: 'var(--font-family-title)'
             }}
           >
             Contact

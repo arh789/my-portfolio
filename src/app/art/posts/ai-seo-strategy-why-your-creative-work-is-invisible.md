@@ -15,8 +15,6 @@ tags:
   - video-index-system
 ---
 
-# AI SEO Strategy: Why Your Creative Work Is Invisible
-
 Originality can be systematically discovered by identifying unresolved structures in existing knowledge networks.
 
 Most creative work does not fail because it is bad.

@@ -9,8 +9,6 @@ tags:
   - research-methods
 ---
 
-# Mining Google Maps Reviews for Unmet Customer Demand
-
 [View the notebook on GitHub](https://github.com/arh789/google_maps_reviews)
 
 The most useful reviews are not always the angriest ones.

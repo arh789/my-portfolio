@@ -18,8 +18,6 @@ tags:
   - video-index-system
 ---
 
-# The Zombie Survival Strategy ChatGPT Couldn’t See
-
 {{ youtube id="ri5xsKhICys" title="The Zombie Survival Strategy ChatGPT Couldn’t See" }}
 
 ChatGPT already had the pieces.

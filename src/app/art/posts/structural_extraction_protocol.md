@@ -12,8 +12,6 @@ tags:
   - model-structure-analysis
 ---
 
-# Structural Extraction Protocol (SEP)
-
 This manual defines a **single executable system** for extracting structure from language model outputs.
 
 The system does not retrieve answers.  
@@ -21,7 +19,7 @@ It forces the emergence of **what cannot be removed without collapse**.
 
 ---
 
-# I. SYSTEM OVERVIEW
+## I. SYSTEM OVERVIEW
 
 ## Core Principle
 
@@ -69,7 +67,7 @@ Each iteration reduces the solution space until only **structurally necessary lo
 
 ---
 
-# II. CORE PRIMITIVES
+## II. CORE PRIMITIVES
 
 ## 1. Structural Operators
 
@@ -115,7 +113,7 @@ Track both:
 
 ---
 
-# III. EXECUTION PROTOCOL
+## III. EXECUTION PROTOCOL
 
 ---
 
@@ -268,7 +266,7 @@ Each iteration:
 
 ---
 
-# IV. OUTPUT DEFINITION
+## IV. OUTPUT DEFINITION
 
 The final output is not an answer.
 
@@ -280,7 +278,7 @@ It is:
 
 ---
 
-# V. SYSTEM CHARACTERISTICS
+## V. SYSTEM CHARACTERISTICS
 
 ## This system:
 
@@ -301,7 +299,7 @@ It is:
 
 ---
 
-# VI. EXECUTION TEMPLATE
+## VI. EXECUTION TEMPLATE
 
 ## Minimal Run Sequence
 
@@ -317,7 +315,7 @@ Repeat until convergence.
 
 ---
 
-# VII. FINAL PRINCIPLE
+## VII. FINAL PRINCIPLE
 
 > You are not extracting answers from the system.  
 > You are forcing it into a position where it can no longer avoid revealing its structure.

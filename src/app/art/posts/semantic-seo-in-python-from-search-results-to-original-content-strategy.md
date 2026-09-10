@@ -13,8 +13,6 @@ tags:
   - research-methods
 ---
 
-# Semantic SEO in Python: From Search Results to Original Content Strategy
-
 Semantic SEO with Python is not simply a way to automate keyword research.
 
 It is a way to turn search results into a structured map of meaning.

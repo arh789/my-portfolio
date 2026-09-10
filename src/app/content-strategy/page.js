@@ -6,20 +6,23 @@ import { parseMarkdown } from '../components/markdown.js'
 import pageStyles from '../components/CollapsiblePage.module.css'
 
 export const metadata = {
-    title: 'Symbolic SEO Engine | Grotesque Automation & Content Compression',
-    description: 'Demonstration of a recursive SEO codebase that unifies symbolic compression, adversarial suppression mapping, and surrealist aesthetic direction within a grotesque art framework.',
+    title: 'Content Strategy | Grotesque Art and the Seer-Clown | DecrepitFilth.art',
+    description: "An evidence-led artistic strategy defining Decrepit Filth's niche, core grotesque themes, Seer-Clown archetype, and hybrid practical-digital video direction.",
     keywords: [
-        'symbolic SEO engine',
-        'recursive content indexing',
-        'suppression-aware automation',
-        'semantic clustering SEO',
-        'grotesque surrealism in SEO',
-        'AI-driven content compression',
-        'blasphemous search strategy',
-        'adversarial system probing',
-        'semantic horror art framework',
-        'LLM-enhanced metadata extraction'
-    ]
+        'grotesque art content strategy',
+        'artistic niche development',
+        'dark surrealism',
+        'horror art direction',
+        'Seer-Clown archetype',
+        'grotesque symbolism',
+        'creative identity system',
+        'ritual horror',
+        'hybrid video production',
+        'content strategy for artists'
+    ],
+    alternates: {
+        canonical: '/content-strategy',
+    },
 };
 
 const sectionDefs = [

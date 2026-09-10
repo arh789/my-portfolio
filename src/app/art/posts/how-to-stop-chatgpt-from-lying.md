@@ -22,8 +22,6 @@ tags:
   - how-to-stop-chatgpt-from-lying-video
 ---
 
-# How to Stop ChatGPT From Lying
-
 {{ youtube id="w5iA5YQ5XlY" title="How to Stop ChatGPT From Lying" }}
 
 So to get back to where we started, how do we stop ChatGPT from lying?

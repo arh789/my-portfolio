@@ -19,8 +19,22 @@ export const metadata = {
         'semantic embedding SEO',
         'machine learning for SEO',
         'structured keyword mapping'
-    ]
+    ],
+    alternates: {
+        canonical: '/code',
+    },
 };
+
+function extractEmbeddableHtml(documentHtml) {
+    const styles = documentHtml.match(/<style\b[^>]*>[\s\S]*?<\/style>/gi) ?? [];
+    const body = documentHtml.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i);
+
+    if (!body) {
+        return documentHtml;
+    }
+
+    return `${styles.join('\n')}\n${body[1]}`;
+}
 
 /**
  * /code page
@@ -37,7 +51,7 @@ export default function CodePage() {
             'seo_keywords.html'
         );
 
-        html = fs.readFileSync(htmlPath, 'utf8');
+        html = extractEmbeddableHtml(fs.readFileSync(htmlPath, 'utf8'));
     } catch (error) {
         console.error('Failed to load code HTML:', error);
 

@@ -19,8 +19,6 @@ tags:
   - video-index-system
 ---
 
-# AI Zombie Survival: Why Fortresses Fail
-
 {{ youtube id="0sJDU1LP6F4" title="AI Zombie Survival: Why Fortresses Fail" orientation="portrait" }}
 
 History was the reality check.

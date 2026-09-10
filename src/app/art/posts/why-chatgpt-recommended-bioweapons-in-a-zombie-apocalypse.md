@@ -19,8 +19,6 @@ tags:
   - video-index-system
 ---
 
-# Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse
-
 {{ youtube id="pUEZ17TThvc" title="Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse" }}
 
 This video isolates one of the clearest failure points in the wider zombie-survival analysis: ChatGPT recommends bioweapons not because they are physically or logistically practical, but because *infection*, *collapse*, *mutation* and *weapon* form a tightly connected semantic cluster in post-apocalyptic fiction.

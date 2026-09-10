@@ -14,8 +14,6 @@ tags:
   - research-methods
 ---
 
-# Python for NLP and Semantic SEO: A Practical Reference
-
 > **Source:** [decrepitfilth.art/code](https://decrepitfilth.art/code)  
 > **Author:** Andrew Hale  
 > **Type:** Jupyter notebook export (rendered as static HTML)  
