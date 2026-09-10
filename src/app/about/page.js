@@ -55,10 +55,6 @@ export default async function About() {
 
     return (
         <main className={`${fell.className} ${styles['about-page']}`}>
-            <h1 className={styles.srOnly}>
-                About — Recursive AI SEO Framework & Symbolic Content Architecture
-            </h1>
-
             <div className={styles['content-wrapper']}>
 
                 <div

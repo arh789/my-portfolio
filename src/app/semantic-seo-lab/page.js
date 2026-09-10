@@ -3,7 +3,7 @@ import styles from "./semanticSeoLab.module.css";
 
 const PART_C_HEADINGS = [
     {
-        level: 1,
+        level: 2,
         text: "Part C - Observed Search Outcome",
         slug: "part-c-observed-search-outcome",
     },
@@ -338,7 +338,7 @@ function PartCAnalyticsSnapshot() {
                 className={`${styles.cell} ${styles.markdownCell}`}
                 id="part-c-observed-search-outcome"
             >
-                <h1>Part C - Observed Search Outcome</h1>
+                <h2>Part C - Observed Search Outcome</h2>
                 <h2 id="part-c-1-initial-consolidation">
                     Part C.1 - Initial consolidation
                 </h2>
@@ -425,7 +425,7 @@ function PartCAnalyticsSnapshot() {
                 <ul>
                     <li>
                         <strong>Reliable association with three terms:</strong>{" "}
-                        Google already understood the site's semantic relevance.
+                        Google already understood the site&apos;s semantic relevance.
                         The problem was not discovery or topic recognition.
                     </li>
                     <li>

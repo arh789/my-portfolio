@@ -51,6 +51,16 @@ function displayHeadingText(text) {
     return uppercaseFirstLetter(stripped);
 }
 
+function normaliseHeadingLevel(level, text) {
+    const label = stripInlineMarkdown(text);
+
+    if (level === 1 && /^Part [AB]\b/i.test(label)) {
+        return 2;
+    }
+
+    return level;
+}
+
 function escapeHtml(text) {
     return text
         .replaceAll("&", "&amp;")
@@ -109,8 +119,8 @@ function getHeadings(markdown, slugify) {
             continue;
         }
 
-        const level = match[1].length;
         const rawText = match[2].trim();
+        const level = normaliseHeadingLevel(match[1].length, rawText);
         const text = displayHeadingText(rawText);
         headings.push({
             level,

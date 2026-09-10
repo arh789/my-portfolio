@@ -1,4 +1,4 @@
-# Workflow Structured Breakdown
+# Workflow Structure Breakdown
 
 ---
 
