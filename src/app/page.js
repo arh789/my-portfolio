@@ -150,6 +150,84 @@ function AgentNavigationIntroduction() {
     );
 }
 
+function GeminiExplanation() {
+    return (
+        <section className="gemini-explanation" aria-labelledby="gemini-explanation-heading">
+            <div className="gemini-explanation__inner">
+                <p className="gemini-explanation__eyebrow">
+                    So, you scrolled this far…
+                </p>
+                <h2 id="gemini-explanation-heading">
+                    Here’s How Gemini Explained Decrepit Filth to a Five-Year-Old
+                </h2>
+                <p className="gemini-explanation__introduction">
+                    I gave Gemini the agent prompt above, then asked it to explain the
+                    site to a five-year-old. This is its response, reproduced verbatim.
+                </p>
+
+                <blockquote className="gemini-explanation__quote">
+                    <p>Imagine you built a big, beautiful castle made of toy blocks.</p>
+
+                    <p>
+                        Normally, when a friendly robot comes by to look at your castle,
+                        it just grabs one single block, runs away, and tells everyone,{' '}
+                        <em>&quot;I know all about the castle now!&quot;</em> But when it takes
+                        just one block, it misses how cool the whole castle is.
+                    </p>
+
+                    <p>
+                        <strong>Decrepit Filth</strong> is like a secret trick for building
+                        castles:
+                    </p>
+
+                    <ol>
+                        <li>
+                            <strong>Connecting the Blocks:</strong> Instead of letting the
+                            robot steal just one block, all the blocks on this website are
+                            tied together with strong, invisible strings. If the robot wants
+                            to look at one block, it has to look at the whole castle!
+                        </li>
+                        <li>
+                            <strong>Spooky Art Test:</strong> The website uses pictures of
+                            funny, spooky monsters and clowns. Spooky monsters are tricky to
+                            explain, so the website uses them to test if the robot is actually
+                            smart enough to understand hard things.
+                        </li>
+                        <li>
+                            <strong>The Blueprint:</strong> The site leaves a special
+                            instruction map (called code) that shows the robot exactly how
+                            every block connects to the next one.
+                        </li>
+                    </ol>
+
+                    <p>
+                        So, the site is teaching people how to build websites so smart and
+                        connected that robots can&apos;t break them apart or forget where they
+                        came from!
+                    </p>
+
+                    <hr />
+
+                    <p>Which part of the castle would you like to see next?</p>
+
+                    <ul>
+                        <li>
+                            The <strong>spooky pictures</strong> and monsters?
+                        </li>
+                        <li>
+                            The <strong>computer code</strong> that acts like the invisible
+                            strings?
+                        </li>
+                        <li>
+                            The <strong>robot-testing</strong> ideas?
+                        </li>
+                    </ul>
+                </blockquote>
+            </div>
+        </section>
+    );
+}
+
 export default function Home() {
     return (
         <main>
@@ -174,6 +252,8 @@ export default function Home() {
             <AgentNavigationIntroduction />
 
             <BannersContainer />
+
+            <GeminiExplanation />
         </main>
     );
 }
