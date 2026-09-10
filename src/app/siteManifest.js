@@ -8,7 +8,7 @@ export const STATIC_SITE_PAGES = [
         title: "Decrepit Filth",
         summary:
             "Entry point to a grotesque art archive and semantic testbed connecting AI research, Semantic SEO, code, content strategy and machine-readable site structure.",
-        lastModified: "2026-09-10",
+        lastModified: "2026-09-11",
         priority: 1,
     },
     {

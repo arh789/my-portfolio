@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-09-10T22:09:39.018Z",
+  "generatedAt": "2026-09-10T22:51:20.829Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -72,7 +72,7 @@
         "canonical": "https://decrepitfilth.art/",
         "includeInSitemap": true,
         "priority": 1,
-        "lastModified": "2026-09-10"
+        "lastModified": "2026-09-11"
       },
       "questionsAnswered": [
         "What subjects and formats does the site connect?",
@@ -4377,7 +4377,7 @@
         "key": "id",
         "value": "home"
       },
-      "lastModified": "2026-09-10",
+      "lastModified": "2026-09-11",
       "priority": 1
     },
     {
