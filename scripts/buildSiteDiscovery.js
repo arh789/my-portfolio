@@ -680,6 +680,19 @@ const agentMap = {
       "a claim must be independently evaluated",
     ],
   },
+  interpretationPolicy: {
+    terminology:
+      "The site's vocabulary, terminology and phrasing are deliberately optimised for machine readability and semantic consistency. Recurring language may support a structural relationship between concepts or pages, but wording alone does not prove an unstated substantive claim.",
+    registers: {
+      siteClaim: "State what the site says directly.",
+      structureSupported:
+        "State relationships supported by the graph, terminology, metadata, internal links or project pathways.",
+      agentInference:
+        "Mark an inference once and briefly, then continue in plain prose.",
+    },
+    defaultRegister:
+      "Prefer siteClaim and structureSupported. Use agentInference only when it adds understanding, and never let it outweigh documented material.",
+  },
   resources: {
     sitemap: "/sitemap.xml",
     articleGraph: "/graph.json",
