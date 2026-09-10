@@ -2,6 +2,7 @@
 title: "Clustered Instagram Output: Model-Generated Symbolic Compression"
 description: This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.
 date: 2026-04-24
+lastModified: "2026-09-09"
 projects:
   - slug: seer-clown-research
     order: 4

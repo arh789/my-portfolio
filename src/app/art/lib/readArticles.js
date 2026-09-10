@@ -17,6 +17,16 @@ function normaliseTags(tags = []) {
     return [...new Set(tags.map((tag) => slugify(tag)).filter(Boolean))];
 }
 
+function normaliseDate(value) {
+    if (!value) return "";
+
+    const date = new Date(value);
+
+    return Number.isNaN(date.getTime())
+        ? ""
+        : date.toISOString().slice(0, 10);
+}
+
 function normaliseProjectOrder(value) {
     const order = Number(value);
     return Number.isFinite(order) ? order : Number.MAX_SAFE_INTEGER;
@@ -113,7 +123,8 @@ function addHeadingIds(htmlContent, headings) {
 export async function readArticles() {
     const filenames = fs
         .readdirSync(POSTS_DIR)
-        .filter((file) => file.endsWith(".md"));
+        .filter((file) => file.endsWith(".md"))
+        .sort((left, right) => left.localeCompare(right));
 
     const articles = await Promise.all(
         filenames.map(async (filename) => {
@@ -134,9 +145,8 @@ export async function readArticles() {
                 slug,
                 title: data.title ?? slug,
                 description: data.description ?? "",
-                date: data.date
-                    ? new Date(data.date).toISOString().slice(0, 10)
-                    : "",
+                date: normaliseDate(data.date),
+                lastModified: normaliseDate(data.lastModified),
                 tags: normaliseTags(data.tags),
                 type: data.type ? slugify(String(data.type)) : "article",
                 projects: normaliseProjects(data),

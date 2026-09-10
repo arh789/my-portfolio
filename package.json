@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "buildGraph": "node scripts/buildBlogGraph.js",
-    "build": "npm run buildGraph && next build",
+    "buildDiscovery": "node scripts/buildSiteDiscovery.js",
+    "buildGraph": "npm run buildDiscovery",
+    "build": "npm run buildDiscovery && next build",
     "start": "next start",
     "lint": "next lint"
   },

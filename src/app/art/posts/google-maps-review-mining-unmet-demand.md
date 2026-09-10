@@ -2,6 +2,7 @@
 title: "Mining Google Maps Reviews for Unmet Customer Demand"
 description: "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis."
 date: "2026-06-16"
+lastModified: "2026-09-10"
 tags:
   - semantic-research-pipeline
   - review-mining

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T05:17:12.393Z",
+  "generatedAt": "2026-09-10T09:56:45.769Z",
   "articles": [
     {
       "slug": "tiktok-video-analysis-with-python",
@@ -1548,6 +1548,18 @@
         ]
       },
       {
+        "slug": "who-benefits-most-from-this-system",
+        "title": "Who This Semantic SEO System Is For—and Why",
+        "description": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
+        "date": "2026-04-25",
+        "tags": [
+          "creative-search-system",
+          "strategic-positioning",
+          "independent-operators",
+          "search-and-discovery-systems"
+        ]
+      },
+      {
         "slug": "semantic-seo-begins-before-optimisation",
         "title": "Semantic SEO Begins Before Optimisation",
         "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
@@ -1644,13 +1656,14 @@
       },
       {
         "slug": "who-benefits-most-from-this-system",
-        "title": "Who Benefits Most From This System",
-        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+        "title": "Who This Semantic SEO System Is For—and Why",
+        "description": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
         "date": "2026-04-25",
         "tags": [
           "creative-search-system",
           "strategic-positioning",
-          "independent-operators"
+          "independent-operators",
+          "search-and-discovery-systems"
         ]
       },
       {
@@ -3469,13 +3482,14 @@
       },
       {
         "slug": "who-benefits-most-from-this-system",
-        "title": "Who Benefits Most From This System",
-        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+        "title": "Who This Semantic SEO System Is For—and Why",
+        "description": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
         "date": "2026-04-25",
         "tags": [
           "creative-search-system",
           "strategic-positioning",
-          "independent-operators"
+          "independent-operators",
+          "search-and-discovery-systems"
         ]
       }
     ],
@@ -4065,13 +4079,14 @@
     "independent-operators": [
       {
         "slug": "who-benefits-most-from-this-system",
-        "title": "Who Benefits Most From This System",
-        "description": "This analysis identifies the users who benefit most from a structural semantic mapping pipeline, focusing on low-authority operators, advanced SEO strategists, research-oriented content systems, and artists working in emerging conceptual spaces.",
+        "title": "Who This Semantic SEO System Is For—and Why",
+        "description": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
         "date": "2026-04-25",
         "tags": [
           "creative-search-system",
           "strategic-positioning",
-          "independent-operators"
+          "independent-operators",
+          "search-and-discovery-systems"
         ]
       }
     ],
@@ -4468,11 +4483,11 @@
       "count": 10
     },
     {
-      "tag": "llm-failure-analysis",
-      "count": 8
+      "tag": "search-and-discovery-systems",
+      "count": 9
     },
     {
-      "tag": "search-and-discovery-systems",
+      "tag": "llm-failure-analysis",
       "count": 8
     },
     {
@@ -5797,7 +5812,7 @@
           "search-and-discovery-systems",
           "creative-search-system"
         ],
-        "centrality": 39
+        "centrality": 40
       },
       {
         "id": "tiktok-zombie-survival-series",
@@ -5903,7 +5918,7 @@
           "search-and-discovery-systems",
           "ai-search"
         ],
-        "centrality": 29
+        "centrality": 30
       },
       {
         "id": "ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -6076,7 +6091,7 @@
           "ai-search",
           "discovery-systems-map"
         ],
-        "centrality": 19
+        "centrality": 20
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -6089,7 +6104,7 @@
           "semantic-archive",
           "discovery-systems-map"
         ],
-        "centrality": 21
+        "centrality": 22
       },
       {
         "id": "python-nlp-semantic-seo",
@@ -6142,22 +6157,23 @@
           "discovery-systems-map",
           "research-methods"
         ],
-        "centrality": 30
+        "centrality": 31
       },
       {
         "id": "who-benefits-most-from-this-system",
-        "label": "Who Benefits Most From This System",
+        "label": "Who This Semantic SEO System Is For—and Why",
         "type": "article",
         "tags": [
           "creative-search-system",
           "strategic-positioning",
-          "independent-operators"
+          "independent-operators",
+          "search-and-discovery-systems"
         ],
-        "centrality": 6
+        "centrality": 14
       },
       {
         "id": "clustered-output-instagram-dataset",
-        "label": "Clustered Output (Dataset)",
+        "label": "Clustered Instagram Output: Model-Generated Symbolic Compression",
         "type": "article",
         "tags": [
           "aesthetic-research-system",
@@ -6339,7 +6355,7 @@
           "structural-legibility",
           "discovery-systems-map"
         ],
-        "centrality": 21
+        "centrality": 22
       },
       {
         "id": "seo-visibility-structural-legibility",
@@ -6350,7 +6366,7 @@
           "structural-legibility",
           "discovery-systems-map"
         ],
-        "centrality": 15
+        "centrality": 16
       },
       {
         "id": "visibility-under-hostile-conditions",
@@ -6361,7 +6377,7 @@
           "hostile-visibility",
           "discovery-systems-map"
         ],
-        "centrality": 13
+        "centrality": 14
       }
     ],
     "edges": [
@@ -6508,8 +6524,9 @@
       {
         "source": "tiktok-video-analysis-with-python",
         "target": "who-benefits-most-from-this-system",
-        "weight": 1,
+        "weight": 2,
         "tags": [
+          "search-and-discovery-systems",
           "creative-search-system"
         ]
       },
@@ -7362,6 +7379,14 @@
       },
       {
         "source": "ai-visibility-is-not-value",
+        "target": "who-benefits-most-from-this-system",
+        "weight": 1,
+        "tags": [
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "ai-visibility-is-not-value",
         "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
@@ -8043,6 +8068,14 @@
       },
       {
         "source": "how-search-and-recommendation-systems-actually-work",
+        "target": "who-benefits-most-from-this-system",
+        "weight": 1,
+        "tags": [
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "how-search-and-recommendation-systems-actually-work",
         "target": "maximising-artistic-identity",
         "weight": 1,
         "tags": [
@@ -8092,8 +8125,9 @@
       {
         "source": "semantic-seo-is-graph-positioning",
         "target": "who-benefits-most-from-this-system",
-        "weight": 1,
+        "weight": 2,
         "tags": [
+          "search-and-discovery-systems",
           "creative-search-system"
         ]
       },
@@ -8241,6 +8275,14 @@
       },
       {
         "source": "research-pipeline",
+        "target": "who-benefits-most-from-this-system",
+        "weight": 1,
+        "tags": [
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "research-pipeline",
         "target": "clustered-output-instagram-dataset",
         "weight": 3,
         "tags": [
@@ -8289,9 +8331,26 @@
       {
         "source": "who-benefits-most-from-this-system",
         "target": "semantic-seo-begins-before-optimisation",
+        "weight": 2,
+        "tags": [
+          "creative-search-system",
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "who-benefits-most-from-this-system",
+        "target": "seo-visibility-structural-legibility",
         "weight": 1,
         "tags": [
-          "creative-search-system"
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "source": "who-benefits-most-from-this-system",
+        "target": "visibility-under-hostile-conditions",
+        "weight": 1,
+        "tags": [
+          "search-and-discovery-systems"
         ]
       },
       {

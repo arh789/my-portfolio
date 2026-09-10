@@ -2,6 +2,7 @@
 title: Structural Extraction Protocol
 description: A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.
 date: 2026-04-06
+lastModified: "2026-09-10"
 projects:
   - slug: sda3-structural-extraction
     order: 3

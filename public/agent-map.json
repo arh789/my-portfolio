@@ -1,0 +1,1090 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-10T09:56:45.769Z",
+  "site": {
+    "name": "Decrepit Filth",
+    "url": "https://decrepitfilth.art",
+    "scope": "Grotesque art, Semantic SEO, AI visibility, structural analysis, code and content strategy."
+  },
+  "agentInstructions": {
+    "default": "Use this file for site orientation, compressed core-page content and URL discovery before fetching HTML.",
+    "articleDiscovery": "Use graph.json for article metadata, tags, projects and graph relationships.",
+    "fetchSourceWhen": [
+      "verbatim wording or quotations are required",
+      "implementation details or code are required",
+      "an individual article's full argument is required",
+      "a claim must be independently evaluated"
+    ]
+  },
+  "resources": {
+    "sitemap": "/sitemap.xml",
+    "articleGraph": "/graph.json",
+    "pageMap": "/agent-map.json"
+  },
+  "claimStatus": {
+    "site-thesis": "The site's declared conceptual position.",
+    "author-argument": "An interpretation argued by the author.",
+    "implementation": "A capability represented in the published code.",
+    "observation": "A result reported from recorded data.",
+    "editorial-strategy": "A recommended creative or publishing direction.",
+    "navigation": "A description of site structure rather than a substantive claim."
+  },
+  "counts": {
+    "corePages": 10,
+    "articles": 44,
+    "projects": 5,
+    "indexedUrls": 59
+  },
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "kind": "entry-point",
+      "title": "Decrepit Filth",
+      "summary": "Entry point to a grotesque art archive and semantic testbed connecting AI research, Semantic SEO, code, content strategy and machine-readable site structure.",
+      "url": "https://decrepitfilth.art/",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/",
+        "includeInSitemap": true,
+        "priority": 1,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "What subjects and formats does the site connect?",
+        "Where should a human or agent begin?",
+        "Which machine-readable discovery files are available?"
+      ],
+      "content": {
+        "purpose": "Orient readers and agents, expose the site's main conceptual regions, and provide a prompt for constructing interest-specific reading paths.",
+        "regions": [
+          "site thesis",
+          "hidden-structure framework",
+          "research workflow",
+          "code implementation",
+          "Semantic SEO evidence",
+          "LLM output analysis",
+          "creative strategy",
+          "article archive"
+        ]
+      },
+      "limitations": [
+        "The homepage is an entry point; substantive claims belong to the linked pages and articles."
+      ],
+      "agentUse": {
+        "role": "Start here only when human-facing orientation is needed.",
+        "sourceFetchUsuallyRequired": false
+      }
+    },
+    {
+      "id": "about",
+      "path": "/about",
+      "kind": "orientation",
+      "title": "What is Decrepit Filth?",
+      "summary": "Defines Decrepit Filth as a self-describing semantic system in which grotesque art, AI research, Semantic SEO, content strategy and archiving operate as one structural experiment.",
+      "url": "https://decrepitfilth.art/about",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/about",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "What is Decrepit Filth?",
+        "Who is the site for?",
+        "How do its art, research, code and strategy connect?"
+      ],
+      "content": {
+        "claims": [
+          {
+            "status": "site-thesis",
+            "text": "The site is not primarily a portfolio, blog or SEO resource; it is a system designed to describe and reinforce its own semantic structure."
+          },
+          {
+            "status": "author-argument",
+            "text": "Grotesque surreal art is a useful stress test because it is visually dense, semantically unstable and difficult for platforms to classify."
+          },
+          {
+            "status": "site-thesis",
+            "text": "The long-term objective is not visibility alone but an archive whose internal structure resists external flattening."
+          }
+        ],
+        "systemLoop": [
+          "ambiguous grotesque art",
+          "structural research",
+          "content strategy",
+          "archive construction",
+          "machine-readable representation",
+          "visibility pressure",
+          "platform capture",
+          "stronger archive"
+        ],
+        "audience": [
+          "independent creators",
+          "niche publishers",
+          "research-led operators",
+          "artists whose work is difficult to classify"
+        ]
+      },
+      "limitations": [
+        "This is the site's orientation and thesis page, not independent empirical validation."
+      ],
+      "agentUse": {
+        "role": "Read first for site-wide intent and vocabulary.",
+        "sourceFetchUsuallyRequired": false
+      }
+    },
+    {
+      "id": "hidden-structure",
+      "path": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+      "kind": "conceptual-framework",
+      "title": "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
+      "summary": "Explains how statistical, relational, semantic and human interpretation can be combined to recover structure hidden by compressed representations.",
+      "url": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": null
+      },
+      "questionsAnswered": [
+        "What structure gets lost when reality is converted into data?",
+        "Why are deep learning, network analysis and LLMs complementary?",
+        "Why is human interpretation still required?"
+      ],
+      "content": {
+        "framework": [
+          {
+            "system": "deep-learning",
+            "function": "detect statistical regularity",
+            "question": "What patterns exist?",
+            "blindSpot": "absence and significance"
+          },
+          {
+            "system": "network-analysis",
+            "function": "detect relational and missing structure",
+            "question": "What structure is present or absent?",
+            "blindSpot": "meaning"
+          },
+          {
+            "system": "llm",
+            "function": "interpret and express semantic structure",
+            "question": "How can the structure be explained?",
+            "blindSpot": "value selection and reliable truth assessment"
+          },
+          {
+            "system": "human",
+            "function": "judge importance and consequences",
+            "question": "Which structure matters?",
+            "blindSpot": "scale and consistency"
+          }
+        ],
+        "claims": [
+          {
+            "status": "author-argument",
+            "text": "Many systems act on representations of reality rather than reality itself."
+          },
+          {
+            "status": "author-argument",
+            "text": "Deep learning, graph analysis, LLM interpretation and human judgment are compensatory rather than interchangeable."
+          }
+        ]
+      },
+      "limitations": [
+        "The framework is conceptual and does not establish that every hidden relationship is meaningful.",
+        "LLM explanations remain interpretations of observed representations rather than access to model internals."
+      ],
+      "agentUse": {
+        "role": "Conceptual explanation connecting the site's research methods.",
+        "sourceFetchUsuallyRequired": false
+      }
+    },
+    {
+      "id": "workflow-structure-breakdown",
+      "path": "/workflow-structure-breakdown",
+      "kind": "methodology",
+      "title": "Workflow Structure Breakdown",
+      "summary": "Documents a bottom-up workflow moving from search-result collection through semantic reduction, graph analysis and human-supervised interpretation.",
+      "url": "https://decrepitfilth.art/workflow-structure-breakdown",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/workflow-structure-breakdown",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "How is the research pipeline structured?",
+        "What happens at each processing stage?",
+        "How does it differ from seed-keyword research?"
+      ],
+      "content": {
+        "pipeline": [
+          "query-driven data acquisition",
+          "content harvesting and structural extraction",
+          "summarisation and noise reduction",
+          "keyword and keyphrase extraction",
+          "visualisation and relational analysis",
+          "Apriori association-rule discovery",
+          "interactive analysis and manual override"
+        ],
+        "claims": [
+          {
+            "status": "author-argument",
+            "text": "Beginning with collected evidence can reduce the input bias introduced by manually selected seed keywords."
+          },
+          {
+            "status": "author-argument",
+            "text": "Relational analysis can reveal contextual associations that flat keyword lists obscure."
+          }
+        ],
+        "outputs": [
+          "cleaned source corpus",
+          "semantic terms and phrases",
+          "concept networks",
+          "association rules",
+          "human-reviewed strategic findings"
+        ]
+      },
+      "limitations": [
+        "The workflow does not independently provide search volume, advertising cost or commercial competition data.",
+        "It is best used as a research layer alongside conventional search tools."
+      ],
+      "agentUse": {
+        "role": "Authoritative sequence of the site's research methodology.",
+        "sourceFetchUsuallyRequired": false
+      }
+    },
+    {
+      "id": "code",
+      "path": "/code",
+      "kind": "code-notebook",
+      "title": "SEO Python Codebase",
+      "summary": "Static notebook export implementing the site's recursive SEO, NLP, keyword extraction, clustering, association and graph-analysis workflow.",
+      "url": "https://decrepitfilth.art/code",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/code",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "How is the research workflow implemented?",
+        "Which Python methods and libraries are involved?",
+        "How are documents converted into semantic structures?"
+      ],
+      "content": {
+        "artifact": {
+          "format": "static Jupyter notebook HTML",
+          "interactiveExecution": false
+        },
+        "methods": [
+          "Google Custom Search collection",
+          "robots handling",
+          "HTML and text extraction",
+          "transformer-based language processing",
+          "KeyBERT keyword extraction",
+          "word-frequency analysis",
+          "semantic clustering",
+          "NetworkX graph analysis",
+          "Apriori association discovery"
+        ],
+        "claims": [
+          {
+            "status": "implementation",
+            "text": "The notebook contains the implementation layer used by the site's research and content-strategy workflow."
+          }
+        ]
+      },
+      "limitations": [
+        "The published page is a static export rather than a hosted execution environment.",
+        "Reproduction may require external APIs, Python dependencies and source data.",
+        "Fetch the source page when exact functions or code are required."
+      ],
+      "agentUse": {
+        "role": "Implementation reference.",
+        "sourceFetchUsuallyRequired": true
+      }
+    },
+    {
+      "id": "semantic-seo-lab",
+      "path": "/semantic-seo-lab",
+      "kind": "research-notebook",
+      "title": "Semantic SEO With Python: An Agent-Run, Human-Supervised Research Notebook",
+      "summary": "Tests whether Python-generated SEO representations remain usable when classical NLP, graph analysis, agent interpretation and human correction are combined.",
+      "url": "https://decrepitfilth.art/semantic-seo-lab",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/semantic-seo-lab",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "Can semantic SEO representations be made operational?",
+        "What do classical NLP and graph methods reveal?",
+        "How should agent interpretations be supervised?",
+        "What search changes were observed after publication?"
+      ],
+      "content": {
+        "researchParts": [
+          {
+            "name": "classical-methods",
+            "methods": [
+              "TF-IDF",
+              "c-TF-IDF",
+              "NetworkX",
+              "Louvain communities",
+              "BERT",
+              "RoBERTa",
+              "KMeans",
+              "HDBSCAN and BERTopic-style clustering"
+            ]
+          },
+          {
+            "name": "agent-supervised-interpretation",
+            "methods": [
+              "graph interrogation",
+              "evidence/inference separation",
+              "human correction trail"
+            ]
+          },
+          {
+            "name": "search-observation",
+            "source": "Google Search Console",
+            "periodEnd": "2026-09-01"
+          }
+        ],
+        "observations": [
+          {
+            "status": "observation",
+            "metric": "site-impressions",
+            "before": 190,
+            "after": 365,
+            "changePercent": 92
+          },
+          {
+            "status": "observation",
+            "page": "/art/python-nlp-semantic-seo",
+            "impressionsBefore": 4,
+            "impressionsAfter": 161
+          },
+          {
+            "status": "observation",
+            "page": "/semantic-seo-lab",
+            "impressionsBefore": 131,
+            "impressionsAfter": 180
+          },
+          {
+            "status": "observation",
+            "metric": "site-clicks",
+            "before": 0,
+            "after": 0
+          }
+        ],
+        "interpretation": "The recorded change is consistent with incremental visibility and query-page specialisation: the lab became the stronger conceptual destination while the practical article remained better aligned with procedural queries."
+      },
+      "limitations": [
+        "The observations are not a controlled experiment and do not establish causality.",
+        "Search Console data cannot reveal Google's internal ranking process.",
+        "No clicks were recorded, so the evidence supports visibility rather than engagement or user value."
+      ],
+      "agentUse": {
+        "role": "Primary evidence page for the site's Semantic SEO research.",
+        "sourceFetchUsuallyRequired": false
+      }
+    },
+    {
+      "id": "datamining-llm",
+      "path": "/datamining-llm",
+      "kind": "methodological-doctrine",
+      "title": "Data-Mining an LLM: Emergent Structural Mapping",
+      "summary": "Presents a method for converting recorded LLM outputs into inspectable semantic systems and studying what survives, weakens, disappears or becomes distorted under prompting pressure.",
+      "url": "https://decrepitfilth.art/datamining-llm",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/datamining-llm",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "What can repeated LLM outputs reveal?",
+        "How can outputs be converted into symbolic structures?",
+        "How are omissions, contradictions and collapses interrogated?"
+      ],
+      "content": {
+        "sections": [
+          "introduction",
+          "Emergent Structural Mapping doctrine",
+          "methodology pipeline",
+          "symbolic engine schema",
+          "implementation example",
+          "SEM execution system",
+          "full thread archive reference",
+          "conclusion and next steps"
+        ],
+        "pipeline": [
+          "prompt initiation",
+          "surface-output capture",
+          "semantic-network construction",
+          "emergent structural mapping",
+          "collapse interrogation",
+          "recursive audit",
+          "recursive recompression",
+          "strategic output"
+        ],
+        "claims": [
+          {
+            "status": "author-argument",
+            "text": "Repeated LLM outputs can be treated as artifacts whose persistent relations, omissions and distortions can be mapped."
+          },
+          {
+            "status": "author-argument",
+            "text": "Contradiction and recursive questioning can expose structural weaknesses hidden by fluent surface responses."
+          }
+        ],
+        "corePrinciple": "Treat outputs as artifacts under pressure: identify what survives, compress it and build with it."
+      },
+      "limitations": [
+        "The method analyses recorded outputs, not hidden model weights, activations or direct internal reasoning.",
+        "Results depend on prompts, sampling conditions and the selected output archive.",
+        "Persistent output patterns should not automatically be treated as empirical truth."
+      ],
+      "agentUse": {
+        "role": "LLM-analysis doctrine and symbolic extraction terminology.",
+        "sourceFetchUsuallyRequired": false
+      }
+    },
+    {
+      "id": "content-strategy",
+      "path": "/content-strategy",
+      "kind": "editorial-strategy",
+      "title": "Content Strategy: Grotesque Art and the Seer-Clown",
+      "summary": "Translates clustered research into a creative niche, symbolic vocabulary and hybrid practical-digital production strategy centred on the Seer-Clown archetype.",
+      "url": "https://decrepitfilth.art/content-strategy",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/content-strategy",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "What niche should the artistic project occupy?",
+        "Which themes recur in the research?",
+        "What is the Seer-Clown?",
+        "How should the work be produced?"
+      ],
+      "content": {
+        "evidenceBasis": [
+          "clustered Instagram material",
+          "Python Semantic SEO processing",
+          "keyword and association analysis",
+          "human strategic interpretation"
+        ],
+        "positioning": "Blasphemous pop-surrealist horror with theatrical grotesque aesthetics.",
+        "archetype": {
+          "name": "Seer-Clown",
+          "roles": [
+            "prophet",
+            "fool",
+            "tragic jester",
+            "rejected oracle",
+            "truth-teller mistaken for an idiot"
+          ]
+        },
+        "themes": [
+          "decay and ruined grandeur",
+          "masks and unstable identity",
+          "sacred glyphs and corrupted ritual",
+          "clowns, dolls and puppetry",
+          "digital decay and glitch",
+          "cosmic collapse",
+          "uncanny theatre"
+        ],
+        "production": [
+          "airbrush and practical painting",
+          "stop motion",
+          "mixed media",
+          "After Effects compositing",
+          "Houdini effects",
+          "glitch and datamosh processes",
+          "short looping video"
+        ],
+        "claims": [
+          {
+            "status": "editorial-strategy",
+            "text": "The strongest differentiated niche combines grotesque theatrical imagery, decaying sacred symbolism and the Seer-Clown archetype."
+          }
+        ]
+      },
+      "limitations": [
+        "The strategy is a human interpretation of the research corpus, not proof of universal audience preference.",
+        "Creative positioning should evolve when new work or evidence contradicts the current clusters."
+      ],
+      "agentUse": {
+        "role": "Authoritative creative and editorial direction for the project.",
+        "sourceFetchUsuallyRequired": false
+      }
+    },
+    {
+      "id": "art",
+      "path": "/art",
+      "kind": "archive-hub",
+      "title": "Art and Research Concept Hub",
+      "summary": "Navigation hub representing the article archive as a concept network built from shared tags, guided project pathways and individual article records.",
+      "url": "https://decrepitfilth.art/art",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/art",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "What has been published?",
+        "Which articles share concepts?",
+        "Which guided pathways connect related investigations?"
+      ],
+      "content": {
+        "generatedFrom": "/graph.json",
+        "navigationModes": [
+          "interactive concept graph",
+          "guided project pathways",
+          "tag index",
+          "article links"
+        ],
+        "claims": [
+          {
+            "status": "navigation",
+            "text": "Graph connections indicate shared assigned tags between articles."
+          }
+        ]
+      },
+      "limitations": [
+        "A graph edge represents shared taxonomy, not causality, agreement or independently measured semantic similarity.",
+        "Article-level content remains in graph.json and the source Markdown files."
+      ],
+      "agentUse": {
+        "role": "Use graph.json for article discovery; use this record to understand the archive hub.",
+        "sourceFetchUsuallyRequired": false
+      }
+    },
+    {
+      "id": "contact",
+      "path": "/contact",
+      "kind": "utility",
+      "title": "Contact Andrew Hale",
+      "summary": "Contact form for enquiries about Decrepit Filth, grotesque art, Semantic SEO, AI research and related projects.",
+      "url": "https://decrepitfilth.art/contact",
+      "indexing": {
+        "canonical": "https://decrepitfilth.art/contact",
+        "includeInSitemap": true,
+        "priority": 0.8,
+        "lastModified": "2026-09-10"
+      },
+      "questionsAnswered": [
+        "How can Andrew Hale be contacted about the site or related work?"
+      ],
+      "content": {
+        "purpose": "contact",
+        "acceptedFields": [
+          "email",
+          "message"
+        ],
+        "delivery": "Formspree",
+        "topics": [
+          "grotesque art",
+          "Semantic SEO",
+          "AI research",
+          "project enquiries"
+        ]
+      },
+      "limitations": [
+        "Utility page with no substantive research claims.",
+        "An agent must not submit the form without explicit user authorisation."
+      ],
+      "agentUse": {
+        "role": "Contact endpoint only.",
+        "sourceFetchUsuallyRequired": false
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": "about",
+      "type": "demonstrated-by",
+      "to": "semantic-seo-lab"
+    },
+    {
+      "from": "about",
+      "type": "expressed-through",
+      "to": "art"
+    },
+    {
+      "from": "hidden-structure",
+      "type": "operationalised-by",
+      "to": "workflow-structure-breakdown"
+    },
+    {
+      "from": "hidden-structure",
+      "type": "implemented-by",
+      "to": "code"
+    },
+    {
+      "from": "hidden-structure",
+      "type": "extended-by",
+      "to": "datamining-llm"
+    },
+    {
+      "from": "workflow-structure-breakdown",
+      "type": "implemented-by",
+      "to": "code"
+    },
+    {
+      "from": "workflow-structure-breakdown",
+      "type": "tested-by",
+      "to": "semantic-seo-lab"
+    },
+    {
+      "from": "workflow-structure-breakdown",
+      "type": "produces-input-for",
+      "to": "content-strategy"
+    },
+    {
+      "from": "code",
+      "type": "supports",
+      "to": "content-strategy"
+    },
+    {
+      "from": "content-strategy",
+      "type": "organises",
+      "to": "art"
+    },
+    {
+      "from": "art",
+      "type": "detailed-by",
+      "to": "/graph.json"
+    }
+  ],
+  "urlIndex": [
+    {
+      "path": "/",
+      "url": "https://decrepitfilth.art/",
+      "kind": "entry-point",
+      "source": "/agent-map.json#pages/home",
+      "lastModified": "2026-09-10",
+      "priority": 1
+    },
+    {
+      "path": "/about",
+      "url": "https://decrepitfilth.art/about",
+      "kind": "orientation",
+      "source": "/agent-map.json#pages/about",
+      "lastModified": "2026-09-10",
+      "priority": 0.8
+    },
+    {
+      "path": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+      "url": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+      "kind": "conceptual-framework",
+      "source": "/agent-map.json#pages/hidden-structure",
+      "lastModified": null,
+      "priority": 0.8
+    },
+    {
+      "path": "/workflow-structure-breakdown",
+      "url": "https://decrepitfilth.art/workflow-structure-breakdown",
+      "kind": "methodology",
+      "source": "/agent-map.json#pages/workflow-structure-breakdown",
+      "lastModified": "2026-09-10",
+      "priority": 0.8
+    },
+    {
+      "path": "/code",
+      "url": "https://decrepitfilth.art/code",
+      "kind": "code-notebook",
+      "source": "/agent-map.json#pages/code",
+      "lastModified": "2026-09-10",
+      "priority": 0.8
+    },
+    {
+      "path": "/semantic-seo-lab",
+      "url": "https://decrepitfilth.art/semantic-seo-lab",
+      "kind": "research-notebook",
+      "source": "/agent-map.json#pages/semantic-seo-lab",
+      "lastModified": "2026-09-10",
+      "priority": 0.8
+    },
+    {
+      "path": "/datamining-llm",
+      "url": "https://decrepitfilth.art/datamining-llm",
+      "kind": "methodological-doctrine",
+      "source": "/agent-map.json#pages/datamining-llm",
+      "lastModified": "2026-09-10",
+      "priority": 0.8
+    },
+    {
+      "path": "/content-strategy",
+      "url": "https://decrepitfilth.art/content-strategy",
+      "kind": "editorial-strategy",
+      "source": "/agent-map.json#pages/content-strategy",
+      "lastModified": "2026-09-10",
+      "priority": 0.8
+    },
+    {
+      "path": "/art",
+      "url": "https://decrepitfilth.art/art",
+      "kind": "archive-hub",
+      "source": "/agent-map.json#pages/art",
+      "lastModified": "2026-09-10",
+      "priority": 0.8
+    },
+    {
+      "path": "/contact",
+      "url": "https://decrepitfilth.art/contact",
+      "kind": "utility",
+      "source": "/agent-map.json#pages/contact",
+      "lastModified": "2026-09-10",
+      "priority": 0.8
+    },
+    {
+      "path": "/art/tiktok-video-analysis-with-python",
+      "url": "https://decrepitfilth.art/art/tiktok-video-analysis-with-python",
+      "kind": "article",
+      "source": "/graph.json#articles/tiktok-video-analysis-with-python",
+      "lastModified": "2026-09-04"
+    },
+    {
+      "path": "/art/tiktok-zombie-survival-series",
+      "url": "https://decrepitfilth.art/art/tiktok-zombie-survival-series",
+      "kind": "article",
+      "source": "/graph.json#articles/tiktok-zombie-survival-series",
+      "lastModified": "2026-08-14"
+    },
+    {
+      "path": "/art/how-to-stop-chatgpt-from-lying",
+      "url": "https://decrepitfilth.art/art/how-to-stop-chatgpt-from-lying",
+      "kind": "article",
+      "source": "/graph.json#articles/how-to-stop-chatgpt-from-lying",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+      "url": "https://decrepitfilth.art/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+      "kind": "article",
+      "source": "/graph.json#articles/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/ai-zombie-survival-why-fortresses-fail",
+      "url": "https://decrepitfilth.art/art/ai-zombie-survival-why-fortresses-fail",
+      "kind": "article",
+      "source": "/graph.json#articles/ai-zombie-survival-why-fortresses-fail",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/the-zombie-survival-strategy-chatgpt-could-not-see",
+      "url": "https://decrepitfilth.art/art/the-zombie-survival-strategy-chatgpt-could-not-see",
+      "kind": "article",
+      "source": "/graph.json#articles/the-zombie-survival-strategy-chatgpt-could-not-see",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/ai-visibility-is-not-value",
+      "url": "https://decrepitfilth.art/art/ai-visibility-is-not-value",
+      "kind": "article",
+      "source": "/graph.json#articles/ai-visibility-is-not-value",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/ai-visibility-is-not-a-direct-optimisation-outcome",
+      "url": "https://decrepitfilth.art/art/ai-visibility-is-not-a-direct-optimisation-outcome",
+      "kind": "article",
+      "source": "/graph.json#articles/ai-visibility-is-not-a-direct-optimisation-outcome",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/source-eligibility-being-available-is-not-being-chosen",
+      "url": "https://decrepitfilth.art/art/source-eligibility-being-available-is-not-being-chosen",
+      "kind": "article",
+      "source": "/graph.json#articles/source-eligibility-being-available-is-not-being-chosen",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/ai-visibility-is-not-one-environment",
+      "url": "https://decrepitfilth.art/art/ai-visibility-is-not-one-environment",
+      "kind": "article",
+      "source": "/graph.json#articles/ai-visibility-is-not-one-environment",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/the-selection-gap",
+      "url": "https://decrepitfilth.art/art/the-selection-gap",
+      "kind": "article",
+      "source": "/graph.json#articles/the-selection-gap",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/selected-does-not-mean-cited",
+      "url": "https://decrepitfilth.art/art/selected-does-not-mean-cited",
+      "kind": "article",
+      "source": "/graph.json#articles/selected-does-not-mean-cited",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/ai-visibility-measurement-cannot-prove-value",
+      "url": "https://decrepitfilth.art/art/ai-visibility-measurement-cannot-prove-value",
+      "kind": "article",
+      "source": "/graph.json#articles/ai-visibility-measurement-cannot-prove-value",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/value-transfer-retention-and-platform-capture",
+      "url": "https://decrepitfilth.art/art/value-transfer-retention-and-platform-capture",
+      "kind": "article",
+      "source": "/graph.json#articles/value-transfer-retention-and-platform-capture",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/the-citable-hard-to-exhaust-archive",
+      "url": "https://decrepitfilth.art/art/the-citable-hard-to-exhaust-archive",
+      "kind": "article",
+      "source": "/graph.json#articles/the-citable-hard-to-exhaust-archive",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/representation-governance",
+      "url": "https://decrepitfilth.art/art/representation-governance",
+      "kind": "article",
+      "source": "/graph.json#articles/representation-governance",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/hidden-representations-without-hidden-layers",
+      "url": "https://decrepitfilth.art/art/hidden-representations-without-hidden-layers",
+      "kind": "article",
+      "source": "/graph.json#articles/hidden-representations-without-hidden-layers",
+      "lastModified": "2026-07-03"
+    },
+    {
+      "path": "/art/adversarial-questioning-chatgpt-zombie-survival",
+      "url": "https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival",
+      "kind": "article",
+      "source": "/graph.json#articles/adversarial-questioning-chatgpt-zombie-survival",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/google-maps-review-mining-unmet-demand",
+      "url": "https://decrepitfilth.art/art/google-maps-review-mining-unmet-demand",
+      "kind": "article",
+      "source": "/graph.json#articles/google-maps-review-mining-unmet-demand",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/ai-seo-strategy-why-your-creative-work-is-invisible",
+      "url": "https://decrepitfilth.art/art/ai-seo-strategy-why-your-creative-work-is-invisible",
+      "kind": "article",
+      "source": "/graph.json#articles/ai-seo-strategy-why-your-creative-work-is-invisible",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/from-seo-keywords-to-the-haunted-machine",
+      "url": "https://decrepitfilth.art/art/from-seo-keywords-to-the-haunted-machine",
+      "kind": "article",
+      "source": "/graph.json#articles/from-seo-keywords-to-the-haunted-machine",
+      "lastModified": "2026-09-09"
+    },
+    {
+      "path": "/art/how-search-and-recommendation-systems-actually-work",
+      "url": "https://decrepitfilth.art/art/how-search-and-recommendation-systems-actually-work",
+      "kind": "article",
+      "source": "/graph.json#articles/how-search-and-recommendation-systems-actually-work",
+      "lastModified": "2026-06-05"
+    },
+    {
+      "path": "/art/semantic-seo-is-graph-positioning",
+      "url": "https://decrepitfilth.art/art/semantic-seo-is-graph-positioning",
+      "kind": "article",
+      "source": "/graph.json#articles/semantic-seo-is-graph-positioning",
+      "lastModified": "2026-06-05"
+    },
+    {
+      "path": "/art/python-nlp-semantic-seo",
+      "url": "https://decrepitfilth.art/art/python-nlp-semantic-seo",
+      "kind": "article",
+      "source": "/graph.json#articles/python-nlp-semantic-seo",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
+      "url": "https://decrepitfilth.art/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
+      "kind": "article",
+      "source": "/graph.json#articles/semantic-seo-in-python-from-search-results-to-original-content-strategy",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/sda3-tldr",
+      "url": "https://decrepitfilth.art/art/sda3-tldr",
+      "kind": "article",
+      "source": "/graph.json#articles/sda3-tldr",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "path": "/art/research-pipeline",
+      "url": "https://decrepitfilth.art/art/research-pipeline",
+      "kind": "article",
+      "source": "/graph.json#articles/research-pipeline",
+      "lastModified": "2026-04-25"
+    },
+    {
+      "path": "/art/who-benefits-most-from-this-system",
+      "url": "https://decrepitfilth.art/art/who-benefits-most-from-this-system",
+      "kind": "article",
+      "source": "/graph.json#articles/who-benefits-most-from-this-system",
+      "lastModified": "2026-09-09"
+    },
+    {
+      "path": "/art/clustered-output-instagram-dataset",
+      "url": "https://decrepitfilth.art/art/clustered-output-instagram-dataset",
+      "kind": "article",
+      "source": "/graph.json#articles/clustered-output-instagram-dataset",
+      "lastModified": "2026-09-09"
+    },
+    {
+      "path": "/art/data-structure-intermediate-stage",
+      "url": "https://decrepitfilth.art/art/data-structure-intermediate-stage",
+      "kind": "article",
+      "source": "/graph.json#articles/data-structure-intermediate-stage",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "path": "/art/methodology-evaluation-and-validity",
+      "url": "https://decrepitfilth.art/art/methodology-evaluation-and-validity",
+      "kind": "article",
+      "source": "/graph.json#articles/methodology-evaluation-and-validity",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "path": "/art/seer-clown-research-process",
+      "url": "https://decrepitfilth.art/art/seer-clown-research-process",
+      "kind": "article",
+      "source": "/graph.json#articles/seer-clown-research-process",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "path": "/art/youtube-video-index",
+      "url": "https://decrepitfilth.art/art/youtube-video-index",
+      "kind": "article",
+      "source": "/graph.json#articles/youtube-video-index",
+      "lastModified": "2026-04-08"
+    },
+    {
+      "path": "/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+      "url": "https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+      "kind": "article",
+      "source": "/graph.json#articles/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+      "lastModified": "2026-04-08"
+    },
+    {
+      "path": "/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
+      "url": "https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
+      "kind": "article",
+      "source": "/graph.json#articles/sda-3-analysing-embedding-space-structure-in-large-language-models",
+      "lastModified": "2026-09-08"
+    },
+    {
+      "path": "/art/structural-extraction-protocol",
+      "url": "https://decrepitfilth.art/art/structural-extraction-protocol",
+      "kind": "article",
+      "source": "/graph.json#articles/structural-extraction-protocol",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/art-forms-with-high-audience-resonance",
+      "url": "https://decrepitfilth.art/art/art-forms-with-high-audience-resonance",
+      "kind": "article",
+      "source": "/graph.json#articles/art-forms-with-high-audience-resonance",
+      "lastModified": "2026-03-15"
+    },
+    {
+      "path": "/art/first-principles",
+      "url": "https://decrepitfilth.art/art/first-principles",
+      "kind": "article",
+      "source": "/graph.json#articles/first-principles",
+      "lastModified": "2026-03-15"
+    },
+    {
+      "path": "/art/gpt-misuse-is-not-what-people-think",
+      "url": "https://decrepitfilth.art/art/gpt-misuse-is-not-what-people-think",
+      "kind": "article",
+      "source": "/graph.json#articles/gpt-misuse-is-not-what-people-think",
+      "lastModified": "2026-03-15"
+    },
+    {
+      "path": "/art/maximising-artistic-identity",
+      "url": "https://decrepitfilth.art/art/maximising-artistic-identity",
+      "kind": "article",
+      "source": "/graph.json#articles/maximising-artistic-identity",
+      "lastModified": "2026-03-15"
+    },
+    {
+      "path": "/art/most-popular-art-mediums-based-on-the-datasets",
+      "url": "https://decrepitfilth.art/art/most-popular-art-mediums-based-on-the-datasets",
+      "kind": "article",
+      "source": "/graph.json#articles/most-popular-art-mediums-based-on-the-datasets",
+      "lastModified": "2026-03-15"
+    },
+    {
+      "path": "/art/semantic-seo-begins-before-optimisation",
+      "url": "https://decrepitfilth.art/art/semantic-seo-begins-before-optimisation",
+      "kind": "article",
+      "source": "/graph.json#articles/semantic-seo-begins-before-optimisation",
+      "lastModified": "2026-03-15"
+    },
+    {
+      "path": "/art/seo-visibility-structural-legibility",
+      "url": "https://decrepitfilth.art/art/seo-visibility-structural-legibility",
+      "kind": "article",
+      "source": "/graph.json#articles/seo-visibility-structural-legibility",
+      "lastModified": "2026-03-15"
+    },
+    {
+      "path": "/art/visibility-under-hostile-conditions",
+      "url": "https://decrepitfilth.art/art/visibility-under-hostile-conditions",
+      "kind": "article",
+      "source": "/graph.json#articles/visibility-under-hostile-conditions",
+      "lastModified": "2026-03-15"
+    },
+    {
+      "path": "/art/project/chatgpt-structural-failure",
+      "url": "https://decrepitfilth.art/art/project/chatgpt-structural-failure",
+      "kind": "project",
+      "source": "/graph.json#projects/chatgpt-structural-failure",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/project/ai-visibility-is-not-value",
+      "url": "https://decrepitfilth.art/art/project/ai-visibility-is-not-value",
+      "kind": "project",
+      "source": "/graph.json#projects/ai-visibility-is-not-value",
+      "lastModified": "2026-07-08"
+    },
+    {
+      "path": "/art/project/sda3-structural-extraction",
+      "url": "https://decrepitfilth.art/art/project/sda3-structural-extraction",
+      "kind": "project",
+      "source": "/graph.json#projects/sda3-structural-extraction",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/project/semantic-seo-graph-positioning",
+      "url": "https://decrepitfilth.art/art/project/semantic-seo-graph-positioning",
+      "kind": "project",
+      "source": "/graph.json#projects/semantic-seo-graph-positioning",
+      "lastModified": "2026-09-10"
+    },
+    {
+      "path": "/art/project/seer-clown-research",
+      "url": "https://decrepitfilth.art/art/project/seer-clown-research",
+      "kind": "project",
+      "source": "/graph.json#projects/seer-clown-research",
+      "lastModified": "2026-09-09"
+    }
+  ]
+}

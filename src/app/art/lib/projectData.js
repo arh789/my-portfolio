@@ -47,7 +47,7 @@ const PROJECT_DEFINITIONS = [
 ];
 
 function publicArticle(article) {
-    const { content, outline, ...metadata } = article;
+    const { content, outline, lastModified, ...metadata } = article;
     return metadata;
 }
 

@@ -2,6 +2,7 @@
 title: "Semantic SEO in Python: From Search Results to Original Content Strategy"
 description: "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation."
 date: "2026-05-25"
+lastModified: "2026-09-10"
 projects:
   - slug: semantic-seo-graph-positioning
     order: 20

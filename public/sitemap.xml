@@ -1,259 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-	<!-- Core pages -->
-	<url>
-		<loc>https://decrepitfilth.art/</loc>
-		<lastmod>2026-09-09</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/about</loc>
-		<lastmod>2026-09-10</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content</loc>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/workflow-structure-breakdown</loc>
-		<lastmod>2026-09-10</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/code</loc>
-		<lastmod>2026-09-10</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/semantic-seo-lab</loc>
-		<lastmod>2026-09-10</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/datamining-llm</loc>
-		<lastmod>2026-09-10</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/content-strategy</loc>
-		<lastmod>2026-09-10</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art</loc>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/contact</loc>
-		<lastmod>2026-09-10</lastmod>
-		<priority>0.8</priority>
-	</url>
-
-	<!-- Articles -->
-	<url>
-		<loc>https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it</loc>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models</loc>
-		<lastmod>2026-09-08</lastmod>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/structural-extraction-protocol</loc>
-		<lastmod>2026-09-10</lastmod>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/art-forms-with-high-audience-resonance</loc>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/first-principles</loc>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/gpt-misuse-is-not-what-people-think</loc>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/maximising-artistic-identity</loc>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/most-popular-art-mediums-based-on-the-datasets</loc>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/seo-visibility-structural-legibility</loc>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/visibility-under-hostile-conditions</loc>
-	</url>
-	<url>
-		<loc>https://decrepitfilth.art/art/clustered-output-instagram-dataset</loc>
-		<lastmod>2026-09-09</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/data-structure-intermediate-stage</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/seer-clown-research-process</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/methodology-evaluation-and-validity</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/who-benefits-most-from-this-system</loc>
-		<lastmod>2026-09-09</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/research-pipeline</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/sda3-tldr</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/semantic-seo-in-python-from-search-results-to-original-content-strategy</loc>
-	<lastmod>2026-09-10</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/python-nlp-semantic-seo</loc>
-	<lastmod>2026-09-10</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/semantic-seo-is-graph-positioning</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/semantic-seo-begins-before-optimisation</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/how-search-and-recommendation-systems-actually-work</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/from-seo-keywords-to-the-haunted-machine</loc>
-		<lastmod>2026-09-09</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/ai-seo-strategy-why-your-creative-work-is-invisible</loc>
-	<lastmod>2026-09-10</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/google-maps-review-mining-unmet-demand</loc>
-	<lastmod>2026-09-10</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival</loc>
-	<lastmod>2026-09-10</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/hidden-representations-without-hidden-layers</loc>
-	</url>
-
-
-
-
-
-	<url>
-	<loc>https://decrepitfilth.art/art/ai-visibility-is-not-value</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/ai-visibility-is-not-a-direct-optimisation-outcome</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/source-eligibility-being-available-is-not-being-chosen</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/ai-visibility-is-not-one-environment</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/the-selection-gap</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/selected-does-not-mean-cited</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/ai-visibility-measurement-cannot-prove-value</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/value-transfer-retention-and-platform-capture</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/the-citable-hard-to-exhaust-archive</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/representation-governance</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/how-to-stop-chatgpt-from-lying</loc>
-	<lastmod>2026-09-10</lastmod>
-	</url>
-
-	<url>
-		<loc>https://decrepitfilth.art/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse</loc>
-		<lastmod>2026-09-10</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/tiktok-zombie-survival-series</loc>
-	</url>
-	<url>
-	<loc>https://decrepitfilth.art/art/tiktok-video-analysis-with-python</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/youtube-video-index</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/the-zombie-survival-strategy-chatgpt-could-not-see</loc>
-	<lastmod>2026-09-10</lastmod>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/ai-zombie-survival-why-fortresses-fail</loc>
-	<lastmod>2026-09-10</lastmod>
-	</url>
-
-
-	<url>
-	<loc>https://decrepitfilth.art/art/project/chatgpt-structural-failure</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/project/ai-visibility-is-not-value</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/project/sda3-structural-extraction</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/project/semantic-seo-graph-positioning</loc>
-	</url>
-
-	<url>
-	<loc>https://decrepitfilth.art/art/project/seer-clown-research</loc>
-	</url>
-
+  <url>
+    <loc>https://decrepitfilth.art/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/about</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/workflow-structure-breakdown</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/code</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/semantic-seo-lab</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/datamining-llm</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/content-strategy</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/contact</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/tiktok-video-analysis-with-python</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/tiktok-zombie-survival-series</loc>
+    <lastmod>2026-08-14</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/how-to-stop-chatgpt-from-lying</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/ai-zombie-survival-why-fortresses-fail</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/the-zombie-survival-strategy-chatgpt-could-not-see</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/ai-visibility-is-not-value</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/ai-visibility-is-not-a-direct-optimisation-outcome</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/source-eligibility-being-available-is-not-being-chosen</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/ai-visibility-is-not-one-environment</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/the-selection-gap</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/selected-does-not-mean-cited</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/ai-visibility-measurement-cannot-prove-value</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/value-transfer-retention-and-platform-capture</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/the-citable-hard-to-exhaust-archive</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/representation-governance</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/hidden-representations-without-hidden-layers</loc>
+    <lastmod>2026-07-03</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/google-maps-review-mining-unmet-demand</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/ai-seo-strategy-why-your-creative-work-is-invisible</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/from-seo-keywords-to-the-haunted-machine</loc>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/how-search-and-recommendation-systems-actually-work</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/semantic-seo-is-graph-positioning</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/python-nlp-semantic-seo</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/semantic-seo-in-python-from-search-results-to-original-content-strategy</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/sda3-tldr</loc>
+    <lastmod>2026-05-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/research-pipeline</loc>
+    <lastmod>2026-04-25</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/who-benefits-most-from-this-system</loc>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/clustered-output-instagram-dataset</loc>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/data-structure-intermediate-stage</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/methodology-evaluation-and-validity</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/seer-clown-research-process</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/youtube-video-index</loc>
+    <lastmod>2026-04-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it</loc>
+    <lastmod>2026-04-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models</loc>
+    <lastmod>2026-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/structural-extraction-protocol</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/art-forms-with-high-audience-resonance</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/first-principles</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/gpt-misuse-is-not-what-people-think</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/maximising-artistic-identity</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/most-popular-art-mediums-based-on-the-datasets</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/semantic-seo-begins-before-optimisation</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/seo-visibility-structural-legibility</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/visibility-under-hostile-conditions</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/project/chatgpt-structural-failure</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/project/ai-visibility-is-not-value</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/project/sda3-structural-extraction</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/project/semantic-seo-graph-positioning</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/project/seer-clown-research</loc>
+    <lastmod>2026-09-09</lastmod>
+  </url>
 </urlset>

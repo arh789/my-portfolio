@@ -2,6 +2,7 @@
 title: "How to Stop ChatGPT From Lying"
 description: "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains."
 date: 2026-08-02
+lastModified: "2026-09-10"
 projects:
   - slug: chatgpt-structural-failure
     order: 6

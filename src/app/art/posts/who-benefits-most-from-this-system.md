@@ -2,6 +2,7 @@
 title: "Who This Semantic SEO System Is For—and Why"
 description: This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.
 date: 2026-04-25
+lastModified: "2026-09-09"
 tags:
   - creative-search-system
   - strategic-positioning
