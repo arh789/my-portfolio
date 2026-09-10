@@ -30,6 +30,64 @@ function absoluteUrl(route) {
   return new URL(route, SITE_BASE_URL).toString();
 }
 
+function sourceLocator(resource, collection, key, value) {
+  return { resource, collection, key, value };
+}
+
+function buildAgentPriority(pagePath, defaults) {
+  const override = AGENT_PRIORITY_OVERRIDES[pagePath] ?? {};
+
+  return {
+    context: override.context ?? defaults.context,
+    traversal: override.traversal ?? defaults.traversal,
+    evidence: override.evidence ?? defaults.evidence,
+    roles: override.roles ?? defaults.roles,
+  };
+}
+
+const AGENT_PRIORITY_VALUES = {
+  context: new Set(["low", "medium", "standard", "high", "critical"]),
+  traversal: new Set(["low", "medium", "high", "critical"]),
+  evidence: new Set([
+    "unassessed",
+    "none",
+    "low",
+    "medium",
+    "high",
+    "critical",
+  ]),
+};
+
+function validateAgentClassification(record, label) {
+  if (!["core", "supporting"].includes(record.architectureRole)) {
+    throw new Error(
+      label + ' has unknown architectureRole "' + record.architectureRole + '"'
+    );
+  }
+
+  for (const [dimension, allowedValues] of Object.entries(
+    AGENT_PRIORITY_VALUES
+  )) {
+    const value = record.agentPriority?.[dimension];
+
+    if (!allowedValues.has(value)) {
+      throw new Error(
+        label + ' has unknown agentPriority.' + dimension + ' "' + value + '"'
+      );
+    }
+  }
+
+  const roles = record.agentPriority?.roles;
+
+  if (
+    !Array.isArray(roles) ||
+    !roles.length ||
+    roles.some((role) => typeof role !== "string" || !role)
+  ) {
+    throw new Error(label + " must have at least one agentPriority role");
+  }
+}
+
 function latestDate(values) {
   return (
     values
@@ -181,9 +239,17 @@ const staticPages = STATIC_SITE_PAGES.map((page) => {
   const { navigation, priority, lastModified, ...publicPage } = page;
   const resolvedLastModified =
     page.id === "art" ? archiveLastModified : lastModified;
+  const agentPriority = buildAgentPriority(page.path, {
+    context: "medium",
+    traversal: "medium",
+    evidence: "unassessed",
+    roles: ["core-page"],
+  });
 
   return {
     ...publicPage,
+    architectureRole: "core",
+    agentPriority,
     url: absoluteUrl(page.path),
     indexing: {
       canonical: absoluteUrl(page.path),
@@ -199,7 +265,7 @@ const staticUrlEntries = staticPages.map((page) => ({
   path: page.path,
   url: page.url,
   kind: page.kind,
-  source: "/agent-map.json#pages/" + page.id,
+  source: sourceLocator("/agent-map.json", "pages", "id", page.id),
   lastModified: page.indexing.lastModified,
   priority: page.indexing.priority,
 }));
@@ -211,7 +277,7 @@ const articleUrlEntries = articles.map((article) => {
     path: articlePath,
     url: absoluteUrl(articlePath),
     kind: "article",
-    source: "/graph.json#articles/" + article.slug,
+    source: sourceLocator("/graph.json", "articles", "slug", article.slug),
     lastModified: article.lastModified || article.date || null,
   };
 });
@@ -226,7 +292,7 @@ const projectUrlEntries = projects.map((project) => {
     path: projectPath,
     url: absoluteUrl(projectPath),
     kind: "project",
-    source: "/graph.json#projects/" + project.slug,
+    source: sourceLocator("/graph.json", "projects", "slug", project.slug),
     lastModified: latestDate(memberDates),
   };
 });
@@ -241,27 +307,8 @@ const staticPagePaths = new Map(
   staticPages.map((page) => [page.id, page.path])
 );
 
-function buildAgentPriority(pagePath, structural, defaults) {
-  const override = AGENT_PRIORITY_OVERRIDES[pagePath] ?? {};
-
-  return {
-    structural,
-    context: override.context ?? defaults.context,
-    traversal: override.traversal ?? defaults.traversal,
-    evidence: override.evidence ?? defaults.evidence,
-    roles: override.roles ?? defaults.roles,
-  };
-}
-
 const siteGraphNodes = [
   ...staticPages.map((page) => {
-    const agentPriority = buildAgentPriority(page.path, "core", {
-      context: "medium",
-      traversal: "medium",
-      evidence: "medium",
-      roles: ["core-page"],
-    });
-
     return {
       id: page.path,
       pageId: page.id,
@@ -270,16 +317,17 @@ const siteGraphNodes = [
       kind: page.kind,
       title: page.title,
       summary: page.summary,
-      agentPriority,
-      source: "/agent-map.json#pages/" + page.id,
+      architectureRole: page.architectureRole,
+      agentPriority: page.agentPriority,
+      source: sourceLocator("/agent-map.json", "pages", "id", page.id),
     };
   }),
   ...articles.map((article) => {
     const articlePath = "/art/" + article.slug;
-    const agentPriority = buildAgentPriority(articlePath, "supporting", {
+    const agentPriority = buildAgentPriority(articlePath, {
       context: "standard",
-      traversal: article.projects.length ? "high" : "medium",
-      evidence: "medium",
+      traversal: "medium",
+      evidence: "unassessed",
       roles: ["published-article"],
     });
 
@@ -290,21 +338,22 @@ const siteGraphNodes = [
       kind: "article",
       title: article.title,
       summary: article.description,
+      architectureRole: "supporting",
       published: article.date,
       tags: article.tags,
       contentType: article.type,
       medium: article.medium,
       projects: article.projects,
       agentPriority,
-      source: "/graph.json#articles/" + article.slug,
+      source: sourceLocator("/graph.json", "articles", "slug", article.slug),
     };
   }),
   ...projects.map((project) => {
     const projectPath = "/art/project/" + project.slug;
-    const agentPriority = buildAgentPriority(projectPath, "supporting", {
+    const agentPriority = buildAgentPriority(projectPath, {
       context: "medium",
       traversal: "critical",
-      evidence: "medium",
+      evidence: "low",
       roles: ["ordered-investigation", "guided-reading-path"],
     });
 
@@ -315,13 +364,14 @@ const siteGraphNodes = [
       kind: "project",
       title: project.title,
       summary: project.description,
+      architectureRole: "supporting",
       introduction: project.introduction,
       articleCounts: {
         chapters: project.chapters.length,
         resources: project.resources.length,
       },
       agentPriority,
-      source: "/graph.json#projects/" + project.slug,
+      source: sourceLocator("/graph.json", "projects", "slug", project.slug),
     };
   }),
 ];
@@ -346,14 +396,15 @@ const semanticHubs = Object.entries(AGENT_SEMANTIC_HUB_CONTENT).map(
       url: absoluteUrl(hubPath),
       title: article.title,
       summary: article.description,
-      agentPriority: buildAgentPriority(hubPath, "supporting", {
+      architectureRole: "supporting",
+      agentPriority: buildAgentPriority(hubPath, {
         context: "high",
         traversal: "high",
-        evidence: "medium",
+        evidence: "unassessed",
         roles: ["semantic-hub"],
       }),
       ...compressedContent,
-      source: "/graph.json#articles/" + slug,
+      source: sourceLocator("/graph.json", "articles", "slug", slug),
     };
   }
 );
@@ -368,10 +419,11 @@ const projectHubs = projects.map((project) => {
     title: project.title,
     summary: project.description,
     introduction: project.introduction,
-    agentPriority: buildAgentPriority(projectPath, "supporting", {
+    architectureRole: "supporting",
+    agentPriority: buildAgentPriority(projectPath, {
       context: "medium",
       traversal: "critical",
-      evidence: "medium",
+      evidence: "low",
       roles: ["ordered-investigation", "guided-reading-path"],
     }),
     sequence: project.chapters.map((article) => ({
@@ -386,7 +438,7 @@ const projectHubs = projects.map((project) => {
       title: article.title,
       role: article.projectRole,
     })),
-    source: "/graph.json#projects/" + project.slug,
+    source: sourceLocator("/graph.json", "projects", "slug", project.slug),
   };
 });
 
@@ -425,9 +477,12 @@ const projectEdges = projectGraph.edges.map((edge) => ({
 const siteGraph = {
   purpose:
     "Complete page-level map. Every indexed page is a node; semanticHubs and projectHubs provide progressive resolution without giving every page equal detail.",
+  architectureRoles: {
+    core: "Defines the site's formal architecture or primary navigation.",
+    supporting:
+      "Develops, evidences or organises the site without defining its formal architecture.",
+  },
   agentPriorityDimensions: {
-    structural:
-      "Whether a page defines the site's formal architecture (core) or develops it (supporting).",
     context:
       "How much of the site's conceptual structure the page compresses.",
     traversal:
@@ -504,8 +559,108 @@ if (
   );
 }
 
+for (const [collectionName, records] of [
+  ["siteGraph.nodes", siteGraph.nodes],
+  ["semanticHubs", semanticHubs],
+  ["projectHubs", projectHubs],
+]) {
+  records.forEach((record, index) =>
+    validateAgentClassification(
+      record,
+      collectionName + "[" + index + "] (" + record.id + ")"
+    )
+  );
+}
+
+const semanticHubIdsWithoutNodes = semanticHubs
+  .map((hub) => hub.id)
+  .filter((hubId) => !siteGraphNodeIds.has(hubId));
+const projectHubIdsWithoutNodes = projectHubs
+  .map((hub) => hub.id)
+  .filter((hubId) => !siteGraphNodeIds.has(hubId));
+
+if (semanticHubIdsWithoutNodes.length || projectHubIdsWithoutNodes.length) {
+  throw new Error(
+    [
+      semanticHubIdsWithoutNodes.length
+        ? "Semantic hubs without site graph nodes: " +
+          semanticHubIdsWithoutNodes.join(", ")
+        : "",
+      projectHubIdsWithoutNodes.length
+        ? "Project hubs without site graph nodes: " +
+          projectHubIdsWithoutNodes.join(", ")
+        : "",
+    ]
+      .filter(Boolean)
+      .join(". ")
+  );
+}
+
+const siteGraphNodeById = new Map(
+  siteGraph.nodes.map((node) => [node.id, node])
+);
+const hubClassificationDrift = [...semanticHubs, ...projectHubs].filter(
+  (hub) => {
+    const node = siteGraphNodeById.get(hub.id);
+
+    return (
+      node.architectureRole !== hub.architectureRole ||
+      JSON.stringify(node.agentPriority) !== JSON.stringify(hub.agentPriority)
+    );
+  }
+);
+
+if (hubClassificationDrift.length) {
+  throw new Error(
+    "Hub classifications differ from their site graph nodes: " +
+      hubClassificationDrift.map((hub) => hub.id).join(", ")
+  );
+}
+
+const connectedNodeIds = new Set(
+  siteGraph.edges.flatMap((edge) => [edge.source, edge.target])
+);
+const isolatedCriticalTraversalNodes = siteGraph.nodes.filter(
+  (node) =>
+    node.agentPriority.traversal === "critical" &&
+    !connectedNodeIds.has(node.id)
+);
+
+if (isolatedCriticalTraversalNodes.length) {
+  throw new Error(
+    "Critical traversal nodes without edges: " +
+      isolatedCriticalTraversalNodes.map((node) => node.id).join(", ")
+  );
+}
+
+const sourceCollections = {
+  "/agent-map.json": { pages: staticPages },
+  "/graph.json": { articles: graph.articles, projects },
+};
+const sourceBearingRecords = [
+  ...urlIndex.map((record) => ["urlIndex " + record.path, record]),
+  ...siteGraph.nodes.map((record) => ["siteGraph node " + record.id, record]),
+  ...semanticHubs.map((record) => ["semantic hub " + record.id, record]),
+  ...projectHubs.map((record) => ["project hub " + record.id, record]),
+];
+
+for (const [label, record] of sourceBearingRecords) {
+  const locator = record.source;
+  const collection =
+    locator && sourceCollections[locator.resource]?.[locator.collection];
+  const matches = Array.isArray(collection)
+    ? collection.filter((item) => item[locator.key] === locator.value)
+    : [];
+
+  if (matches.length !== 1) {
+    throw new Error(
+      label + " source locator resolved to " + matches.length + " records"
+    );
+  }
+}
+
 const agentMap = {
-  schemaVersion: 4,
+  schemaVersion: 5,
   generatedAt,
   site: {
     name: "Decrepit Filth",
@@ -515,9 +670,9 @@ const agentMap = {
   },
   agentInstructions: {
     default:
-      "Start with pages, semanticHubs, projectHubs and siteGraph to understand the whole site cheaply. Agent priority separates structural, contextual, traversal and evidence value.",
+      "Start with pages, semanticHubs, projectHubs and siteGraph to understand the whole site cheaply. architectureRole distinguishes formal site structure from supporting material; agentPriority separates contextual, traversal and evidence value.",
     articleDiscovery:
-      "Resolve from semanticHubs or projectHubs into siteGraph, then use graph.json for detailed article metadata, tags and shared-tag relationships. Fetch HTML only when full-resolution content is required.",
+      "Resolve from semanticHubs or projectHubs into siteGraph, then use graph.json for detailed article metadata, tags and shared-tag relationships. Treat evidence: unassessed as unclassified, not weak. Fetch HTML only when full-resolution content is required.",
     fetchSourceWhen: [
       "verbatim wording or quotations are required",
       "implementation details or code are required",
@@ -529,7 +684,19 @@ const agentMap = {
     sitemap: "/sitemap.xml",
     articleGraph: "/graph.json",
     pageMap: "/agent-map.json",
-    siteGraph: "/agent-map.json#siteGraph",
+    siteGraph: "/agent-map.json#/siteGraph",
+  },
+  sourceLocatorSchema: {
+    purpose:
+      "Mechanically identify one record in a collection without relying on a descriptive URL fragment.",
+    fields: {
+      resource: "JSON resource containing the target collection.",
+      collection: "Top-level array containing the target record.",
+      key: "Record field used for selection.",
+      value: "Exact field value that must identify one record.",
+    },
+    resolutionRule:
+      "Select records from resource[collection] where record[key] equals value; exactly one record must match.",
   },
   claimStatus: CLAIM_STATUS,
   counts: {

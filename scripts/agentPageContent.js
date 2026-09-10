@@ -562,6 +562,12 @@ export const AGENT_PRIORITY_OVERRIDES = {
     evidence: "high",
     roles: ["executable-method", "llm-analysis-bridge"],
   },
+  "/art/research-pipeline": {
+    context: "high",
+    traversal: "high",
+    evidence: "high",
+    roles: ["cross-project-methodology", "pipeline-compression"],
+  },
 };
 
 export const AGENT_SEMANTIC_HUB_CONTENT = {
@@ -618,6 +624,9 @@ export const AGENT_SEMANTIC_HUB_CONTENT = {
 };
 
 export const AGENT_RELATIONS = [
+  { from: "home", type: "orients-to", to: "about" },
+  { from: "home", type: "orients-to", to: "hidden-structure" },
+  { from: "home", type: "routes-to", to: "art" },
   { from: "about", type: "demonstrated-by", to: "semantic-seo-lab" },
   { from: "about", type: "expressed-through", to: "art" },
   {

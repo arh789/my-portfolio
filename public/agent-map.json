@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 4,
-  "generatedAt": "2026-09-10T10:38:29.574Z",
+  "schemaVersion": 5,
+  "generatedAt": "2026-09-10T21:31:25.505Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
     "scope": "Grotesque art, Semantic SEO, AI visibility, structural analysis, code and content strategy."
   },
   "agentInstructions": {
-    "default": "Start with pages, semanticHubs, projectHubs and siteGraph to understand the whole site cheaply. Agent priority separates structural, contextual, traversal and evidence value.",
-    "articleDiscovery": "Resolve from semanticHubs or projectHubs into siteGraph, then use graph.json for detailed article metadata, tags and shared-tag relationships. Fetch HTML only when full-resolution content is required.",
+    "default": "Start with pages, semanticHubs, projectHubs and siteGraph to understand the whole site cheaply. architectureRole distinguishes formal site structure from supporting material; agentPriority separates contextual, traversal and evidence value.",
+    "articleDiscovery": "Resolve from semanticHubs or projectHubs into siteGraph, then use graph.json for detailed article metadata, tags and shared-tag relationships. Treat evidence: unassessed as unclassified, not weak. Fetch HTML only when full-resolution content is required.",
     "fetchSourceWhen": [
       "verbatim wording or quotations are required",
       "implementation details or code are required",
@@ -20,7 +20,17 @@
     "sitemap": "/sitemap.xml",
     "articleGraph": "/graph.json",
     "pageMap": "/agent-map.json",
-    "siteGraph": "/agent-map.json#siteGraph"
+    "siteGraph": "/agent-map.json#/siteGraph"
+  },
+  "sourceLocatorSchema": {
+    "purpose": "Mechanically identify one record in a collection without relying on a descriptive URL fragment.",
+    "fields": {
+      "resource": "JSON resource containing the target collection.",
+      "collection": "Top-level array containing the target record.",
+      "key": "Record field used for selection.",
+      "value": "Exact field value that must identify one record."
+    },
+    "resolutionRule": "Select records from resource[collection] where record[key] equals value; exactly one record must match."
   },
   "claimStatus": {
     "site-thesis": "The site's declared conceptual position.",
@@ -36,7 +46,7 @@
     "projects": 5,
     "indexedUrls": 59,
     "siteGraphNodes": 59,
-    "siteGraphEdges": 138,
+    "siteGraphEdges": 141,
     "semanticHubs": 7,
     "projectHubs": 5
   },
@@ -47,6 +57,16 @@
       "kind": "entry-point",
       "title": "Decrepit Filth",
       "summary": "Entry point to a grotesque art archive and semantic testbed connecting AI research, Semantic SEO, code, content strategy and machine-readable site structure.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "medium",
+        "traversal": "critical",
+        "evidence": "low",
+        "roles": [
+          "entry-point",
+          "site-navigation"
+        ]
+      },
       "url": "https://decrepitfilth.art/",
       "indexing": {
         "canonical": "https://decrepitfilth.art/",
@@ -86,6 +106,16 @@
       "kind": "orientation",
       "title": "What is Decrepit Filth?",
       "summary": "Defines Decrepit Filth as a self-describing semantic system in which grotesque art, AI research, Semantic SEO, content strategy and archiving operate as one structural experiment.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "critical",
+        "traversal": "critical",
+        "evidence": "medium",
+        "roles": [
+          "site-orientation",
+          "site-thesis"
+        ]
+      },
       "url": "https://decrepitfilth.art/about",
       "indexing": {
         "canonical": "https://decrepitfilth.art/about",
@@ -144,6 +174,16 @@
       "kind": "conceptual-framework",
       "title": "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
       "summary": "Explains how statistical, relational, semantic and human interpretation can be combined to recover structure hidden by compressed representations.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "critical",
+        "traversal": "high",
+        "evidence": "medium",
+        "roles": [
+          "conceptual-kernel",
+          "cross-region-ontology"
+        ]
+      },
       "url": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
       "indexing": {
         "canonical": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
@@ -209,6 +249,16 @@
       "kind": "methodology",
       "title": "Workflow Structure Breakdown",
       "summary": "Documents a bottom-up workflow moving from search-result collection through semantic reduction, graph analysis and human-supervised interpretation.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "high",
+        "traversal": "high",
+        "evidence": "high",
+        "roles": [
+          "methodology",
+          "process-map"
+        ]
+      },
       "url": "https://decrepitfilth.art/workflow-structure-breakdown",
       "indexing": {
         "canonical": "https://decrepitfilth.art/workflow-structure-breakdown",
@@ -264,6 +314,16 @@
       "kind": "code-notebook",
       "title": "SEO Python Codebase",
       "summary": "Static notebook export implementing the site's recursive SEO, NLP, keyword extraction, clustering, association and graph-analysis workflow.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "medium",
+        "traversal": "medium",
+        "evidence": "critical",
+        "roles": [
+          "implementation",
+          "code-reference"
+        ]
+      },
       "url": "https://decrepitfilth.art/code",
       "indexing": {
         "canonical": "https://decrepitfilth.art/code",
@@ -315,6 +375,16 @@
       "kind": "research-notebook",
       "title": "Semantic SEO With Python: An Agent-Run, Human-Supervised Research Notebook",
       "summary": "Tests whether Python-generated SEO representations remain usable when classical NLP, graph analysis, agent interpretation and human correction are combined.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "critical",
+        "traversal": "high",
+        "evidence": "critical",
+        "roles": [
+          "research-evidence",
+          "human-supervised-analysis"
+        ]
+      },
       "url": "https://decrepitfilth.art/semantic-seo-lab",
       "indexing": {
         "canonical": "https://decrepitfilth.art/semantic-seo-lab",
@@ -402,6 +472,16 @@
       "kind": "methodological-doctrine",
       "title": "Data-Mining an LLM: Emergent Structural Mapping",
       "summary": "Presents a method for converting recorded LLM outputs into inspectable semantic systems and studying what survives, weakens, disappears or becomes distorted under prompting pressure.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "high",
+        "traversal": "high",
+        "evidence": "medium",
+        "roles": [
+          "llm-analysis-doctrine",
+          "methodology"
+        ]
+      },
       "url": "https://decrepitfilth.art/datamining-llm",
       "indexing": {
         "canonical": "https://decrepitfilth.art/datamining-llm",
@@ -463,6 +543,16 @@
       "kind": "editorial-strategy",
       "title": "Content Strategy: Grotesque Art and the Seer-Clown",
       "summary": "Translates clustered research into a creative niche, symbolic vocabulary and hybrid practical-digital production strategy centred on the Seer-Clown archetype.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "high",
+        "traversal": "high",
+        "evidence": "medium",
+        "roles": [
+          "research-to-art-bridge",
+          "editorial-strategy"
+        ]
+      },
       "url": "https://decrepitfilth.art/content-strategy",
       "indexing": {
         "canonical": "https://decrepitfilth.art/content-strategy",
@@ -534,6 +624,16 @@
       "kind": "archive-hub",
       "title": "Art and Research Concept Hub",
       "summary": "Navigation hub representing the article archive as a concept network built from shared tags, guided project pathways and individual article records.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "low",
+        "traversal": "critical",
+        "evidence": "low",
+        "roles": [
+          "archive-hub",
+          "graph-navigation"
+        ]
+      },
       "url": "https://decrepitfilth.art/art",
       "indexing": {
         "canonical": "https://decrepitfilth.art/art",
@@ -576,6 +676,15 @@
       "kind": "utility",
       "title": "Contact Andrew Hale",
       "summary": "Contact form for enquiries about Decrepit Filth, grotesque art, Semantic SEO, AI research and related projects.",
+      "architectureRole": "core",
+      "agentPriority": {
+        "context": "low",
+        "traversal": "low",
+        "evidence": "none",
+        "roles": [
+          "utility"
+        ]
+      },
       "url": "https://decrepitfilth.art/contact",
       "indexing": {
         "canonical": "https://decrepitfilth.art/contact",
@@ -617,8 +726,8 @@
       "url": "https://decrepitfilth.art/art/from-seo-keywords-to-the-haunted-machine",
       "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
       "summary": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "critical",
         "traversal": "critical",
         "evidence": "high",
@@ -639,7 +748,12 @@
         "Haunted Machine",
         "artistic identity"
       ],
-      "source": "/graph.json#articles/from-seo-keywords-to-the-haunted-machine"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "from-seo-keywords-to-the-haunted-machine"
+      }
     },
     {
       "id": "/art/ai-visibility-is-not-value",
@@ -647,8 +761,8 @@
       "url": "https://decrepitfilth.art/art/ai-visibility-is-not-value",
       "title": "AI Visibility Is Not Value",
       "summary": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "critical",
         "traversal": "critical",
         "evidence": "medium",
@@ -669,7 +783,12 @@
         "archive",
         "representation governance"
       ],
-      "source": "/graph.json#articles/ai-visibility-is-not-value"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "ai-visibility-is-not-value"
+      }
     },
     {
       "id": "/art/how-search-and-recommendation-systems-actually-work",
@@ -677,8 +796,8 @@
       "url": "https://decrepitfilth.art/art/how-search-and-recommendation-systems-actually-work",
       "title": "How Search and Recommendation Systems Actually Work",
       "summary": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "high",
         "traversal": "high",
         "evidence": "medium",
@@ -688,7 +807,12 @@
         ]
       },
       "purpose": "Common selection and representation model spanning search, recommendation and AI retrieval.",
-      "source": "/graph.json#articles/how-search-and-recommendation-systems-actually-work"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "how-search-and-recommendation-systems-actually-work"
+      }
     },
     {
       "id": "/art/semantic-seo-is-graph-positioning",
@@ -696,8 +820,8 @@
       "url": "https://decrepitfilth.art/art/semantic-seo-is-graph-positioning",
       "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
       "summary": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "high",
         "traversal": "high",
         "evidence": "medium",
@@ -707,7 +831,12 @@
         ]
       },
       "purpose": "Organising proposition that page value is partly positional and originality can change relationships in the graph.",
-      "source": "/graph.json#articles/semantic-seo-is-graph-positioning"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "semantic-seo-is-graph-positioning"
+      }
     },
     {
       "id": "/art/the-citable-hard-to-exhaust-archive",
@@ -715,8 +844,8 @@
       "url": "https://decrepitfilth.art/art/the-citable-hard-to-exhaust-archive",
       "title": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
       "summary": "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "high",
         "traversal": "high",
         "evidence": "medium",
@@ -726,7 +855,12 @@
         ]
       },
       "purpose": "Explains the site's architectural response to platform capture through citability, depth and returnability.",
-      "source": "/graph.json#articles/the-citable-hard-to-exhaust-archive"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "the-citable-hard-to-exhaust-archive"
+      }
     },
     {
       "id": "/art/representation-governance",
@@ -734,8 +868,8 @@
       "url": "https://decrepitfilth.art/art/representation-governance",
       "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
       "summary": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "high",
         "traversal": "medium",
         "evidence": "medium",
@@ -745,7 +879,12 @@
         ]
       },
       "purpose": "Highest-order AI visibility conclusion connecting selection, omission, representation, attribution, reward and returnability.",
-      "source": "/graph.json#articles/representation-governance"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "representation-governance"
+      }
     },
     {
       "id": "/art/structural-extraction-protocol",
@@ -753,8 +892,8 @@
       "url": "https://decrepitfilth.art/art/structural-extraction-protocol",
       "title": "Structural Extraction Protocol",
       "summary": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "high",
         "traversal": "high",
         "evidence": "high",
@@ -764,7 +903,12 @@
         ]
       },
       "purpose": "Turns structural analysis into an executable method based on recursive constraint, adversarial interrogation and collapse enforcement.",
-      "source": "/graph.json#articles/structural-extraction-protocol"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "structural-extraction-protocol"
+      }
     }
   ],
   "projectHubs": [
@@ -775,11 +919,11 @@
       "title": "How to Stop ChatGPT From Lying",
       "summary": "A staged investigation using a zombie-survival stress test to expose coherence smoothing, hidden assumptions and structurally weak answers in ChatGPT.",
       "introduction": "Follow the investigation from ChatGPT's initial survival answer through adversarial questioning, structural convergence, historical testing, a bioweapons failure and the final supervised method.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "medium",
         "traversal": "critical",
-        "evidence": "medium",
+        "evidence": "low",
         "roles": [
           "ordered-investigation",
           "guided-reading-path"
@@ -849,7 +993,12 @@
           "role": "media-index"
         }
       ],
-      "source": "/graph.json#projects/chatgpt-structural-failure"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "chatgpt-structural-failure"
+      }
     },
     {
       "id": "/art/project/ai-visibility-is-not-value",
@@ -858,11 +1007,11 @@
       "title": "AI Visibility Is Not Value",
       "summary": "A nine-part analysis, with a series overview, separating AI visibility from selection, citation, value transfer and durable audience value.",
       "introduction": "Begin with the series argument, then follow the distinction between being available to an AI system, being selected, being cited and retaining any resulting value.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "medium",
         "traversal": "critical",
-        "evidence": "medium",
+        "evidence": "low",
         "roles": [
           "ordered-investigation",
           "guided-reading-path"
@@ -932,7 +1081,12 @@
           "role": "overview"
         }
       ],
-      "source": "/graph.json#projects/ai-visibility-is-not-value"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "ai-visibility-is-not-value"
+      }
     },
     {
       "id": "/art/project/sda3-structural-extraction",
@@ -941,11 +1095,11 @@
       "title": "SDA-3 and LLM Structural Extraction",
       "summary": "A method-led pathway for extracting and testing structural information from language-model outputs without claiming access to hidden model states.",
       "introduction": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "medium",
         "traversal": "critical",
-        "evidence": "medium",
+        "evidence": "low",
         "roles": [
           "ordered-investigation",
           "guided-reading-path"
@@ -985,7 +1139,12 @@
           "role": "summary"
         }
       ],
-      "source": "/graph.json#projects/sda3-structural-extraction"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "sda3-structural-extraction"
+      }
     },
     {
       "id": "/art/project/semantic-seo-graph-positioning",
@@ -994,11 +1153,11 @@
       "title": "Semantic SEO as Graph Positioning",
       "summary": "A connected argument that reframes Semantic SEO as structural legibility and graph positioning rather than isolated content optimisation.",
       "introduction": "Follow the argument from pre-optimisation structure through search-system behaviour, graph positioning, creative visibility and the resulting content operating system.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "medium",
         "traversal": "critical",
-        "evidence": "medium",
+        "evidence": "low",
         "roles": [
           "ordered-investigation",
           "guided-reading-path"
@@ -1062,7 +1221,12 @@
           "role": "methodology"
         }
       ],
-      "source": "/graph.json#projects/semantic-seo-graph-positioning"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "semantic-seo-graph-positioning"
+      }
     },
     {
       "id": "/art/project/seer-clown-research",
@@ -1071,11 +1235,11 @@
       "title": "From Aesthetic Research to the Seer-Clown",
       "summary": "An evidence-led pathway from audience and medium research through source data, clustering, interpretation and the Seer-Clown archetype.",
       "introduction": "This sequence exposes both the research outputs and the intermediate representations used to turn audience evidence into an artistic identity system.",
+      "architectureRole": "supporting",
       "agentPriority": {
-        "structural": "supporting",
         "context": "medium",
         "traversal": "critical",
-        "evidence": "medium",
+        "evidence": "low",
         "roles": [
           "ordered-investigation",
           "guided-reading-path"
@@ -1127,10 +1291,30 @@
           "role": "methodology"
         }
       ],
-      "source": "/graph.json#projects/seer-clown-research"
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "seer-clown-research"
+      }
     }
   ],
   "relations": [
+    {
+      "source": "/",
+      "target": "/about",
+      "type": "orients-to"
+    },
+    {
+      "source": "/",
+      "target": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+      "type": "orients-to"
+    },
+    {
+      "source": "/",
+      "target": "/art",
+      "type": "routes-to"
+    },
     {
       "source": "/about",
       "target": "/semantic-seo-lab",
@@ -1244,8 +1428,11 @@
   ],
   "siteGraph": {
     "purpose": "Complete page-level map. Every indexed page is a node; semanticHubs and projectHubs provide progressive resolution without giving every page equal detail.",
+    "architectureRoles": {
+      "core": "Defines the site's formal architecture or primary navigation.",
+      "supporting": "Develops, evidences or organises the site without defining its formal architecture."
+    },
     "agentPriorityDimensions": {
-      "structural": "Whether a page defines the site's formal architecture (core) or develops it (supporting).",
       "context": "How much of the site's conceptual structure the page compresses.",
       "traversal": "How useful the page is for routing an agent through related arguments.",
       "evidence": "How strongly the page grounds claims in implementation, recorded observations or procedural detail.",
@@ -1260,8 +1447,8 @@
         "kind": "entry-point",
         "title": "Decrepit Filth",
         "summary": "Entry point to a grotesque art archive and semantic testbed connecting AI research, Semantic SEO, code, content strategy and machine-readable site structure.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "medium",
           "traversal": "critical",
           "evidence": "low",
@@ -1270,7 +1457,12 @@
             "site-navigation"
           ]
         },
-        "source": "/agent-map.json#pages/home"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "home"
+        }
       },
       {
         "id": "/about",
@@ -1280,8 +1472,8 @@
         "kind": "orientation",
         "title": "What is Decrepit Filth?",
         "summary": "Defines Decrepit Filth as a self-describing semantic system in which grotesque art, AI research, Semantic SEO, content strategy and archiving operate as one structural experiment.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "critical",
           "traversal": "critical",
           "evidence": "medium",
@@ -1290,7 +1482,12 @@
             "site-thesis"
           ]
         },
-        "source": "/agent-map.json#pages/about"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "about"
+        }
       },
       {
         "id": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
@@ -1300,8 +1497,8 @@
         "kind": "conceptual-framework",
         "title": "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
         "summary": "Explains how statistical, relational, semantic and human interpretation can be combined to recover structure hidden by compressed representations.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "critical",
           "traversal": "high",
           "evidence": "medium",
@@ -1310,7 +1507,12 @@
             "cross-region-ontology"
           ]
         },
-        "source": "/agent-map.json#pages/hidden-structure"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "hidden-structure"
+        }
       },
       {
         "id": "/workflow-structure-breakdown",
@@ -1320,8 +1522,8 @@
         "kind": "methodology",
         "title": "Workflow Structure Breakdown",
         "summary": "Documents a bottom-up workflow moving from search-result collection through semantic reduction, graph analysis and human-supervised interpretation.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "high",
           "traversal": "high",
           "evidence": "high",
@@ -1330,7 +1532,12 @@
             "process-map"
           ]
         },
-        "source": "/agent-map.json#pages/workflow-structure-breakdown"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "workflow-structure-breakdown"
+        }
       },
       {
         "id": "/code",
@@ -1340,8 +1547,8 @@
         "kind": "code-notebook",
         "title": "SEO Python Codebase",
         "summary": "Static notebook export implementing the site's recursive SEO, NLP, keyword extraction, clustering, association and graph-analysis workflow.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "medium",
           "traversal": "medium",
           "evidence": "critical",
@@ -1350,7 +1557,12 @@
             "code-reference"
           ]
         },
-        "source": "/agent-map.json#pages/code"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "code"
+        }
       },
       {
         "id": "/semantic-seo-lab",
@@ -1360,8 +1572,8 @@
         "kind": "research-notebook",
         "title": "Semantic SEO With Python: An Agent-Run, Human-Supervised Research Notebook",
         "summary": "Tests whether Python-generated SEO representations remain usable when classical NLP, graph analysis, agent interpretation and human correction are combined.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "critical",
           "traversal": "high",
           "evidence": "critical",
@@ -1370,7 +1582,12 @@
             "human-supervised-analysis"
           ]
         },
-        "source": "/agent-map.json#pages/semantic-seo-lab"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "semantic-seo-lab"
+        }
       },
       {
         "id": "/datamining-llm",
@@ -1380,8 +1597,8 @@
         "kind": "methodological-doctrine",
         "title": "Data-Mining an LLM: Emergent Structural Mapping",
         "summary": "Presents a method for converting recorded LLM outputs into inspectable semantic systems and studying what survives, weakens, disappears or becomes distorted under prompting pressure.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "high",
           "traversal": "high",
           "evidence": "medium",
@@ -1390,7 +1607,12 @@
             "methodology"
           ]
         },
-        "source": "/agent-map.json#pages/datamining-llm"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "datamining-llm"
+        }
       },
       {
         "id": "/content-strategy",
@@ -1400,8 +1622,8 @@
         "kind": "editorial-strategy",
         "title": "Content Strategy: Grotesque Art and the Seer-Clown",
         "summary": "Translates clustered research into a creative niche, symbolic vocabulary and hybrid practical-digital production strategy centred on the Seer-Clown archetype.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "high",
           "traversal": "high",
           "evidence": "medium",
@@ -1410,7 +1632,12 @@
             "editorial-strategy"
           ]
         },
-        "source": "/agent-map.json#pages/content-strategy"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "content-strategy"
+        }
       },
       {
         "id": "/art",
@@ -1420,8 +1647,8 @@
         "kind": "archive-hub",
         "title": "Art and Research Concept Hub",
         "summary": "Navigation hub representing the article archive as a concept network built from shared tags, guided project pathways and individual article records.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "low",
           "traversal": "critical",
           "evidence": "low",
@@ -1430,7 +1657,12 @@
             "graph-navigation"
           ]
         },
-        "source": "/agent-map.json#pages/art"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "art"
+        }
       },
       {
         "id": "/contact",
@@ -1440,8 +1672,8 @@
         "kind": "utility",
         "title": "Contact Andrew Hale",
         "summary": "Contact form for enquiries about Decrepit Filth, grotesque art, Semantic SEO, AI research and related projects.",
+        "architectureRole": "core",
         "agentPriority": {
-          "structural": "core",
           "context": "low",
           "traversal": "low",
           "evidence": "none",
@@ -1449,7 +1681,12 @@
             "utility"
           ]
         },
-        "source": "/agent-map.json#pages/contact"
+        "source": {
+          "resource": "/agent-map.json",
+          "collection": "pages",
+          "key": "id",
+          "value": "contact"
+        }
       },
       {
         "id": "/art/tiktok-video-analysis-with-python",
@@ -1458,6 +1695,7 @@
         "kind": "article",
         "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
         "summary": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "architectureRole": "supporting",
         "published": "2026-09-04",
         "tags": [
           "tiktok",
@@ -1473,15 +1711,19 @@
         "medium": "article",
         "projects": [],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
           "traversal": "medium",
-          "evidence": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/tiktok-video-analysis-with-python"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "tiktok-video-analysis-with-python"
+        }
       },
       {
         "id": "/art/tiktok-zombie-survival-series",
@@ -1490,6 +1732,7 @@
         "kind": "article",
         "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
         "summary": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "architectureRole": "supporting",
         "published": "2026-08-14",
         "tags": [
           "tiktok",
@@ -1514,15 +1757,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/tiktok-zombie-survival-series"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "tiktok-zombie-survival-series"
+        }
       },
       {
         "id": "/art/how-to-stop-chatgpt-from-lying",
@@ -1531,6 +1778,7 @@
         "kind": "article",
         "title": "How to Stop ChatGPT From Lying",
         "summary": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "architectureRole": "supporting",
         "published": "2026-08-02",
         "tags": [
           "llm-structural-analysis",
@@ -1555,15 +1803,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/how-to-stop-chatgpt-from-lying"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "how-to-stop-chatgpt-from-lying"
+        }
       },
       {
         "id": "/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
@@ -1572,6 +1824,7 @@
         "kind": "article",
         "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
         "summary": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+        "architectureRole": "supporting",
         "published": "2026-07-31",
         "tags": [
           "llm-structural-analysis",
@@ -1593,15 +1846,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse"
+        }
       },
       {
         "id": "/art/ai-zombie-survival-why-fortresses-fail",
@@ -1610,6 +1867,7 @@
         "kind": "article",
         "title": "AI Zombie Survival: Why Fortresses Fail",
         "summary": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
+        "architectureRole": "supporting",
         "published": "2026-07-25",
         "tags": [
           "llm-structural-analysis",
@@ -1631,15 +1889,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/ai-zombie-survival-why-fortresses-fail"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "ai-zombie-survival-why-fortresses-fail"
+        }
       },
       {
         "id": "/art/the-zombie-survival-strategy-chatgpt-could-not-see",
@@ -1648,6 +1910,7 @@
         "kind": "article",
         "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
         "summary": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "architectureRole": "supporting",
         "published": "2026-07-18",
         "tags": [
           "llm-structural-analysis",
@@ -1668,15 +1931,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/the-zombie-survival-strategy-chatgpt-could-not-see"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "the-zombie-survival-strategy-chatgpt-could-not-see"
+        }
       },
       {
         "id": "/art/ai-visibility-is-not-value",
@@ -1685,6 +1952,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value",
         "summary": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1711,7 +1979,6 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "critical",
           "traversal": "critical",
           "evidence": "medium",
@@ -1720,7 +1987,12 @@
             "lossy-intentional-compression"
           ]
         },
-        "source": "/graph.json#articles/ai-visibility-is-not-value"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "ai-visibility-is-not-value"
+        }
       },
       {
         "id": "/art/ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -1729,6 +2001,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
         "summary": "Appearing in AI-generated answers is not proof that optimisation caused visibility, attribution, traffic, or retained value. AI visibility is an observed output inside a larger source-selection system.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1744,15 +2017,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/ai-visibility-is-not-a-direct-optimisation-outcome"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "ai-visibility-is-not-a-direct-optimisation-outcome"
+        }
       },
       {
         "id": "/art/source-eligibility-being-available-is-not-being-chosen",
@@ -1761,6 +2038,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
         "summary": "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1776,15 +2054,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/source-eligibility-being-available-is-not-being-chosen"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "source-eligibility-being-available-is-not-being-chosen"
+        }
       },
       {
         "id": "/art/ai-visibility-is-not-one-environment",
@@ -1793,6 +2075,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
         "summary": "AI visibility changes across answer regimes. Some systems retrieve, some synthesise, some cite, some retain users, and some combine those behaviours in different ways.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1808,15 +2091,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/ai-visibility-is-not-one-environment"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "ai-visibility-is-not-one-environment"
+        }
       },
       {
         "id": "/art/the-selection-gap",
@@ -1825,6 +2112,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
         "summary": "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1840,15 +2128,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/the-selection-gap"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "the-selection-gap"
+        }
       },
       {
         "id": "/art/selected-does-not-mean-cited",
@@ -1857,6 +2149,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
         "summary": "A source can shape an AI answer without being cited, and a cited source can still be flattened, misrepresented, or denied meaningful credit. Selection, citation, representation, and reward are separate outcomes.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1872,15 +2165,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/selected-does-not-mean-cited"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "selected-does-not-mean-cited"
+        }
       },
       {
         "id": "/art/ai-visibility-measurement-cannot-prove-value",
@@ -1889,6 +2186,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 6 — AI Visibility Measurement Cannot Prove Value",
         "summary": "AI visibility metrics can observe mentions, citations, answer presence, and prompt-level appearances. They cannot by themselves prove causation, representation quality, traffic, conversion, or retained value.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1904,15 +2202,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/ai-visibility-measurement-cannot-prove-value"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "ai-visibility-measurement-cannot-prove-value"
+        }
       },
       {
         "id": "/art/value-transfer-retention-and-platform-capture",
@@ -1921,6 +2223,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 7 — Value Transfer, Retention, and Platform Capture",
         "summary": "When source material improves an AI answer, who receives the value? AI visibility may produce source value, shared value, or platform capture depending on whether attention, trust, traffic, and relationship value return to the source.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1936,15 +2239,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/value-transfer-retention-and-platform-capture"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "value-transfer-retention-and-platform-capture"
+        }
       },
       {
         "id": "/art/the-citable-hard-to-exhaust-archive",
@@ -1953,6 +2260,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
         "summary": "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -1969,7 +2277,6 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "high",
           "traversal": "high",
           "evidence": "medium",
@@ -1978,7 +2285,12 @@
             "platform-capture-response"
           ]
         },
-        "source": "/graph.json#articles/the-citable-hard-to-exhaust-archive"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "the-citable-hard-to-exhaust-archive"
+        }
       },
       {
         "id": "/art/representation-governance",
@@ -1987,6 +2299,7 @@
         "kind": "article",
         "title": "AI Visibility Is Not Value, Part 9 — Representation Governance",
         "summary": "AI visibility becomes a governance problem when platforms mediate who is selected, represented, omitted, attributed, rewarded, and made returnable.",
+        "architectureRole": "supporting",
         "published": "2026-07-08",
         "tags": [
           "ai-visibility-is-not-value",
@@ -2002,7 +2315,6 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "high",
           "traversal": "medium",
           "evidence": "medium",
@@ -2011,7 +2323,12 @@
             "governance-model"
           ]
         },
-        "source": "/graph.json#articles/representation-governance"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "representation-governance"
+        }
       },
       {
         "id": "/art/hidden-representations-without-hidden-layers",
@@ -2020,6 +2337,7 @@
         "kind": "article",
         "title": "Hidden Representations Without Hidden Layers",
         "summary": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "architectureRole": "supporting",
         "published": "2026-07-03",
         "tags": [
           "llm-structural-analysis",
@@ -2036,15 +2354,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/hidden-representations-without-hidden-layers"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "hidden-representations-without-hidden-layers"
+        }
       },
       {
         "id": "/art/adversarial-questioning-chatgpt-zombie-survival",
@@ -2053,6 +2375,7 @@
         "kind": "article",
         "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
         "summary": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "architectureRole": "supporting",
         "published": "2026-06-27",
         "tags": [
           "llm-structural-analysis",
@@ -2073,15 +2396,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/adversarial-questioning-chatgpt-zombie-survival"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "adversarial-questioning-chatgpt-zombie-survival"
+        }
       },
       {
         "id": "/art/google-maps-review-mining-unmet-demand",
@@ -2090,6 +2417,7 @@
         "kind": "article",
         "title": "Mining Google Maps Reviews for Unmet Customer Demand",
         "summary": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "architectureRole": "supporting",
         "published": "2026-06-16",
         "tags": [
           "semantic-research-pipeline",
@@ -2101,15 +2429,19 @@
         "medium": "article",
         "projects": [],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
           "traversal": "medium",
-          "evidence": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/google-maps-review-mining-unmet-demand"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "google-maps-review-mining-unmet-demand"
+        }
       },
       {
         "id": "/art/ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -2118,6 +2450,7 @@
         "kind": "article",
         "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
         "summary": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "architectureRole": "supporting",
         "published": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -2136,15 +2469,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/ai-seo-strategy-why-your-creative-work-is-invisible"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "ai-seo-strategy-why-your-creative-work-is-invisible"
+        }
       },
       {
         "id": "/art/from-seo-keywords-to-the-haunted-machine",
@@ -2153,6 +2490,7 @@
         "kind": "article",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
         "summary": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "architectureRole": "supporting",
         "published": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -2174,7 +2512,6 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "critical",
           "traversal": "critical",
           "evidence": "high",
@@ -2183,7 +2520,12 @@
             "cross-region-bridge"
           ]
         },
-        "source": "/graph.json#articles/from-seo-keywords-to-the-haunted-machine"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "from-seo-keywords-to-the-haunted-machine"
+        }
       },
       {
         "id": "/art/how-search-and-recommendation-systems-actually-work",
@@ -2192,6 +2534,7 @@
         "kind": "article",
         "title": "How Search and Recommendation Systems Actually Work",
         "summary": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "architectureRole": "supporting",
         "published": "2026-06-05",
         "tags": [
           "search-and-discovery-systems",
@@ -2212,7 +2555,6 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "high",
           "traversal": "high",
           "evidence": "medium",
@@ -2221,7 +2563,12 @@
             "cross-system-bridge"
           ]
         },
-        "source": "/graph.json#articles/how-search-and-recommendation-systems-actually-work"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "how-search-and-recommendation-systems-actually-work"
+        }
       },
       {
         "id": "/art/semantic-seo-is-graph-positioning",
@@ -2230,6 +2577,7 @@
         "kind": "article",
         "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
         "summary": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+        "architectureRole": "supporting",
         "published": "2026-06-05",
         "tags": [
           "search-and-discovery-systems",
@@ -2248,7 +2596,6 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "high",
           "traversal": "high",
           "evidence": "medium",
@@ -2257,7 +2604,12 @@
             "semantic-seo-bridge"
           ]
         },
-        "source": "/graph.json#articles/semantic-seo-is-graph-positioning"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "semantic-seo-is-graph-positioning"
+        }
       },
       {
         "id": "/art/python-nlp-semantic-seo",
@@ -2266,6 +2618,7 @@
         "kind": "article",
         "title": "Python for NLP and Semantic SEO: A Practical Reference",
         "summary": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "architectureRole": "supporting",
         "published": "2026-05-31",
         "tags": [
           "semantic-research-pipeline",
@@ -2282,15 +2635,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/python-nlp-semantic-seo"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "python-nlp-semantic-seo"
+        }
       },
       {
         "id": "/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -2299,6 +2656,7 @@
         "kind": "article",
         "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
         "summary": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "architectureRole": "supporting",
         "published": "2026-05-25",
         "tags": [
           "semantic-research-pipeline",
@@ -2315,15 +2673,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/semantic-seo-in-python-from-search-results-to-original-content-strategy"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "semantic-seo-in-python-from-search-results-to-original-content-strategy"
+        }
       },
       {
         "id": "/art/sda3-tldr",
@@ -2332,6 +2694,7 @@
         "kind": "article",
         "title": "SDA-3 tl;dr",
         "summary": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "architectureRole": "supporting",
         "published": "2026-05-08",
         "tags": [
           "llm-structural-analysis",
@@ -2356,15 +2719,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/sda3-tldr"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "sda3-tldr"
+        }
       },
       {
         "id": "/art/research-pipeline",
@@ -2373,6 +2740,7 @@
         "kind": "article",
         "title": "Research pipeline",
         "summary": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "architectureRole": "supporting",
         "published": "2026-04-25",
         "tags": [
           "semantic-research-pipeline",
@@ -2400,15 +2768,20 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
-          "context": "standard",
+          "context": "high",
           "traversal": "high",
-          "evidence": "medium",
+          "evidence": "high",
           "roles": [
-            "published-article"
+            "cross-project-methodology",
+            "pipeline-compression"
           ]
         },
-        "source": "/graph.json#articles/research-pipeline"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "research-pipeline"
+        }
       },
       {
         "id": "/art/who-benefits-most-from-this-system",
@@ -2417,6 +2790,7 @@
         "kind": "article",
         "title": "Who This Semantic SEO System Is For—and Why",
         "summary": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
+        "architectureRole": "supporting",
         "published": "2026-04-25",
         "tags": [
           "creative-search-system",
@@ -2428,15 +2802,19 @@
         "medium": "article",
         "projects": [],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
           "traversal": "medium",
-          "evidence": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/who-benefits-most-from-this-system"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "who-benefits-most-from-this-system"
+        }
       },
       {
         "id": "/art/clustered-output-instagram-dataset",
@@ -2445,6 +2823,7 @@
         "kind": "article",
         "title": "Clustered Instagram Output: Model-Generated Symbolic Compression",
         "summary": "This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.",
+        "architectureRole": "supporting",
         "published": "2026-04-24",
         "tags": [
           "aesthetic-research-system",
@@ -2464,15 +2843,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/clustered-output-instagram-dataset"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "clustered-output-instagram-dataset"
+        }
       },
       {
         "id": "/art/data-structure-intermediate-stage",
@@ -2481,6 +2864,7 @@
         "kind": "article",
         "title": "What the Data Actually Looks Like",
         "summary": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "architectureRole": "supporting",
         "published": "2026-04-24",
         "tags": [
           "aesthetic-research-system",
@@ -2499,15 +2883,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/data-structure-intermediate-stage"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "data-structure-intermediate-stage"
+        }
       },
       {
         "id": "/art/methodology-evaluation-and-validity",
@@ -2516,6 +2904,7 @@
         "kind": "article",
         "title": "Summary of the Process, Conclusions, and Their Validity",
         "summary": "This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.",
+        "architectureRole": "supporting",
         "published": "2026-04-24",
         "tags": [
           "aesthetic-research-system",
@@ -2536,15 +2925,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/methodology-evaluation-and-validity"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "methodology-evaluation-and-validity"
+        }
       },
       {
         "id": "/art/seer-clown-research-process",
@@ -2553,6 +2946,7 @@
         "kind": "article",
         "title": "Research Process Used to Establish the Seer-Clown Archetype",
         "summary": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "architectureRole": "supporting",
         "published": "2026-04-24",
         "tags": [
           "creative-identity-system",
@@ -2571,15 +2965,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/seer-clown-research-process"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "seer-clown-research-process"
+        }
       },
       {
         "id": "/art/youtube-video-index",
@@ -2588,6 +2986,7 @@
         "kind": "article",
         "title": "YouTube",
         "summary": "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays.",
+        "architectureRole": "supporting",
         "published": "2026-04-08",
         "tags": [
           "youtube",
@@ -2610,15 +3009,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/youtube-video-index"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "youtube-video-index"
+        }
       },
       {
         "id": "/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -2627,6 +3030,7 @@
         "kind": "article",
         "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
         "summary": "A machine-readable semantic case record of how human-supervised structural questioning moved ChatGPT from genre-shaped zombie-survival answers through contradiction, rejection and reconstruction to a pressure-stable strategy.",
+        "architectureRole": "supporting",
         "published": "2026-04-08",
         "tags": [
           "llm-structural-analysis",
@@ -2647,15 +3051,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it"
+        }
       },
       {
         "id": "/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -2664,6 +3072,7 @@
         "kind": "article",
         "title": "SDA-3 protocol",
         "summary": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "architectureRole": "supporting",
         "published": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -2690,15 +3099,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/sda-3-analysing-embedding-space-structure-in-large-language-models"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "sda-3-analysing-embedding-space-structure-in-large-language-models"
+        }
       },
       {
         "id": "/art/structural-extraction-protocol",
@@ -2707,6 +3120,7 @@
         "kind": "article",
         "title": "Structural Extraction Protocol",
         "summary": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "architectureRole": "supporting",
         "published": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -2723,7 +3137,6 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "high",
           "traversal": "high",
           "evidence": "high",
@@ -2732,7 +3145,12 @@
             "llm-analysis-bridge"
           ]
         },
-        "source": "/graph.json#articles/structural-extraction-protocol"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "structural-extraction-protocol"
+        }
       },
       {
         "id": "/art/art-forms-with-high-audience-resonance",
@@ -2741,6 +3159,7 @@
         "kind": "article",
         "title": "Art Forms with High Audience Resonance",
         "summary": "This post documents a ChatGPT response generated during an analysis of datasets related to scraped SEO data.",
+        "architectureRole": "supporting",
         "published": "2026-03-15",
         "tags": [
           "aesthetic-research-system",
@@ -2757,15 +3176,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/art-forms-with-high-audience-resonance"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "art-forms-with-high-audience-resonance"
+        }
       },
       {
         "id": "/art/first-principles",
@@ -2774,6 +3197,7 @@
         "kind": "article",
         "title": "First Principles",
         "summary": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "architectureRole": "supporting",
         "published": "2026-03-15",
         "tags": [
           "creative-identity-system",
@@ -2784,15 +3208,19 @@
         "medium": "article",
         "projects": [],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
           "traversal": "medium",
-          "evidence": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/first-principles"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "first-principles"
+        }
       },
       {
         "id": "/art/gpt-misuse-is-not-what-people-think",
@@ -2801,6 +3229,7 @@
         "kind": "article",
         "title": "GPT Misuse Is Not What People Think",
         "summary": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "architectureRole": "supporting",
         "published": "2026-03-15",
         "tags": [
           "llm-structural-analysis",
@@ -2817,15 +3246,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/gpt-misuse-is-not-what-people-think"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "gpt-misuse-is-not-what-people-think"
+        }
       },
       {
         "id": "/art/maximising-artistic-identity",
@@ -2834,6 +3267,7 @@
         "kind": "article",
         "title": "Maximising Artistic Identity",
         "summary": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "architectureRole": "supporting",
         "published": "2026-03-15",
         "tags": [
           "creative-identity-system",
@@ -2848,15 +3282,19 @@
         "medium": "article",
         "projects": [],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
           "traversal": "medium",
-          "evidence": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/maximising-artistic-identity"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "maximising-artistic-identity"
+        }
       },
       {
         "id": "/art/most-popular-art-mediums-based-on-the-datasets",
@@ -2865,6 +3303,7 @@
         "kind": "article",
         "title": "Most Popular Art Mediums Based on the Datasets",
         "summary": "This post documents a ChatGPT response generated during an analysis of statistical outputs from my SEO research process. The goal of the exercise was to identify which artistic mediums appear most frequently in audience-facing datasets and how those mediums might inform future production methods.",
+        "architectureRole": "supporting",
         "published": "2026-03-15",
         "tags": [
           "aesthetic-research-system",
@@ -2881,15 +3320,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/most-popular-art-mediums-based-on-the-datasets"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "most-popular-art-mediums-based-on-the-datasets"
+        }
       },
       {
         "id": "/art/semantic-seo-begins-before-optimisation",
@@ -2898,6 +3341,7 @@
         "kind": "article",
         "title": "Semantic SEO Begins Before Optimisation",
         "summary": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "architectureRole": "supporting",
         "published": "2026-03-15",
         "tags": [
           "search-and-discovery-systems",
@@ -2916,15 +3360,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/semantic-seo-begins-before-optimisation"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "semantic-seo-begins-before-optimisation"
+        }
       },
       {
         "id": "/art/seo-visibility-structural-legibility",
@@ -2933,6 +3381,7 @@
         "kind": "article",
         "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
         "summary": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "architectureRole": "supporting",
         "published": "2026-03-15",
         "tags": [
           "search-and-discovery-systems",
@@ -2949,15 +3398,19 @@
           }
         ],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
-          "traversal": "high",
-          "evidence": "medium",
+          "traversal": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/seo-visibility-structural-legibility"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "seo-visibility-structural-legibility"
+        }
       },
       {
         "id": "/art/visibility-under-hostile-conditions",
@@ -2966,6 +3419,7 @@
         "kind": "article",
         "title": "Visibility Under Hostile Conditions",
         "summary": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "architectureRole": "supporting",
         "published": "2026-03-15",
         "tags": [
           "search-and-discovery-systems",
@@ -2976,15 +3430,19 @@
         "medium": "article",
         "projects": [],
         "agentPriority": {
-          "structural": "supporting",
           "context": "standard",
           "traversal": "medium",
-          "evidence": "medium",
+          "evidence": "unassessed",
           "roles": [
             "published-article"
           ]
         },
-        "source": "/graph.json#articles/visibility-under-hostile-conditions"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "visibility-under-hostile-conditions"
+        }
       },
       {
         "id": "/art/project/chatgpt-structural-failure",
@@ -2993,22 +3451,27 @@
         "kind": "project",
         "title": "How to Stop ChatGPT From Lying",
         "summary": "A staged investigation using a zombie-survival stress test to expose coherence smoothing, hidden assumptions and structurally weak answers in ChatGPT.",
+        "architectureRole": "supporting",
         "introduction": "Follow the investigation from ChatGPT's initial survival answer through adversarial questioning, structural convergence, historical testing, a bioweapons failure and the final supervised method.",
         "articleCounts": {
           "chapters": 6,
           "resources": 4
         },
         "agentPriority": {
-          "structural": "supporting",
           "context": "medium",
           "traversal": "critical",
-          "evidence": "medium",
+          "evidence": "low",
           "roles": [
             "ordered-investigation",
             "guided-reading-path"
           ]
         },
-        "source": "/graph.json#projects/chatgpt-structural-failure"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "projects",
+          "key": "slug",
+          "value": "chatgpt-structural-failure"
+        }
       },
       {
         "id": "/art/project/ai-visibility-is-not-value",
@@ -3017,22 +3480,27 @@
         "kind": "project",
         "title": "AI Visibility Is Not Value",
         "summary": "A nine-part analysis, with a series overview, separating AI visibility from selection, citation, value transfer and durable audience value.",
+        "architectureRole": "supporting",
         "introduction": "Begin with the series argument, then follow the distinction between being available to an AI system, being selected, being cited and retaining any resulting value.",
         "articleCounts": {
           "chapters": 9,
           "resources": 1
         },
         "agentPriority": {
-          "structural": "supporting",
           "context": "medium",
           "traversal": "critical",
-          "evidence": "medium",
+          "evidence": "low",
           "roles": [
             "ordered-investigation",
             "guided-reading-path"
           ]
         },
-        "source": "/graph.json#projects/ai-visibility-is-not-value"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "projects",
+          "key": "slug",
+          "value": "ai-visibility-is-not-value"
+        }
       },
       {
         "id": "/art/project/sda3-structural-extraction",
@@ -3041,22 +3509,27 @@
         "kind": "project",
         "title": "SDA-3 and LLM Structural Extraction",
         "summary": "A method-led pathway for extracting and testing structural information from language-model outputs without claiming access to hidden model states.",
+        "architectureRole": "supporting",
         "introduction": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
         "articleCounts": {
           "chapters": 4,
           "resources": 1
         },
         "agentPriority": {
-          "structural": "supporting",
           "context": "medium",
           "traversal": "critical",
-          "evidence": "medium",
+          "evidence": "low",
           "roles": [
             "ordered-investigation",
             "guided-reading-path"
           ]
         },
-        "source": "/graph.json#projects/sda3-structural-extraction"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "projects",
+          "key": "slug",
+          "value": "sda3-structural-extraction"
+        }
       },
       {
         "id": "/art/project/semantic-seo-graph-positioning",
@@ -3065,22 +3538,27 @@
         "kind": "project",
         "title": "Semantic SEO as Graph Positioning",
         "summary": "A connected argument that reframes Semantic SEO as structural legibility and graph positioning rather than isolated content optimisation.",
+        "architectureRole": "supporting",
         "introduction": "Follow the argument from pre-optimisation structure through search-system behaviour, graph positioning, creative visibility and the resulting content operating system.",
         "articleCounts": {
           "chapters": 6,
           "resources": 3
         },
         "agentPriority": {
-          "structural": "supporting",
           "context": "medium",
           "traversal": "critical",
-          "evidence": "medium",
+          "evidence": "low",
           "roles": [
             "ordered-investigation",
             "guided-reading-path"
           ]
         },
-        "source": "/graph.json#projects/semantic-seo-graph-positioning"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "projects",
+          "key": "slug",
+          "value": "semantic-seo-graph-positioning"
+        }
       },
       {
         "id": "/art/project/seer-clown-research",
@@ -3089,25 +3567,45 @@
         "kind": "project",
         "title": "From Aesthetic Research to the Seer-Clown",
         "summary": "An evidence-led pathway from audience and medium research through source data, clustering, interpretation and the Seer-Clown archetype.",
+        "architectureRole": "supporting",
         "introduction": "This sequence exposes both the research outputs and the intermediate representations used to turn audience evidence into an artistic identity system.",
         "articleCounts": {
           "chapters": 6,
           "resources": 1
         },
         "agentPriority": {
-          "structural": "supporting",
           "context": "medium",
           "traversal": "critical",
-          "evidence": "medium",
+          "evidence": "low",
           "roles": [
             "ordered-investigation",
             "guided-reading-path"
           ]
         },
-        "source": "/graph.json#projects/seer-clown-research"
+        "source": {
+          "resource": "/graph.json",
+          "collection": "projects",
+          "key": "slug",
+          "value": "seer-clown-research"
+        }
       }
     ],
     "edges": [
+      {
+        "source": "/",
+        "target": "/about",
+        "type": "orients-to"
+      },
+      {
+        "source": "/",
+        "target": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "type": "orients-to"
+      },
+      {
+        "source": "/",
+        "target": "/art",
+        "type": "routes-to"
+      },
       {
         "source": "/about",
         "target": "/semantic-seo-lab",
@@ -3872,7 +4370,12 @@
       "path": "/",
       "url": "https://decrepitfilth.art/",
       "kind": "entry-point",
-      "source": "/agent-map.json#pages/home",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "home"
+      },
       "lastModified": "2026-09-10",
       "priority": 1
     },
@@ -3880,7 +4383,12 @@
       "path": "/about",
       "url": "https://decrepitfilth.art/about",
       "kind": "orientation",
-      "source": "/agent-map.json#pages/about",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "about"
+      },
       "lastModified": "2026-09-10",
       "priority": 0.8
     },
@@ -3888,7 +4396,12 @@
       "path": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
       "url": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
       "kind": "conceptual-framework",
-      "source": "/agent-map.json#pages/hidden-structure",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "hidden-structure"
+      },
       "lastModified": null,
       "priority": 0.8
     },
@@ -3896,7 +4409,12 @@
       "path": "/workflow-structure-breakdown",
       "url": "https://decrepitfilth.art/workflow-structure-breakdown",
       "kind": "methodology",
-      "source": "/agent-map.json#pages/workflow-structure-breakdown",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "workflow-structure-breakdown"
+      },
       "lastModified": "2026-09-10",
       "priority": 0.8
     },
@@ -3904,7 +4422,12 @@
       "path": "/code",
       "url": "https://decrepitfilth.art/code",
       "kind": "code-notebook",
-      "source": "/agent-map.json#pages/code",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "code"
+      },
       "lastModified": "2026-09-10",
       "priority": 0.8
     },
@@ -3912,7 +4435,12 @@
       "path": "/semantic-seo-lab",
       "url": "https://decrepitfilth.art/semantic-seo-lab",
       "kind": "research-notebook",
-      "source": "/agent-map.json#pages/semantic-seo-lab",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "semantic-seo-lab"
+      },
       "lastModified": "2026-09-10",
       "priority": 0.8
     },
@@ -3920,7 +4448,12 @@
       "path": "/datamining-llm",
       "url": "https://decrepitfilth.art/datamining-llm",
       "kind": "methodological-doctrine",
-      "source": "/agent-map.json#pages/datamining-llm",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "datamining-llm"
+      },
       "lastModified": "2026-09-10",
       "priority": 0.8
     },
@@ -3928,7 +4461,12 @@
       "path": "/content-strategy",
       "url": "https://decrepitfilth.art/content-strategy",
       "kind": "editorial-strategy",
-      "source": "/agent-map.json#pages/content-strategy",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "content-strategy"
+      },
       "lastModified": "2026-09-10",
       "priority": 0.8
     },
@@ -3936,7 +4474,12 @@
       "path": "/art",
       "url": "https://decrepitfilth.art/art",
       "kind": "archive-hub",
-      "source": "/agent-map.json#pages/art",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "art"
+      },
       "lastModified": "2026-09-10",
       "priority": 0.8
     },
@@ -3944,7 +4487,12 @@
       "path": "/contact",
       "url": "https://decrepitfilth.art/contact",
       "kind": "utility",
-      "source": "/agent-map.json#pages/contact",
+      "source": {
+        "resource": "/agent-map.json",
+        "collection": "pages",
+        "key": "id",
+        "value": "contact"
+      },
       "lastModified": "2026-09-10",
       "priority": 0.8
     },
@@ -3952,343 +4500,588 @@
       "path": "/art/tiktok-video-analysis-with-python",
       "url": "https://decrepitfilth.art/art/tiktok-video-analysis-with-python",
       "kind": "article",
-      "source": "/graph.json#articles/tiktok-video-analysis-with-python",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "tiktok-video-analysis-with-python"
+      },
       "lastModified": "2026-09-04"
     },
     {
       "path": "/art/tiktok-zombie-survival-series",
       "url": "https://decrepitfilth.art/art/tiktok-zombie-survival-series",
       "kind": "article",
-      "source": "/graph.json#articles/tiktok-zombie-survival-series",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "tiktok-zombie-survival-series"
+      },
       "lastModified": "2026-08-14"
     },
     {
       "path": "/art/how-to-stop-chatgpt-from-lying",
       "url": "https://decrepitfilth.art/art/how-to-stop-chatgpt-from-lying",
       "kind": "article",
-      "source": "/graph.json#articles/how-to-stop-chatgpt-from-lying",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "how-to-stop-chatgpt-from-lying"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
       "url": "https://decrepitfilth.art/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
       "kind": "article",
-      "source": "/graph.json#articles/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/ai-zombie-survival-why-fortresses-fail",
       "url": "https://decrepitfilth.art/art/ai-zombie-survival-why-fortresses-fail",
       "kind": "article",
-      "source": "/graph.json#articles/ai-zombie-survival-why-fortresses-fail",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "ai-zombie-survival-why-fortresses-fail"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/the-zombie-survival-strategy-chatgpt-could-not-see",
       "url": "https://decrepitfilth.art/art/the-zombie-survival-strategy-chatgpt-could-not-see",
       "kind": "article",
-      "source": "/graph.json#articles/the-zombie-survival-strategy-chatgpt-could-not-see",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "the-zombie-survival-strategy-chatgpt-could-not-see"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/ai-visibility-is-not-value",
       "url": "https://decrepitfilth.art/art/ai-visibility-is-not-value",
       "kind": "article",
-      "source": "/graph.json#articles/ai-visibility-is-not-value",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "ai-visibility-is-not-value"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/ai-visibility-is-not-a-direct-optimisation-outcome",
       "url": "https://decrepitfilth.art/art/ai-visibility-is-not-a-direct-optimisation-outcome",
       "kind": "article",
-      "source": "/graph.json#articles/ai-visibility-is-not-a-direct-optimisation-outcome",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "ai-visibility-is-not-a-direct-optimisation-outcome"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/source-eligibility-being-available-is-not-being-chosen",
       "url": "https://decrepitfilth.art/art/source-eligibility-being-available-is-not-being-chosen",
       "kind": "article",
-      "source": "/graph.json#articles/source-eligibility-being-available-is-not-being-chosen",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "source-eligibility-being-available-is-not-being-chosen"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/ai-visibility-is-not-one-environment",
       "url": "https://decrepitfilth.art/art/ai-visibility-is-not-one-environment",
       "kind": "article",
-      "source": "/graph.json#articles/ai-visibility-is-not-one-environment",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "ai-visibility-is-not-one-environment"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/the-selection-gap",
       "url": "https://decrepitfilth.art/art/the-selection-gap",
       "kind": "article",
-      "source": "/graph.json#articles/the-selection-gap",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "the-selection-gap"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/selected-does-not-mean-cited",
       "url": "https://decrepitfilth.art/art/selected-does-not-mean-cited",
       "kind": "article",
-      "source": "/graph.json#articles/selected-does-not-mean-cited",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "selected-does-not-mean-cited"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/ai-visibility-measurement-cannot-prove-value",
       "url": "https://decrepitfilth.art/art/ai-visibility-measurement-cannot-prove-value",
       "kind": "article",
-      "source": "/graph.json#articles/ai-visibility-measurement-cannot-prove-value",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "ai-visibility-measurement-cannot-prove-value"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/value-transfer-retention-and-platform-capture",
       "url": "https://decrepitfilth.art/art/value-transfer-retention-and-platform-capture",
       "kind": "article",
-      "source": "/graph.json#articles/value-transfer-retention-and-platform-capture",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "value-transfer-retention-and-platform-capture"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/the-citable-hard-to-exhaust-archive",
       "url": "https://decrepitfilth.art/art/the-citable-hard-to-exhaust-archive",
       "kind": "article",
-      "source": "/graph.json#articles/the-citable-hard-to-exhaust-archive",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "the-citable-hard-to-exhaust-archive"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/representation-governance",
       "url": "https://decrepitfilth.art/art/representation-governance",
       "kind": "article",
-      "source": "/graph.json#articles/representation-governance",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "representation-governance"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/hidden-representations-without-hidden-layers",
       "url": "https://decrepitfilth.art/art/hidden-representations-without-hidden-layers",
       "kind": "article",
-      "source": "/graph.json#articles/hidden-representations-without-hidden-layers",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "hidden-representations-without-hidden-layers"
+      },
       "lastModified": "2026-07-03"
     },
     {
       "path": "/art/adversarial-questioning-chatgpt-zombie-survival",
       "url": "https://decrepitfilth.art/art/adversarial-questioning-chatgpt-zombie-survival",
       "kind": "article",
-      "source": "/graph.json#articles/adversarial-questioning-chatgpt-zombie-survival",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "adversarial-questioning-chatgpt-zombie-survival"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/google-maps-review-mining-unmet-demand",
       "url": "https://decrepitfilth.art/art/google-maps-review-mining-unmet-demand",
       "kind": "article",
-      "source": "/graph.json#articles/google-maps-review-mining-unmet-demand",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "google-maps-review-mining-unmet-demand"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/ai-seo-strategy-why-your-creative-work-is-invisible",
       "url": "https://decrepitfilth.art/art/ai-seo-strategy-why-your-creative-work-is-invisible",
       "kind": "article",
-      "source": "/graph.json#articles/ai-seo-strategy-why-your-creative-work-is-invisible",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "ai-seo-strategy-why-your-creative-work-is-invisible"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/from-seo-keywords-to-the-haunted-machine",
       "url": "https://decrepitfilth.art/art/from-seo-keywords-to-the-haunted-machine",
       "kind": "article",
-      "source": "/graph.json#articles/from-seo-keywords-to-the-haunted-machine",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "from-seo-keywords-to-the-haunted-machine"
+      },
       "lastModified": "2026-09-09"
     },
     {
       "path": "/art/how-search-and-recommendation-systems-actually-work",
       "url": "https://decrepitfilth.art/art/how-search-and-recommendation-systems-actually-work",
       "kind": "article",
-      "source": "/graph.json#articles/how-search-and-recommendation-systems-actually-work",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "how-search-and-recommendation-systems-actually-work"
+      },
       "lastModified": "2026-06-05"
     },
     {
       "path": "/art/semantic-seo-is-graph-positioning",
       "url": "https://decrepitfilth.art/art/semantic-seo-is-graph-positioning",
       "kind": "article",
-      "source": "/graph.json#articles/semantic-seo-is-graph-positioning",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "semantic-seo-is-graph-positioning"
+      },
       "lastModified": "2026-06-05"
     },
     {
       "path": "/art/python-nlp-semantic-seo",
       "url": "https://decrepitfilth.art/art/python-nlp-semantic-seo",
       "kind": "article",
-      "source": "/graph.json#articles/python-nlp-semantic-seo",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "python-nlp-semantic-seo"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
       "url": "https://decrepitfilth.art/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
       "kind": "article",
-      "source": "/graph.json#articles/semantic-seo-in-python-from-search-results-to-original-content-strategy",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "semantic-seo-in-python-from-search-results-to-original-content-strategy"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/sda3-tldr",
       "url": "https://decrepitfilth.art/art/sda3-tldr",
       "kind": "article",
-      "source": "/graph.json#articles/sda3-tldr",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "sda3-tldr"
+      },
       "lastModified": "2026-05-08"
     },
     {
       "path": "/art/research-pipeline",
       "url": "https://decrepitfilth.art/art/research-pipeline",
       "kind": "article",
-      "source": "/graph.json#articles/research-pipeline",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "research-pipeline"
+      },
       "lastModified": "2026-04-25"
     },
     {
       "path": "/art/who-benefits-most-from-this-system",
       "url": "https://decrepitfilth.art/art/who-benefits-most-from-this-system",
       "kind": "article",
-      "source": "/graph.json#articles/who-benefits-most-from-this-system",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "who-benefits-most-from-this-system"
+      },
       "lastModified": "2026-09-09"
     },
     {
       "path": "/art/clustered-output-instagram-dataset",
       "url": "https://decrepitfilth.art/art/clustered-output-instagram-dataset",
       "kind": "article",
-      "source": "/graph.json#articles/clustered-output-instagram-dataset",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "clustered-output-instagram-dataset"
+      },
       "lastModified": "2026-09-09"
     },
     {
       "path": "/art/data-structure-intermediate-stage",
       "url": "https://decrepitfilth.art/art/data-structure-intermediate-stage",
       "kind": "article",
-      "source": "/graph.json#articles/data-structure-intermediate-stage",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "data-structure-intermediate-stage"
+      },
       "lastModified": "2026-04-24"
     },
     {
       "path": "/art/methodology-evaluation-and-validity",
       "url": "https://decrepitfilth.art/art/methodology-evaluation-and-validity",
       "kind": "article",
-      "source": "/graph.json#articles/methodology-evaluation-and-validity",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "methodology-evaluation-and-validity"
+      },
       "lastModified": "2026-04-24"
     },
     {
       "path": "/art/seer-clown-research-process",
       "url": "https://decrepitfilth.art/art/seer-clown-research-process",
       "kind": "article",
-      "source": "/graph.json#articles/seer-clown-research-process",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "seer-clown-research-process"
+      },
       "lastModified": "2026-04-24"
     },
     {
       "path": "/art/youtube-video-index",
       "url": "https://decrepitfilth.art/art/youtube-video-index",
       "kind": "article",
-      "source": "/graph.json#articles/youtube-video-index",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "youtube-video-index"
+      },
       "lastModified": "2026-04-08"
     },
     {
       "path": "/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
       "url": "https://decrepitfilth.art/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
       "kind": "article",
-      "source": "/graph.json#articles/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it"
+      },
       "lastModified": "2026-04-08"
     },
     {
       "path": "/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
       "url": "https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
       "kind": "article",
-      "source": "/graph.json#articles/sda-3-analysing-embedding-space-structure-in-large-language-models",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "sda-3-analysing-embedding-space-structure-in-large-language-models"
+      },
       "lastModified": "2026-09-08"
     },
     {
       "path": "/art/structural-extraction-protocol",
       "url": "https://decrepitfilth.art/art/structural-extraction-protocol",
       "kind": "article",
-      "source": "/graph.json#articles/structural-extraction-protocol",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "structural-extraction-protocol"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/art-forms-with-high-audience-resonance",
       "url": "https://decrepitfilth.art/art/art-forms-with-high-audience-resonance",
       "kind": "article",
-      "source": "/graph.json#articles/art-forms-with-high-audience-resonance",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "art-forms-with-high-audience-resonance"
+      },
       "lastModified": "2026-03-15"
     },
     {
       "path": "/art/first-principles",
       "url": "https://decrepitfilth.art/art/first-principles",
       "kind": "article",
-      "source": "/graph.json#articles/first-principles",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "first-principles"
+      },
       "lastModified": "2026-03-15"
     },
     {
       "path": "/art/gpt-misuse-is-not-what-people-think",
       "url": "https://decrepitfilth.art/art/gpt-misuse-is-not-what-people-think",
       "kind": "article",
-      "source": "/graph.json#articles/gpt-misuse-is-not-what-people-think",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "gpt-misuse-is-not-what-people-think"
+      },
       "lastModified": "2026-03-15"
     },
     {
       "path": "/art/maximising-artistic-identity",
       "url": "https://decrepitfilth.art/art/maximising-artistic-identity",
       "kind": "article",
-      "source": "/graph.json#articles/maximising-artistic-identity",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "maximising-artistic-identity"
+      },
       "lastModified": "2026-03-15"
     },
     {
       "path": "/art/most-popular-art-mediums-based-on-the-datasets",
       "url": "https://decrepitfilth.art/art/most-popular-art-mediums-based-on-the-datasets",
       "kind": "article",
-      "source": "/graph.json#articles/most-popular-art-mediums-based-on-the-datasets",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "most-popular-art-mediums-based-on-the-datasets"
+      },
       "lastModified": "2026-03-15"
     },
     {
       "path": "/art/semantic-seo-begins-before-optimisation",
       "url": "https://decrepitfilth.art/art/semantic-seo-begins-before-optimisation",
       "kind": "article",
-      "source": "/graph.json#articles/semantic-seo-begins-before-optimisation",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "semantic-seo-begins-before-optimisation"
+      },
       "lastModified": "2026-03-15"
     },
     {
       "path": "/art/seo-visibility-structural-legibility",
       "url": "https://decrepitfilth.art/art/seo-visibility-structural-legibility",
       "kind": "article",
-      "source": "/graph.json#articles/seo-visibility-structural-legibility",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "seo-visibility-structural-legibility"
+      },
       "lastModified": "2026-03-15"
     },
     {
       "path": "/art/visibility-under-hostile-conditions",
       "url": "https://decrepitfilth.art/art/visibility-under-hostile-conditions",
       "kind": "article",
-      "source": "/graph.json#articles/visibility-under-hostile-conditions",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "visibility-under-hostile-conditions"
+      },
       "lastModified": "2026-03-15"
     },
     {
       "path": "/art/project/chatgpt-structural-failure",
       "url": "https://decrepitfilth.art/art/project/chatgpt-structural-failure",
       "kind": "project",
-      "source": "/graph.json#projects/chatgpt-structural-failure",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "chatgpt-structural-failure"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/project/ai-visibility-is-not-value",
       "url": "https://decrepitfilth.art/art/project/ai-visibility-is-not-value",
       "kind": "project",
-      "source": "/graph.json#projects/ai-visibility-is-not-value",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "ai-visibility-is-not-value"
+      },
       "lastModified": "2026-07-08"
     },
     {
       "path": "/art/project/sda3-structural-extraction",
       "url": "https://decrepitfilth.art/art/project/sda3-structural-extraction",
       "kind": "project",
-      "source": "/graph.json#projects/sda3-structural-extraction",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "sda3-structural-extraction"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/project/semantic-seo-graph-positioning",
       "url": "https://decrepitfilth.art/art/project/semantic-seo-graph-positioning",
       "kind": "project",
-      "source": "/graph.json#projects/semantic-seo-graph-positioning",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "semantic-seo-graph-positioning"
+      },
       "lastModified": "2026-09-10"
     },
     {
       "path": "/art/project/seer-clown-research",
       "url": "https://decrepitfilth.art/art/project/seer-clown-research",
       "kind": "project",
-      "source": "/graph.json#projects/seer-clown-research",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "seer-clown-research"
+      },
       "lastModified": "2026-09-09"
     }
   ]
