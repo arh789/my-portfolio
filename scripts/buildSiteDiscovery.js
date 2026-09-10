@@ -710,6 +710,8 @@ const agentMap = {
     projectHubs: projectHubs.length,
   },
   pages: staticPages,
+  semanticHubSelectionRule:
+    "A semantic hub is a supporting page with unusually high contextual or bridge value whose function is not already adequately represented by a core page.",
   semanticHubs,
   projectHubs,
   relations: curatedPageEdges,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-09-10T21:31:25.505Z",
+  "generatedAt": "2026-09-10T22:09:39.018Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -719,6 +719,7 @@
       }
     }
   ],
+  "semanticHubSelectionRule": "A semantic hub is a supporting page with unusually high contextual or bridge value whose function is not already adequately represented by a core page.",
   "semanticHubs": [
     {
       "id": "/art/from-seo-keywords-to-the-haunted-machine",
