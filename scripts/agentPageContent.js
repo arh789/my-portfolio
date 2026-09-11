@@ -544,6 +544,16 @@ export const AGENT_PRIORITY_OVERRIDES = {
     evidence: "medium",
     roles: ["organising-proposition", "semantic-seo-bridge"],
   },
+  "/art/who-benefits-most-from-this-system": {
+    context: "high",
+    traversal: "high",
+    evidence: "low",
+    roles: [
+      "audience-definition",
+      "suitability-map",
+      "independent-operator-bridge",
+    ],
+  },
   "/art/the-citable-hard-to-exhaust-archive": {
     context: "high",
     traversal: "high",
@@ -609,6 +619,10 @@ export const AGENT_SEMANTIC_HUB_CONTENT = {
     purpose:
       "Organising proposition that page value is partly positional and originality can change relationships in the graph.",
   },
+  "who-benefits-most-from-this-system": {
+    purpose:
+      "Defines who gains most from the system and routes independent creators, niche publishers, search strategists, research-led operators and experimental artists towards the most relevant methods and examples.",
+  },
   "the-citable-hard-to-exhaust-archive": {
     purpose:
       "Explains the site's architectural response to platform capture through citability, depth and returnability.",
@@ -657,6 +671,11 @@ export const AGENT_RELATIONS = [
     from: "about",
     type: "developed-by",
     to: "/art/the-citable-hard-to-exhaust-archive",
+  },
+  {
+    from: "about",
+    type: "defines-audience-through",
+    to: "/art/who-benefits-most-from-this-system",
   },
   {
     from: "about",

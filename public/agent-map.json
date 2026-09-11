@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-09-11T04:09:20.528Z",
+  "generatedAt": "2026-09-11T04:33:03.508Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -57,8 +57,8 @@
     "projects": 5,
     "indexedUrls": 59,
     "siteGraphNodes": 59,
-    "siteGraphEdges": 141,
-    "semanticHubs": 7,
+    "siteGraphEdges": 142,
+    "semanticHubs": 8,
     "projectHubs": 5
   },
   "pages": [
@@ -851,6 +851,31 @@
       }
     },
     {
+      "id": "/art/who-benefits-most-from-this-system",
+      "path": "/art/who-benefits-most-from-this-system",
+      "url": "https://decrepitfilth.art/art/who-benefits-most-from-this-system",
+      "title": "Who This Semantic SEO System Is For—and Why",
+      "summary": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
+      "architectureRole": "supporting",
+      "agentPriority": {
+        "context": "high",
+        "traversal": "high",
+        "evidence": "low",
+        "roles": [
+          "audience-definition",
+          "suitability-map",
+          "independent-operator-bridge"
+        ]
+      },
+      "purpose": "Defines who gains most from the system and routes independent creators, niche publishers, search strategists, research-led operators and experimental artists towards the most relevant methods and examples.",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "who-benefits-most-from-this-system"
+      }
+    },
+    {
       "id": "/art/the-citable-hard-to-exhaust-archive",
       "path": "/art/the-citable-hard-to-exhaust-archive",
       "url": "https://decrepitfilth.art/art/the-citable-hard-to-exhaust-archive",
@@ -1381,6 +1406,11 @@
       "source": "/about",
       "target": "/art/the-citable-hard-to-exhaust-archive",
       "type": "developed-by"
+    },
+    {
+      "source": "/about",
+      "target": "/art/who-benefits-most-from-this-system",
+      "type": "defines-audience-through"
     },
     {
       "source": "/about",
@@ -2814,11 +2844,13 @@
         "medium": "article",
         "projects": [],
         "agentPriority": {
-          "context": "standard",
-          "traversal": "medium",
-          "evidence": "unassessed",
+          "context": "high",
+          "traversal": "high",
+          "evidence": "low",
           "roles": [
-            "published-article"
+            "audience-definition",
+            "suitability-map",
+            "independent-operator-bridge"
           ]
         },
         "source": {
@@ -3672,6 +3704,11 @@
         "source": "/about",
         "target": "/art/the-citable-hard-to-exhaust-archive",
         "type": "developed-by"
+      },
+      {
+        "source": "/about",
+        "target": "/art/who-benefits-most-from-this-system",
+        "type": "defines-audience-through"
       },
       {
         "source": "/about",
