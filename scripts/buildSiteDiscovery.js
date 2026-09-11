@@ -22,6 +22,10 @@ import {
   AGENT_SEMANTIC_HUB_CONTENT,
   CLAIM_STATUS,
 } from "./agentPageContent.js";
+import {
+  renderAgentMapHtml,
+  validateAgentMapHtml,
+} from "./renderAgentMapHtml.js";
 
 const PUBLIC_DIR = path.join(process.cwd(), "public");
 const generatedAt = new Date().toISOString();
@@ -696,7 +700,9 @@ const agentMap = {
   resources: {
     sitemap: "/sitemap.xml",
     articleGraph: "/graph.json",
+    articleGraphHtml: "/art",
     pageMap: "/agent-map.json",
+    pageMapHtml: "/agent-map.html",
     siteGraph: "/agent-map.json#/siteGraph",
   },
   sourceLocatorSchema: {
@@ -734,6 +740,12 @@ const agentMap = {
 
 writeJson("graph.json", graph);
 writeJson("agent-map.json", agentMap);
+
+const agentMapHtml = renderAgentMapHtml(agentMap);
+validateAgentMapHtml(agentMapHtml, agentMap);
+const agentMapHtmlPath = path.join(PUBLIC_DIR, "agent-map.html");
+fs.writeFileSync(agentMapHtmlPath, agentMapHtml, "utf8");
+console.log("agent-map.html written to " + agentMapHtmlPath);
 
 const sitemapPath = path.join(PUBLIC_DIR, "sitemap.xml");
 fs.writeFileSync(sitemapPath, renderSitemap(urlIndex), "utf8");

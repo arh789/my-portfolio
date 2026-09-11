@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-09-10T23:45:34.268Z",
+  "generatedAt": "2026-09-11T04:09:20.528Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -28,7 +28,9 @@
   "resources": {
     "sitemap": "/sitemap.xml",
     "articleGraph": "/graph.json",
+    "articleGraphHtml": "/art",
     "pageMap": "/agent-map.json",
+    "pageMapHtml": "/agent-map.html",
     "siteGraph": "/agent-map.json#/siteGraph"
   },
   "sourceLocatorSchema": {
