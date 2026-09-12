@@ -554,6 +554,17 @@ export const AGENT_PRIORITY_OVERRIDES = {
       "independent-operator-bridge",
     ],
   },
+  "/art/building-an-agent-native-after-effects-workflow": {
+    context: "high",
+    traversal: "high",
+    evidence: "high",
+    roles: [
+      "agent-native-production-architecture",
+      "creative-system-implementation",
+      "art-code-bridge",
+      "human-supervised-workflow",
+    ],
+  },
   "/art/the-citable-hard-to-exhaust-archive": {
     context: "high",
     traversal: "high",
@@ -623,6 +634,26 @@ export const AGENT_SEMANTIC_HUB_CONTENT = {
     purpose:
       "Defines who gains most from the system and routes independent creators, niche publishers, search strategists, research-led operators and experimental artists towards the most relevant methods and examples.",
   },
+  "building-an-agent-native-after-effects-workflow": {
+    purpose:
+      "Externalises consequential After Effects production state so an agent can preserve a creative system while changing, rebuilding and verifying individual outputs under human direction.",
+    origin:
+      "Developed through production of the zombie-survival short-form video series, then generalised into a reusable reference architecture.",
+    operatingLoop: [
+      "define",
+      "build",
+      "observe rendered evidence",
+      "correct responsible state",
+    ],
+    authority: {
+      human: "intent, approval, taste, exceptions and final creative authority",
+      agent:
+        "state reconstruction, local modification, build execution and evidence inspection",
+      application: "specialised execution and rendering",
+    },
+    implementationRepository:
+      "https://github.com/arh789/after-effects-agent-native-production-architecture",
+  },
   "the-citable-hard-to-exhaust-archive": {
     purpose:
       "Explains the site's architectural response to platform capture through citability, depth and returnability.",
@@ -676,6 +707,31 @@ export const AGENT_RELATIONS = [
     from: "about",
     type: "defines-audience-through",
     to: "/art/who-benefits-most-from-this-system",
+  },
+  {
+    from: "/art/tiktok-zombie-survival-series",
+    type: "production-method-developed-into",
+    to: "/art/building-an-agent-native-after-effects-workflow",
+  },
+  {
+    from: "content-strategy",
+    type: "operationalised-by",
+    to: "/art/building-an-agent-native-after-effects-workflow",
+  },
+  {
+    from: "hidden-structure",
+    type: "applied-to-creative-production-by",
+    to: "/art/building-an-agent-native-after-effects-workflow",
+  },
+  {
+    from: "workflow-structure-breakdown",
+    type: "shares-explicit-state-pattern-with",
+    to: "/art/building-an-agent-native-after-effects-workflow",
+  },
+  {
+    from: "/art/from-seo-keywords-to-the-haunted-machine",
+    type: "extended-into-production-by",
+    to: "/art/building-an-agent-native-after-effects-workflow",
   },
   {
     from: "about",

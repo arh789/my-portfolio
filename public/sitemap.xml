@@ -41,13 +41,17 @@
   </url>
   <url>
     <loc>https://decrepitfilth.art/art</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://decrepitfilth.art/contact</loc>
     <lastmod>2026-09-10</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decrepitfilth.art/art/building-an-agent-native-after-effects-workflow</loc>
+    <lastmod>2026-09-12</lastmod>
   </url>
   <url>
     <loc>https://decrepitfilth.art/art/tiktok-video-analysis-with-python</loc>
@@ -227,7 +231,7 @@
   </url>
   <url>
     <loc>https://decrepitfilth.art/art/project/chatgpt-structural-failure</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-12</lastmod>
   </url>
   <url>
     <loc>https://decrepitfilth.art/art/project/ai-visibility-is-not-value</loc>

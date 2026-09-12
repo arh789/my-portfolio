@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-09-11T04:33:03.508Z",
+  "generatedAt": "2026-09-12T06:03:25.184Z",
   "articles": [
+    {
+      "slug": "building-an-agent-native-after-effects-workflow",
+      "title": "Building an Agent-Native After Effects Workflow",
+      "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+      "date": "2026-09-12",
+      "tags": [
+        "artistic-system-building",
+        "creative-identity-system",
+        "structural-legibility",
+        "short-form-video",
+        "first-principles"
+      ],
+      "type": "analysis",
+      "projects": [
+        {
+          "slug": "chatgpt-structural-failure",
+          "order": 22,
+          "role": "methodology"
+        }
+      ],
+      "medium": "methodology"
+    },
     {
       "slug": "tiktok-video-analysis-with-python",
       "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
@@ -959,7 +981,229 @@
     }
   ],
   "tagIndex": {
-    "tiktok": [
+    "artistic-system-building": [
+      {
+        "slug": "building-an-agent-native-after-effects-workflow",
+        "title": "Building an Agent-Native After Effects Workflow",
+        "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+        "date": "2026-09-12",
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "short-form-video",
+          "first-principles"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "date": "2026-04-24",
+        "tags": [
+          "creative-identity-system",
+          "seer-clown",
+          "aesthetic-research-system",
+          "aesthetic-analysis",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "seer-clown",
+          "haunted-machine",
+          "artistic-identity",
+          "structural-legibility",
+          "artistic-system-building"
+        ]
+      }
+    ],
+    "creative-identity-system": [
+      {
+        "slug": "building-an-agent-native-after-effects-workflow",
+        "title": "Building an Agent-Native After Effects Workflow",
+        "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+        "date": "2026-09-12",
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "short-form-video",
+          "first-principles"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "seer-clown-research-process",
+        "title": "Research Process Used to Establish the Seer-Clown Archetype",
+        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
+        "date": "2026-04-24",
+        "tags": [
+          "creative-identity-system",
+          "seer-clown",
+          "aesthetic-research-system",
+          "aesthetic-analysis",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "seer-clown",
+          "haunted-machine",
+          "artistic-identity",
+          "structural-legibility",
+          "artistic-system-building"
+        ]
+      }
+    ],
+    "structural-legibility": [
+      {
+        "slug": "building-an-agent-native-after-effects-workflow",
+        "title": "Building an Agent-Native After Effects Workflow",
+        "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+        "date": "2026-09-12",
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "short-form-video",
+          "first-principles"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "seer-clown",
+          "haunted-machine",
+          "artistic-identity",
+          "structural-legibility",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "semantic-seo-begins-before-optimisation",
+        "title": "Semantic SEO Begins Before Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "seo-visibility-structural-legibility",
+        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
+        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "structural-legibility",
+          "discovery-systems-map"
+        ]
+      }
+    ],
+    "short-form-video": [
+      {
+        "slug": "building-an-agent-native-after-effects-workflow",
+        "title": "Building an Agent-Native After Effects Workflow",
+        "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+        "date": "2026-09-12",
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "short-form-video",
+          "first-principles"
+        ]
+      },
       {
         "slug": "tiktok-video-analysis-with-python",
         "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
@@ -996,7 +1240,48 @@
         ]
       }
     ],
-    "short-form-video": [
+    "first-principles": [
+      {
+        "slug": "building-an-agent-native-after-effects-workflow",
+        "title": "Building an Agent-Native After Effects Workflow",
+        "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+        "date": "2026-09-12",
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "short-form-video",
+          "first-principles"
+        ]
+      },
+      {
+        "slug": "first-principles",
+        "title": "First Principles",
+        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "artistic-system-building"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "seer-clown",
+          "haunted-machine",
+          "artistic-identity",
+          "structural-legibility",
+          "artistic-system-building"
+        ]
+      }
+    ],
+    "tiktok": [
       {
         "slug": "tiktok-video-analysis-with-python",
         "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
@@ -3540,63 +3825,6 @@
         ]
       }
     ],
-    "creative-identity-system": [
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "seer-clown-research-process",
-        "title": "Research Process Used to Establish the Seer-Clown Archetype",
-        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
-        "date": "2026-04-24",
-        "tags": [
-          "creative-identity-system",
-          "seer-clown",
-          "aesthetic-research-system",
-          "aesthetic-analysis",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "slug": "first-principles",
-        "title": "First Principles",
-        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "seer-clown",
-          "haunted-machine",
-          "artistic-identity",
-          "structural-legibility",
-          "artistic-system-building"
-        ]
-      }
-    ],
     "haunted-machine-video": [
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
@@ -3647,63 +3875,6 @@
           "haunted-machine",
           "artistic-system-building",
           "video-index-system"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "seer-clown",
-          "haunted-machine",
-          "artistic-identity",
-          "structural-legibility",
-          "artistic-system-building"
-        ]
-      }
-    ],
-    "artistic-system-building": [
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "seer-clown-research-process",
-        "title": "Research Process Used to Establish the Seer-Clown Archetype",
-        "description": "This post outlines the structured, iterative research process used to develop the Seer-Clown archetype, combining data-driven analysis, artistic intuition, and philosophical exploration.",
-        "date": "2026-04-24",
-        "tags": [
-          "creative-identity-system",
-          "seer-clown",
-          "aesthetic-research-system",
-          "aesthetic-analysis",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "slug": "first-principles",
-        "title": "First Principles",
-        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "artistic-system-building"
         ]
       },
       {
@@ -3778,62 +3949,6 @@
           "graph-positioning",
           "creative-search-system",
           "semantic-archive",
-          "discovery-systems-map"
-        ]
-      }
-    ],
-    "structural-legibility": [
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "seer-clown",
-          "haunted-machine",
-          "artistic-identity",
-          "structural-legibility",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "structural-legibility",
           "discovery-systems-map"
         ]
       }
@@ -4415,34 +4530,6 @@
         ]
       }
     ],
-    "first-principles": [
-      {
-        "slug": "first-principles",
-        "title": "First Principles",
-        "description": "These are the first principles that guide my artwork. They emerged from my research into horror, psychology, symbolism, and audience response, and act as the underlying logic behind the work that appears on this site.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "seer-clown",
-          "haunted-machine",
-          "artistic-identity",
-          "structural-legibility",
-          "artistic-system-building"
-        ]
-      }
-    ],
     "artistic-identity": [
       {
         "slug": "maximising-artistic-identity",
@@ -4523,24 +4610,28 @@
       "count": 6
     },
     {
+      "tag": "artistic-system-building",
+      "count": 5
+    },
+    {
+      "tag": "creative-identity-system",
+      "count": 5
+    },
+    {
       "tag": "sda-3",
       "count": 5
     },
     {
-      "tag": "artistic-system-building",
-      "count": 4
-    },
-    {
-      "tag": "creative-identity-system",
-      "count": 4
+      "tag": "structural-legibility",
+      "count": 5
     },
     {
       "tag": "semantic-archive",
       "count": 4
     },
     {
-      "tag": "structural-legibility",
-      "count": 4
+      "tag": "first-principles",
+      "count": 3
     },
     {
       "tag": "how-to-stop-chatgpt-from-lying-video",
@@ -4552,6 +4643,10 @@
     },
     {
       "tag": "seer-clown",
+      "count": 3
+    },
+    {
+      "tag": "short-form-video",
       "count": 3
     },
     {
@@ -4600,10 +4695,6 @@
     },
     {
       "tag": "dataset-structure",
-      "count": 2
-    },
-    {
-      "tag": "first-principles",
       "count": 2
     },
     {
@@ -4656,10 +4747,6 @@
     },
     {
       "tag": "semantic-seo",
-      "count": 2
-    },
-    {
-      "tag": "short-form-video",
       "count": 2
     },
     {
@@ -4998,6 +5085,30 @@
           "medium": "youtube-index",
           "projectOrder": 21,
           "projectRole": "media-index"
+        },
+        {
+          "slug": "building-an-agent-native-after-effects-workflow",
+          "title": "Building an Agent-Native After Effects Workflow",
+          "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+          "date": "2026-09-12",
+          "tags": [
+            "artistic-system-building",
+            "creative-identity-system",
+            "structural-legibility",
+            "short-form-video",
+            "first-principles"
+          ],
+          "type": "analysis",
+          "projects": [
+            {
+              "slug": "chatgpt-structural-failure",
+              "order": 22,
+              "role": "methodology"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 22,
+          "projectRole": "methodology"
         }
       ]
     },
@@ -5799,6 +5910,19 @@
   "graph": {
     "nodes": [
       {
+        "id": "building-an-agent-native-after-effects-workflow",
+        "label": "Building an Agent-Native After Effects Workflow",
+        "type": "article",
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "short-form-video",
+          "first-principles"
+        ],
+        "centrality": 16
+      },
+      {
         "id": "tiktok-video-analysis-with-python",
         "label": "TikTok Trend Analysis With Python: A Story About CreepyTok",
         "type": "article",
@@ -5812,7 +5936,7 @@
           "search-and-discovery-systems",
           "creative-search-system"
         ],
-        "centrality": 40
+        "centrality": 41
       },
       {
         "id": "tiktok-zombie-survival-series",
@@ -5831,7 +5955,7 @@
           "video-index-system",
           "how-to-stop-chatgpt-from-lying-video"
         ],
-        "centrality": 62
+        "centrality": 63
       },
       {
         "id": "how-to-stop-chatgpt-from-lying",
@@ -6076,7 +6200,7 @@
           "artistic-system-building",
           "video-index-system"
         ],
-        "centrality": 36
+        "centrality": 38
       },
       {
         "id": "how-search-and-recommendation-systems-actually-work",
@@ -6091,7 +6215,7 @@
           "ai-search",
           "discovery-systems-map"
         ],
-        "centrality": 20
+        "centrality": 21
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -6224,7 +6348,7 @@
           "aesthetic-analysis",
           "artistic-system-building"
         ],
-        "centrality": 18
+        "centrality": 20
       },
       {
         "id": "youtube-video-index",
@@ -6305,7 +6429,7 @@
           "first-principles",
           "artistic-system-building"
         ],
-        "centrality": 7
+        "centrality": 10
       },
       {
         "id": "gpt-misuse-is-not-what-people-think",
@@ -6331,7 +6455,7 @@
           "structural-legibility",
           "artistic-system-building"
         ],
-        "centrality": 13
+        "centrality": 17
       },
       {
         "id": "most-popular-art-mediums-based-on-the-datasets",
@@ -6355,7 +6479,7 @@
           "structural-legibility",
           "discovery-systems-map"
         ],
-        "centrality": 22
+        "centrality": 23
       },
       {
         "id": "seo-visibility-structural-legibility",
@@ -6366,7 +6490,7 @@
           "structural-legibility",
           "discovery-systems-map"
         ],
-        "centrality": 16
+        "centrality": 17
       },
       {
         "id": "visibility-under-hostile-conditions",
@@ -6381,6 +6505,85 @@
       }
     ],
     "edges": [
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "tiktok-video-analysis-with-python",
+        "weight": 1,
+        "tags": [
+          "short-form-video"
+        ]
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "tiktok-zombie-survival-series",
+        "weight": 1,
+        "tags": [
+          "short-form-video"
+        ]
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "from-seo-keywords-to-the-haunted-machine",
+        "weight": 2,
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system"
+        ]
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "how-search-and-recommendation-systems-actually-work",
+        "weight": 1,
+        "tags": [
+          "structural-legibility"
+        ]
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "seer-clown-research-process",
+        "weight": 2,
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system"
+        ]
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "first-principles",
+        "weight": 3,
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "first-principles"
+        ]
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "maximising-artistic-identity",
+        "weight": 4,
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "first-principles"
+        ]
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "semantic-seo-begins-before-optimisation",
+        "weight": 1,
+        "tags": [
+          "structural-legibility"
+        ]
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "seo-visibility-structural-legibility",
+        "weight": 1,
+        "tags": [
+          "structural-legibility"
+        ]
+      },
       {
         "source": "tiktok-video-analysis-with-python",
         "target": "tiktok-zombie-survival-series",
@@ -8735,6 +8938,12 @@
         "source": "youtube-video-index",
         "target": "project:chatgpt-structural-failure",
         "type": "alternate-media",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "building-an-agent-native-after-effects-workflow",
+        "target": "project:chatgpt-structural-failure",
+        "type": "supports-methodology",
         "project": "chatgpt-structural-failure"
       },
       {

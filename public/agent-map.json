@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-09-11T04:33:03.508Z",
+  "generatedAt": "2026-09-12T06:03:25.184Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -53,12 +53,12 @@
   },
   "counts": {
     "corePages": 10,
-    "articles": 44,
+    "articles": 45,
     "projects": 5,
-    "indexedUrls": 59,
-    "siteGraphNodes": 59,
-    "siteGraphEdges": 142,
-    "semanticHubs": 8,
+    "indexedUrls": 60,
+    "siteGraphNodes": 60,
+    "siteGraphEdges": 149,
+    "semanticHubs": 9,
     "projectHubs": 5
   },
   "pages": [
@@ -650,7 +650,7 @@
         "canonical": "https://decrepitfilth.art/art",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-09-10"
+        "lastModified": "2026-09-12"
       },
       "questionsAnswered": [
         "What has been published?",
@@ -876,6 +876,45 @@
       }
     },
     {
+      "id": "/art/building-an-agent-native-after-effects-workflow",
+      "path": "/art/building-an-agent-native-after-effects-workflow",
+      "url": "https://decrepitfilth.art/art/building-an-agent-native-after-effects-workflow",
+      "title": "Building an Agent-Native After Effects Workflow",
+      "summary": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+      "architectureRole": "supporting",
+      "agentPriority": {
+        "context": "high",
+        "traversal": "high",
+        "evidence": "high",
+        "roles": [
+          "agent-native-production-architecture",
+          "creative-system-implementation",
+          "art-code-bridge",
+          "human-supervised-workflow"
+        ]
+      },
+      "purpose": "Externalises consequential After Effects production state so an agent can preserve a creative system while changing, rebuilding and verifying individual outputs under human direction.",
+      "origin": "Developed through production of the zombie-survival short-form video series, then generalised into a reusable reference architecture.",
+      "operatingLoop": [
+        "define",
+        "build",
+        "observe rendered evidence",
+        "correct responsible state"
+      ],
+      "authority": {
+        "human": "intent, approval, taste, exceptions and final creative authority",
+        "agent": "state reconstruction, local modification, build execution and evidence inspection",
+        "application": "specialised execution and rendering"
+      },
+      "implementationRepository": "https://github.com/arh789/after-effects-agent-native-production-architecture",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "building-an-agent-native-after-effects-workflow"
+      }
+    },
+    {
       "id": "/art/the-citable-hard-to-exhaust-archive",
       "path": "/art/the-citable-hard-to-exhaust-archive",
       "url": "https://decrepitfilth.art/art/the-citable-hard-to-exhaust-archive",
@@ -1028,6 +1067,12 @@
           "path": "/art/youtube-video-index",
           "title": "YouTube",
           "role": "media-index"
+        },
+        {
+          "order": 22,
+          "path": "/art/building-an-agent-native-after-effects-workflow",
+          "title": "Building an Agent-Native After Effects Workflow",
+          "role": "methodology"
         }
       ],
       "source": {
@@ -1413,6 +1458,31 @@
       "type": "defines-audience-through"
     },
     {
+      "source": "/art/tiktok-zombie-survival-series",
+      "target": "/art/building-an-agent-native-after-effects-workflow",
+      "type": "production-method-developed-into"
+    },
+    {
+      "source": "/content-strategy",
+      "target": "/art/building-an-agent-native-after-effects-workflow",
+      "type": "operationalised-by"
+    },
+    {
+      "source": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+      "target": "/art/building-an-agent-native-after-effects-workflow",
+      "type": "applied-to-creative-production-by"
+    },
+    {
+      "source": "/workflow-structure-breakdown",
+      "target": "/art/building-an-agent-native-after-effects-workflow",
+      "type": "shares-explicit-state-pattern-with"
+    },
+    {
+      "source": "/art/from-seo-keywords-to-the-haunted-machine",
+      "target": "/art/building-an-agent-native-after-effects-workflow",
+      "type": "extended-into-production-by"
+    },
+    {
       "source": "/about",
       "target": "/art/representation-governance",
       "type": "extended-by"
@@ -1728,6 +1798,49 @@
           "collection": "pages",
           "key": "id",
           "value": "contact"
+        }
+      },
+      {
+        "id": "/art/building-an-agent-native-after-effects-workflow",
+        "path": "/art/building-an-agent-native-after-effects-workflow",
+        "url": "https://decrepitfilth.art/art/building-an-agent-native-after-effects-workflow",
+        "kind": "article",
+        "title": "Building an Agent-Native After Effects Workflow",
+        "summary": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+        "architectureRole": "supporting",
+        "published": "2026-09-12",
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "short-form-video",
+          "first-principles"
+        ],
+        "contentType": "analysis",
+        "medium": "methodology",
+        "projects": [
+          {
+            "slug": "chatgpt-structural-failure",
+            "order": 22,
+            "role": "methodology"
+          }
+        ],
+        "agentPriority": {
+          "context": "high",
+          "traversal": "high",
+          "evidence": "high",
+          "roles": [
+            "agent-native-production-architecture",
+            "creative-system-implementation",
+            "art-code-bridge",
+            "human-supervised-workflow"
+          ]
+        },
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "building-an-agent-native-after-effects-workflow"
         }
       },
       {
@@ -3499,7 +3612,7 @@
         "introduction": "Follow the investigation from ChatGPT's initial survival answer through adversarial questioning, structural convergence, historical testing, a bioweapons failure and the final supervised method.",
         "articleCounts": {
           "chapters": 6,
-          "resources": 4
+          "resources": 5
         },
         "agentPriority": {
           "context": "medium",
@@ -3711,6 +3824,31 @@
         "type": "defines-audience-through"
       },
       {
+        "source": "/art/tiktok-zombie-survival-series",
+        "target": "/art/building-an-agent-native-after-effects-workflow",
+        "type": "production-method-developed-into"
+      },
+      {
+        "source": "/content-strategy",
+        "target": "/art/building-an-agent-native-after-effects-workflow",
+        "type": "operationalised-by"
+      },
+      {
+        "source": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "target": "/art/building-an-agent-native-after-effects-workflow",
+        "type": "applied-to-creative-production-by"
+      },
+      {
+        "source": "/workflow-structure-breakdown",
+        "target": "/art/building-an-agent-native-after-effects-workflow",
+        "type": "shares-explicit-state-pattern-with"
+      },
+      {
+        "source": "/art/from-seo-keywords-to-the-haunted-machine",
+        "target": "/art/building-an-agent-native-after-effects-workflow",
+        "type": "extended-into-production-by"
+      },
+      {
         "source": "/about",
         "target": "/art/representation-governance",
         "type": "extended-by"
@@ -3764,6 +3902,11 @@
         "source": "/art/ai-visibility-is-not-value",
         "target": "/art/representation-governance",
         "type": "culminates-in"
+      },
+      {
+        "source": "/art",
+        "target": "/art/building-an-agent-native-after-effects-workflow",
+        "type": "contains-article"
       },
       {
         "source": "/art",
@@ -4068,6 +4211,12 @@
         "source": "/art/youtube-video-index",
         "target": "/art/project/chatgpt-structural-failure",
         "type": "alternate-media",
+        "project": "chatgpt-structural-failure"
+      },
+      {
+        "source": "/art/building-an-agent-native-after-effects-workflow",
+        "target": "/art/project/chatgpt-structural-failure",
+        "type": "supports-methodology",
         "project": "chatgpt-structural-failure"
       },
       {
@@ -4529,7 +4678,7 @@
         "key": "id",
         "value": "art"
       },
-      "lastModified": "2026-09-10",
+      "lastModified": "2026-09-12",
       "priority": 0.8
     },
     {
@@ -4544,6 +4693,18 @@
       },
       "lastModified": "2026-09-10",
       "priority": 0.8
+    },
+    {
+      "path": "/art/building-an-agent-native-after-effects-workflow",
+      "url": "https://decrepitfilth.art/art/building-an-agent-native-after-effects-workflow",
+      "kind": "article",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "building-an-agent-native-after-effects-workflow"
+      },
+      "lastModified": "2026-09-12"
     },
     {
       "path": "/art/tiktok-video-analysis-with-python",
@@ -5083,7 +5244,7 @@
         "key": "slug",
         "value": "chatgpt-structural-failure"
       },
-      "lastModified": "2026-09-10"
+      "lastModified": "2026-09-12"
     },
     {
       "path": "/art/project/ai-visibility-is-not-value",
