@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-09-12T06:03:25.184Z",
+  "generatedAt": "2026-09-13T23:12:18.813Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -650,7 +650,7 @@
         "canonical": "https://decrepitfilth.art/art",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-09-12"
+        "lastModified": "2026-09-14"
       },
       "questionsAnswered": [
         "What has been published?",
@@ -4678,7 +4678,7 @@
         "key": "id",
         "value": "art"
       },
-      "lastModified": "2026-09-12",
+      "lastModified": "2026-09-14",
       "priority": 0.8
     },
     {
@@ -4992,7 +4992,7 @@
         "key": "slug",
         "value": "python-nlp-semantic-seo"
       },
-      "lastModified": "2026-09-10"
+      "lastModified": "2026-09-14"
     },
     {
       "path": "/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -5280,7 +5280,7 @@
         "key": "slug",
         "value": "semantic-seo-graph-positioning"
       },
-      "lastModified": "2026-09-10"
+      "lastModified": "2026-09-14"
     },
     {
       "path": "/art/project/seer-clown-research",
