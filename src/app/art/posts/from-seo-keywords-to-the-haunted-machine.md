@@ -1,8 +1,8 @@
 ﻿---
 title: "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
-description: This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.
+description: An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.
 date: 2026-06-14
-lastModified: "2026-09-09"
+lastModified: "2026-10-12"
 projects:
   - slug: semantic-seo-graph-positioning
     order: 6
@@ -611,5 +611,7 @@ epistemic_status:
 ```
 
 ## Follow the connected material
+
+For the concise conceptual explanation, see [AI SEO Strategy: Why Your Creative Work Is Invisible](/art/ai-seo-strategy-why-your-creative-work-is-invisible).
 
 The long-form video is also listed in the [YouTube video index](/art/youtube-video-index). That index provides the surrounding sequence of videos, while this page preserves the complete Haunted Machine case as an agent-readable state record.

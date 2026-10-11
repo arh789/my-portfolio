@@ -8,6 +8,11 @@ const nextConfig = {
                 permanent: true,
             },
             {
+                source: '/art/seo-visibility-structural-legibility',
+                destination: '/art/semantic-seo-begins-before-optimisation',
+                permanent: true,
+            },
+            {
                 source: '/:path*',
                 has: [
                     {

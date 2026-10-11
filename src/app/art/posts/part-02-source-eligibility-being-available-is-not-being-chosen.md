@@ -159,7 +159,7 @@ A page can be meaningful to a human while remaining hard for a system to classif
 
 That is why structural legibility matters.
 
-The idea is developed in [SEO Visibility and Structural Legibility](/art/seo-visibility-structural-legibility), where visibility is treated as a consequence of meaning becoming interpretable to discovery systems.
+The idea is developed in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation), where visibility is treated as a consequence of meaning becoming interpretable to discovery systems.
 
 ---
 

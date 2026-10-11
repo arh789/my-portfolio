@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T23:12:18.813Z",
+  "generatedAt": "2026-10-11T15:14:58.325Z",
   "articles": [
     {
       "slug": "building-an-agent-native-after-effects-workflow",
@@ -436,7 +436,7 @@
     {
       "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
       "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-      "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+      "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
       "date": "2026-06-14",
       "tags": [
         "creative-search-system",
@@ -458,7 +458,7 @@
     {
       "slug": "from-seo-keywords-to-the-haunted-machine",
       "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-      "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+      "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
       "date": "2026-06-14",
       "tags": [
         "creative-search-system",
@@ -946,26 +946,6 @@
       "medium": "article"
     },
     {
-      "slug": "seo-visibility-structural-legibility",
-      "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-      "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-      "date": "2026-03-15",
-      "tags": [
-        "search-and-discovery-systems",
-        "structural-legibility",
-        "discovery-systems-map"
-      ],
-      "type": "article",
-      "projects": [
-        {
-          "slug": "semantic-seo-graph-positioning",
-          "order": 2,
-          "role": "chapter"
-        }
-      ],
-      "medium": "article"
-    },
-    {
       "slug": "visibility-under-hostile-conditions",
       "title": "Visibility Under Hostile Conditions",
       "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
@@ -998,7 +978,7 @@
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -1068,7 +1048,7 @@
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -1174,17 +1154,6 @@
           "search-and-discovery-systems",
           "semantic-seo",
           "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
           "structural-legibility",
           "discovery-systems-map"
         ]
@@ -1438,7 +1407,7 @@
       {
         "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -1451,7 +1420,7 @@
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -1858,17 +1827,6 @@
         ]
       },
       {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
         "slug": "visibility-under-hostile-conditions",
         "title": "Visibility Under Hostile Conditions",
         "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
@@ -1900,7 +1858,7 @@
       {
         "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -1913,7 +1871,7 @@
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -3019,7 +2977,7 @@
       {
         "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -3032,7 +2990,7 @@
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -3627,7 +3585,7 @@
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -3782,7 +3740,7 @@
       {
         "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -3814,7 +3772,7 @@
       {
         "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -3829,7 +3787,7 @@
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -3864,7 +3822,7 @@
       {
         "slug": "from-seo-keywords-to-the-haunted-machine",
         "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
         "date": "2026-06-14",
         "tags": [
           "creative-search-system",
@@ -4036,17 +3994,6 @@
           "search-and-discovery-systems",
           "semantic-seo",
           "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "seo-visibility-structural-legibility",
-        "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
           "structural-legibility",
           "discovery-systems-map"
         ]
@@ -4570,11 +4517,11 @@
       "count": 10
     },
     {
-      "tag": "search-and-discovery-systems",
-      "count": 9
+      "tag": "llm-failure-analysis",
+      "count": 8
     },
     {
-      "tag": "llm-failure-analysis",
+      "tag": "search-and-discovery-systems",
       "count": 8
     },
     {
@@ -4606,10 +4553,6 @@
       "count": 6
     },
     {
-      "tag": "discovery-systems-map",
-      "count": 6
-    },
-    {
       "tag": "artistic-system-building",
       "count": 5
     },
@@ -4618,15 +4561,19 @@
       "count": 5
     },
     {
+      "tag": "discovery-systems-map",
+      "count": 5
+    },
+    {
       "tag": "sda-3",
       "count": 5
     },
     {
-      "tag": "structural-legibility",
-      "count": 5
+      "tag": "semantic-archive",
+      "count": 4
     },
     {
-      "tag": "semantic-archive",
+      "tag": "structural-legibility",
       "count": 4
     },
     {
@@ -5516,28 +5463,6 @@
           "projectRole": "chapter"
         },
         {
-          "slug": "seo-visibility-structural-legibility",
-          "title": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-          "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-          "date": "2026-03-15",
-          "tags": [
-            "search-and-discovery-systems",
-            "structural-legibility",
-            "discovery-systems-map"
-          ],
-          "type": "article",
-          "projects": [
-            {
-              "slug": "semantic-seo-graph-positioning",
-              "order": 2,
-              "role": "chapter"
-            }
-          ],
-          "medium": "article",
-          "projectOrder": 2,
-          "projectRole": "chapter"
-        },
-        {
           "slug": "how-search-and-recommendation-systems-actually-work",
           "title": "How Search and Recommendation Systems Actually Work",
           "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
@@ -5590,7 +5515,7 @@
         {
           "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
           "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-          "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+          "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
           "date": "2026-06-14",
           "tags": [
             "creative-search-system",
@@ -5614,7 +5539,7 @@
         {
           "slug": "from-seo-keywords-to-the-haunted-machine",
           "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-          "description": "This video case study shows how AI-era search changes the value of content. Instead of chasing keyword volume, the project uses semantic SEO, network analysis, suppressed and emerging nodes, and creative systems design to turn search results into a coherent creative operating system.",
+          "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
           "date": "2026-06-14",
           "tags": [
             "creative-search-system",
@@ -5920,7 +5845,7 @@
           "short-form-video",
           "first-principles"
         ],
-        "centrality": 16
+        "centrality": 15
       },
       {
         "id": "tiktok-video-analysis-with-python",
@@ -5936,7 +5861,7 @@
           "search-and-discovery-systems",
           "creative-search-system"
         ],
-        "centrality": 41
+        "centrality": 40
       },
       {
         "id": "tiktok-zombie-survival-series",
@@ -6042,7 +5967,7 @@
           "search-and-discovery-systems",
           "ai-search"
         ],
-        "centrality": 30
+        "centrality": 29
       },
       {
         "id": "ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -6215,7 +6140,7 @@
           "ai-search",
           "discovery-systems-map"
         ],
-        "centrality": 21
+        "centrality": 18
       },
       {
         "id": "semantic-seo-is-graph-positioning",
@@ -6228,7 +6153,7 @@
           "semantic-archive",
           "discovery-systems-map"
         ],
-        "centrality": 22
+        "centrality": 20
       },
       {
         "id": "python-nlp-semantic-seo",
@@ -6281,7 +6206,7 @@
           "discovery-systems-map",
           "research-methods"
         ],
-        "centrality": 31
+        "centrality": 29
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -6293,7 +6218,7 @@
           "independent-operators",
           "search-and-discovery-systems"
         ],
-        "centrality": 14
+        "centrality": 13
       },
       {
         "id": "clustered-output-instagram-dataset",
@@ -6455,7 +6380,7 @@
           "structural-legibility",
           "artistic-system-building"
         ],
-        "centrality": 17
+        "centrality": 16
       },
       {
         "id": "most-popular-art-mediums-based-on-the-datasets",
@@ -6479,18 +6404,7 @@
           "structural-legibility",
           "discovery-systems-map"
         ],
-        "centrality": 23
-      },
-      {
-        "id": "seo-visibility-structural-legibility",
-        "label": "Why SEO Visibility Comes From Structural Legibility, Not Optimisation",
-        "type": "article",
-        "tags": [
-          "search-and-discovery-systems",
-          "structural-legibility",
-          "discovery-systems-map"
-        ],
-        "centrality": 17
+        "centrality": 20
       },
       {
         "id": "visibility-under-hostile-conditions",
@@ -6501,7 +6415,7 @@
           "hostile-visibility",
           "discovery-systems-map"
         ],
-        "centrality": 14
+        "centrality": 12
       }
     ],
     "edges": [
@@ -6571,14 +6485,6 @@
       {
         "source": "building-an-agent-native-after-effects-workflow",
         "target": "semantic-seo-begins-before-optimisation",
-        "weight": 1,
-        "tags": [
-          "structural-legibility"
-        ]
-      },
-      {
-        "source": "building-an-agent-native-after-effects-workflow",
-        "target": "seo-visibility-structural-legibility",
         "weight": 1,
         "tags": [
           "structural-legibility"
@@ -6774,14 +6680,6 @@
         "tags": [
           "search-and-discovery-systems",
           "creative-search-system"
-        ]
-      },
-      {
-        "source": "tiktok-video-analysis-with-python",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 1,
-        "tags": [
-          "search-and-discovery-systems"
         ]
       },
       {
@@ -7598,14 +7496,6 @@
       },
       {
         "source": "ai-visibility-is-not-value",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 1,
-        "tags": [
-          "search-and-discovery-systems"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
         "target": "visibility-under-hostile-conditions",
         "weight": 1,
         "tags": [
@@ -8298,16 +8188,6 @@
       },
       {
         "source": "how-search-and-recommendation-systems-actually-work",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 3,
-        "tags": [
-          "search-and-discovery-systems",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "how-search-and-recommendation-systems-actually-work",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
@@ -8341,15 +8221,6 @@
         "tags": [
           "search-and-discovery-systems",
           "creative-search-system",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
           "discovery-systems-map"
         ]
       },
@@ -8515,15 +8386,6 @@
       },
       {
         "source": "research-pipeline",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "research-pipeline",
         "target": "visibility-under-hostile-conditions",
         "weight": 2,
         "tags": [
@@ -8537,14 +8399,6 @@
         "weight": 2,
         "tags": [
           "creative-search-system",
-          "search-and-discovery-systems"
-        ]
-      },
-      {
-        "source": "who-benefits-most-from-this-system",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 1,
-        "tags": [
           "search-and-discovery-systems"
         ]
       },
@@ -8811,34 +8665,7 @@
         ]
       },
       {
-        "source": "maximising-artistic-identity",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 1,
-        "tags": [
-          "structural-legibility"
-        ]
-      },
-      {
         "source": "semantic-seo-begins-before-optimisation",
-        "target": "seo-visibility-structural-legibility",
-        "weight": 3,
-        "tags": [
-          "search-and-discovery-systems",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "semantic-seo-begins-before-optimisation",
-        "target": "visibility-under-hostile-conditions",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "seo-visibility-structural-legibility",
         "target": "visibility-under-hostile-conditions",
         "weight": 2,
         "tags": [
@@ -9139,12 +8966,6 @@
         "project": "semantic-seo-graph-positioning"
       },
       {
-        "source": "seo-visibility-structural-legibility",
-        "target": "project:semantic-seo-graph-positioning",
-        "type": "belongs-to-project",
-        "project": "semantic-seo-graph-positioning"
-      },
-      {
         "source": "how-search-and-recommendation-systems-actually-work",
         "target": "project:semantic-seo-graph-positioning",
         "type": "belongs-to-project",
@@ -9188,12 +9009,6 @@
       },
       {
         "source": "semantic-seo-begins-before-optimisation",
-        "target": "seo-visibility-structural-legibility",
-        "type": "precedes",
-        "project": "semantic-seo-graph-positioning"
-      },
-      {
-        "source": "seo-visibility-structural-legibility",
         "target": "how-search-and-recommendation-systems-actually-work",
         "type": "precedes",
         "project": "semantic-seo-graph-positioning"

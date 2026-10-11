@@ -56,7 +56,7 @@ export default async function ArtPage() {
                 <p className="art-page__eyebrow">Concept Hub</p>
                 <h1 className="art-page__title">Art</h1>
                 <p className="art-page__intro">
-                    This page maps the site's articles as a visible concept network. The
+                    This page maps the site&apos;s articles as a visible concept network. The
                     graph shows how posts connect through shared tags, the guided pathways
                     group articles into larger investigations, and the tag index lets you
                     browse the underlying topics directly.
