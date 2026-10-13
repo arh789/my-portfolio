@@ -276,10 +276,10 @@
     margin: 0;
     color: #fffdf4;
     font-family: var(--research-font-title);
-    font-size: clamp(2rem, 5vw, 4.8rem);
+    font-size: clamp(2.2rem, 4vw, 3.7rem);
     font-weight: 760;
     letter-spacing: -0.05em;
-    line-height: 0.96;
+    line-height: 0.98;
 }
 
 .sectionIntro {
@@ -364,7 +364,7 @@
 
 .subsectionHeading {
     max-width: 58rem;
-    margin: clamp(3.5rem, 7vw, 6.5rem) 0 1.5rem;
+    margin: clamp(3rem, 5.5vw, 5rem) 0 1.5rem;
 }
 
 .subsectionHeading h3 {
@@ -372,9 +372,9 @@
     margin: 0.7rem 0 0;
     color: #fffdf4;
     font-family: var(--research-font-title);
-    font-size: clamp(1.8rem, 4vw, 3.8rem);
+    font-size: clamp(1.65rem, 2.8vw, 2.6rem);
     letter-spacing: -0.045em;
-    line-height: 1;
+    line-height: 1.05;
 }
 
 .subsectionHeading > p:last-child {
@@ -438,12 +438,14 @@
 .principleQuote {
     margin: 1rem 0 0;
     padding: clamp(1.2rem, 3vw, 2rem);
-    color: #101010;
-    background: #66d9b4;
-    border: 0;
+    color: #fffdf4;
+    background: rgba(102, 217, 180, 0.055);
+    border: 1px solid rgba(102, 217, 180, 0.24);
+    border-left: 4px solid #66d9b4;
 }
 
 .principleQuote span {
+    color: #66d9b4;
     font-family: var(--research-font-label);
     font-size: 0.68rem;
     font-weight: 800;
@@ -454,9 +456,10 @@
 .principleQuote p {
     max-width: 64rem;
     margin: 0.65rem 0 0;
+    color: #fffdf4;
     font-family: var(--research-font-title);
-    font-size: clamp(1.4rem, 3.4vw, 2.9rem);
-    font-weight: 800;
+    font-size: clamp(1.35rem, 2.6vw, 2.25rem);
+    font-weight: 760;
     letter-spacing: -0.04em;
     line-height: 1.05;
 }
@@ -464,29 +467,35 @@
 .evidenceStats {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1px;
+    gap: 0;
     margin: 0 0 1rem;
-    background: rgba(255, 255, 255, 0.12);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: transparent;
+    border: 0;
+    border-block: 1px solid rgba(255, 255, 255, 0.11);
 }
 
 .evidenceStats div {
-    padding: 1rem;
-    background: var(--research-panel);
+    padding: 0.9rem 1rem;
+    background: transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.evidenceStats div:first-child {
+    border-left: 0;
 }
 
 .evidenceStats dt {
     color: var(--research-accent);
     font-family: var(--research-font-label);
-    font-size: clamp(1.45rem, 3vw, 2.4rem);
+    font-size: clamp(1.25rem, 2.2vw, 1.9rem);
     font-weight: 800;
     line-height: 1;
 }
 
 .evidenceStats dd {
     margin: 0.55rem 0 0;
-    color: rgba(244, 240, 223, 0.62);
-    font-size: 0.78rem;
+    color: rgba(244, 240, 223, 0.55);
+    font-size: 0.74rem;
     line-height: 1.4;
 }
 
@@ -805,14 +814,22 @@
     gap: 2rem;
     margin-top: 1rem;
     padding: clamp(1.25rem, 3vw, 2.25rem);
-    color: #101010;
-    background: var(--research-accent);
+    color: #fffdf4;
+    background: rgba(245, 227, 109, 0.045);
+    border: 1px solid rgba(245, 227, 109, 0.2);
+    border-left: 4px solid var(--research-accent);
 }
 
-.grammarCard .panelEyebrow,
-.grammarCard h3,
+.grammarCard .panelEyebrow {
+    color: var(--research-accent);
+}
+
+.grammarCard h3 {
+    color: #fffdf4;
+}
+
 .grammarCard p {
-    color: #101010;
+    color: rgba(244, 240, 223, 0.7);
 }
 
 .grammarCard ol {
@@ -821,7 +838,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    background: rgba(0, 0, 0, 0.22);
+    background: rgba(255, 255, 255, 0.08);
 }
 
 .grammarCard li {
@@ -830,16 +847,18 @@
     gap: 0.8rem;
     align-items: center;
     padding: 0.75rem 0.9rem;
-    background: #f8ea7f;
+    color: #fffdf4;
+    background: rgba(11, 12, 11, 0.94);
 }
 
 .grammarCard li span {
-    color: rgba(0, 0, 0, 0.52);
+    color: rgba(245, 227, 109, 0.62);
     font-family: var(--research-font-label);
     font-size: 0.7rem;
 }
 
 .grammarCard li strong {
+    color: #fffdf4;
     font-size: 0.9rem;
 }
 
@@ -850,26 +869,24 @@
 
 .coreSystemsFinding {
     position: relative;
-    margin-top: clamp(3.5rem, 7vw, 6.5rem);
+    margin-top: clamp(2.5rem, 4.5vw, 4rem);
     overflow: hidden;
-    background: #080808;
-    border: 1px solid rgba(245, 227, 109, 0.34);
-    box-shadow:
-        inset 0 3px 0 var(--research-accent),
-        0 22px 60px rgba(0, 0, 0, 0.28);
+    background: rgba(10, 17, 14, 0.92);
+    border: 1px solid rgba(102, 217, 180, 0.3);
+    border-left: 5px solid #66d9b4;
+    box-shadow: none;
 }
 
 .coreSystemsHeader {
     display: grid;
-    grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: clamp(1.5rem, 4vw, 3.5rem);
     align-items: end;
-    padding: clamp(1.4rem, 4vw, 3rem);
+    padding: clamp(1.4rem, 3.2vw, 2.5rem);
     background:
-        linear-gradient(115deg, rgba(245, 227, 109, 0.12), transparent 58%),
-        radial-gradient(circle at 92% 15%, rgba(102, 217, 180, 0.1), transparent 20rem),
-        #0a0a0a;
-    border-bottom: 1px solid rgba(245, 227, 109, 0.24);
+        linear-gradient(115deg, rgba(102, 217, 180, 0.075), transparent 58%),
+        #0a0d0b;
+    border-bottom: 1px solid rgba(102, 217, 180, 0.2);
 }
 
 .coreSystemsHeader > div:first-child {
@@ -881,10 +898,10 @@
     margin: 0.8rem 0 0;
     color: #fffdf4;
     font-family: var(--research-font-title);
-    font-size: clamp(2rem, 4.6vw, 4.5rem);
+    font-size: clamp(1.9rem, 3.2vw, 3rem);
     font-weight: 800;
     letter-spacing: -0.055em;
-    line-height: 0.94;
+    line-height: 1;
 }
 
 .coreSystemsHeader > div:first-child > p:last-child {
@@ -893,39 +910,6 @@
     color: rgba(244, 240, 223, 0.72);
     font-size: 1rem;
     line-height: 1.65;
-}
-
-.coreSystemsMetrics {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1px;
-    margin: 0;
-    padding: 1px;
-    background: rgba(245, 227, 109, 0.24);
-}
-
-.coreSystemsMetrics > div {
-    min-width: 0;
-    padding: 1rem 0.8rem;
-    background: rgba(5, 5, 5, 0.88);
-}
-
-.coreSystemsMetrics dt {
-    color: var(--research-accent);
-    font-family: var(--research-font-label);
-    font-size: clamp(1.45rem, 3vw, 2.25rem);
-    font-weight: 850;
-    line-height: 1;
-}
-
-.coreSystemsMetrics dd {
-    margin: 0.5rem 0 0;
-    color: rgba(244, 240, 223, 0.6);
-    font-size: 0.68rem;
-    font-weight: 700;
-    letter-spacing: 0.07em;
-    line-height: 1.35;
-    text-transform: uppercase;
 }
 
 .exerciseGroups {
@@ -977,7 +961,7 @@
 .exerciseGroups h3 {
     margin: 0.8rem 0 0;
     color: #fffdf4;
-    font-size: clamp(1.25rem, 2.6vw, 2rem);
+    font-size: clamp(1.2rem, 2vw, 1.65rem);
     line-height: 1.08;
 }
 
@@ -1088,18 +1072,19 @@
     gap: 2rem;
     margin-top: clamp(3rem, 6vw, 5rem);
     padding: clamp(1.2rem, 3vw, 2rem);
-    color: #101010;
-    background: var(--research-accent);
+    color: #fffdf4;
+    background: rgba(245, 227, 109, 0.045);
+    border: 1px solid rgba(245, 227, 109, 0.2);
+    border-left: 4px solid var(--research-accent);
 }
 
-.linguisticFinding .panelEyebrow,
-.linguisticFinding h3,
-.linguisticFinding p {
-    color: #101010;
+.linguisticFinding .panelEyebrow {
+    color: var(--research-accent);
 }
 
 .linguisticFinding h3 {
     margin: 0.7rem 0 0;
+    color: #fffdf4;
     font-size: clamp(1.5rem, 3vw, 2.6rem);
     letter-spacing: -0.04em;
     line-height: 1.03;
@@ -1107,6 +1092,7 @@
 
 .linguisticFinding p {
     margin: 0.8rem 0 0;
+    color: rgba(244, 240, 223, 0.7);
     line-height: 1.58;
 }
 
@@ -1120,7 +1106,7 @@
     justify-content: space-between;
     gap: 1rem;
     padding: 0.65rem 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 0.84rem;
 }
 
@@ -1134,7 +1120,7 @@
     grid-column: 1 / -1;
     margin: 0;
     padding-top: 0.9rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 0.82rem;
 }
 
@@ -2002,10 +1988,6 @@
         align-items: start;
     }
 
-    .coreSystemsMetrics {
-        width: 100%;
-    }
-
     .stats {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -2016,6 +1998,10 @@
 
     .evidenceStats {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .evidenceStats div:nth-child(odd) {
+        border-left: 0;
     }
 
     .shell {
@@ -2033,7 +2019,15 @@
     }
 
     .sectionHeading h2 {
-        font-size: clamp(2.2rem, 10vw, 3.3rem);
+        font-size: clamp(2.1rem, 9vw, 3rem);
+    }
+
+    .subsectionHeading h3 {
+        font-size: clamp(1.55rem, 6.5vw, 2.2rem);
+    }
+
+    .coreSystemsHeader h3 {
+        font-size: clamp(1.85rem, 8vw, 2.6rem);
     }
 
     .flowPanel,
@@ -2139,33 +2133,6 @@
         width: 2.35rem;
         height: 2.35rem;
     }
-}
-
-.evidenceLabel {
-    width: max-content;
-    max-width: 100%;
-    margin: 1.25rem 0 0.8rem;
-    padding: 0.35rem 0.55rem;
-    background: rgba(255, 255, 255, 0.035);
-    border: 1px solid currentColor;
-    font-family: var(--research-font-label);
-    font-size: 0.66rem;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    line-height: 1.35;
-    text-transform: uppercase;
-}
-
-.evidenceObserved {
-    color: #66d9b4;
-}
-
-.evidenceDerived {
-    color: var(--research-accent);
-}
-
-.evidenceLimitation {
-    color: #ff9aaa;
 }
 
 .studyRecord {

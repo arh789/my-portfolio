@@ -41,7 +41,7 @@ export const metadata = {
 
 const stats = [
     ["382", "analysed videos"],
-    ["18,254", "unique normalised object labels"],
+    ["18,254", "extracted labels after basic normalisation"],
     ["115", "analysis-group objects"],
     ["7,342", "objects through second order"],
     ["5", "representative videos"],
@@ -72,11 +72,8 @@ const contents = [
 ];
 
 const studyRecord = [
-    ["Published data snapshot", "13 October 2026"],
-    ["Extraction record", "V1.1 source-linked object–relation JSON records produced directly from downloaded transcripts with Codex"],
+    ["Extraction record", "V1.1 source-linked object–relation JSON records produced directly from downloaded transcripts with Codex 5.6 Sol at extra-high reasoning"],
     ["Responsibilities", "Codex extracted candidate objects and relations; Python aggregated frequencies and pairs; human analysis defined the question, thresholds, interpretation and return to sources"],
-    ["Analysis cutoff", "Rank 115, including every label appearing in at least 15 transcripts"],
-    ["Primary network view", "Object pairs recurring in at least three videos"],
 ];
 
 const methodFlow = `Large unstructured corpus
@@ -564,7 +561,7 @@ const limitations = [
     "Singular and plural forms remain separate because their relational neighbourhoods differed.",
     "Relation wording and direction vary between records.",
     "Changing the pair-frequency threshold changes the visible network.",
-    "The model comparison was not like-for-like: the production records were extracted directly with Codex, but the exact original model was not reliably recorded; later tests used GPT-4.1 and GPT-4.1 mini.",
+    "The model comparison was not like-for-like: the original rich-analysis records used Codex 5.6 Sol with extra-high reasoning, while the later tests used GPT-4.1 and GPT-4.1 mini.",
     "Frequency measures recurrence, not whether a claim is correct or universally applicable.",
 ];
 
@@ -704,11 +701,11 @@ export default async function DanJohnSemanticNetworkPage() {
                     <p className={styles.eyebrow}>Corpus study · semantic network analysis · <time dateTime="2026-10-13">13 October 2026</time></p>
                     <h1>I watched 382 Dan John Strength Coach YouTube videos so that you don&apos;t have to.</h1>
                     <p className={styles.standfirst}>
-                        I then carried out a semantic network analysis across the complete corpus and identified the five videos you should watch.
+                        Then i carried out a Sematic Network Analysis on all the videos so that nobody else had to either. Then I identified the five videos you definitely should watch.
                     </p>
 
                     <div className={styles.heroFinding}>
-                        <span>Inference from recurring structure</span>
+                        <span>What emerged</span>
                         <p>Buried inside 382 videos is something sturdier than a pile of tips: a recurring set of decisions for turning movements into programmes.</p>
                     </div>
 
@@ -722,8 +719,6 @@ export default async function DanJohnSemanticNetworkPage() {
                             <p>To demonstrate a general method for discovering meaningful structure in a large, unstructured corpus.</p>
                         </div>
                     </div>
-
-                    <p className={`${styles.evidenceLabel} ${styles.evidenceObserved}`}>Observed · corpus totals</p>
 
                     <dl className={styles.stats}>
                         {stats.map(([value, label]) => (
@@ -847,8 +842,6 @@ export default async function DanJohnSemanticNetworkPage() {
                             </table>
                         </div>
 
-                        <p className={`${styles.evidenceLabel} ${styles.evidenceDerived}`}>Derived · repeated object-pair structure</p>
-
                         <div className={styles.networkLists}>
                             <article>
                                 <p className={styles.panelEyebrow}>Strongest structural hubs · connection score</p>
@@ -892,15 +885,10 @@ export default async function DanJohnSemanticNetworkPage() {
                         <div className={styles.coreSystemsFinding}>
                             <div className={styles.coreSystemsHeader}>
                                 <div>
-                                    <p className={styles.panelEyebrow}>Derived core finding</p>
+                                    <p className={styles.panelEyebrow}>Five groups at pair frequency ≥3</p>
                                     <h3>Repeated exercise pairs form recognisable training systems</h3>
                                     <p>The largest group contains a squat progression, a swing-teaching progression and a complete workout composition. Four smaller groups preserve pressing, clean, get-up and carry relationships.</p>
                                 </div>
-                                <dl className={styles.coreSystemsMetrics}>
-                                    <div><dt>5</dt><dd>relation groups</dd></div>
-                                    <div><dt>22</dt><dd>repeated pairs</dd></div>
-                                    <div><dt>≥3</dt><dd>source videos</dd></div>
-                                </dl>
                             </div>
 
                             <div className={styles.exerciseGroups}>
@@ -1193,8 +1181,6 @@ export default async function DanJohnSemanticNetworkPage() {
                         >
                             <p>Recurrence directs attention. It does not convert extracted language into truth or remove the need to inspect sources.</p>
                         </SectionHeading>
-
-                        <p className={`${styles.evidenceLabel} ${styles.evidenceLimitation}`}>Limitation · interpretation remains source-dependent</p>
 
                         <ul className={styles.limitList}>
                             {limitations.map((limitation) => <li key={limitation}>{limitation}</li>)}
