@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-13T05:09:21.666Z",
+  "generatedAt": "2026-10-13T06:16:52.343Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -57,7 +57,7 @@
     "projects": 6,
     "indexedUrls": 61,
     "siteGraphNodes": 61,
-    "siteGraphEdges": 157,
+    "siteGraphEdges": 155,
     "semanticHubs": 9,
     "projectHubs": 6
   },
@@ -200,7 +200,7 @@
         "canonical": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": null
+        "lastModified": "2026-10-13"
       },
       "questionsAnswered": [
         "What structure gets lost when reality is converted into data?",
@@ -1379,8 +1379,8 @@
       "path": "/art/project/finding-hidden-structure-in-large-content-corpora",
       "url": "https://decrepitfilth.art/art/project/finding-hidden-structure-in-large-content-corpora",
       "title": "Finding Hidden Structure in Large Content Corpora",
-      "summary": "A five-stage pathway from the site's structural-analysis model through its research and Python methods to two applied video-corpus studies.",
-      "introduction": "Begin with the general explanation of hidden structure, then follow the operational research pipeline and Python reference into the TikTok and Dan John case studies.",
+      "summary": "A three-stage pathway from the site's structural-analysis model through an operational research method to an applied semantic-network case study.",
+      "introduction": "Begin with the general explanation of hidden structure, follow the operational research pipeline, then inspect its application to the Dan John transcript corpus. A Python reference and a parallel TikTok study provide supporting context.",
       "architectureRole": "supporting",
       "agentPriority": {
         "context": "medium",
@@ -1406,24 +1406,25 @@
         },
         {
           "order": 3,
-          "path": "/art/python-nlp-semantic-seo",
-          "title": "Python for NLP and Semantic SEO: A Practical Reference",
-          "role": "chapter"
-        },
-        {
-          "order": 4,
-          "path": "/art/tiktok-video-analysis-with-python",
-          "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
-          "role": "chapter"
-        },
-        {
-          "order": 5,
           "path": "/art/dan-john-youtube-playlist-semantic-network-analysis",
           "title": "Dan John YouTube Playlist Semantic Network Analysis",
           "role": "chapter"
         }
       ],
-      "supportingResources": [],
+      "supportingResources": [
+        {
+          "order": 10,
+          "path": "/art/python-nlp-semantic-seo",
+          "title": "Python for NLP and Semantic SEO: A Practical Reference",
+          "role": "methodology"
+        },
+        {
+          "order": 20,
+          "path": "/art/tiktok-video-analysis-with-python",
+          "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+          "role": "case-study"
+        }
+      ],
       "source": {
         "resource": "/graph.json",
         "collection": "projects",
@@ -1860,13 +1861,19 @@
         "summary": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
         "architectureRole": "supporting",
         "published": "2026-10-13",
-        "tags": [],
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "research-methods",
+          "dataset-structure",
+          "clustering-method"
+        ],
         "contentType": "analysis",
         "medium": "interactive-case-study",
         "projects": [
           {
             "slug": "finding-hidden-structure-in-large-content-corpora",
-            "order": 5,
+            "order": 3,
             "role": "chapter"
           }
         ],
@@ -1952,8 +1959,8 @@
         "projects": [
           {
             "slug": "finding-hidden-structure-in-large-content-corpora",
-            "order": 4,
-            "role": "chapter"
+            "order": 20,
+            "role": "case-study"
           }
         ],
         "agentPriority": {
@@ -2876,8 +2883,8 @@
         "projects": [
           {
             "slug": "finding-hidden-structure-in-large-content-corpora",
-            "order": 3,
-            "role": "chapter"
+            "order": 10,
+            "role": "methodology"
           },
           {
             "slug": "semantic-seo-graph-positioning",
@@ -3815,12 +3822,12 @@
         "url": "https://decrepitfilth.art/art/project/finding-hidden-structure-in-large-content-corpora",
         "kind": "project",
         "title": "Finding Hidden Structure in Large Content Corpora",
-        "summary": "A five-stage pathway from the site's structural-analysis model through its research and Python methods to two applied video-corpus studies.",
+        "summary": "A three-stage pathway from the site's structural-analysis model through an operational research method to an applied semantic-network case study.",
         "architectureRole": "supporting",
-        "introduction": "Begin with the general explanation of hidden structure, then follow the operational research pipeline and Python reference into the TikTok and Dan John case studies.",
+        "introduction": "Begin with the general explanation of hidden structure, follow the operational research pipeline, then inspect its application to the Dan John transcript corpus. A Python reference and a parallel TikTok study provide supporting context.",
         "articleCounts": {
-          "chapters": 5,
-          "resources": 0
+          "chapters": 3,
+          "resources": 2
         },
         "agentPriority": {
           "context": "medium",
@@ -4463,7 +4470,7 @@
       {
         "source": "/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
         "target": "/art/project/sda3-structural-extraction",
-        "type": "supports-methodology",
+        "type": "belongs-to-project",
         "project": "sda3-structural-extraction"
       },
       {
@@ -4655,18 +4662,6 @@
       {
         "source": "/art/research-pipeline",
         "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
-        "type": "supports-methodology",
-        "project": "finding-hidden-structure-in-large-content-corpora"
-      },
-      {
-        "source": "/art/python-nlp-semantic-seo",
-        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
-        "type": "supports-methodology",
-        "project": "finding-hidden-structure-in-large-content-corpora"
-      },
-      {
-        "source": "/art/tiktok-video-analysis-with-python",
-        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
         "type": "belongs-to-project",
         "project": "finding-hidden-structure-in-large-content-corpora"
       },
@@ -4677,6 +4672,18 @@
         "project": "finding-hidden-structure-in-large-content-corpora"
       },
       {
+        "source": "/art/python-nlp-semantic-seo",
+        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "type": "supports-methodology",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/art/tiktok-video-analysis-with-python",
+        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "type": "parallel-case-study",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
         "source": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
         "target": "/art/research-pipeline",
         "type": "precedes",
@@ -4684,18 +4691,6 @@
       },
       {
         "source": "/art/research-pipeline",
-        "target": "/art/python-nlp-semantic-seo",
-        "type": "precedes",
-        "project": "finding-hidden-structure-in-large-content-corpora"
-      },
-      {
-        "source": "/art/python-nlp-semantic-seo",
-        "target": "/art/tiktok-video-analysis-with-python",
-        "type": "precedes",
-        "project": "finding-hidden-structure-in-large-content-corpora"
-      },
-      {
-        "source": "/art/tiktok-video-analysis-with-python",
         "target": "/art/dan-john-youtube-playlist-semantic-network-analysis",
         "type": "precedes",
         "project": "finding-hidden-structure-in-large-content-corpora"
@@ -4739,7 +4734,7 @@
         "key": "id",
         "value": "hidden-structure"
       },
-      "lastModified": null,
+      "lastModified": "2026-10-13",
       "priority": 0.8
     },
     {

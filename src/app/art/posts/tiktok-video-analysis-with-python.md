@@ -5,8 +5,8 @@ showOutline: true
 date: "2026-09-04"
 projects:
   - slug: finding-hidden-structure-in-large-content-corpora
-    order: 4
-    role: chapter
+    order: 20
+    role: case-study
 tags:
   - tiktok
   - short-form-video

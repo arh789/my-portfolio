@@ -49,9 +49,9 @@ const PROJECT_DEFINITIONS = [
         title: "Finding Hidden Structure in Large Content Corpora",
         eyebrow: "Guided case study",
         description:
-            "A five-stage pathway from the site's structural-analysis model through its research and Python methods to two applied video-corpus studies.",
+            "A three-stage pathway from the site's structural-analysis model through an operational research method to an applied semantic-network case study.",
         introduction:
-            "Begin with the general explanation of hidden structure, then follow the operational research pipeline and Python reference into the TikTok and Dan John case studies.",
+            "Begin with the general explanation of hidden structure, follow the operational research pipeline, then inspect its application to the Dan John transcript corpus. A Python reference and a parallel TikTok study provide supporting context.",
         fixedChapters: [
             {
                 slug: "how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
@@ -73,7 +73,13 @@ function publicArticle(article) {
     return metadata;
 }
 
-export function formatProjectMedium(medium) {
+export function formatProjectMedium(medium, projectRole) {
+    const roleLabels = {
+        "case-study": "Parallel case study",
+    };
+
+    if (roleLabels[projectRole]) return roleLabels[projectRole];
+
     const labels = {
         "article-video": "Article + YouTube",
         methodology: "Methodology",
@@ -185,7 +191,11 @@ export function buildProjectGraph(projects) {
         for (const item of items) {
             let relationshipType = "belongs-to-project";
 
-            if (["tiktok-series", "youtube-index"].includes(item.medium)) {
+            if (item.projectRole === "chapter") {
+                relationshipType = "belongs-to-project";
+            } else if (item.projectRole === "case-study") {
+                relationshipType = "parallel-case-study";
+            } else if (["tiktok-series", "youtube-index"].includes(item.medium)) {
                 relationshipType = "alternate-media";
             } else if (
                 item.medium === "methodology" ||

@@ -139,7 +139,7 @@ export default async function ProjectPage({ params }) {
                             </span>
                             <div>
                                 <p className="art-project-sequence__medium">
-                                    {formatProjectMedium(chapter.medium)}
+                                    {formatProjectMedium(chapter.medium, chapter.projectRole)}
                                 </p>
                                 <h3>
                                     <Link href={getProjectItemRoute(chapter)}>
@@ -158,7 +158,7 @@ export default async function ProjectPage({ params }) {
                     <div className="art-page__section-heading">
                         <h2>Supporting material</h2>
                         <p>
-                            These articles provide methodology, summaries, overviews or
+                            These pages provide methodology, summaries, parallel case studies or
                             alternate media for the main sequence.
                         </p>
                     </div>
@@ -166,7 +166,7 @@ export default async function ProjectPage({ params }) {
                     <div className="art-project-resources">
                         {project.resources.map((resource) => (
                             <article className="art-project-resource" key={resource.slug}>
-                                <p>{formatProjectMedium(resource.medium)}</p>
+                                <p>{formatProjectMedium(resource.medium, resource.projectRole)}</p>
                                 <h3>
                                     <Link href={getProjectItemRoute(resource)}>
                                         {resource.title}

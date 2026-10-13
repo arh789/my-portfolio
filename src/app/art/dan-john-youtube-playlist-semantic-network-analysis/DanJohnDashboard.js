@@ -430,9 +430,11 @@ export default function DanJohnDashboard({ view = "both" }) {
             const elements = [
                 ...graphModel.nodes.map((node) => {
                     let visualRole = "base";
-                    let distance = 0;
-                    if (node.id === selectedId) visualRole = "selected";
-                    else if (graphModel.direct.has(node.id)) {
+                    let distance = 1;
+                    if (node.id === selectedId) {
+                        visualRole = "selected";
+                        distance = 3;
+                    } else if (graphModel.direct.has(node.id)) {
                         visualRole = "direct";
                         distance = 2;
                     } else if (graphModel.second.has(node.id)) {
@@ -444,7 +446,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                             id: node.id,
                             label: node.id,
                             displayLabel:
-                                localView || (node.group === "Analysis group" && graphModel.nodes.length < 220)
+                                localView || (node.group === "Analysis group" && node.rank <= 20)
                                     ? node.id
                                     : "",
                             colour: GROUP_COLOURS[node.group],
@@ -527,7 +529,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                         style: {
                             width: "mapData(frequency, 1, 15, 0.35, 3.2)",
                             "line-color": "#b8c2cc",
-                            opacity: localView ? 0.12 : 0.075,
+                            opacity: localView ? 0.12 : 0.18,
                             "curve-style": "straight",
                         },
                     },
@@ -549,18 +551,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                         minNodeSpacing: 18,
                         animate: false,
                     }
-                    : graphModel.nodes.length <= 450
-                        ? {
-                            name: "cose",
-                            animate: false,
-                            fit: true,
-                            padding: 54,
-                            randomize: true,
-                            idealEdgeLength: 74,
-                            nodeRepulsion: 5200,
-                            componentSpacing: 90,
-                        }
-                        : { name: "preset", fit: true, padding: 38 },
+                    : { name: "preset", fit: true, padding: 38 },
             });
             cyRef.current = cy;
             cy.on("tap", "node", (event) => {
@@ -658,6 +649,12 @@ export default function DanJohnDashboard({ view = "both" }) {
 
     const selectedNode = selectedId ? nodeById.get(selectedId) : null;
     const omittedDirect = selectedNode ? Math.max(0, graphModel.allDirectCount - graphModel.direct.size) : 0;
+    const connectedObjectCount = new Set(
+        graphModel.edges.flatMap((edge) => [edge.source, edge.target]),
+    ).size;
+    const retainedAnalysisObjectCount = selectedNode
+        ? 0
+        : graphModel.nodes.length - connectedObjectCount;
 
     const showFrequency = view !== "network";
     const showNetwork = view !== "frequency";
@@ -734,7 +731,11 @@ export default function DanJohnDashboard({ view = "both" }) {
                         <p className={styles.panelEyebrow}>Relation network</p>
                         <h3>What connects to what?</h3>
                     </div>
-                    <p>{graphModel.nodes.length.toLocaleString()} visible objects · {graphModel.edges.length.toLocaleString()} visible pairs</p>
+                    <p>
+                        {selectedNode
+                            ? `${graphModel.nodes.length.toLocaleString()} visible objects · ${graphModel.edges.length.toLocaleString()} visible pairs`
+                            : `${connectedObjectCount.toLocaleString()} connected objects + ${retainedAnalysisObjectCount.toLocaleString()} retained analysis objects · ${graphModel.edges.length.toLocaleString()} repeated pairs`}
+                    </p>
                 </div>
 
                 <div className={styles.networkControls}>

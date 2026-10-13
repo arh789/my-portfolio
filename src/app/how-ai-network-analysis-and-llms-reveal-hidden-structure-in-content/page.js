@@ -2,6 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import { cache } from 'react';
 import { parseMarkdown } from '../components/markdown';
+import ProjectPathway from '../art/components/ProjectPathway.js';
+import { readArticles } from '../art/lib/readArticles.js';
+import { buildProjectIndex, findArticleProjectMemberships } from '../art/lib/projectData.js';
+import '../art/art.css';
 import styles from './contentPage.module.css';
 
 export const dynamic = 'force-static';
@@ -43,9 +47,15 @@ const getContentHtml = cache(async () => {
 
 export default async function Page() {
     const contentHtml = await getContentHtml();
+    const articles = await readArticles();
+    const memberships = findArticleProjectMemberships(
+        buildProjectIndex(articles),
+        'how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content'
+    );
 
     return (
         <main className={styles['content-wrapper']}>
+            <ProjectPathway memberships={memberships} />
             <article
                 className={styles['paragraph-section']}
                 dangerouslySetInnerHTML={{ __html: contentHtml }}

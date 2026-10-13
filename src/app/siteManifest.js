@@ -34,7 +34,7 @@ export const STATIC_SITE_PAGES = [
         title: "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
         summary:
             "Explains how statistical, relational, semantic and human interpretation can be combined to recover structure hidden by compressed representations.",
-        lastModified: null,
+        lastModified: "2026-10-13",
         priority: 0.8,
         navigation: {
             label: "Discovering Hidden Structure",

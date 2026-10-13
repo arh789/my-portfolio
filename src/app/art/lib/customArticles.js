@@ -7,14 +7,20 @@ export const CUSTOM_ARTICLES = [
             "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
         date: "2026-10-13",
         lastModified: "2026-10-13",
-        tags: [],
+        tags: [
+            "semantic-research-pipeline",
+            "python-nlp",
+            "research-methods",
+            "dataset-structure",
+            "clustering-method",
+        ],
         type: "analysis",
         medium: "interactive-case-study",
         renderMode: "custom",
         projects: [
             {
                 slug: "finding-hidden-structure-in-large-content-corpora",
-                order: 5,
+                order: 3,
                 role: "chapter",
             },
         ],

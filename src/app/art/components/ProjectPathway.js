@@ -30,7 +30,7 @@ function PathwayCard({ article, project }) {
                     </p>
                 ) : (
                     <p className="project-pathway__position">
-                        {formatProjectMedium(article.medium)}
+                        {formatProjectMedium(article.medium, article.projectRole)}
                     </p>
                 )}
             </div>
@@ -71,7 +71,7 @@ function PathwayCard({ article, project }) {
                         <span key={resource.slug}>
                             {index > 0 ? " · " : ""}
                             <Link href={getProjectItemRoute(resource)}>
-                                {formatProjectMedium(resource.medium)}
+                                {formatProjectMedium(resource.medium, resource.projectRole)}
                             </Link>
                         </span>
                     ))}
