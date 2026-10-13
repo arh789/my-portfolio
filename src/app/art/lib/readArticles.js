@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { parseMarkdown } from "../../components/markdown.js";
+import { CUSTOM_ARTICLES } from "./customArticles.js";
 const POSTS_DIR = path.join(process.cwd(), "src/app/art/posts");
 
 function slugify(value) {
@@ -157,5 +158,7 @@ export async function readArticles() {
         })
     );
 
-    return articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+    return [...articles, ...CUSTOM_ARTICLES].sort(
+        (a, b) => new Date(b.date) - new Date(a.date)
+    );
 }

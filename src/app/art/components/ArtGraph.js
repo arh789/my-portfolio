@@ -25,17 +25,17 @@ export default function ArtGraph() {
                         id: node.id,
                         label: node.label,
                         centrality: node.centrality ?? 0,
-                        route: `/art/${node.id}`,
-                        type: "article",
+                        route: node.route ?? `/art/${node.id}`,
+                        type: node.type ?? "article",
                     },
                 })),
                 ...(data.graph?.projectNodes ?? []).map((node) => ({
                     data: {
                         id: node.id,
                         label: node.label,
-                        centrality: 12,
+                        centrality: node.type === "project" ? 12 : 8,
                         route: node.route,
-                        type: "project",
+                        type: node.type,
                     },
                 })),
                 ...(data.graph?.edges ?? []).map((edge, index) => ({
@@ -109,6 +109,23 @@ export default function ArtGraph() {
                             "text-outline-width": 0,
                             "border-width": 2,
                             "border-color": "#fff0a8",
+                        },
+                    },
+                    {
+                        selector: 'node[type = "page"]',
+                        style: {
+                            shape: "round-rectangle",
+                            width: 178,
+                            height: 58,
+                            "background-color": "#4b4324",
+                            color: "#fff0a8",
+                            "font-weight": 700,
+                            "font-size": "11px",
+                            "text-wrap": "wrap",
+                            "text-max-width": "154px",
+                            "text-outline-width": 0,
+                            "border-width": 2,
+                            "border-color": "#f3c64f",
                         },
                     },
                     {
@@ -212,6 +229,7 @@ export default function ArtGraph() {
                 </p>
                 <p className="art-graph__legend">
                     <span>Red circles: articles</span>
+                    <span>Dark gold rectangles: linked core pages</span>
                     <span>Gold rectangles: guided projects</span>
                     <span>Gold arrows: reading order</span>
                 </p>

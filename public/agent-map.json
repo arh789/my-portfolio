@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-11T15:14:58.325Z",
+  "generatedAt": "2026-10-13T05:09:21.666Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -53,13 +53,13 @@
   },
   "counts": {
     "corePages": 10,
-    "articles": 44,
-    "projects": 5,
-    "indexedUrls": 59,
-    "siteGraphNodes": 59,
-    "siteGraphEdges": 146,
+    "articles": 45,
+    "projects": 6,
+    "indexedUrls": 61,
+    "siteGraphNodes": 61,
+    "siteGraphEdges": 157,
     "semanticHubs": 9,
-    "projectHubs": 5
+    "projectHubs": 6
   },
   "pages": [
     {
@@ -650,7 +650,7 @@
         "canonical": "https://decrepitfilth.art/art",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-10-12"
+        "lastModified": "2026-10-13"
       },
       "questionsAnswered": [
         "What has been published?",
@@ -1373,6 +1373,63 @@
         "key": "slug",
         "value": "seer-clown-research"
       }
+    },
+    {
+      "id": "/art/project/finding-hidden-structure-in-large-content-corpora",
+      "path": "/art/project/finding-hidden-structure-in-large-content-corpora",
+      "url": "https://decrepitfilth.art/art/project/finding-hidden-structure-in-large-content-corpora",
+      "title": "Finding Hidden Structure in Large Content Corpora",
+      "summary": "A five-stage pathway from the site's structural-analysis model through its research and Python methods to two applied video-corpus studies.",
+      "introduction": "Begin with the general explanation of hidden structure, then follow the operational research pipeline and Python reference into the TikTok and Dan John case studies.",
+      "architectureRole": "supporting",
+      "agentPriority": {
+        "context": "medium",
+        "traversal": "critical",
+        "evidence": "low",
+        "roles": [
+          "ordered-investigation",
+          "guided-reading-path"
+        ]
+      },
+      "sequence": [
+        {
+          "order": 1,
+          "path": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+          "title": "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
+          "role": "chapter"
+        },
+        {
+          "order": 2,
+          "path": "/art/research-pipeline",
+          "title": "Research pipeline",
+          "role": "chapter"
+        },
+        {
+          "order": 3,
+          "path": "/art/python-nlp-semantic-seo",
+          "title": "Python for NLP and Semantic SEO: A Practical Reference",
+          "role": "chapter"
+        },
+        {
+          "order": 4,
+          "path": "/art/tiktok-video-analysis-with-python",
+          "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+          "role": "chapter"
+        },
+        {
+          "order": 5,
+          "path": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+          "title": "Dan John YouTube Playlist Semantic Network Analysis",
+          "role": "chapter"
+        }
+      ],
+      "supportingResources": [],
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "finding-hidden-structure-in-large-content-corpora"
+      }
     }
   ],
   "relations": [
@@ -1795,6 +1852,40 @@
         }
       },
       {
+        "id": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "path": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "url": "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "kind": "article",
+        "title": "Dan John YouTube Playlist Semantic Network Analysis",
+        "summary": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
+        "architectureRole": "supporting",
+        "published": "2026-10-13",
+        "tags": [],
+        "contentType": "analysis",
+        "medium": "interactive-case-study",
+        "projects": [
+          {
+            "slug": "finding-hidden-structure-in-large-content-corpora",
+            "order": 5,
+            "role": "chapter"
+          }
+        ],
+        "agentPriority": {
+          "context": "standard",
+          "traversal": "medium",
+          "evidence": "unassessed",
+          "roles": [
+            "published-article"
+          ]
+        },
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "dan-john-youtube-playlist-semantic-network-analysis"
+        }
+      },
+      {
         "id": "/art/building-an-agent-native-after-effects-workflow",
         "path": "/art/building-an-agent-native-after-effects-workflow",
         "url": "https://decrepitfilth.art/art/building-an-agent-native-after-effects-workflow",
@@ -1858,7 +1949,13 @@
         ],
         "contentType": "article",
         "medium": "article",
-        "projects": [],
+        "projects": [
+          {
+            "slug": "finding-hidden-structure-in-large-content-corpora",
+            "order": 4,
+            "role": "chapter"
+          }
+        ],
         "agentPriority": {
           "context": "standard",
           "traversal": "medium",
@@ -2778,6 +2875,11 @@
         "medium": "methodology",
         "projects": [
           {
+            "slug": "finding-hidden-structure-in-large-content-corpora",
+            "order": 3,
+            "role": "chapter"
+          },
+          {
             "slug": "semantic-seo-graph-positioning",
             "order": 21,
             "role": "methodology"
@@ -2905,6 +3007,11 @@
         "contentType": "article",
         "medium": "methodology",
         "projects": [
+          {
+            "slug": "finding-hidden-structure-in-large-content-corpora",
+            "order": 2,
+            "role": "chapter"
+          },
           {
             "slug": "semantic-seo-graph-positioning",
             "order": 22,
@@ -3701,6 +3808,35 @@
           "key": "slug",
           "value": "seer-clown-research"
         }
+      },
+      {
+        "id": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "path": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "url": "https://decrepitfilth.art/art/project/finding-hidden-structure-in-large-content-corpora",
+        "kind": "project",
+        "title": "Finding Hidden Structure in Large Content Corpora",
+        "summary": "A five-stage pathway from the site's structural-analysis model through its research and Python methods to two applied video-corpus studies.",
+        "architectureRole": "supporting",
+        "introduction": "Begin with the general explanation of hidden structure, then follow the operational research pipeline and Python reference into the TikTok and Dan John case studies.",
+        "articleCounts": {
+          "chapters": 5,
+          "resources": 0
+        },
+        "agentPriority": {
+          "context": "medium",
+          "traversal": "critical",
+          "evidence": "low",
+          "roles": [
+            "ordered-investigation",
+            "guided-reading-path"
+          ]
+        },
+        "source": {
+          "resource": "/graph.json",
+          "collection": "projects",
+          "key": "slug",
+          "value": "finding-hidden-structure-in-large-content-corpora"
+        }
       }
     ],
     "edges": [
@@ -3858,6 +3994,11 @@
         "source": "/art/ai-visibility-is-not-value",
         "target": "/art/representation-governance",
         "type": "culminates-in"
+      },
+      {
+        "source": "/art",
+        "target": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "type": "contains-article"
       },
       {
         "source": "/art",
@@ -4102,6 +4243,11 @@
       {
         "source": "/art",
         "target": "/art/project/seer-clown-research",
+        "type": "contains-project"
+      },
+      {
+        "source": "/art",
+        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
         "type": "contains-project"
       },
       {
@@ -4499,6 +4645,60 @@
         "target": "/art/methodology-evaluation-and-validity",
         "type": "precedes",
         "project": "seer-clown-research"
+      },
+      {
+        "source": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "type": "belongs-to-project",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/art/research-pipeline",
+        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "type": "supports-methodology",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/art/python-nlp-semantic-seo",
+        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "type": "supports-methodology",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/art/tiktok-video-analysis-with-python",
+        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "type": "belongs-to-project",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "target": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "type": "belongs-to-project",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "target": "/art/research-pipeline",
+        "type": "precedes",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/art/research-pipeline",
+        "target": "/art/python-nlp-semantic-seo",
+        "type": "precedes",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/art/python-nlp-semantic-seo",
+        "target": "/art/tiktok-video-analysis-with-python",
+        "type": "precedes",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "/art/tiktok-video-analysis-with-python",
+        "target": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "type": "precedes",
+        "project": "finding-hidden-structure-in-large-content-corpora"
       }
     ]
   },
@@ -4617,7 +4817,7 @@
         "key": "id",
         "value": "art"
       },
-      "lastModified": "2026-10-12",
+      "lastModified": "2026-10-13",
       "priority": 0.8
     },
     {
@@ -4632,6 +4832,18 @@
       },
       "lastModified": "2026-09-10",
       "priority": 0.8
+    },
+    {
+      "path": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+      "url": "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
+      "kind": "article",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "dan-john-youtube-playlist-semantic-network-analysis"
+      },
+      "lastModified": "2026-10-13"
     },
     {
       "path": "/art/building-an-agent-native-after-effects-workflow",
@@ -5220,6 +5432,18 @@
         "value": "seer-clown-research"
       },
       "lastModified": "2026-09-09"
+    },
+    {
+      "path": "/art/project/finding-hidden-structure-in-large-content-corpora",
+      "url": "https://decrepitfilth.art/art/project/finding-hidden-structure-in-large-content-corpora",
+      "kind": "project",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "projects",
+        "key": "slug",
+        "value": "finding-hidden-structure-in-large-content-corpora"
+      },
+      "lastModified": "2026-10-13"
     }
   ]
 }

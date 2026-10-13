@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-10-11T15:14:58.325Z",
+  "generatedAt": "2026-10-13T05:09:21.666Z",
   "articles": [
+    {
+      "slug": "dan-john-youtube-playlist-semantic-network-analysis",
+      "route": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+      "title": "Dan John YouTube Playlist Semantic Network Analysis",
+      "description": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
+      "date": "2026-10-13",
+      "tags": [],
+      "type": "analysis",
+      "medium": "interactive-case-study",
+      "renderMode": "custom",
+      "projects": [
+        {
+          "slug": "finding-hidden-structure-in-large-content-corpora",
+          "order": 5,
+          "role": "chapter"
+        }
+      ]
+    },
     {
       "slug": "building-an-agent-native-after-effects-workflow",
       "title": "Building an Agent-Native After Effects Workflow",
@@ -39,7 +57,13 @@
         "creative-search-system"
       ],
       "type": "article",
-      "projects": [],
+      "projects": [
+        {
+          "slug": "finding-hidden-structure-in-large-content-corpora",
+          "order": 4,
+          "role": "chapter"
+        }
+      ],
       "medium": "article"
     },
     {
@@ -539,6 +563,11 @@
       "type": "article",
       "projects": [
         {
+          "slug": "finding-hidden-structure-in-large-content-corpora",
+          "order": 3,
+          "role": "chapter"
+        },
+        {
           "slug": "semantic-seo-graph-positioning",
           "order": 21,
           "role": "methodology"
@@ -612,6 +641,11 @@
       ],
       "type": "article",
       "projects": [
+        {
+          "slug": "finding-hidden-structure-in-large-content-corpora",
+          "order": 2,
+          "role": "chapter"
+        },
         {
           "slug": "semantic-seo-graph-positioning",
           "order": 22,
@@ -5600,6 +5634,11 @@
           "type": "article",
           "projects": [
             {
+              "slug": "finding-hidden-structure-in-large-content-corpora",
+              "order": 3,
+              "role": "chapter"
+            },
+            {
               "slug": "semantic-seo-graph-positioning",
               "order": 21,
               "role": "methodology"
@@ -5627,6 +5666,11 @@
           ],
           "type": "article",
           "projects": [
+            {
+              "slug": "finding-hidden-structure-in-large-content-corpora",
+              "order": 2,
+              "role": "chapter"
+            },
             {
               "slug": "semantic-seo-graph-positioning",
               "order": 22,
@@ -5815,6 +5859,11 @@
           "type": "article",
           "projects": [
             {
+              "slug": "finding-hidden-structure-in-large-content-corpora",
+              "order": 2,
+              "role": "chapter"
+            },
+            {
               "slug": "semantic-seo-graph-positioning",
               "order": 22,
               "role": "methodology"
@@ -5830,14 +5879,157 @@
           "projectRole": "methodology"
         }
       ]
+    },
+    {
+      "slug": "finding-hidden-structure-in-large-content-corpora",
+      "title": "Finding Hidden Structure in Large Content Corpora",
+      "eyebrow": "Guided case study",
+      "description": "A five-stage pathway from the site's structural-analysis model through its research and Python methods to two applied video-corpus studies.",
+      "introduction": "Begin with the general explanation of hidden structure, then follow the operational research pipeline and Python reference into the TikTok and Dan John case studies.",
+      "chapters": [
+        {
+          "slug": "how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+          "route": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+          "title": "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
+          "description": "The conceptual foundation for locating statistical, relational and semantic structure in large bodies of content.",
+          "medium": "core-explainer",
+          "entityType": "page",
+          "projectOrder": 1,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "research-pipeline",
+          "title": "Research pipeline",
+          "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+          "date": "2026-04-25",
+          "tags": [
+            "semantic-research-pipeline",
+            "python-nlp",
+            "search-results-to-strategy",
+            "review-mining",
+            "dataset-structure",
+            "clustering-method",
+            "search-and-discovery-systems",
+            "discovery-systems-map",
+            "research-methods"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "finding-hidden-structure-in-large-content-corpora",
+              "order": 2,
+              "role": "chapter"
+            },
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 22,
+              "role": "methodology"
+            },
+            {
+              "slug": "seer-clown-research",
+              "order": 10,
+              "role": "methodology"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 2,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "python-nlp-semantic-seo",
+          "title": "Python for NLP and Semantic SEO: A Practical Reference",
+          "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+          "date": "2026-05-31",
+          "tags": [
+            "semantic-research-pipeline",
+            "python-nlp",
+            "research-methods"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "finding-hidden-structure-in-large-content-corpora",
+              "order": 3,
+              "role": "chapter"
+            },
+            {
+              "slug": "semantic-seo-graph-positioning",
+              "order": 21,
+              "role": "methodology"
+            }
+          ],
+          "medium": "methodology",
+          "projectOrder": 3,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "tiktok-video-analysis-with-python",
+          "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+          "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+          "date": "2026-09-04",
+          "tags": [
+            "tiktok",
+            "short-form-video",
+            "video-index-system",
+            "semantic-research-pipeline",
+            "research-methods",
+            "search-results-to-strategy",
+            "search-and-discovery-systems",
+            "creative-search-system"
+          ],
+          "type": "article",
+          "projects": [
+            {
+              "slug": "finding-hidden-structure-in-large-content-corpora",
+              "order": 4,
+              "role": "chapter"
+            }
+          ],
+          "medium": "article",
+          "projectOrder": 4,
+          "projectRole": "chapter"
+        },
+        {
+          "slug": "dan-john-youtube-playlist-semantic-network-analysis",
+          "route": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+          "title": "Dan John YouTube Playlist Semantic Network Analysis",
+          "description": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
+          "date": "2026-10-13",
+          "tags": [],
+          "type": "analysis",
+          "medium": "interactive-case-study",
+          "renderMode": "custom",
+          "projects": [
+            {
+              "slug": "finding-hidden-structure-in-large-content-corpora",
+              "order": 5,
+              "role": "chapter"
+            }
+          ],
+          "projectOrder": 5,
+          "projectRole": "chapter"
+        }
+      ],
+      "resources": []
     }
   ],
   "graph": {
     "nodes": [
       {
+        "id": "dan-john-youtube-playlist-semantic-network-analysis",
+        "label": "Dan John YouTube Playlist Semantic Network Analysis",
+        "route": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "type": "article",
+        "contentType": "analysis",
+        "tags": [],
+        "centrality": 0
+      },
+      {
         "id": "building-an-agent-native-after-effects-workflow",
         "label": "Building an Agent-Native After Effects Workflow",
+        "route": "/art/building-an-agent-native-after-effects-workflow",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "artistic-system-building",
           "creative-identity-system",
@@ -5850,7 +6042,9 @@
       {
         "id": "tiktok-video-analysis-with-python",
         "label": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "route": "/art/tiktok-video-analysis-with-python",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "tiktok",
           "short-form-video",
@@ -5866,7 +6060,9 @@
       {
         "id": "tiktok-zombie-survival-series",
         "label": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "route": "/art/tiktok-zombie-survival-series",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "tiktok",
           "tiktok-zombie-series",
@@ -5885,7 +6081,9 @@
       {
         "id": "how-to-stop-chatgpt-from-lying",
         "label": "How to Stop ChatGPT From Lying",
+        "route": "/art/how-to-stop-chatgpt-from-lying",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
@@ -5904,7 +6102,9 @@
       {
         "id": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
         "label": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+        "route": "/art/why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
@@ -5920,7 +6120,9 @@
       {
         "id": "ai-zombie-survival-why-fortresses-fail",
         "label": "AI Zombie Survival: Why Fortresses Fail",
+        "route": "/art/ai-zombie-survival-why-fortresses-fail",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
@@ -5936,7 +6138,9 @@
       {
         "id": "the-zombie-survival-strategy-chatgpt-could-not-see",
         "label": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "route": "/art/the-zombie-survival-strategy-chatgpt-could-not-see",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
@@ -5951,7 +6155,9 @@
       {
         "id": "ai-visibility-is-not-value",
         "label": "AI Visibility Is Not Value",
+        "route": "/art/ai-visibility-is-not-value",
         "type": "article",
+        "contentType": "index",
         "tags": [
           "ai-visibility-is-not-value",
           "ai-visibility-causality",
@@ -5972,7 +6178,9 @@
       {
         "id": "ai-visibility-is-not-a-direct-optimisation-outcome",
         "label": "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Optimisation Outcome",
+        "route": "/art/ai-visibility-is-not-a-direct-optimisation-outcome",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "ai-visibility-causality"
@@ -5982,7 +6190,9 @@
       {
         "id": "source-eligibility-being-available-is-not-being-chosen",
         "label": "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Available Is Not Being Chosen",
+        "route": "/art/source-eligibility-being-available-is-not-being-chosen",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "source-eligibility"
@@ -5992,7 +6202,9 @@
       {
         "id": "ai-visibility-is-not-one-environment",
         "label": "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environment",
+        "route": "/art/ai-visibility-is-not-one-environment",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "answer-regimes"
@@ -6002,7 +6214,9 @@
       {
         "id": "the-selection-gap",
         "label": "AI Visibility Is Not Value, Part 4 — The Selection Gap",
+        "route": "/art/the-selection-gap",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "selection-gap"
@@ -6012,7 +6226,9 @@
       {
         "id": "selected-does-not-mean-cited",
         "label": "AI Visibility Is Not Value, Part 5 — Selected Does Not Mean Cited",
+        "route": "/art/selected-does-not-mean-cited",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "ai-attribution"
@@ -6022,7 +6238,9 @@
       {
         "id": "ai-visibility-measurement-cannot-prove-value",
         "label": "AI Visibility Is Not Value, Part 6 — AI Visibility Measurement Cannot Prove Value",
+        "route": "/art/ai-visibility-measurement-cannot-prove-value",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "ai-visibility-measurement"
@@ -6032,7 +6250,9 @@
       {
         "id": "value-transfer-retention-and-platform-capture",
         "label": "AI Visibility Is Not Value, Part 7 — Value Transfer, Retention, and Platform Capture",
+        "route": "/art/value-transfer-retention-and-platform-capture",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "value-transfer"
@@ -6042,7 +6262,9 @@
       {
         "id": "the-citable-hard-to-exhaust-archive",
         "label": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
+        "route": "/art/the-citable-hard-to-exhaust-archive",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "hard-to-exhaust-archive",
@@ -6053,7 +6275,9 @@
       {
         "id": "representation-governance",
         "label": "AI Visibility Is Not Value, Part 9 — Representation Governance",
+        "route": "/art/representation-governance",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "ai-visibility-is-not-value",
           "representation-governance"
@@ -6063,7 +6287,9 @@
       {
         "id": "hidden-representations-without-hidden-layers",
         "label": "Hidden Representations Without Hidden Layers",
+        "route": "/art/hidden-representations-without-hidden-layers",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "llm-structural-analysis",
           "hidden-representations",
@@ -6074,7 +6300,9 @@
       {
         "id": "adversarial-questioning-chatgpt-zombie-survival",
         "label": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "route": "/art/adversarial-questioning-chatgpt-zombie-survival",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
@@ -6089,7 +6317,9 @@
       {
         "id": "google-maps-review-mining-unmet-demand",
         "label": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "route": "/art/google-maps-review-mining-unmet-demand",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "semantic-research-pipeline",
           "review-mining",
@@ -6101,7 +6331,9 @@
       {
         "id": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "label": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "route": "/art/ai-seo-strategy-why-your-creative-work-is-invisible",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "creative-search-system",
           "youtube",
@@ -6114,7 +6346,9 @@
       {
         "id": "from-seo-keywords-to-the-haunted-machine",
         "label": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "route": "/art/from-seo-keywords-to-the-haunted-machine",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "creative-search-system",
           "creative-identity-system",
@@ -6130,7 +6364,9 @@
       {
         "id": "how-search-and-recommendation-systems-actually-work",
         "label": "How Search and Recommendation Systems Actually Work",
+        "route": "/art/how-search-and-recommendation-systems-actually-work",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "search-and-discovery-systems",
           "semantic-seo",
@@ -6145,7 +6381,9 @@
       {
         "id": "semantic-seo-is-graph-positioning",
         "label": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
+        "route": "/art/semantic-seo-is-graph-positioning",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "search-and-discovery-systems",
           "graph-positioning",
@@ -6158,7 +6396,9 @@
       {
         "id": "python-nlp-semantic-seo",
         "label": "Python for NLP and Semantic SEO: A Practical Reference",
+        "route": "/art/python-nlp-semantic-seo",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "semantic-research-pipeline",
           "python-nlp",
@@ -6169,7 +6409,9 @@
       {
         "id": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
         "label": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "route": "/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "semantic-research-pipeline",
           "search-results-to-strategy",
@@ -6180,7 +6422,9 @@
       {
         "id": "sda3-tldr",
         "label": "SDA-3 tl;dr",
+        "route": "/art/sda3-tldr",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "llm-structural-analysis",
           "sda-3",
@@ -6194,7 +6438,9 @@
       {
         "id": "research-pipeline",
         "label": "Research pipeline",
+        "route": "/art/research-pipeline",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "semantic-research-pipeline",
           "python-nlp",
@@ -6211,7 +6457,9 @@
       {
         "id": "who-benefits-most-from-this-system",
         "label": "Who This Semantic SEO System Is For—and Why",
+        "route": "/art/who-benefits-most-from-this-system",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "creative-search-system",
           "strategic-positioning",
@@ -6223,7 +6471,9 @@
       {
         "id": "clustered-output-instagram-dataset",
         "label": "Clustered Instagram Output: Model-Generated Symbolic Compression",
+        "route": "/art/clustered-output-instagram-dataset",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "aesthetic-research-system",
           "instagram-dataset",
@@ -6237,7 +6487,9 @@
       {
         "id": "data-structure-intermediate-stage",
         "label": "What the Data Actually Looks Like",
+        "route": "/art/data-structure-intermediate-stage",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "aesthetic-research-system",
           "dataset-structure",
@@ -6250,7 +6502,9 @@
       {
         "id": "methodology-evaluation-and-validity",
         "label": "Summary of the Process, Conclusions, and Their Validity",
+        "route": "/art/methodology-evaluation-and-validity",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "aesthetic-research-system",
           "instagram-dataset",
@@ -6265,7 +6519,9 @@
       {
         "id": "seer-clown-research-process",
         "label": "Research Process Used to Establish the Seer-Clown Archetype",
+        "route": "/art/seer-clown-research-process",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "creative-identity-system",
           "seer-clown",
@@ -6278,7 +6534,9 @@
       {
         "id": "youtube-video-index",
         "label": "YouTube",
+        "route": "/art/youtube-video-index",
         "type": "article",
+        "contentType": "index",
         "tags": [
           "youtube",
           "zombie-survival-video",
@@ -6295,7 +6553,9 @@
       {
         "id": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
         "label": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "route": "/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
         "type": "article",
+        "contentType": "analysis",
         "tags": [
           "llm-structural-analysis",
           "zombie-survival",
@@ -6310,7 +6570,9 @@
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "label": "SDA-3 protocol",
+        "route": "/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "llm-structural-analysis",
           "sda-3",
@@ -6326,7 +6588,9 @@
       {
         "id": "structural-extraction-protocol",
         "label": "Structural Extraction Protocol",
+        "route": "/art/structural-extraction-protocol",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "llm-structural-analysis",
           "structural-extraction",
@@ -6337,7 +6601,9 @@
       {
         "id": "art-forms-with-high-audience-resonance",
         "label": "Art Forms with High Audience Resonance",
+        "route": "/art/art-forms-with-high-audience-resonance",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "aesthetic-research-system",
           "audience-resonance",
@@ -6348,7 +6614,9 @@
       {
         "id": "first-principles",
         "label": "First Principles",
+        "route": "/art/first-principles",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "creative-identity-system",
           "first-principles",
@@ -6359,7 +6627,9 @@
       {
         "id": "gpt-misuse-is-not-what-people-think",
         "label": "GPT Misuse Is Not What People Think",
+        "route": "/art/gpt-misuse-is-not-what-people-think",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
@@ -6370,7 +6640,9 @@
       {
         "id": "maximising-artistic-identity",
         "label": "Maximising Artistic Identity",
+        "route": "/art/maximising-artistic-identity",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "creative-identity-system",
           "first-principles",
@@ -6385,7 +6657,9 @@
       {
         "id": "most-popular-art-mediums-based-on-the-datasets",
         "label": "Most Popular Art Mediums Based on the Datasets",
+        "route": "/art/most-popular-art-mediums-based-on-the-datasets",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "aesthetic-research-system",
           "art-medium-analysis",
@@ -6396,7 +6670,9 @@
       {
         "id": "semantic-seo-begins-before-optimisation",
         "label": "Semantic SEO Begins Before Optimisation",
+        "route": "/art/semantic-seo-begins-before-optimisation",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "search-and-discovery-systems",
           "semantic-seo",
@@ -6409,7 +6685,9 @@
       {
         "id": "visibility-under-hostile-conditions",
         "label": "Visibility Under Hostile Conditions",
+        "route": "/art/visibility-under-hostile-conditions",
         "type": "article",
+        "contentType": "article",
         "tags": [
           "search-and-discovery-systems",
           "hostile-visibility",
@@ -8704,6 +8982,18 @@
         "label": "From Aesthetic Research to the Seer-Clown",
         "route": "/art/project/seer-clown-research",
         "type": "project"
+      },
+      {
+        "id": "project:finding-hidden-structure-in-large-content-corpora",
+        "label": "Finding Hidden Structure in Large Content Corpora",
+        "route": "/art/project/finding-hidden-structure-in-large-content-corpora",
+        "type": "project"
+      },
+      {
+        "id": "page:/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "label": "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
+        "route": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "type": "page"
       }
     ],
     "projectEdges": [
@@ -9102,6 +9392,60 @@
         "target": "methodology-evaluation-and-validity",
         "type": "precedes",
         "project": "seer-clown-research"
+      },
+      {
+        "source": "page:/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "target": "project:finding-hidden-structure-in-large-content-corpora",
+        "type": "belongs-to-project",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "research-pipeline",
+        "target": "project:finding-hidden-structure-in-large-content-corpora",
+        "type": "supports-methodology",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "python-nlp-semantic-seo",
+        "target": "project:finding-hidden-structure-in-large-content-corpora",
+        "type": "supports-methodology",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "project:finding-hidden-structure-in-large-content-corpora",
+        "type": "belongs-to-project",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "dan-john-youtube-playlist-semantic-network-analysis",
+        "target": "project:finding-hidden-structure-in-large-content-corpora",
+        "type": "belongs-to-project",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "page:/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "target": "research-pipeline",
+        "type": "precedes",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "research-pipeline",
+        "target": "python-nlp-semantic-seo",
+        "type": "precedes",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "python-nlp-semantic-seo",
+        "target": "tiktok-video-analysis-with-python",
+        "type": "precedes",
+        "project": "finding-hidden-structure-in-large-content-corpora"
+      },
+      {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "dan-john-youtube-playlist-semantic-network-analysis",
+        "type": "precedes",
+        "project": "finding-hidden-structure-in-large-content-corpora"
       }
     ]
   }

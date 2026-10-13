@@ -10,6 +10,7 @@ import {
 import {
   buildProjectGraph,
   buildProjectIndex,
+  getProjectItemRoute,
 } from "../src/app/art/lib/projectData.js";
 import {
   SITE_BASE_URL,
@@ -32,6 +33,10 @@ const generatedAt = new Date().toISOString();
 
 function absoluteUrl(route) {
   return new URL(route, SITE_BASE_URL).toString();
+}
+
+function articleRoute(article) {
+  return article.route ?? "/art/" + article.slug;
 }
 
 function sourceLocator(resource, collection, key, value) {
@@ -275,7 +280,7 @@ const staticUrlEntries = staticPages.map((page) => ({
 }));
 
 const articleUrlEntries = articles.map((article) => {
-  const articlePath = "/art/" + article.slug;
+  const articlePath = articleRoute(article);
 
   return {
     path: articlePath,
@@ -327,7 +332,7 @@ const siteGraphNodes = [
     };
   }),
   ...articles.map((article) => {
-    const articlePath = "/art/" + article.slug;
+    const articlePath = articleRoute(article);
     const agentPriority = buildAgentPriority(articlePath, {
       context: "standard",
       traversal: "medium",
@@ -392,7 +397,7 @@ const semanticHubs = Object.entries(AGENT_SEMANTIC_HUB_CONTENT).map(
       throw new Error('Semantic hub article not found: "' + slug + '"');
     }
 
-    const hubPath = "/art/" + slug;
+    const hubPath = articleRoute(article);
 
     return {
       id: hubPath,
@@ -432,13 +437,13 @@ const projectHubs = projects.map((project) => {
     }),
     sequence: project.chapters.map((article) => ({
       order: article.projectOrder,
-      path: "/art/" + article.slug,
+      path: getProjectItemRoute(article),
       title: article.title,
       role: article.projectRole,
     })),
     supportingResources: project.resources.map((article) => ({
       order: article.projectOrder,
-      path: "/art/" + article.slug,
+      path: getProjectItemRoute(article),
       title: article.title,
       role: article.projectRole,
     })),
@@ -457,7 +462,7 @@ const curatedPageEdges = AGENT_RELATIONS.map((relation) => ({
 const archiveEdges = [
   ...articles.map((article) => ({
     source: "/art",
-    target: "/art/" + article.slug,
+    target: articleRoute(article),
     type: "contains-article",
   })),
   ...projects.map((project) => ({
@@ -467,13 +472,21 @@ const archiveEdges = [
   })),
 ];
 
+function projectGraphEndpointRoute(endpoint) {
+  if (endpoint.startsWith("project:")) {
+    return "/art/project/" + endpoint.slice("project:".length);
+  }
+
+  if (endpoint.startsWith("page:")) {
+    return endpoint.slice("page:".length);
+  }
+
+  return "/art/" + endpoint;
+}
+
 const projectEdges = projectGraph.edges.map((edge) => ({
-  source: edge.source.startsWith("project:")
-    ? "/art/project/" + edge.source.slice("project:".length)
-    : "/art/" + edge.source,
-  target: edge.target.startsWith("project:")
-    ? "/art/project/" + edge.target.slice("project:".length)
-    : "/art/" + edge.target,
+  source: projectGraphEndpointRoute(edge.source),
+  target: projectGraphEndpointRoute(edge.target),
   type: edge.type,
   ...(edge.project ? { project: edge.project } : {}),
 }));

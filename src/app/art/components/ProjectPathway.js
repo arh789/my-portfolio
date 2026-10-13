@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { formatProjectMedium } from "../lib/projectData.js";
+import { formatProjectMedium, getProjectItemRoute } from "../lib/projectData.js";
 
 function PathwayCard({ article, project }) {
     const chapterIndex = project.chapters.findIndex(
@@ -37,7 +37,7 @@ function PathwayCard({ article, project }) {
 
             <div className="project-pathway__links">
                 {previous ? (
-                    <Link href={`/art/${previous.slug}`}>
+                    <Link href={getProjectItemRoute(previous)}>
                         <span>Previous</span>
                         {previous.title}
                     </Link>
@@ -53,7 +53,7 @@ function PathwayCard({ article, project }) {
                 </Link>
 
                 {next ? (
-                    <Link className="project-pathway__next" href={`/art/${next.slug}`}>
+                    <Link className="project-pathway__next" href={getProjectItemRoute(next)}>
                         <span>Next</span>
                         {next.title}
                     </Link>
@@ -70,7 +70,7 @@ function PathwayCard({ article, project }) {
                     {mediaResources.map((resource, index) => (
                         <span key={resource.slug}>
                             {index > 0 ? " · " : ""}
-                            <Link href={`/art/${resource.slug}`}>
+                            <Link href={getProjectItemRoute(resource)}>
                                 {formatProjectMedium(resource.medium)}
                             </Link>
                         </span>

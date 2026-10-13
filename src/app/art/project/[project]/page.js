@@ -5,6 +5,7 @@ import {
     buildProjectIndex,
     findProject,
     formatProjectMedium,
+    getProjectItemRoute,
 } from "../../lib/projectData.js";
 import "../../art.css";
 
@@ -12,6 +13,10 @@ const SITE_URL = "https://decrepitfilth.art";
 
 function safeJsonLd(value) {
     return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
+function absoluteProjectItemUrl(item) {
+    return new URL(getProjectItemRoute(item), SITE_URL).toString();
 }
 
 async function loadProject(slug) {
@@ -58,9 +63,9 @@ export default async function ProjectPage({ params }) {
         description: project.description,
         url: projectUrl,
         hasPart: project.chapters.map((chapter) => ({
-            "@type": "Article",
+            "@type": chapter.entityType === "page" ? "WebPage" : "Article",
             name: chapter.title,
-            url: `${SITE_URL}/art/${chapter.slug}`,
+            url: absoluteProjectItemUrl(chapter),
             position: chapter.projectOrder,
         })),
         mainEntity: {
@@ -69,7 +74,7 @@ export default async function ProjectPage({ params }) {
                 "@type": "ListItem",
                 position: index + 1,
                 name: chapter.title,
-                url: `${SITE_URL}/art/${chapter.slug}`,
+                url: absoluteProjectItemUrl(chapter),
             })),
         },
     };
@@ -137,7 +142,7 @@ export default async function ProjectPage({ params }) {
                                     {formatProjectMedium(chapter.medium)}
                                 </p>
                                 <h3>
-                                    <Link href={`/art/${chapter.slug}`}>
+                                    <Link href={getProjectItemRoute(chapter)}>
                                         {chapter.title}
                                     </Link>
                                 </h3>
@@ -163,7 +168,7 @@ export default async function ProjectPage({ params }) {
                             <article className="art-project-resource" key={resource.slug}>
                                 <p>{formatProjectMedium(resource.medium)}</p>
                                 <h3>
-                                    <Link href={`/art/${resource.slug}`}>
+                                    <Link href={getProjectItemRoute(resource)}>
                                         {resource.title}
                                     </Link>
                                 </h3>

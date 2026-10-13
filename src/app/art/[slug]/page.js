@@ -46,9 +46,11 @@ async function readArticleBySlug(slug) {
 export async function generateStaticParams() {
     const articles = await readArticles();
 
-    return articles.map((article) => ({
-        slug: article.slug,
-    }));
+    return articles
+        .filter((article) => article.renderMode !== "custom")
+        .map((article) => ({
+            slug: article.slug,
+        }));
 }
 
 export async function generateMetadata({ params }) {

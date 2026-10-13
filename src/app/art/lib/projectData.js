@@ -44,6 +44,28 @@ const PROJECT_DEFINITIONS = [
         introduction:
             "This sequence exposes both the research outputs and the intermediate representations used to turn audience evidence into an artistic identity system.",
     },
+    {
+        slug: "finding-hidden-structure-in-large-content-corpora",
+        title: "Finding Hidden Structure in Large Content Corpora",
+        eyebrow: "Guided case study",
+        description:
+            "A five-stage pathway from the site's structural-analysis model through its research and Python methods to two applied video-corpus studies.",
+        introduction:
+            "Begin with the general explanation of hidden structure, then follow the operational research pipeline and Python reference into the TikTok and Dan John case studies.",
+        fixedChapters: [
+            {
+                slug: "how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+                route: "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+                title: "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
+                description:
+                    "The conceptual foundation for locating statistical, relational and semantic structure in large bodies of content.",
+                medium: "core-explainer",
+                entityType: "page",
+                projectOrder: 1,
+                projectRole: "chapter",
+            },
+        ],
+    },
 ];
 
 function publicArticle(article) {
@@ -58,6 +80,8 @@ export function formatProjectMedium(medium) {
         "tiktok-series": "TikTok series",
         "youtube-index": "YouTube index",
         overview: "Series overview",
+        "core-explainer": "Core explainer",
+        "interactive-case-study": "Interactive case study",
     };
 
     return labels[medium] ?? "Article";
@@ -65,6 +89,7 @@ export function formatProjectMedium(medium) {
 
 export function buildProjectIndex(articles) {
     return PROJECT_DEFINITIONS.map((definition) => {
+        const { fixedChapters = [], ...publicDefinition } = definition;
         const items = articles
             .map((article) => {
                 const membership = article.projects.find(
@@ -81,8 +106,8 @@ export function buildProjectIndex(articles) {
             })
             .filter(Boolean);
 
-        const chapters = items
-            .filter((article) => article.projectRole === "chapter")
+        const chapters = [...fixedChapters, ...items]
+            .filter((item) => item.projectRole === "chapter")
             .sort((a, b) => a.projectOrder - b.projectOrder);
 
         const resources = items
@@ -96,7 +121,7 @@ export function buildProjectIndex(articles) {
             });
 
         return {
-            ...definition,
+            ...publicDefinition,
             chapters,
             resources,
         };
@@ -117,14 +142,40 @@ export function findArticleProjectMemberships(projects, articleSlug) {
     });
 }
 
+export function getProjectItemRoute(item) {
+    return item.route ?? `/art/${item.slug}`;
+}
+
+function projectItemNodeId(item) {
+    return item.entityType === "page"
+        ? `page:${getProjectItemRoute(item)}`
+        : item.slug;
+}
+
 export function buildProjectGraph(projects) {
-    const nodes = projects.map((project) => ({
+    const projectNodes = projects.map((project) => ({
         id: `project:${project.slug}`,
         label: project.title,
         route: `/art/project/${project.slug}`,
         type: "project",
     }));
+    const pageNodes = new Map();
 
+    for (const project of projects) {
+        for (const item of [...project.chapters, ...project.resources]) {
+            if (item.entityType !== "page") continue;
+
+            const id = projectItemNodeId(item);
+            pageNodes.set(id, {
+                id,
+                label: item.title,
+                route: getProjectItemRoute(item),
+                type: "page",
+            });
+        }
+    }
+
+    const nodes = [...projectNodes, ...pageNodes.values()];
     const edges = [];
 
     for (const project of projects) {
@@ -144,7 +195,7 @@ export function buildProjectGraph(projects) {
             }
 
             edges.push({
-                source: item.slug,
+                source: projectItemNodeId(item),
                 target: projectId,
                 type: relationshipType,
                 project: project.slug,
@@ -153,8 +204,8 @@ export function buildProjectGraph(projects) {
 
         for (let index = 0; index < project.chapters.length - 1; index += 1) {
             edges.push({
-                source: project.chapters[index].slug,
-                target: project.chapters[index + 1].slug,
+                source: projectItemNodeId(project.chapters[index]),
+                target: projectItemNodeId(project.chapters[index + 1]),
                 type: "precedes",
                 project: project.slug,
             });

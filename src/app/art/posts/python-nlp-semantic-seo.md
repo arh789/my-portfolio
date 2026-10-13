@@ -5,6 +5,9 @@ showOutline: true
 date: "2026-05-31"
 lastModified: "2026-09-14"
 projects:
+  - slug: finding-hidden-structure-in-large-content-corpora
+    order: 3
+    role: chapter
   - slug: semantic-seo-graph-positioning
     order: 21
     role: methodology

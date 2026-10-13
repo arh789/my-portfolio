@@ -3,6 +3,9 @@ title: Research pipeline
 description: A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.
 date: 2026-04-25
 projects:
+  - slug: finding-hidden-structure-in-large-content-corpora
+    order: 2
+    role: chapter
   - slug: semantic-seo-graph-positioning
     order: 22
     role: methodology
