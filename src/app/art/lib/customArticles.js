@@ -6,7 +6,7 @@ export const CUSTOM_ARTICLES = [
         description:
             "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
         date: "2026-10-13",
-        lastModified: "2026-10-13",
+        lastModified: "2026-10-14",
         tags: [
             "semantic-research-pipeline",
             "python-nlp",

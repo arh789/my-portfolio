@@ -1,7 +1,8 @@
 .page {
     min-height: 100vh;
+    font-family: var(--research-font-body);
     padding: clamp(1rem, 3vw, 3rem);
-    color: var(--text-color, #f4f0df);
+    color: var(--research-text);
     background:
         radial-gradient(circle at top left, rgba(245, 227, 109, 0.12), transparent 28rem),
         radial-gradient(circle at 80% 20%, rgba(144, 94, 255, 0.12), transparent 24rem),
@@ -35,8 +36,8 @@
 
 .sidebarEyebrow {
     margin: 0 0 0.85rem;
-    color: var(--primary-color, #f5e36d);
-    font-family: var(--font-family-title, inherit);
+    color: var(--research-accent);
+    font-family: var(--research-font-title);
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -59,9 +60,9 @@
 
 .sidebarLink:hover,
 .sidebarLink:focus-visible {
-    color: var(--primary-color, #f5e36d);
+    color: var(--research-accent);
     background: rgba(245, 227, 109, 0.08);
-    border-left-color: var(--primary-color, #f5e36d);
+    border-left-color: var(--research-accent);
     outline: none;
 }
 
@@ -109,8 +110,8 @@
 .markdownCell h5,
 .markdownCell h6 {
     scroll-margin-top: 1.5rem;
-    color: var(--primary-color, #f5e36d);
-    font-family: var(--font-family-title, inherit);
+    color: var(--research-accent);
+    font-family: var(--research-font-title);
     letter-spacing: 0.025em;
 }
 
@@ -162,14 +163,14 @@
     color: rgba(244, 240, 223, 0.96);
     background: rgba(245, 227, 109, 0.08);
     border: 1px solid rgba(245, 227, 109, 0.28);
-    border-left: 4px solid var(--primary-color, #f5e36d);
+    border-left: 4px solid var(--research-accent);
     font-size: 0.98rem;
     line-height: 1.5;
 }
 
 .markdownCell :global(.supervisionLabel strong) {
-    color: var(--primary-color, #f5e36d);
-    font-family: var(--font-family-title, inherit);
+    color: var(--research-accent);
+    font-family: var(--research-font-title);
     letter-spacing: 0.045em;
     text-transform: uppercase;
 }
@@ -192,7 +193,7 @@
     color: rgba(244, 240, 223, 0.96);
     background: rgba(245, 227, 109, 0.08);
     border: 1px solid rgba(245, 227, 109, 0.28);
-    border-left: 4px solid var(--primary-color, #f5e36d);
+    border-left: 4px solid var(--research-accent);
     font-size: 1.02rem;
     line-height: 1.58;
 }
@@ -200,8 +201,8 @@
 .markdownCell :global(.questionLabel strong) {
     display: block;
     margin-bottom: 0.35rem;
-    color: var(--primary-color, #f5e36d);
-    font-family: var(--font-family-title, inherit);
+    color: var(--research-accent);
+    font-family: var(--research-font-title);
     letter-spacing: 0.055em;
     text-transform: uppercase;
 }
@@ -224,12 +225,12 @@
     padding: 0.85rem 1rem;
     color: rgba(244, 240, 223, 0.78);
     background: rgba(245, 227, 109, 0.06);
-    border-left: 4px solid var(--primary-color, #f5e36d);
+    border-left: 4px solid var(--research-accent);
 }
 
 .markdownCell code {
-    color: var(--primary-color, #f5e36d);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
     font-size: 0.92em;
 }
 
@@ -247,7 +248,7 @@
 }
 
 .markdownCell a {
-    color: var(--primary-color, #f5e36d);
+    color: var(--research-accent);
     text-underline-offset: 0.18em;
 }
 
@@ -263,7 +264,7 @@
     color: rgba(244, 240, 223, 0.68);
     background: rgba(245, 227, 109, 0.07);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.78rem;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -275,7 +276,7 @@
     padding: 1rem;
     color: #f7f4e8;
     background: #050505;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.86rem;
     line-height: 1.62;
     tab-size: 4;
@@ -300,7 +301,7 @@
     padding: 0.6rem 0.75rem;
     color: rgba(244, 240, 223, 0.74);
     background: rgba(0, 0, 0, 0.28);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.78rem;
     text-transform: uppercase;
 }
@@ -312,7 +313,7 @@
     margin: 0;
     padding: 0.85rem;
     color: rgba(244, 240, 223, 0.88);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.8rem;
     line-height: 1.55;
     white-space: pre-wrap;
@@ -374,9 +375,9 @@
 
 .evidenceTable th {
     width: 32%;
-    color: var(--primary-color, #f5e36d);
+    color: var(--research-accent);
     background: rgba(245, 227, 109, 0.075);
-    font-family: var(--font-family-title, inherit);
+    font-family: var(--research-font-title);
     letter-spacing: 0.035em;
     text-align: left;
     text-transform: uppercase;
@@ -397,7 +398,7 @@
 
 .comparisonTable thead th {
     color: #111;
-    background: var(--primary-color, #f5e36d);
+    background: var(--research-accent);
 }
 
 .comparisonTable code {
@@ -459,7 +460,7 @@
     .sidebarLink:hover,
     .sidebarLink:focus-visible {
         border-left-color: transparent;
-        border-bottom-color: var(--primary-color, #f5e36d);
+        border-bottom-color: var(--research-accent);
     }
 }
 

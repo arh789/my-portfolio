@@ -33,7 +33,7 @@ export const metadata = {
             "The recurring programme-design decisions made visible across 382 Dan John videos.",
         type: "article",
         publishedTime: "2026-10-13",
-        modifiedTime: "2026-10-13",
+        modifiedTime: "2026-10-14",
         authors: ["Andrew Hale"],
         url: "/art/dan-john-youtube-playlist-semantic-network-analysis",
     },
@@ -47,16 +47,36 @@ const stats = [
     ["5", "representative videos"],
 ];
 
+const sectionIds = Object.freeze({
+    question: "question",
+    findings: "findings",
+    interpretation: "interpretation",
+    watch: "watch",
+    explore: "explore",
+    code: "code",
+    method: "method",
+    artefacts: "artefacts",
+    limitations: "limitations",
+});
+
 const contents = [
-    ["Question", "#question"],
-    ["Core discovery", "#findings"],
-    ["Training structures", "#interpretation"],
-    ["Five videos", "#watch"],
-    ["Explore evidence", "#explore"],
-    ["Code", "#code"],
-    ["Method", "#method"],
-    ["Artefacts", "#artefacts"],
-    ["Limits", "#limitations"],
+    ["Question", sectionIds.question],
+    ["Core discovery", sectionIds.findings],
+    ["Training structures", sectionIds.interpretation],
+    ["Five videos", sectionIds.watch],
+    ["Explore evidence", sectionIds.explore],
+    ["Code", sectionIds.code],
+    ["Method", sectionIds.method],
+    ["Artefacts", sectionIds.artefacts],
+    ["Limits", sectionIds.limitations],
+];
+
+const studyRecord = [
+    ["Published data snapshot", "13 October 2026"],
+    ["Extraction record", "V1.1 source-linked object–relation JSON records produced directly from downloaded transcripts with Codex"],
+    ["Responsibilities", "Codex extracted candidate objects and relations; Python aggregated frequencies and pairs; human analysis defined the question, thresholds, interpretation and return to sources"],
+    ["Analysis cutoff", "Rank 115, including every label appearing in at least 15 transcripts"],
+    ["Primary network view", "Object pairs recurring in at least three videos"],
 ];
 
 const methodFlow = `Large unstructured corpus
@@ -544,7 +564,7 @@ const limitations = [
     "Singular and plural forms remain separate because their relational neighbourhoods differed.",
     "Relation wording and direction vary between records.",
     "Changing the pair-frequency threshold changes the visible network.",
-    "The model comparison was not like-for-like: the original rich-analysis records used Codex 5.6 Sol with extra-high reasoning, while the later tests used GPT-4.1 and GPT-4.1 mini.",
+    "The model comparison was not like-for-like: the production records were extracted directly with Codex, but the exact original model was not reliably recorded; later tests used GPT-4.1 and GPT-4.1 mini.",
     "Frequency measures recurrence, not whether a claim is correct or universally applicable.",
 ];
 
@@ -607,7 +627,7 @@ const structuredData = {
         "A reproducible semantic network analysis of 382 Dan John strength-coaching videos.",
     author: { "@type": "Person", name: "Andrew Hale" },
     datePublished: "2026-10-13",
-    dateModified: "2026-10-13",
+    dateModified: "2026-10-14",
     url: "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
     mainEntityOfPage:
         "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
@@ -679,7 +699,7 @@ export default async function DanJohnSemanticNetworkPage() {
                 <Link href="/art">Back to the archive graph</Link>
             </nav>
 
-            <header className={styles.hero} id="question">
+            <header className={styles.hero} id={sectionIds.question}>
                 <div className={styles.heroInner}>
                     <p className={styles.eyebrow}>Corpus study · semantic network analysis · <time dateTime="2026-10-13">13 October 2026</time></p>
                     <h1>I watched 382 Dan John Strength Coach YouTube videos so that you don&apos;t have to.</h1>
@@ -688,7 +708,7 @@ export default async function DanJohnSemanticNetworkPage() {
                     </p>
 
                     <div className={styles.heroFinding}>
-                        <span>What emerged</span>
+                        <span>Inference from recurring structure</span>
                         <p>Buried inside 382 videos is something sturdier than a pile of tips: a recurring set of decisions for turning movements into programmes.</p>
                     </div>
 
@@ -702,6 +722,8 @@ export default async function DanJohnSemanticNetworkPage() {
                             <p>To demonstrate a general method for discovering meaningful structure in a large, unstructured corpus.</p>
                         </div>
                     </div>
+
+                    <p className={`${styles.evidenceLabel} ${styles.evidenceObserved}`}>Observed · corpus totals</p>
 
                     <dl className={styles.stats}>
                         {stats.map(([value, label]) => (
@@ -723,8 +745,8 @@ export default async function DanJohnSemanticNetworkPage() {
                     <div className={styles.sidebarInner}>
                         <p>Case-study contents</p>
                         <nav>
-                            {contents.map(([label, href]) => (
-                                <a href={href} key={href}>{label}</a>
+                            {contents.map(([label, id]) => (
+                                <a href={`#${id}`} key={id}>{label}</a>
                             ))}
                         </nav>
                         <div className={styles.sidebarMeta}>
@@ -739,7 +761,7 @@ export default async function DanJohnSemanticNetworkPage() {
                 </aside>
 
                 <article className={styles.content}>
-                    <section className={styles.section} id="findings">
+                    <section className={styles.section} id={sectionIds.findings}>
                         <SectionHeading
                             eyebrow="01 / Core discovery"
                             title="Across 382 videos, the same programme-design grammar keeps reappearing"
@@ -825,6 +847,8 @@ export default async function DanJohnSemanticNetworkPage() {
                             </table>
                         </div>
 
+                        <p className={`${styles.evidenceLabel} ${styles.evidenceDerived}`}>Derived · repeated object-pair structure</p>
+
                         <div className={styles.networkLists}>
                             <article>
                                 <p className={styles.panelEyebrow}>Strongest structural hubs · connection score</p>
@@ -849,7 +873,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </p>
                     </section>
 
-                    <section className={styles.section} id="interpretation">
+                    <section className={styles.section} id={sectionIds.interpretation}>
                         <SectionHeading
                             eyebrow="02 / Training structures"
                             title="The relations show how exercises become programmes"
@@ -953,7 +977,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id="watch">
+                    <section className={styles.section} id={sectionIds.watch}>
                         <SectionHeading
                             eyebrow="03 / Minimum sufficient viewing"
                             title="The five videos you definitely should watch"
@@ -1005,7 +1029,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id="explore">
+                    <section className={styles.section} id={sectionIds.explore}>
                         <SectionHeading
                             eyebrow="04 / Interactive evidence"
                             title="Test the interpretation against the source-linked relation network"
@@ -1024,7 +1048,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         <DanJohnDashboard />
                     </section>
 
-                    <section className={styles.section} id="code">
+                    <section className={styles.section} id={sectionIds.code}>
                         <SectionHeading
                             eyebrow="05 / Code and reproducibility"
                             title="The operations that generated and exposed the results"
@@ -1039,7 +1063,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id="method">
+                    <section className={styles.section} id={sectionIds.method}>
                         <SectionHeading
                             eyebrow="06 / Methodological record"
                             title="How the unit of analysis changed across ten epochs"
@@ -1048,6 +1072,15 @@ export default async function DanJohnSemanticNetworkPage() {
                                 The discovery appears first on this page. This chronological record preserves the experiments, failures and corrections that made it possible—and shows how the project moved from maximum extraction towards minimum sufficient explanation.
                             </p>
                         </SectionHeading>
+
+                        <dl className={styles.studyRecord}>
+                            {studyRecord.map(([label, value]) => (
+                                <div key={label}>
+                                    <dt>{label}</dt>
+                                    <dd>{value}</dd>
+                                </div>
+                            ))}
+                        </dl>
 
                         <div className={styles.flowPanel}>
                             <div>
@@ -1096,10 +1129,10 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id="artefacts">
+                    <section className={styles.section} id={sectionIds.artefacts}>
                         <SectionHeading
                             eyebrow="07 / Research artefacts"
-                            title="Inspect the notebook and derived data"
+                            title="Inspect the notebook, corpus metadata and derived data"
                         >
                             <p>The page is an interface to the analysis, not a replacement for its working materials.</p>
                             <p>To reproduce the notebook, install the listed Python packages, keep the frequency CSV beside it, and extract the records archive so its <code>v1_1_objects_relations</code> directory is beside the notebook.</p>
@@ -1126,6 +1159,11 @@ export default async function DanJohnSemanticNetworkPage() {
                                 <strong>Download all 382 source-linked object–relation records</strong>
                                 <small>.zip · the per-video JSON input used by the notebook</small>
                             </a>
+                            <a download href="/downloads/dan-john-analysed-video-metadata.csv">
+                                <span>Corpus metadata</span>
+                                <strong>Download the analysed-video index</strong>
+                                <small>.csv · playlist position, official title, video ID and source URL for all 382 analysed videos</small>
+                            </a>
                             <a download href="/data/dan-john-object-frequencies.csv">
                                 <span>Frequency data</span>
                                 <strong>Download all 18,254 ranked object labels</strong>
@@ -1139,13 +1177,15 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id="limitations">
+                    <section className={styles.section} id={sectionIds.limitations}>
                         <SectionHeading
                             eyebrow="08 / Limits"
                             title="What the analysis does not establish"
                         >
                             <p>Recurrence directs attention. It does not convert extracted language into truth or remove the need to inspect sources.</p>
                         </SectionHeading>
+
+                        <p className={`${styles.evidenceLabel} ${styles.evidenceLimitation}`}>Limitation · interpretation remains source-dependent</p>
 
                         <ul className={styles.limitList}>
                             {limitations.map((limitation) => <li key={limitation}>{limitation}</li>)}
@@ -1158,9 +1198,9 @@ export default async function DanJohnSemanticNetworkPage() {
                                 It does not reduce the work to one prescription. It shows how objectives, movement roles, suitable variations, progressions, substitutions, dosage and recovery repeatedly combine—and identifies five videos covering every exercise structure used as the final coverage target.
                             </p>
                             <div>
-                                <a href="#explore">Explore the evidence</a>
-                                <a href="#watch">Watch the five videos</a>
-                                <a href="#question">Back to the question</a>
+                                <a href={`#${sectionIds.explore}`}>Explore the evidence</a>
+                                <a href={`#${sectionIds.watch}`}>Watch the five videos</a>
+                                <a href={`#${sectionIds.question}`}>Back to the question</a>
                             </div>
                         </div>
                     </section>

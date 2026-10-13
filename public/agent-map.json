@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-13T06:16:52.343Z",
+  "generatedAt": "2026-10-13T14:50:03.592Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -650,7 +650,7 @@
         "canonical": "https://decrepitfilth.art/art",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-10-13"
+        "lastModified": "2026-10-14"
       },
       "questionsAnswered": [
         "What has been published?",
@@ -4812,7 +4812,7 @@
         "key": "id",
         "value": "art"
       },
-      "lastModified": "2026-10-13",
+      "lastModified": "2026-10-14",
       "priority": 0.8
     },
     {
@@ -4838,7 +4838,7 @@
         "key": "slug",
         "value": "dan-john-youtube-playlist-semantic-network-analysis"
       },
-      "lastModified": "2026-10-13"
+      "lastModified": "2026-10-14"
     },
     {
       "path": "/art/building-an-agent-native-after-effects-workflow",
@@ -5438,7 +5438,7 @@
         "key": "slug",
         "value": "finding-hidden-structure-in-large-content-corpora"
       },
-      "lastModified": "2026-10-13"
+      "lastModified": "2026-10-14"
     }
   ]
 }

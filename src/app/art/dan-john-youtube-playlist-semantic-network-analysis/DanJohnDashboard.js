@@ -287,8 +287,10 @@ function RelationTable({ rows, videoById }) {
 }
 
 export default function DanJohnDashboard({ view = "both" }) {
+    const dashboardRef = useRef(null);
     const networkRef = useRef(null);
     const cyRef = useRef(null);
+    const [shouldLoad, setShouldLoad] = useState(false);
     const [data, setData] = useState(null);
     const [error, setError] = useState("");
     const [frequencyQuery, setFrequencyQuery] = useState("");
@@ -300,6 +302,40 @@ export default function DanJohnDashboard({ view = "both" }) {
     const [hoveredNode, setHoveredNode] = useState(null);
 
     useEffect(() => {
+        const activateFromHash = () => {
+            if (window.location.hash === "#explore" || window.location.hash === "#relation-network") {
+                setShouldLoad(true);
+            }
+        };
+
+        activateFromHash();
+        window.addEventListener("hashchange", activateFromHash);
+
+        const container = dashboardRef.current;
+        if (!container || shouldLoad || !("IntersectionObserver" in window)) {
+            return () => window.removeEventListener("hashchange", activateFromHash);
+        }
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setShouldLoad(true);
+                    observer.disconnect();
+                }
+            },
+            { rootMargin: "600px 0px" },
+        );
+        observer.observe(container);
+
+        return () => {
+            observer.disconnect();
+            window.removeEventListener("hashchange", activateFromHash);
+        };
+    }, [shouldLoad]);
+
+    useEffect(() => {
+        if (!shouldLoad) return undefined;
+
         const controller = new AbortController();
         fetch("/data/dan-john-network.json", { signal: controller.signal })
             .then((response) => {
@@ -311,7 +347,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                 if (fetchError.name !== "AbortError") setError(fetchError.message);
             });
         return () => controller.abort();
-    }, []);
+    }, [shouldLoad]);
 
     const nodeById = useMemo(
         () => new Map((data?.nodes || []).map((node) => [node.id, node])),
@@ -639,12 +675,23 @@ export default function DanJohnDashboard({ view = "both" }) {
         document.getElementById("relation-network")?.scrollIntoView({ behavior: "smooth", block: "start" });
     };
 
+    if (!shouldLoad) {
+        return (
+            <div className={styles.dashboardDeferred} ref={dashboardRef}>
+                <p className={styles.panelEyebrow}>Interactive evidence</p>
+                <h3>Load the full frequency table and relation network when you need them</h3>
+                <p>The large browser dataset is deferred until this section approaches the viewport. You can also load it now.</p>
+                <button onClick={() => setShouldLoad(true)} type="button">Load interactive evidence</button>
+            </div>
+        );
+    }
+
     if (error) {
-        return <div className={styles.dashboardError}>The dashboard data could not be loaded: {error}</div>;
+        return <div className={styles.dashboardError} role="alert">The dashboard data could not be loaded: {error}</div>;
     }
 
     if (!data) {
-        return <div className={styles.dashboardLoading}>Loading 18,254 objects and 11,018 object pairs…</div>;
+        return <div aria-busy="true" aria-live="polite" className={styles.dashboardLoading}>Loading 18,254 objects and 11,018 object pairs…</div>;
     }
 
     const selectedNode = selectedId ? nodeById.get(selectedId) : null;
@@ -691,7 +738,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                             value={frequencyQuery}
                         />
                     </label>
-                    <p>
+                    <p aria-live="polite">
                         {frequencyMatches.length} {frequencyQuery.trim() ? "matching" : "analysis-group"} rows shown.
                         {frequencyQuery.trim() ? " Search results are capped at 115." : " All objects through the rank-115 cutoff are included."}
                         {" "}Singular and plural labels remain separate.
@@ -725,13 +772,13 @@ export default function DanJohnDashboard({ view = "both" }) {
                 </div>
             </section> : null}
 
-            {showNetwork ? <section className={styles.dashboardPanel} id="relation-network">
+            {showNetwork ? <section aria-labelledby="relation-network-heading" className={styles.dashboardPanel} id="relation-network">
                 <div className={styles.panelHeader}>
                     <div>
                         <p className={styles.panelEyebrow}>Relation network</p>
-                        <h3>What connects to what?</h3>
+                        <h3 id="relation-network-heading">What connects to what?</h3>
                     </div>
-                    <p>
+                    <p aria-atomic="true" aria-live="polite">
                         {selectedNode
                             ? `${graphModel.nodes.length.toLocaleString()} visible objects · ${graphModel.edges.length.toLocaleString()} visible pairs`
                             : `${connectedObjectCount.toLocaleString()} connected objects + ${retainedAnalysisObjectCount.toLocaleString()} retained analysis objects · ${graphModel.edges.length.toLocaleString()} repeated pairs`}
@@ -842,7 +889,16 @@ export default function DanJohnDashboard({ view = "both" }) {
                     <span><i className={styles.directKey} />Direct relation</span>
                 </div>
 
-                <div className={styles.networkCanvas} ref={networkRef} />
+                <p className={styles.networkInstructions} id="relation-network-description">
+                    Use object search and the keyboard-accessible suggestions to select a node. The directed-relations table below exposes the same selected evidence without requiring graph interaction.
+                </p>
+                <div
+                    aria-describedby="relation-network-description"
+                    aria-label="Interactive object-relation network"
+                    className={styles.networkCanvas}
+                    ref={networkRef}
+                    role="img"
+                />
 
                 <div className={styles.relationOutput}>
                     <div className={styles.relationOutputHeading}>

@@ -19,6 +19,14 @@
     --muted-text-color: #c8c8c8;
     --accent-color: #ff0044;
     --border-color: rgba(245, 227, 109, 0.28);
+    /* Shared research-page system */
+    --research-accent: var(--primary-color);
+    --research-text: #f4f0df;
+    --research-panel: #0a0a0a;
+    --research-border: rgba(255, 255, 255, 0.13);
+    --research-font-title: var(--font-family-title);
+    --research-font-body: var(--font-family-body);
+    --research-font-label: var(--font-geist-mono, ui-monospace), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     /* Typography */
     --font-family-title: "DIN Condensed", "D-DIN Condensed", "Bahnschrift Condensed", "Arial Narrow", Arial, sans-serif;
     --font-family-body: "D-DIN", "DIN", "Bahnschrift", Arial, Helvetica, sans-serif;

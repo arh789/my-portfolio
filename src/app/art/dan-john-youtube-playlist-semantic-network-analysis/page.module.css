@@ -1,6 +1,7 @@
 .page {
     min-height: 100vh;
-    color: #f4f0df;
+    font-family: var(--research-font-body);
+    color: var(--research-text);
     background:
         radial-gradient(circle at 12% 5%, rgba(245, 227, 109, 0.1), transparent 27rem),
         radial-gradient(circle at 88% 15%, rgba(102, 217, 180, 0.06), transparent 25rem),
@@ -23,8 +24,8 @@
 }
 
 .articleNav a {
-    color: #f5e36d;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.06em;
@@ -67,8 +68,8 @@
 .sidebarInner > p,
 .sidebarMeta span {
     margin: 0;
-    color: #f5e36d;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.13em;
@@ -80,7 +81,7 @@
     max-width: 66rem;
     margin: 1.2rem 0 1.1rem;
     color: #fffdf4;
-    font-family: var(--font-family-title, var(--font-geist-sans, sans-serif));
+    font-family: var(--research-font-title);
     font-size: clamp(3rem, 7vw, 7.5rem);
     font-weight: 800;
     letter-spacing: -0.065em;
@@ -110,7 +111,7 @@
 .heroFinding span {
     padding-top: 0.16rem;
     color: #66d9b4;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.66rem;
     font-weight: 800;
     letter-spacing: 0.1em;
@@ -163,8 +164,8 @@
 }
 
 .stats dt {
-    color: #f5e36d;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
     font-size: clamp(1.45rem, 3vw, 2.6rem);
     font-weight: 800;
     line-height: 1;
@@ -220,9 +221,9 @@
 
 .sidebar nav a:hover,
 .sidebar nav a:focus-visible {
-    color: #f5e36d;
+    color: var(--research-accent);
     background: rgba(245, 227, 109, 0.07);
-    border-left-color: #f5e36d;
+    border-left-color: var(--research-accent);
     outline: none;
 }
 
@@ -242,7 +243,7 @@
 
 .sidebarMeta strong {
     color: rgba(244, 240, 223, 0.84);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.72rem;
 }
 
@@ -274,7 +275,7 @@
 .sectionHeading h2 {
     margin: 0;
     color: #fffdf4;
-    font-family: var(--font-family-title, var(--font-geist-sans, sans-serif));
+    font-family: var(--research-font-title);
     font-size: clamp(2rem, 5vw, 4.8rem);
     font-weight: 760;
     letter-spacing: -0.05em;
@@ -297,13 +298,13 @@
     max-width: 68rem;
     margin: 0 0 1.25rem;
     padding: clamp(1.4rem, 3vw, 2.4rem);
-    background: #f5e36d;
+    background: var(--research-accent);
     border: 0;
     color: #101010;
 }
 
 .primaryFinding span {
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.72rem;
     font-weight: 800;
     letter-spacing: 0.12em;
@@ -313,7 +314,7 @@
 .primaryFinding p {
     max-width: 58rem;
     margin: 0.65rem 0 0;
-    font-family: var(--font-family-title, var(--font-geist-sans, sans-serif));
+    font-family: var(--research-font-title);
     font-size: clamp(1.65rem, 4vw, 3.5rem);
     font-weight: 800;
     letter-spacing: -0.045em;
@@ -337,7 +338,7 @@
 .answerGrid article,
 .networkEvidence article {
     padding: clamp(1rem, 2.2vw, 1.6rem);
-    background: #0a0a0a;
+    background: var(--research-panel);
 }
 
 .answerGrid h3,
@@ -370,7 +371,7 @@
     max-width: 52rem;
     margin: 0.7rem 0 0;
     color: #fffdf4;
-    font-family: var(--font-family-title, var(--font-geist-sans, sans-serif));
+    font-family: var(--research-font-title);
     font-size: clamp(1.8rem, 4vw, 3.8rem);
     letter-spacing: -0.045em;
     line-height: 1;
@@ -443,7 +444,7 @@
 }
 
 .principleQuote span {
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.68rem;
     font-weight: 800;
     letter-spacing: 0.11em;
@@ -453,7 +454,7 @@
 .principleQuote p {
     max-width: 64rem;
     margin: 0.65rem 0 0;
-    font-family: var(--font-family-title, var(--font-geist-sans, sans-serif));
+    font-family: var(--research-font-title);
     font-size: clamp(1.4rem, 3.4vw, 2.9rem);
     font-weight: 800;
     letter-spacing: -0.04em;
@@ -471,12 +472,12 @@
 
 .evidenceStats div {
     padding: 1rem;
-    background: #0a0a0a;
+    background: var(--research-panel);
 }
 
 .evidenceStats dt {
-    color: #f5e36d;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
     font-size: clamp(1.45rem, 3vw, 2.4rem);
     font-weight: 800;
     line-height: 1;
@@ -493,7 +494,7 @@
     max-width: 100%;
     overflow-x: auto;
     background: #090909;
-    border: 1px solid rgba(255, 255, 255, 0.13);
+    border: 1px solid var(--research-border);
 }
 
 .evidenceTable {
@@ -514,9 +515,9 @@
 }
 
 .evidenceTable thead th {
-    color: #f5e36d;
+    color: var(--research-accent);
     background: #111;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.66rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -539,7 +540,7 @@
 
 .networkLists article {
     padding: clamp(1rem, 2.5vw, 1.7rem);
-    background: #0a0a0a;
+    background: var(--research-panel);
 }
 
 .networkLists h3 {
@@ -570,7 +571,7 @@
 .networkLists dd {
     margin: 0;
     color: #66d9b4;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-weight: 800;
 }
 
@@ -606,7 +607,7 @@
     color: #dff9ef;
     background: #070d0b;
     border-left: 3px solid #66d9b4;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: clamp(0.76rem, 1.25vw, 0.92rem);
     line-height: 1.52;
     white-space: pre;
@@ -614,7 +615,7 @@
 
 .videoCard {
     min-width: 0;
-    background: #0a0a0a;
+    background: var(--research-panel);
     border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -667,7 +668,7 @@
 .videoBody a {
     display: inline-block;
     margin-top: 1rem;
-    color: #f5e36d;
+    color: var(--research-accent);
     font-size: 0.85rem;
     font-weight: 750;
     text-underline-offset: 0.22em;
@@ -710,7 +711,7 @@
 .coverageRows .coverageHead {
     color: rgba(244, 240, 223, 0.45);
     background: rgba(255, 255, 255, 0.04);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.68rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -718,7 +719,7 @@
 
 .coverageRows .coverageWinner {
     color: #101010;
-    background: #f5e36d;
+    background: var(--research-accent);
     font-weight: 800;
 }
 
@@ -731,12 +732,12 @@
     display: grid;
     gap: 0.45rem;
     padding: 0.9rem 1rem;
-    background: #0a0a0a;
+    background: var(--research-panel);
 }
 
 .layerLegend span {
-    color: #f5e36d;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
     font-size: 0.66rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -759,7 +760,7 @@
     position: relative;
     min-height: 14rem;
     padding: clamp(1rem, 2.5vw, 1.75rem);
-    background: #0a0a0a;
+    background: var(--research-panel);
 }
 
 .structureGrid article:first-child {
@@ -768,7 +769,7 @@
 
 .structureGrid article > span {
     color: rgba(245, 227, 109, 0.55);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.72rem;
 }
 
@@ -784,7 +785,7 @@
     display: block;
     margin-top: 0.7rem;
     color: #66d9b4;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.68rem;
     letter-spacing: 0.07em;
     line-height: 1.4;
@@ -805,7 +806,7 @@
     margin-top: 1rem;
     padding: clamp(1.25rem, 3vw, 2.25rem);
     color: #101010;
-    background: #f5e36d;
+    background: var(--research-accent);
 }
 
 .grammarCard .panelEyebrow,
@@ -834,7 +835,7 @@
 
 .grammarCard li span {
     color: rgba(0, 0, 0, 0.52);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.7rem;
 }
 
@@ -858,7 +859,7 @@
 .exerciseGroups article {
     min-width: 0;
     padding: clamp(1rem, 2.5vw, 1.7rem);
-    background: #0a0a0a;
+    background: var(--research-panel);
 }
 
 .exerciseGroups .exerciseGroupFeatured {
@@ -870,7 +871,7 @@
 
 .exerciseGroups article > div > span {
     color: rgba(245, 227, 109, 0.55);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.72rem;
 }
 
@@ -884,8 +885,8 @@
 .exerciseRelationType {
     display: block;
     margin-top: 0.65rem;
-    color: #f5e36d;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
     font-size: 0.72rem;
     font-weight: 600;
     letter-spacing: 0.035em;
@@ -907,7 +908,7 @@
     color: #dff9ef;
     background: #070d0b;
     border-left: 3px solid #66d9b4;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: clamp(0.7rem, 1.15vw, 0.88rem);
     line-height: 1.55;
     white-space: pre;
@@ -976,7 +977,7 @@
     color: #dff9ef;
     background: rgba(102, 217, 180, 0.07);
     border: 1px solid rgba(102, 217, 180, 0.27);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.68rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -989,7 +990,7 @@
     margin-top: clamp(3rem, 6vw, 5rem);
     padding: clamp(1.2rem, 3vw, 2rem);
     color: #101010;
-    background: #f5e36d;
+    background: var(--research-accent);
 }
 
 .linguisticFinding .panelEyebrow,
@@ -1026,7 +1027,7 @@
 
 .linguisticFinding dd {
     margin: 0;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-weight: 800;
 }
 
@@ -1079,7 +1080,7 @@
     color: #dff9ef;
     background: #070d0b;
     border-left: 3px solid #66d9b4;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: clamp(0.68rem, 1.1vw, 0.86rem);
     line-height: 1.5;
     white-space: pre;
@@ -1095,12 +1096,12 @@
 
 .eraGrid article {
     padding: clamp(1rem, 2.4vw, 1.6rem);
-    background: #0a0a0a;
+    background: var(--research-panel);
 }
 
 .eraGrid article > span {
     color: rgba(245, 227, 109, 0.55);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.7rem;
 }
 
@@ -1125,7 +1126,7 @@
     min-width: 0;
     overflow: hidden;
     background: #080808;
-    border: 1px solid rgba(255, 255, 255, 0.13);
+    border: 1px solid var(--research-border);
 }
 
 .codeStage header {
@@ -1148,8 +1149,8 @@
     flex: 0 0 auto;
     padding: 0.3rem 0.45rem;
     color: rgba(244, 240, 223, 0.65);
-    border: 1px solid rgba(255, 255, 255, 0.13);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    border: 1px solid var(--research-border);
+    font-family: var(--research-font-label);
     font-size: 0.65rem;
     text-transform: uppercase;
 }
@@ -1161,7 +1162,7 @@
     padding: clamp(0.9rem, 2vw, 1.25rem);
     color: #e8f5ed;
     background: #030504;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: clamp(0.72rem, 1.1vw, 0.84rem);
     line-height: 1.62;
     tab-size: 4;
@@ -1179,7 +1180,7 @@
 
 .codeStage footer span {
     color: #66d9b4;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.65rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1220,23 +1221,23 @@
     height: 2.7rem;
     place-items: center;
     color: #101010;
-    background: #f5e36d;
+    background: var(--research-accent);
     border-radius: 50%;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.72rem;
     font-weight: 850;
 }
 
 .epochs article > div {
     padding: 1rem 1.1rem;
-    background: #0a0a0a;
+    background: var(--research-panel);
     border: 1px solid rgba(255, 255, 255, 0.11);
 }
 
 .epochs article > div > p:first-child {
     margin: 0;
-    color: #f5e36d;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
     font-size: 0.68rem;
     font-weight: 750;
     letter-spacing: 0.09em;
@@ -1266,14 +1267,14 @@
     gap: 0.7rem;
     min-height: 11rem;
     padding: clamp(1rem, 2.5vw, 1.6rem);
-    background: #0a0a0a;
+    background: var(--research-panel);
     text-decoration: none;
 }
 
 .artifactGrid a:hover,
 .artifactGrid a:focus-visible {
     background: rgba(245, 227, 109, 0.08);
-    outline: 1px solid #f5e36d;
+    outline: 1px solid var(--research-accent);
     outline-offset: -1px;
 }
 
@@ -1286,7 +1287,7 @@
 .artifactGrid small {
     align-self: end;
     color: rgba(244, 240, 223, 0.53);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.72rem;
     line-height: 1.45;
 }
@@ -1305,7 +1306,7 @@
     position: relative;
     padding: 1rem 1rem 1rem 2.4rem;
     color: rgba(244, 240, 223, 0.7);
-    background: #0a0a0a;
+    background: var(--research-panel);
     line-height: 1.5;
 }
 
@@ -1322,7 +1323,7 @@
     margin-top: 1rem;
     padding: clamp(1.3rem, 4vw, 3rem);
     color: #101010;
-    background: #f5e36d;
+    background: var(--research-accent);
 }
 
 .returnPanel .panelEyebrow,
@@ -1334,7 +1335,7 @@
 .returnPanel h2 {
     max-width: 64rem;
     margin: 0.8rem 0 0;
-    font-family: var(--font-family-title, var(--font-geist-sans, sans-serif));
+    font-family: var(--research-font-title);
     font-size: clamp(1.8rem, 4vw, 3.7rem);
     letter-spacing: -0.045em;
     line-height: 1;
@@ -1364,7 +1365,7 @@
 
 .returnPanel a:hover,
 .returnPanel a:focus-visible {
-    color: #f5e36d;
+    color: var(--research-accent);
     background: #101010;
     outline: none;
 }
@@ -1379,7 +1380,7 @@
 .dashboardLoading,
 .dashboardError {
     padding: 1rem;
-    background: #0a0a0a;
+    background: var(--research-panel);
     border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -1392,7 +1393,7 @@
     min-width: 0;
     overflow: hidden;
     background: #090909;
-    border: 1px solid rgba(255, 255, 255, 0.13);
+    border: 1px solid var(--research-border);
 }
 
 .panelHeader {
@@ -1414,7 +1415,7 @@
 .panelHeader > p {
     margin: 0;
     color: rgba(244, 240, 223, 0.52);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.7rem;
     text-align: right;
 }
@@ -1458,8 +1459,8 @@
 .frequencyTable button:focus-visible,
 .activeControl {
     color: #101010 !important;
-    background: #f5e36d !important;
-    border-color: #f5e36d !important;
+    background: var(--research-accent) !important;
+    border-color: var(--research-accent) !important;
     outline: none;
 }
 
@@ -1493,7 +1494,7 @@
 }
 
 .chartReadout strong {
-    color: #f5e36d;
+    color: var(--research-accent);
 }
 
 .frequencyFinder,
@@ -1509,7 +1510,7 @@
     display: grid;
     gap: 0.4rem;
     color: rgba(244, 240, 223, 0.62);
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.68rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -1533,7 +1534,7 @@
 .frequencyFinder input:focus,
 .searchControl input:focus,
 .filterControls select:focus {
-    border-color: #f5e36d;
+    border-color: var(--research-accent);
     outline: none;
 }
 
@@ -1587,7 +1588,7 @@
     z-index: 2;
     color: rgba(244, 240, 223, 0.58);
     background: #111;
-    font-family: var(--font-geist-mono, ui-monospace), ui-monospace, monospace;
+    font-family: var(--research-font-label);
     font-size: 0.65rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -1666,7 +1667,7 @@
 
 .filterControls input[type="range"] {
     width: 100%;
-    accent-color: #f5e36d;
+    accent-color: var(--research-accent);
 }
 
 .resetButton {
@@ -1691,7 +1692,7 @@
 
 .networkSummary strong,
 .hoverReadout strong {
-    color: #f5e36d;
+    color: var(--research-accent);
 }
 
 .hoverReadout {
@@ -1770,7 +1771,7 @@
 }
 
 .relationTable tbody th[scope="rowgroup"] {
-    color: #f5e36d;
+    color: var(--research-accent);
     background: rgba(245, 227, 109, 0.035);
     font-weight: 750;
 }
@@ -1799,7 +1800,7 @@
 }
 
 .videoDetails a {
-    color: #f5e36d;
+    color: var(--research-accent);
 }
 
 .emptyState {
@@ -1851,7 +1852,7 @@
     .sidebar nav a:hover,
     .sidebar nav a:focus-visible {
         border-left-color: transparent;
-        border-bottom-color: #f5e36d;
+        border-bottom-color: var(--research-accent);
     }
 }
 
@@ -2029,6 +2030,136 @@
     .epochs article > span {
         width: 2.35rem;
         height: 2.35rem;
+    }
+}
+
+.evidenceLabel {
+    width: max-content;
+    max-width: 100%;
+    margin: 1.25rem 0 0.8rem;
+    padding: 0.35rem 0.55rem;
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid currentColor;
+    font-family: var(--research-font-label);
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 1.35;
+    text-transform: uppercase;
+}
+
+.evidenceObserved {
+    color: #66d9b4;
+}
+
+.evidenceDerived {
+    color: var(--research-accent);
+}
+
+.evidenceLimitation {
+    color: #ff9aaa;
+}
+
+.studyRecord {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    margin: 0 0 clamp(1.5rem, 4vw, 3rem);
+    padding: 1px;
+    background: var(--research-border);
+}
+
+.studyRecord > div {
+    min-width: 0;
+    padding: clamp(1rem, 2vw, 1.4rem);
+    background: var(--research-panel);
+}
+
+.studyRecord > div:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+}
+
+.studyRecord dt {
+    color: var(--research-accent);
+    font-family: var(--research-font-label);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.studyRecord dd {
+    margin: 0.55rem 0 0;
+    color: rgba(244, 240, 223, 0.76);
+    line-height: 1.55;
+}
+
+.dashboardDeferred {
+    display: grid;
+    justify-items: start;
+    gap: 0.8rem;
+    min-height: 15rem;
+    padding: clamp(1.2rem, 3vw, 2rem);
+    align-content: center;
+    background: var(--research-panel);
+    border: 1px solid var(--research-border);
+}
+
+.dashboardDeferred h3,
+.dashboardDeferred p {
+    max-width: 52rem;
+    margin: 0;
+}
+
+.dashboardDeferred h3 {
+    color: #fffdf4;
+    font-family: var(--research-font-title);
+    font-size: clamp(1.45rem, 3vw, 2.4rem);
+    line-height: 1.05;
+}
+
+.dashboardDeferred > p:not(.panelEyebrow) {
+    color: rgba(244, 240, 223, 0.7);
+    line-height: 1.55;
+}
+
+.dashboardDeferred button {
+    padding: 0.7rem 0.9rem;
+    color: #111;
+    background: var(--research-accent);
+    border: 1px solid var(--research-accent);
+    font-family: var(--research-font-label);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.dashboardDeferred button:hover,
+.dashboardDeferred button:focus-visible {
+    color: var(--research-accent);
+    background: #111;
+    outline: none;
+}
+
+.networkInstructions {
+    margin: 0;
+    padding: 0.85rem 1rem;
+    color: rgba(244, 240, 223, 0.68);
+    background: rgba(255, 255, 255, 0.025);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+    .studyRecord {
+        grid-template-columns: 1fr;
+    }
+
+    .studyRecord > div:last-child:nth-child(odd) {
+        grid-column: auto;
     }
 }
 
