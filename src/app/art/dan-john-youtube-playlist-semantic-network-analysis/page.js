@@ -889,24 +889,33 @@ export default async function DanJohnSemanticNetworkPage() {
                             ))}
                         </dl>
 
-                        <div className={styles.subsectionHeading}>
-                            <p className={styles.panelEyebrow}>Five groups at pair frequency ≥3</p>
-                            <h3>Repeated exercise pairs form recognisable training systems</h3>
-                            <p>The largest group contains a squat progression, a swing-teaching progression and a complete workout composition. Four smaller groups preserve pressing, clean, get-up and carry relationships.</p>
-                        </div>
+                        <div className={styles.coreSystemsFinding}>
+                            <div className={styles.coreSystemsHeader}>
+                                <div>
+                                    <p className={styles.panelEyebrow}>Derived core finding</p>
+                                    <h3>Repeated exercise pairs form recognisable training systems</h3>
+                                    <p>The largest group contains a squat progression, a swing-teaching progression and a complete workout composition. Four smaller groups preserve pressing, clean, get-up and carry relationships.</p>
+                                </div>
+                                <dl className={styles.coreSystemsMetrics}>
+                                    <div><dt>5</dt><dd>relation groups</dd></div>
+                                    <div><dt>22</dt><dd>repeated pairs</dd></div>
+                                    <div><dt>≥3</dt><dd>source videos</dd></div>
+                                </dl>
+                            </div>
 
-                        <div className={styles.exerciseGroups}>
-                            {exerciseGroups.map((group, index) => (
-                                <article className={index === 0 ? styles.exerciseGroupFeatured : ""} key={group.name}>
-                                    <div>
-                                        <span>{String(index + 1).padStart(2, "0")}</span>
-                                        <h3>{group.name}</h3>
-                                        <strong className={styles.exerciseRelationType}>{group.relationType}</strong>
-                                        <p>{group.description}</p>
-                                    </div>
-                                    <pre>{group.diagram}</pre>
-                                </article>
-                            ))}
+                            <div className={styles.exerciseGroups}>
+                                {exerciseGroups.map((group, index) => (
+                                    <article className={index === 0 ? styles.exerciseGroupFeatured : ""} key={group.name}>
+                                        <div>
+                                            <span>{String(index + 1).padStart(2, "0")}</span>
+                                            <h3>{group.name}</h3>
+                                            <strong className={styles.exerciseRelationType}>{group.relationType}</strong>
+                                            <p>{group.description}</p>
+                                        </div>
+                                        <pre>{group.diagram}</pre>
+                                    </article>
+                                ))}
+                            </div>
                         </div>
 
                         <div className={styles.frequencyTwoBlock}>
