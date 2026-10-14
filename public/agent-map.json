@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-13T21:36:02.937Z",
+  "generatedAt": "2026-10-14T00:36:38.288Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -57,7 +57,7 @@
     "projects": 6,
     "indexedUrls": 61,
     "siteGraphNodes": 61,
-    "siteGraphEdges": 155,
+    "siteGraphEdges": 158,
     "semanticHubs": 9,
     "projectHubs": 6
   },
@@ -1558,6 +1558,21 @@
       "source": "/workflow-structure-breakdown",
       "target": "/art/research-pipeline",
       "type": "compressed-by"
+    },
+    {
+      "source": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+      "target": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+      "type": "demonstrated-by"
+    },
+    {
+      "source": "/art/research-pipeline",
+      "target": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+      "type": "adapted-by"
+    },
+    {
+      "source": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+      "target": "/art/tiktok-video-analysis-with-python",
+      "type": "parallel-case-study-with"
     },
     {
       "source": "/semantic-seo-lab",
@@ -3971,6 +3986,21 @@
         "source": "/workflow-structure-breakdown",
         "target": "/art/research-pipeline",
         "type": "compressed-by"
+      },
+      {
+        "source": "/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
+        "target": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "type": "demonstrated-by"
+      },
+      {
+        "source": "/art/research-pipeline",
+        "target": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "type": "adapted-by"
+      },
+      {
+        "source": "/art/dan-john-youtube-playlist-semantic-network-analysis",
+        "target": "/art/tiktok-video-analysis-with-python",
+        "type": "parallel-case-study-with"
       },
       {
         "source": "/semantic-seo-lab",

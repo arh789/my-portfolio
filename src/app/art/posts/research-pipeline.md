@@ -329,3 +329,5 @@ The final purpose is:
 
 Probe → Filter → Structure → Interpret → Stress-test → Select
 
+The [Dan John playlist analysis](/art/dan-john-youtube-playlist-semantic-network-analysis) adapts the same progression—from observable records through statistical and relational structure to supervised interpretation—to a bounded corpus of 382 transcripts.
+

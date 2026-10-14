@@ -863,6 +863,8 @@ It is adjacent to the [Semantic SEO Lab](/semantic-seo-lab), where code, graph a
 
 The medium changes from search-result pages to TikTok videos, but the structural move remains recognisable: collect an external visibility surface, reduce it into structured records, then pass those records into supervised analysis.
 
+The [Dan John playlist analysis](/art/dan-john-youtube-playlist-semantic-network-analysis) provides a complementary case: it begins with an already bounded video corpus and carries the analysis through source-linked object–relation records, a semantic network and a return to individual videos.
+
 ## Conclusion
 
 The pipeline exists because trends are not only things to copy. They are structures that can be decomposed.

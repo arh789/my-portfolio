@@ -716,7 +716,13 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                         <div>
                             <span>Purpose</span>
-                            <p>To demonstrate a general method for discovering meaningful structure in a large, unstructured corpus.</p>
+                            <p>
+                                To demonstrate a general method for{" "}
+                                <Link href="/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content">
+                                    discovering meaningful structure
+                                </Link>{" "}
+                                in a large, unstructured corpus.
+                            </p>
                         </div>
                     </div>
 
@@ -1051,7 +1057,8 @@ export default async function DanJohnSemanticNetworkPage() {
                             title="The operations that generated and exposed the results"
                         >
                             <p>
-                                Each stage keeps the operation, executable code and observed output together. The snippets come from the working Jupyter notebook and the browser explorer used on this page.
+                                Each stage keeps the operation, executable code and observed output together. The snippets come from the working Jupyter notebook and the browser explorer used on this page.{" "}
+                                The <Link href="/art/python-nlp-semantic-seo">Python for NLP and Semantic SEO reference</Link> provides the broader implementation context for these operations.
                             </p>
                         </SectionHeading>
 
@@ -1066,7 +1073,8 @@ export default async function DanJohnSemanticNetworkPage() {
                             title="How the unit of analysis changed across ten epochs"
                         >
                             <p>
-                                The discovery appears first on this page. This chronological record preserves the experiments, failures and corrections that made it possible—and shows how the project moved from maximum extraction towards minimum sufficient explanation.
+                                The discovery appears first on this page. This chronological record preserves the experiments, failures and corrections that made it possible—and shows how the project moved from maximum extraction towards minimum sufficient explanation.{" "}
+                                It extends the site&apos;s <Link href="/art/research-pipeline">research pipeline</Link> into a bounded transcript corpus.
                             </p>
                         </SectionHeading>
 
@@ -1078,6 +1086,11 @@ export default async function DanJohnSemanticNetworkPage() {
                                 </div>
                             ))}
                         </dl>
+
+                        <p>
+                            The separation of automated extraction, computation and human interpretation follows the{" "}
+                            <Link href="/semantic-seo-lab">human-supervised research approach documented in the Semantic SEO Lab</Link>.
+                        </p>
 
                         <div className={styles.flowPanel}>
                             <div>
@@ -1096,6 +1109,10 @@ export default async function DanJohnSemanticNetworkPage() {
                             </div>
                             <pre>{analysisProgression}</pre>
                         </div>
+
+                        <p>
+                            The <Link href="/art/tiktok-video-analysis-with-python">CreepyTok analysis</Link> provides a parallel case: it prepares a TikTok corpus for supervised interpretation, while this study continues through corpus-wide relational analysis and return to individual sources.
+                        </p>
 
                         <div className={styles.epochs}>
                             {epochs.map((epoch) => (

@@ -759,6 +759,21 @@ export const AGENT_RELATIONS = [
     to: "/art/research-pipeline",
   },
   {
+    from: "hidden-structure",
+    type: "demonstrated-by",
+    to: "/art/dan-john-youtube-playlist-semantic-network-analysis",
+  },
+  {
+    from: "/art/research-pipeline",
+    type: "adapted-by",
+    to: "/art/dan-john-youtube-playlist-semantic-network-analysis",
+  },
+  {
+    from: "/art/dan-john-youtube-playlist-semantic-network-analysis",
+    type: "parallel-case-study-with",
+    to: "/art/tiktok-video-analysis-with-python",
+  },
+  {
     from: "semantic-seo-lab",
     type: "tests",
     to: "/art/semantic-seo-is-graph-positioning",
