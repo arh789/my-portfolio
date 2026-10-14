@@ -8,3 +8,7 @@ notebooks/.ipynb_checkpoints/
 .gitignore.save
 *.patch
 references/
+
+# Windows download-security metadata accidentally exposed as files through WSL
+*:Zone.Identifier
+*:mshield

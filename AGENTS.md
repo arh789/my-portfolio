@@ -2,6 +2,17 @@
 
 These rules apply to work in `/root/my-portfolio`.
 
+## Project conventions
+
+- This is a Next.js App Router portfolio, art and research site.
+- Prefer the smallest working patch. Do not perform broad rewrites unless explicitly asked.
+- Preserve routes, slugs, filenames, visual design and article structure unless the task requires a change.
+- Use British English in user-facing prose.
+- Do not introduce new frameworks, packages or tooling without approval.
+- Markdown article content lives under `src/app/art/posts`.
+- Be careful with raw HTML in Markdown because Markdown is rendered with `sanitize: false` / `dangerouslySetInnerHTML`.
+- After edits, summarise changed files, commands run and verification results.
+
 ## Environment and commands
 
 - Treat `/root/my-portfolio` as the canonical repository path. Prefer commands executed inside WSL over operations against the Windows UNC path.
