@@ -69,6 +69,44 @@ const PART_C_HEADINGS = [
     },
 ];
 
+const PART_D_HEADINGS = [
+    {
+        level: 2,
+        text: "Part D - Structural Intervention and Page-One Consolidation",
+        slug: "part-d-structural-intervention-and-page-one-consolidation",
+    },
+    {
+        level: 2,
+        text: "Part D.1 - Intervention chronology",
+        slug: "part-d-1-intervention-chronology",
+    },
+    {
+        level: 2,
+        text: "Site visibility before and after structural changes",
+        slug: "part-d-site-visibility",
+    },
+    {
+        level: 2,
+        text: "Part D.2 - Exposure and ranking response",
+        slug: "part-d-2-exposure-and-ranking-response",
+    },
+    {
+        level: 2,
+        text: "Part D.3 - Page-One query differentiation",
+        slug: "part-d-3-page-one-query-differentiation",
+    },
+    {
+        level: 2,
+        text: "Part D.4 - Evidence boundaries",
+        slug: "part-d-4-evidence-boundaries",
+    },
+    {
+        level: 2,
+        text: "Part D.5 - Methodological conclusion",
+        slug: "part-d-5-methodological-conclusion",
+    },
+];
+
 const ANALYTICS_EVIDENCE_SUMMARY = [
     {
         field: "Data window",
@@ -197,6 +235,107 @@ const PART_C2_QUERY_ROWS = [
         query: "semantic seo python",
         reference: "4 impressions; position 79.0",
         lab: "98 impressions; position 20.5",
+    },
+];
+
+const PART_D_TIMELINE_ROWS = [
+    {
+        date: "25 July 2026",
+        change: "Initial Semantic SEO Lab and supporting notebook committed",
+        role: "Research implementation",
+    },
+    {
+        date: "28 July 2026",
+        change: "Lab made publication-ready and connected to site navigation and discovery",
+        role: "Publication point",
+    },
+    {
+        date: "21 August 2026",
+        change: "Part C added",
+        role: "First recorded search-outcome analysis",
+    },
+    {
+        date: "4 September 2026",
+        change: "Part C.2 added",
+        role: "Query-page differentiation documented",
+    },
+    {
+        date: "7 September 2026",
+        change: "Agent-navigation prompt added to the homepage",
+        role: "Beginning of structural rollout",
+    },
+    {
+        date: "8-9 September 2026",
+        change: "Agent prompt and discovery instructions refined",
+        role: "Transition period",
+    },
+    {
+        date: "10-11 September 2026",
+        change: "Sitemap, page graph and agent map unified; complete site representation and HTML fallback added",
+        role: "Main structural intervention",
+    },
+];
+
+const PART_D_PHASE_ROWS = [
+    {
+        period: "22 days before Lab publication",
+        impressions: "208",
+        position: "23.24",
+        pageOneImpressions: "12",
+    },
+    {
+        period: "22 days after 28 July",
+        impressions: "307",
+        position: "18.28",
+        pageOneImpressions: "0",
+    },
+    {
+        period: "14 days before Part C",
+        impressions: "188",
+        position: "21.48",
+        pageOneImpressions: "0",
+    },
+    {
+        period: "14 days after Part C",
+        impressions: "384",
+        position: "25.03",
+        pageOneImpressions: "1",
+    },
+    {
+        period: "14 days before agent-navigation rollout",
+        impressions: "411",
+        position: "21.71",
+        pageOneImpressions: "1",
+    },
+    {
+        period: "12-25 September",
+        impressions: "208",
+        position: "14.58",
+        pageOneImpressions: "21",
+    },
+    {
+        period: "26 September-9 October",
+        impressions: "332",
+        position: "13.10",
+        pageOneImpressions: "39",
+    },
+];
+
+const PART_D_QUERY_ROWS = [
+    {
+        page: "/semantic-seo-lab",
+        query: "semantic seo python",
+        evidence: "22 impressions across two Page 1 days; weighted position 9.8",
+    },
+    {
+        page: "/art/python-nlp-semantic-seo",
+        query: "how to use python for nlp and semantic seo",
+        evidence: "17 impressions across five Page 1 days; weighted position 9.5",
+    },
+    {
+        page: "/code",
+        query: "keyword clustering python",
+        evidence: "9 impressions across four Page 1 days; weighted position 8.7",
     },
 ];
 
@@ -641,9 +780,295 @@ function PartCAnalyticsSnapshot() {
     );
 }
 
+function PartDStructuralIntervention() {
+    return (
+        <>
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="part-d-structural-intervention-and-page-one-consolidation"
+            >
+                <h2>
+                    Part D - Structural Intervention and Page-One Consolidation
+                </h2>
+                <p>
+                    Part C established that publication of the Semantic SEO Lab
+                    was followed by increased visibility and a clearer separation
+                    between conceptual and procedural search intent. Part D asks
+                    a narrower question:
+                </p>
+                <blockquote>
+                    Did the later search-architecture and agent-navigation changes
+                    coincide with the site progressing from broad search exposure
+                    to repeatable Page 1 query-page relationships?
+                </blockquote>
+                <p>
+                    This is an observational comparison, not a controlled
+                    experiment. Several changes occurred close together, the site
+                    was already developing before the structural rollout, and
+                    Google Search Console does not expose Google&apos;s internal
+                    retrieval or ranking processes.
+                </p>
+                <p>
+                    The analysis therefore distinguishes changes recorded in the
+                    repository, changes observed in Search Console, interpretations
+                    supported by their timing, and causal claims that the available
+                    evidence cannot establish.
+                </p>
+            </section>
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="part-d-1-intervention-chronology"
+            >
+                <h2>Part D.1 - Intervention chronology</h2>
+                <p>The repository history provides the following sequence.</p>
+                <table
+                    className={`${styles.evidenceTable} ${styles.comparisonTable}`}
+                >
+                    <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Site change</th>
+                            <th scope="col">Analytical role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {PART_D_TIMELINE_ROWS.map((row) => (
+                            <tr key={row.date}>
+                                <th scope="row">{row.date}</th>
+                                <td>{row.change}</td>
+                                <td>{row.role}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+                <p>
+                    The 7-11 September period is treated as a transition window
+                    rather than being assigned to either side of the comparison.
+                    Later styling changes made on 14 October fall outside the
+                    Search Console data window used here and are excluded.
+                </p>
+            </section>
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="part-d-site-visibility"
+            >
+                <h2>Site visibility before and after structural changes</h2>
+                <p>
+                    The upper panel uses complete site-level daily impressions,
+                    including impressions whose queries were anonymised. The lower
+                    panel calculates trailing seven-day position weighted by the
+                    impressions observed on each day. Lower position values
+                    represent stronger rankings.
+                </p>
+                <figure className={styles.figure}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                        alt="Two-panel line chart showing trailing seven-day site impressions and impression-weighted position, with the Lab publication, Part C updates and September structural rollout marked."
+                        loading="lazy"
+                        src="/semantic-seo-lab/analytics/part-d-structural-intervention.png"
+                    />
+                </figure>
+            </section>
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="part-d-2-exposure-and-ranking-response"
+            >
+                <h2>Part D.2 - Exposure and ranking response</h2>
+                <p>
+                    Site impressions and position use complete Search Console
+                    totals. Visible Page 1 impressions count disclosed query-page
+                    rows with an average position of 10 or better; anonymised
+                    queries cannot be assigned to this measure.
+                </p>
+                <table
+                    className={`${styles.evidenceTable} ${styles.comparisonTable}`}
+                >
+                    <thead>
+                        <tr>
+                            <th scope="col">Comparison window</th>
+                            <th scope="col">Impressions</th>
+                            <th scope="col">Weighted position</th>
+                            <th scope="col">Visible Page 1 impressions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {PART_D_PHASE_ROWS.map((row) => (
+                            <tr key={row.period}>
+                                <th scope="row">{row.period}</th>
+                                <td>{row.impressions}</td>
+                                <td>{row.position}</td>
+                                <td>{row.pageOneImpressions}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+                <p>
+                    The pre-publication Page 1 total shows that intermittent Page 1
+                    visibility existed before the Lab. It should not be attributed
+                    to the later structural work. After publication, impressions
+                    increased and average position improved, but the additional
+                    exposure initially remained concentrated around Page 2.
+                </p>
+                <p>
+                    After Part C was added, impressions increased again while
+                    average position became weaker. This is consistent with wider
+                    query exposure, but it does not by itself establish improved
+                    retrieval quality.
+                </p>
+                <p>
+                    The clearest later change occurred after the September
+                    transition. Overall impressions initially contracted, but
+                    average position improved substantially and visible Page 1
+                    impressions increased. The following period combined renewed
+                    impression growth with a further improvement in average
+                    position.
+                </p>
+                <p>
+                    The observed sequence was broader exposure, temporary
+                    contraction, stronger ranking, then renewed growth. This is
+                    consistent with visibility becoming more selective before
+                    expanding again, although Search Console cannot establish the
+                    process responsible for that pattern.
+                </p>
+            </section>
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="part-d-3-page-one-query-differentiation"
+            >
+                <h2>Part D.3 - Page-One query differentiation</h2>
+                <p>
+                    The later Page 1 transition did not produce one universally
+                    preferred landing page. It produced several distinct
+                    query-page relationships.
+                </p>
+                <table
+                    className={`${styles.evidenceTable} ${styles.comparisonTable}`}
+                >
+                    <thead>
+                        <tr>
+                            <th scope="col">Landing page</th>
+                            <th scope="col">Query relationship</th>
+                            <th scope="col">Page 1 evidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {PART_D_QUERY_ROWS.map((row) => (
+                            <tr key={`${row.page}-${row.query}`}>
+                                <th scope="row">
+                                    <a href={row.page}>
+                                        <code>{row.page}</code>
+                                    </a>
+                                </th>
+                                <td>
+                                    <code>{row.query}</code>
+                                </td>
+                                <td>{row.evidence}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+                <p>
+                    The first relevant Lab Page 1 appearance occurred on 3
+                    September, before the homepage agent prompt and unified
+                    discovery rollout. The September structural work therefore
+                    did not initiate the entire ranking transition.
+                </p>
+                <p>
+                    After the rollout, Page 1 visibility became broader and more
+                    repeatable. On 18 September, the Lab received 11 impressions
+                    for <code>semantic seo python</code> at an average position of
+                    9.9. Later observations extended the pattern across the
+                    practical article and the code page.
+                </p>
+                <p>
+                    The resulting division is functionally coherent: the Lab is
+                    the conceptual and methodological destination, the practical
+                    article is the procedural explanation, and the code page is
+                    the implementation destination. This extends the two-page
+                    differentiation identified in Part C.2 into a three-part
+                    search structure.
+                </p>
+            </section>
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="part-d-4-evidence-boundaries"
+            >
+                <h2>Part D.4 - Evidence boundaries</h2>
+                <ul>
+                    <li>
+                        <strong>Observed:</strong> Relevant Page 1 visibility began
+                        before the agent-navigation rollout, then became more
+                        frequent and distributed across several appropriate
+                        landing pages after it.
+                    </li>
+                    <li>
+                        <strong>Supported interpretation:</strong> The structural
+                        changes may have reinforced an already developing
+                        transition from broad semantic recognition to more specific
+                        query-page matching.
+                    </li>
+                    <li>
+                        <strong>Not established:</strong> The evidence does not show
+                        that Google fetched or used <code>agent-map.json</code>, its
+                        HTML projection or the page graph. It also cannot establish
+                        that those files caused the ranking changes.
+                    </li>
+                    <li>
+                        <strong>Not yet validated:</strong> Clicks remained at zero.
+                        The results support conclusions about impressions,
+                        retrieval and ranking, but not about engagement,
+                        satisfaction or commercial value.
+                    </li>
+                </ul>
+            </section>
+
+            <section
+                className={`${styles.cell} ${styles.markdownCell}`}
+                id="part-d-5-methodological-conclusion"
+            >
+                <h2>Part D.5 - Methodological conclusion</h2>
+                <p>
+                    Part D changes the conclusion from simple visibility growth to
+                    structural differentiation. Search Console increasingly
+                    associated conceptual intent with the research Lab, procedural
+                    intent with the practical article, and implementation intent
+                    with the code page.
+                </p>
+                <p>
+                    The most defensible conclusion is that the September structural
+                    intervention coincided with, and may have reinforced, a
+                    transition that had already begun. The evidence supports
+                    improved query-page specialisation and broader Page 1
+                    representation. It does not prove direct causation or
+                    demonstrate that Google used the agent-readable discovery
+                    files themselves.
+                </p>
+                <p>
+                    The research loop is now: SERP observation, computational
+                    representation, supervised interpretation, publication, search
+                    observation, structural revision, then renewed observation.
+                    The Lab is therefore not only an implementation of Semantic SEO
+                    methods. It is also a longitudinal record of how research,
+                    publication, internal structure and observed search behaviour
+                    interact.
+                </p>
+            </section>
+        </>
+    );
+}
+
 export default async function SemanticSeoLabPage() {
     const notebook = await loadNotebook();
-    const headings = [...notebook.headings, ...PART_C_HEADINGS];
+    const headings = [
+        ...notebook.headings,
+        ...PART_C_HEADINGS,
+        ...PART_D_HEADINGS,
+    ];
 
     return (
         <main className={styles.page}>
@@ -654,6 +1079,7 @@ export default async function SemanticSeoLabPage() {
                         <NotebookCell cell={cell} index={index} key={cell.id} />
                     ))}
                     <PartCAnalyticsSnapshot />
+                    <PartDStructuralIntervention />
                 </article>
             </div>
         </main>

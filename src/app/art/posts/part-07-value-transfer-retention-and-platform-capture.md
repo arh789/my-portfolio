@@ -3,6 +3,7 @@ title: "AI Visibility Is Not Value, Part 7 — Value Transfer, Retention, and Pl
 slug: value-transfer-retention-and-platform-capture
 description: "When source material improves an AI answer, who receives the value? AI visibility may produce source value, shared value, or platform capture depending on whether attention, trust, traffic, and relationship value return to the source."
 date: "2026-07-08"
+lastModified: "2026-08-14"
 projects:
   - slug: ai-visibility-is-not-value
     order: 7

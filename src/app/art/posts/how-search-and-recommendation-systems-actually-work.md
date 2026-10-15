@@ -3,6 +3,7 @@
 title: "How Search and Recommendation Systems Actually Work"
 description: "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities."
 date: "2026-06-05"
+lastModified: "2026-08-14"
 projects:
   - slug: semantic-seo-graph-positioning
     order: 3

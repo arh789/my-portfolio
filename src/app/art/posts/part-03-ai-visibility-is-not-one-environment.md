@@ -3,6 +3,7 @@ title: "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environm
 slug: ai-visibility-is-not-one-environment
 description: "AI visibility changes across answer regimes. Some systems retrieve, some synthesise, some cite, some retain users, and some combine those behaviours in different ways."
 date: "2026-07-08"
+lastModified: "2026-08-14"
 projects:
   - slug: ai-visibility-is-not-value
     order: 3

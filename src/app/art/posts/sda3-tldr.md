@@ -2,6 +2,7 @@
 title: "SDA-3 tl;dr"
 description: "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning."
 date: 2026-05-08
+lastModified: "2026-08-14"
 projects:
   - slug: chatgpt-structural-failure
     order: 11

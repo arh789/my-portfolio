@@ -2,6 +2,7 @@
 title: Visibility Under Hostile Conditions
 description: Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.
 date: 2026-03-15
+lastModified: "2026-07-08"
 tags:
   - search-and-discovery-systems
   - hostile-visibility

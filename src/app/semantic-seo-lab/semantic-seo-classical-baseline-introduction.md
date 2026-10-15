@@ -10,7 +10,7 @@ The notebook shows how to use Python, graph analysis, transformer embeddings and
 
 Semantic SEO research should not stop at keyword clustering, embeddings, graphs or topic labels. A keyword cluster is not automatically a topic. An embedding similarity score is not automatically a strategic relationship. A graph community is not automatically a content plan. The missing step is a supervised interpretive process that tests whether those representations are evidentially supported and usable.
 
-This notebook has two parts.
+The computational notebook has two parts. Part A compares classical Semantic SEO methods, while Part B adds agent-supervised interpretation. Parts C and D then examine what happened after the resulting research and site architecture were published.
 
 The clean source notebook used for this page is available on GitHub at [arh789/semantic_seo](https://github.com/arh789/semantic_seo). The rendered page below preserves the executed code, outputs, visualisations and supervised interpretation.
 

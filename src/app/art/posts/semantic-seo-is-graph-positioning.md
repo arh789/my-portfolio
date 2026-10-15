@@ -2,6 +2,7 @@
 title: "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning"
 description: "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information."
 date: "2026-06-05"
+lastModified: "2026-08-14"
 projects:
   - slug: semantic-seo-graph-positioning
     order: 4

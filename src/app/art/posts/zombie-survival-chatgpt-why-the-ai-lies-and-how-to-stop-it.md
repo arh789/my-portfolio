@@ -2,6 +2,7 @@
 title: "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)"
 description: "A machine-readable semantic case record of how human-supervised structural questioning moved ChatGPT from genre-shaped zombie-survival answers through contradiction, rejection and reconstruction to a pressure-stable strategy."
 date: 2026-04-08
+lastModified: "2026-09-08"
 projects:
   - slug: chatgpt-structural-failure
     order: 1

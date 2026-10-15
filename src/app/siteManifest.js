@@ -34,7 +34,7 @@ export const STATIC_SITE_PAGES = [
         title: "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
         summary:
             "Explains how statistical, relational, semantic and human interpretation can be combined to recover structure hidden by compressed representations.",
-        lastModified: "2026-10-13",
+        lastModified: "2026-10-14",
         priority: 0.8,
         navigation: {
             label: "Discovering Hidden Structure",
@@ -82,7 +82,7 @@ export const STATIC_SITE_PAGES = [
         title: "Semantic SEO With Python: An Agent-Run, Human-Supervised Research Notebook",
         summary:
             "Tests whether Python-generated SEO representations remain usable when classical NLP, graph analysis, agent interpretation and human correction are combined.",
-        lastModified: "2026-09-10",
+        lastModified: "2026-10-15",
         priority: 0.8,
         navigation: {
             label: "Semantic SEO Lab",

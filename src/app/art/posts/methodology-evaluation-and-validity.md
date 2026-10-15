@@ -3,6 +3,7 @@
 title: Summary of the Process, Conclusions, and Their Validity
 description: This post presents a GPT-based analysis and evaluation of the research process used to investigate horror, surrealist, and symbolic aesthetics, assessing its conclusions for validity and internal consistency.
 date: 2026-04-24
+lastModified: "2026-08-14"
 projects:
   - slug: seer-clown-research
     order: 6

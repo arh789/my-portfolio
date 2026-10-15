@@ -20,6 +20,13 @@ These rules apply to work in `/root/my-portfolio`.
 - Keep commands small and independently verifiable. Do not combine unrelated inspection, editing and validation operations into one command.
 - Use the native WSL Node.js and npm runtime. Confirm that project scripts are not resolving to Windows executables when permissions behave unexpectedly.
 
+## Long-running commands and stall handling
+
+- Monitor any command that runs for longer than one minute and provide the user with a progress update at least every 60 seconds.
+- If a command produces no new output, inspect whether it is still working or is waiting for input, credentials or network access.
+- Terminate and retry stalled commands using a non-interactive or alternative route when appropriate. Do not repeatedly wait on an unchanged command without diagnosis.
+- Do not automatically terminate a command merely because it exceeds one minute; builds and other legitimate operations may take longer.
+
 ## Editing files
 
 - Use `apply_patch` for source edits.

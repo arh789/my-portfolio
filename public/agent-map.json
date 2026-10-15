@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-14T00:36:38.288Z",
+  "generatedAt": "2026-10-15T03:31:15.510Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -200,7 +200,7 @@
         "canonical": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-10-13"
+        "lastModified": "2026-10-14"
       },
       "questionsAnswered": [
         "What structure gets lost when reality is converted into data?",
@@ -401,7 +401,7 @@
         "canonical": "https://decrepitfilth.art/semantic-seo-lab",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-09-10"
+        "lastModified": "2026-10-15"
       },
       "questionsAnswered": [
         "Can semantic SEO representations be made operational?",
@@ -4764,7 +4764,7 @@
         "key": "id",
         "value": "hidden-structure"
       },
-      "lastModified": "2026-10-13",
+      "lastModified": "2026-10-14",
       "priority": 0.8
     },
     {
@@ -4803,7 +4803,7 @@
         "key": "id",
         "value": "semantic-seo-lab"
       },
-      "lastModified": "2026-09-10",
+      "lastModified": "2026-10-15",
       "priority": 0.8
     },
     {
@@ -4892,7 +4892,7 @@
         "key": "slug",
         "value": "tiktok-video-analysis-with-python"
       },
-      "lastModified": "2026-09-04"
+      "lastModified": "2026-10-14"
     },
     {
       "path": "/art/tiktok-zombie-survival-series",
@@ -4964,7 +4964,7 @@
         "key": "slug",
         "value": "ai-visibility-is-not-value"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -4976,7 +4976,7 @@
         "key": "slug",
         "value": "ai-visibility-is-not-a-direct-optimisation-outcome"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/source-eligibility-being-available-is-not-being-chosen",
@@ -4988,7 +4988,7 @@
         "key": "slug",
         "value": "source-eligibility-being-available-is-not-being-chosen"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-10-12"
     },
     {
       "path": "/art/ai-visibility-is-not-one-environment",
@@ -5000,7 +5000,7 @@
         "key": "slug",
         "value": "ai-visibility-is-not-one-environment"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/the-selection-gap",
@@ -5012,7 +5012,7 @@
         "key": "slug",
         "value": "the-selection-gap"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/selected-does-not-mean-cited",
@@ -5024,7 +5024,7 @@
         "key": "slug",
         "value": "selected-does-not-mean-cited"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/ai-visibility-measurement-cannot-prove-value",
@@ -5036,7 +5036,7 @@
         "key": "slug",
         "value": "ai-visibility-measurement-cannot-prove-value"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/value-transfer-retention-and-platform-capture",
@@ -5048,7 +5048,7 @@
         "key": "slug",
         "value": "value-transfer-retention-and-platform-capture"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/the-citable-hard-to-exhaust-archive",
@@ -5060,7 +5060,7 @@
         "key": "slug",
         "value": "the-citable-hard-to-exhaust-archive"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/representation-governance",
@@ -5072,7 +5072,7 @@
         "key": "slug",
         "value": "representation-governance"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/hidden-representations-without-hidden-layers",
@@ -5084,7 +5084,7 @@
         "key": "slug",
         "value": "hidden-representations-without-hidden-layers"
       },
-      "lastModified": "2026-07-03"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/adversarial-questioning-chatgpt-zombie-survival",
@@ -5144,7 +5144,7 @@
         "key": "slug",
         "value": "how-search-and-recommendation-systems-actually-work"
       },
-      "lastModified": "2026-06-05"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/semantic-seo-is-graph-positioning",
@@ -5156,7 +5156,7 @@
         "key": "slug",
         "value": "semantic-seo-is-graph-positioning"
       },
-      "lastModified": "2026-06-05"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/python-nlp-semantic-seo",
@@ -5168,7 +5168,7 @@
         "key": "slug",
         "value": "python-nlp-semantic-seo"
       },
-      "lastModified": "2026-09-14"
+      "lastModified": "2026-10-13"
     },
     {
       "path": "/art/semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -5192,7 +5192,7 @@
         "key": "slug",
         "value": "sda3-tldr"
       },
-      "lastModified": "2026-05-08"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/research-pipeline",
@@ -5204,7 +5204,7 @@
         "key": "slug",
         "value": "research-pipeline"
       },
-      "lastModified": "2026-04-25"
+      "lastModified": "2026-10-14"
     },
     {
       "path": "/art/who-benefits-most-from-this-system",
@@ -5240,7 +5240,7 @@
         "key": "slug",
         "value": "data-structure-intermediate-stage"
       },
-      "lastModified": "2026-04-24"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/methodology-evaluation-and-validity",
@@ -5252,7 +5252,7 @@
         "key": "slug",
         "value": "methodology-evaluation-and-validity"
       },
-      "lastModified": "2026-04-24"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/seer-clown-research-process",
@@ -5264,7 +5264,7 @@
         "key": "slug",
         "value": "seer-clown-research-process"
       },
-      "lastModified": "2026-04-24"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/youtube-video-index",
@@ -5276,7 +5276,7 @@
         "key": "slug",
         "value": "youtube-video-index"
       },
-      "lastModified": "2026-04-08"
+      "lastModified": "2026-09-09"
     },
     {
       "path": "/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
@@ -5288,7 +5288,7 @@
         "key": "slug",
         "value": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it"
       },
-      "lastModified": "2026-04-08"
+      "lastModified": "2026-09-08"
     },
     {
       "path": "/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -5324,7 +5324,7 @@
         "key": "slug",
         "value": "art-forms-with-high-audience-resonance"
       },
-      "lastModified": "2026-03-15"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/first-principles",
@@ -5336,7 +5336,7 @@
         "key": "slug",
         "value": "first-principles"
       },
-      "lastModified": "2026-03-15"
+      "lastModified": "2026-07-08"
     },
     {
       "path": "/art/gpt-misuse-is-not-what-people-think",
@@ -5348,7 +5348,7 @@
         "key": "slug",
         "value": "gpt-misuse-is-not-what-people-think"
       },
-      "lastModified": "2026-03-15"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/maximising-artistic-identity",
@@ -5360,7 +5360,7 @@
         "key": "slug",
         "value": "maximising-artistic-identity"
       },
-      "lastModified": "2026-03-15"
+      "lastModified": "2026-07-08"
     },
     {
       "path": "/art/most-popular-art-mediums-based-on-the-datasets",
@@ -5372,7 +5372,7 @@
         "key": "slug",
         "value": "most-popular-art-mediums-based-on-the-datasets"
       },
-      "lastModified": "2026-03-15"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/semantic-seo-begins-before-optimisation",
@@ -5384,7 +5384,7 @@
         "key": "slug",
         "value": "semantic-seo-begins-before-optimisation"
       },
-      "lastModified": "2026-03-15"
+      "lastModified": "2026-08-14"
     },
     {
       "path": "/art/visibility-under-hostile-conditions",
@@ -5396,7 +5396,7 @@
         "key": "slug",
         "value": "visibility-under-hostile-conditions"
       },
-      "lastModified": "2026-03-15"
+      "lastModified": "2026-07-08"
     },
     {
       "path": "/art/project/chatgpt-structural-failure",
@@ -5420,7 +5420,7 @@
         "key": "slug",
         "value": "ai-visibility-is-not-value"
       },
-      "lastModified": "2026-07-08"
+      "lastModified": "2026-10-12"
     },
     {
       "path": "/art/project/sda3-structural-extraction",
@@ -5444,7 +5444,7 @@
         "key": "slug",
         "value": "semantic-seo-graph-positioning"
       },
-      "lastModified": "2026-10-12"
+      "lastModified": "2026-10-14"
     },
     {
       "path": "/art/project/seer-clown-research",
@@ -5456,7 +5456,7 @@
         "key": "slug",
         "value": "seer-clown-research"
       },
-      "lastModified": "2026-09-09"
+      "lastModified": "2026-10-14"
     },
     {
       "path": "/art/project/finding-hidden-structure-in-large-content-corpora",
