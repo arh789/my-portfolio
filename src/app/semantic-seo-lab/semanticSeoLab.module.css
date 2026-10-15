@@ -76,6 +76,15 @@
     padding-left: 0.9rem;
 }
 
+.sidebarLink[data-kind="part"] {
+    margin-top: 0.65rem;
+    color: rgba(245, 227, 109, 0.96);
+    background: rgba(245, 227, 109, 0.07);
+    border-left-color: rgba(245, 227, 109, 0.7);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
 .sidebarLink[data-level="3"],
 .sidebarLink[data-level="4"],
 .sidebarLink[data-level="5"],
@@ -125,12 +134,23 @@
 
 .markdownCell h2 {
     margin: 0 0 1rem;
+    color: rgba(244, 240, 223, 0.96);
     font-size: clamp(1.15rem, 2vw, 1.55rem);
 }
 
 .markdownCell h3,
 .markdownCell h4 {
     margin: 1.25rem 0 0.75rem;
+    color: rgba(244, 240, 223, 0.76);
+}
+
+.markdownCell :global(.partHeading) {
+    padding: 0.7rem 0.85rem;
+    color: var(--research-accent);
+    background: rgba(245, 227, 109, 0.065);
+    border-left: 4px solid var(--research-accent);
+    font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+    letter-spacing: 0.04em;
 }
 
 .markdownCell p,
@@ -461,6 +481,12 @@
     .sidebarLink:focus-visible {
         border-left-color: transparent;
         border-bottom-color: var(--research-accent);
+    }
+
+    .sidebarLink[data-kind="part"] {
+        color: rgba(245, 227, 109, 0.96);
+        background: rgba(245, 227, 109, 0.09);
+        border-bottom-color: rgba(245, 227, 109, 0.62);
     }
 }
 

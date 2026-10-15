@@ -370,6 +370,11 @@ function NotebookSidebar({ headings }) {
                     {headings.map((heading) => (
                         <a
                             className={styles.sidebarLink}
+                            data-kind={
+                                /^Part [A-D]\s+-\s+/i.test(heading.text)
+                                    ? "part"
+                                    : "section"
+                            }
                             data-level={heading.level}
                             href={`#${heading.slug}`}
                             key={heading.slug}
@@ -477,7 +482,9 @@ function PartCAnalyticsSnapshot() {
                 className={`${styles.cell} ${styles.markdownCell}`}
                 id="part-c-observed-search-outcome"
             >
-                <h2>Part C - Observed Search Outcome</h2>
+                <h2 className="partHeading">
+                    Part C - Observed Search Outcome
+                </h2>
                 <h2 id="part-c-1-initial-consolidation">
                     Part C.1 - Initial consolidation
                 </h2>
@@ -787,7 +794,7 @@ function PartDStructuralIntervention() {
                 className={`${styles.cell} ${styles.markdownCell}`}
                 id="part-d-structural-intervention-and-page-one-consolidation"
             >
-                <h2>
+                <h2 className="partHeading">
                     Part D - Structural Intervention and Page-One Consolidation
                 </h2>
                 <p>

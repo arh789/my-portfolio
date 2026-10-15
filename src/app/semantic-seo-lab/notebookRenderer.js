@@ -51,6 +51,10 @@ function displayHeadingText(text) {
     return uppercaseFirstLetter(stripped);
 }
 
+function isPartHeading(text) {
+    return /^Part [A-D]\s+-\s+/i.test(stripInlineMarkdown(text));
+}
+
 function normaliseHeadingLevel(level, text) {
     const label = stripInlineMarkdown(text);
 
@@ -160,7 +164,11 @@ function injectHeadingIds(markdown, headings) {
                 return line;
             }
 
-            return `<h${heading.level} id="${heading.slug}">${escapeHtml(
+            const className = isPartHeading(heading.text)
+                ? ' class="partHeading"'
+                : "";
+
+            return `<h${heading.level}${className} id="${heading.slug}">${escapeHtml(
                 heading.text,
             )}</h${heading.level}>`;
         })
