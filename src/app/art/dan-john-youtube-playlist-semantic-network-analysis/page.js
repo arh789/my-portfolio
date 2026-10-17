@@ -33,7 +33,7 @@ export const metadata = {
             "The recurring programme-design decisions made visible across 382 Dan John videos.",
         type: "article",
         publishedTime: "2026-10-13",
-        modifiedTime: "2026-10-14",
+        modifiedTime: "2026-10-17",
         authors: ["Andrew Hale"],
         url: "/art/dan-john-youtube-playlist-semantic-network-analysis",
     },
@@ -624,7 +624,7 @@ const structuredData = {
         "A reproducible semantic network analysis of 382 Dan John strength-coaching videos.",
     author: { "@type": "Person", name: "Andrew Hale" },
     datePublished: "2026-10-13",
-    dateModified: "2026-10-14",
+    dateModified: "2026-10-17",
     url: "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
     mainEntityOfPage:
         "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
@@ -701,7 +701,7 @@ export default async function DanJohnSemanticNetworkPage() {
                     <p className={styles.eyebrow}>Corpus study · semantic network analysis · <time dateTime="2026-10-13">13 October 2026</time></p>
                     <h1>I watched 382 Dan John Strength Coach YouTube videos so that you don&apos;t have to.</h1>
                     <p className={styles.standfirst}>
-                        Then i carried out a Sematic Network Analysis on all the videos so that nobody else had to either. Then I identified the five videos you definitely should watch.
+                        Then I carried out a Semantic Network Analysis on all the videos so that nobody else had to either. Then I identified the five videos you definitely should watch.
                     </p>
 
                     <div className={styles.heroFinding}>
