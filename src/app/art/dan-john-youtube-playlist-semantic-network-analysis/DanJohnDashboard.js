@@ -630,9 +630,9 @@ export default function DanJohnDashboard({ view = "both" }) {
                             "text-outline-color": "#050607",
                             "text-outline-width": 2,
                             "text-outline-opacity": 0.96,
-                            "text-valign": "bottom",
-                            "text-margin-y": 6,
-                            "text-wrap": "ellipsis",
+                            "text-valign": "top",
+                            "text-margin-y": -6,
+                            "text-wrap": "wrap",
                             "text-max-width": 104,
                         },
                     },
@@ -722,7 +722,8 @@ export default function DanJohnDashboard({ view = "both" }) {
                         name: "concentric",
                         concentric: (node) => node.data("distance"),
                         levelWidth: () => 1,
-                        minNodeSpacing: 18,
+                        minNodeSpacing: 28,
+                        nodeDimensionsIncludeLabels: true,
                         animate: false,
                     }
                     : graphModel.nodes.length <= 650
@@ -734,9 +735,13 @@ export default function DanJohnDashboard({ view = "both" }) {
                             fit: true,
                             padding: 42,
                             nodeRepulsion: 5200,
-                            idealEdgeLength: 72,
+                            nodeSeparation: 100,
+                            nodeDimensionsIncludeLabels: true,
+                            idealEdgeLength: 100,
                             edgeElasticity: 0.18,
                             nestingFactor: 0.1,
+                            tilingPaddingVertical: 24,
+                            tilingPaddingHorizontal: 24,
                             numIter: 2500,
                         }
                         : { name: "preset", fit: true, padding: 38 },
@@ -1083,11 +1088,16 @@ export default function DanJohnDashboard({ view = "both" }) {
                     ) : (
                         <p>Every visible object is labelled. Node fill shows analysis tier; community structure is conveyed by position, cards and filtering. Edge width uses normalised association; dashed edges connect communities.</p>
                     )}
-                    {hoveredNode ? (
-                        <p className={styles.hoverReadout}>
-                            <strong>{hoveredNode.id}</strong> · {hoveredNode.communityLabel} · {hoveredNode.group} · frequency {hoveredNode.frequency}
-                        </p>
-                    ) : null}
+                    <p
+                        className={styles.hoverReadout}
+                        title={hoveredNode
+                            ? `${hoveredNode.id} · ${hoveredNode.communityLabel} · ${hoveredNode.group} · frequency ${hoveredNode.frequency}`
+                            : undefined}
+                    >
+                        {hoveredNode ? (
+                            <><strong>{hoveredNode.id}</strong> · {hoveredNode.communityLabel} · {hoveredNode.group} · frequency {hoveredNode.frequency}</>
+                        ) : "Hover a node to inspect its signal."}
+                    </p>
                 </div>
 
                 <CommunityOverview

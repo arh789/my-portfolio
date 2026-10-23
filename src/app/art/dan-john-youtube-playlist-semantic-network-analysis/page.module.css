@@ -1781,6 +1781,11 @@
 }
 
 .hoverReadout {
+    width: clamp(16rem, 34vw, 34rem);
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     text-align: right;
 }
 
@@ -2174,6 +2179,10 @@
     .relationOutputHeading p,
     .hoverReadout {
         text-align: left;
+    }
+
+    .hoverReadout {
+        width: 100%;
     }
 
     .chartReadout {
