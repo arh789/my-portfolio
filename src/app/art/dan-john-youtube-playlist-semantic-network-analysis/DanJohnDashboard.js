@@ -3,11 +3,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import styles from "./page.module.css";
 
-const GROUP_COLOURS = {
+const TIER_COLOURS = {
     "Analysis group": "#f5e36d",
-    "First order": "#66d9b4",
-    "Second order": "#7d8793",
+    "First order": "#5fb8ae",
+    "Second order": "#59636d",
 };
+
+let fcoseRegistered = false;
 
 function normalise(value) {
     return value.trim().toLowerCase();
@@ -23,6 +25,10 @@ function matchQuality(label, query) {
 
 function pairKey(left, right) {
     return left < right ? `${left}\u241f${right}` : `${right}\u241f${left}`;
+}
+
+function edgeSignal(edge) {
+    return edge.signal || edge.association || 0;
 }
 
 function FrequencyChart({ frequencies, onSelect }) {
@@ -238,6 +244,7 @@ function RelationTable({ rows, videoById }) {
                         <th>Relation wording</th>
                         <th>Object</th>
                         <th>Pair frequency</th>
+                        <th>Association</th>
                         <th>Wording frequency</th>
                         <th>Supporting videos</th>
                     </tr>
@@ -255,6 +262,7 @@ function RelationTable({ rows, videoById }) {
                                 <td>{row.relation}</td>
                                 <td>{row.object}</td>
                                 <td>{row.pairFrequency}</td>
+                                <td>{row.association.toFixed(3)}</td>
                                 <td>{row.frequency}</td>
                                 <td>
                                     <details className={styles.videoDetails}>
@@ -286,6 +294,38 @@ function RelationTable({ rows, videoById }) {
     );
 }
 
+function CommunityOverview({ communities, activeCommunity, onSelect }) {
+    return (
+        <div className={styles.communityOverview}>
+            <div className={styles.communityOverviewHeading}>
+                <div>
+                    <p className={styles.panelEyebrow}>Detected communities</p>
+                    <h4>Repeated relationships form these object bundles</h4>
+                </div>
+                <p>Labels list the three most structurally representative objects; they are descriptions, not predefined categories.</p>
+            </div>
+            <div className={styles.communityGrid}>
+                {communities.map((community) => (
+                    <button
+                        aria-pressed={activeCommunity === String(community.id)}
+                        className={activeCommunity === String(community.id) ? styles.activeCommunity : ""}
+                        key={community.id}
+                        onClick={() => onSelect(
+                            activeCommunity === String(community.id) ? "all" : String(community.id),
+                        )}
+                        type="button"
+                    >
+                        <span>
+                            <strong>{community.label}</strong>
+                            <small>{community.size} objects · {community.edgeCount} internal pairs</small>
+                        </span>
+                    </button>
+                ))}
+            </div>
+        </div>
+    );
+}
+
 export default function DanJohnDashboard({ view = "both" }) {
     const dashboardRef = useRef(null);
     const networkRef = useRef(null);
@@ -296,9 +336,12 @@ export default function DanJohnDashboard({ view = "both" }) {
     const [frequencyQuery, setFrequencyQuery] = useState("");
     const [networkQuery, setNetworkQuery] = useState("");
     const [selectedId, setSelectedId] = useState(null);
-    const [minPairFrequency, setMinPairFrequency] = useState(3);
+    const [selectedEdgeId, setSelectedEdgeId] = useState(null);
+    const [minPairFrequency, setMinPairFrequency] = useState(2);
     const [depth, setDepth] = useState(1);
-    const [scope, setScope] = useState("network");
+    const [scope, setScope] = useState("communities");
+    const [communityFilter, setCommunityFilter] = useState("all");
+    const [edgeView, setEdgeView] = useState("signal");
     const [hoveredNode, setHoveredNode] = useState(null);
 
     useEffect(() => {
@@ -357,22 +400,28 @@ export default function DanJohnDashboard({ view = "both" }) {
         () => new Map((data?.videos || []).map((video) => [video.id, video])),
         [data],
     );
-
+    const edgeById = useMemo(
+        () => new Map((data?.edges || []).map((edge) => [pairKey(edge.source, edge.target), edge])),
+        [data],
+    );
     const scopeNodes = useMemo(() => {
         if (!data) return new Set();
         return new Set(
             data.nodes
                 .filter((node) => {
+                    if (scope === "communities") return node.community > 0;
                     if (scope === "analysis") return node.group === "Analysis group";
                     if (scope === "analysis-first") return node.group !== "Second order";
-                    if (scope === "exercises") return node.exercise;
                     return true;
                 })
+                .filter((node) => (
+                    communityFilter === "all" || node.community === Number(communityFilter)
+                ))
                 .map((node) => node.id),
         );
-    }, [data, scope]);
+    }, [communityFilter, data, scope]);
 
-    const filteredEdges = useMemo(() => {
+    const thresholdEdges = useMemo(() => {
         if (!data) return [];
         return data.edges.filter(
             (edge) =>
@@ -382,28 +431,57 @@ export default function DanJohnDashboard({ view = "both" }) {
         );
     }, [data, minPairFrequency, scopeNodes]);
 
+    const displayEdges = useMemo(() => {
+        if (edgeView === "all" || selectedId) return thresholdEdges;
+
+        const incident = new Map();
+        thresholdEdges.forEach((edge) => {
+            if (!incident.has(edge.source)) incident.set(edge.source, []);
+            if (!incident.has(edge.target)) incident.set(edge.target, []);
+            incident.get(edge.source).push(edge);
+            incident.get(edge.target).push(edge);
+        });
+
+        const retained = new Set();
+        incident.forEach((edges) => {
+            edges
+                .sort((left, right) =>
+                    edgeSignal(right) - edgeSignal(left) ||
+                    right.frequency - left.frequency ||
+                    pairKey(left.source, left.target).localeCompare(pairKey(right.source, right.target)),
+                )
+                .slice(0, 4)
+                .forEach((edge) => retained.add(pairKey(edge.source, edge.target)));
+        });
+
+        return thresholdEdges.filter((edge) => (
+            retained.has(pairKey(edge.source, edge.target)) || edge.bridge
+        ));
+    }, [edgeView, selectedId, thresholdEdges]);
+
     const graphModel = useMemo(() => {
         if (!data) {
             return {
                 nodes: [], edges: [], direct: new Set(), second: new Set(), allDirectCount: 0,
+                availableEdgeCount: 0, edgeFrequency: new Map(),
             };
         }
 
         const adjacency = new Map();
         const edgeFrequency = new Map();
-        filteredEdges.forEach((edge) => {
+        thresholdEdges.forEach((edge) => {
             if (!adjacency.has(edge.source)) adjacency.set(edge.source, new Set());
             if (!adjacency.has(edge.target)) adjacency.set(edge.target, new Set());
             adjacency.get(edge.source).add(edge.target);
             adjacency.get(edge.target).add(edge.source);
-            edgeFrequency.set(pairKey(edge.source, edge.target), edge.frequency);
+            edgeFrequency.set(pairKey(edge.source, edge.target), edge);
         });
 
         if (selectedId && scopeNodes.has(selectedId)) {
             const allDirect = [...(adjacency.get(selectedId) || [])].sort((left, right) => {
                 const frequencyDifference =
-                    (edgeFrequency.get(pairKey(selectedId, right)) || 0) -
-                    (edgeFrequency.get(pairKey(selectedId, left)) || 0);
+                    edgeSignal(edgeFrequency.get(pairKey(selectedId, right)) || {}) -
+                    edgeSignal(edgeFrequency.get(pairKey(selectedId, left)) || {});
                 if (frequencyDifference) return frequencyDifference;
                 return (nodeById.get(right)?.frequency || 0) - (nodeById.get(left)?.frequency || 0);
             });
@@ -421,48 +499,66 @@ export default function DanJohnDashboard({ view = "both" }) {
             const visible = new Set([selectedId, ...direct, ...second]);
             return {
                 nodes: [...visible].map((id) => nodeById.get(id)).filter(Boolean),
-                edges: filteredEdges.filter(
+                edges: thresholdEdges.filter(
                     (edge) => visible.has(edge.source) && visible.has(edge.target),
                 ),
                 direct,
                 second,
                 allDirectCount: allDirect.length,
+                availableEdgeCount: thresholdEdges.length,
                 edgeFrequency,
             };
         }
 
         const visible = new Set();
-        filteredEdges.forEach((edge) => {
+        displayEdges.forEach((edge) => {
             visible.add(edge.source);
             visible.add(edge.target);
         });
-        if (scope !== "exercises") {
+        if (scope !== "communities") {
             data.nodes.forEach((node) => {
                 if (node.group === "Analysis group" && scopeNodes.has(node.id)) visible.add(node.id);
             });
         }
         return {
             nodes: [...visible].map((id) => nodeById.get(id)).filter(Boolean),
-            edges: filteredEdges,
+            edges: displayEdges,
             direct: new Set(),
             second: new Set(),
             allDirectCount: 0,
+            availableEdgeCount: thresholdEdges.length,
             edgeFrequency,
         };
-    }, [data, depth, filteredEdges, nodeById, scope, scopeNodes, selectedId]);
+    }, [data, depth, displayEdges, nodeById, scope, scopeNodes, selectedId, thresholdEdges]);
 
     useEffect(() => {
         if (!networkRef.current || !data || !graphModel.nodes.length) return undefined;
         let cancelled = false;
+        const networkElement = networkRef.current;
+        const containGraphWheel = (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+        };
 
-        import("cytoscape").then(({ default: cytoscape }) => {
+        Promise.all([import("cytoscape"), import("cytoscape-fcose")]).then(([
+            { default: cytoscape },
+            { default: fcose },
+        ]) => {
             if (cancelled) return;
+            if (!fcoseRegistered) {
+                cytoscape.use(fcose);
+                fcoseRegistered = true;
+            }
             if (cyRef.current) cyRef.current.destroy();
 
             const maximumFrequency = data.frequencies[0].frequency;
             const sizeFor = (frequency) =>
                 9 + (Math.log1p(Math.max(1, frequency)) / Math.log1p(maximumFrequency)) * 33;
             const localView = Boolean(selectedId);
+            const maximumSignal = Math.max(
+                0.001,
+                ...graphModel.edges.map((edge) => edgeSignal(edge)),
+            );
             const elements = [
                 ...graphModel.nodes.map((node) => {
                     let visualRole = "base";
@@ -481,14 +577,14 @@ export default function DanJohnDashboard({ view = "both" }) {
                         data: {
                             id: node.id,
                             label: node.id,
-                            displayLabel:
-                                localView || (node.group === "Analysis group" && node.rank <= 20)
-                                    ? node.id
-                                    : "",
-                            colour: GROUP_COLOURS[node.group],
+                            displayLabel: node.id,
+                            colour: TIER_COLOURS[node.group] || TIER_COLOURS["Second order"],
                             frequency: node.frequency,
                             rank: node.rank || "—",
                             group: node.group,
+                            community: node.community,
+                            communityLabel: node.communityLabel,
+                            bridge: node.bridge ? 1 : 0,
                             size: sizeFor(node.frequency),
                             visualRole,
                             distance,
@@ -502,16 +598,21 @@ export default function DanJohnDashboard({ view = "both" }) {
                         source: edge.source,
                         target: edge.target,
                         frequency: edge.frequency,
+                        videoCount: edge.videoCount,
+                        association: edge.association,
+                        signal: edge.signal,
+                        width: 0.45 + Math.sqrt(edgeSignal(edge) / maximumSignal) * 4.2,
+                        bridge: edge.bridge ? 1 : 0,
                         direct: selectedId && (edge.source === selectedId || edge.target === selectedId) ? 1 : 0,
                     },
                 })),
             ];
 
             const cy = cytoscape({
-                container: networkRef.current,
+                container: networkElement,
                 elements,
-                minZoom: 0.04,
-                maxZoom: 5,
+                minZoom: 0.08,
+                maxZoom: 3,
                 pixelRatio: 1,
                 style: [
                     {
@@ -520,53 +621,80 @@ export default function DanJohnDashboard({ view = "both" }) {
                             width: "data(size)",
                             height: "data(size)",
                             "background-color": "data(colour)",
-                            "background-opacity": 0.68,
-                            "border-color": "rgba(255,255,255,0.72)",
-                            "border-width": 0.7,
+                            "background-opacity": 0.9,
+                            "border-color": "#e1ded3",
+                            "border-width": 1.2,
                             label: "data(displayLabel)",
                             color: "#f8f4df",
-                            "font-size": 7,
-                            "text-background-color": "#050607",
-                            "text-background-opacity": 0.78,
-                            "text-background-padding": 2,
+                            "font-size": 9,
+                            "text-outline-color": "#050607",
+                            "text-outline-width": 2,
+                            "text-outline-opacity": 0.96,
                             "text-valign": "bottom",
-                            "text-margin-y": 5,
-                            "text-wrap": "wrap",
-                            "text-max-width": 90,
+                            "text-margin-y": 6,
+                            "text-wrap": "ellipsis",
+                            "text-max-width": 104,
+                        },
+                    },
+                    {
+                        selector: 'node[group = "Analysis group"]',
+                        style: {
+                            "background-opacity": 1,
+                            "font-size": 11,
+                            "font-weight": 700,
+                            "z-index": 5,
+                        },
+                    },
+                    {
+                        selector: "node[bridge = 1]",
+                        style: {
+                            "border-color": "#f8f4df",
+                            "border-style": "double",
+                            "border-width": 4,
                         },
                     },
                     {
                         selector: 'node[visualRole = "selected"]',
                         style: {
-                            "background-color": "#ff405f",
                             "background-opacity": 1,
-                            "border-width": 3,
-                            "border-color": "#ffffff",
+                            "border-width": 5,
+                            "border-color": "#ff405f",
+                            "border-style": "solid",
                             "z-index": 20,
                         },
                     },
                     {
                         selector: 'node[visualRole = "direct"]',
                         style: {
-                            "background-color": "#f5a623",
                             "background-opacity": 0.96,
+                            "border-width": 3,
+                            "border-color": "#f5a623",
+                            "border-style": "solid",
                             "z-index": 12,
                         },
                     },
                     {
                         selector: 'node[visualRole = "second"]',
                         style: {
-                            "background-color": "#39c6c8",
                             "background-opacity": 0.76,
+                            "border-color": "#39c6c8",
                         },
                     },
                     {
                         selector: "edge",
                         style: {
-                            width: "mapData(frequency, 1, 15, 0.35, 3.2)",
+                            width: "data(width)",
                             "line-color": "#b8c2cc",
-                            opacity: localView ? 0.12 : 0.18,
+                            opacity: localView ? 0.2 : 0.26,
                             "curve-style": "straight",
+                        },
+                    },
+                    {
+                        selector: "edge[bridge = 1]",
+                        style: {
+                            "line-color": "#f5e36d",
+                            "line-style": "dashed",
+                            opacity: 0.48,
                         },
                     },
                     {
@@ -574,8 +702,18 @@ export default function DanJohnDashboard({ view = "both" }) {
                         style: {
                             "line-color": "#f5a623",
                             opacity: 0.62,
-                            width: "mapData(frequency, 1, 15, 1.2, 5)",
+                            width: "data(width)",
                             "z-index": 10,
+                        },
+                    },
+                    {
+                        selector: "edge.selectedEdge",
+                        style: {
+                            "line-color": "#ff405f",
+                            "line-style": "solid",
+                            opacity: 1,
+                            width: 6,
+                            "z-index": 20,
                         },
                     },
                 ],
@@ -587,19 +725,41 @@ export default function DanJohnDashboard({ view = "both" }) {
                         minNodeSpacing: 18,
                         animate: false,
                     }
-                    : { name: "preset", fit: true, padding: 38 },
+                    : graphModel.nodes.length <= 650
+                        ? {
+                            name: "fcose",
+                            quality: "default",
+                            randomize: true,
+                            animate: false,
+                            fit: true,
+                            padding: 42,
+                            nodeRepulsion: 5200,
+                            idealEdgeLength: 72,
+                            edgeElasticity: 0.18,
+                            nestingFactor: 0.1,
+                            numIter: 2500,
+                        }
+                        : { name: "preset", fit: true, padding: 38 },
             });
             cyRef.current = cy;
+            networkElement.addEventListener("wheel", containGraphWheel, { passive: false });
             cy.on("tap", "node", (event) => {
                 const id = event.target.id();
                 setSelectedId(id);
+                setSelectedEdgeId(null);
                 setNetworkQuery(id);
+            });
+            cy.on("tap", "edge", (event) => {
+                cy.edges().removeClass("selectedEdge");
+                event.target.addClass("selectedEdge");
+                setSelectedEdgeId(event.target.id());
             });
             cy.on("mouseover", "node", (event) => {
                 const node = event.target;
                 setHoveredNode({
                     id: node.id(),
                     group: node.data("group"),
+                    communityLabel: node.data("communityLabel"),
                     frequency: node.data("frequency"),
                     rank: node.data("rank"),
                 });
@@ -610,6 +770,7 @@ export default function DanJohnDashboard({ view = "both" }) {
 
         return () => {
             cancelled = true;
+            networkElement.removeEventListener("wheel", containGraphWheel);
             if (cyRef.current) {
                 cyRef.current.destroy();
                 cyRef.current = null;
@@ -643,19 +804,29 @@ export default function DanJohnDashboard({ view = "both" }) {
         return query ? rows.slice(0, 115) : rows;
     }, [data, frequencyQuery]);
 
+    const selectedEdge = selectedEdgeId ? edgeById.get(selectedEdgeId) : null;
+
     const relationRows = useMemo(() => {
-        if (!data || !selectedId) return [];
+        if (!data || (!selectedId && !selectedEdge)) return [];
         const direct = graphModel.direct;
         const edgeFrequency = graphModel.edgeFrequency || new Map();
         const rows = data.relations
             .filter((row) => {
+                if (selectedEdge) {
+                    return pairKey(row.subject, row.object) === selectedEdgeId;
+                }
                 if (row.subject === selectedId && direct.has(row.object)) return true;
                 return row.object === selectedId && direct.has(row.subject);
             })
-            .map((row) => ({
-                ...row,
-                pairFrequency: edgeFrequency.get(pairKey(row.subject, row.object)) || 0,
-            }));
+            .map((row) => {
+                const edge = edgeFrequency.get(pairKey(row.subject, row.object))
+                    || edgeById.get(pairKey(row.subject, row.object));
+                return {
+                    ...row,
+                    pairFrequency: edge?.frequency || 0,
+                    association: edge?.association || 0,
+                };
+            });
         const subjectTotals = new Map();
         rows.forEach((row) => {
             subjectTotals.set(row.subject, (subjectTotals.get(row.subject) || 0) + row.frequency);
@@ -667,10 +838,15 @@ export default function DanJohnDashboard({ view = "both" }) {
             left.relation.localeCompare(right.relation) ||
             left.object.localeCompare(right.object),
         );
-    }, [data, graphModel, selectedId]);
+    }, [data, edgeById, graphModel, selectedEdge, selectedEdgeId, selectedId]);
 
     const selectObject = (id) => {
+        if (!scopeNodes.has(id)) {
+            setScope("network");
+            setCommunityFilter("all");
+        }
         setSelectedId(id);
+        setSelectedEdgeId(null);
         setNetworkQuery(id);
         document.getElementById("relation-network")?.scrollIntoView({ behavior: "smooth", block: "start" });
     };
@@ -699,9 +875,6 @@ export default function DanJohnDashboard({ view = "both" }) {
     const connectedObjectCount = new Set(
         graphModel.edges.flatMap((edge) => [edge.source, edge.target]),
     ).size;
-    const retainedAnalysisObjectCount = selectedNode
-        ? 0
-        : graphModel.nodes.length - connectedObjectCount;
 
     const showFrequency = view !== "network";
     const showNetwork = view !== "frequency";
@@ -722,8 +895,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                     onSelect={(object) => {
                         setFrequencyQuery(object);
                         if (nodeById.has(object)) {
-                            setNetworkQuery(object);
-                            setSelectedId(object);
+                            selectObject(object);
                         }
                     }}
                 />
@@ -779,9 +951,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                         <h3 id="relation-network-heading">What connects to what?</h3>
                     </div>
                     <p aria-atomic="true" aria-live="polite">
-                        {selectedNode
-                            ? `${graphModel.nodes.length.toLocaleString()} visible objects · ${graphModel.edges.length.toLocaleString()} visible pairs`
-                            : `${connectedObjectCount.toLocaleString()} connected objects + ${retainedAnalysisObjectCount.toLocaleString()} retained analysis objects · ${graphModel.edges.length.toLocaleString()} repeated pairs`}
+                        {connectedObjectCount.toLocaleString()} connected objects · {graphModel.edges.length.toLocaleString()} displayed of {graphModel.availableEdgeCount.toLocaleString()} eligible pairs
                     </p>
                 </div>
 
@@ -804,7 +974,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                                     type="button"
                                 >
                                     <strong>{node.id}</strong>
-                                    <span>#{node.rank?.toLocaleString() || "—"} · frequency {node.frequency.toLocaleString()} · {node.group}</span>
+                                    <span>#{node.rank?.toLocaleString() || "—"} · frequency {node.frequency.toLocaleString()} · {node.communityLabel}</span>
                                 </button>
                             ))}
                         </div>
@@ -816,14 +986,45 @@ export default function DanJohnDashboard({ view = "both" }) {
                             <select
                                 onChange={(event) => {
                                     setScope(event.target.value);
+                                    setCommunityFilter("all");
                                     setSelectedId(null);
+                                    setSelectedEdgeId(null);
                                 }}
                                 value={scope}
                             >
-                                <option value="network">Analysis through second order</option>
+                                <option value="communities">Detected communities</option>
+                                <option value="network">All objects through second order</option>
                                 <option value="analysis">Analysis group only</option>
                                 <option value="analysis-first">Analysis + first order</option>
-                                <option value="exercises">Exercises only</option>
+                            </select>
+                        </label>
+                        <label>
+                            Community
+                            <select
+                                onChange={(event) => {
+                                    setCommunityFilter(event.target.value);
+                                    setSelectedId(null);
+                                    setSelectedEdgeId(null);
+                                }}
+                                value={communityFilter}
+                            >
+                                <option value="all">All detected communities</option>
+                                {data.communities.map((community) => (
+                                    <option key={community.id} value={community.id}>{community.label}</option>
+                                ))}
+                            </select>
+                        </label>
+                        <label>
+                            Edge view
+                            <select
+                                onChange={(event) => {
+                                    setEdgeView(event.target.value);
+                                    setSelectedEdgeId(null);
+                                }}
+                                value={edgeView}
+                            >
+                                <option value="signal">Strongest per object + bridges</option>
+                                <option value="all">All eligible repeated pairs</option>
                             </select>
                         </label>
                         <label>
@@ -831,7 +1032,10 @@ export default function DanJohnDashboard({ view = "both" }) {
                             <input
                                 max="4"
                                 min="1"
-                                onChange={(event) => setMinPairFrequency(Number(event.target.value))}
+                                onChange={(event) => {
+                                    setMinPairFrequency(Number(event.target.value));
+                                    setSelectedEdgeId(null);
+                                }}
                                 step="1"
                                 type="range"
                                 value={minPairFrequency}
@@ -856,6 +1060,7 @@ export default function DanJohnDashboard({ view = "both" }) {
                             className={styles.resetButton}
                             onClick={() => {
                                 setSelectedId(null);
+                                setSelectedEdgeId(null);
                                 setNetworkQuery("");
                             }}
                             type="button"
@@ -866,31 +1071,47 @@ export default function DanJohnDashboard({ view = "both" }) {
                 </div>
 
                 <div className={styles.networkSummary} aria-live="polite">
-                    {selectedNode ? (
+                    {selectedEdge ? (
+                        <p>
+                            <strong>{selectedEdge.source} ↔ {selectedEdge.target}</strong> — {selectedEdge.frequency} extracted relations across {selectedEdge.videoCount} supporting videos; normalised association {selectedEdge.association.toFixed(3)}.
+                        </p>
+                    ) : selectedNode ? (
                         <p>
                             <strong>{selectedNode.id}</strong> — rank {selectedNode.rank?.toLocaleString() || "—"}, frequency {selectedNode.frequency.toLocaleString()}, {graphModel.allDirectCount.toLocaleString()} direct objects under the active filters.
                             {omittedDirect ? ` The display keeps the strongest 120 and omits ${omittedDirect}.` : ""}
                         </p>
                     ) : (
-                        <p>Select a search result or click a node to isolate its relational neighbourhood.</p>
+                        <p>Every visible object is labelled. Node fill shows analysis tier; community structure is conveyed by position, cards and filtering. Edge width uses normalised association; dashed edges connect communities.</p>
                     )}
                     {hoveredNode ? (
                         <p className={styles.hoverReadout}>
-                            <strong>{hoveredNode.id}</strong> · {hoveredNode.group} · frequency {hoveredNode.frequency} · rank {hoveredNode.rank}
+                            <strong>{hoveredNode.id}</strong> · {hoveredNode.communityLabel} · {hoveredNode.group} · frequency {hoveredNode.frequency}
                         </p>
                     ) : null}
                 </div>
 
+                <CommunityOverview
+                    activeCommunity={communityFilter}
+                    communities={data.communities}
+                    onSelect={(value) => {
+                        setCommunityFilter(value);
+                        setScope("communities");
+                        setSelectedId(null);
+                        setSelectedEdgeId(null);
+                    }}
+                />
+
                 <div className={styles.networkLegend}>
-                    {Object.entries(GROUP_COLOURS).map(([label, colour]) => (
-                        <span key={label}><i style={{ background: colour }} />{label}</span>
-                    ))}
-                    <span><i className={styles.selectedKey} />Selected</span>
-                    <span><i className={styles.directKey} />Direct relation</span>
+                    <span><i className={styles.analysisKey} />Analysis group</span>
+                    <span><i className={styles.firstOrderKey} />First order</span>
+                    <span><i className={styles.secondOrderKey} />Second order</span>
+                    <span><i className={styles.bridgeKey} />Double border: bridge object</span>
+                    <span><i className={styles.selectedKey} />Selected node or edge</span>
+                    <span><i className={styles.directKey} />Direct neighbourhood</span>
                 </div>
 
                 <p className={styles.networkInstructions} id="relation-network-description">
-                    Use object search and the keyboard-accessible suggestions to select a node. The directed-relations table below exposes the same selected evidence without requiring graph interaction.
+                    Click a node to isolate its neighbourhood, or click an edge to inspect the exact directed statements and supporting videos. Community labels are inferred from graph structure and remain interpretations rather than extracted facts.
                 </p>
                 <div
                     aria-describedby="relation-network-description"
@@ -902,13 +1123,13 @@ export default function DanJohnDashboard({ view = "both" }) {
 
                 <div className={styles.relationOutput}>
                     <div className={styles.relationOutputHeading}>
-                        <h4>Directed relations for the selected object</h4>
+                        <h4>{selectedEdge ? "Directed evidence for the selected pair" : "Directed relations for the selected object"}</h4>
                         <p>Subject → relation wording → object. Pair frequency remains undirected; the extracted statement does not.</p>
                     </div>
-                    {selectedNode ? (
+                    {selectedNode || selectedEdge ? (
                         <RelationTable rows={relationRows} videoById={videoById} />
                     ) : (
-                        <p className={styles.emptyState}>Select an object to display its complete relation wording.</p>
+                        <p className={styles.emptyState}>Select an object or edge to display its complete relation wording.</p>
                     )}
                 </div>
             </section> : null}

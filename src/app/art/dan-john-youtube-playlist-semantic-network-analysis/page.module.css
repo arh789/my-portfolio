@@ -1784,6 +1784,79 @@
     text-align: right;
 }
 
+.communityOverview {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.018);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.communityOverviewHeading {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: end;
+    margin-bottom: 0.8rem;
+}
+
+.communityOverviewHeading h4 {
+    margin: 0.3rem 0 0;
+    color: #fffdf4;
+    font-size: 1rem;
+}
+
+.communityOverviewHeading > p {
+    max-width: 38rem;
+    margin: 0;
+    color: rgba(244, 240, 223, 0.5);
+    font-size: 0.7rem;
+    line-height: 1.45;
+    text-align: right;
+}
+
+.communityGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+    gap: 0.45rem;
+}
+
+.communityGrid button {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    min-width: 0;
+    padding: 0.65rem;
+    color: rgba(244, 240, 223, 0.72);
+    background: #080808;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    text-align: left;
+}
+
+.communityGrid button:hover,
+.communityGrid button:focus-visible,
+.communityGrid .activeCommunity {
+    background: rgba(245, 227, 109, 0.07);
+    border-color: rgba(245, 227, 109, 0.55);
+    outline: none;
+}
+
+.communityGrid span {
+    display: grid;
+    gap: 0.25rem;
+    min-width: 0;
+}
+
+.communityGrid strong {
+    color: #fffdf4;
+    font-size: 0.72rem;
+    line-height: 1.35;
+}
+
+.communityGrid small {
+    color: rgba(244, 240, 223, 0.45);
+    font-size: 0.64rem;
+}
+
 .networkLegend {
     display: flex;
     flex-wrap: wrap;
@@ -1815,6 +1888,26 @@
     background: #f5a623;
 }
 
+.networkLegend .analysisKey {
+    background: #f5e36d;
+    border: 1px solid #e1ded3;
+}
+
+.networkLegend .firstOrderKey {
+    background: #5fb8ae;
+    border: 1px solid #e1ded3;
+}
+
+.networkLegend .secondOrderKey {
+    background: #59636d;
+    border: 1px solid #e1ded3;
+}
+
+.networkLegend .bridgeKey {
+    background: #59636d;
+    border: 3px double #f8f4df;
+}
+
 .networkCanvas {
     width: 100%;
     height: clamp(34rem, 62vw, 52rem);
@@ -1824,6 +1917,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     cursor: grab;
+    overscroll-behavior: contain;
+    touch-action: none;
 }
 
 .networkCanvas:active {
@@ -2066,6 +2161,7 @@
 
     .panelHeader,
     .chartToolbar,
+    .communityOverviewHeading,
     .relationOutputHeading,
     .networkSummary {
         align-items: stretch;
@@ -2074,6 +2170,7 @@
     }
 
     .panelHeader > p,
+    .communityOverviewHeading > p,
     .relationOutputHeading p,
     .hoverReadout {
         text-align: left;
