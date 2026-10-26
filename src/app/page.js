@@ -7,7 +7,7 @@ import { SITE_NAVIGATION } from './siteNavigation';
 export const metadata = {
     title: 'Decrepit Filth | Grotesque Art, Semantic Structure, and AI Visibility',
     description:
-        'A grotesque art archive and semantic testbed for building hard-to-flatten structure across search, LLMs, content strategy, AI visibility, and platform representation.',
+        'Applied research using Python, NLP, network analysis and generative AI to examine search, digital media, art and AI visibility through code and case studies.',
     keywords: [
         'grotesque art archive',
         'AI visibility',
