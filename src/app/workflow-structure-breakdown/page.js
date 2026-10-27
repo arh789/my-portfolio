@@ -12,6 +12,9 @@ export const metadata = {
     title: 'Workflow Structure Breakdown | Semantic SEO Research Pipeline',
     description:
         'A 7-stage execution pipeline for SEO research combining real-time SERP scraping, LLM summarisation, keyword extraction, clustering, and association rule mining. Designed to replace guesswork with structurally aligned, semantically rich keyword data.',
+    alternates: {
+        canonical: '/workflow-structure-breakdown',
+    },
     keywords: [
         'semantic SEO workflow',
         'SEO research pipeline',

@@ -247,7 +247,9 @@ const graph = {
 const staticPages = STATIC_SITE_PAGES.map((page) => {
   const { navigation, priority, lastModified, ...publicPage } = page;
   const resolvedLastModified =
-    page.id === "art" ? archiveLastModified : lastModified;
+    page.id === "art"
+      ? latestDate([archiveLastModified, lastModified])
+      : lastModified;
   const agentPriority = buildAgentPriority(page.path, {
     context: "medium",
     traversal: "medium",

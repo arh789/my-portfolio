@@ -16,6 +16,9 @@ const fell = IM_Fell_English_SC({
 export const metadata = {
     title: 'About Decrepit Filth | Art, Semantic SEO and AI Research',
     description: 'Decrepit Filth is an experimental art and research site using Semantic SEO, Python, network analysis and human-supervised AI to make difficult-to-classify creative work structurally legible.',
+    alternates: {
+        canonical: '/about',
+    },
     keywords: [
         'recursive AI SEO',
         'symbolic content systems',

@@ -14,6 +14,9 @@ export const metadata = {
     title: 'How AI, Network Analysis and LLMs Reveal Hidden Structure in Content | DecrepitFilth.art',
     description:
         'A framework for understanding how deep learning, network analysis, LLMs, and human judgement locate hidden structure by recovering what representations conceal.',
+    alternates: {
+        canonical: '/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content',
+    },
     keywords: [
         'hidden structure',
         'representation loss',

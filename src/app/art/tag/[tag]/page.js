@@ -23,6 +23,10 @@ export async function generateMetadata({ params }) {
     return {
         title: `${tag} | Art`,
         description: `Articles filed under ${tag}.`,
+        robots: {
+            index: false,
+            follow: true,
+        },
     };
 }
 

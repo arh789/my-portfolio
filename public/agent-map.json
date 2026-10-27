@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-26T04:16:36.490Z",
+  "generatedAt": "2026-10-27T05:15:32.014Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -132,7 +132,7 @@
         "canonical": "https://decrepitfilth.art/about",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-09-10"
+        "lastModified": "2026-10-27"
       },
       "questionsAnswered": [
         "What is Decrepit Filth?",
@@ -200,7 +200,7 @@
         "canonical": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-10-14"
+        "lastModified": "2026-10-27"
       },
       "questionsAnswered": [
         "What structure gets lost when reality is converted into data?",
@@ -275,7 +275,7 @@
         "canonical": "https://decrepitfilth.art/workflow-structure-breakdown",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-09-10"
+        "lastModified": "2026-10-27"
       },
       "questionsAnswered": [
         "How is the research pipeline structured?",
@@ -650,7 +650,7 @@
         "canonical": "https://decrepitfilth.art/art",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-10-24"
+        "lastModified": "2026-10-27"
       },
       "questionsAnswered": [
         "What has been published?",
@@ -4751,7 +4751,7 @@
         "key": "id",
         "value": "about"
       },
-      "lastModified": "2026-09-10",
+      "lastModified": "2026-10-27",
       "priority": 0.8
     },
     {
@@ -4764,7 +4764,7 @@
         "key": "id",
         "value": "hidden-structure"
       },
-      "lastModified": "2026-10-14",
+      "lastModified": "2026-10-27",
       "priority": 0.8
     },
     {
@@ -4777,7 +4777,7 @@
         "key": "id",
         "value": "workflow-structure-breakdown"
       },
-      "lastModified": "2026-09-10",
+      "lastModified": "2026-10-27",
       "priority": 0.8
     },
     {
@@ -4842,7 +4842,7 @@
         "key": "id",
         "value": "art"
       },
-      "lastModified": "2026-10-24",
+      "lastModified": "2026-10-27",
       "priority": 0.8
     },
     {

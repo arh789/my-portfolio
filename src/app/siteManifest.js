@@ -18,7 +18,7 @@ export const STATIC_SITE_PAGES = [
         title: "What is Decrepit Filth?",
         summary:
             "Defines Decrepit Filth as a self-describing semantic system in which grotesque art, AI research, Semantic SEO, content strategy and archiving operate as one structural experiment.",
-        lastModified: "2026-09-10",
+        lastModified: "2026-10-27",
         priority: 0.8,
         navigation: {
             label: "About",
@@ -34,7 +34,7 @@ export const STATIC_SITE_PAGES = [
         title: "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
         summary:
             "Explains how statistical, relational, semantic and human interpretation can be combined to recover structure hidden by compressed representations.",
-        lastModified: "2026-10-14",
+        lastModified: "2026-10-27",
         priority: 0.8,
         navigation: {
             label: "Discovering Hidden Structure",
@@ -50,7 +50,7 @@ export const STATIC_SITE_PAGES = [
         title: "Workflow Structure Breakdown",
         summary:
             "Documents a bottom-up workflow moving from search-result collection through semantic reduction, graph analysis and human-supervised interpretation.",
-        lastModified: "2026-09-10",
+        lastModified: "2026-10-27",
         priority: 0.8,
         navigation: {
             label: "Workflow Structure Breakdown",
@@ -130,7 +130,7 @@ export const STATIC_SITE_PAGES = [
         title: "Art and Research Concept Hub",
         summary:
             "Navigation hub representing the article archive as a concept network built from shared tags, guided project pathways and individual article records.",
-        lastModified: null,
+        lastModified: "2026-10-27",
         priority: 0.8,
         navigation: {
             label: "Archive Graph",

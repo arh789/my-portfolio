@@ -33,7 +33,7 @@ export const metadata = {
             "The recurring programme-design decisions made visible across 382 Dan John videos.",
         type: "article",
         publishedTime: "2026-10-13",
-        modifiedTime: "2026-10-17",
+        modifiedTime: "2026-10-24",
         authors: ["Andrew Hale"],
         url: "/art/dan-john-youtube-playlist-semantic-network-analysis",
     },
@@ -624,7 +624,7 @@ const structuredData = {
         "A reproducible semantic network analysis of 382 Dan John strength-coaching videos.",
     author: { "@type": "Person", name: "Andrew Hale" },
     datePublished: "2026-10-13",
-    dateModified: "2026-10-17",
+    dateModified: "2026-10-24",
     url: "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
     mainEntityOfPage:
         "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",

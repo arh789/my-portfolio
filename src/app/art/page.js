@@ -8,6 +8,9 @@ export const metadata = {
     title: "Art",
     description:
         "A concept hub for the blog, organised by tags and generated from the article graph.",
+    alternates: {
+        canonical: "/art",
+    },
 };
 
 async function readGraphData() {
