@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 import ProjectPathway from "../components/ProjectPathway.js";
 import { readArticles } from "../lib/readArticles.js";
 import {
@@ -60,16 +61,68 @@ const sectionIds = Object.freeze({
 });
 
 const contents = [
-    ["Question", sectionIds.question],
-    ["Core discovery", sectionIds.findings],
-    ["Training structures", sectionIds.interpretation],
-    ["Five videos", sectionIds.watch],
-    ["Explore evidence", sectionIds.explore],
-    ["Code", sectionIds.code],
-    ["Method", sectionIds.method],
-    ["Artefacts", sectionIds.artefacts],
-    ["Limits", sectionIds.limitations],
+    { label: "Question", id: sectionIds.question, phase: "opening" },
+    { label: "Core discovery", id: sectionIds.findings, phase: "discovery" },
+    { label: "Training structures", id: sectionIds.interpretation, phase: "discovery" },
+    { label: "Five videos", id: sectionIds.watch, phase: "discovery" },
+    { label: "Explore evidence", id: sectionIds.explore, phase: "evidence" },
+    { label: "Code", id: sectionIds.code, phase: "evidence" },
+    { label: "Method", id: sectionIds.method, phase: "evidence" },
+    { label: "Artefacts", id: sectionIds.artefacts, phase: "reference" },
+    { label: "Limits", id: sectionIds.limitations, phase: "reference" },
 ];
+
+const sectionNavScript = `
+(() => {
+    const links = Array.from(document.querySelectorAll("[data-section-link]"));
+    const progress = document.querySelector("[data-section-progress]");
+    const ids = links.map((link) => link.dataset.sectionLink);
+    let ticking = false;
+
+    const setActive = (activeId) => {
+        links.forEach((link) => {
+            if (link.dataset.sectionLink === activeId) {
+                link.setAttribute("aria-current", "location");
+            } else {
+                link.removeAttribute("aria-current");
+            }
+        });
+
+        if (progress) {
+            const index = ids.indexOf(activeId);
+            progress.textContent = index <= 0
+                ? "Opening"
+                : String(index).padStart(2, "0") + " / 08";
+        }
+    };
+
+    const update = () => {
+        const marker = Math.min(180, window.innerHeight * 0.28);
+        let activeId = ids[0];
+
+        ids.forEach((id) => {
+            const section = document.getElementById(id);
+            if (section && section.getBoundingClientRect().top <= marker) {
+                activeId = id;
+            }
+        });
+
+        setActive(activeId);
+        ticking = false;
+    };
+
+    const queueUpdate = () => {
+        if (!ticking) {
+            ticking = true;
+            window.requestAnimationFrame(update);
+        }
+    };
+
+    update();
+    window.addEventListener("scroll", queueUpdate, { passive: true });
+    window.addEventListener("resize", queueUpdate);
+    window.addEventListener("hashchange", queueUpdate);
+})();`;
 
 const studyRecord = [
     ["Extraction record", "V1.1 source-linked object–relation JSON records produced directly from downloaded transcripts with Codex 5.6 Sol at extra-high reasoning"],
@@ -744,10 +797,13 @@ export default async function DanJohnSemanticNetworkPage() {
             <div className={styles.shell}>
                 <aside className={styles.sidebar} aria-label="Case-study contents">
                     <div className={styles.sidebarInner}>
-                        <p>Case-study contents</p>
+                        <div className={styles.sidebarHeader}>
+                            <p>Case-study contents</p>
+                            <span data-section-progress>Opening</span>
+                        </div>
                         <nav>
-                            {contents.map(([label, id]) => (
-                                <a href={`#${id}`} key={id}>{label}</a>
+                            {contents.map(({ label, id, phase }) => (
+                                <a data-phase={phase} data-section-link={id} href={`#${id}`} key={id}>{label}</a>
                             ))}
                         </nav>
                         <div className={styles.sidebarMeta}>
@@ -761,8 +817,12 @@ export default async function DanJohnSemanticNetworkPage() {
                     </div>
                 </aside>
 
+                <Script id="dan-john-section-navigation" strategy="afterInteractive">
+                    {sectionNavScript}
+                </Script>
+
                 <article className={styles.content}>
-                    <section className={styles.section} id={sectionIds.findings}>
+                    <section className={styles.section} data-phase="discovery" id={sectionIds.findings}>
                         <SectionHeading
                             eyebrow="01 / Core discovery"
                             title="Across 382 videos, the same programme-design grammar keeps reappearing"
@@ -872,7 +932,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </p>
                     </section>
 
-                    <section className={styles.section} id={sectionIds.interpretation}>
+                    <section className={styles.section} data-phase="discovery" id={sectionIds.interpretation}>
                         <SectionHeading
                             eyebrow="02 / Training structures"
                             title="The relations show how exercises become programmes"
@@ -980,7 +1040,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id={sectionIds.watch}>
+                    <section className={styles.section} data-phase="discovery" id={sectionIds.watch}>
                         <SectionHeading
                             eyebrow="03 / Minimum sufficient viewing"
                             title="The five videos you definitely should watch"
@@ -1032,7 +1092,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id={sectionIds.explore}>
+                    <section className={styles.section} data-phase="evidence" data-phase-start="true" id={sectionIds.explore}>
                         <SectionHeading
                             eyebrow="04 / Interactive evidence"
                             title="Test the interpretation against the source-linked relation network"
@@ -1051,7 +1111,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         <DanJohnDashboard />
                     </section>
 
-                    <section className={styles.section} id={sectionIds.code}>
+                    <section className={styles.section} data-phase="evidence" id={sectionIds.code}>
                         <SectionHeading
                             eyebrow="05 / Code and reproducibility"
                             title="The operations that generated and exposed the results"
@@ -1067,7 +1127,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id={sectionIds.method}>
+                    <section className={styles.section} data-phase="evidence" id={sectionIds.method}>
                         <SectionHeading
                             eyebrow="06 / Methodological record"
                             title="How the unit of analysis changed across ten epochs"
@@ -1110,7 +1170,7 @@ export default async function DanJohnSemanticNetworkPage() {
                             <pre>{analysisProgression}</pre>
                         </div>
 
-                        <p>
+                        <p className={styles.epochBridge}>
                             The <Link href="/art/tiktok-video-analysis-with-python">CreepyTok analysis</Link> provides a parallel case: it prepares a TikTok corpus for supervised interpretation, while this study continues through corpus-wide relational analysis and return to individual sources.
                         </p>
 
@@ -1143,7 +1203,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id={sectionIds.artefacts}>
+                    <section className={styles.section} data-phase="reference" data-phase-start="true" id={sectionIds.artefacts}>
                         <SectionHeading
                             eyebrow="07 / Research artefacts"
                             title="Inspect the notebook, corpus metadata and derived data"
@@ -1191,7 +1251,7 @@ export default async function DanJohnSemanticNetworkPage() {
                         </div>
                     </section>
 
-                    <section className={styles.section} id={sectionIds.limitations}>
+                    <section className={styles.section} data-phase="reference" id={sectionIds.limitations}>
                         <SectionHeading
                             eyebrow="08 / Limits"
                             title="What the analysis does not establish"
