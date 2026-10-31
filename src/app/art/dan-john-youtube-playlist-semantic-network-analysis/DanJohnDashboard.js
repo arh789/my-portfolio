@@ -274,7 +274,7 @@ function RelationTable({ rows, videoById }) {
                                                     <li key={videoId}>
                                                         <a
                                                             href={video?.url || `https://www.youtube.com/watch?v=${videoId}`}
-                                                            rel="noreferrer"
+                                                            rel="noopener"
                                                             target="_blank"
                                                         >
                                                             {video?.title || videoId}

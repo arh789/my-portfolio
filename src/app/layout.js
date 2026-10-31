@@ -49,19 +49,19 @@ export default function RootLayout({ children }) {
 
                     <footer>
                         <div className="social-links-container">
-                            <Link href="https://www.youtube.com/@DecrepitFilth_art" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.youtube.com/@DecrepitFilth_art" target="_blank" rel="noopener">
                                 YouTube
                             </Link>
-                            <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.instagram.com" target="_blank" rel="noopener">
                                 Instagram
                             </Link>
-                            <Link href="https://www.linkedin.com/in/andrewrhale1/" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.linkedin.com/in/andrewrhale1/" target="_blank" rel="noopener">
                                 LinkedIn
                             </Link>
-                            <Link href="https://www.tiktok.com/@decrepitfilth.art" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.tiktok.com/@decrepitfilth.art" target="_blank" rel="noopener">
                                 TikTok
                             </Link>
-                            <Link href="https://github.com/arh789/" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://github.com/arh789/" target="_blank" rel="noopener">
                                 GitHub
                             </Link>
                         </div>

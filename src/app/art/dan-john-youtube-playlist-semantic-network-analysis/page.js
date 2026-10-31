@@ -645,7 +645,7 @@ function VideoEmbed({ video, featured = false, index }) {
                 <p className={styles.videoRole}>{String(index + 1).padStart(2, "0")} · {video.role}</p>
                 <h3>{video.title}</h3>
                 <p>{video.description}</p>
-                <Link href={`https://www.youtube.com/watch?v=${video.id}`} rel="noopener noreferrer" target="_blank">
+                <Link href={`https://www.youtube.com/watch?v=${video.id}`} rel="noopener" target="_blank">
                     Open on YouTube <span aria-hidden="true">↗</span>
                 </Link>
             </div>
@@ -767,7 +767,7 @@ export default async function DanJohnSemanticNetworkPage() {
                             <span>Research question</span>
                             <p>
                                 What does the complete usable corpus reveal about how{" "}
-                                <Link href="https://danjohnuniversity.com/" rel="noopener noreferrer" target="_blank">
+                                <Link href="https://danjohnuniversity.com/" rel="noopener" target="_blank">
                                     Dan John
                                 </Link>{" "}
                                 communicates and structures strength training?
@@ -1045,7 +1045,7 @@ export default async function DanJohnSemanticNetworkPage() {
                             </blockquote>
                             <p className={styles.sourceComparison}>
                                 The network reaches a conclusion Dan John states more directly in{" "}
-                                <Link href="https://www.otpbooks.com/dan-john-gamechangers/" rel="noopener noreferrer" target="_blank">
+                                <Link href="https://www.otpbooks.com/dan-john-gamechangers/" rel="noopener" target="_blank">
                                     My Game Changers
                                 </Link>
                                 : understand the idea behind a programme, not just its prescription.
