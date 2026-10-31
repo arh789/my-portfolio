@@ -3,7 +3,7 @@
 title: "How Search and Recommendation Systems Actually Work"
 description: "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities."
 date: "2026-06-05"
-lastModified: "2026-08-14"
+lastModified: "2026-11-01"
 projects:
   - slug: semantic-seo-graph-positioning
     order: 3
@@ -169,7 +169,7 @@ This distinction helps explain why optimisation and visibility often diverge.
 
 It also helps explain why process frequently matters more than isolated content improvements.
 
-A related discussion appears in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
+A related discussion appears in [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 Understanding these systems is particularly useful for people operating under constraint, as discussed in [Who Benefits Most From This System](/art/who-benefits-most-from-this-system).
 
@@ -311,7 +311,7 @@ They are attempting to understand how users, interests, behaviours, creators, an
 
 The resulting graph becomes more valuable than any individual item within it.
 
-This idea sits at the centre of [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
+This idea sits at the centre of [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 A practical implementation of this process is described in [Semantic SEO in Python: From Search Results to Original Content Strategy](/art/semantic-seo-in-python-from-search-results-to-original-content-strategy).
 
@@ -388,7 +388,7 @@ The deeper problem remains unresolved.
 
 The system still lacks a useful representation of what the content actually is.
 
-This issue is explored further in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
+This issue is explored further in [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 The visibility consequences of weak structural legibility are discussed in [Visibility Under Hostile Conditions](/art/visibility-under-hostile-conditions).
 
@@ -468,7 +468,7 @@ This idea is explored from a creative perspective in [Maximising Artistic Identi
 
 The underlying artistic doctrine is described in [First Principles](/art/first-principles).
 
-From an information-retrieval perspective, the same issue appears in [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
+From an information-retrieval perspective, the same issue appears in [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 ---
 
@@ -646,7 +646,7 @@ It clarifies relationships.
 
 It improves the retrievability of adjacent information.
 
-This is the central argument of [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
+This is the central argument of [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 A practical implementation of that approach is described in [Semantic SEO in Python: From Search Results to Original Content Strategy](/art/semantic-seo-in-python-from-search-results-to-original-content-strategy).
 
@@ -803,9 +803,7 @@ Meaning becomes visible when it becomes structurally legible.
 
 To explore the methodology behind this process, see [Research Pipeline](/art/research-pipeline).
 
-For its application to search, see [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
-
-For a broader discussion of visibility and discovery, see [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
+For its application to search, see [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 ## Where to Go Next
 
@@ -825,7 +823,7 @@ This article explains how search results, recommendation outputs, and other obse
 
 Continue with:
 
-→ [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning)
+→ [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem)
 
 This article explores why visibility increasingly depends on relationships between entities, concepts, and information structures rather than isolated page optimisation.
 

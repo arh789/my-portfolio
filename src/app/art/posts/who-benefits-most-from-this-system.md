@@ -2,7 +2,7 @@
 title: "Who This Semantic SEO System Is For—and Why"
 description: This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.
 date: 2026-04-25
-lastModified: "2026-09-09"
+lastModified: "2026-11-01"
 tags:
   - creative-search-system
   - strategic-positioning
@@ -25,7 +25,7 @@ search evidence
 → connected content intervention
 ```
 
-Its implementation is demonstrated in the [Semantic SEO Lab](/semantic-seo-lab). The underlying method is documented in the [Research Pipeline](/art/research-pipeline), while [Semantic SEO Is Graph Positioning](/art/semantic-seo-is-graph-positioning) explains the strategic argument behind it.
+Its implementation is demonstrated in the [Semantic SEO Lab](/semantic-seo-lab). The underlying method is documented in the [Research Pipeline](/art/research-pipeline), while [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem) explains the strategic argument behind it.
 
 The system provides its greatest advantage to people who have limited inherited authority or distribution but can compete by understanding structure more clearly than established competitors.
 

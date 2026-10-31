@@ -31,9 +31,9 @@ const PROJECT_DEFINITIONS = [
         title: "Semantic SEO as Graph Positioning",
         eyebrow: "Guided strategy",
         description:
-            "A connected argument that reframes Semantic SEO as structural legibility and graph positioning rather than isolated content optimisation.",
+            "A connected argument that reframes Semantic SEO as information-retrieval engineering: producing, positioning and maintaining structurally legible information rather than optimising isolated pages.",
         introduction:
-            "Follow the argument from pre-optimisation structure through search-system behaviour, graph positioning, creative visibility and the resulting content operating system.",
+            "Follow the argument from information production through search-system behaviour, graph positioning, graph maintenance, creative visibility and the resulting content operating system.",
     },
     {
         slug: "seer-clown-research",

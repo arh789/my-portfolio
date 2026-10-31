@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-31T06:44:41.765Z",
+  "generatedAt": "2026-10-31T22:55:20.076Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -53,11 +53,11 @@
   },
   "counts": {
     "corePages": 10,
-    "articles": 45,
+    "articles": 44,
     "projects": 6,
-    "indexedUrls": 61,
-    "siteGraphNodes": 61,
-    "siteGraphEdges": 158,
+    "indexedUrls": 60,
+    "siteGraphNodes": 60,
+    "siteGraphEdges": 155,
     "semanticHubs": 9,
     "projectHubs": 6
   },
@@ -200,7 +200,7 @@
         "canonical": "https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-10-27"
+        "lastModified": "2026-11-01"
       },
       "questionsAnswered": [
         "What structure gets lost when reality is converted into data?",
@@ -650,7 +650,7 @@
         "canonical": "https://decrepitfilth.art/art",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-10-31"
+        "lastModified": "2026-11-01"
       },
       "questionsAnswered": [
         "What has been published?",
@@ -827,11 +827,11 @@
       }
     },
     {
-      "id": "/art/semantic-seo-is-graph-positioning",
-      "path": "/art/semantic-seo-is-graph-positioning",
-      "url": "https://decrepitfilth.art/art/semantic-seo-is-graph-positioning",
-      "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-      "summary": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
+      "id": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+      "path": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+      "url": "https://decrepitfilth.art/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+      "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+      "summary": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
       "architectureRole": "supporting",
       "agentPriority": {
         "context": "high",
@@ -842,12 +842,12 @@
           "semantic-seo-bridge"
         ]
       },
-      "purpose": "Organising proposition that page value is partly positional and originality can change relationships in the graph.",
+      "purpose": "Organising proposition that SEO is information-retrieval engineering: page value depends partly on graph position, while retrievability depends on maintaining useful distinctions and relationships.",
       "source": {
         "resource": "/graph.json",
         "collection": "articles",
         "key": "slug",
-        "value": "semantic-seo-is-graph-positioning"
+        "value": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem"
       }
     },
     {
@@ -1233,8 +1233,8 @@
       "path": "/art/project/semantic-seo-graph-positioning",
       "url": "https://decrepitfilth.art/art/project/semantic-seo-graph-positioning",
       "title": "Semantic SEO as Graph Positioning",
-      "summary": "A connected argument that reframes Semantic SEO as structural legibility and graph positioning rather than isolated content optimisation.",
-      "introduction": "Follow the argument from pre-optimisation structure through search-system behaviour, graph positioning, creative visibility and the resulting content operating system.",
+      "summary": "A connected argument that reframes Semantic SEO as information-retrieval engineering: producing, positioning and maintaining structurally legible information rather than optimising isolated pages.",
+      "introduction": "Follow the argument from information production through search-system behaviour, graph positioning, graph maintenance, creative visibility and the resulting content operating system.",
       "architectureRole": "supporting",
       "agentPriority": {
         "context": "medium",
@@ -1248,20 +1248,14 @@
       "sequence": [
         {
           "order": 1,
-          "path": "/art/semantic-seo-begins-before-optimisation",
-          "title": "Semantic SEO Begins Before Optimisation",
+          "path": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+          "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
           "role": "chapter"
         },
         {
           "order": 3,
           "path": "/art/how-search-and-recommendation-systems-actually-work",
           "title": "How Search and Recommendation Systems Actually Work",
-          "role": "chapter"
-        },
-        {
-          "order": 4,
-          "path": "/art/semantic-seo-is-graph-positioning",
-          "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
           "role": "chapter"
         },
         {
@@ -1576,7 +1570,7 @@
     },
     {
       "source": "/semantic-seo-lab",
-      "target": "/art/semantic-seo-is-graph-positioning",
+      "target": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
       "type": "tests"
     },
     {
@@ -1865,6 +1859,49 @@
           "collection": "pages",
           "key": "id",
           "value": "contact"
+        }
+      },
+      {
+        "id": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "path": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "url": "https://decrepitfilth.art/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "kind": "article",
+        "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "summary": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+        "architectureRole": "supporting",
+        "published": "2026-11-01",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ],
+        "contentType": "article",
+        "medium": "article",
+        "projects": [
+          {
+            "slug": "semantic-seo-graph-positioning",
+            "order": 1,
+            "role": "chapter"
+          }
+        ],
+        "agentPriority": {
+          "context": "high",
+          "traversal": "high",
+          "evidence": "medium",
+          "roles": [
+            "organising-proposition",
+            "semantic-seo-bridge"
+          ]
+        },
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem"
         }
       },
       {
@@ -2839,47 +2876,6 @@
         }
       },
       {
-        "id": "/art/semantic-seo-is-graph-positioning",
-        "path": "/art/semantic-seo-is-graph-positioning",
-        "url": "https://decrepitfilth.art/art/semantic-seo-is-graph-positioning",
-        "kind": "article",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "summary": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "architectureRole": "supporting",
-        "published": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ],
-        "contentType": "article",
-        "medium": "article",
-        "projects": [
-          {
-            "slug": "semantic-seo-graph-positioning",
-            "order": 4,
-            "role": "chapter"
-          }
-        ],
-        "agentPriority": {
-          "context": "high",
-          "traversal": "high",
-          "evidence": "medium",
-          "roles": [
-            "organising-proposition",
-            "semantic-seo-bridge"
-          ]
-        },
-        "source": {
-          "resource": "/graph.json",
-          "collection": "articles",
-          "key": "slug",
-          "value": "semantic-seo-is-graph-positioning"
-        }
-      },
-      {
         "id": "/art/python-nlp-semantic-seo",
         "path": "/art/python-nlp-semantic-seo",
         "url": "https://decrepitfilth.art/art/python-nlp-semantic-seo",
@@ -3615,46 +3611,6 @@
         }
       },
       {
-        "id": "/art/semantic-seo-begins-before-optimisation",
-        "path": "/art/semantic-seo-begins-before-optimisation",
-        "url": "https://decrepitfilth.art/art/semantic-seo-begins-before-optimisation",
-        "kind": "article",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "summary": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "architectureRole": "supporting",
-        "published": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ],
-        "contentType": "article",
-        "medium": "article",
-        "projects": [
-          {
-            "slug": "semantic-seo-graph-positioning",
-            "order": 1,
-            "role": "chapter"
-          }
-        ],
-        "agentPriority": {
-          "context": "standard",
-          "traversal": "medium",
-          "evidence": "unassessed",
-          "roles": [
-            "published-article"
-          ]
-        },
-        "source": {
-          "resource": "/graph.json",
-          "collection": "articles",
-          "key": "slug",
-          "value": "semantic-seo-begins-before-optimisation"
-        }
-      },
-      {
         "id": "/art/visibility-under-hostile-conditions",
         "path": "/art/visibility-under-hostile-conditions",
         "url": "https://decrepitfilth.art/art/visibility-under-hostile-conditions",
@@ -3779,11 +3735,11 @@
         "url": "https://decrepitfilth.art/art/project/semantic-seo-graph-positioning",
         "kind": "project",
         "title": "Semantic SEO as Graph Positioning",
-        "summary": "A connected argument that reframes Semantic SEO as structural legibility and graph positioning rather than isolated content optimisation.",
+        "summary": "A connected argument that reframes Semantic SEO as information-retrieval engineering: producing, positioning and maintaining structurally legible information rather than optimising isolated pages.",
         "architectureRole": "supporting",
-        "introduction": "Follow the argument from pre-optimisation structure through search-system behaviour, graph positioning, creative visibility and the resulting content operating system.",
+        "introduction": "Follow the argument from information production through search-system behaviour, graph positioning, graph maintenance, creative visibility and the resulting content operating system.",
         "articleCounts": {
-          "chapters": 5,
+          "chapters": 4,
           "resources": 3
         },
         "agentPriority": {
@@ -4004,7 +3960,7 @@
       },
       {
         "source": "/semantic-seo-lab",
-        "target": "/art/semantic-seo-is-graph-positioning",
+        "target": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "type": "tests"
       },
       {
@@ -4031,6 +3987,11 @@
         "source": "/art/ai-visibility-is-not-value",
         "target": "/art/representation-governance",
         "type": "culminates-in"
+      },
+      {
+        "source": "/art",
+        "target": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "type": "contains-article"
       },
       {
         "source": "/art",
@@ -4154,11 +4115,6 @@
       },
       {
         "source": "/art",
-        "target": "/art/semantic-seo-is-graph-positioning",
-        "type": "contains-article"
-      },
-      {
-        "source": "/art",
         "target": "/art/python-nlp-semantic-seo",
         "type": "contains-article"
       },
@@ -4245,11 +4201,6 @@
       {
         "source": "/art",
         "target": "/art/most-popular-art-mediums-based-on-the-datasets",
-        "type": "contains-article"
-      },
-      {
-        "source": "/art",
-        "target": "/art/semantic-seo-begins-before-optimisation",
         "type": "contains-article"
       },
       {
@@ -4540,19 +4491,13 @@
         "project": "sda3-structural-extraction"
       },
       {
-        "source": "/art/semantic-seo-begins-before-optimisation",
+        "source": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "target": "/art/project/semantic-seo-graph-positioning",
         "type": "belongs-to-project",
         "project": "semantic-seo-graph-positioning"
       },
       {
         "source": "/art/how-search-and-recommendation-systems-actually-work",
-        "target": "/art/project/semantic-seo-graph-positioning",
-        "type": "belongs-to-project",
-        "project": "semantic-seo-graph-positioning"
-      },
-      {
-        "source": "/art/semantic-seo-is-graph-positioning",
         "target": "/art/project/semantic-seo-graph-positioning",
         "type": "belongs-to-project",
         "project": "semantic-seo-graph-positioning"
@@ -4588,19 +4533,13 @@
         "project": "semantic-seo-graph-positioning"
       },
       {
-        "source": "/art/semantic-seo-begins-before-optimisation",
+        "source": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "target": "/art/how-search-and-recommendation-systems-actually-work",
         "type": "precedes",
         "project": "semantic-seo-graph-positioning"
       },
       {
         "source": "/art/how-search-and-recommendation-systems-actually-work",
-        "target": "/art/semantic-seo-is-graph-positioning",
-        "type": "precedes",
-        "project": "semantic-seo-graph-positioning"
-      },
-      {
-        "source": "/art/semantic-seo-is-graph-positioning",
         "target": "/art/ai-seo-strategy-why-your-creative-work-is-invisible",
         "type": "precedes",
         "project": "semantic-seo-graph-positioning"
@@ -4764,7 +4703,7 @@
         "key": "id",
         "value": "hidden-structure"
       },
-      "lastModified": "2026-10-27",
+      "lastModified": "2026-11-01",
       "priority": 0.8
     },
     {
@@ -4842,7 +4781,7 @@
         "key": "id",
         "value": "art"
       },
-      "lastModified": "2026-10-31",
+      "lastModified": "2026-11-01",
       "priority": 0.8
     },
     {
@@ -4857,6 +4796,18 @@
       },
       "lastModified": "2026-09-10",
       "priority": 0.8
+    },
+    {
+      "path": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+      "url": "https://decrepitfilth.art/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+      "kind": "article",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem"
+      },
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/dan-john-youtube-playlist-semantic-network-analysis",
@@ -4964,7 +4915,7 @@
         "key": "slug",
         "value": "ai-visibility-is-not-value"
       },
-      "lastModified": "2026-08-14"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -4976,7 +4927,7 @@
         "key": "slug",
         "value": "ai-visibility-is-not-a-direct-optimisation-outcome"
       },
-      "lastModified": "2026-08-14"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/source-eligibility-being-available-is-not-being-chosen",
@@ -4988,7 +4939,7 @@
         "key": "slug",
         "value": "source-eligibility-being-available-is-not-being-chosen"
       },
-      "lastModified": "2026-10-12"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/ai-visibility-is-not-one-environment",
@@ -5000,7 +4951,7 @@
         "key": "slug",
         "value": "ai-visibility-is-not-one-environment"
       },
-      "lastModified": "2026-08-14"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/the-selection-gap",
@@ -5012,7 +4963,7 @@
         "key": "slug",
         "value": "the-selection-gap"
       },
-      "lastModified": "2026-08-14"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/selected-does-not-mean-cited",
@@ -5060,7 +5011,7 @@
         "key": "slug",
         "value": "the-citable-hard-to-exhaust-archive"
       },
-      "lastModified": "2026-08-14"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/representation-governance",
@@ -5120,7 +5071,7 @@
         "key": "slug",
         "value": "ai-seo-strategy-why-your-creative-work-is-invisible"
       },
-      "lastModified": "2026-10-12"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/from-seo-keywords-to-the-haunted-machine",
@@ -5132,7 +5083,7 @@
         "key": "slug",
         "value": "from-seo-keywords-to-the-haunted-machine"
       },
-      "lastModified": "2026-10-12"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/how-search-and-recommendation-systems-actually-work",
@@ -5144,19 +5095,7 @@
         "key": "slug",
         "value": "how-search-and-recommendation-systems-actually-work"
       },
-      "lastModified": "2026-08-14"
-    },
-    {
-      "path": "/art/semantic-seo-is-graph-positioning",
-      "url": "https://decrepitfilth.art/art/semantic-seo-is-graph-positioning",
-      "kind": "article",
-      "source": {
-        "resource": "/graph.json",
-        "collection": "articles",
-        "key": "slug",
-        "value": "semantic-seo-is-graph-positioning"
-      },
-      "lastModified": "2026-08-14"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/python-nlp-semantic-seo",
@@ -5216,7 +5155,7 @@
         "key": "slug",
         "value": "who-benefits-most-from-this-system"
       },
-      "lastModified": "2026-09-09"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/clustered-output-instagram-dataset",
@@ -5375,18 +5314,6 @@
       "lastModified": "2026-08-14"
     },
     {
-      "path": "/art/semantic-seo-begins-before-optimisation",
-      "url": "https://decrepitfilth.art/art/semantic-seo-begins-before-optimisation",
-      "kind": "article",
-      "source": {
-        "resource": "/graph.json",
-        "collection": "articles",
-        "key": "slug",
-        "value": "semantic-seo-begins-before-optimisation"
-      },
-      "lastModified": "2026-08-14"
-    },
-    {
       "path": "/art/visibility-under-hostile-conditions",
       "url": "https://decrepitfilth.art/art/visibility-under-hostile-conditions",
       "kind": "article",
@@ -5420,7 +5347,7 @@
         "key": "slug",
         "value": "ai-visibility-is-not-value"
       },
-      "lastModified": "2026-10-12"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/project/sda3-structural-extraction",
@@ -5444,7 +5371,7 @@
         "key": "slug",
         "value": "semantic-seo-graph-positioning"
       },
-      "lastModified": "2026-10-14"
+      "lastModified": "2026-11-01"
     },
     {
       "path": "/art/project/seer-clown-research",

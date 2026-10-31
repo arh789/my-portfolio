@@ -3,7 +3,7 @@ title: "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Arch
 slug: the-citable-hard-to-exhaust-archive
 description: "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture."
 date: "2026-07-08"
-lastModified: "2026-08-14"
+lastModified: "2026-11-01"
 projects:
   - slug: ai-visibility-is-not-value
     order: 8
@@ -217,7 +217,7 @@ A vague article may still contain insight.
 
 A clear claim gives the insight a retrieval handle.
 
-This is the same reason semantic SEO should be understood as structure rather than decoration. The point is not simply to optimise language. The point is to make meaning structurally legible, as discussed in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
+This is the same reason semantic SEO should be understood as structure rather than decoration. The point is not simply to optimise language. The point is to make meaning structurally legible, as discussed in [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 ---
 

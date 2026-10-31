@@ -538,7 +538,7 @@ export const AGENT_PRIORITY_OVERRIDES = {
     evidence: "medium",
     roles: ["selection-model", "cross-system-bridge"],
   },
-  "/art/semantic-seo-is-graph-positioning": {
+  "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem": {
     context: "high",
     traversal: "high",
     evidence: "medium",
@@ -626,9 +626,9 @@ export const AGENT_SEMANTIC_HUB_CONTENT = {
     purpose:
       "Common selection and representation model spanning search, recommendation and AI retrieval.",
   },
-  "semantic-seo-is-graph-positioning": {
+  "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem": {
     purpose:
-      "Organising proposition that page value is partly positional and originality can change relationships in the graph.",
+      "Organising proposition that SEO is information-retrieval engineering: page value depends partly on graph position, while retrievability depends on maintaining useful distinctions and relationships.",
   },
   "who-benefits-most-from-this-system": {
     purpose:
@@ -776,7 +776,7 @@ export const AGENT_RELATIONS = [
   {
     from: "semantic-seo-lab",
     type: "tests",
-    to: "/art/semantic-seo-is-graph-positioning",
+    to: "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
   },
   {
     from: "semantic-seo-lab",

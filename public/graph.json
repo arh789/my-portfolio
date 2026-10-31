@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-10-31T06:44:41.765Z",
+  "generatedAt": "2026-10-31T22:55:20.076Z",
   "articles": [
+    {
+      "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+      "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+      "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+      "date": "2026-11-01",
+      "tags": [
+        "search-and-discovery-systems",
+        "semantic-seo",
+        "creative-search-system",
+        "structural-legibility",
+        "discovery-systems-map",
+        "graph-positioning",
+        "semantic-archive"
+      ],
+      "type": "article",
+      "projects": [
+        {
+          "slug": "semantic-seo-graph-positioning",
+          "order": 1,
+          "role": "chapter"
+        }
+      ],
+      "medium": "article"
+    },
     {
       "slug": "dan-john-youtube-playlist-semantic-network-analysis",
       "route": "/art/dan-john-youtube-playlist-semantic-network-analysis",
@@ -535,28 +559,6 @@
       "medium": "article"
     },
     {
-      "slug": "semantic-seo-is-graph-positioning",
-      "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-      "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-      "date": "2026-06-05",
-      "tags": [
-        "search-and-discovery-systems",
-        "graph-positioning",
-        "creative-search-system",
-        "semantic-archive",
-        "discovery-systems-map"
-      ],
-      "type": "article",
-      "projects": [
-        {
-          "slug": "semantic-seo-graph-positioning",
-          "order": 4,
-          "role": "chapter"
-        }
-      ],
-      "medium": "article"
-    },
-    {
       "slug": "python-nlp-semantic-seo",
       "title": "Python for NLP and Semantic SEO: A Practical Reference",
       "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
@@ -964,28 +966,6 @@
       "medium": "article"
     },
     {
-      "slug": "semantic-seo-begins-before-optimisation",
-      "title": "Semantic SEO Begins Before Optimisation",
-      "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-      "date": "2026-03-15",
-      "tags": [
-        "search-and-discovery-systems",
-        "semantic-seo",
-        "creative-search-system",
-        "structural-legibility",
-        "discovery-systems-map"
-      ],
-      "type": "article",
-      "projects": [
-        {
-          "slug": "semantic-seo-graph-positioning",
-          "order": 1,
-          "role": "chapter"
-        }
-      ],
-      "medium": "article"
-    },
-    {
       "slug": "visibility-under-hostile-conditions",
       "title": "Visibility Under Hostile Conditions",
       "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
@@ -1001,6 +981,438 @@
     }
   ],
   "tagIndex": {
+    "search-and-discovery-systems": [
+      {
+        "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+        "date": "2026-11-01",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ]
+      },
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "who-benefits-most-from-this-system",
+        "title": "Who This Semantic SEO System Is For—and Why",
+        "description": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
+        "date": "2026-04-25",
+        "tags": [
+          "creative-search-system",
+          "strategic-positioning",
+          "independent-operators",
+          "search-and-discovery-systems"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "hostile-visibility",
+          "discovery-systems-map"
+        ]
+      }
+    ],
+    "semantic-seo": [
+      {
+        "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+        "date": "2026-11-01",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      }
+    ],
+    "creative-search-system": [
+      {
+        "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+        "date": "2026-11-01",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ]
+      },
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
+        "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "youtube",
+          "ai-seo-video",
+          "haunted-machine-tldr",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "who-benefits-most-from-this-system",
+        "title": "Who This Semantic SEO System Is For—and Why",
+        "description": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
+        "date": "2026-04-25",
+        "tags": [
+          "creative-search-system",
+          "strategic-positioning",
+          "independent-operators",
+          "search-and-discovery-systems"
+        ]
+      }
+    ],
+    "structural-legibility": [
+      {
+        "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+        "date": "2026-11-01",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ]
+      },
+      {
+        "slug": "building-an-agent-native-after-effects-workflow",
+        "title": "Building an Agent-Native After Effects Workflow",
+        "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
+        "date": "2026-09-12",
+        "tags": [
+          "artistic-system-building",
+          "creative-identity-system",
+          "structural-legibility",
+          "short-form-video",
+          "first-principles"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "maximising-artistic-identity",
+        "title": "Maximising Artistic Identity",
+        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
+        "date": "2026-03-15",
+        "tags": [
+          "creative-identity-system",
+          "first-principles",
+          "seer-clown",
+          "haunted-machine",
+          "artistic-identity",
+          "structural-legibility",
+          "artistic-system-building"
+        ]
+      }
+    ],
+    "discovery-systems-map": [
+      {
+        "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+        "date": "2026-11-01",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "visibility-under-hostile-conditions",
+        "title": "Visibility Under Hostile Conditions",
+        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
+        "date": "2026-03-15",
+        "tags": [
+          "search-and-discovery-systems",
+          "hostile-visibility",
+          "discovery-systems-map"
+        ]
+      }
+    ],
+    "graph-positioning": [
+      {
+        "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+        "date": "2026-11-01",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ]
+      },
+      {
+        "slug": "how-search-and-recommendation-systems-actually-work",
+        "title": "How Search and Recommendation Systems Actually Work",
+        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
+        "date": "2026-06-05",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "graph-positioning",
+          "structural-legibility",
+          "hostile-visibility",
+          "ai-search",
+          "discovery-systems-map"
+        ]
+      }
+    ],
+    "semantic-archive": [
+      {
+        "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+        "date": "2026-11-01",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ]
+      },
+      {
+        "slug": "ai-visibility-is-not-value",
+        "title": "AI Visibility Is Not Value",
+        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "ai-visibility-causality",
+          "source-eligibility",
+          "answer-regimes",
+          "selection-gap",
+          "ai-attribution",
+          "ai-visibility-measurement",
+          "value-transfer",
+          "hard-to-exhaust-archive",
+          "representation-governance",
+          "semantic-archive",
+          "search-and-discovery-systems",
+          "ai-search"
+        ]
+      },
+      {
+        "slug": "the-citable-hard-to-exhaust-archive",
+        "title": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
+        "description": "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture.",
+        "date": "2026-07-08",
+        "tags": [
+          "ai-visibility-is-not-value",
+          "hard-to-exhaust-archive",
+          "semantic-archive"
+        ]
+      },
+      {
+        "slug": "from-seo-keywords-to-the-haunted-machine",
+        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
+        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
+        "date": "2026-06-14",
+        "tags": [
+          "creative-search-system",
+          "creative-identity-system",
+          "semantic-archive",
+          "youtube",
+          "haunted-machine-video",
+          "haunted-machine",
+          "artistic-system-building",
+          "video-index-system"
+        ]
+      }
+    ],
     "semantic-research-pipeline": [
       {
         "slug": "dan-john-youtube-playlist-semantic-network-analysis",
@@ -1493,64 +1905,6 @@
         ]
       }
     ],
-    "structural-legibility": [
-      {
-        "slug": "building-an-agent-native-after-effects-workflow",
-        "title": "Building an Agent-Native After Effects Workflow",
-        "description": "A reference architecture developed through short-form video production, externalising After Effects state for AI-assisted motion design under human direction.",
-        "date": "2026-09-12",
-        "tags": [
-          "artistic-system-building",
-          "creative-identity-system",
-          "structural-legibility",
-          "short-form-video",
-          "first-principles"
-        ]
-      },
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "maximising-artistic-identity",
-        "title": "Maximising Artistic Identity",
-        "description": "This post documents a ChatGPT response generated during an analysis of my artwork and related datasets. The goal of the exercise was to identify stylistic patterns and develop a clearer artistic direction.",
-        "date": "2026-03-15",
-        "tags": [
-          "creative-identity-system",
-          "first-principles",
-          "seer-clown",
-          "haunted-machine",
-          "artistic-identity",
-          "structural-legibility",
-          "artistic-system-building"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      }
-    ],
     "short-form-video": [
       {
         "slug": "building-an-agent-native-after-effects-workflow",
@@ -1915,211 +2269,6 @@
           "search-and-discovery-systems",
           "discovery-systems-map",
           "research-methods"
-        ]
-      }
-    ],
-    "search-and-discovery-systems": [
-      {
-        "slug": "tiktok-video-analysis-with-python",
-        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
-        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
-        "date": "2026-09-04",
-        "tags": [
-          "tiktok",
-          "short-form-video",
-          "video-index-system",
-          "semantic-research-pipeline",
-          "research-methods",
-          "search-results-to-strategy",
-          "search-and-discovery-systems",
-          "creative-search-system"
-        ]
-      },
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "who-benefits-most-from-this-system",
-        "title": "Who This Semantic SEO System Is For—and Why",
-        "description": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
-        "date": "2026-04-25",
-        "tags": [
-          "creative-search-system",
-          "strategic-positioning",
-          "independent-operators",
-          "search-and-discovery-systems"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "visibility-under-hostile-conditions",
-        "title": "Visibility Under Hostile Conditions",
-        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "hostile-visibility",
-          "discovery-systems-map"
-        ]
-      }
-    ],
-    "creative-search-system": [
-      {
-        "slug": "tiktok-video-analysis-with-python",
-        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
-        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
-        "date": "2026-09-04",
-        "tags": [
-          "tiktok",
-          "short-form-video",
-          "video-index-system",
-          "semantic-research-pipeline",
-          "research-methods",
-          "search-results-to-strategy",
-          "search-and-discovery-systems",
-          "creative-search-system"
-        ]
-      },
-      {
-        "slug": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "title": "AI SEO Strategy: Why Your Creative Work Is Invisible",
-        "description": "A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "youtube",
-          "ai-seo-video",
-          "haunted-machine-tldr",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "who-benefits-most-from-this-system",
-        "title": "Who This Semantic SEO System Is For—and Why",
-        "description": "This page defines the intended audience for DecrepitFilth's human-supervised Semantic SEO research system and explains why independent creators, niche publishers, technical strategists and research-led operators benefit from it.",
-        "date": "2026-04-25",
-        "tags": [
-          "creative-search-system",
-          "strategic-positioning",
-          "independent-operators",
-          "search-and-discovery-systems"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
         ]
       }
     ],
@@ -3749,69 +3898,6 @@
         ]
       }
     ],
-    "semantic-archive": [
-      {
-        "slug": "ai-visibility-is-not-value",
-        "title": "AI Visibility Is Not Value",
-        "description": "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "ai-visibility-causality",
-          "source-eligibility",
-          "answer-regimes",
-          "selection-gap",
-          "ai-attribution",
-          "ai-visibility-measurement",
-          "value-transfer",
-          "hard-to-exhaust-archive",
-          "representation-governance",
-          "semantic-archive",
-          "search-and-discovery-systems",
-          "ai-search"
-        ]
-      },
-      {
-        "slug": "the-citable-hard-to-exhaust-archive",
-        "title": "AI Visibility Is Not Value, Part 8 — The Citable, Hard-to-Exhaust Archive",
-        "description": "A source retains value in AI-mediated discovery when it is easy to cite, difficult to exhaust, and worth returning to. The archive becomes a countermeasure to platform capture.",
-        "date": "2026-07-08",
-        "tags": [
-          "ai-visibility-is-not-value",
-          "hard-to-exhaust-archive",
-          "semantic-archive"
-        ]
-      },
-      {
-        "slug": "from-seo-keywords-to-the-haunted-machine",
-        "title": "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System",
-        "description": "An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.",
-        "date": "2026-06-14",
-        "tags": [
-          "creative-search-system",
-          "creative-identity-system",
-          "semantic-archive",
-          "youtube",
-          "haunted-machine-video",
-          "haunted-machine",
-          "artistic-system-building",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ]
-      }
-    ],
     "ai-search": [
       {
         "slug": "ai-visibility-is-not-value",
@@ -4051,66 +4137,6 @@
         ]
       }
     ],
-    "semantic-seo": [
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      }
-    ],
-    "graph-positioning": [
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ]
-      }
-    ],
     "hostile-visibility": [
       {
         "slug": "how-search-and-recommendation-systems-actually-work",
@@ -4124,77 +4150,6 @@
           "structural-legibility",
           "hostile-visibility",
           "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "visibility-under-hostile-conditions",
-        "title": "Visibility Under Hostile Conditions",
-        "description": "Online discovery systems reward recognisable formats rather than meaning. For artists, this creates an environment where visibility is possible, but only under conditions that often distort the work itself.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "hostile-visibility",
-          "discovery-systems-map"
-        ]
-      }
-    ],
-    "discovery-systems-map": [
-      {
-        "slug": "how-search-and-recommendation-systems-actually-work",
-        "title": "How Search and Recommendation Systems Actually Work",
-        "description": "Search engines, recommendation systems, and AI retrieval systems appear different on the surface. Underneath, they are solving the same problem: selecting a small amount of information from a much larger set of possibilities.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "graph-positioning",
-          "structural-legibility",
-          "hostile-visibility",
-          "ai-search",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "semantic-seo-is-graph-positioning",
-        "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-        "date": "2026-06-05",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "semantic-seo-begins-before-optimisation",
-        "title": "Semantic SEO Begins Before Optimisation",
-        "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-        "date": "2026-03-15",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
           "discovery-systems-map"
         ]
       },
@@ -4630,10 +4585,6 @@
       "count": 8
     },
     {
-      "tag": "search-and-discovery-systems",
-      "count": 8
-    },
-    {
       "tag": "semantic-research-pipeline",
       "count": 8
     },
@@ -4646,15 +4597,15 @@
       "count": 8
     },
     {
+      "tag": "search-and-discovery-systems",
+      "count": 7
+    },
+    {
       "tag": "aesthetic-analysis",
       "count": 6
     },
     {
       "tag": "aesthetic-research-system",
-      "count": 6
-    },
-    {
-      "tag": "creative-search-system",
       "count": 6
     },
     {
@@ -4666,12 +4617,16 @@
       "count": 5
     },
     {
-      "tag": "discovery-systems-map",
+      "tag": "creative-search-system",
       "count": 5
     },
     {
       "tag": "sda-3",
       "count": 5
+    },
+    {
+      "tag": "discovery-systems-map",
+      "count": 4
     },
     {
       "tag": "semantic-archive",
@@ -5540,20 +5495,22 @@
       "slug": "semantic-seo-graph-positioning",
       "title": "Semantic SEO as Graph Positioning",
       "eyebrow": "Guided strategy",
-      "description": "A connected argument that reframes Semantic SEO as structural legibility and graph positioning rather than isolated content optimisation.",
-      "introduction": "Follow the argument from pre-optimisation structure through search-system behaviour, graph positioning, creative visibility and the resulting content operating system.",
+      "description": "A connected argument that reframes Semantic SEO as information-retrieval engineering: producing, positioning and maintaining structurally legible information rather than optimising isolated pages.",
+      "introduction": "Follow the argument from information production through search-system behaviour, graph positioning, graph maintenance, creative visibility and the resulting content operating system.",
       "chapters": [
         {
-          "slug": "semantic-seo-begins-before-optimisation",
-          "title": "Semantic SEO Begins Before Optimisation",
-          "description": "Many artists treat SEO as a checklist of optimisation tricks. In reality, the real advantage comes from designing a creative process that produces work algorithms can recognise without compromising the ideas behind it.",
-          "date": "2026-03-15",
+          "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+          "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+          "description": "SEO is better understood as information-retrieval engineering: producing, positioning and maintaining information so retrieval systems can identify the appropriate answer.",
+          "date": "2026-11-01",
           "tags": [
             "search-and-discovery-systems",
             "semantic-seo",
             "creative-search-system",
             "structural-legibility",
-            "discovery-systems-map"
+            "discovery-systems-map",
+            "graph-positioning",
+            "semantic-archive"
           ],
           "type": "article",
           "projects": [
@@ -5591,30 +5548,6 @@
           ],
           "medium": "article",
           "projectOrder": 3,
-          "projectRole": "chapter"
-        },
-        {
-          "slug": "semantic-seo-is-graph-positioning",
-          "title": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-          "description": "Most discussions of semantic SEO focus on improving content. Increasingly, the more useful question is where that content sits within the network of entities, relationships, and information that search systems use to retrieve and rank information.",
-          "date": "2026-06-05",
-          "tags": [
-            "search-and-discovery-systems",
-            "graph-positioning",
-            "creative-search-system",
-            "semantic-archive",
-            "discovery-systems-map"
-          ],
-          "type": "article",
-          "projects": [
-            {
-              "slug": "semantic-seo-graph-positioning",
-              "order": 4,
-              "role": "chapter"
-            }
-          ],
-          "medium": "article",
-          "projectOrder": 4,
           "projectRole": "chapter"
         },
         {
@@ -6094,6 +6027,21 @@
   "graph": {
     "nodes": [
       {
+        "id": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "label": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
+        "type": "article",
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "creative-search-system",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning",
+          "semantic-archive"
+        ],
+        "centrality": 21
+      },
+      {
         "id": "dan-john-youtube-playlist-semantic-network-analysis",
         "label": "Dan John YouTube Playlist Semantic Network Analysis",
         "type": "article",
@@ -6133,7 +6081,7 @@
           "search-and-discovery-systems",
           "creative-search-system"
         ],
-        "centrality": 42
+        "centrality": 40
       },
       {
         "id": "tiktok-zombie-survival-series",
@@ -6239,7 +6187,7 @@
           "search-and-discovery-systems",
           "ai-search"
         ],
-        "centrality": 29
+        "centrality": 28
       },
       {
         "id": "ai-visibility-is-not-a-direct-optimisation-outcome",
@@ -6381,7 +6329,7 @@
           "haunted-machine-tldr",
           "video-index-system"
         ],
-        "centrality": 26
+        "centrality": 25
       },
       {
         "id": "from-seo-keywords-to-the-haunted-machine",
@@ -6397,7 +6345,7 @@
           "artistic-system-building",
           "video-index-system"
         ],
-        "centrality": 38
+        "centrality": 37
       },
       {
         "id": "how-search-and-recommendation-systems-actually-work",
@@ -6412,20 +6360,7 @@
           "ai-search",
           "discovery-systems-map"
         ],
-        "centrality": 18
-      },
-      {
-        "id": "semantic-seo-is-graph-positioning",
-        "label": "Semantic SEO Is Not Content Optimisation: It Is Graph Positioning",
-        "type": "article",
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "creative-search-system",
-          "semantic-archive",
-          "discovery-systems-map"
-        ],
-        "centrality": 20
+        "centrality": 16
       },
       {
         "id": "python-nlp-semantic-seo",
@@ -6478,7 +6413,7 @@
           "discovery-systems-map",
           "research-methods"
         ],
-        "centrality": 34
+        "centrality": 32
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -6490,7 +6425,7 @@
           "independent-operators",
           "search-and-discovery-systems"
         ],
-        "centrality": 13
+        "centrality": 11
       },
       {
         "id": "clustered-output-instagram-dataset",
@@ -6666,19 +6601,6 @@
         "centrality": 11
       },
       {
-        "id": "semantic-seo-begins-before-optimisation",
-        "label": "Semantic SEO Begins Before Optimisation",
-        "type": "article",
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "creative-search-system",
-          "structural-legibility",
-          "discovery-systems-map"
-        ],
-        "centrality": 20
-      },
-      {
         "id": "visibility-under-hostile-conditions",
         "label": "Visibility Under Hostile Conditions",
         "type": "article",
@@ -6687,10 +6609,108 @@
           "hostile-visibility",
           "discovery-systems-map"
         ],
-        "centrality": 12
+        "centrality": 10
       }
     ],
     "edges": [
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "building-an-agent-native-after-effects-workflow",
+        "weight": 1,
+        "tags": [
+          "structural-legibility"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "tiktok-video-analysis-with-python",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "ai-visibility-is-not-value",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-archive"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "the-citable-hard-to-exhaust-archive",
+        "weight": 1,
+        "tags": [
+          "semantic-archive"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
+        "weight": 1,
+        "tags": [
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "from-seo-keywords-to-the-haunted-machine",
+        "weight": 2,
+        "tags": [
+          "creative-search-system",
+          "semantic-archive"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "how-search-and-recommendation-systems-actually-work",
+        "weight": 5,
+        "tags": [
+          "search-and-discovery-systems",
+          "semantic-seo",
+          "structural-legibility",
+          "discovery-systems-map",
+          "graph-positioning"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "research-pipeline",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "discovery-systems-map"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "who-benefits-most-from-this-system",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "maximising-artistic-identity",
+        "weight": 1,
+        "tags": [
+          "structural-legibility"
+        ]
+      },
+      {
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
+        "target": "visibility-under-hostile-conditions",
+        "weight": 2,
+        "tags": [
+          "search-and-discovery-systems",
+          "discovery-systems-map"
+        ]
+      },
       {
         "source": "dan-john-youtube-playlist-semantic-network-analysis",
         "target": "tiktok-video-analysis-with-python",
@@ -6824,14 +6844,6 @@
         ]
       },
       {
-        "source": "building-an-agent-native-after-effects-workflow",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 1,
-        "tags": [
-          "structural-legibility"
-        ]
-      },
-      {
         "source": "tiktok-video-analysis-with-python",
         "target": "tiktok-zombie-survival-series",
         "weight": 3,
@@ -6926,15 +6938,6 @@
       },
       {
         "source": "tiktok-video-analysis-with-python",
-        "target": "semantic-seo-is-graph-positioning",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "tiktok-video-analysis-with-python",
         "target": "python-nlp-semantic-seo",
         "weight": 2,
         "tags": [
@@ -7012,15 +7015,6 @@
         "weight": 1,
         "tags": [
           "video-index-system"
-        ]
-      },
-      {
-        "source": "tiktok-video-analysis-with-python",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "creative-search-system"
         ]
       },
       {
@@ -7804,15 +7798,6 @@
       },
       {
         "source": "ai-visibility-is-not-value",
-        "target": "semantic-seo-is-graph-positioning",
-        "weight": 2,
-        "tags": [
-          "semantic-archive",
-          "search-and-discovery-systems"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
         "target": "research-pipeline",
         "weight": 1,
         "tags": [
@@ -7822,14 +7807,6 @@
       {
         "source": "ai-visibility-is-not-value",
         "target": "who-benefits-most-from-this-system",
-        "weight": 1,
-        "tags": [
-          "search-and-discovery-systems"
-        ]
-      },
-      {
-        "source": "ai-visibility-is-not-value",
-        "target": "semantic-seo-begins-before-optimisation",
         "weight": 1,
         "tags": [
           "search-and-discovery-systems"
@@ -8140,14 +8117,6 @@
         ]
       },
       {
-        "source": "the-citable-hard-to-exhaust-archive",
-        "target": "semantic-seo-is-graph-positioning",
-        "weight": 1,
-        "tags": [
-          "semantic-archive"
-        ]
-      },
-      {
         "source": "hidden-representations-without-hidden-layers",
         "target": "adversarial-questioning-chatgpt-zombie-survival",
         "weight": 2,
@@ -8350,14 +8319,6 @@
       },
       {
         "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "semantic-seo-is-graph-positioning",
-        "weight": 1,
-        "tags": [
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "target": "sda3-tldr",
         "weight": 2,
         "tags": [
@@ -8390,23 +8351,6 @@
         "tags": [
           "youtube",
           "video-index-system"
-        ]
-      },
-      {
-        "source": "ai-seo-strategy-why-your-creative-work-is-invisible",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 1,
-        "tags": [
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "from-seo-keywords-to-the-haunted-machine",
-        "target": "semantic-seo-is-graph-positioning",
-        "weight": 2,
-        "tags": [
-          "creative-search-system",
-          "semantic-archive"
         ]
       },
       {
@@ -8474,24 +8418,6 @@
         ]
       },
       {
-        "source": "from-seo-keywords-to-the-haunted-machine",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 1,
-        "tags": [
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "how-search-and-recommendation-systems-actually-work",
-        "target": "semantic-seo-is-graph-positioning",
-        "weight": 3,
-        "tags": [
-          "search-and-discovery-systems",
-          "graph-positioning",
-          "discovery-systems-map"
-        ]
-      },
-      {
         "source": "how-search-and-recommendation-systems-actually-work",
         "target": "research-pipeline",
         "weight": 2,
@@ -8518,59 +8444,11 @@
       },
       {
         "source": "how-search-and-recommendation-systems-actually-work",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 4,
-        "tags": [
-          "search-and-discovery-systems",
-          "semantic-seo",
-          "structural-legibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "how-search-and-recommendation-systems-actually-work",
         "target": "visibility-under-hostile-conditions",
         "weight": 3,
         "tags": [
           "search-and-discovery-systems",
           "hostile-visibility",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "research-pipeline",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "who-benefits-most-from-this-system",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "creative-search-system"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 3,
-        "tags": [
-          "search-and-discovery-systems",
-          "creative-search-system",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
-        "target": "visibility-under-hostile-conditions",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
           "discovery-systems-map"
         ]
       },
@@ -8718,29 +8596,11 @@
       },
       {
         "source": "research-pipeline",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "research-pipeline",
         "target": "visibility-under-hostile-conditions",
         "weight": 2,
         "tags": [
           "search-and-discovery-systems",
           "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "who-benefits-most-from-this-system",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 2,
-        "tags": [
-          "creative-search-system",
-          "search-and-discovery-systems"
         ]
       },
       {
@@ -8995,23 +8855,6 @@
           "creative-identity-system",
           "first-principles",
           "artistic-system-building"
-        ]
-      },
-      {
-        "source": "maximising-artistic-identity",
-        "target": "semantic-seo-begins-before-optimisation",
-        "weight": 1,
-        "tags": [
-          "structural-legibility"
-        ]
-      },
-      {
-        "source": "semantic-seo-begins-before-optimisation",
-        "target": "visibility-under-hostile-conditions",
-        "weight": 2,
-        "tags": [
-          "search-and-discovery-systems",
-          "discovery-systems-map"
         ]
       }
     ],
@@ -9313,19 +9156,13 @@
         "project": "sda3-structural-extraction"
       },
       {
-        "source": "semantic-seo-begins-before-optimisation",
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "target": "project:semantic-seo-graph-positioning",
         "type": "belongs-to-project",
         "project": "semantic-seo-graph-positioning"
       },
       {
         "source": "how-search-and-recommendation-systems-actually-work",
-        "target": "project:semantic-seo-graph-positioning",
-        "type": "belongs-to-project",
-        "project": "semantic-seo-graph-positioning"
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
         "target": "project:semantic-seo-graph-positioning",
         "type": "belongs-to-project",
         "project": "semantic-seo-graph-positioning"
@@ -9361,19 +9198,13 @@
         "project": "semantic-seo-graph-positioning"
       },
       {
-        "source": "semantic-seo-begins-before-optimisation",
+        "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "target": "how-search-and-recommendation-systems-actually-work",
         "type": "precedes",
         "project": "semantic-seo-graph-positioning"
       },
       {
         "source": "how-search-and-recommendation-systems-actually-work",
-        "target": "semantic-seo-is-graph-positioning",
-        "type": "precedes",
-        "project": "semantic-seo-graph-positioning"
-      },
-      {
-        "source": "semantic-seo-is-graph-positioning",
         "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "type": "precedes",
         "project": "semantic-seo-graph-positioning"

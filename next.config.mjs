@@ -9,12 +9,22 @@ const nextConfig = {
             },
             {
                 source: '/art/this-process-is-not-seo',
-                destination: '/art/semantic-seo-begins-before-optimisation',
+                destination: '/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem',
                 permanent: true,
             },
             {
                 source: '/art/seo-visibility-structural-legibility',
-                destination: '/art/semantic-seo-begins-before-optimisation',
+                destination: '/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem',
+                permanent: true,
+            },
+            {
+                source: '/art/semantic-seo-begins-before-optimisation',
+                destination: '/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem',
+                permanent: true,
+            },
+            {
+                source: '/art/semantic-seo-is-graph-positioning',
+                destination: '/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem',
                 permanent: true,
             },
             {

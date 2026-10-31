@@ -3,7 +3,7 @@ title: "AI Visibility Is Not Value, Part 3 — AI Visibility Is Not One Environm
 slug: ai-visibility-is-not-one-environment
 description: "AI visibility changes across answer regimes. Some systems retrieve, some synthesise, some cite, some retain users, and some combine those behaviours in different ways."
 date: "2026-07-08"
-lastModified: "2026-08-14"
+lastModified: "2026-11-01"
 projects:
   - slug: ai-visibility-is-not-value
     order: 3
@@ -205,7 +205,7 @@ It makes the site’s post-answer value more important.
 
 The page must offer something the answer cannot fully exhaust: evidence, method, archive depth, tools, case studies, updates, or a distinctive framework.
 
-This connects directly to [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning), where the page is treated as part of a wider retrieval graph rather than an isolated document.
+This connects directly to [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem), where the page is treated as part of a wider retrieval graph rather than an isolated document.
 
 ---
 

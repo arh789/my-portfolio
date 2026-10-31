@@ -3,7 +3,7 @@ title: "AI Visibility Is Not Value, Part 4 — The Selection Gap"
 slug: the-selection-gap
 description: "The selection gap is the opaque space between source eligibility and final AI answer inclusion. Retrieval, query fan-out, reranking, context construction, and synthesis all separate availability from visibility."
 date: "2026-07-08"
-lastModified: "2026-08-14"
+lastModified: "2026-11-01"
 projects:
   - slug: ai-visibility-is-not-value
     order: 4
@@ -132,7 +132,7 @@ This is one reason semantic structure matters more than isolated keyword targeti
 
 A site that occupies multiple related positions in the graph has more ways to enter the retrieval field.
 
-The graph-positioning argument is developed in [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
+The graph-positioning argument is developed in [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 ---
 
@@ -358,7 +358,7 @@ This article explains why platform regimes produce different visibility outcomes
 
 ### Related reading
 
-→ [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning)
+→ [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem)
 
 → [SDA-3 tl;dr](/art/sda3-tldr)
 

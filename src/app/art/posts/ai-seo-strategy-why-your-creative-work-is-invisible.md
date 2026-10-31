@@ -2,7 +2,7 @@
 title: "AI SEO Strategy: Why Your Creative Work Is Invisible"
 description: A concise video explainer showing why generic creative content becomes easier for AI systems to compress, and how network analysis can reveal missing relationships worth developing.
 date: 2026-06-14
-lastModified: "2026-10-12"
+lastModified: "2026-11-01"
 projects:
   - slug: semantic-seo-graph-positioning
     order: 5
@@ -83,7 +83,7 @@ For the full methodology behind the video, start here:
 * [How AI, Network Analysis and LLMs Reveal Hidden Structure in Content](https://decrepitfilth.art/how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content)
 * [Workflow Structure Breakdown](https://decrepitfilth.art/workflow-structure-breakdown)
 * [Research Pipeline](https://decrepitfilth.art/art/research-pipeline)
-* [Semantic SEO Is Graph Positioning](https://decrepitfilth.art/art/semantic-seo-is-graph-positioning)
+* [SEO Is an Information-Retrieval Engineering Problem](https://decrepitfilth.art/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem)
 * [How Search and Recommendation Systems Actually Work](https://decrepitfilth.art/art/how-search-and-recommendation-systems-actually-work)
 
 

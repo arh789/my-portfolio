@@ -34,7 +34,7 @@ export const STATIC_SITE_PAGES = [
         title: "How AI, Network Analysis and LLMs Reveal Hidden Structure in Content",
         summary:
             "Explains how statistical, relational, semantic and human interpretation can be combined to recover structure hidden by compressed representations.",
-        lastModified: "2026-10-27",
+        lastModified: "2026-11-01",
         priority: 0.8,
         navigation: {
             label: "Discovering Hidden Structure",
@@ -130,7 +130,7 @@ export const STATIC_SITE_PAGES = [
         title: "Art and Research Concept Hub",
         summary:
             "Navigation hub representing the article archive as a concept network built from shared tags, guided project pathways and individual article records.",
-        lastModified: "2026-10-27",
+        lastModified: "2026-11-01",
         priority: 0.8,
         navigation: {
             label: "Archive Graph",

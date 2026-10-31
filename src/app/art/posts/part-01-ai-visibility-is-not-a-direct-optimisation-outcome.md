@@ -3,7 +3,7 @@ title: "AI Visibility Is Not Value, Part 1 — AI Visibility Is Not a Direct Opt
 slug: ai-visibility-is-not-a-direct-optimisation-outcome
 description: "Appearing in AI-generated answers is not proof that optimisation caused visibility, attribution, traffic, or retained value. AI visibility is an observed output inside a larger source-selection system."
 date: "2026-07-08"
-lastModified: "2026-08-14"
+lastModified: "2026-11-01"
 projects:
   - slug: ai-visibility-is-not-value
     order: 1
@@ -139,7 +139,7 @@ They encounter representations of the source.
 
 A page that is clear to a human can still be weakly represented if its claims are buried, its concepts are unstable, its surrounding archive is thin, or its relationship to other topics is unclear.
 
-This is why SEO increasingly begins before ordinary optimisation. The deeper problem is not whether a finished page has been adjusted correctly. The deeper problem is whether the process produces work that is structurally legible in the first place. That distinction is explored in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation).
+This is why SEO increasingly begins before ordinary optimisation. The deeper problem is not whether a finished page has been adjusted correctly. The deeper problem is whether the process produces work that is structurally legible in the first place. That distinction is explored in [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 Optimisation is useful when it strengthens structure.
 
@@ -330,17 +330,9 @@ This article explains why modern discovery systems should be understood as selec
 
 Continue with:
 
-→ [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation)
+→ [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem)
 
-This article explains why structural legibility has to emerge from the process that produces the work, rather than being applied only after publication.
-
-### If you want the graph-based version of the argument
-
-Continue with:
-
-→ [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning)
-
-This article explains why pages increasingly compete as parts of a wider network of entities, concepts, relationships, and supporting evidence.
+This article explains why structural legibility emerges from the process that produces information and why retrievability depends on graph positioning and maintenance.
 
 ---
 

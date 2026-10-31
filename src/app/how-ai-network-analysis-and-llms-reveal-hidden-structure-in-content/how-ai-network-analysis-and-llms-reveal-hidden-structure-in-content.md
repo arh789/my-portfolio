@@ -417,7 +417,7 @@ The [Code](/code) section turns that process into a repeatable system: scraping,
 
 The [Dan John playlist analysis](/art/dan-john-youtube-playlist-semantic-network-analysis) demonstrates the full movement from a bounded corpus of 382 transcripts through object–relation extraction and network analysis to source-linked interpretation.
 
-The writing on [semantic SEO and graph positioning](/art/semantic-seo-is-graph-positioning) explains why visibility is not only a question of content quality, but of where a page sits inside a wider network of entities, meanings, and relationships.
+The writing on [SEO as information-retrieval engineering and graph maintenance](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem) explains why visibility is not only a question of content quality, but of where a page sits inside a wider network of entities, meanings, and relationships.
 
 The work on [search and recommendation systems](/art/how-search-and-recommendation-systems-actually-work) shows why modern platforms do not respond to reality directly. They respond to signals, profiles, indexes, embeddings, and graphs.
 

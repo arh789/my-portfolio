@@ -3,7 +3,7 @@ title: "AI Visibility Is Not Value"
 slug: ai-visibility-is-not-value
 description: "A series on AI visibility, source eligibility, platform-specific selection, attribution, measurement, value transfer, platform capture, and the citable archive that remains worth returning to."
 date: "2026-07-08"
-lastModified: "2026-08-14"
+lastModified: "2026-11-01"
 projects:
   - slug: ai-visibility-is-not-value
     order: 0
@@ -458,7 +458,7 @@ For the broader discovery-system context, read:
 
 For the semantic SEO foundation, read:
 
-→ [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning)
+→ [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem)
 
 For the method behind the site, read:
 

@@ -2,7 +2,7 @@
 title: "From SEO Keywords to the Haunted Machine: How AI Search Became a Creative Operating System"
 description: An evidence-labelled case record tracing how a search corpus became 19 network communities, six semantic zones and the Haunted Machine creative operating system.
 date: 2026-06-14
-lastModified: "2026-10-12"
+lastModified: "2026-11-01"
 projects:
   - slug: semantic-seo-graph-positioning
     order: 6
@@ -155,7 +155,7 @@ digital corruption
 
 The graph made local groupings visible, but community membership alone did not produce a usable strategy. The broad terms connected the network while also making it generic.
 
-This is the distinction developed elsewhere as [Semantic SEO as graph positioning](/art/semantic-seo-is-graph-positioning): frequency and community membership describe parts of the structure, but they do not automatically identify the most valuable position within it.
+This is the distinction developed elsewhere as [SEO as information-retrieval engineering and graph maintenance](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem): frequency and community membership describe parts of the structure, but they do not automatically identify the most valuable position within it.
 
 ## State 5 — Consolidation into six semantic zones
 

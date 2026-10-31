@@ -3,7 +3,7 @@ title: "AI Visibility Is Not Value, Part 2 — Source Eligibility: Being Availab
 slug: source-eligibility-being-available-is-not-being-chosen
 description: "AI visibility begins with source eligibility, but eligibility is not selection. A source can be crawlable, readable, relevant, and useful without appearing in the final AI answer."
 date: "2026-07-08"
-lastModified: "2026-10-12"
+lastModified: "2026-11-01"
 projects:
   - slug: ai-visibility-is-not-value
     order: 2
@@ -85,7 +85,7 @@ This is why source eligibility is not merely a technical SEO issue.
 
 It is a structural issue.
 
-The same principle appears throughout [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation): the deeper advantage comes from a process that produces structurally legible work, not from applying surface adjustments after publication.
+The same principle appears throughout [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem): the deeper advantage comes from a process that produces structurally legible work, not from applying surface adjustments after publication.
 
 ---
 
@@ -160,7 +160,7 @@ A page can be meaningful to a human while remaining hard for a system to classif
 
 That is why structural legibility matters.
 
-The idea is developed in [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation), where visibility is treated as a consequence of meaning becoming interpretable to discovery systems.
+The idea is developed in [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem), where visibility is treated as a consequence of meaning becoming interpretable to discovery systems.
 
 ---
 
@@ -229,7 +229,7 @@ For smaller sites, authority often comes from specificity rather than scale.
 
 A niche archive can become useful when it explains a structure more clearly than larger but more generic sources.
 
-This is one reason graph positioning matters. A page is not only evaluated by what it says in isolation. It is also strengthened by the surrounding network of concepts, evidence, and related pages. That argument is developed in [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning).
+This is one reason graph positioning matters. A page is not only evaluated by what it says in isolation. It is also strengthened by the surrounding network of concepts, evidence, and related pages. That argument is developed in [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem).
 
 ---
 
@@ -400,9 +400,7 @@ This article explains why an appearance in an AI answer should not be treated as
 
 ### Related reading
 
-→ [Semantic SEO Begins Before Optimisation](/art/semantic-seo-begins-before-optimisation)
-
-→ [Semantic SEO Is Not Content Optimisation: It Is Graph Positioning](/art/semantic-seo-is-graph-positioning)
+→ [SEO Is an Information-Retrieval Engineering Problem](/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem)
 
 → [Research Pipeline](/art/research-pipeline)
 
