@@ -34,7 +34,7 @@ export const metadata = {
             "The recurring programme-design decisions made visible across 382 Dan John videos.",
         type: "article",
         publishedTime: "2026-10-13",
-        modifiedTime: "2026-10-30",
+        modifiedTime: "2026-10-31",
         authors: ["Andrew Hale"],
         url: "/art/dan-john-youtube-playlist-semantic-network-analysis",
     },
@@ -677,7 +677,7 @@ const structuredData = {
         "A reproducible semantic network analysis of 382 Dan John strength-coaching videos.",
     author: { "@type": "Person", name: "Andrew Hale" },
     datePublished: "2026-10-13",
-    dateModified: "2026-10-30",
+    dateModified: "2026-10-31",
     url: "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
     mainEntityOfPage:
         "https://decrepitfilth.art/art/dan-john-youtube-playlist-semantic-network-analysis",
@@ -765,7 +765,13 @@ export default async function DanJohnSemanticNetworkPage() {
                     <div className={styles.researchBrief}>
                         <div>
                             <span>Research question</span>
-                            <p>What does the complete usable corpus reveal about how Dan John communicates and structures strength training?</p>
+                            <p>
+                                What does the complete usable corpus reveal about how{" "}
+                                <Link href="https://danjohnuniversity.com/" rel="noopener noreferrer" target="_blank">
+                                    Dan John
+                                </Link>{" "}
+                                communicates and structures strength training?
+                            </p>
                         </div>
                         <div>
                             <span>Purpose</span>
@@ -1037,6 +1043,13 @@ export default async function DanJohnSemanticNetworkPage() {
                                 <span>Strongest supported conclusion</span>
                                 <p>Dan John repeatedly applies a recurring programme-design grammar to produce different programmes for different circumstances.</p>
                             </blockquote>
+                            <p>
+                                The network reaches a conclusion Dan John states more directly in{" "}
+                                <Link href="https://www.otpbooks.com/dan-john-gamechangers/" rel="noopener noreferrer" target="_blank">
+                                    My Game Changers
+                                </Link>
+                                : understand the idea behind a programme, not just its prescription.
+                            </p>
                         </div>
                     </section>
 
