@@ -661,6 +661,10 @@
     line-height: 1.65;
 }
 
+.sourceComparison a {
+    white-space: nowrap;
+}
+
 .evidenceStats {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
