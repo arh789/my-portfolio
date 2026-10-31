@@ -1043,7 +1043,7 @@ export default async function DanJohnSemanticNetworkPage() {
                                 <span>Strongest supported conclusion</span>
                                 <p>Dan John repeatedly applies a recurring programme-design grammar to produce different programmes for different circumstances.</p>
                             </blockquote>
-                            <p>
+                            <p className={styles.sourceComparison}>
                                 The network reaches a conclusion Dan John states more directly in{" "}
                                 <Link href="https://www.otpbooks.com/dan-john-gamechangers/" rel="noopener noreferrer" target="_blank">
                                     My Game Changers

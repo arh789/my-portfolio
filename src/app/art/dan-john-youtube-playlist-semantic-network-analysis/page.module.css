@@ -654,6 +654,13 @@
     line-height: 1.05;
 }
 
+.sourceComparison {
+    max-width: 70ch;
+    margin: 1.5rem 0 0;
+    font-size: clamp(1rem, 1.3vw, 1.08rem);
+    line-height: 1.65;
+}
+
 .evidenceStats {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
