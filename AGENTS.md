@@ -13,12 +13,6 @@ These rules apply to work in `/root/my-portfolio`.
 - Be careful with raw HTML in Markdown because Markdown is rendered with `sanitize: false` / `dangerouslySetInnerHTML`.
 - After edits, summarise changed files, commands run and verification results.
 
-## Active work
-
-- Before undertaking repository work, read `CURRENT_WORK.md` to establish the current objective, scope and progress.
-- Treat that file as a working plan, not automatic authorisation to execute every outstanding task.
-- Record verified progress in its tracking section; preserve the original ten-task plan verbatim.
-
 ## Environment and commands
 
 - Treat `/root/my-portfolio` as the canonical repository path. Prefer commands executed inside WSL over operations against the Windows UNC path.

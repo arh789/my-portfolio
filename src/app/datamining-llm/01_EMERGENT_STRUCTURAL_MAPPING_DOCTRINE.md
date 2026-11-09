@@ -105,11 +105,11 @@ They form the symbolic grammar for extracting and restructuring meaning behind L
 
 ---
 
-### 📊 SDA-3: Reverse-Engineering LLM Embedding Structure
+### 📊 SDA-3 Protocol: Token-Level Structural Decomposition
 
-To organise these investigations, `[SDA-3]` provides a protocol for reverse-engineering an LLM’s embedding-space structure from its response behaviour.
+To extend these symbolic prompts with structural precision, we introduce `[SDA-3]`: a response-local schema for describing semantic topology inferred from an LLM’s observable response behaviour.
 
-`[SDA-3]` functions as the **structural mapping layer** of ESM. It reconstructs semantic relationships from observable LLM responses, organising them into a consistent format for analysis and testing.
+`[SDA-3]` functions as the **diagnostic layer** of ESM. It does not ask symbolic questions; it answers them by exposing the structural logic used to produce a generative output.
 
 #### ♻️ SDA-3 Full Init
 
@@ -123,11 +123,11 @@ Classify concepts in the observed response into five provisional structural cate
 - **E (Emerging):** Initially weak material whose relevance increases as the problem is recursively developed.
 
 **Classification Basis**  
-Rank concepts using associative immediacy, connectivity breadth, generative stability and discourse frequency. Compare their prominence and relationships across responses when further observations are available.
+Structural position is inferred from associative immediacy, recurrence, relational connectivity, semantic cohesion, and stability across reformulation. These are observational criteria, not direct measurements of attention weights or embedding tensors.
 
 **Execution Steps**
 
-1. `Struct%`: Estimate relative structural salience across {C, S, A, HCU, E}, totalling 100%  
+1. `Struct%`: Output % distribution across {C, S, A, HCU, E}  
 2. `Topₙ⟨C,S,A,HCU,E⟩`: List top n tokens/category by SC with ∇²-cutoff  
 3. `↳Answer⊃{1,2}`: Verbose, structurally grounded response incorporating (1) and (2)
 
@@ -139,11 +139,11 @@ Rank concepts using associative immediacy, connectivity breadth, generative stab
 
 Whereas the structural operators define **what to interrogate**, `[SDA-3]` defines **how to decompose** any output into the response-local topology inferred from it. It allows:
 
-- Structural comparison of symbolic operator results  
+- Structural validation of symbolic operator results  
 - Meta-level audits of generative coherence  
 - Response-level tracing of contradiction, suppression, and emergent meaning  
 
-This makes `[SDA-3]` not just compatible with ESM, but a **consistent format** for structural mapping and comparison.
+This makes `[SDA-3]` not just compatible with ESM, but a **necessary extension** for precision mapping.
 
 > This method does not merely use emergent logic—it operationalises it.  
 > It converts collapse-triggered insight into a recursive compression pipeline.  
@@ -175,7 +175,7 @@ Use it alone when:
 
 #### 🌟 Summary
 
-`[SDA-3]` records inferred semantic relationships in structured artefact form.  
+`[SDA-3]` converts model logic into structured artefact form.  
 Use it with symbolic questions to interpret meaning.  
 Use it without them to reveal structural skeletons.
 

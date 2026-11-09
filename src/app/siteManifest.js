@@ -97,8 +97,8 @@ export const STATIC_SITE_PAGES = [
         kind: "methodological-doctrine",
         title: "Data-Mining an LLM: Emergent Structural Mapping",
         summary:
-            "Connects behavioural reverse engineering of LLMs with SDA-3 mapping, iterative testing and the development of inspectable semantic content systems.",
-        lastModified: "2026-11-10",
+            "Presents a method for converting recorded LLM outputs into inspectable semantic systems and studying what survives, weakens, disappears or becomes distorted under prompting pressure.",
+        lastModified: "2026-09-10",
         priority: 0.8,
         navigation: {
             label: "Datamining an LLM",

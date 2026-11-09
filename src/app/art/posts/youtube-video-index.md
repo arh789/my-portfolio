@@ -2,7 +2,7 @@
 title: "YouTube"
 description: "A central index for video work connected to the site, including long-form explanations, methodology demonstrations, and related visual essays."
 date: 2026-04-08
-lastModified: "2026-11-10"
+lastModified: "2026-09-09"
 projects:
   - slug: chatgpt-structural-failure
     order: 21
@@ -27,7 +27,7 @@ Each video functions as a media version of a larger written thread: a long-form 
 
 ## Zombie Survival by ChatGPT - Why the AI Lies (and How to Stop It)
 
-This video introduces **[SDA-3](https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models)** through a zombie-survival stress test. The point is not the zombie scenario itself, but the way it exposes how ChatGPT can produce coherent answers that fail under pressure.
+This video introduces **[SDA-3 (Structured Dimensional Analysis)](https://decrepitfilth.art/art/sda-3-analysing-embedding-space-structure-in-large-language-models)** through a zombie-survival stress test. The point is not the zombie scenario itself, but the way it exposes how ChatGPT can produce coherent answers that fail under pressure.
 
 The video shows how SDA-3 shifts the model away from fluent answer-generation and towards structural extraction: identifying hidden assumptions, suppressed variables, unstable recommendations, and the few configurations that survive repeated constraint testing.
 

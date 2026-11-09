@@ -334,7 +334,7 @@ export const AGENT_PAGE_CONTENT = {
         "Treat outputs as artifacts under pressure: identify what survives, compress it and build with it.",
     },
     limitations: [
-      "The inferred structure is evaluated against observable response behaviour; competing internal explanations may remain indistinguishable.",
+      "The method analyses recorded outputs, not hidden model weights, activations or direct internal reasoning.",
       "Results depend on prompts, sampling conditions and the selected output archive.",
       "Persistent output patterns should not automatically be treated as empirical truth.",
     ],
@@ -664,7 +664,7 @@ export const AGENT_SEMANTIC_HUB_CONTENT = {
   },
   "structural-extraction-protocol": {
     purpose:
-      "Tests and refines structural reconstructions through recursive constraint, adversarial questioning and comparison of observable responses.",
+      "Turns structural analysis into an executable method based on recursive constraint, adversarial interrogation and collapse enforcement.",
   },
 };
 

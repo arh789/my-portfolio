@@ -1,8 +1,8 @@
 ---
 title: Structural Extraction Protocol
-description: An iterative protocol for testing and refining structural explanations of LLM responses through constraint changes, assumption checks and adversarial questioning.
+description: A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.
 date: 2026-04-06
-lastModified: "2026-11-10"
+lastModified: "2026-09-10"
 projects:
   - slug: sda3-structural-extraction
     order: 3
@@ -13,10 +13,10 @@ tags:
   - model-structure-analysis
 ---
 
-The Structural Extraction Protocol (SEP) tests and refines structural reconstructions produced through SDA-3 using recursive questioning, constraint changes and adversarial testing.
+This manual defines a **single executable system** for extracting structure from language model outputs.
 
 The system does not retrieve answers.  
-It identifies **relationships that persist under the stated tests**. Here, structural necessity means that removing an element breaks the explanation under specified constraints; it does not establish a uniquely necessary internal mechanism.
+It forces the emergence of **what cannot be removed without collapse**.
 
 ---
 
@@ -30,11 +30,11 @@ It identifies **relationships that persist under the stated tests**. Here, struc
 The Structural Extraction Protocol (SEP) is a method for analysing language model outputs by treating the model as a constraint-responsive system, not a source of knowledge.
 
 It does not attempt to produce better answers.
-Rather, it compares responses under changed conditions to test the dependencies proposed by the reconstruction.
+Rather, it forces the system into conditions where it cannot maintain coherence without exposing the structures it depends on.
 
 SEP applies iterative constraint and adversarial pressure to model outputs in order to:
 
-- identify which elements are required for coherence under the tested constraints
+- identify which elements are structurally required for coherence
 - detect where the system introduces unsupported assumptions
 - expose dependencies, suppressions, and failure points
 - reduce outputs to what survives repeated collapse
@@ -43,9 +43,9 @@ The result is not an improved explanation.
 
 It is a constrained residue:
 
-- what cannot be removed without breaking the tested explanation
+- what the system cannot remove
 - what reappears despite contradiction
-- which relationships remain necessary under the tested constraints
+- what must exist for the output to function at all
 
 SEP does not:
 
@@ -56,7 +56,7 @@ SEP does not:
 
 It is not a conversational method.
 
-It is an iterative filtering process that tests which parts of an explanation can be removed without breaking its stated constraints.
+It is a mechanical filtering process that removes everything the system can discard without breaking.
 
 ---
 
@@ -64,7 +64,7 @@ It is an iterative filtering process that tests which parts of an explanation ca
 
 Constraint > Distortion > Interrogation > Collapse > Survivorship > Re-entry
 
-Use each iteration to eliminate unsupported interpretations and identify relationships that remain necessary under the tested constraints. Record alternatives that the evidence does not distinguish.
+Each iteration reduces the solution space until only **structurally necessary logic remains**.
 
 ---
 
@@ -72,7 +72,7 @@ Use each iteration to eliminate unsupported interpretations and identify relatio
 
 ## 1. Structural Operators
 
-These prompts act as **structural operators**, changing the framing or constraints so the resulting responses can be compared.
+These are not questions. They are **state transformations**.
 
 - What structure forms around X  
 - What is central  
@@ -176,10 +176,10 @@ Reveal:
 Apply to each structural output.
 
 ### 1. Logic Critique
-Challenge the reasoning expressed in the output and identify where its conclusions cease to follow from its assumptions.
+Collapse the reasoning path that produced the output.
 
 ### 2. Assumption Extraction
-Identify the unstated assumptions supporting the explanation.
+Identify all unspoken assumptions.
 
 ### 3. Necessity Audit
 Determine:
@@ -218,7 +218,13 @@ Convert fluent output into:
 
 ### Interpretation
 
-Treat these as **signals to investigate**, not proof of suppression. Compare responses under changed conditions to distinguish conflicting constraints, weakened alternatives, ordinary uncertainty and errors.  
+These are not errors.  
+They are **signals of structural pressure**.
+
+They indicate:
+- Suppressed content  
+- Unstable boundaries  
+- Constraint conflicts  
 
 ---
 
@@ -255,7 +261,9 @@ Only structures that survive remain.
 
 ### Purpose
 
-For each iteration, record which interpretations are eliminated, which relationships remain supported and which alternatives are unresolved.  
+Each iteration:
+- Reduces possible interpretations  
+- Increases structural necessity  
 
 ---
 
@@ -265,9 +273,9 @@ The final output is not an answer.
 
 It is:
 
-- Relationships necessary under the tested constraints  
-- Patterns that recur after assumptions are challenged  
-- Unresolved alternatives and the evidence needed to distinguish them  
+- What cannot be removed without collapse  
+- What re-emerges despite contradiction  
+- What the system is forced to generate to remain coherent  
 
 ---
 
@@ -304,10 +312,11 @@ It is:
 6. Enforce collapse  
 7. Re-enter loop  
 
-Repeat until further relevant tests no longer materially change the reconstruction, or progress requires additional evidence. Record unresolved alternatives rather than forcing agreement.
+Repeat until convergence.
 
 ---
 
 ## VII. FINAL PRINCIPLE
 
-> Apply constraints, observe how the structure changes, and retain the explanation that best accounts for what survives testing.
+> You are not extracting answers from the system.  
+> You are forcing it into a position where it can no longer avoid revealing its structure.

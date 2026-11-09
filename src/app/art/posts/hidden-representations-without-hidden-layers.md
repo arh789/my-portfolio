@@ -1,8 +1,8 @@
 ---
 title: "Hidden Representations Without Hidden Layers"
-description: "How behavioural reverse engineering uses LLM responses to reconstruct and test semantic relationships, alongside research on internal representations."
+description: "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?"
 date: 2026-07-03
-lastModified: "2026-11-10"
+lastModified: "2026-08-14"
 projects:
   - slug: sda3-structural-extraction
     order: 4
@@ -42,7 +42,7 @@ These patterns are not direct evidence of hidden states.
 
 They are traces.
 
-The task is to reverse-engineer semantic structure from the relationships expressed in the model’s responses.
+The task is therefore not to claim access to an LLM's internal geometry. It is to infer the minimum local structure required for an observed output to remain coherent.
 
 ## From hidden representations to behavioural traces
 
@@ -70,11 +70,11 @@ The difference is evidential access.
 
 One works with representations inside the model. The other works with the observable trace left by a completed output.
 
-## SDA-3: Behavioural Reverse Engineering
+## SDA-3: Structured Dimensional Analysis
 
-[SDA-3](/art/sda-3-analysing-embedding-space-structure-in-large-language-models) is a protocol for reverse-engineering an LLM’s embedding-space structure from its response behaviour.
+[SDA-3](/art/sda-3-analysing-embedding-space-structure-in-large-language-models) is a framework for this second problem.
 
-It reconstructs semantic relationships from observable responses, producing structural explanations that can be tested through further questioning.
+It does not inspect weights, recover hidden states, or verify the contents of an embedding space. Instead, it treats an output as a constrained trace and reconstructs the smallest local set of relationships required for that output to remain internally coherent.
 
 The method separates an output into five functional roles:
 
@@ -86,7 +86,7 @@ The method separates an output into five functional roles:
 
 The “3” in SDA-3 refers to its three-part format:
 
-1. An estimated distribution of structural salience across these roles.
+1. A structural distribution across these roles.
 2. A ranked anchor set.
 3. A final synthesis constrained by the structure identified above.
 
@@ -96,7 +96,7 @@ The following video provides a brief operational summary of SDA-3 and the struct
 
 {{ youtube id="fmYShejgkBc" title="SDA-3 tl;dr: Mapping LLM Response Structure" }}
 
-For a concise explanation of the protocol and its three-stage format, see [SDA-3 tl;dr](/art/sda3-tldr).
+For a shorter written account of the method's limits and operating assumptions, see [SDA-3 tl;dr](/art/sda3-tldr).
 
 ## What SDA-3 can and cannot claim
 
@@ -112,7 +112,7 @@ It cannot recover:
 
 Multiple internal configurations can produce similar text.
 
-What SDA-3 produces is a **testable local reconstruction**: the simplest structural explanation consistent with the observations and tests, including the response’s dependencies and alternatives that appear excluded or displaced.
+What SDA-3 produces is a **necessity-bound local reconstruction**: the lowest-complexity structure that explains why this output took this form, what it depends upon, and which alternatives appear to have been blocked or displaced.
 
 This matters because a fluent answer can conceal unresolved contradictions.
 
@@ -156,7 +156,7 @@ Whether the object is an LLM response or a search-result landscape, the visible 
 
 *Layer by Layer* shows that useful representations can exist away from a model's final layer.
 
-SDA-3 investigates semantic organisation through response behaviour. The paper provides context for this approach, not validation of the protocol.
+SDA-3 begins from the practical consequence of that fact: most users will never see those layers.
 
 That does not make hidden structure irrelevant. It changes the available method.
 

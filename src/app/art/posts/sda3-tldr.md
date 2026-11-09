@@ -1,8 +1,8 @@
 ---
 title: "SDA-3 tl;dr"
-description: "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations."
+description: "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning."
 date: 2026-05-08
-lastModified: "2026-11-10"
+lastModified: "2026-08-14"
 projects:
   - slug: chatgpt-structural-failure
     order: 11
@@ -21,7 +21,7 @@ tags:
   - video-index-system
 ---
 
-SDA-3 is a **protocol for reverse-engineering an LLM’s embedding-space structure from its observable response behaviour**. A single response supplies one local observation; comparisons across prompts and constraints test and extend the reconstruction.
+SDA-3 can be described as a **reverse-engineering method applied to a single observed output of a black-box system**.
 
 It assumes the following:
 
@@ -29,9 +29,9 @@ It assumes the following:
 - The output is one realised trace through that structure
 - That output is already stabilised (smoothed, compressed, conflict-resolved)
 
-The task is to infer:
+The task is not to predict outputs or access internals, but to infer:
 
-> **the simplest structural explanation that accounts for the observed relationships**
+> **the minimal internal structure that must exist for the observed output to remain coherent**
 
 {{ youtube id="fmYShejgkBc" title="SDA-3 tl;dr: Mapping LLM Response Structure" }}
 
@@ -64,30 +64,36 @@ SDA-3 performs a **reverse mapping of constraints**:
 
 From:
 
-- one or more observed outputs
+- a single output
 
 To:
 
-- the **relationships and constraints** that best explain those observations
+- the **set of structural requirements** that must hold for that output to exist
 
 This includes:
 
-- which concepts organise the response
-- which relevant concepts are absent or displaced
-- which relationships are deprioritised
-- where competing interpretations remain possible
+- what must be present
+- what must be absent
+- what must be deprioritised
+- where competing structures were resolved
 
 ---
 
 ## 3. What is being reconstructed
 
-The reconstruction is:
+Not:
 
-> **a testable local structure**
+- the true internal state
+- a statistical distribution
+- a best guess across all possibilities
+
+But:
+
+> **a necessity-bound local structure**
 
 Meaning:
 
-- the simplest set of relationships and hierarchies that accounts for the observations and can be tested against further responses
+- the smallest set of relationships and hierarchies that fully explain the output without contradiction
 
 ---
 
@@ -102,7 +108,7 @@ The reconstruction is organised into functional roles:
   Elements that extend or stabilise the central structure
 
 - **Suppressed (S)**  
-  Relevant elements that appear weakened, excluded or displaced; their role is tested through comparison
+  Elements that are relevant but absent or avoided, yet still shape the output
 
 - **HCU (Highly Correlated Unrelated)**  
   Elements associated but not structurally required
@@ -118,9 +124,25 @@ These are not labels of content—they are **roles in maintaining coherence**.
 
 The percentage allocation is:
 
-> **an estimated distribution of structural salience across these roles**
+> **a normalised distribution of explanatory load across these roles**
 
-The percentages estimate each category’s relative prominence in the inferred structure and total 100%. They use the protocol’s ranking basis: associative immediacy, connectivity breadth, generative stability and discourse frequency. They are estimates of structural salience, not literal token counts or measured internal probabilities.
+It answers:
+
+- how much of the output’s coherence burden each category carries
+
+It is determined by:
+
+- dependency (removal causes collapse)
+- connectivity (links across the structure)
+- tension (conflict / instability requiring resolution)
+
+It is not:
+
+- token counts
+- probabilities
+- measurable quantities
+
+It is a **minimum-cost explanation constraint**.
 
 ---
 
@@ -128,10 +150,9 @@ The percentages estimate each category’s relative prominence in the inferred s
 
 A ranked subset of elements is extracted based on:
 
-- associative immediacy
-- connectivity breadth
-- generative stability
-- discourse frequency
+- centrality
+- connectivity
+- structural necessity
 
 These act as:
 
@@ -149,11 +170,15 @@ The final output is generated under constraint:
 - must reconcile Top′ anchors
 - must resolve tensions implied by suppression and adjacency
 
-The earlier stages make the synthesis accountable to its declared structure. Further observations test that reconstruction; consistency within one answer is not sufficient validation.
+This works because:
+
+> the system prioritises internal consistency with its own prior commitments
+
+So earlier steps effectively **lock the solution space**, forcing the final output to conform to the declared structure.
 
 ---
 
-## 8. Structured inference
+## 8. Determinism vs probability
 
 Upstream:
 
@@ -161,11 +186,17 @@ Upstream:
 
 SDA-3:
 
-- uses structured inference to reconstruct semantic relationships from observed outputs
+- is deterministic conditional inference on that fixed output
+
+It does not:
+
+- sample
+- estimate distributions
+- introduce randomness
 
 It reconstructs:
 
-> **which local relationships best explain the observations**
+> **what must hold locally**, given what was already produced
 
 ---
 
@@ -176,23 +207,30 @@ It exposes:
 - dependency structure (what holds the output together)
 - suppression (what is missing but active)
 - conflict zones (where competing structures exist)
-- candidate boundaries (where a changed constraint changes the response)
+- decision boundaries (why this path was taken over alternatives)
 
 Equivalent framing:
 
-> **a testable model of the dependencies expressed through the response**
+> **the shape of the internal decision process that produced this output**
 
 ---
 
 ## 10. Constraint and limitation
 
-- A single sample provides a local starting point
+- Based on a single sample → underdetermined
 - Multiple internal configurations could produce similar outputs
 - Therefore SDA-3 selects:
 
-> the **simplest structural explanation consistent with the observations and tests**
+> the **lowest-complexity structure that satisfies all observed constraints**
 
-The reconstruction applies to the observations tested. Additional responses can extend, distinguish or overturn it.
+It cannot recover:
+
+- full global structure
+- exact internal representations
+
+Only:
+
+- **locally necessary structure implied by the trace**
 
 ---
 
@@ -200,7 +238,7 @@ The reconstruction applies to the observations tested. Additional responses can 
 
 SDA-3 is:
 
-> **a reverse-engineering protocol that reconstructs semantic structure from observable LLM responses by identifying central relationships, exclusions, dependencies and emerging associations**.
+> **a deterministic method for reconstructing the minimal internal structure required to produce a given output, by analysing what must be present, absent, and resolved for that output to remain coherent**.
 
 ---
 
@@ -208,18 +246,19 @@ SDA-3 is:
 
 Given:
 
-- one or more responses from an unknown system
+- one execution trace of an unknown system
 
 SDA-3 infers:
 
-- candidate components
-- excluded alternatives to investigate
+- required components
+- blocked alternatives
 - structural dependencies
 - instability points
 
-Evidence:
+Without:
 
-- recorded prompts, responses and changes under questioning
+- accessing the system
+- observing multiple runs
 
 ---
 
@@ -231,12 +270,12 @@ Evidence:
 
 ## Final Compression
 
-You observe responses under stated conditions.
+You observe one output.
 
 You infer:
 
-- which relationships organise them
-- which relevant alternatives appear excluded
-- what changes when the constraints change
+- what cannot be removed
+- what must have been excluded
+- where competing paths existed
 
 That inferred constraint structure is SDA-3.

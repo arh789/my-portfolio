@@ -22,9 +22,9 @@ const PROJECT_DEFINITIONS = [
         title: "SDA-3 and LLM Structural Extraction",
         eyebrow: "Guided methodology",
         description:
-            "A guided investigation into reverse-engineering LLM semantic structure through SDA-3 mapping and iterative structural testing.",
+            "A method-led pathway for extracting and testing structural information from language-model outputs without claiming access to hidden model states.",
         introduction:
-            "The sequence moves from the misuse problem to SDA-3’s structural mapping, SEP’s iterative tests and the comparison of reconstructions against observable responses.",
+            "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
     },
     {
         slug: "semantic-seo-graph-positioning",

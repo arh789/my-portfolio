@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T19:40:48.091Z",
+  "generatedAt": "2026-10-31T22:55:20.076Z",
   "articles": [
     {
       "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
@@ -431,7 +431,7 @@
     {
       "slug": "hidden-representations-without-hidden-layers",
       "title": "Hidden Representations Without Hidden Layers",
-      "description": "How behavioural reverse engineering uses LLM responses to reconstruct and test semantic relationships, alongside research on internal representations.",
+      "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
       "date": "2026-07-03",
       "tags": [
         "llm-structural-analysis",
@@ -606,7 +606,7 @@
     {
       "slug": "sda3-tldr",
       "title": "SDA-3 tl;dr",
-      "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+      "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
       "date": "2026-05-08",
       "tags": [
         "llm-structural-analysis",
@@ -826,7 +826,7 @@
     {
       "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
       "title": "SDA-3 protocol",
-      "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+      "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
       "date": "2026-04-06",
       "tags": [
         "llm-structural-analysis",
@@ -856,7 +856,7 @@
     {
       "slug": "structural-extraction-protocol",
       "title": "Structural Extraction Protocol",
-      "description": "An iterative protocol for testing and refining structural explanations of LLM responses through constraint changes, assumption checks and adversarial questioning.",
+      "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
       "date": "2026-04-06",
       "tags": [
         "llm-structural-analysis",
@@ -2182,7 +2182,7 @@
       {
         "slug": "sda3-tldr",
         "title": "SDA-3 tl;dr",
-        "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
         "date": "2026-05-08",
         "tags": [
           "llm-structural-analysis",
@@ -2619,7 +2619,7 @@
       {
         "slug": "sda3-tldr",
         "title": "SDA-3 tl;dr",
-        "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
         "date": "2026-05-08",
         "tags": [
           "llm-structural-analysis",
@@ -2633,7 +2633,7 @@
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
-        "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -2736,7 +2736,7 @@
       {
         "slug": "hidden-representations-without-hidden-layers",
         "title": "Hidden Representations Without Hidden Layers",
-        "description": "How behavioural reverse engineering uses LLM responses to reconstruct and test semantic relationships, alongside research on internal representations.",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
         "date": "2026-07-03",
         "tags": [
           "llm-structural-analysis",
@@ -2762,7 +2762,7 @@
       {
         "slug": "sda3-tldr",
         "title": "SDA-3 tl;dr",
-        "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
         "date": "2026-05-08",
         "tags": [
           "llm-structural-analysis",
@@ -2791,7 +2791,7 @@
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
-        "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -2807,7 +2807,7 @@
       {
         "slug": "structural-extraction-protocol",
         "title": "Structural Extraction Protocol",
-        "description": "An iterative protocol for testing and refining structural explanations of LLM responses through constraint changes, assumption checks and adversarial questioning.",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -2931,7 +2931,7 @@
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
-        "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -3045,7 +3045,7 @@
       {
         "slug": "hidden-representations-without-hidden-layers",
         "title": "Hidden Representations Without Hidden Layers",
-        "description": "How behavioural reverse engineering uses LLM responses to reconstruct and test semantic relationships, alongside research on internal representations.",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
         "date": "2026-07-03",
         "tags": [
           "llm-structural-analysis",
@@ -3071,7 +3071,7 @@
       {
         "slug": "sda3-tldr",
         "title": "SDA-3 tl;dr",
-        "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
         "date": "2026-05-08",
         "tags": [
           "llm-structural-analysis",
@@ -3100,7 +3100,7 @@
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
-        "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -3116,7 +3116,7 @@
       {
         "slug": "structural-extraction-protocol",
         "title": "Structural Extraction Protocol",
-        "description": "An iterative protocol for testing and refining structural explanations of LLM responses through constraint changes, assumption checks and adversarial questioning.",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -3216,7 +3216,7 @@
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
-        "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -3232,7 +3232,7 @@
       {
         "slug": "structural-extraction-protocol",
         "title": "Structural Extraction Protocol",
-        "description": "An iterative protocol for testing and refining structural explanations of LLM responses through constraint changes, assumption checks and adversarial questioning.",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -3355,7 +3355,7 @@
       {
         "slug": "sda3-tldr",
         "title": "SDA-3 tl;dr",
-        "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
         "date": "2026-05-08",
         "tags": [
           "llm-structural-analysis",
@@ -3437,7 +3437,7 @@
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
-        "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -3940,7 +3940,7 @@
       {
         "slug": "hidden-representations-without-hidden-layers",
         "title": "Hidden Representations Without Hidden Layers",
-        "description": "How behavioural reverse engineering uses LLM responses to reconstruct and test semantic relationships, alongside research on internal representations.",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
         "date": "2026-07-03",
         "tags": [
           "llm-structural-analysis",
@@ -3951,7 +3951,7 @@
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
-        "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -4169,7 +4169,7 @@
       {
         "slug": "sda3-tldr",
         "title": "SDA-3 tl;dr",
-        "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
         "date": "2026-05-08",
         "tags": [
           "llm-structural-analysis",
@@ -4523,7 +4523,7 @@
       {
         "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "title": "SDA-3 protocol",
-        "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
         "date": "2026-04-06",
         "tags": [
           "llm-structural-analysis",
@@ -4976,7 +4976,7 @@
         {
           "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
           "title": "SDA-3 protocol",
-          "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+          "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
           "date": "2026-04-06",
           "tags": [
             "llm-structural-analysis",
@@ -5008,7 +5008,7 @@
         {
           "slug": "sda3-tldr",
           "title": "SDA-3 tl;dr",
-          "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+          "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
           "date": "2026-05-08",
           "tags": [
             "llm-structural-analysis",
@@ -5356,8 +5356,8 @@
       "slug": "sda3-structural-extraction",
       "title": "SDA-3 and LLM Structural Extraction",
       "eyebrow": "Guided methodology",
-      "description": "A guided investigation into reverse-engineering LLM semantic structure through SDA-3 mapping and iterative structural testing.",
-      "introduction": "The sequence moves from the misuse problem to SDA-3’s structural mapping, SEP’s iterative tests and the comparison of reconstructions against observable responses.",
+      "description": "A method-led pathway for extracting and testing structural information from language-model outputs without claiming access to hidden model states.",
+      "introduction": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
       "chapters": [
         {
           "slug": "gpt-misuse-is-not-what-people-think",
@@ -5384,7 +5384,7 @@
         {
           "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
           "title": "SDA-3 protocol",
-          "description": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.",
+          "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
           "date": "2026-04-06",
           "tags": [
             "llm-structural-analysis",
@@ -5416,7 +5416,7 @@
         {
           "slug": "structural-extraction-protocol",
           "title": "Structural Extraction Protocol",
-          "description": "An iterative protocol for testing and refining structural explanations of LLM responses through constraint changes, assumption checks and adversarial questioning.",
+          "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
           "date": "2026-04-06",
           "tags": [
             "llm-structural-analysis",
@@ -5438,7 +5438,7 @@
         {
           "slug": "hidden-representations-without-hidden-layers",
           "title": "Hidden Representations Without Hidden Layers",
-          "description": "How behavioural reverse engineering uses LLM responses to reconstruct and test semantic relationships, alongside research on internal representations.",
+          "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
           "date": "2026-07-03",
           "tags": [
             "llm-structural-analysis",
@@ -5462,7 +5462,7 @@
         {
           "slug": "sda3-tldr",
           "title": "SDA-3 tl;dr",
-          "description": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations.",
+          "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
           "date": "2026-05-08",
           "tags": [
             "llm-structural-analysis",
