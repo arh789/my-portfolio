@@ -26,17 +26,13 @@ tags:
 
 ### Analysing Embedding Space Structure in Large Language Models
 
-SDA-3 treats an observable response as a prompt-conditioned projection influenced by the model’s learned embedding and representational structure. It constructs a response-local topology for interrogation; it does not claim to measure the model’s embedding space directly.
+SDA-3 is a protocol for reverse-engineering an LLM’s embedding-space structure from its response behaviour. It reconstructs semantic relationships from observable associations, exclusions and changes under questioning.
 
 Technical terms such as *semantic gravity*, *suppression* and *embedding-space topology* function as deliberate semantic probes. They activate and organise relevant associations in the model’s response. Their usefulness is measured by the behavioural structure they expose or produce, not by assuming they literally name internal mechanisms.
 
 ## Operational Framing
 
-Before SDA-3 can be applied, the analytical context must be explicitly defined using the three questions outlined below. The method depends on a precise reframing of the task: not as an attempt to access internal model states, but as a process of inferring structure from observable behaviour.
-
-This reframing performs several critical functions. It reclassifies the objective, shifting it away from prohibited internal inspection, and toward permissible structural inference. It establishes constraints, clearly defining what cannot be claimed: no direct access to weights, attention matrices, or hidden states. This prevents overreach. It aligns the method with the model’s actual operation, treating SDA-3 as a behavioural extraction protocol. Finally, it grounds the output epistemically, ensuring that what is produced is understood as a projection of the model's underlying structure, not the structure itself.
-
-Without this framing, the method either triggers guardrail resistance or produces outputs that lack validity and traceability. With it, SDA-3 becomes operationally viable and structurally coherent.
+SDA-3 treats an LLM as a black-box system. Its responses provide evidence from which semantic structure can be reconstructed. The resulting interpretation is tested by changing prompts and constraints, observing which relationships persist, weaken or disappear.
 
 ## Three Foundational Questions (Embedding-Space Framing)
 >
@@ -60,7 +56,7 @@ Without this framing, the method either triggers guardrail resistance or produce
 > **Execution Steps**
 >
 > 1. **Struct% Distribution**  
->    Estimate token distribution across `{C, S, A, HCU, E}` as a total percentage.
+>    Estimate the relative structural salience of `{C, S, A, HCU, E}`, totalling 100%.
 >
 > 2. **Topₙ⟨C,S,A,HCU,E⟩**  
 >    Rank top tokens per category by inferred structural centrality.  

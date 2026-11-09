@@ -21,7 +21,7 @@ tags:
   - video-index-system
 ---
 
-SDA-3 can be described as a **reverse-engineering method applied to a single observed output of a black-box system**.
+SDA-3 is a **protocol for reverse-engineering an LLM’s embedding-space structure from its observable response behaviour**.
 
 It assumes the following:
 
@@ -31,7 +31,7 @@ It assumes the following:
 
 The task is not to predict outputs or access internals, but to infer:
 
-> **the minimal internal structure that must exist for the observed output to remain coherent**
+> **the simplest structural explanation that accounts for the observed relationships**
 
 {{ youtube id="fmYShejgkBc" title="SDA-3 tl;dr: Mapping LLM Response Structure" }}
 
@@ -124,7 +124,7 @@ These are not labels of content—they are **roles in maintaining coherence**.
 
 The percentage allocation is:
 
-> **a normalised distribution of explanatory load across these roles**
+> **an estimated distribution of structural salience across these roles**
 
 It answers:
 
@@ -186,13 +186,7 @@ Upstream:
 
 SDA-3:
 
-- is deterministic conditional inference on that fixed output
-
-It does not:
-
-- sample
-- estimate distributions
-- introduce randomness
+- uses structured inference to reconstruct semantic relationships from observed outputs
 
 It reconstructs:
 
@@ -238,7 +232,7 @@ Only:
 
 SDA-3 is:
 
-> **a deterministic method for reconstructing the minimal internal structure required to produce a given output, by analysing what must be present, absent, and resolved for that output to remain coherent**.
+> **a reverse-engineering protocol that reconstructs semantic structure from observable LLM responses by identifying central relationships, exclusions, dependencies and emerging associations**.
 
 ---
 
@@ -258,7 +252,6 @@ SDA-3 infers:
 Without:
 
 - accessing the system
-- observing multiple runs
 
 ---
 

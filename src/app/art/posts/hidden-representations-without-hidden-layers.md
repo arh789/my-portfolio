@@ -42,7 +42,7 @@ These patterns are not direct evidence of hidden states.
 
 They are traces.
 
-The task is therefore not to claim access to an LLM's internal geometry. It is to infer the minimum local structure required for an observed output to remain coherent.
+The task is to reverse-engineer semantic structure from the relationships expressed in the model’s responses.
 
 ## From hidden representations to behavioural traces
 
@@ -74,7 +74,7 @@ One works with representations inside the model. The other works with the observ
 
 [SDA-3](/art/sda-3-analysing-embedding-space-structure-in-large-language-models) is a framework for this second problem.
 
-It does not inspect weights, recover hidden states, or verify the contents of an embedding space. Instead, it treats an output as a constrained trace and reconstructs the smallest local set of relationships required for that output to remain internally coherent.
+It reconstructs semantic relationships from observable responses, producing structural explanations that can be tested through further questioning.
 
 The method separates an output into five functional roles:
 
@@ -112,7 +112,7 @@ It cannot recover:
 
 Multiple internal configurations can produce similar text.
 
-What SDA-3 produces is a **necessity-bound local reconstruction**: the lowest-complexity structure that explains why this output took this form, what it depends upon, and which alternatives appear to have been blocked or displaced.
+What SDA-3 produces is a **testable local reconstruction**: the lowest-complexity structure that explains why this output took this form, what it depends upon, and which alternatives appear to have been blocked or displaced.
 
 This matters because a fluent answer can conceal unresolved contradictions.
 

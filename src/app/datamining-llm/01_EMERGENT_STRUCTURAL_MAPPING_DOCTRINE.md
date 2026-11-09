@@ -105,11 +105,11 @@ They form the symbolic grammar for extracting and restructuring meaning behind L
 
 ---
 
-### 📊 SDA-3 Protocol: Token-Level Structural Decomposition
+### 📊 SDA-3: Reverse-Engineering LLM Embedding Structure
 
 To extend these symbolic prompts with structural precision, we introduce `[SDA-3]`: a response-local schema for describing semantic topology inferred from an LLM’s observable response behaviour.
 
-`[SDA-3]` functions as the **diagnostic layer** of ESM. It does not ask symbolic questions; it answers them by exposing the structural logic used to produce a generative output.
+`[SDA-3]` functions as the **structural mapping layer** of ESM. It reconstructs semantic relationships from observable LLM responses, organising them into a consistent format for analysis and testing.
 
 #### ♻️ SDA-3 Full Init
 
