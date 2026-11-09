@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T22:55:20.076Z",
+  "generatedAt": "2026-11-09T21:39:46.387Z",
   "articles": [
     {
       "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
@@ -5356,7 +5356,7 @@
       "slug": "sda3-structural-extraction",
       "title": "SDA-3 and LLM Structural Extraction",
       "eyebrow": "Guided methodology",
-      "description": "A method-led pathway for extracting and testing structural information from language-model outputs without claiming access to hidden model states.",
+      "description": "A guided investigation into reverse-engineering LLM semantic structure through SDA-3 mapping and iterative structural testing.",
       "introduction": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
       "chapters": [
         {

@@ -98,7 +98,7 @@ export const STATIC_SITE_PAGES = [
         title: "Data-Mining an LLM: Emergent Structural Mapping",
         summary:
             "Presents a method for converting recorded LLM outputs into inspectable semantic systems and studying what survives, weakens, disappears or becomes distorted under prompting pressure.",
-        lastModified: "2026-09-10",
+        lastModified: "2026-11-10",
         priority: 0.8,
         navigation: {
             label: "Datamining an LLM",

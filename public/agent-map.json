@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-31T22:55:20.076Z",
+  "generatedAt": "2026-11-09T21:39:46.387Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -498,7 +498,7 @@
         "canonical": "https://decrepitfilth.art/datamining-llm",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-09-10"
+        "lastModified": "2026-11-10"
       },
       "questionsAnswered": [
         "What can repeated LLM outputs reveal?",
@@ -539,7 +539,7 @@
         "corePrinciple": "Treat outputs as artifacts under pressure: identify what survives, compress it and build with it."
       },
       "limitations": [
-        "The method analyses recorded outputs, not hidden model weights, activations or direct internal reasoning.",
+        "The inferred structure is evaluated against observable response behaviour; competing internal explanations may remain indistinguishable.",
         "Results depend on prompts, sampling conditions and the selected output archive.",
         "Persistent output patterns should not automatically be treated as empirical truth."
       ],
@@ -650,7 +650,7 @@
         "canonical": "https://decrepitfilth.art/art",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-11-01"
+        "lastModified": "2026-11-10"
       },
       "questionsAnswered": [
         "What has been published?",
@@ -1175,7 +1175,7 @@
       "path": "/art/project/sda3-structural-extraction",
       "url": "https://decrepitfilth.art/art/project/sda3-structural-extraction",
       "title": "SDA-3 and LLM Structural Extraction",
-      "summary": "A method-led pathway for extracting and testing structural information from language-model outputs without claiming access to hidden model states.",
+      "summary": "A guided investigation into reverse-engineering LLM semantic structure through SDA-3 mapping and iterative structural testing.",
       "introduction": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
       "architectureRole": "supporting",
       "agentPriority": {
@@ -3706,7 +3706,7 @@
         "url": "https://decrepitfilth.art/art/project/sda3-structural-extraction",
         "kind": "project",
         "title": "SDA-3 and LLM Structural Extraction",
-        "summary": "A method-led pathway for extracting and testing structural information from language-model outputs without claiming access to hidden model states.",
+        "summary": "A guided investigation into reverse-engineering LLM semantic structure through SDA-3 mapping and iterative structural testing.",
         "architectureRole": "supporting",
         "introduction": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
         "articleCounts": {
@@ -4755,7 +4755,7 @@
         "key": "id",
         "value": "datamining-llm"
       },
-      "lastModified": "2026-09-10",
+      "lastModified": "2026-11-10",
       "priority": 0.8
     },
     {
@@ -4781,7 +4781,7 @@
         "key": "id",
         "value": "art"
       },
-      "lastModified": "2026-11-01",
+      "lastModified": "2026-11-10",
       "priority": 0.8
     },
     {
@@ -5035,7 +5035,7 @@
         "key": "slug",
         "value": "hidden-representations-without-hidden-layers"
       },
-      "lastModified": "2026-08-14"
+      "lastModified": "2026-11-10"
     },
     {
       "path": "/art/adversarial-questioning-chatgpt-zombie-survival",
@@ -5131,7 +5131,7 @@
         "key": "slug",
         "value": "sda3-tldr"
       },
-      "lastModified": "2026-08-14"
+      "lastModified": "2026-11-10"
     },
     {
       "path": "/art/research-pipeline",
@@ -5239,7 +5239,7 @@
         "key": "slug",
         "value": "sda-3-analysing-embedding-space-structure-in-large-language-models"
       },
-      "lastModified": "2026-09-08"
+      "lastModified": "2026-11-10"
     },
     {
       "path": "/art/structural-extraction-protocol",
@@ -5251,7 +5251,7 @@
         "key": "slug",
         "value": "structural-extraction-protocol"
       },
-      "lastModified": "2026-09-10"
+      "lastModified": "2026-11-10"
     },
     {
       "path": "/art/art-forms-with-high-audience-resonance",
@@ -5335,7 +5335,7 @@
         "key": "slug",
         "value": "chatgpt-structural-failure"
       },
-      "lastModified": "2026-09-12"
+      "lastModified": "2026-11-10"
     },
     {
       "path": "/art/project/ai-visibility-is-not-value",
@@ -5359,7 +5359,7 @@
         "key": "slug",
         "value": "sda3-structural-extraction"
       },
-      "lastModified": "2026-09-10"
+      "lastModified": "2026-11-10"
     },
     {
       "path": "/art/project/semantic-seo-graph-positioning",

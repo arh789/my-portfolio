@@ -2,7 +2,7 @@
 title: Structural Extraction Protocol
 description: A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.
 date: 2026-04-06
-lastModified: "2026-09-10"
+lastModified: "2026-11-10"
 projects:
   - slug: sda3-structural-extraction
     order: 3
@@ -13,7 +13,7 @@ tags:
   - model-structure-analysis
 ---
 
-This manual defines a **single executable system** for extracting structure from language model outputs.
+The Structural Extraction Protocol (SEP) tests and refines structural reconstructions produced through SDA-3 using recursive questioning, constraint changes and adversarial testing.
 
 The system does not retrieve answers.  
 It forces the emergence of **what cannot be removed without collapse**.
@@ -45,7 +45,7 @@ It is a constrained residue:
 
 - what the system cannot remove
 - what reappears despite contradiction
-- what must exist for the output to function at all
+- which relationships remain necessary under the tested constraints
 
 SEP does not:
 
@@ -318,5 +318,4 @@ Repeat until convergence.
 
 ## VII. FINAL PRINCIPLE
 
-> You are not extracting answers from the system.  
-> You are forcing it into a position where it can no longer avoid revealing its structure.
+> Apply constraints, observe how the structure changes, and retain the explanation that best accounts for what survives testing.
