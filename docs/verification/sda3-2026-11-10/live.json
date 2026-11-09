@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-11-09T19:49:02.664717+00:00",
+  "baseUrl": "https://decrepitfilth.art",
+  "status": "PASS",
+  "pages": [
+    {
+      "route": "/art/sda-3-analysing-embedding-space-structure-in-large-language-models",
+      "httpStatus": 200,
+      "status": "PASS",
+      "mainTextSha256": "c27add08b44ac5a5c5312bf19bd6fee7bb793626ebf6deebed1c5ef3e5adaf30",
+      "title": "SDA-3 protocol",
+      "metadataLinksAndVideosMatch": true
+    },
+    {
+      "route": "/art/sda3-tldr",
+      "httpStatus": 200,
+      "status": "PASS",
+      "mainTextSha256": "8cca1a9e37ff9a5fb515e4dc1bd864332440ee86ad8d927377d3bb1aa69bba0f",
+      "title": "SDA-3 tl;dr",
+      "metadataLinksAndVideosMatch": true
+    },
+    {
+      "route": "/art/hidden-representations-without-hidden-layers",
+      "httpStatus": 200,
+      "status": "PASS",
+      "mainTextSha256": "2665a0c9dc48b6326d69e6a3af6857fd7ef23778bd53970f1941d767dfa01cf8",
+      "title": "Hidden Representations Without Hidden Layers",
+      "metadataLinksAndVideosMatch": true
+    },
+    {
+      "route": "/art/structural-extraction-protocol",
+      "httpStatus": 200,
+      "status": "PASS",
+      "mainTextSha256": "76fdae08dc1496f0805dd86097681c0cf672f4b42b78a614b0029d235670648e",
+      "title": "Structural Extraction Protocol",
+      "metadataLinksAndVideosMatch": true
+    },
+    {
+      "route": "/art/project/sda3-structural-extraction",
+      "httpStatus": 200,
+      "status": "PASS",
+      "mainTextSha256": "a2f13f1376ba738dfe44dc4631ea0ac62dd9846600683e1a2fe6860e910cccba",
+      "title": "SDA-3 and LLM Structural Extraction",
+      "metadataLinksAndVideosMatch": true
+    },
+    {
+      "route": "/datamining-llm",
+      "httpStatus": 200,
+      "status": "PASS",
+      "mainTextSha256": "78b8b76404adce402b7ba7099b53e1e4179ef4ad1734e28c96294777c913c59b",
+      "title": "Data-Mining an LLM",
+      "metadataLinksAndVideosMatch": true
+    },
+    {
+      "route": "/art/youtube-video-index",
+      "httpStatus": 200,
+      "status": "PASS",
+      "mainTextSha256": "bde82605252d88be615132d1b3bd717ed1999a9d4eb373db8572aa8f82eac750",
+      "title": "YouTube",
+      "metadataLinksAndVideosMatch": true
+    },
+    {
+      "route": "/agent-map.json",
+      "httpStatus": 200,
+      "status": "PASS",
+      "comparison": "Full JSON, excluding generatedAt only"
+    },
+    {
+      "route": "/agent-map.html",
+      "httpStatus": 200,
+      "status": "PASS",
+      "comparison": "Full HTML, excluding generation timestamp only"
+    },
+    {
+      "route": "/graph.json",
+      "httpStatus": 200,
+      "status": "PASS",
+      "comparison": "Full JSON, excluding generatedAt only"
+    },
+    {
+      "route": "/sitemap.xml",
+      "httpStatus": 200,
+      "status": "PASS",
+      "comparison": "Exact XML"
+    }
+  ],
+  "contentCommit": "64553d5329a46ce6c51e3a10833b013a7f67b2c8",
+  "deploymentId": "dpl_EWKedDa2jzVKjseR3ULoCTcgRM4k",
+  "elapsedSecondsBeforeFirstRequest": 180.0
+}

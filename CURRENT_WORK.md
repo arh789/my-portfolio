@@ -1,6 +1,6 @@
 # Current Work: SDA-3 Reverse-Engineering Framing
 
-**Status:** Source consistency, metadata, generated outputs and local verification completed; production verification pending. Desktop WSL synchronisation requires local execution.  
+**Status:** Repository and production work completed and verified. Desktop WSL synchronisation remains pending local execution; it has not been claimed as complete.  
 **Created:** 2026-11-09  
 **Objective:** Align the portfolio's SDA-3 methodology and descriptions around reverse engineering from observable LLM responses.
 
@@ -67,8 +67,12 @@ These statuses refer to the amended scope above, not automatic execution of the 
 | 6. SEP relationship | Complete: mapping/testing distinction, evidence bounds and stopping condition clarified. |
 | 7. Project and agent descriptions | Complete: relevant descriptions aligned without changing project membership. |
 | 8. Repository-wide consistency audit | Complete: tracked source and notebook cells searched; incidental references and historical examples reviewed and retained. |
-| 9. Regenerate discovery data | Complete: all four outputs generated together; counts, URLs, relationships and membership verified; outputs included in the candidate commit. |
-| 10. Verification | Local build, lint, source-preservation and discovery checks passed. Production comparison pending publication. |
+| 9. Regenerate discovery data | Complete: all four outputs generated together; counts, URLs, relationships and membership verified; outputs committed in `64553d5`. |
+| 10. Verification | Complete: build, lint, source-preservation and discovery checks passed; all 11 production endpoints matched the verified build after the three-minute interval. |
+
+### Publication verification — 10 November 2026
+
+Content commit: `64553d5329a46ce6c51e3a10833b013a7f67b2c8`. Production deployment: `dpl_EWKedDa2jzVKjseR3ULoCTcgRM4k`, READY and assigned to `decrepitfilth.art`. The live comparison began 180 seconds after deployment creation and passed on all seven pages and four discovery endpoints. Full results are in `docs/verification/sda3-2026-11-10/live.json`.
 
 ### Evidence and environment boundary
 

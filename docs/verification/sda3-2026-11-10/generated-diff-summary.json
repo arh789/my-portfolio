@@ -1,0 +1,25 @@
+[
+  {
+    "file": "public/agent-map.json",
+    "changedLeafCount": 25,
+    "changedFieldTypes": {
+      "generatedAt": 1,
+      "summary": 9,
+      "lastModified": 11,
+      "0": 1,
+      "purpose": 1,
+      "introduction": 2
+    },
+    "status": "PASS"
+  },
+  {
+    "file": "public/graph.json",
+    "changedLeafCount": 33,
+    "changedFieldTypes": {
+      "generatedAt": 1,
+      "description": 31,
+      "introduction": 1
+    },
+    "status": "PASS"
+  }
+]
