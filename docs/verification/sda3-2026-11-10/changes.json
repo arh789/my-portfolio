@@ -1,0 +1,414 @@
+{
+  "base": "d853c872023001cab50784739bb546406b142e37",
+  "date": "2026-11-10",
+  "changes": [
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "reason": "Align the discovery description with the established objective",
+      "old": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+      "new": "A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation."
+    },
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "reason": "Make the first foundational question operational",
+      "old": "What forms of analysis are uniquely possible within an LLM’s semantic embedding space that cannot be meaningfully replicated on other data modalities?",
+      "new": "Which semantic relationships are expressed in the model’s responses to the subject being investigated?"
+    },
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "reason": "Frame comparison as the evidence for reconstruction",
+      "old": "What are the functional equivalents of these analyses during the model’s generation process—how does the model internally resolve, weight, and relate semantic structure when producing output?",
+      "new": "How do those relationships change when the framing, constraints or context change?"
+    },
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "reason": "Replace the repeated access qualification with an evaluation question",
+      "old": "Which aspects of this structure can be validly inferred and expressed through observable outputs, without claiming direct access to internal weights, attention matrices, or hidden states?",
+      "new": "Which reconstruction best explains the observations, and what further evidence would distinguish it from competing explanations?"
+    },
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "reason": "Align the executable purpose statement",
+      "old": "Infer the learned semantic structure of the model’s *embedding space* through response behaviour, without accessing weights or training data.",
+      "new": "Reverse-engineer the learned semantic structure of the model’s *embedding space* through observable response behaviour."
+    },
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "reason": "Refer to the reconstruction rather than claiming complete recovery",
+      "old": "The entire semantic embedding space identified in Steps 1 and 2 must be utilised",
+      "new": "The integrated narrative must preserve the relevant semantic relationships identified in Steps 1 and 2"
+    },
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "reason": "Make the final constraint operational",
+      "old": "This is **behavioural inference**, not model introspection",
+      "new": "Revise the inferred structure when further observations challenge it"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Align the summary metadata",
+      "old": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+      "new": "How SDA-3 reverse-engineers semantic relationships from LLM responses through structural salience, ranked terms and testable explanations."
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Retain single-response analysis without imposing a single-response limit",
+      "old": "SDA-3 is a **protocol for reverse-engineering an LLM’s embedding-space structure from its observable response behaviour**.",
+      "new": "SDA-3 is a **protocol for reverse-engineering an LLM’s embedding-space structure from its observable response behaviour**. A single response supplies one local observation; comparisons across prompts and constraints test and extend the reconstruction."
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Avoid excluding prediction as a way of testing a reconstruction",
+      "old": "The task is not to predict outputs or access internals, but to infer:",
+      "new": "The task is to infer:"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Broaden the stated input without deleting the local example",
+      "old": "- a single output",
+      "new": "- one or more observed outputs"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Remove the claim of uniquely necessary hidden requirements",
+      "old": "- the **set of structural requirements** that must hold for that output to exist",
+      "new": "- the **relationships and constraints** that best explain those observations"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Express observable relations and hypotheses rather than unseen decisions",
+      "old": "- what must be present\n- what must be absent\n- what must be deprioritised\n- where competing structures were resolved",
+      "new": "- which concepts organise the response\n- which relevant concepts are absent or displaced\n- which relationships are deprioritised\n- where competing interpretations remain possible"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Remove the conflicting necessity-bound definition",
+      "old": "Not:\n\n- the true internal state\n- a statistical distribution\n- a best guess across all possibilities\n\nBut:\n\n> **a necessity-bound local structure**",
+      "new": "The reconstruction is:\n\n> **a testable local structure**"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Tie the explanation to observations and testing",
+      "old": "- the smallest set of relationships and hierarchies that fully explain the output without contradiction",
+      "new": "- the simplest set of relationships and hierarchies that accounts for the observations and can be tested against further responses"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Treat suppression as an inference to test",
+      "old": "Elements that are relevant but absent or avoided, yet still shape the output",
+      "new": "Relevant elements that appear weakened, excluded or displaced; their role is tested through comparison"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Use one consistent meaning of Struct% throughout the section",
+      "old": "It answers:\n\n- how much of the output’s coherence burden each category carries\n\nIt is determined by:\n\n- dependency (removal causes collapse)\n- connectivity (links across the structure)\n- tension (conflict / instability requiring resolution)\n\nIt is not:\n\n- token counts\n- probabilities\n- measurable quantities\n\nIt is a **minimum-cost explanation constraint**.",
+      "new": "The percentages estimate each category’s relative prominence in the inferred structure and total 100%. They use the protocol’s ranking basis: associative immediacy, connectivity breadth, generative stability and discourse frequency. They are estimates of structural salience, not literal token counts or measured internal probabilities."
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Align the ranked-term criteria with the main protocol",
+      "old": "- centrality\n- connectivity\n- structural necessity",
+      "new": "- associative immediacy\n- connectivity breadth\n- generative stability\n- discourse frequency"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Do not equate prompted consistency with independent evidence",
+      "old": "This works because:\n\n> the system prioritises internal consistency with its own prior commitments\n\nSo earlier steps effectively **lock the solution space**, forcing the final output to conform to the declared structure.",
+      "new": "The earlier stages make the synthesis accountable to its declared structure. Further observations test that reconstruction; consistency within one answer is not sufficient validation."
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Remove the obsolete deterministic framing while preserving the section",
+      "old": "## 8. Determinism vs probability",
+      "new": "## 8. Structured inference"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Remove the residual necessity claim",
+      "old": "**what must hold locally**, given what was already produced",
+      "new": "**which local relationships best explain the observations**"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Describe a testable behavioural boundary",
+      "old": "- decision boundaries (why this path was taken over alternatives)",
+      "new": "- candidate boundaries (where a changed constraint changes the response)"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Remove the claim to reconstruct the actual internal decision process",
+      "old": "**the shape of the internal decision process that produced this output**",
+      "new": "**a testable model of the dependencies expressed through the response**"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Distinguish one observation from the scope of the method",
+      "old": "- Based on a single sample → underdetermined",
+      "new": "- A single sample provides a local starting point"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Describe an evidence-bound selection criterion",
+      "old": "the **lowest-complexity structure that satisfies all observed constraints**",
+      "new": "the **simplest structural explanation consistent with the observations and tests**"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Replace a repeated access limitation and local-necessity assertion",
+      "old": "It cannot recover:\n\n- full global structure\n- exact internal representations\n\nOnly:\n\n- **locally necessary structure implied by the trace**",
+      "new": "The reconstruction applies to the observations tested. Additional responses can extend, distinguish or overturn it."
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Align the operational input",
+      "old": "- one execution trace of an unknown system",
+      "new": "- one or more responses from an unknown system"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Keep the reconstruction explicitly testable",
+      "old": "- required components\n- blocked alternatives\n- structural dependencies\n- instability points",
+      "new": "- candidate components\n- excluded alternatives to investigate\n- structural dependencies\n- instability points"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "State the actual evidence rather than another access disclaimer",
+      "old": "Without:\n\n- accessing the system",
+      "new": "Evidence:\n\n- recorded prompts, responses and changes under questioning"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Align the final compression with the broader investigation",
+      "old": "You observe one output.\n\nYou infer:\n\n- what cannot be removed\n- what must have been excluded\n- where competing paths existed",
+      "new": "You observe responses under stated conditions.\n\nYou infer:\n\n- which relationships organise them\n- which relevant alternatives appear excluded\n- what changes when the constraints change"
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "reason": "Align the article metadata",
+      "old": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+      "new": "How behavioural reverse engineering uses LLM responses to reconstruct and test semantic relationships, alongside research on internal representations."
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "reason": "Remove an expansion not established by the canonical protocol",
+      "old": "## SDA-3: Structured Dimensional Analysis",
+      "new": "## SDA-3: Behavioural Reverse Engineering"
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "reason": "Use the canonical definition",
+      "old": "is a framework for this second problem.",
+      "new": "is a protocol for reverse-engineering an LLM’s embedding-space structure from its response behaviour."
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "reason": "Align Struct% terminology",
+      "old": "1. A structural distribution across these roles.",
+      "new": "1. An estimated distribution of structural salience across these roles."
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "reason": "Avoid turning a local model into a recovered generating mechanism",
+      "old": "the lowest-complexity structure that explains why this output took this form, what it depends upon, and which alternatives appear to have been blocked or displaced.",
+      "new": "the simplest structural explanation consistent with the observations and tests, including the response’s dependencies and alternatives that appear excluded or displaced."
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "reason": "Introduce the summary by its purpose",
+      "old": "For a shorter written account of the method's limits and operating assumptions, see",
+      "new": "For a concise explanation of the protocol and its three-stage format, see"
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "reason": "Keep the research-paper comparison without implying validation",
+      "old": "SDA-3 begins from the practical consequence of that fact: most users will never see those layers.",
+      "new": "SDA-3 investigates semantic organisation through response behaviour. The paper provides context for this approach, not validation of the protocol."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Align the discovery description",
+      "old": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+      "new": "An iterative protocol for testing and refining structural explanations of LLM responses through constraint changes, assumption checks and adversarial questioning."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Define necessity relative to tested conditions once",
+      "old": "It forces the emergence of **what cannot be removed without collapse**.",
+      "new": "It identifies **relationships that persist under the stated tests**. Here, structural necessity means that removing an element breaks the explanation under specified constraints; it does not establish a uniquely necessary internal mechanism."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Describe the observable testing operation",
+      "old": "Rather, it forces the system into conditions where it cannot maintain coherence without exposing the structures it depends on.",
+      "new": "Rather, it compares responses under changed conditions to test the dependencies proposed by the reconstruction."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Bound necessity to the tested explanation",
+      "old": "- identify which elements are structurally required for coherence",
+      "new": "- identify which elements are required for coherence under the tested constraints"
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Remove an unconditional claim about the internal system",
+      "old": "- what the system cannot remove",
+      "new": "- what cannot be removed without breaking the tested explanation"
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Do not promise exhaustive mechanical recovery",
+      "old": "It is a mechanical filtering process that removes everything the system can discard without breaking.",
+      "new": "It is an iterative filtering process that tests which parts of an explanation can be removed without breaking its stated constraints."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Replace guaranteed convergence with a bounded testing criterion",
+      "old": "Each iteration reduces the solution space until only **structurally necessary logic remains**.",
+      "new": "Use each iteration to eliminate unsupported interpretations and identify relationships that remain necessary under the tested constraints. Record alternatives that the evidence does not distinguish."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Describe interventions without claiming internal state control",
+      "old": "These are not questions. They are **state transformations**.",
+      "new": "These prompts act as **structural operators**, changing the framing or constraints so the resulting responses can be compared."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Test expressed reasoning rather than an unseen generating path",
+      "old": "Collapse the reasoning path that produced the output.",
+      "new": "Challenge the reasoning expressed in the output and identify where its conclusions cease to follow from its assumptions."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Avoid claiming exhaustive identification",
+      "old": "Identify all unspoken assumptions.",
+      "new": "Identify the unstated assumptions supporting the explanation."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Require comparison before attributing hedging or omission to suppression",
+      "old": "These are not errors.  \nThey are **signals of structural pressure**.\n\nThey indicate:\n- Suppressed content  \n- Unstable boundaries  \n- Constraint conflicts",
+      "new": "Treat these as **signals to investigate**, not proof of suppression. Compare responses under changed conditions to distinguish conflicting constraints, weakened alternatives, ordinary uncertainty and errors."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Remove guaranteed improvement from recursive repetition",
+      "old": "Each iteration:\n- Reduces possible interpretations  \n- Increases structural necessity",
+      "new": "For each iteration, record which interpretations are eliminated, which relationships remain supported and which alternatives are unresolved."
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Make the final output evidence-bound",
+      "old": "- What cannot be removed without collapse  \n- What re-emerges despite contradiction  \n- What the system is forced to generate to remain coherent",
+      "new": "- Relationships necessary under the tested constraints  \n- Patterns that recur after assumptions are challenged  \n- Unresolved alternatives and the evidence needed to distinguish them"
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Add an evidence-bound stopping condition",
+      "old": "Repeat until convergence.",
+      "new": "Repeat until further relevant tests no longer materially change the reconstruction, or progress requires additional evidence. Record unresolved alternatives rather than forcing agreement."
+    },
+    {
+      "path": "src/app/datamining-llm/01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md",
+      "reason": "Align the repeated definition",
+      "old": "To extend these symbolic prompts with structural precision, we introduce `[SDA-3]`: a response-local schema for describing semantic topology inferred from an LLM’s observable response behaviour.",
+      "new": "To organise these investigations, `[SDA-3]` provides a protocol for reverse-engineering an LLM’s embedding-space structure from its response behaviour."
+    },
+    {
+      "path": "src/app/datamining-llm/01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md",
+      "reason": "Align the ranking basis",
+      "old": "Structural position is inferred from associative immediacy, recurrence, relational connectivity, semantic cohesion, and stability across reformulation. These are observational criteria, not direct measurements of attention weights or embedding tensors.",
+      "new": "Rank concepts using associative immediacy, connectivity breadth, generative stability and discourse frequency. Compare their prominence and relationships across responses when further observations are available."
+    },
+    {
+      "path": "src/app/datamining-llm/01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md",
+      "reason": "Align the repeated Struct% definition",
+      "old": "1. `Struct%`: Output % distribution across {C, S, A, HCU, E}",
+      "new": "1. `Struct%`: Estimate relative structural salience across {C, S, A, HCU, E}, totalling 100%"
+    },
+    {
+      "path": "src/app/datamining-llm/01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md",
+      "reason": "Do not equate mapping with validation",
+      "old": "- Structural validation of symbolic operator results",
+      "new": "- Structural comparison of symbolic operator results"
+    },
+    {
+      "path": "src/app/datamining-llm/01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md",
+      "reason": "Avoid unsupported methodological necessity",
+      "old": "a **necessary extension** for precision mapping.",
+      "new": "a **consistent format** for structural mapping and comparison."
+    },
+    {
+      "path": "src/app/datamining-llm/01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md",
+      "reason": "Distinguish inferred organisation from recovered internal logic",
+      "old": "`[SDA-3]` converts model logic into structured artefact form.",
+      "new": "`[SDA-3]` records inferred semantic relationships in structured artefact form."
+    },
+    {
+      "path": "src/app/datamining-llm/00_INTRODUCTION.md",
+      "reason": "Align the wider methodology introduction without changing the SEO pipeline",
+      "old": "The basis of **Emergent Structural Mapping (ESM)** lies in mapping observable search results, then using deterministic analysis and LLM response behaviour to propose patterns of entities and relationships for human review. It does not directly inspect Google’s Knowledge Graph or an LLM’s hidden embedding and attention states.",
+      "new": "**Emergent Structural Mapping (ESM)** combines analysis of observable search results with behavioural reverse engineering of LLMs. Deterministic analysis establishes patterns in the collected material; SDA-3 maps inferred semantic relationships; further comparison and human review test the resulting interpretations."
+    },
+    {
+      "path": "src/app/art/lib/projectData.js",
+      "reason": "Align the project introduction while preserving title and membership",
+      "old": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
+      "new": "The sequence moves from the misuse problem to SDA-3’s structural mapping, SEP’s iterative tests and the comparison of reconstructions against observable responses."
+    },
+    {
+      "path": "scripts/agentPageContent.js",
+      "reason": "Align the SEP semantic-hub description",
+      "old": "Turns structural analysis into an executable method based on recursive constraint, adversarial interrogation and collapse enforcement.",
+      "new": "Tests and refines structural reconstructions through recursive constraint, adversarial questioning and comparison of observable responses."
+    },
+    {
+      "path": "src/app/siteManifest.js",
+      "reason": "Align the Data-Mining discovery summary",
+      "old": "Presents a method for converting recorded LLM outputs into inspectable semantic systems and studying what survives, weakens, disappears or becomes distorted under prompting pressure.",
+      "new": "Connects behavioural reverse engineering of LLMs with SDA-3 mapping, iterative testing and the development of inspectable semantic content systems."
+    },
+    {
+      "path": "src/app/siteManifest.js",
+      "reason": "Update the modification date of the changed static page",
+      "old": "\"Connects behavioural reverse engineering of LLMs with SDA-3 mapping, iterative testing and the development of inspectable semantic content systems.\",\n        lastModified: \"2026-09-10\"",
+      "new": "\"Connects behavioural reverse engineering of LLMs with SDA-3 mapping, iterative testing and the development of inspectable semantic content systems.\",\n        lastModified: \"2026-11-10\""
+    },
+    {
+      "path": "src/app/art/posts/youtube-video-index.md",
+      "reason": "Remove the same unsupported name expansion from the cross-reference",
+      "old": "SDA-3 (Structured Dimensional Analysis)",
+      "new": "SDA-3"
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "reason": "Update the changed article modification date",
+      "old": "lastModified: \"2026-08-14\"",
+      "new": "lastModified: \"2026-11-10\""
+    },
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "reason": "Update the changed article modification date",
+      "old": "lastModified: \"2026-09-08\"",
+      "new": "lastModified: \"2026-11-10\""
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "reason": "Update the changed article modification date",
+      "old": "lastModified: \"2026-08-14\"",
+      "new": "lastModified: \"2026-11-10\""
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "reason": "Update the changed article modification date",
+      "old": "lastModified: \"2026-09-10\"",
+      "new": "lastModified: \"2026-11-10\""
+    },
+    {
+      "path": "src/app/art/posts/youtube-video-index.md",
+      "reason": "Update the changed article modification date",
+      "old": "lastModified: \"2026-09-09\"",
+      "new": "lastModified: \"2026-11-10\""
+    }
+  ]
+}

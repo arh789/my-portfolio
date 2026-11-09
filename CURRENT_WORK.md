@@ -1,8 +1,14 @@
 # Current Work: SDA-3 Reverse-Engineering Framing
 
-**Status:** Planned — documentation and source editing not started.  
+**Status:** Source consistency, metadata, generated outputs and local verification completed; production verification pending. Desktop WSL synchronisation requires local execution.  
 **Created:** 2026-11-09  
 **Objective:** Align the portfolio's SDA-3 methodology and descriptions around reverse engineering from observable LLM responses.
+
+## Active scope amendment — 10 November 2026
+
+The original ten-task plan below is retained verbatim as a historical record. The user subsequently approved a minimal wording pass, then requested completion of the omitted work after a Codex assessment. The active scope is now: retain the deployed minimal edits; resolve residual contradictory definitions with targeted replacements; align relevant descriptions; update modification dates; regenerate and commit all discovery outputs; preserve reproducible verification evidence; and distinguish repository, production and desktop state.
+
+Page titles, URLs, slugs, tags, project membership, videos, visual design, application logic and dependency files remain unchanged. Title renaming and wholesale article rewrites from the original plan are superseded. The YouTube index receives only the removal of an unestablished SDA-3 name expansion and its modification-date update. Historical case-study narratives and valid single-response examples are preserved.
 
 ## Original ten-task plan (verbatim)
 
@@ -49,22 +55,42 @@
 
 ## Progress tracking
 
-This section tracks task completion separately from the original plan. Keep the ten-task plan above unchanged.
+These statuses refer to the amended scope above, not automatic execution of the original wording. The original plan remains unchanged.
 
 | Task | Status |
 | --- | --- |
-| 1. Canonical definition | Not started |
-| 2. Methodological reconciliation | Not started |
-| 3. Main SDA-3 protocol | Not started |
-| 4. SDA-3 tl;dr | Not started |
-| 5. Supporting representation article | Not started |
-| 6. SEP relationship | Not started |
-| 7. Project and agent descriptions | Not started |
-| 8. Repository-wide consistency audit | Not started |
-| 9. Regenerate discovery data | Not started |
-| 10. Verification | Not started |
+| 1. Canonical definition | Complete: methodological definitions aligned around behavioural reverse engineering. |
+| 2. Methodological reconciliation | Complete: single observations distinguished from scope; necessity bounded to tested constraints; Struct% aligned. |
+| 3. Main SDA-3 protocol | Complete within amended scope: targeted framing and metadata edits; title and sequence retained. |
+| 4. SDA-3 tl;dr | Complete within amended scope: conflicting definitions corrected without replacing the article. |
+| 5. Supporting representation article | Complete within amended scope: definition and metadata aligned; paper and references preserved. |
+| 6. SEP relationship | Complete: mapping/testing distinction, evidence bounds and stopping condition clarified. |
+| 7. Project and agent descriptions | Complete: relevant descriptions aligned without changing project membership. |
+| 8. Repository-wide consistency audit | Complete: tracked source and notebook cells searched; incidental references and historical examples reviewed and retained. |
+| 9. Regenerate discovery data | Complete: all four outputs generated together; counts, URLs, relationships and membership verified; outputs included in the candidate commit. |
+| 10. Verification | Local build, lint, source-preservation and discovery checks passed. Production comparison pending publication. |
 
-### Execution notes
+### Evidence and environment boundary
 
-- This document is a record of active work, not permission to execute every listed task automatically.
-- Follow `AGENTS.md`, preserve unrelated content, and record verified progress here as work is performed.
+See [the verification record](docs/verification/sda3-2026-11-10/README.md), exact replacement manifest, source checks and command logs in the same directory. Temporary execution helpers and the verification workflow are not part of the production patch.
+
+The connected tools operate on GitHub and a separate verification environment, not the user's desktop WSL session. `/root/my-portfolio` has not been synchronised or independently inspected here. Do not describe desktop synchronisation as complete until Codex runs the guarded procedure below locally and records the resulting SHA.
+
+### Canonical WSL handover
+
+Run inside the user's WSL environment, not in a disposable cloud checkout:
+
+```bash
+cd /root/my-portfolio || exit 1
+git status --short
+# Stop if any tracked or untracked user work is present; reconcile it first.
+test -z "$(git status --porcelain)" || exit 1
+test "$(git branch --show-current)" = main || exit 1
+git fetch origin main || exit 1
+git merge --ff-only origin/main || exit 1
+test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" || exit 1
+git status --short
+git rev-parse HEAD
+```
+
+Do not reset, discard, stash automatically, rebase or force-push. A dirty or diverged checkout must be reconciled before continuing. Record successful local synchronisation in a separate status entry; leave the original plan untouched.

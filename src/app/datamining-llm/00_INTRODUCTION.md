@@ -39,7 +39,7 @@ Domains that generate redundant or ambiguous data increase entropy and therefore
 
 ### Emergent Structural Mapping: A New SEO and AI Content Framework
 
-The basis of **Emergent Structural Mapping (ESM)** lies in mapping observable search results, then using deterministic analysis and LLM response behaviour to propose patterns of entities and relationships for human review. It does not directly inspect Google’s Knowledge Graph or an LLM’s hidden embedding and attention states.
+**Emergent Structural Mapping (ESM)** combines analysis of observable search results with behavioural reverse engineering of LLMs. Deterministic analysis establishes patterns in the collected material; SDA-3 maps inferred semantic relationships; further comparison and human review test the resulting interpretations.
 
 It is a methodology that transforms complex, semantically rich ideas into **machine-readable, structurally resilient content**. This page explains why such a system is needed, how it addresses the failure points of traditional SEO and AI content generation, and how it positions creative work for **algorithmic survivability, symbolic clarity, and originality at scale**.
 

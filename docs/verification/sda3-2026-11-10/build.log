@@ -1,0 +1,65 @@
+
+> my-portfolio@0.1.0 build
+> npm run buildDiscovery && next build
+
+
+> my-portfolio@0.1.0 buildDiscovery
+> node scripts/buildSiteDiscovery.js
+
+graph.json written to /home/runner/work/my-portfolio/my-portfolio/public/graph.json
+agent-map.json written to /home/runner/work/my-portfolio/my-portfolio/public/agent-map.json
+agent-map.html written to /home/runner/work/my-portfolio/my-portfolio/public/agent-map.html
+sitemap.xml written to /home/runner/work/my-portfolio/my-portfolio/public/sitemap.xml
+Generated 10 core pages, 44 articles, 6 projects and 60 sitemap URLs.
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+▲ Next.js 16.2.11 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.3s
+  Running TypeScript ...
+  Finished TypeScript in 1482ms ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/124) ...
+  Generating static pages using 3 workers (31/124) 
+  Generating static pages using 3 workers (62/124) 
+  Generating static pages using 3 workers (93/124) 
+✓ Generating static pages using 3 workers (124/124) in 29.1s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /art
+├ ● /art/[slug]
+│ ├ /art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem
+│ ├ /art/building-an-agent-native-after-effects-workflow
+│ ├ /art/tiktok-video-analysis-with-python
+│ └ [+40 more paths]
+├ ○ /art/dan-john-youtube-playlist-semantic-network-analysis
+├ ● /art/project/[project]
+│ ├ /art/project/chatgpt-structural-failure
+│ ├ /art/project/ai-visibility-is-not-value
+│ ├ /art/project/sda3-structural-extraction
+│ └ [+3 more paths]
+├ ● /art/tag/[tag]
+│ ├ /art/tag/llm-structural-analysis
+│ ├ /art/tag/model-structure-analysis
+│ ├ /art/tag/video-index-system
+│ └ [+58 more paths]
+├ ○ /code
+├ ○ /contact
+├ ○ /content-strategy
+├ ○ /datamining-llm
+├ ○ /how-ai-network-analysis-and-llms-reveal-hidden-structure-in-content
+├ ○ /semantic-seo-lab
+└ ○ /workflow-structure-breakdown
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)

@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-09T19:41:28.329303+00:00",
+  "base": "d853c872023001cab50784739bb546406b142e37",
+  "status": "PASS",
+  "sourceFiles": [
+    {
+      "path": "scripts/agentPageContent.js",
+      "sha256": "e601d2c65a7e6ac33757725206fbd55107ebd75cf516531b4254425d25c19d45",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/art/lib/projectData.js",
+      "sha256": "8194c975fc9141d01bb334c14d48a06ed106d19088c2a7ddab4c52220d903d9a",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/art/posts/hidden-representations-without-hidden-layers.md",
+      "sha256": "9acb1d4ab9c4a3589e31f4d950e5a31af23f4a72e02bf57a8670e46f5fcd89fb",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/art/posts/sda-3-analysing-embedding-space-structure-in-large-language-models.md",
+      "sha256": "c37920f92e373b6ffb45072182c6888c4bf54954773207ba0c62b17945ecc23c",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/art/posts/sda3-tldr.md",
+      "sha256": "1b07295d855d9af7620b9fd4ab1cd862ed55041c9f1314c591aee7eea865dd2f",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/art/posts/structural_extraction_protocol.md",
+      "sha256": "6bc58201360b7e483e68624a2761d8c726ebd9672e82632daf5bf0687be5eac5",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/art/posts/youtube-video-index.md",
+      "sha256": "ad1307db65659839469778e7eeb9c08b146bd11593dd8799f0eb8a94ab38dc53",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/datamining-llm/00_INTRODUCTION.md",
+      "sha256": "0ff6da884ba3b043e3ec364a5e7d3f185c572149a94f47df0ecbd541e6a268b7",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/datamining-llm/01_EMERGENT_STRUCTURAL_MAPPING_DOCTRINE.md",
+      "sha256": "b28af0292e2d8032bed7778ead8936fb5de0fcadcd880643455f9cbe98e1a7e9",
+      "status": "PASS"
+    },
+    {
+      "path": "src/app/siteManifest.js",
+      "sha256": "962c1044579571e15807abb1da239dcd8d6ce1c27e54a5882222229e62d7981a",
+      "status": "PASS"
+    }
+  ],
+  "guardedReplacements": 68,
+  "auditFiles": 28,
+  "counts": {
+    "corePages": 10,
+    "articles": 44,
+    "projects": 6,
+    "indexedUrls": 60,
+    "siteGraphNodes": 60,
+    "siteGraphEdges": 155,
+    "semanticHubs": 9,
+    "projectHubs": 6
+  },
+  "originalPlanPreserved": true,
+  "routesAndMembershipPreserved": true,
+  "generatedFiles": [
+    {
+      "path": "public/agent-map.html",
+      "sha256": "8536e2498ca009cd1c9076ae6caba93a76eb3a11c2768341cc5e627e0f77f427"
+    },
+    {
+      "path": "public/agent-map.json",
+      "sha256": "6284c460358fcd50a2760b1ca16a82b5a09a3a670ff13dc7782d6c98a3190441"
+    },
+    {
+      "path": "public/graph.json",
+      "sha256": "ebbb58e6db3b8ffdfa680b207c3e86cbea834c55f862ef233457f949efa88ef3"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "sha256": "83be5fff8d511b20339f425589dabdf4ff3416c829d8dbcb7180f3689fa4b29e"
+    }
+  ]
+}

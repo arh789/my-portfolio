@@ -664,7 +664,7 @@ export const AGENT_SEMANTIC_HUB_CONTENT = {
   },
   "structural-extraction-protocol": {
     purpose:
-      "Turns structural analysis into an executable method based on recursive constraint, adversarial interrogation and collapse enforcement.",
+      "Tests and refines structural reconstructions through recursive constraint, adversarial questioning and comparison of observable responses.",
   },
 };
 

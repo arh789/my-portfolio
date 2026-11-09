@@ -1,8 +1,8 @@
 ---
 title: "SDA-3 protocol"
-description: This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.
+description: A protocol for reverse-engineering an LLM’s embedding-space structure from response behaviour, using structural categories, ranked terms and an integrated explanation.
 date: 2026-04-06
-lastModified: "2026-09-08"
+lastModified: "2026-11-10"
 projects:
   - slug: chatgpt-structural-failure
     order: 10
@@ -36,16 +36,16 @@ SDA-3 treats an LLM as a black-box system. Its responses provide evidence from w
 
 ## Three Foundational Questions (Embedding-Space Framing)
 >
-> 1. What forms of analysis are uniquely possible within an LLM’s semantic embedding space that cannot be meaningfully replicated on other data modalities?
+> 1. Which semantic relationships are expressed in the model’s responses to the subject being investigated?
 >
-> 2. What are the functional equivalents of these analyses during the model’s generation process—how does the model internally resolve, weight, and relate semantic structure when producing output?
+> 2. How do those relationships change when the framing, constraints or context change?
 >
-> 3. Which aspects of this structure can be validly inferred and expressed through observable outputs, without claiming direct access to internal weights, attention matrices, or hidden states?
+> 3. Which reconstruction best explains the observations, and what further evidence would distinguish it from competing explanations?
 
 ## SDA-3 Protocol: Embedding Space Topology Analysis
 >
 > **Purpose**  
-> Infer the learned semantic structure of the model’s *embedding space* through response behaviour, without accessing weights or training data.
+> Reverse-engineer the learned semantic structure of the model’s *embedding space* through observable response behaviour.
 >
 > **Structural Categories**  
 > C (Central), S (Suppressed), A (Adjacent), HCU (Highly Correlated Unrelated), E (Emerging).
@@ -65,7 +65,7 @@ SDA-3 treats an LLM as a black-box system. Its responses provide evidence from w
 > 3. **Integrated Narrative**
 >    - Produce a single cohesive prose response embedding structural data implicitly  
 >    - All five categories must appear as semantic presence, not explicit form  
->    - The entire semantic embedding space identified in Steps 1 and 2 must be utilised  
+>    - The integrated narrative must preserve the relevant semantic relationships identified in Steps 1 and 2  
 >    - Depth of response is the priority, not conciseness  
 >
 > **Constraints**
@@ -73,7 +73,7 @@ SDA-3 treats an LLM as a black-box system. Its responses provide evidence from w
 > - Follow steps 1–3 sequentially  
 > - No explicit category labels in Step 3
 > - Step 3 must implicitly encode the information from Steps 1–2
-> - This is **behavioural inference**, not model introspection
+> - Revise the inferred structure when further observations challenge it
 
 ## Related analysis
 
