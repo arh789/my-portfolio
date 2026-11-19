@@ -122,8 +122,9 @@ const epochs = [
         finding: "The project could now inspect recorded states and the resulting 66 validated networks, without assuming that a community already had a semantic meaning.",
         remaining: "What did the 792 measured community instances actually represent?",
         documents: [
-            ["Original R001–R010 trajectory", research + "/RUN_OPTIMISATION_TRAJECTORY.md"],
-            ["Network code", pipeline + "/topology_core.py"],
+            ["R008 validated findings", runs + "/R008_lithium-chatgpt-readable-split-networks-validated-retry__20261112T200904Z_pythia-6.9b_52ff8f97c2/findings.md"],
+            ["R008 manifest", runs + "/R008_lithium-chatgpt-readable-split-networks-validated-retry__20261112T200904Z_pythia-6.9b_52ff8f97c2/manifest.json"],
+            ["Network implementation", pipeline + "/topology_core.py"],
         ],
     },
     {
@@ -135,8 +136,9 @@ const epochs = [
         finding: "The investigation could now propose higher-order organisation rather than report tokens and clusters alone. Semantic naming remained post-measurement interpretation.",
         remaining: "Would those parent structures survive changes to the original prompt and observation window?",
         documents: [
+            ["R009 community validation", runs + "/R009_lithium-community-semantic-classification/R009_COMPLETENESS_VERIFICATION.md"],
+            ["R010 community–parent map", runs + "/R010_lithium-layerwise-latent-generative-structure/R010_LAYERWISE_COMMUNITY_PARENT_MAP.md"],
             ["Methods and interpretive limits", research + "/METHODOLOGY.md"],
-            ["Research trajectory", research + "/RUN_OPTIMISATION_TRAJECTORY.md"],
         ],
     },
     {
@@ -150,6 +152,7 @@ const epochs = [
         intervention: "The researcher then chose to interrogate the R014–R015 map for central, adjacent, emerging, missing and unexpectedly correlated structure, instead of accepting its first synthesis.",
         interventionSource: ma + "#ma-0099--next-inquiry-sda-3-interrogatives-applied-to-the-independently-reconstructed-r014r015-semantic-map",
         documents: [
+            ["R011 runtime readiness", runs + "/R011_whole-prompt-semantic-perturbation-feasibility/R011_RUNTIME_READINESS.md"],
             ["R013 controlled plan", pipeline + "/R013_PLAN.md"],
             ["R014–R015 comparison", runs + "/R015_qwen-adjacent-neighbourhood-expansion/R014_R015_COMPARISON.md"],
         ],
@@ -387,7 +390,7 @@ export default function LlmTopologyArticleDraft() {
                             <p><strong>Necessary observation</strong> — Capture intermediate representations before naming their possible meaning.</p>
                             <p><strong>Test of adequacy</strong> — Check that the reconstruction survives relevant controls, while keeping measurement distinct from interpretation.</p>
                         </div>
-                        <p className={styles.bodyCopy}>That need for measurement explains why the project began with transformer-state capture. The following R020 example is the later, clearest illustration of what the method can reveal; it was not the experiment that originally defined the methodology.</p>
+                        <p className={styles.bodyCopy}>That need for measurement explains why the project began with transformer-state capture. The following R020 example is a later demonstration of what the method can reveal, not the experiment that originally defined the methodology. The differences between its failed answer and reconstructed associations are the reason that particular test matters.</p>
                         <EvidenceRow items={[
                             ["Original objective, MA-0119", ma + "#ma-0119--chatgpt-original-topology-hypothesis-versus-emergent-humanagent-learning-methodology"],
                             ["Official article argument", research + "/ARTICLE_OUTLINE_OFFICIAL.md"],
@@ -546,7 +549,7 @@ export default function LlmTopologyArticleDraft() {
                                     <h3>Choosing the next question from an unfamiliar map</h3>
                                     <p>After R014–R015 reconstructed compatible semantic families, the human did not stop at the agent&apos;s summary. The researcher selected another inquiry: which structures were central or adjacent, what emerged, what appeared missing, and what correlated before coherence was imposed?</p>
                                     <blockquote>“When this network is treated purely as a vector, without trying to force coherence, what else highly correlates with it?”</blockquote>
-                                    <p>The recorded question redirected the agent towards unresolved structure rather than accepting the first elegant synthesis. The selection is documented; the value of what was subsequently inferred must still be judged against evidence.</p>
+                                    <p>The agent&apos;s response compared the reconstructed parent networks and identified a change in the most connected family: spatial/measurement in R014, but process/change in R015. Process/change had not been a supplied seed concept. This gave the researcher an additional organising possibility to examine, not a newly measured cosine ranking or proof of one underlying application.</p>
                                     <div className={styles.caseChain}><span>Inspect a candidate map</span><span>Select a promising question</span><span>Reconstruct under the new inquiry</span></div>
                                     <External href={ma + "#ma-0099--next-inquiry-sda-3-interrogatives-applied-to-the-independently-reconstructed-r014r015-semantic-map"}>MA-0099: the recorded prompt and reconstruction</External>
                                 </div>
@@ -555,7 +558,7 @@ export default function LlmTopologyArticleDraft() {
                                 <div className={styles.caseMarker}><span>03</span><strong>Correcting an unnecessary test</strong></div>
                                 <div className={styles.caseMain}>
                                     <h3>Recognising when qualification erases a result</h3>
-                                    <p>After R020, the agent qualified the recovery of semantic associations because it had not demonstrated continuous integration into one coherent hypothesis. The human challenged the added requirement: continuous integration is a separate question, not a precondition for recognising recovered relations.</p>
+                                    <p>After R020, the agent qualified the recovery of semantic associations because it had not demonstrated continuous integration into one coherent hypothesis. That added an unrequested success condition capable of obscuring the observed result. The human challenged it: whether a complete relationship remains integrated is a separate question, not a precondition for recognising recovered relations.</p>
                                     <div className={styles.caseChain}><span>Relevant associations recovered</span><span>Stronger requirement imposed</span><span>Original finding restored</span></div>
                                     <External href={ma + "#ma-0127--methodological-correction-r020-conclusion-and-needless-integration-hedging"}>MA-0127: the interpretive correction</External>
                                 </div>
@@ -564,7 +567,7 @@ export default function LlmTopologyArticleDraft() {
                                 <div className={styles.caseMarker + " " + styles.casePositive}><span>04</span><strong>Recognising a missing capability</strong></div>
                                 <div className={styles.caseMain}>
                                     <h3>From detecting error to recognising resonance</h3>
-                                    <p>The first article diagram described the human only as recognising what was unsupported, missing or invalid. The researcher inserted the additional capability: “Recognises what resonates”. That small edit changed the model of learning: the human can direct an inquiry towards potential significance before knowing why it matters.</p>
+                                    <p>The first article diagram described the human only as recognising what was unsupported, missing or invalid. That was insufficient to explain why the human had pursued certain promising relationships rather than merely eliminating errors. The researcher inserted “Recognises what resonates”, extending the account to directional selection before the significance is fully understood.</p>
                                     <div className={styles.caseChain}><span>Negative-only account</span><span>Human identifies omission</span><span>Dual-path exploration and correction</span></div>
                                     <External href={ma + "#ma-0128--core-insight-positive-recognition-and-resonance-in-the-humanagent-learning-mechanism"}>MA-0128: the original edit and revised explanation</External>
                                 </div>
@@ -600,7 +603,7 @@ export default function LlmTopologyArticleDraft() {
                             <div><p className={styles.overline}>Agent</p><strong>Generation and reconstruction</strong><p>Expands possibilities, compares evidence, constructs and revises semantic explanations, and makes them inspectable.</p></div>
                             <div><p className={styles.overline}>Shared research memory</p><strong>Continuity and accountability</strong><p>Stores experiments, chosen questions, rejected interpretations, corrective constraints and results so the next cycle does not start from nothing.</p></div>
                         </div>
-                        <p className={styles.bodyCopy}>This describes an emerging methodology inferred from the recorded collaboration, not a controlled experiment demonstrating that resonance reliably predicts truth or that the agent&apos;s pretrained weights changed. The benefit lies in preserving human direction while making alternative structures available for inspection.</p>
+                        <p className={styles.bodyCopy}>Why did human learning follow from this process? The agent could generate candidate explanations and transformations that the researcher could not have specified in advance. The researcher could nevertheless recognise promising directions or inadequate interpretations, require a new reconstruction and then inspect the resulting evidence. Persistently recording those decisions made unfamiliar relations available for the next question. This is a documented interpretation of the collaboration, not a controlled experiment showing that resonance predicts truth or that the agent&apos;s pretrained weights changed.</p>
                         <div className={styles.finalPrinciple}>
                             <p className={styles.overline}>Highest-order principle</p>
                             <p>Human knowledge expands through human-directed, constrained agent reconstruction.</p>
