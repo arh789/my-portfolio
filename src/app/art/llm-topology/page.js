@@ -299,12 +299,22 @@ function CodeStage({ item }) {
                 <span className={styles.codeStep}>{item.step}</span>
                 <span className={styles.codeCategory}>{item.category}</span>
             </header>
-            <h3>{item.title}</h3>
-            <p>{item.explanation}</p>
+            <div className={styles.operationNeed}>
+                <span>Problem that made this necessary</span>
+                <h3>{item.need}</h3>
+            </div>
+            <div className={styles.operationAction}>
+                <span>What the pipeline did</span>
+                <p><strong>{item.title}.</strong> {item.explanation}</p>
+            </div>
             <pre className={styles.codeWindow}><code>{item.code}</code></pre>
             <div className={styles.codeFooter}>
-                <div><span>Recorded result</span><strong>{item.output}</strong></div>
+                <div><span>Evidence this operation produced</span><strong>{item.output}</strong></div>
                 <External href={item.source}>{item.sourceLabel}</External>
+            </div>
+            <div className={styles.operationRemaining}>
+                <span>What this still could not establish</span>
+                <p>{item.limit}</p>
             </div>
         </article>
     );
@@ -441,20 +451,20 @@ export default function LlmTopologyArticleDraft() {
                             </div>
                         </div>
                         <p className={styles.instrumentBoundary}>These are complementary but different instruments. In particular, the positive and negative cosine sectors used in LLM Topology are geometric measurements, not the same categories as SDA-3&apos;s central or suppressed roles.</p>
+                        <p className={styles.bodyCopy}>The pipeline did not begin with a fully understood map. Each operation addressed evidence the preceding operation could not provide. The code below is taken from the R020 implementation of the method, while the experiment history explains when and why these operations were developed.</p>
+                        <div className={styles.codeList}>
+                            {sourceOperations.map(item => <CodeStage key={item.step} item={item}/>)}
+                        </div>
                         <div className={styles.provenanceFlow}>
                             {[
-                                ["MODEL STATES", "Recorded from the tested transformer", "Measured"],
-                                ["VOCABULARY SCORES", "Layerwise comparisons in a fixed embedding basis", "Derived"],
-                                ["TOKEN NETWORKS", "Neighbours, connections and detected communities", "Derived"],
-                                ["SEMANTIC RELATIONS", "Proposed names and higher-order relationships", "Interpreted"],
-                                ["HUMAN DECISIONS", "Select, challenge, test and direct another investigation", "Research record"],
+                                ["MODEL STATES", "Captured numerical model states", "Measured"],
+                                ["VOCABULARY SCORES", "Computed alignment against a fixed basis", "Derived"],
+                                ["TOKEN NETWORKS", "Calculated neighbours and communities", "Derived"],
+                                ["SEMANTIC RELATIONS", "Inferred families, parents and candidate connections", "Interpreted"],
+                                ["HUMAN DECISIONS", "Selected questions, objections and usefulness judgements", "Recorded"],
                             ].map(([title, summary, level], i) => (
                                 <div className={styles.flowItem} key={title}><span className={styles.flowIndex}>{String(i + 1).padStart(2, "0")}</span><div><strong>{title}</strong><p>{summary}</p></div><span className={styles.flowLevel}>{level}</span></div>
                             ))}
-                        </div>
-                        <p className={styles.bodyCopy}>The novelty is not that cosine similarity or community detection was invented here. It is the controlled chain from intermediate model states to reproducible communities, then to semantic hypotheses that can be challenged without losing the original evidence. The code excerpts below come from the actual project implementation.</p>
-                        <div className={styles.codeList}>
-                            {sourceOperations.map(item => <CodeStage key={item.step} item={item}/>)}
                         </div>
                         <div className={styles.notePanel}>
                             <p className={styles.overline}>Why this separation matters</p>
@@ -470,7 +480,7 @@ export default function LlmTopologyArticleDraft() {
 
                     <section className={styles.section} id="trajectory">
                         <SectionTitle number="04" eyebrow="Research as successive constraints" title="Why each experimental phase became necessary">
-                            <p>These results were not obtained by asking once for an attractive graph. Each group of experiments exposed a new obstacle: obtaining reliable measurements, finding useful meaning, testing recurrence, excluding confounds and comparing representation with expression.</p>
+                            <p>The runs were not twenty repeats of one procedure. Each began with an uncertainty the previous evidence could not settle, and some initially failed. The record below preserves the problem, response, observed result and remaining limitation, rather than making the work appear inevitable.</p>
                         </SectionTitle>
                         <div className={styles.epochList}>
                             {epochs.map(epoch => (
@@ -478,8 +488,27 @@ export default function LlmTopologyArticleDraft() {
                                     <div className={styles.epochLabel}><span>{epoch.number}</span><strong>{epoch.run}</strong></div>
                                     <div className={styles.epochBody}>
                                         <h3>{epoch.title}</h3>
-                                        <p className={styles.epochQuestion}>{epoch.problem}</p>
-                                        <p>{epoch.result}</p>
+                                        <div className={styles.epochReason}>
+                                            <span>What was insufficient?</span>
+                                            <p>{epoch.problem}</p>
+                                        </div>
+                                        <div className={styles.epochResponse}>
+                                            <span>Why the next experiments took this form</span>
+                                            <p>{epoch.operation}</p>
+                                        </div>
+                                        <div className={styles.epochOutcome}>
+                                            <span>What was established</span>
+                                            <p>{epoch.finding}</p>
+                                        </div>
+                                        {epoch.intervention && <div className={styles.epochIntervention}>
+                                            <span>Human direction recorded in the meta-analysis</span>
+                                            <p>{epoch.intervention}</p>
+                                            <External href={epoch.interventionSource}>Inspect the recorded intervention</External>
+                                        </div>}
+                                        <div className={styles.epochOpen}>
+                                            <span>Unresolved — why the next stage was needed</span>
+                                            <p>{epoch.remaining}</p>
+                                        </div>
                                         <div className={styles.inlineEvidence}>{epoch.documents.map(([label,href])=><External href={href} key={label}>{label}</External>)}</div>
                                     </div>
                                 </article>
@@ -488,7 +517,7 @@ export default function LlmTopologyArticleDraft() {
                         <div className={styles.controlPanel}>
                             <p className={styles.overline}>The R019 control</p>
                             <h3>Different order was not merely random variation</h3>
-                            <p>For the tested OLMo 3 32B setup, three sequential repeats of each prompt ordering produced exact measured matches. Changing the order still changed intermediate representations and networks. This control makes the order-conditioned difference more informative, within the particular tested model and runtime.</p>
+                            <p>R018 identified different intermediate representations for different orders of the same concepts. But this could not establish an order effect unless identical inputs were stable under the measurement procedure. R019 therefore repeated each tested ordering three times and compared its within-order measurements with between-order differences. Repeats matched exactly in that tested local setup; order-dependent changes remained. This excludes the measured local repeat variability as their explanation, without claiming that the result generalises across all hardware or models.</p>
                             <EvidenceRow items={[
                                 ["R019 result.json", r019 + "/R019_RESULT.json"],
                                 ["Statewise comparisons", r019 + "/divergence_by_state.csv"],
@@ -499,7 +528,7 @@ export default function LlmTopologyArticleDraft() {
 
                     <section className={styles.section} id="human">
                         <SectionTitle number="05" eyebrow="The documented research dialogue" title="Why agent reconstruction needed human direction">
-                            <p>The experiment archive records what the models did. The meta-analysis records something different: how the researcher recognised productive possibilities, rejected inadequate interpretations and directed the agent towards a better reconstruction.</p>
+                            <p>Reliable measurements did not guarantee useful explanations. The analysing agent could over-compress communities, change the question, or demand evidence unrelated to the original hypothesis. Conversely, a reconstructed map could suggest a promising inquiry that the human could recognise without already knowing its answer. These interventions were necessary to decide what should be explored or corrected next.</p>
                         </SectionTitle>
                         <div className={styles.caseList}>
                             <article className={styles.caseStudy}>
