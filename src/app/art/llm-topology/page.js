@@ -14,8 +14,8 @@ const pipeline = research + "/single_prompt_topology";
 const ma = research + "/META_ANALYSIS.md";
 
 const navigation = [
-    ["question", "Why investigate?"],
-    ["observation", "The R020 contrast"],
+    ["question", "The problem and solution"],
+    ["observation", "R020: the wider map"],
     ["measurement", "Why this pipeline?"],
     ["trajectory", "Experimental necessities"],
     ["human", "Human direction"],
@@ -333,23 +333,23 @@ export default function LlmTopologyArticleDraft() {
 
             <header className={styles.hero}>
                 <div className={styles.heroText}>
-                    <p className={styles.overline}>The unknown possibility space / Human–agent learning</p>
+                    <p className={styles.overline}>LLM topology / Investigating the unknown possibility space</p>
                     <h1>Discovering what you do not know to ask.</h1>
-                    <p className={styles.standfirst}>How can a human discover knowledge when they cannot enumerate the possibilities or specify the correct answer?</p>
-                    <p className={styles.heroDescription}>The starting hypothesis was whether transformer-state changes expose learned semantic organisation that the final answer cannot show. Each experimental limitation made a new measurement or comparison necessary. In directing those investigations, the human also developed a method of learning through agent reconstruction.</p>
+                    <p className={styles.standfirst}>You cannot deliberately search for a relationship you do not yet know exists.</p>
+                    <p className={styles.heroDescription}>A generated answer is one realised outcome. The model's intermediate states can expose a broader semantic neighbourhood: unexpected associations, adjacent regions and possible directions for the next investigation.</p>
                     <div className={styles.heroActions}>
                         <a href="#question" className={styles.primaryAction}>Start with the question <span aria-hidden="true">↓</span></a>
                         <External href={root}>Research repository</External>
                     </div>
                 </div>
                 <div className={styles.heroPanel}>
-                    <p className={styles.overline}>Three different roles</p>
-                    <div className={styles.roleBox}><span>01 / TEST SUBJECT</span><strong>The measured model</strong><p>Its intermediate numerical states and generated response are observed.</p></div>
+                    <p className={styles.overline}>R020 / What the answer left out</p>
+                    <div className={styles.roleBox}><span>THE GENERATED RESPONSE</span><strong>A circular explanation</strong><p>“The city is a bridge that connects the river with the river.”</p></div>
                     <div className={styles.roleArrow} aria-hidden="true">↓</div>
-                    <div className={styles.roleBox}><span>02 / INSTRUMENT & AGENT</span><strong>The pipeline and analysing LLM</strong><p>Python captures and processes evidence; the analysing agent proposes semantic reconstructions.</p></div>
+                    <div className={styles.roleBox}><span>THE RECORDED ASSOCIATIONS</span><strong>Routes, inhabitants, floods, rebuilding</strong><p>The measured neighbourhoods contain branches the continuation never articulates.</p></div>
                     <div className={styles.roleArrow} aria-hidden="true">↕</div>
-                    <div className={styles.roleBox + " " + styles.roleEmphasis}><span>03 / DIRECTION</span><strong>The human researcher</strong><p>Recognises what resonates or fails, chooses what to investigate and judges usefulness.</p></div>
-                    <p className={styles.heroPanelFoot}>The model under investigation is not the agent interpreting the data.</p>
+                    <div className={styles.roleBox + " " + styles.roleEmphasis}><span>THE UNRESOLVED ADJACENCY</span><strong>Connections and mathematical vocabulary</strong><p>What, if anything, does that relationship suggest investigating next?</p></div>
+                    <p className={styles.heroPanelFoot}>See the exact prompt, full response and source-linked semantic map below.</p>
                 </div>
             </header>
 
@@ -370,38 +370,22 @@ export default function LlmTopologyArticleDraft() {
 
                 <article className={styles.article}>
                             <section className={styles.section} id="question">
-                        <SectionTitle number="01" eyebrow="The original research question" title="Why look inside a model instead of asking for another answer?">
-                            <p>The starting hypothesis was specific: could changes in a language model&apos;s internal states across transformer layers reveal higher-order semantic structures and relationships learned during training? The study was not an attempt to recover individual training documents or read the model&apos;s private thoughts.</p>
+                        <SectionTitle number="01" eyebrow="The problem" title="How can you search for what you do not know exists?">
+                            <p>When investigating an unfamiliar subject, the human faces a fundamental limitation:</p>
                         </SectionTitle>
-                        <p className={styles.bodyCopy}>Why was that plausible? A transformer changes its internal representations as information passes through successive layers. Those states are shaped by learned parameters, but their coordinates do not come with human-readable concept names. Comparing their vocabulary neighbourhoods, then testing recurrent relationships under changed input conditions, offers a way to infer learned associations without pretending to reconstruct particular training documents. The experiment therefore needed a measurement procedure before it needed an explanation.</p>
-                        <div className={styles.originContrast}>
-                            <div>
-                                <p className={styles.overline}>What the final answer gives us</p>
-                                <h3>One selected expression</h3>
-                                <p>A response contains words chosen for the next-token sequence. It does not expose all alternative associations, competing interpretations or intermediary relationships available to the model.</p>
-                            </div>
-                            <div>
-                                <p className={styles.overline}>What the experiment needed</p>
-                                <h3>Evidence of the representation</h3>
-                                <p>Record the internal state, compare its vocabulary neighbourhoods, reconstruct relations and change the conditions to see which structures recur. The procedure makes candidate learned associations inspectable rather than relying on the answer alone.</p>
-                            </div>
+                        <p className={styles.openingStatement}>You cannot deliberately search for a relationship you do not yet know exists.</p>
+                        <p className={styles.bodyCopy}>Conventional LLM interaction compounds this problem. The user supplies a prompt, the model generates a response, and most of the alternative associations and structures involved in producing that response remain unexamined.</p>
+                        <p className={styles.bodyCopy}>The final response presents one realised outcome. It does not provide a navigable account of the surrounding possibilities.</p>
+                        <div className={styles.solutionStatement}>
+                            <p className={styles.overline}>The surprising solution</p>
+                            <h3>Instead of asking the model to produce an answer, investigate the semantic structures accessible through its intermediate states.</h3>
                         </div>
-                        <div className={styles.questionSequence}>
-                            <p><strong>Initial uncertainty</strong> — Does the model represent higher-order semantic relationships that its response does not communicate?</p>
-                            <p><strong>Necessary observation</strong> — Capture intermediate representations before naming their possible meaning.</p>
-                            <p><strong>Test of adequacy</strong> — Check that the reconstruction survives relevant controls, while keeping measurement distinct from interpretation.</p>
-                        </div>
-                        <p className={styles.bodyCopy}>That need for measurement explains why the project began with transformer-state capture. The following R020 example is a later demonstration of what the method can reveal, not the experiment that originally defined the methodology. The differences between its failed answer and reconstructed associations are the reason that particular test matters.</p>
-                        <EvidenceRow items={[
-                            ["Original objective, MA-0119", ma + "#ma-0119--chatgpt-original-topology-hypothesis-versus-emergent-humanagent-learning-methodology"],
-                            ["Official article argument", research + "/ARTICLE_OUTLINE_OFFICIAL.md"],
-                            ["Methods", research + "/METHODOLOGY.md"],
-                        ]}/>
+                        <p className={styles.questionToExample}>R020 makes that difference visible. Its generated answer is almost useless. The networks reconstructed from its intermediate states provide a wider territory to examine.</p>
                     </section>
 
                     <section className={styles.section} id="observation">
-                        <SectionTitle number="02" eyebrow="A later experimental contrast / R020" title="What the model represented but failed to explain">
-                            <p>R020 was designed after earlier experiments had made state capture, network reconstruction and reliability testable. It deliberately used a small model whose poor generation would expose a new question: can the recorded representations yield relationships that the answer fails to express?</p>
+                        <SectionTitle number="02" eyebrow="R020 / The experiment" title="The answer failed. What else was there?">
+                            <p>Start with the exact question and the model's response. Then inspect the wider semantic neighbourhood that the generated words do not describe. The explanation of how the pipeline constructed it follows afterwards.</p>
                         </SectionTitle>
                         <div className={styles.inputOutput}>
                             <div className={styles.ioCard}>
@@ -415,7 +399,9 @@ export default function LlmTopologyArticleDraft() {
                                 <p>The answer repeats a false equivalence; it never explains why a bridge would be built.</p>
                             </div>
                         </div>
-                        <p className={styles.bodyCopy}>The experiment then examined the model&apos;s recorded internal states. Vocabulary communities associated with <strong>settlements, people, movement, routes and crossings</strong> contained measured connections that the generated text did not explain. The semantic family names are assigned during reconstruction; the underlying edges come from saved numerical measurements.</p>
+                        <p className={styles.bodyCopy}>The generated text never reaches even a simple explanation about crossing a river. The saved representations also lead beyond the obvious: settlements and travellers, water and terrain, floods and rebuilding, businesses and infrastructure, and a mathematical branch whose significance is unresolved. Explore those neighbouring regions before deciding what the model was trying to say.</p>
+                        <StaticSemanticMap />
+                        <p className={styles.exampleTransition}>The broad map offers possible directions. The following evidence example shows one particular contextual network, including measured links and the code used to screen them.</p>
 
                         <div className={styles.executionExample}>
                             <div className={styles.executionHeader}>
@@ -457,8 +443,6 @@ export default function LlmTopologyArticleDraft() {
                                 </div>
                             </div>
                         </div>
-                        <p className={styles.exampleTransition}>The next figure combines qualifying candidate relations across all 32 generation decisions. It is a summary of recurrence, not the network captured at any single state.</p>
-                        <StaticSemanticMap />
                         <div className={styles.metrics}>
                             <div><strong>32</strong><span>Generated-token decisions</span></div>
                             <div><strong>512</strong><span>State/sector networks</span></div>
@@ -467,8 +451,8 @@ export default function LlmTopologyArticleDraft() {
                         </div>
                         <div className={styles.finding}>
                             <p className={styles.overline}>What R020 establishes</p>
-                            <p>Recoverable semantic relationships can contain information absent from the model&apos;s generated response. Related higher-order structures recur across generation even when the constituent tokens, communities and connections change.</p>
-                            <span>It does not establish one continuously maintained causal explanation; that is a different question.</span>
+                            <p>Intermediate-state networks expose additional semantic relationships even when the generated response fails. The surrounding possibilities offer different directions for investigation, including disruption, reconstruction and unresolved associations.</p>
+                            <span>The map gives the human somewhere to look next; it does not choose which branch matters.</span>
                         </div>
                         <EvidenceRow items={[
                             ["Exact prompt and answer", r020 + "/prompt_records.json"],
