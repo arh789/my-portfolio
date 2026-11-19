@@ -64,8 +64,8 @@ const sourceOperations = [
             "        \"dsh,vh->dsv\", normalized_primary, normalized_embeddings",
             "    ).cpu().contiguous()",
         ].join("\n"),
-        source: pipeline + "/r020_pythia_generation_topology.py#L835-L843",
-        sourceLabel: "R020 runner, lines 835–843",
+        source: pipeline + "/r020_pythia_generation_topology.py#L840-L847",
+        sourceLabel: "R020 runner, lines 840–847",
         output: "Vocabulary-score regions for every decision and state",
     },
     {
@@ -82,8 +82,8 @@ const sourceOperations = [
             "    seed=seed,",
             ")",
         ].join("\n"),
-        source: pipeline + "/topology_core.py#L179-L191",
-        sourceLabel: "Topology core, lines 179–191",
+        source: pipeline + "/topology_core.py#L183-L189",
+        sourceLabel: "Topology core, lines 183–189",
         output: "512 state/sector networks; 6,944 recorded communities",
     },
     {
@@ -343,7 +343,7 @@ export default function LlmTopologyArticleDraft() {
                             </div>
                             <div className={styles.ioCard + " " + styles.ioFailure}>
                                 <div className={styles.ioHead}><span>R020 / Recorded generated response</span><strong>OUTPUT</strong></div>
-                                <pre>{'The city is a bridge that connects the river with the river.\n\nA:\n\nThe city is a bridge that connects the river with the river.'}</pre>
+                                <pre>{' The city is a bridge that connects the river with the river.\n\nA:\n\nThe city is a bridge that connects the river with the river.'}</pre>
                                 <p>The answer repeats a false equivalence; it never explains why a bridge would be built.</p>
                             </div>
                         </div>
