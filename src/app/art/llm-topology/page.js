@@ -416,6 +416,48 @@ export default function LlmTopologyArticleDraft() {
                             </div>
                         </div>
                         <p className={styles.bodyCopy}>The experiment then examined the model&apos;s recorded internal states. Vocabulary communities associated with <strong>settlements, people, movement, routes and crossings</strong> contained measured connections that the generated text did not explain. The semantic family names are assigned during reconstruction; the underlying edges come from saved numerical measurements.</p>
+
+                        <div className={styles.executionExample}>
+                            <div className={styles.executionHeader}>
+                                <p className={styles.overline}>Execution record / R020 · D06 · S01 · positive cosine</p>
+                                <h3>One recorded network, before the generation-wide reconstruction</h3>
+                                <p>At decision D06, the model was processing <code>bridge</code> before generating <code>that</code>. After the first transformer block (S01), its saved positive-sector network contained communities C2, C5 and C11. These identifiers and counts come from the run data, not from an illustrative network.</p>
+                            </div>
+                            <div className={styles.executionCode}>
+                                <p className={styles.executionLabel}>Actual semantic-screen code · derived edge filtering</p>
+                                <pre className={styles.codeWindow}><code>{sourceOperations[3].code}</code></pre>
+                                <External href={analysis + "/R020_SEMANTIC_CONTINUITY_REPRODUCER.js#L64-L67"}>Inspect the complete screening code</External>
+                            </div>
+                            <div className={styles.executionOutput}>
+                                <p className={styles.executionLabel}>Actual saved evidence · measured community IDs and token-edge counts</p>
+                                <div className={styles.sampleCommunities}>
+                                    <div><strong>C2</strong><span>transportation · transport · routes · transporting · traveling</span><small>Interpreted family: movement / routes</small></div>
+                                    <div><strong>C5</strong><span>tunnel · bridge</span><small>Interpreted family: crossing / connection</small></div>
+                                    <div><strong>C11</strong><span>villages · city · village</span><small>Interpreted family: settlement</small></div>
+                                </div>
+                                <div className={styles.dataTableWrap}>
+                                    <table className={styles.evidenceDataTable}>
+                                        <caption>Direct intercommunity relationships in the D06/S01 positive network</caption>
+                                        <thead><tr><th scope="col">Original communities</th><th scope="col">Measured token edges</th><th scope="col">Derived affinity</th></tr></thead>
+                                        <tbody>
+                                            <tr><td>C2 ↔ C5</td><td>217</td><td>0.937</td></tr>
+                                            <tr><td>C2 ↔ C11</td><td>43</td><td>0.442</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div className={styles.executionReading}>
+                                <span>What the reconstruction adds</span>
+                                <p>The measured links support candidate relations between movement and crossings, and between movement and settlements. The functional family names are assigned after measurement. The same crossing–movement relation also appears at D06/S02 with different community identifiers and 156 token edges; the broad relationship can recur without the same nodes remaining fixed.</p>
+                                <p>That is why the article distinguishes <strong>one source network</strong> from the <strong>generation-wide synthesis</strong> below. Neither network connectivity nor an agent-generated interpretation proves that the model assembled a full explanation for its answer.</p>
+                                <div className={styles.exampleLinks}>
+                                    <External href={analysis + "/R020_FUNCTIONAL_HYPOTHESIS_D01-08.json"}>D06 source IDs, exemplar tokens and affinity</External>
+                                    <External href={analysis + "/R020_VERIFIED_CONSOLIDATED_SEMANTIC_MAP.md"}>Independent map snapshot</External>
+                                    <External href={analysis + "/R020_V3_INDEPENDENT_RELATION_EVIDENCE_AUDIT.md"}>Edge and exemplar verification</External>
+                                </div>
+                            </div>
+                        </div>
+                        <p className={styles.exampleTransition}>The next figure combines qualifying candidate relations across all 32 generation decisions. It is a summary of recurrence, not the network captured at any single state.</p>
                         <StaticSemanticMap />
                         <div className={styles.metrics}>
                             <div><strong>32</strong><span>Generated-token decisions</span></div>
@@ -522,10 +564,30 @@ export default function LlmTopologyArticleDraft() {
                             <p className={styles.overline}>The R019 control</p>
                             <h3>Different order was not merely random variation</h3>
                             <p>R018 identified different intermediate representations for different orders of the same concepts. But this could not establish an order effect unless identical inputs were stable under the measurement procedure. R019 therefore repeated each tested ordering three times and compared its within-order measurements with between-order differences. Repeats matched exactly in that tested local setup; order-dependent changes remained. This excludes the measured local repeat variability as their explanation, without claiming that the result generalises across all hardware or models.</p>
+                            <div className={styles.controlEvidence}>
+                                <p className={styles.executionLabel}>Observed results · minimum Jaccard overlap across the stated comparisons</p>
+                                <div className={styles.dataTableWrap}>
+                                    <table className={styles.evidenceDataTable}>
+                                        <thead>
+                                            <tr><th scope="col">Graph property</th><th scope="col">R018: six different orders</th><th scope="col">R019: identical repeats</th><th scope="col">R019: three different orders</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><th scope="row">Selected-token membership</th><td>0.154572</td><td className={styles.matchValue}>1.000000</td><td>0.158392</td></tr>
+                                            <tr><th scope="row">10-nearest-neighbour edges</th><td>0.040741</td><td className={styles.matchValue}>1.000000</td><td>0.041659</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p>Jaccard overlap ranges from zero (no shared members or edges) to one (identical sets). The R018 values summarise six orders; R019 tests three cyclic orders, with three identical-input repetitions of each. The columns therefore describe different comparison sets, not three measurements of one identical pair. No response tokens were generated in these experiments.</p>
+                                <div className={styles.controlConclusion}>
+                                    <span>Why the control changed the inference</span>
+                                    <p>Because identical repeats gave the same states, selected-token memberships and graph edges in this tested runtime, the differences caused by changing order could not be dismissed as local repeat instability. This supports an order-conditioned measurement effect, not a directly measured change of semantic parent identity.</p>
+                                </div>
+                            </div>
                             <EvidenceRow items={[
-                                ["R019 result.json", r019 + "/R019_RESULT.json"],
+                                ["R018 six-permutation measurements", r018 + "/R018_MEASUREMENT_REPORT.md"],
+                                ["R019 recorded control result", r019 + "/R019_RESULT.json"],
+                                ["R019 repeatability report", r019 + "/R019_MEASUREMENT_REPORT.md"],
                                 ["Statewise comparisons", r019 + "/divergence_by_state.csv"],
-                                ["R018 permutation measurements", r018 + "/permutation_invariance.csv"],
                             ]}/>
                         </div>
                     </section>
@@ -545,14 +607,41 @@ export default function LlmTopologyArticleDraft() {
                                 </div>
                             </article>
                             <article className={styles.caseStudy}>
-                                <div className={styles.caseMarker + " " + styles.casePositive}><span>02</span><strong>Positive recognition</strong></div>
+                                
+                                <div className={styles.caseMarker + " " + styles.casePositive}><span>02</span><strong>Documented directional selection</strong></div>
                                 <div className={styles.caseMain}>
-                                    <h3>Choosing the next question from an unfamiliar map</h3>
-                                    <p>After R014–R015 reconstructed compatible semantic families, the human did not stop at the agent&apos;s summary. The researcher selected another inquiry: which structures were central or adjacent, what emerged, what appeared missing, and what correlated before coherence was imposed?</p>
-                                    <blockquote>“When this network is treated purely as a vector, without trying to force coherence, what else highly correlates with it?”</blockquote>
-                                    <p>The agent&apos;s response compared the reconstructed parent networks and identified a change in the most connected family: spatial/measurement in R014, but process/change in R015. Process/change had not been a supplied seed concept. This gave the researcher an additional organising possibility to examine, not a newly measured cosine ranking or proof of one underlying application.</p>
-                                    <div className={styles.caseChain}><span>Inspect a candidate map</span><span>Select a promising question</span><span>Reconstruct under the new inquiry</span></div>
-                                    <External href={ma + "#ma-0099--next-inquiry-sda-3-interrogatives-applied-to-the-independently-reconstructed-r014r015-semantic-map"}>MA-0099: the recorded prompt and reconstruction</External>
+                                    <h3>The R014–R015 map became a new research question</h3>
+                                    <p>The agent first reconstructed six compatible semantic parent families across R014 and R015. That comparison remained open to interpretation: none of the four original seed concepts was required to recover its counterpart in R015, but the strength and sector participation of the parent relationships had changed.</p>
+                                    <div className={styles.learningCycle}>
+                                        <div>
+                                            <span>01 / Existing agent interpretation</span>
+                                            <p>R014 used <code>laser</code>, <code>city</code>, <code>spatial field</code> and <code>clubs</code>. R015 replaced these with <code>sensor</code>, <code>apartment</code>, <code>line</code> and <code>sessions</code>. The independently derived R015 map recovered counterparts of all six R014 parent families, including process/change and reporting/information.</p>
+                                            <External href={runs + "/R015_qwen-adjacent-neighbourhood-expansion/R014_R015_COMPARISON.md"}>Read the original R014–R015 comparison</External>
+                                        </div>
+                                        <div className={styles.learningHuman}>
+                                            <span>02 / Human question · verbatim from MA-0099</span>
+                                            <blockquote>Based on that map, what tokens are central and what are adjacent? What logically emerges from this network? What logically should be there but isn’t? When this network is treated purely as a vector, without trying to force coherence, what else highly correlates with it?</blockquote>
+                                        </div>
+                                        <div>
+                                            <span>03 / Revised agent interpretation</span>
+                                            <p>The agent examined the principal parent-network relations rather than equating prominent prompt words with structural centrality. Its descriptive sum of incident edge-support values shifted the leading connected family from spatial/measurement in R014 to process/change in R015.</p>
+                                            <div className={styles.dataTableWrap}>
+                                                <table className={styles.evidenceDataTable}>
+                                                    <thead><tr><th scope="col">Interpreted parent family</th><th scope="col">R014 edge-support sum</th><th scope="col">R015 edge-support sum</th></tr></thead>
+                                                    <tbody>
+                                                        <tr><th scope="row">Spatial / measurement</th><td className={styles.matchValue}>2.20</td><td>1.80</td></tr>
+                                                        <tr><th scope="row">Process / change</th><td>0.90</td><td className={styles.matchValue}>3.02</td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <p>These are post-reconstruction network-strength summaries, <strong>not raw cosine scores or directly comparable experimental effect sizes</strong>. The R014 calculation excludes separately reported weak edges.</p>
+                                        </div>
+                                        <div className={styles.learningResult}>
+                                            <span>04 / What became knowable</span>
+                                            <p>Process/change had not been supplied as a seed, yet the interpretation identified it as a potentially important organising relationship in R015. That supported a new direction of inquiry into modification, comparison and transformation without establishing one definitive domain, causal mechanism or universal model structure.</p>
+                                        </div>
+                                    </div>
+                                    <External href={ma + "#ma-0099--next-inquiry-sda-3-interrogatives-applied-to-the-independently-reconstructed-r014r015-semantic-map"}>MA-0099: full human prompt, agent response and related exchanges</External>
                                 </div>
                             </article>
                             <article className={styles.caseStudy}>
