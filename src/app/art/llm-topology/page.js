@@ -373,6 +373,7 @@ export default function LlmTopologyArticleDraft() {
                         <SectionTitle number="01" eyebrow="The original research question" title="Why look inside a model instead of asking for another answer?">
                             <p>The starting hypothesis was specific: could changes in a language model&apos;s internal states across transformer layers reveal higher-order semantic structures and relationships learned during training? The study was not an attempt to recover individual training documents or read the model&apos;s private thoughts.</p>
                         </SectionTitle>
+                        <p className={styles.bodyCopy}>Why was that plausible? A transformer changes its internal representations as information passes through successive layers. Those states are shaped by learned parameters, but their coordinates do not come with human-readable concept names. Comparing their vocabulary neighbourhoods, then testing recurrent relationships under changed input conditions, offers a way to infer learned associations without pretending to reconstruct particular training documents. The experiment therefore needed a measurement procedure before it needed an explanation.</p>
                         <div className={styles.originContrast}>
                             <div>
                                 <p className={styles.overline}>What the final answer gives us</p>
