@@ -95,24 +95,49 @@
     text-wrap: balance;
 }
 .sectionIntro { color: var(--muted); font-size: 1.16rem; max-width: 830px; }
-.experimentPair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-.experimentInput, .experimentOutput { min-width: 0; padding: clamp(1.25rem, 2.4vw, 2rem); border: 1px solid rgba(149, 227, 199, 0.42); background: #0f1914; }
-.experimentOutput { border-color: rgba(239, 174, 146, 0.5); background: #201610; }
-.experimentLabel { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1rem; text-transform: uppercase; font: 700 0.84rem/1.4 var(--mono); }
-.experimentLabel span { color: var(--mint); }
-.experimentOutput .experimentLabel span { color: #f2b9a3; }
-.experimentLabel strong { color: var(--muted); }
-.experimentPair pre {
+.experimentTranscript {
+    max-width: 1000px;
     margin: 0;
+    border-top: 1px solid rgba(149, 227, 199, 0.48);
+    border-bottom: 1px solid var(--line);
+}
+.transcriptStep {
+    padding: 1.45rem 0 1.7rem;
+}
+.transcriptStep + .transcriptStep { border-top: 1px solid var(--line); }
+.transcriptLabel {
+    display: flex;
+    gap: 0.55rem 1.5rem;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    font: 700 0.83rem/1.45 var(--mono);
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+}
+.transcriptLabel span { color: var(--mint); }
+.transcriptStep + .transcriptStep .transcriptLabel span { color: #f2b9a3; }
+.transcriptLabel strong { color: var(--muted); font-weight: 600; }
+.transcriptStep pre {
+    margin: 0;
+    padding: 0;
+    color: #f5f7eb;
     white-space: pre-wrap;
     overflow-wrap: anywhere;
-    color: #f5f7eb;
-    font: 550 clamp(0.98rem, 1.45vw, 1.17rem)/1.8 var(--mono);
+    font: 550 clamp(1.03rem, 1.5vw, 1.18rem)/1.85 var(--mono);
 }
 .transition {
     max-width: 830px;
-    margin: 1.9rem 0 0 !important;
+    margin: 1.65rem 0 0 !important;
     font-size: 1.16rem;
+    font-weight: 700;
+    color: var(--ink);
+}
+.recordingExplanation {
+    max-width: 860px;
+    margin: 0.85rem 0 0 !important;
+    font-size: 1.13rem;
+    color: var(--muted);
 }
 .smallSource { margin-top: 0.75rem !important; }
 .sourceLink { display: inline-flex; gap: 0.35rem; align-items: baseline; line-height: 1.5; font-size: 0.97rem; }
@@ -191,6 +216,37 @@
 .findings p { color: var(--muted); font-size: 1.07rem; max-width: 875px; }
 .findings strong { color: var(--ink); }
 .sectionAfter { margin: 1.25rem 0 0 !important; padding-left: 1.2rem; border-left: 3px solid var(--signal); font-size: 1.13rem; max-width: 850px; }
+.methodOverview {
+    max-width: 1020px;
+    margin: 0 0 2.1rem !important;
+    padding-left: 1.25rem;
+    border-left: 3px solid rgba(149, 227, 199, 0.55);
+    color: #dbe6db;
+    font-size: 1.1rem;
+}
+.methodOverview strong { color: var(--ink); }
+.methodCodeExamples { margin: 1.7rem 0 0; max-width: 1080px; }
+.methodExample { padding: 1.7rem 0 2rem; border-top: 1px solid var(--line); }
+.methodExampleHeader { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: 0.7rem 1.5rem; margin-bottom: 1rem; }
+.methodExampleHeader h3 { margin: 0.45rem 0 0; font: 800 1.56rem/1.24 var(--display); color: var(--ink); }
+.methodExampleHeader .sourceLink { font-size: 0.88rem; }
+.methodExample pre {
+    margin: 0 0 0.75rem;
+    padding: clamp(1rem, 2vw, 1.45rem);
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: pre;
+    background: #0b130f;
+    border: 1px solid var(--line);
+    color: #d1f3da;
+    font: 500 0.89rem/1.76 var(--mono);
+}
+.methodExample > p { color: var(--muted); max-width: 850px; font-size: 1.01rem; }
+.methodArtefacts { max-width: 1080px; padding-top: 1.45rem; border-top: 1px solid var(--line); }
+.methodArtefacts h3 { font: 800 clamp(1.45rem, 2vw, 1.8rem)/1.25 var(--display); margin-bottom: 0.65rem; }
+.methodArtefacts > p { color: var(--muted); max-width: 885px; font-size: 1.03rem; }
+.methodArtefactLinks { display: flex; flex-wrap: wrap; gap: 0.7rem 1.65rem; margin-top: 1.05rem; }
+.methodArtefactLinks a { font-size: 0.94rem; }
 .methodSteps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; }
 .methodStep { display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: 0.9rem; padding: 1.55rem 0; border-top: 1px solid var(--line); }
 .methodStep > span { color: var(--signal); font: 800 1.85rem/1 var(--display); }
@@ -216,7 +272,7 @@
 .backLink { display: inline-block; font: 750 0.95rem var(--mono); margin-top: 1.8rem; }
 
 @media (max-width: 980px) {
-    .experimentPair, .methodSteps { grid-template-columns: 1fr; }
+    .methodSteps { grid-template-columns: 1fr; }
     .explorerTop { align-items: start; flex-direction: column; gap: 0.9rem; }
     .graphHead { align-items: start; flex-direction: column; gap: 0.55rem; }
     .graphProvenance { text-align: left; }
