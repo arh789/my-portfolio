@@ -3,13 +3,27 @@
 **Date:** 19 November 2026 (Australia/Sydney)  
 **Status:** ready for Codex to take over implementation and verification. The first page and responsive CSS exist, but local build and browser QA have **not** yet been performed.
 
+## Latest revision — dual recognition (MA-0128–MA-0130)
+
+The official research outline **has changed since the initial handover was written**. The governing statement is no longer confined to detecting violations. The human recognises **what resonates or appears potentially significant**, *and* what is unsupported, missing or invalid. Positive recognition selects further investigation; negative recognition challenges inaccurate representations. Neither supplies proof or a final answer in advance.
+
+Authoritative current sources:
+- [Updated official outline](https://github.com/arh789/llm_topology/blob/main/ARTICLE_OUTLINE_OFFICIAL.md), especially sections 4–10 and the dual-branch "deepest compression";
+- [Evidence index C10](https://github.com/arh789/llm_topology/blob/main/ARTICLE_EVIDENCE_INDEX.md#c10--human-direction-combines-selecting-promising-possibilities-and-correcting-inadequate-interpretations), using [MA-0099](https://github.com/arh789/llm_topology/blob/main/META_ANALYSIS.md#ma-0099--next-inquiry-sda-3-interrogatives-applied-to-the-independently-reconstructed-r014r015-semantic-map) as a recorded case of selecting further inquiry;
+- MA-0128, MA-0129 and MA-0130 in the same meta-analysis file;
+- [Revised first-draft article](page.js), now showing both recognition paths in section 03 and the documented choice in section 06.
+
+**New immediate Codex task:** Verify the updated branch, inspect the rendered page at desktop and mobile widths, and fix any defects caused by the longer copy or two new recognition cards. Ensure the updated introduction, two-path mechanism, MA-0099 link and correction-ledger description are all legible. Do not invent a new experiment or treat resonance as scientifically validated. Do not rebuild the original page or implement live interactivity. Keep the revised body typography and existing main heading sizes.
+
+The earlier guidance below remains applicable except where this note expressly updates it.
+
 ## 1. Objective
 
 Make the existing **first-draft visual construction** of the LLM Topology article build successfully and render clearly on desktop and mobile. Evaluate and repair its layout, navigation, legibility, hierarchy and representative evidence panels. Preserve the visible, unmistakable placeholders for future interactive elements.
 
 **This is not a request to finish or publish the article.** Do not spend this pass on final wording, metadata, SEO, article taxonomy, full interactive datasets or animation polish.
 
-**Governing argument:** A human can learn about an unfamiliar possibility space by constraining an agent's reconstruction of it, without needing to know the answer beforehand. The research experiments supply evidence for the article; they do not replace that human–agent learning argument.
+**Governing argument:** A human can learn about an unfamiliar possibility space by recognising promising or invalid agent-generated relationships, directing further exploration and constrained reconstruction without knowing the answer beforehand. The research experiments supply evidence for the article; they do not replace that human–agent learning argument.
 
 ## 2. Repositories, branch, route and source files
 
