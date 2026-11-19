@@ -13,7 +13,7 @@
 - Status and interpretive precedence: [REPORT_STATUS.md](https://github.com/arh789/llm_topology/blob/main/REPORT_STATUS.md)
 - Existing page-design precedents: `src/app/art/dan-john-youtube-playlist-semantic-network-analysis/` (discovery-first layout) and `src/app/semantic-seo-lab/` (inspectable experimental evidence).
 
-**Do not substitute an interactive tool for the official article's governing argument.** The key purpose is to demonstrate how a human learns about an unknown possibility space by constraining an agent's reconstruction. The experiments and interactive evidence serve that argument.
+**Do not substitute an interactive tool for the official article's governing argument.** The key purpose is to demonstrate how a human learns about an unknown possibility space by recognising both promising relationships and inadequate interpretations, then directing an agent's exploration and reconstruction. The experiments and interactive evidence serve that argument.
 
 First-pass constraints: no metadata, no archive indexing, no new dependencies, no publishing to main, no changes to the other portfolio pages. All three interactive elements deliberately show labelled placeholders; no live data is loaded or falsely claimed.
 
@@ -25,7 +25,7 @@ All elements are grouped by the stable `data-interactive-placeholder` attribute.
 |---|---|---|
 | `topology-explorer` | Section 05, immediately after R020 summary | Evidence-backed semantic network and inspectable community/edge provenance |
 | `generation-state-comparator` | Section 05, after topology explorer | Selectable generation-decision × transformer-state × cosine-sector comparison |
-| `correction-ledger` | Section 06, after the static correction examples | Source-linked navigation through human objections and revised agent interpretations |
+| `correction-ledger` | Section 06, after the static correction examples | Source-linked navigation through human selections, objections and revised agent interpretations |
 
 ### 1. topology-explorer
 
@@ -73,18 +73,19 @@ All elements are grouped by the stable `data-interactive-placeholder` attribute.
 
 ### 3. correction-ledger
 
-**User question:** Which human correction invalidated an agent interpretation, and what reconstruction followed?
+**User question:** Which promising direction or invalid interpretation did the human identify, and what investigation or reconstruction followed?
 
-**Inputs:** MA entry ID, run ID or correction category; optionally select earlier vs revised interpretation.
+**Inputs:** MA entry ID, run ID or selection category (resonance / positive exploration; contradiction / negative correction); optionally show before/after reasoning.
 
-**Outputs:** Verbatim source snippets with author, date, MA reference, problem detected, subsequent reanalysis and whether the conclusion is measured, interpreted or proposed. Make links to both entries visible.
+**Outputs:** Verbatim source snippets with speaker, date, MA reference, selected question or detected problem, next action, subsequent evidence and conclusion status (measured, derived, interpreted or proposed). Preserve links to both the original record and follow-up; do not imply that resonance proves correctness.
 
 **Data sources:**
-- `META_ANALYSIS.md`, particularly MA-0083, MA-0120, MA-0125, MA-0126 and MA-0127;
+- `META_ANALYSIS.md`, particularly MA-0083 (selection pressure), MA-0099 (a chosen line of inquiry after inspecting the R014–R015 map), MA-0120 (unexpected human learning), MA-0128 and MA-0129 (positive recognition and dual-path methodology), MA-0130 (execution plan), and MA-0125–MA-0127 (correction records);
+- `ARTICLE_EVIDENCE_INDEX.md` claim C10 (the evidence-level distinction and supporting links);
 - final run reports and conclusions, especially R020;
-- `ARTICLE_OUTLINE_OFFICIAL.md` to retain the intended meaning of the human–agent learning process.
+- `ARTICLE_OUTLINE_OFFICIAL.md`, sections 4–10, to retain the intended meaning of human–agent learning.
 
-**Acceptance criteria:** Show the original wrong interpretation alongside its correction, not merely the final improved answer. Never overwrite previous source statements; preserve their chronology. Do not turn the observed analogue between model integration failure and agent research-method failure into a proved shared causal mechanism.
+**Acceptance criteria:** Display both positive *directional selection* and negative *corrective challenge* with complete provenance. Show the starting interpretation or discovered possibility, the user's actual selection or objection, and what was subsequently investigated. Do not turn a proposed learning mechanism into a measured transformer finding. Keep all earlier interpretations and their chronology available for inspection; do not overwrite source statements.
 
 ## Next development tasks
 
