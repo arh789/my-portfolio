@@ -357,7 +357,7 @@ export default function LlmTopologyArticleDraft() {
                         </div>
                         <div className={styles.finding}>
                             <p className={styles.overline}>What R020 establishes</p>
-                            <p>Recoverable semantic relationships can contain information absent from the model's generated response. Related higher-order structures recur across generation even when the constituent tokens, communities and connections change.</p>
+                            <p>Recoverable semantic relationships can contain information absent from the model&apos;s generated response. Related higher-order structures recur across generation even when the constituent tokens, communities and connections change.</p>
                             <span>It does not establish one continuously maintained causal explanation; that is a different question.</span>
                         </div>
                         <EvidenceRow items={[
