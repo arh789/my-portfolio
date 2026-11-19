@@ -27,27 +27,45 @@ export const metadata = {
 const stages = [
     {
         index: "01",
-        name: "Capture",
-        explanation: "Record the numerical representation at each transformer state while the model generates its next tokens. This gives us something to inspect besides the final sentence.",
-        source: research + "/single_prompt_topology/r020_pythia_generation_topology.py",
+        name: "Capture transformer hidden states",
+        explanation: "Python, PyTorch and Hugging Face Transformers load Pythia 70M and use forward hooks to record eight states for each of the 32 greedy next-token decisions. These are the intermediate representations, not generated explanations.",
+        source: research + "/single_prompt_topology/r020_pythia_generation_topology.py#L69-L83",
+        sourceLabel: "Python capture and forward hooks",
     },
     {
         index: "02",
-        name: "Compare",
-        explanation: "Compare each recorded state against a shared token-embedding vocabulary. Words with similar numerical positions provide candidate neighbourhoods for investigation.",
-        source: research + "/single_prompt_topology/r020_pythia_generation_topology.py",
+        name: "Project into vocabulary space",
+        explanation: "PyTorch normalises the state vectors and the input-token embedding matrix, then calculates cosine similarities. The result is a ranked vocabulary neighbourhood for every recorded state.",
+        source: research + "/single_prompt_topology/r020_pythia_generation_topology.py#L840-L847",
+        sourceLabel: "Cosine projection in PyTorch",
     },
     {
         index: "03",
-        name: "Connect",
-        explanation: "Build networks from those neighbourhoods, then identify groups of related tokens and the measured connections between them.",
-        source: research + "/single_prompt_topology/topology_core.py",
+        name: "Choose reproducible token populations",
+        explanation: "NumPy calculations apply deterministic full-curve elbow cut-offs to positive and negative cosine-score regions separately. These are geometric selections, not judgements about which concepts matter.",
+        source: research + "/single_prompt_topology/topology_core.py#L66-L94",
+        sourceLabel: "Full-curve cut-off algorithm",
     },
     {
         index: "04",
-        name: "Reconstruct",
-        explanation: "Examine the measured communities and their edges before assigning descriptive labels. Keep unexpected and unresolved associations visible rather than forcing one tidy story.",
-        source: r020Analysis + "/R020_RELATIONAL_SEMANTIC_RECONSTRUCTION_V2.md",
+        name: "Build ten-nearest-neighbour networks",
+        explanation: "For each selected vocabulary population, PyTorch calculates exact ten-nearest-neighbour (10-NN) similarities. NetworkX represents the resulting nodes and edges as graphs.",
+        source: research + "/single_prompt_topology/topology_core.py#L102-L124",
+        sourceLabel: "Exact k-nearest-neighbour implementation",
+    },
+    {
+        index: "05",
+        name: "Detect graph communities",
+        explanation: "NetworkX applies seeded Louvain community detection. The graph and community outputs retain token identities, connection counts and local community identifiers, with pandas used for tables and exports.",
+        source: research + "/single_prompt_topology/topology_core.py#L179-L196",
+        sourceLabel: "NetworkX Louvain community detection",
+    },
+    {
+        index: "06",
+        name: "Reconstruct and audit semantic relationships",
+        explanation: "JavaScript (Node.js) reads recorded JSON networks, examines community exemplars, and screens links using measured intercommunity edges. The resulting semantic families are interpretations checked against the original CSV and JSON evidence.",
+        source: r020Analysis + "/R020_SEMANTIC_CONTINUITY_REPRODUCER.js#L55-L84",
+        sourceLabel: "JavaScript semantic reconstruction",
     },
 ];
 
@@ -117,30 +135,38 @@ export default function LlmTopologyArticle() {
                     <h1>How can you search for what you do not know exists?</h1>
                     <p>Ask a language model a simple question, and sometimes it gives you a stupid answer. But that answer is only the visible result of a much richer process. As the model generates its response, its intermediate states contain associations between ideas that may never appear in the words it produces.</p>
                     <p className={styles.openQuestion}>What if we could reconstruct those associations as a network, and use that network to discover things we didn&apos;t know to look for?</p>
-                    <p>To explore this, we asked Pythia 70M, a very small open-weights language model, why a city would build a bridge across a river. It failed to give a meaningful answer. Yet when we examined its intermediate states, we uncovered a much broader network of concepts and relationships, including possibilities the model never managed to express in its response.</p>
+                    <p>To explore this, we asked Pythia 70M, a very small open-weights language model, why a city would build a bridge across a river. It failed to give a meaningful answer.</p>
+                    <p>Yet when we examined its intermediate states, we uncovered a much broader network of concepts and relationships, including possibilities the model never managed to express in its response.</p>
                 </header>
 
                 <section className={styles.section} id="experiment">
                     <SectionHead n="02" eyebrow="The experiment" title="A simple question. A stupid answer.">
                         The experiment asked a small language model one ordinary question. The prompt and its continuation were saved exactly.
                     </SectionHead>
-                    <div className={styles.experimentPair}>
-                        <div className={styles.experimentInput}>
-                            <div className={styles.experimentLabel}><span>Experimental input</span><strong>Pythia 70M</strong></div>
+                    <div className={styles.experimentTranscript} aria-label="Experimental question and model response">
+                        <div className={styles.transcriptStep}>
+                            <div className={styles.transcriptLabel}>
+                                <span>01 / Experimental input</span>
+                                <strong>Pythia 70M</strong>
+                            </div>
                             <pre>{"Question: Why would a city build a bridge across a river?\nAnswer:"}</pre>
                         </div>
-                        <div className={styles.experimentOutput}>
-                            <div className={styles.experimentLabel}><span>Generated response</span><strong>32 tokens</strong></div>
+                        <div className={styles.transcriptStep}>
+                            <div className={styles.transcriptLabel}>
+                                <span>02 / Generated response</span>
+                                <strong>32 tokens · greedy decoding</strong>
+                            </div>
                             <pre>{"The city is a bridge that connects the river with the river.\n\nA:\n\nThe city is a bridge that connects the river with the river."}</pre>
                         </div>
                     </div>
-                    <p className={styles.transition}>The answer goes nowhere. But we also recorded the model&apos;s changing internal representations as it generated those 32 tokens. From them, we constructed networks showing which associated concepts appeared together, and how the connections changed.</p>
+                    <p className={styles.transition}>The answer goes nowhere.</p>
+                    <p className={styles.recordingExplanation}>We recorded the model&apos;s changing internal representations as it generated those 32 tokens. From them, we constructed networks showing which associated concepts appeared together, and how the connections changed.</p>
                     <p className={styles.smallSource}><SourceLink href={r020 + "/prompt_records.json"}>Exact input, generated text and token record</SourceLink></p>
                 </section>
 
                 <section className={styles.section + " " + styles.discoverySection} id="network">
                     <SectionHead n="03" eyebrow="The discovery" title="What was happening inside the model?">
-                        The generated response leaves almost everything out. The recorded networks provide somewhere else to look.
+                        The generated response contained no useful information about why a bridge would be built. Yet networks reconstructed from the model&apos;s intermediate states during generation provided somewhere else to look.
                     </SectionHead>
                     <SemanticNetworkExplorer />
                 </section>
@@ -170,9 +196,10 @@ export default function LlmTopologyArticle() {
                 </section>
 
                 <section className={styles.section} id="method">
-                    <SectionHead n="05" eyebrow="How we did it" title="Turning numerical states into something we can explore">
-                        The network is not an image the model produced for us. It was reconstructed through a measurement and analysis pipeline.
+                    <SectionHead n="05" eyebrow="Research methodology and source code" title="How we analysed transformer hidden states and reconstructed semantic networks">
+                        The R020 pipeline uses Python and JavaScript to turn numerical transformer representations into inspectable token graphs and candidate semantic relationships.
                     </SectionHead>
+                    <p className={styles.methodOverview}><strong>Programming languages and libraries:</strong> Python powers model execution and numerical analysis with <strong>PyTorch</strong>, <strong>Hugging Face Transformers</strong>, <strong>NumPy</strong> and <strong>pandas</strong>. <strong>NetworkX</strong> constructs the graphs and runs Louvain community detection. <strong>JavaScript (Node.js)</strong> performs a separate semantic reconstruction from the recorded evidence. The pipeline stores reusable data as <strong>CSV</strong>, <strong>JSON</strong> and <strong>Safetensors</strong> files.</p>
                     <div className={styles.methodSteps}>
                         {stages.map((stage) => (
                             <div className={styles.methodStep} key={stage.index}>
@@ -180,18 +207,67 @@ export default function LlmTopologyArticle() {
                                 <div>
                                     <h3>{stage.name}</h3>
                                     <p>{stage.explanation}</p>
-                                    <SourceLink href={stage.source}>Inspect this operation</SourceLink>
+                                    <SourceLink href={stage.source}>{stage.sourceLabel}</SourceLink>
                                 </div>
                             </div>
                         ))}
                     </div>
-                    <div className={styles.codeNote}>
-                        <div>
-                            <p className={styles.kicker}>A real operation from the R020 semantic analyser</p>
-                            <p>For a candidate relationship to enter the selected semantic summary, it had to be backed by a recorded community connection and meet declared thresholds. This is one of those checks:</p>
+                    <div className={styles.methodCodeExamples}>
+                        <div className={styles.methodExample}>
+                            <div className={styles.methodExampleHeader}>
+                                <div>
+                                    <p className={styles.kicker}>Python / PyTorch</p>
+                                    <h3>Capture intermediate transformer states</h3>
+                                </div>
+                                <SourceLink href={research + "/single_prompt_topology/r020_pythia_generation_topology.py#L69-L83"}>Actual capture code</SourceLink>
+                            </div>
+                            <pre><code>{`for index, layer in enumerate(model.gpt_neox.layers):
+    self.handles.append(layer.register_forward_hook(self._hook(index)))`}</code></pre>
+                            <p>The forward hooks save each block&apos;s output so the analysis can inspect it later rather than infer its contents from the generated text.</p>
                         </div>
-                        <pre><code>{"const affinity = e.token_edge_count / Math.sqrt(ca.size * cb.size);\nif (affinity < 0.30 || e.token_edge_count < 30) continue;"}</code></pre>
-                        <SourceLink href={r020Analysis + "/R020_SEMANTIC_CONTINUITY_REPRODUCER.js"}>See the complete R020 analyser</SourceLink>
+                        <div className={styles.methodExample}>
+                            <div className={styles.methodExampleHeader}>
+                                <div>
+                                    <p className={styles.kicker}>Python / NetworkX</p>
+                                    <h3>Find Louvain communities within token graphs</h3>
+                                </div>
+                                <SourceLink href={research + "/single_prompt_topology/topology_core.py#L179-L196"}>Actual community algorithm</SourceLink>
+                            </div>
+                            <pre><code>{`seed = settings.random_seed + state_index * 2 + side_index
+communities = nx.community.louvain_communities(
+    graph,
+    weight=None,
+    resolution=settings.louvain_resolution,
+    seed=seed,
+)`}</code></pre>
+                            <p>The community calculation groups connected vocabulary tokens; interpreting what those groups mean is a separate step.</p>
+                        </div>
+                        <div className={styles.methodExample}>
+                            <div className={styles.methodExampleHeader}>
+                                <div>
+                                    <p className={styles.kicker}>JavaScript / Node.js</p>
+                                    <h3>Screen candidate relationships against measured edges</h3>
+                                </div>
+                                <SourceLink href={r020Analysis + "/R020_SEMANTIC_CONTINUITY_REPRODUCER.js#L64-L67"}>Actual semantic screening code</SourceLink>
+                            </div>
+                            <pre><code>{`const ca=cm.get(e.community_a),cb=cm.get(e.community_b);
+if(!ca||!cb)throw Error("Orphan community edge at "+key);
+const affinity=e.token_edge_count/Math.sqrt(ca.size*cb.size);
+if(affinity<0.30||e.token_edge_count<30)continue;`}</code></pre>
+                            <p>Candidate relationships must have an original measured edge. The threshold filters which links enter this particular semantic report, rather than establishing their meaning automatically.</p>
+                        </div>
+                    </div>
+                    <div className={styles.methodArtefacts}>
+                        <h3>Inspect the data and reproduce the analysis</h3>
+                        <p>The repository retains the R020 run configuration, captured outputs, community graph exports and evidence audits. The source links above point to implementations rather than pseudocode.</p>
+                        <div className={styles.methodArtefactLinks}>
+                            <SourceLink href={r020 + "/run_config.json"}>Run configuration</SourceLink>
+                            <SourceLink href={r020 + "/community_nodes.csv"}>Community nodes (CSV)</SourceLink>
+                            <SourceLink href={r020 + "/community_edges.csv"}>Community edges (CSV)</SourceLink>
+                            <SourceLink href={r020 + "/chatgpt_community_networks.json"}>Full compact networks (JSON)</SourceLink>
+                            <SourceLink href={r020 + "/R020_RUN_METHODOLOGY.md"}>R020 measurement protocol</SourceLink>
+                            <SourceLink href={r020Analysis + "/R020_V3_INDEPENDENT_RELATION_EVIDENCE_AUDIT.md"}>Independent source audit</SourceLink>
+                        </div>
                     </div>
                 </section>
 
