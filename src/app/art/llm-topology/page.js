@@ -370,7 +370,7 @@ export default function LlmTopologyArticleDraft() {
 
                     <section className={styles.section} id="measurement">
                         <SectionTitle number="02" eyebrow="How evidence was constructed" title="From transformer states to an inspectable semantic map">
-                            <p>The reconstructed relationships were not simply read out of the model's final answer. They came from a sequence of measurements, transformations and human-supervised interpretations. Knowing where measurement ends and interpretation begins is essential to understanding the result.</p>
+                            <p>The reconstructed relationships were not simply read out of the model&apos;s final answer. They came from a sequence of measurements, transformations and human-supervised interpretations. Knowing where measurement ends and interpretation begins is essential to understanding the result.</p>
                         </SectionTitle>
                         <div className={styles.provenanceFlow}>
                             {[
@@ -446,7 +446,7 @@ export default function LlmTopologyArticleDraft() {
                                 <div className={styles.caseMarker + " " + styles.casePositive}><span>02</span><strong>Positive recognition</strong></div>
                                 <div className={styles.caseMain}>
                                     <h3>Choosing the next question from an unfamiliar map</h3>
-                                    <p>After R014–R015 reconstructed compatible semantic families, the human did not stop at the agent's summary. The researcher selected another inquiry: which structures were central or adjacent, what emerged, what appeared missing, and what correlated before coherence was imposed?</p>
+                                    <p>After R014–R015 reconstructed compatible semantic families, the human did not stop at the agent&apos;s summary. The researcher selected another inquiry: which structures were central or adjacent, what emerged, what appeared missing, and what correlated before coherence was imposed?</p>
                                     <blockquote>“When this network is treated purely as a vector, without trying to force coherence, what else highly correlates with it?”</blockquote>
                                     <p>The recorded question redirected the agent towards unresolved structure rather than accepting the first elegant synthesis. The selection is documented; the value of what was subsequently inferred must still be judged against evidence.</p>
                                     <div className={styles.caseChain}><span>Inspect a candidate map</span><span>Select a promising question</span><span>Reconstruct under the new inquiry</span></div>
@@ -502,7 +502,7 @@ export default function LlmTopologyArticleDraft() {
                             <div><p className={styles.overline}>Agent</p><strong>Generation and reconstruction</strong><p>Expands possibilities, compares evidence, constructs and revises semantic explanations, and makes them inspectable.</p></div>
                             <div><p className={styles.overline}>Shared research memory</p><strong>Continuity and accountability</strong><p>Stores experiments, chosen questions, rejected interpretations, corrective constraints and results so the next cycle does not start from nothing.</p></div>
                         </div>
-                        <p className={styles.bodyCopy}>This describes an emerging methodology inferred from the recorded collaboration, not a controlled experiment demonstrating that resonance reliably predicts truth or that the agent's pretrained weights changed. The benefit lies in preserving human direction while making alternative structures available for inspection.</p>
+                        <p className={styles.bodyCopy}>This describes an emerging methodology inferred from the recorded collaboration, not a controlled experiment demonstrating that resonance reliably predicts truth or that the agent&apos;s pretrained weights changed. The benefit lies in preserving human direction while making alternative structures available for inspection.</p>
                         <div className={styles.finalPrinciple}>
                             <p className={styles.overline}>Highest-order principle</p>
                             <p>Human knowledge expands through human-directed, constrained agent reconstruction.</p>
