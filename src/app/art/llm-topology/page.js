@@ -169,7 +169,7 @@ export default function LlmTopologyDraftPage() {
                     <div className={styles.diagramArrow} aria-hidden="true">↓</div>
                     <div className={styles.diagramStage}><span>AGENT</span><strong>Generates possible relationships and explanations</strong></div>
                     <div className={styles.diagramArrow} aria-hidden="true">↓</div>
-                    <div className={styles.diagramStage}><span>HUMAN</span><strong>Recognises what is unsupported, missing or invalid</strong></div>
+                    <div className={styles.diagramStage}><span>HUMAN</span><strong>Recognises what resonates, or what is unsupported, missing or invalid</strong></div>
                     <div className={styles.diagramArrow} aria-hidden="true">↓</div>
                     <div className={styles.diagramStage + " " + styles.diagramResult}><span>DISCOVERY</span><strong>Agent reconstructs; new knowledge becomes available</strong></div>
                     <div className={styles.diagramLoop}>New knowledge → new constraints → repeat</div>
