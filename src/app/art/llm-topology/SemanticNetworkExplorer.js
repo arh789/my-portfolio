@@ -148,7 +148,7 @@ export default function SemanticNetworkExplorer() {
                         role="tab"
                         aria-selected={networkIndex === index}
                         aria-controls="r020-network-panel"
-                        className={networkIndex === index ? styles.networkTabActive : styles.networkTab}
+                        className={networkIndex === index ? styles.networkTabActive : undefined}
                         onClick={() => chooseNetwork(index)}
                     >
                         <span>{String(index + 1).padStart(2, "0")}</span>
@@ -167,7 +167,7 @@ export default function SemanticNetworkExplorer() {
 
             <div className={styles.networkFrame}>
                 <div className={styles.networkOverflow}>
-                    <svg className={styles.networkDiagram} viewBox="0 0 1160 725" role="img" aria-label={current.title + ": inspect selectable community nodes and measured connecting edges"}>
+                    <svg className={styles.networkDiagram} viewBox="0 0 1160 725" role="group" aria-label={current.title + ": inspect selectable community nodes and measured connecting edges"}>
                         <defs>
                             <pattern id="semantic-grid" width="38" height="38" patternUnits="userSpaceOnUse">
                                 <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#33463b" strokeWidth="0.6" opacity="0.35" />
