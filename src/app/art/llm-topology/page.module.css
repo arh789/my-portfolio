@@ -190,6 +190,7 @@
 }
 .miniFlow span { color: var(--teal); }
 .loopGrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.6rem; }
+.loopGrid + .contrastGrid { margin-top: 1rem; }
 .loopStep { padding: 1.2rem; background: #101815; border-top: 3px solid var(--teal); }
 .loopStep > span { color: var(--teal); font: 700 0.92rem var(--research-font-label, monospace); }
 .loopStep h3 { margin: 1.2rem 0 0.6rem; font-size: 1.13rem; }
