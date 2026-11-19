@@ -304,6 +304,80 @@
 .conclusion { padding: clamp(2rem, 4vw, 3.5rem); background: #1b1b0e; border: 1px solid rgba(245, 227, 109, 0.5); }
 .conclusion h2 { font: 800 clamp(2.5rem, 4vw, 4.3rem)/1.03 var(--display); text-transform: uppercase; color: var(--white); margin: 0.85rem 0 1.2rem; }
 .conclusion > p:not(.overline) { font-size: 1.22rem; line-height: 1.62; color: #e8e8d9; margin-bottom: 1.2rem; max-width: 56rem; }
+
+/* Problem-driven evidence narrative: each unresolved question has a visible consequence. */
+.originContrast {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.95rem;
+    margin: 1.15rem 0;
+}
+.originContrast > div {
+    min-width: 0;
+    padding: clamp(1.2rem, 2.3vw, 1.7rem);
+    border: 1px solid rgba(130, 220, 199, 0.27);
+    background: #0d1712;
+}
+.originContrast > div + div { border-color: rgba(245, 227, 109, 0.33); background: #17190f; }
+.originContrast h3 { color: var(--white); font-size: 1.42rem; margin: 0.65rem 0; }
+.originContrast p:not(.overline) { font-size: 1.11rem; color: var(--muted); }
+.questionSequence { margin: 1.2rem 0; border: 1px solid var(--border); background: #0b0f0c; }
+.questionSequence p { padding: 1rem 1.3rem; line-height: 1.6; margin: 0; }
+.questionSequence p + p { border-top: 1px solid var(--border); }
+.questionSequence strong { color: var(--teal); }
+.operationNeed {
+    border-left: 4px solid var(--accent);
+    padding: 1rem 1.3rem;
+    background: rgba(245, 227, 109, 0.06);
+    margin-top: 0.9rem;
+}
+.operationNeed span,
+.operationAction > span,
+.operationRemaining > span,
+.epochReason span,
+.epochResponse span,
+.epochOutcome span,
+.epochIntervention span,
+.epochOpen span {
+    display: block;
+    font: 700 0.81rem/1.45 var(--mono);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.operationNeed span, .epochReason span { color: var(--accent); }
+.operationNeed h3 { font-size: clamp(1.2rem, 1.7vw, 1.49rem); color: var(--white); font-weight: 700; line-height: 1.48; margin-top: 0.5rem; }
+.operationAction { margin: 1.1rem 0; }
+.operationAction > span, .epochResponse span { color: var(--teal); }
+.operationAction p { margin-top: 0.5rem; color: var(--muted); font-size: 1.1rem; }
+.operationAction strong { color: var(--white); }
+.operationRemaining { background: #0b140e; border: 1px solid rgba(130, 220, 199, 0.21); padding: 1rem 1.25rem; margin-top: 1rem; }
+.operationRemaining span, .epochOpen span { color: #c6e2cc; }
+.operationRemaining p { margin-top: 0.45rem; color: #d9e1d6; font-size: 1.06rem; }
+.epochReason, .epochResponse, .epochOutcome, .epochIntervention, .epochOpen {
+    padding: 0.85rem 1rem;
+    margin: 0.45rem 0 0.7rem;
+    border-left: 3px solid var(--border);
+}
+.epochReason { background: #1b1a0f; border-color: var(--accent); }
+.epochResponse { background: #0d1714; border-color: var(--teal); }
+.epochOutcome { background: #10170f; border-color: rgba(160, 212, 140, 0.65); }
+.epochOutcome span { color: #b9e1ad; }
+.epochIntervention { background: #1b180e; border-color: #e1c378; }
+.epochIntervention span { color: #efd48a; }
+.epochIntervention a { font-size: 0.98rem; display: inline-block; margin-top: 0.45rem; }
+.epochOpen { background: #0d1210; border-color: #96ac9a; }
+.epochReason p, .epochResponse p, .epochOutcome p, .epochIntervention p, .epochOpen p {
+    font-size: 1.08rem;
+    color: #e0e7db;
+    margin: 0.36rem 0 0;
+    line-height: 1.65;
+}
+.epochBody .epochReason p { color: #ede8d4; }
+.epochBody .epochOutcome p { color: #dfe9d9; }
+.epochBody .epochOpen p { color: #d4dcd1; }
+.epochBody .epochIntervention p { color: #e8dfc5; }
+.epochBody .epochResponse p { color: #dce6db; }
+
 @media (max-width: 1180px) {
     .hero { grid-template-columns: 1fr; min-height: 0; }
     .heroPanel { max-width: 47rem; }
@@ -320,6 +394,9 @@
     .sidebarEvidence { margin-top: 0.7rem; }
 }
 @media (max-width: 760px) {
+    .originContrast { grid-template-columns: 1fr; }
+    .operationNeed, .operationRemaining { padding: 1rem; }
+    .questionSequence p { padding: 0.85rem 1rem; }
     .instrumentCards { grid-template-columns: 1fr; }
     .page { font-size: 1.0625rem; }
     .topBar, .hero, .shell { width: calc(100% - 1.25rem); }
