@@ -386,7 +386,7 @@ export default function LlmTopologyArticleDraft() {
                                 <Link href="/art/hidden-representations-without-hidden-layers">Behavioural inference when internal states are inaccessible →</Link>
                             </div>
                         </div>
-                        <p className={styles.instrumentBoundary}>These are complementary but different instruments. In particular, the positive and negative cosine sectors used in LLM Topology are geometric measurements, not the same categories as SDA-3's central or suppressed roles.</p>
+                        <p className={styles.instrumentBoundary}>These are complementary but different instruments. In particular, the positive and negative cosine sectors used in LLM Topology are geometric measurements, not the same categories as SDA-3&apos;s central or suppressed roles.</p>
                         <div className={styles.provenanceFlow}>
                             {[
                                 ["MODEL STATES", "Recorded from the tested transformer", "Measured"],
