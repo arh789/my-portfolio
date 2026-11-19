@@ -41,9 +41,40 @@
     letter-spacing: 0.09em;
     text-transform: uppercase;
 }
+/* The numbered sections use the Dan John page's section-level colour
+   language: distinct background wash, accent rule and inset top edge. */
+.introduction,
+.section {
+    --section-accent: #f5e36d;
+    --section-rule: rgba(245, 227, 109, 0.48);
+    --section-glow: rgba(245, 227, 109, 0.11);
+    --section-surface: #1a190c;
+    --section-depth: #0b0d0a;
+    position: relative;
+    min-width: 0;
+    margin-bottom: clamp(1.25rem, 2.7vw, 2rem);
+    border: 1px solid var(--section-rule);
+    background:
+        radial-gradient(circle at 89% 0%, var(--section-glow), transparent 32rem),
+        linear-gradient(145deg, var(--section-surface), var(--section-depth) 76%);
+    box-shadow: inset 0 2px 0 var(--section-rule), 0 19px 48px rgba(0, 0, 0, 0.24);
+}
+.introduction::before,
+.section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: clamp(3.5rem, 9vw, 8rem);
+    height: 4px;
+    background: var(--section-accent);
+}
 .introduction {
-    padding: clamp(3.4rem, 8vw, 7rem) 0 clamp(3.5rem, 6vw, 5rem);
-    border-bottom: 1px solid var(--line);
+    margin-top: clamp(1.25rem, 3vw, 2.6rem);
+    padding: clamp(3.2rem, 7vw, 6rem) clamp(1.25rem, 3.4vw, 3.25rem);
+}
+.introduction > .kicker {
+    color: var(--section-accent);
 }
 .introduction h1 {
     max-width: 1130px;
@@ -67,22 +98,67 @@
     max-width: 980px !important;
 }
 .section {
-    padding: clamp(3rem, 6vw, 5.7rem) 0;
-    border-bottom: 1px solid var(--line);
+    padding: clamp(3rem, 5.8vw, 5.5rem) clamp(1.25rem, 3.4vw, 3.25rem);
     scroll-margin-top: 1.5rem;
+}
+.section[id="experiment"] {
+    --section-accent: #ffab82;
+    --section-rule: rgba(255, 171, 130, 0.49);
+    --section-glow: rgba(255, 131, 80, 0.12);
+    --section-surface: #211711;
+    --section-depth: #0d0c0a;
+}
+.section[id="network"] {
+    --section-accent: #66d9b4;
+    --section-rule: rgba(102, 217, 180, 0.53);
+    --section-glow: rgba(63, 203, 158, 0.15);
+    --section-surface: #10221a;
+    --section-depth: #080e0b;
+}
+.section[id="adjacent"] {
+    --section-accent: #c7a4f3;
+    --section-rule: rgba(199, 164, 243, 0.48);
+    --section-glow: rgba(163, 101, 229, 0.14);
+    --section-surface: #1d1523;
+    --section-depth: #0e0b12;
+}
+.section[id="method"] {
+    --section-accent: #80bded;
+    --section-rule: rgba(128, 189, 237, 0.49);
+    --section-glow: rgba(74, 142, 221, 0.14);
+    --section-surface: #101d29;
+    --section-depth: #090d12;
+}
+.section[id="evidence"] {
+    --section-accent: #b5e36f;
+    --section-rule: rgba(181, 227, 111, 0.47);
+    --section-glow: rgba(143, 200, 64, 0.13);
+    --section-surface: #192110;
+    --section-depth: #0b0f08;
+}
+.section[id="human"] {
+    --section-accent: #f0a7bc;
+    --section-rule: rgba(240, 167, 188, 0.48);
+    --section-glow: rgba(229, 117, 157, 0.13);
+    --section-surface: #25151b;
+    --section-depth: #100a0d;
 }
 .sectionHead { margin-bottom: 2rem; max-width: 985px; }
 .sectionIndicator {
-    display: flex;
+    display: inline-flex;
     gap: 0.8rem;
     align-items: center;
-    color: var(--mint);
+    padding: 0.36rem 0.7rem;
+    color: var(--section-accent);
+    background: var(--section-glow);
+    border: 1px solid var(--section-rule);
+    border-left: 3px solid var(--section-accent);
     font: 700 0.85rem/1.5 var(--mono);
     text-transform: uppercase;
     letter-spacing: 0.085em;
 }
 .sectionIndicator span {
-    color: var(--signal);
+    color: var(--section-accent);
     font: 800 1.7rem/1 var(--display);
     letter-spacing: 0;
 }
@@ -261,7 +337,7 @@
 .evidenceRow h3 { font: 800 1.38rem/1.3 var(--display); margin-bottom: 0.5rem; }
 .evidenceRow p { color: var(--muted); font-size: 1.02rem; margin-bottom: 0.6rem; }
 .evidenceBoundary { margin: 1.4rem 0 0 !important; max-width: 990px; color: #dfebd8; font-size: 1.08rem; border-left: 3px solid rgba(149, 227, 199, 0.58); padding-left: 1.1rem; }
-#human { max-width: 1120px; }
+#human { max-width: none; }
 .section#human > p { max-width: 900px; margin: 1.2rem 0; font-size: 1.08rem; }
 .humanQuestion { margin: 1.7rem 0; padding: clamp(1.25rem, 2.5vw, 1.9rem); border-left: 4px solid var(--signal); background: #161a10; color: #f7f4e7; font: 750 clamp(1.2rem, 1.6vw, 1.5rem)/1.6 var(--body); }
 .humanSources, .footerLinks { display: flex; flex-wrap: wrap; gap: 0.8rem 1.8rem; margin-top: 1.25rem; }
@@ -279,9 +355,9 @@
 }
 @media (max-width: 700px) {
     .breadcrumb { padding-top: 1.1rem; }
-    .introduction { padding-top: 3rem; }
+    .introduction { padding: 3rem 1.05rem; }
     .introduction h1 { font-size: clamp(2.8rem, 10.9vw, 4.8rem); }
-    .section { padding: 3rem 0; }
+    .section { padding: 3rem 1.05rem; }
     .sectionHead h2 { font-size: clamp(2.2rem, 8vw, 3.6rem); }
     .networkDetails { grid-template-columns: 1fr; }
     .networkConnections ul { grid-template-columns: 1fr; }
