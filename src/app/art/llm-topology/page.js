@@ -82,8 +82,8 @@ const sourceOperations = [
             "    seed=seed,",
             ")",
         ].join("\n"),
-        source: pipeline + "/topology_core.py#L183-L189",
-        sourceLabel: "Topology core, lines 183–189",
+        source: pipeline + "/topology_core.py#L185-L191",
+        sourceLabel: "Topology core, lines 185–191",
         output: "512 state/sector networks; 6,944 recorded communities",
     },
     {
