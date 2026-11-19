@@ -205,6 +205,13 @@
 .evidenceRowLabel { color: var(--teal); font: 750 0.86rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; }
 .evidenceRow > div { display: flex; gap: 0.55rem 1.3rem; flex-wrap: wrap; }
 .evidenceRow a { font-size: 1.03rem; }
+.instrumentCards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; margin-bottom: 1rem; }
+.instrumentCards > div { padding: 1.4rem; border: 1px solid rgba(130, 220, 199, 0.29); background: #0e1711; min-width: 0; }
+.instrumentCards > div + div { border-color: rgba(245, 227, 109, 0.32); background: #17170d; }
+.instrumentCards h3 { font-size: 1.33rem; margin: 0.65rem 0; color: var(--white); }
+.instrumentCards p:not(.overline) { color: var(--muted); font-size: 1.09rem; margin-bottom: 0.85rem; }
+.instrumentCards a { font-size: 1rem; }
+.instrumentBoundary { padding: 0.85rem 0 1.2rem; color: var(--muted); font-size: 1.03rem; }
 .provenanceFlow { display: grid; border-top: 1px solid var(--border); }
 .flowItem { display: grid; grid-template-columns: 2.7rem minmax(0, 1fr) auto; align-items: center; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--border); }
 .flowIndex { color: var(--teal); font: 750 1.4rem var(--display); }
@@ -313,6 +320,7 @@
     .sidebarEvidence { margin-top: 0.7rem; }
 }
 @media (max-width: 760px) {
+    .instrumentCards { grid-template-columns: 1fr; }
     .page { font-size: 1.0625rem; }
     .topBar, .hero, .shell { width: calc(100% - 1.25rem); }
     .topBar { padding: 1rem 0; font-size: 0.72rem; flex-wrap: wrap; }
