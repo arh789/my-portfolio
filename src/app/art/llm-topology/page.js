@@ -113,7 +113,7 @@ export default function LlmTopologyArticle() {
                 </div>
 
                 <header className={styles.introduction}>
-                    <p className={styles.kicker}>LLM topology / Research through the model&apos;s intermediate states</p>
+                    <p className={styles.kicker}>01 / The problem · LLM topology</p>
                     <h1>How can you search for what you do not know exists?</h1>
                     <p>Ask a language model a simple question, and sometimes it gives you a stupid answer. But that answer is only the visible result of a much richer process. As the model generates its response, its intermediate states contain associations between ideas that may never appear in the words it produces.</p>
                     <p className={styles.openQuestion}>What if we could reconstruct those associations as a network, and use that network to discover things we didn&apos;t know to look for?</p>
@@ -121,7 +121,7 @@ export default function LlmTopologyArticle() {
                 </header>
 
                 <section className={styles.section} id="experiment">
-                    <SectionHead n="01" eyebrow="The experiment" title="A simple question. A stupid answer.">
+                    <SectionHead n="02" eyebrow="The experiment" title="A simple question. A stupid answer.">
                         The experiment asked a small language model one ordinary question. The prompt and its continuation were saved exactly.
                     </SectionHead>
                     <div className={styles.experimentPair}>
@@ -139,14 +139,14 @@ export default function LlmTopologyArticle() {
                 </section>
 
                 <section className={styles.section + " " + styles.discoverySection} id="network">
-                    <SectionHead n="02" eyebrow="The discovery" title="What was happening inside the model?">
+                    <SectionHead n="03" eyebrow="The discovery" title="What was happening inside the model?">
                         The generated response leaves almost everything out. The recorded networks provide somewhere else to look.
                     </SectionHead>
                     <SemanticNetworkExplorer />
                 </section>
 
                 <section className={styles.section} id="adjacent">
-                    <SectionHead n="03" eyebrow="Follow the unexpected branches" title="What else does the network reveal?">
+                    <SectionHead n="04" eyebrow="Follow the unexpected branches" title="What else does the network reveal?">
                         Some associations are familiar. Others make the next question less obvious — and potentially more interesting.
                     </SectionHead>
                     <div className={styles.findings}>
@@ -170,7 +170,7 @@ export default function LlmTopologyArticle() {
                 </section>
 
                 <section className={styles.section} id="method">
-                    <SectionHead n="04" eyebrow="How we did it" title="Turning numerical states into something we can explore">
+                    <SectionHead n="05" eyebrow="How we did it" title="Turning numerical states into something we can explore">
                         The network is not an image the model produced for us. It was reconstructed through a measurement and analysis pipeline.
                     </SectionHead>
                     <div className={styles.methodSteps}>
@@ -196,7 +196,7 @@ export default function LlmTopologyArticle() {
                 </section>
 
                 <section className={styles.section} id="evidence">
-                    <SectionHead n="05" eyebrow="Evidence and controls" title="Does the reconstructed structure stand up to scrutiny?">
+                    <SectionHead n="06" eyebrow="Evidence and controls" title="Does the reconstructed structure stand up to scrutiny?">
                         The bridge example shows why inspection might be useful. Earlier experiments tested how much of the reconstruction survives when the input, context and execution conditions change.
                     </SectionHead>
                     <div className={styles.evidenceRows}>
@@ -215,7 +215,7 @@ export default function LlmTopologyArticle() {
                 </section>
 
                 <section className={styles.section} id="human">
-                    <SectionHead n="06" eyebrow="The human–agent discovery process" title="The map changes what we can ask next">
+                    <SectionHead n="07" eyebrow="The human–agent discovery process" title="The map changes what we can ask next">
                         The research also exposed a different way for a human to work with an analysing agent.
                     </SectionHead>
                     <p>In the R014–R015 experiments, four original concepts were replaced with neighbouring ones. Six higher-order semantic families were reconstructed again, including process/change and information structures that were not supplied as seed concepts. The human then asked the agent to investigate the map from different structural directions:</p>
