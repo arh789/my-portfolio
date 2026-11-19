@@ -372,6 +372,21 @@ export default function LlmTopologyArticleDraft() {
                         <SectionTitle number="02" eyebrow="How evidence was constructed" title="From transformer states to an inspectable semantic map">
                             <p>The reconstructed relationships were not simply read out of the model&apos;s final answer. They came from a sequence of measurements, transformations and human-supervised interpretations. Knowing where measurement ends and interpretation begins is essential to understanding the result.</p>
                         </SectionTitle>
+                        <div className={styles.instrumentCards}>
+                            <div>
+                                <p className={styles.overline}>Instrument 01 / LLM topology</p>
+                                <h3>Measure the accessible model states</h3>
+                                <p>With an open-weight model, the research captures internal representations and constructs numerical networks. Semantic parents and their relationships are then inferred from those measured communities, rather than supplied as pre-existing model variables.</p>
+                                <External href={research + "/METHODOLOGY.md"}>Direct-measurement methodology</External>
+                            </div>
+                            <div>
+                                <p className={styles.overline}>Instrument 02 / SDA-3 and structural extraction</p>
+                                <h3>Interrogate what the model expresses or omits</h3>
+                                <p>With a model that cannot be inspected internally, the researcher instead probes its responses: what is central, adjacent, missing, emerging or unexpectedly associated? This yields behavioural hypotheses to challenge—not measured hidden states.</p>
+                                <Link href="/art/hidden-representations-without-hidden-layers">Behavioural inference when internal states are inaccessible →</Link>
+                            </div>
+                        </div>
+                        <p className={styles.instrumentBoundary}>These are complementary but different instruments. In particular, the positive and negative cosine sectors used in LLM Topology are geometric measurements, not the same categories as SDA-3's central or suppressed roles.</p>
                         <div className={styles.provenanceFlow}>
                             {[
                                 ["MODEL STATES", "Recorded from the tested transformer", "Measured"],
