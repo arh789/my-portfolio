@@ -1,3 +1,11 @@
+# Historical interactive-component specifications — superseded by article rebuild
+
+**Status: retained for a possible future research explorer, not required for the current article.** The evidence-led first draft was rebuilt on the same PR. Its R020 result is now presented with an **evidence-backed static semantic map**, exact prompt/output and direct measured-data links. The three interactive placeholders named below have been removed from the current `page.js` intentionally. **Do not reintroduce them** during first-draft visual review without an explicit new requirement.
+
+For the active task, read [CODEX_HANDOVER.md](CODEX_HANDOVER.md). The page has six sections (`observation`, `measurement`, `trajectory`, `human`, `discovery`, `evidence`). The contracts below are historical planning information. If a separate interactive research browser is later authorised, revalidate data-source availability and the saved specifications against the research repository first.
+
+---
+
 # LLM Topology first-draft page — implementation hand-off
 
 ## Scope and governing sources
