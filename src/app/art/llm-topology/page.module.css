@@ -378,6 +378,152 @@
 .epochBody .epochIntervention p { color: #e8dfc5; }
 .epochBody .epochResponse p { color: #dce6db; }
 
+
+/* Executed-evidence displays: show real saved outputs beside their provenance. */
+.executionExample {
+    margin: 2.1rem 0 1.7rem;
+    padding: clamp(1.15rem, 2.4vw, 2rem);
+    border: 1px solid rgba(130, 220, 199, 0.36);
+    background: linear-gradient(155deg, #101b14, #070b09 70%);
+}
+.executionHeader h3 {
+    color: var(--white);
+    font-size: clamp(1.6rem, 2.5vw, 2.3rem);
+    margin: 0.5rem 0 0.75rem;
+}
+.executionHeader > p:last-child { color: var(--muted); max-width: 63rem; }
+.executionHeader code, .learningCycle code {
+    font: 600 0.92em/1.4 var(--mono);
+    color: var(--teal);
+}
+.executionCode, .executionOutput, .executionReading {
+    margin-top: 1.35rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+}
+.executionLabel, .learningCycle > div > span, .controlConclusion > span {
+    display: block;
+    color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: 0.065em;
+    font: 700 0.82rem/1.48 var(--mono);
+}
+.executionCode .codeWindow { margin: 0.85rem 0 0.55rem; }
+.executionCode > a { display: inline-block; font-size: 0.98rem; }
+.sampleCommunities { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; margin: 1rem 0; }
+.sampleCommunities > div {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    gap: 0.45rem;
+    background: #101914;
+    border: 1px solid rgba(130, 220, 199, 0.24);
+    padding: 1rem;
+}
+.sampleCommunities strong {
+    color: var(--white);
+    font: 800 1.35rem/1.1 var(--display);
+}
+.sampleCommunities span { color: #eef2e5; font-size: 1.02rem; overflow-wrap: anywhere; }
+.sampleCommunities small { color: var(--muted); font-size: 0.88rem; line-height: 1.4; }
+.dataTableWrap {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 1rem 0;
+    border: 1px solid var(--border);
+}
+.evidenceDataTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.01rem;
+    line-height: 1.5;
+}
+.evidenceDataTable caption {
+    caption-side: top;
+    text-align: left;
+    padding: 0.7rem 0.9rem;
+    color: #e4e9df;
+    background: #111b14;
+    font-size: 0.94rem;
+}
+.evidenceDataTable th, .evidenceDataTable td {
+    padding: 0.83rem 0.95rem;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+    white-space: normal;
+}
+.evidenceDataTable th {
+    font-weight: 700;
+    color: var(--teal);
+    background: #0f1b15;
+}
+.evidenceDataTable td { color: var(--white); font-variant-numeric: tabular-nums; }
+.evidenceDataTable tbody tr:last-child > * { border-bottom: 0; }
+.evidenceDataTable .matchValue { color: var(--accent); font-weight: 800; }
+.executionReading { color: #e4e9e0; }
+.executionReading > span {
+    display: block;
+    color: var(--accent);
+    font: 700 0.83rem/1.5 var(--mono);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+.executionReading > p { margin-top: 0.7rem; font-size: 1.08rem; }
+.exampleLinks { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin-top: 1rem; }
+.exampleLinks a { font-size: 0.98rem; }
+.exampleTransition { margin-top: 1.2rem; font-size: 1.12rem; color: #e0e7dc; }
+.controlEvidence { margin: 1.45rem 0 1.4rem; }
+.controlEvidence .dataTableWrap { background: #0b1510; }
+.controlEvidence > p:not(.executionLabel) {
+    color: var(--muted);
+    font-size: 1.02rem;
+    line-height: 1.68;
+}
+.controlConclusion {
+    margin-top: 1.2rem;
+    padding: 1.1rem 1.25rem;
+    border-left: 3px solid var(--accent);
+    background: rgba(245, 227, 109, 0.065);
+}
+.controlConclusion > span { color: var(--accent); }
+.controlConclusion p { margin-top: 0.45rem; font-size: 1.08rem; }
+.learningCycle {
+    display: grid;
+    gap: 0.8rem;
+    margin: 1.25rem 0;
+}
+.learningCycle > div {
+    border-left: 3px solid rgba(130, 220, 199, 0.65);
+    background: #101910;
+    padding: 1.2rem 1.35rem;
+}
+.learningCycle > div > p {
+    margin: 0.65rem 0 0;
+    font-size: 1.08rem;
+    color: #e1e6df;
+    line-height: 1.7;
+}
+.learningCycle .learningHuman {
+    background: #231f12;
+    border-color: var(--accent);
+}
+.learningHuman > span { color: var(--accent) !important; }
+.learningCycle blockquote {
+    padding: 1rem 1.2rem;
+    border-left: 3px solid rgba(245, 227, 109, 0.66);
+    background: #12130d;
+    color: #fff5dc;
+    line-height: 1.6;
+    font-size: 1.12rem;
+    font-weight: 650;
+    margin: 0.75rem 0 0;
+}
+.learningCycle .learningResult { border-color: #9adca4; background: #142018; }
+.learningResult > span { color: #b7e9bd !important; }
+.learningCycle .evidenceDataTable { font-size: 0.96rem; }
+.learningCycle a { display: inline-block; margin-top: 0.55rem; font-size: 0.99rem; }
+
 @media (max-width: 1180px) {
     .hero { grid-template-columns: 1fr; min-height: 0; }
     .heroPanel { max-width: 47rem; }
@@ -394,6 +540,14 @@
     .sidebarEvidence { margin-top: 0.7rem; }
 }
 @media (max-width: 760px) {
+    .sampleCommunities { grid-template-columns: 1fr; }
+    .executionExample { padding: 1rem; }
+    .executionHeader h3 { font-size: 1.75rem; }
+    .evidenceDataTable th, .evidenceDataTable td { padding: 0.72rem 0.65rem; font-size: 0.9rem; }
+    .controlEvidence .evidenceDataTable { min-width: 35rem; }
+    .learningCycle > div { padding: 1rem; }
+    .learningCycle .evidenceDataTable { min-width: 25rem; }
+
     .originContrast { grid-template-columns: 1fr; }
     .operationNeed, .operationRemaining { padding: 1rem; }
     .questionSequence p { padding: 0.85rem 1rem; }
