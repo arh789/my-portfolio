@@ -248,7 +248,7 @@ export default function SemanticNetworkExplorer() {
                 </div>
             </div>
             <p className={styles.networkCaption}>
-                These are four <strong>separate</strong> recorded network snapshots, not a composite graph. S00 shows an input-token embedding neighbourhood; S05 shows a contextual transformer state. Descriptive community labels are interpretations of recorded token exemplars. <a href={sourceRoot + "R020_VERIFIED_CONSOLIDATED_SEMANTIC_MAP.md"} target="_blank" rel="noopener noreferrer">See original community IDs and source links ↗</a>
+                These views show <strong>selected, measured links</strong> from four separate network snapshots, not a composite graph or every edge in each snapshot. S00 shows an input-token embedding neighbourhood; S05 shows a contextual transformer state. Descriptive community labels interpret recorded token exemplars. <a href={sourceRoot + "R020_VERIFIED_CONSOLIDATED_SEMANTIC_MAP.md"} target="_blank" rel="noopener noreferrer">See original community IDs and source links ↗</a>
             </p>
         </section>
     );
