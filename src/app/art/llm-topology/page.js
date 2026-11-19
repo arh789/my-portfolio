@@ -14,12 +14,13 @@ const pipeline = research + "/single_prompt_topology";
 const ma = research + "/META_ANALYSIS.md";
 
 const navigation = [
-    ["observation", "The observation"],
-    ["measurement", "From states to evidence"],
-    ["trajectory", "Twenty experiments"],
+    ["question", "Why investigate?"],
+    ["observation", "The R020 contrast"],
+    ["measurement", "Why this pipeline?"],
+    ["trajectory", "Experimental necessities"],
     ["human", "Human direction"],
     ["discovery", "The unexpected discovery"],
-    ["evidence", "Code and research archive"],
+    ["evidence", "Reproducibility"],
 ];
 
 const recurringEdges = [
@@ -36,6 +37,8 @@ const sourceOperations = [
         step: "01 / Capture",
         category: "Measured",
         title: "Record the model's intermediate states",
+        need: "Why capture states at all? The final response alone cannot reveal which relationships were available during processing or how the representation changed.",
+        limit: "It creates a record at each generation decision, but an array of thousands of numerical coordinates is not yet a semantic map.",
         explanation: "The Python runner attaches forward hooks to the model's transformer blocks. During greedy generation it captures the states involved in choosing each of the 32 next tokens. The tested model is Pythia 70M; the agent interpreting its outputs is a separate system.",
         code: [
             "class BlockRecorder:",
@@ -53,6 +56,8 @@ const sourceOperations = [
         step: "02 / Project",
         category: "Derived",
         title: "Compare each state with the model's vocabulary",
+        need: "Why project into vocabulary space? Transformer state coordinates are not human-readable semantic labels; a fixed embedding basis gives the states a shared set of token comparisons.",
+        limit: "Similarity scores reveal candidate words but not their relational organisation. A negative cosine is geometric anti-alignment, not proof of suppression.",
         explanation: "Intermediate states are projected into a fixed input-embedding vocabulary basis. Cosine alignment makes related token neighbourhoods inspectable; opposite score sectors are geometric selections, not automatically meaningful positive or negative sentiments.",
         code: [
             "normalized_embeddings = F.normalize(embeddings, p=2, dim=1)",
@@ -72,6 +77,8 @@ const sourceOperations = [
         step: "03 / Network",
         category: "Derived",
         title: "Construct neighbourhoods and detect communities",
+        need: "Why build graphs? Ranking associated words cannot show which words cluster together, which groups connect, or how their organisation changes.",
+        limit: "The algorithm gives measured partitions, not automatically meaningful concepts. The mapping still needs semantic interpretation.",
         explanation: "Selected tokens become graph nodes. The shared topology code builds neighbourhoods and partitions their connections into communities, retaining the original token and edge evidence before any semantic label is assigned.",
         code: [
             "seed = settings.random_seed + state_index * 2 + side_index",
@@ -90,6 +97,8 @@ const sourceOperations = [
         step: "04 / Reconstruct",
         category: "Interpreted",
         title: "Require measured edges before proposing a relation",
+        need: "Why require actual links? An analysing agent can invent a plausible coherent story from suggestive tokens unless its proposed relationships are constrained by recorded edges.",
+        limit: "The categories use post-hoc lexical anchors; unmatched communities remain unresolved. Human evaluation and perturbation tests are still necessary.",
         explanation: "The separate R020 analysis uses provisional semantic anchor families to screen pairs of different communities. A candidate link needs a measured intercommunity edge and must meet declared thresholds. Naming the relationship remains an interpretive act, not a direct read-out of a hidden concept.",
         code: [
             "const ca=cm.get(e.community_a),cb=cm.get(e.community_b);",
@@ -107,55 +116,71 @@ const epochs = [
     {
         number: "01",
         run: "R001–R008",
-        title: "Make internal representations measurable",
-        problem: "Can we capture state changes and turn millions of token relationships into valid, inspectable evidence?",
-        result: "The pipeline progressed from hidden-state capture through vocabulary selection to positive/negative networks, communities, recoverable execution and validated exports.",
+        title: "From an inaccessible answer to measurable structure",
+        problem: "The generated answer does not show how internal representations change. Capturing numerical states alone also leaves them hard to interpret.",
+        operation: "R001 captured transformer states. R002–R004 tested vocabulary boundaries; R002's strict consensus accepted none. R005 added relational graphs. R006 failed during processing; R007 built networks but failed final CSV validation; R008 corrected the record-counting error and completed validated exports.",
+        finding: "The project could now inspect recorded states and the resulting 66 validated networks, without assuming that a community already had a semantic meaning.",
+        remaining: "What did the 792 measured community instances actually represent?",
         documents: [
-            ["Research methods", research + "/METHODOLOGY.md"],
-            ["Pipeline code", pipeline + "/topology_core.py"],
+            ["Original R001–R010 trajectory", research + "/RUN_OPTIMISATION_TRAJECTORY.md"],
+            ["Network code", pipeline + "/topology_core.py"],
         ],
     },
     {
         number: "02",
         run: "R009–R010",
-        title: "Stop treating a token list as a semantic map",
-        problem: "What do the communities organise, and how do those relationships change through transformer depth?",
-        result: "Semantic parents, operations and constraints became objects of interpretation. An internally complete measurement was not yet the same as a useful semantic reconstruction.",
+        title: "From network measurement to semantic reconstruction",
+        problem: "A community is a measured grouping, not automatically a topic. A list of communities cannot explain how meanings combine, compete or change through depth.",
+        operation: "R009 examined and differentiated community types. R010 reconstructed candidate semantic parents and their relations, retaining conflict and reorganisation rather than discarding difficult evidence.",
+        finding: "The investigation could now propose higher-order organisation rather than report tokens and clusters alone. Semantic naming remained post-measurement interpretation.",
+        remaining: "Would those parent structures survive changes to the original prompt and observation window?",
         documents: [
-            ["Run history", research + "/RUN_OPTIMISATION_TRAJECTORY.md"],
-            ["Original findings", ma],
+            ["Methods and interpretive limits", research + "/METHODOLOGY.md"],
+            ["Research trajectory", research + "/RUN_OPTIMISATION_TRAJECTORY.md"],
         ],
     },
     {
         number: "03",
         run: "R011–R015",
-        title: "Ask what survives changes in the question",
-        problem: "Does the apparent structure persist if concepts are reordered, the context changes or nearby concepts replace the seeds?",
-        result: "R013 tested all six concept orders. R014 reconstructed four overlapping probes. R015 shifted to adjacent concepts. Higher-order semantic families recurred despite changes to the local token and community structure.",
+        title: "From one plausible map to a test of recurrence",
+        problem: "A convincing map from one prompt could simply be an artefact of the supplied words or their order. One observation cannot establish what persists.",
+        operation: "R011 attempted larger-model instrumentation but failed at runtime. R012 used Qwen 7B to complete a whole-prompt paired comparison. R013 tested six permutations; R014 varied the third-concept context with overlapping probes; R015 replaced every seed with an adjacent concept without changing the measurement method.",
+        finding: "R015 independently recovered counterparts of six R014 semantic parent families, while their connections changed. This supports local continuity of families, not one invariant parent-relation graph.",
+        remaining: "Would a more distant semantic region and substantially larger model produce compatible evidence, and how much of the observed variation was measurement noise?",
+        intervention: "The researcher then chose to interrogate the R014–R015 map for central, adjacent, emerging, missing and unexpectedly correlated structure, instead of accepting its first synthesis.",
+        interventionSource: ma + "#ma-0099--next-inquiry-sda-3-interrogatives-applied-to-the-independently-reconstructed-r014r015-semantic-map",
         documents: [
-            ["R013 plan", pipeline + "/R013_PLAN.md"],
+            ["R013 controlled plan", pipeline + "/R013_PLAN.md"],
             ["R014–R015 comparison", runs + "/R015_qwen-adjacent-neighbourhood-expansion/R014_R015_COMPARISON.md"],
         ],
     },
     {
         number: "04",
         run: "R016–R019",
-        title: "Separate reproducible structure from runtime noise",
-        problem: "Could a larger model be measured locally, and were the order-conditioned differences reproducible?",
-        result: "R016 established 32B local feasibility. R018 measured the same three concepts across order permutations. R019 repeated the tested prompts three times each, finding exact repeatability in that local setup while between-order differences remained.",
+        title: "From coherent interpretation to controlled reliability",
+        problem: "A one-order reconstruction may look more stable than it is. Even a real difference between orderings would be ambiguous if identical repeats also diverged.",
+        operation: "R016 established local feasibility for the open 32B model. R017 mapped one distant-region ordering and generated a specific tactical candidate. R018 measured all six orders of those concepts. R019 repeated each tested ordering three times to establish the within-condition noise floor.",
+        finding: "R018 recovered recurring semantic families but strongly order-conditioned relations. R019 measured exact repeatability in that local setup, excluding the tested runtime variability as the explanation for its order effects.",
+        remaining: "These experiments did not generate response tokens. What could be recovered from a model's representations when its generated answer failed?",
         documents: [
-            ["R018 measurements", r018 + "/R018_MEASUREMENT_REPORT.md"],
-            ["R019 control", r019 + "/R019_RESULT.json"],
+            ["R017 one-order reconstruction", runs + "/R017_olmo3-choke-point-barrier-spear-semantic-map/R017_SEMANTIC_RECONSTRUCTION.md"],
+            ["R018 permutation comparisons", r018 + "/permutation_invariance.csv"],
+            ["R019 repeatability control", r019 + "/R019_RESULT.json"],
         ],
     },
     {
         number: "05",
         run: "R020",
-        title: "Compare what is recoverable with what is expressed",
-        problem: "Can useful candidate semantic relationships be recovered when the model's generated response fails?",
-        result: "The model gave a circular answer, yet audited relationships among settlements, routes and crossings recurred across generation. The map is not one fixed graph and does not amount to a complete causal explanation.",
+        title: "From recoverable structure to what a model expresses",
+        problem: "A map of internal associations does not tell us whether the model can organise and express them usefully in an answer. Earlier no-generation controls did not test that contrast.",
+        operation: "R020 deliberately used a much smaller Pythia 70M model and followed all 32 token-generation decisions through eight states each. It compared the circular generated answer with relations reconstructed from measured community networks.",
+        finding: "Settlement–movement and movement–crossing candidates recur across generation even though the response never explains their function. The reconstruction and independent audit establish the candidate relations within the stated thresholds.",
+        remaining: "Their recurrence does not prove one continuous causal explanation. Whether the recovered information is useful remains a human judgement; continuous integration is a separate research question, not a requirement for recognising the finding.",
+        intervention: "The human challenged the agent's attempt to require continuous semantic integration before the R020 result could count.",
+        interventionSource: ma + "#ma-0127--methodological-correction-r020-conclusion-and-needless-integration-hedging",
         documents: [
-            ["R020 interpretation", analysis + "/R020_GENERATION_WIDE_SEMANTIC_HYPOTHESIS_REPORT.md"],
+            ["R020 measured data", r020 + "/generation_trace.csv"],
+            ["Generation-wide reconstruction", analysis + "/R020_GENERATION_WIDE_SEMANTIC_HYPOTHESIS_REPORT.md"],
             ["Independent audit", analysis + "/R020_V3_INDEPENDENT_RELATION_EVIDENCE_AUDIT.md"],
         ],
     },
@@ -298,9 +323,9 @@ export default function LlmTopologyArticleDraft() {
                     <p className={styles.overline}>The unknown possibility space / Human–agent learning</p>
                     <h1>Discovering what you do not know to ask.</h1>
                     <p className={styles.standfirst}>How can a human discover knowledge when they cannot enumerate the possibilities or specify the correct answer?</p>
-                    <p className={styles.heroDescription}>Twenty language-model experiments began with an attempt to infer learned semantic structure from transformer states. They also exposed a research method: an agent proposes relationships; a human recognises which are promising or invalid; the next reconstruction changes what the human can understand.</p>
+                    <p className={styles.heroDescription}>The starting hypothesis was whether transformer-state changes expose learned semantic organisation that the final answer cannot show. Each experimental limitation made a new measurement or comparison necessary. In directing those investigations, the human also developed a method of learning through agent reconstruction.</p>
                     <div className={styles.heroActions}>
-                        <a href="#observation" className={styles.primaryAction}>See the experiment <span aria-hidden="true">↓</span></a>
+                        <a href="#question" className={styles.primaryAction}>Start with the question <span aria-hidden="true">↓</span></a>
                         <External href={root}>Research repository</External>
                     </div>
                 </div>
@@ -331,9 +356,38 @@ export default function LlmTopologyArticleDraft() {
                 </aside>
 
                 <article className={styles.article}>
+                            <section className={styles.section} id="question">
+                        <SectionTitle number="01" eyebrow="The original research question" title="Why look inside a model instead of asking for another answer?">
+                            <p>The starting hypothesis was specific: could changes in a language model&apos;s internal states across transformer layers reveal higher-order semantic structures and relationships learned during training? The study was not an attempt to recover individual training documents or read the model&apos;s private thoughts.</p>
+                        </SectionTitle>
+                        <div className={styles.originContrast}>
+                            <div>
+                                <p className={styles.overline}>What the final answer gives us</p>
+                                <h3>One selected expression</h3>
+                                <p>A response contains words chosen for the next-token sequence. It does not expose all alternative associations, competing interpretations or intermediary relationships available to the model.</p>
+                            </div>
+                            <div>
+                                <p className={styles.overline}>What the experiment needed</p>
+                                <h3>Evidence of the representation</h3>
+                                <p>Record the internal state, compare its vocabulary neighbourhoods, reconstruct relations and change the conditions to see which structures recur. The procedure makes candidate learned associations inspectable rather than relying on the answer alone.</p>
+                            </div>
+                        </div>
+                        <div className={styles.questionSequence}>
+                            <p><strong>Initial uncertainty</strong> — Does the model represent higher-order semantic relationships that its response does not communicate?</p>
+                            <p><strong>Necessary observation</strong> — Capture intermediate representations before naming their possible meaning.</p>
+                            <p><strong>Test of adequacy</strong> — Check that the reconstruction survives relevant controls, while keeping measurement distinct from interpretation.</p>
+                        </div>
+                        <p className={styles.bodyCopy}>That need for measurement explains why the project began with transformer-state capture. The following R020 example is the later, clearest illustration of what the method can reveal; it was not the experiment that originally defined the methodology.</p>
+                        <EvidenceRow items={[
+                            ["Original objective, MA-0119", ma + "#ma-0119--chatgpt-original-topology-hypothesis-versus-emergent-humanagent-learning-methodology"],
+                            ["Official article argument", research + "/ARTICLE_OUTLINE_OFFICIAL.md"],
+                            ["Methods", research + "/METHODOLOGY.md"],
+                        ]}/>
+                    </section>
+
                     <section className={styles.section} id="observation">
-                        <SectionTitle number="01" eyebrow="The observed problem" title="The answer failed. The relationships did not disappear.">
-                            <p>A language model can produce an answer that uses the right words but fails to express a useful relationship between them. R020 makes that problem visible because its exact prompt, generation and intermediate measurements are preserved.</p>
+                        <SectionTitle number="02" eyebrow="A later experimental contrast / R020" title="What the model represented but failed to explain">
+                            <p>R020 was designed after earlier experiments had made state capture, network reconstruction and reliability testable. It deliberately used a small model whose poor generation would expose a new question: can the recorded representations yield relationships that the answer fails to express?</p>
                         </SectionTitle>
                         <div className={styles.inputOutput}>
                             <div className={styles.ioCard}>
@@ -369,7 +423,7 @@ export default function LlmTopologyArticleDraft() {
                     </section>
 
                     <section className={styles.section} id="measurement">
-                        <SectionTitle number="02" eyebrow="How evidence was constructed" title="From transformer states to an inspectable semantic map">
+                        <SectionTitle number="03" eyebrow="Necessary measurement operations" title="Each new observation exposed the next problem">
                             <p>The reconstructed relationships were not simply read out of the model&apos;s final answer. They came from a sequence of measurements, transformations and human-supervised interpretations. Knowing where measurement ends and interpretation begins is essential to understanding the result.</p>
                         </SectionTitle>
                         <div className={styles.instrumentCards}>
@@ -415,7 +469,7 @@ export default function LlmTopologyArticleDraft() {
                     </section>
 
                     <section className={styles.section} id="trajectory">
-                        <SectionTitle number="03" eyebrow="The controlled investigation" title="What twenty runs changed">
+                        <SectionTitle number="04" eyebrow="Research as successive constraints" title="Why each experimental phase became necessary">
                             <p>These results were not obtained by asking once for an attractive graph. Each group of experiments exposed a new obstacle: obtaining reliable measurements, finding useful meaning, testing recurrence, excluding confounds and comparing representation with expression.</p>
                         </SectionTitle>
                         <div className={styles.epochList}>
@@ -444,7 +498,7 @@ export default function LlmTopologyArticleDraft() {
                     </section>
 
                     <section className={styles.section} id="human">
-                        <SectionTitle number="04" eyebrow="The documented research dialogue" title="The human changed what the agent investigated">
+                        <SectionTitle number="05" eyebrow="The documented research dialogue" title="Why agent reconstruction needed human direction">
                             <p>The experiment archive records what the models did. The meta-analysis records something different: how the researcher recognised productive possibilities, rejected inadequate interpretations and directed the agent towards a better reconstruction.</p>
                         </SectionTitle>
                         <div className={styles.caseList}>
@@ -494,7 +548,7 @@ export default function LlmTopologyArticleDraft() {
                     </section>
 
                     <section className={styles.section} id="discovery">
-                        <SectionTitle number="05" eyebrow="The happy accident" title="The agent's reconstruction became a way for the human to learn">
+                        <SectionTitle number="06" eyebrow="The happy accident" title="Why directing the agent changed what the human could learn">
                             <p>The original aim was to infer the semantic organisation learned by language models. A second insight emerged while supervising the reconstruction: the human could acquire unfamiliar knowledge by teaching the agent how to investigate it.</p>
                         </SectionTitle>
                         <div className={styles.turningPoint}>
@@ -526,7 +580,7 @@ export default function LlmTopologyArticleDraft() {
                     </section>
 
                     <section className={styles.section} id="evidence">
-                        <SectionTitle number="06" eyebrow="Primary sources and reproducibility" title="Follow the research from question to measurement to interpretation">
+                        <SectionTitle number="07" eyebrow="Primary sources and reproducibility" title="Follow the research from question to measurement to interpretation">
                             <p>Primary research is established by controlled observations, inspectable procedures, preserved negative results and an auditable connection between measurements and conclusions—not by the presence of a GitHub link alone.</p>
                         </SectionTitle>
                         <div className={styles.accessNote}>
