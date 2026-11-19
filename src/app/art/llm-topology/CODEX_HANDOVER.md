@@ -1,6 +1,6 @@
 # Codex handover — rebuilt evidence-led LLM Topology article
 
-**Status:** third editorial pass, necessity-driven first draft. The article's causal structure has been rebuilt from the actual run chronology. Codex's next task is source, build and visual verification—not reinserting decorative interactive placeholders.
+**Status:** fourth editorial pass, executed-evidence first draft (MA-0132). The article's causal structure has been rebuilt from the actual run chronology. Codex's next task is source, build and visual verification—not reinserting decorative interactive placeholders.
 
 ## Objective
 
@@ -70,6 +70,54 @@ The four snippets are extracted from these real sources and must remain traceabl
 - [R020 candidate relation screen](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/runs/R020_pythia-70m-representation-output-contrast/analysis/R020_SEMANTIC_CONTINUITY_REPRODUCER.js#L64-L67) (post-measurement screening; semantics remain interpreted).
 
 Do not imply these excerpts are all the code required to reproduce the full experiment. The complete implementation, dependencies, configurations and validation records are linked elsewhere on the page.
+
+## Current revision — executed evidence instead of retrospective description
+
+The user asked for the complete preceding comparison with the Semantic SEO Lab to be preserved verbatim in the research meta-analysis and for its recommendations to be implemented. The [MA-0132 entry](https://github.com/arh789/llm_topology/blob/main/META_ANALYSIS.md#ma-0132--critical-editorial-insight-executed-evidence-and-human-learning-should-be-inspectable-in-the-article) is appended on the canonical research repository's `main`. This is an editorial record, not a new experimental result.
+
+Three **actual-source** demonstrations have now been added to the seven-section page:
+
+### A. R020: a captured community network, followed by interpretation
+
+The article displays an annotated D06/S01 positive network snapshot **before** the generation-wide semantic synthesis. The source is [R020_FUNCTIONAL_HYPOTHESIS_D01-08.json](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/runs/R020_pythia-70m-representation-output-contrast/analysis/R020_FUNCTIONAL_HYPOTHESIS_D01-08.json) and the [verified consolidated map](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/runs/R020_pythia-70m-representation-output-contrast/analysis/R020_VERIFIED_CONSOLIDATED_SEMANTIC_MAP.md).
+
+- Decision: D06, current input `bridge`, next generated token `that`; S01 after transformer block 0; positive cosine sector.
+- Community IDs and representative tokens: C2 transport/transportation/routes; C5 bridge/tunnel; C11 city/village/villages.
+- **Measured** C2–C5 217 cross-community token edges; **derived** normalised affinity 0.937.
+- **Measured** C2–C11 43 token edges; **derived** normalised affinity 0.442.
+- At D06/S02, the related crossing–movement evidence is a *different* community pair, C5–C8, with 156 edges. Do not reuse S01 community identities at S02.
+- Community IDs, token exemplars and edge counts originate in the saved data and have been reconciled by the [v3 independent evidence audit](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/runs/R020_pythia-70m-representation-output-contrast/analysis/R020_V3_INDEPENDENT_RELATION_EVIDENCE_AUDIT.md). **Semantic family names remain interpreted**, not measured internal concept objects.
+- The presented code excerpt is the actual deterministic screening code. The result is a single snapshot, not the same thing as the interpreted recurrence figure that follows it.
+
+### B. R018–R019: hypothesis tested against a repeatability control
+
+The comparison table shows minimum observed Jaccard scores from [R018_MEASUREMENT_REPORT.md](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/runs/R018_olmo3-choke-point-barrier-spear-permutation-topology/R018_MEASUREMENT_REPORT.md) and [R019_RESULT.json](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/runs/R019_olmo3-order-repeatability-control/R019_RESULT.json).
+
+| Metric | R018 six orderings | R019 identical repeats | R019 between three cyclic orderings |
+|---|---:|---:|---:|
+| Minimum selected-token Jaccard | 0.154572 | 1.000000 | 0.158392 |
+| Minimum graph-edge Jaccard | 0.040741 | 1.000000 | 0.041659 |
+
+These are **different comparison sets**, not three values for one matched pair. R019 covers `ABC`, `BCA` and `CAB` with three repeats each; R018 covers six orders. Neither generated tokens. Identical-input exactness supports the inference that observed order variation is not due to the tested local repeat instability.
+
+### C. MA-0099: documented research question → new interpretation
+
+The page displays the user's full MA-0099 question verbatim, an inspectable summary of the R014→R015 independently reconstructed parent families, then the actual agent's derived **principal parent-network edge-support sums**:
+
+| Parent family | R014 | R015 |
+|---|---:|---:|
+| Spatial / measurement | 2.20 | 1.80 |
+| Process / change | 0.90 | 3.02 |
+
+The values are **interpretive network-strength diagnostics**, not raw transformer cosine scores or matched effect sizes. They show why the user's inquiry exposed process/change as a possibly important non-seed organising relation in R015. The [MA-0099 verbatim record](https://github.com/arh789/llm_topology/blob/main/META_ANALYSIS.md#ma-0099--next-inquiry-sda-3-interrogatives-applied-to-the-independently-reconstructed-r014r015-semantic-map) includes the complete prompt and agent response; the [R014–R015 comparison](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/runs/R015_qwen-adjacent-neighbourhood-expansion/R014_R015_COMPARISON.md) records the independent parent-level alignment.
+
+### Visual and functional checks specific to this revision
+
+- Check that D06/S01 code is followed by the source-derived C2/C5/C11 tokens, counts, affinities and source links, before the **separate** generation-wide static network.
+- Tables must scroll horizontally when necessary on mobile and remain readable at 390px. Check headers, numeric alignment, column widths and contrast.
+- Verify the MA-0099 verbatim question is fully legible and the descriptive network-strength values are not presented as direct measurements.
+- Keep the seven original section IDs and no interactive placeholders, metadata or new dependencies.
+- Do not create a new public repository or falsely imply private evidence is accessible to unauthorised readers.
 
 ### Superseded placeholders
 
