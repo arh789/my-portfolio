@@ -248,14 +248,134 @@ function EvidenceRow({ items }) {
     );
 }
 function StaticSemanticMap() {
+    const adjacentDomains = [
+        { title: "SETTLEMENTS & PEOPLE", source: "D03 / S00 · city neighbourhood", examples: ["cities, villages, towns", "residents, citizens, settlers", "buildings, streets, shops"] },
+        { title: "MOVEMENT & CONNECTION", source: "D03, D06 and D10 / S00; recurring contextual relations", examples: ["travel, journeys, routes", "roads, railways, highways", "bridges, tunnels, boats, crossings"] },
+        { title: "WATER & TERRAIN", source: "D03 and D10 / S00", examples: ["rivers, lakes, ocean", "valleys, landscape, countryside", "water, drainage, flow"] },
+        { title: "DISRUPTION & RECOVERY", source: "D06 / S00 · bridge neighbourhood", examples: ["floods, storms, catastrophe", "rebuilding, renovation", "restoration and reconstruction"] },
+        { title: "COMMERCE & CONSTRUCTION", source: "R020 community summaries across decisions", examples: ["markets, businesses, shops", "infrastructure and components", "ropes, wires, pipes, connectors"] },
+        { title: "ABSTRACT & UNRESOLVED", source: "D32 / S05 and output-proximal snapshots", examples: ["connections, relations, associations", "Poisson, Riemannian, manifold", "evaluation, scholarship, operations, biology"] },
+    ];
+    const snapshots = [
+        {
+            id: "D03 / S00 / POSITIVE",
+            headline: "A city is more than a place name",
+            hub: "SETTLEMENTS / C3",
+            words: "city, cities, villages, towns",
+            branches: [
+                ["BUILT PLACES / C1", "hotels, buildings, shops, rooms", "174"],
+                ["LAND & WATER / C4", "ocean, lake, landscape", "163"],
+                ["ROUTES / C5", "highway, railway, streets", "93"],
+                ["INHABITANTS / C9", "residents, citizens, people", "77"],
+            ],
+            crosslinks: "Also measured: built places ↔ land/water, 197 edges; built places ↔ routes, 174 edges.",
+            reading: "People, mobility and geography are available in the initial embedding neighbourhood. They are directions to investigate, not a completed explanation of bridge-building.",
+        },
+        {
+            id: "D06 / S00 / POSITIVE",
+            headline: "The bridge also connects to disruption and rebuilding",
+            hub: "BRIDGE / CROSSING / C0",
+            words: "bridge, traverse, junctions, crossing",
+            branches: [
+                ["JOURNEYS / C3", "travel, voyage, trips, journey", "120"],
+                ["DISRUPTION / C4", "floods, catastrophe, disruption", "125"],
+                ["COMPONENTS / C1", "wires, rope, pipes, connectors", "123"],
+            ],
+            crosslinks: "Further measured edges: journeys C3 ↔ road/rail C9, 74; disruption C4 ↔ rebuilding C11, 67; journeys C3 ↔ rebuilding C11, 55; boats C2 ↔ river/landscape C5, 102; boats C2 ↔ road/rail C9, 85.",
+            reading: "Transport is the obvious association. Disruption, reconstruction and connected infrastructure are adjacent possibilities a short summary could otherwise discard.",
+        },
+        {
+            id: "D10 / S00 / POSITIVE",
+            headline: "The river opens a different neighbourhood",
+            hub: "RIVER / C1",
+            words: "river, lake, ocean, valleys",
+            branches: [
+                ["WATER / C0", "groundwater, drainage", "136"],
+                ["PLACES / C3", "city, town, countryside", "165"],
+                ["JOURNEYS / C6", "trek, travel, crossing", "76"],
+                ["DISRUPTION / C9", "flood, storms, catastrophe", "84"],
+            ],
+            crosslinks: "These links belong to the river input-token neighbourhood, not to the D06 bridge network.",
+            reading: "Changing the observed token changes which part of the surrounding landscape becomes visible. The map offers places to look rather than one fixed answer.",
+        },
+        {
+            id: "D32 / S05 / POSITIVE",
+            headline: "An unexplained mathematical attachment",
+            hub: "SETTLEMENTS & BUILDINGS / C0",
+            words: "buildings, cities, towns, streets",
+            branches: [
+                ["PLACES / C4", "courtyard, terrace, café, ridge", "494"],
+                ["CONNECTIONS / C7", "links, relationships, associations", "299"],
+            ],
+            crosslinks: "Additional measured links: places C4 ↔ connections C7, 164 edges; connections C7 ↔ mathematical vocabulary C12, 74 edges.",
+            reading: "C12 includes Poisson, Riemannian, cohomology and manifold. Its mathematical attachment is observed but unexplained. Keeping it visible lets a human decide whether to investigate it.",
+        },
+    ];
     return (
         <figure className={styles.semanticFigure}>
             <div className={styles.figureHeading}>
-                <div><p className={styles.overline}>Interpreted from measured networks</p><h3>R020 — the recurring semantic field</h3></div>
-                <span className={styles.figureTag}>Static evidence map</span>
+                <div><p className={styles.overline}>R020 / Source-linked semantic reconstruction</p><h3>What lies beyond the generated answer?</h3></div>
+                <span className={styles.figureTag}>Central + adjacent space</span>
+            </div>
+            <p className={styles.mapSectionIntro}>The response never explains why the city would build a bridge. Yet the recorded semantic neighbourhoods contain settlements, journeys, water, disruption, rebuilding and associations that remain unexplained. The point is to see <strong>where else an investigation might go</strong>, not to make every association fit one bridge-building story.</p>
+            <div className={styles.atlasLead}>
+                <span>THE INITIAL QUESTION</span>
+                <strong>Why would a city build a bridge across a river?</strong>
+                <p>Explore the surrounding observations. The domains below were reconstructed from distinct states and decisions, not all connected in one network.</p>
+            </div>
+            <div className={styles.atlasGrid} role="group" aria-label="R020 central and adjacent semantic possibility space">
+                {adjacentDomains.map(domain => (
+                    <section key={domain.title} className={styles.atlasDomain}>
+                        <h4>{domain.title}</h4>
+                        <ul>{domain.examples.map(example => <li key={example}>{example}</li>)}</ul>
+                        <p className={styles.atlasSource}>{domain.source}</p>
+                    </section>
+                ))}
+            </div>
+            <p className={styles.mapBridge}>The wider view suggests several next questions: movement between places, flood recovery, infrastructure construction, the relationship between commerce and transport, or why mathematical vocabulary appears next to abstract connections. The human chooses which relationship deserves investigation.</p>
+            <div className={styles.mapBlockTitle}>
+                <p className={styles.overline}>The actual recorded connections</p>
+                <h4>Four separate community-network snapshots</h4>
+                <p>The following source networks are kept separate so that their links are not falsely presented as one master graph. Edge numbers are measured token-neighbour connections between communities, not probabilities or causal strengths.</p>
+            </div>
+            <div className={styles.snapshotGallery}>
+                {snapshots.map(snapshot => (
+                    <section key={snapshot.id} className={styles.snapshotCard}>
+                        <header className={styles.snapshotHead}>
+                            <span>{snapshot.id}</span>
+                            <h5>{snapshot.headline}</h5>
+                        </header>
+                        <div className={styles.snapshotHub}>
+                            <strong>{snapshot.hub}</strong>
+                            <span>{snapshot.words}</span>
+                        </div>
+                        <div className={styles.snapshotBranches}>
+                            {snapshot.branches.map(([label, words, count]) => (
+                                <div key={label} className={styles.snapshotBranch}>
+                                    <span className={styles.snapshotEdge} aria-label={count + " measured intercommunity token edges"}>↓ {count} edges</span>
+                                    <strong>{label}</strong>
+                                    <p>{words}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <p className={styles.snapshotCrosslinks}>{snapshot.crosslinks}</p>
+                        <p className={styles.snapshotReading}>{snapshot.reading}</p>
+                    </section>
+                ))}
+            </div>
+            <div className={styles.unresolvedPanel}>
+                <p className={styles.overline}>Keep the awkward branches visible</p>
+                <h4>Background associations and unresolved structure</h4>
+                <p>Other observed communities include evaluation, expertise, scholars, intensity, operational vocabulary and biology. At D32/S07, the positive network links evaluative terms to expertise and intensity, while a distinct negative-cosine network links operations, measurement and biology. These are not a hidden explanation of urban planning. They are part of the wider territory available for inspection.</p>
+                <External href={analysis + "/R020_VERIFIED_CONSOLIDATED_SEMANTIC_MAP.md"}>View the complete recorded snapshot evidence</External>
+            </div>
+            <div className={styles.mapBlockTitle}>
+                <p className={styles.overline}>One useful summary within that wider space</p>
+                <h4>The recurring contextual backbone</h4>
+                <p>The six-family diagram below summarises qualifying relations across generation. It is <strong>not a substitute for the surrounding, less explained associations</strong>.</p>
             </div>
             <svg className={styles.networkSvg} viewBox="0 0 820 545" role="img" aria-labelledby="r020-map-title r020-map-description">
-                <title id="r020-map-title">Recurring R020 semantic relations across generated-token decisions</title>
+                <title id="r020-map-title">Recurring R020 contextual relations across generated-token decisions</title>
                 <desc id="r020-map-description">Interpretive node layout: inhabitants and settlements, built places, movement routes, commerce, and crossings. Confirmed candidate recurrent relations include settlements to movement at eleven decisions, movement to crossings at eight, built places to movement at seven, built places to inhabitants at seven, and inhabitants to settlements at six.</desc>
                 <g className={styles.graphEdges}>
                     <line x1="260" y1="67" x2="560" y2="67"/>
@@ -281,7 +401,7 @@ function StaticSemanticMap() {
                     <g transform="translate(560 255)"><rect width="220" height="75" rx="5"/><text x="110" y="32">COMMERCE</text><text className={styles.graphSubLabel} x="110" y="55">markets, businesses</text></g>
                     <g className={styles.graphCoreNode} transform="translate(300 440)"><rect width="220" height="75" rx="5"/><text x="110" y="32">CROSSINGS</text><text className={styles.graphSubLabel} x="110" y="55">bridges, connections</text></g>
                 </g>
-                <text className={styles.graphFooter} x="410" y="537">Numbers = decisions containing qualifying candidate relations (out of 32)</text>
+                <text className={styles.graphFooter} x="410" y="537">Counts = qualifying decisions out of 32; not one simultaneous graph</text>
             </svg>
             <div className={styles.mobileRelations} aria-label="Measured relation recurrence summary">
                 {recurringEdges.map(([a, b, n]) => (
@@ -289,8 +409,10 @@ function StaticSemanticMap() {
                 ))}
             </div>
             <figcaption>
-                Conceptual summary of recurring <strong>interpreted</strong> relations supported by measured cross-community token edges in contextual states S01–S05. These edges were recovered at different generation decisions; they are <strong>not</strong> one simultaneously observed graph. Counts are recurrence, not probabilities or causal strengths. The full reconstruction also records water, terrain, disruption, rebuilding and unresolved communities.
-                {" "}<External href={analysis + "/R020_GENERATION_WIDE_SEMANTIC_HYPOTHESIS_REPORT.md"}>Inspect the source map</External>
+                The broad domains above draw on <strong>separately recorded neighbourhoods</strong>, including input embeddings (S00) and contextual states (S01–S05). The final diagram summarises interpreted candidate relations across the 32 decisions. Source edges and exemplar vocabulary were audited, but semantic naming remains interpretation.
+                {" "}<External href={analysis + "/R020_RELATIONAL_SEMANTIC_MAPS.html"}>Explore all 512 networks</External>
+                {" · "}<External href={analysis + "/R020_VERIFIED_CONSOLIDATED_SEMANTIC_MAP.md"}>Verified semantic reconstruction</External>
+                {" · "}<External href={analysis + "/R020_V3_INDEPENDENT_RELATION_EVIDENCE_AUDIT.md"}>Source evidence audit</External>
             </figcaption>
         </figure>
     );
