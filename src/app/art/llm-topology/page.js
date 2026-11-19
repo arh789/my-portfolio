@@ -160,7 +160,7 @@ export default function LlmTopologyDraftPage() {
                     <p className={styles.eyebrow}>Experimental research / Human–agent discovery</p>
                     <h1>Discovering what you do not know to ask.</h1>
                     <p className={styles.standfirst}>How can a human discover knowledge when they do not understand the possibility space and cannot specify the correct answer?</p>
-                    <p className={styles.heroDetail}>Twenty experiments exploring semantic structure inside language models led to a second discovery: correcting an agent's inadequate representations can expose relationships the human could not have requested in advance.</p>
+                    <p className={styles.heroDetail}>Twenty experiments exploring semantic structure inside language models led to a second discovery: correcting an agent&apos;s inadequate representations can expose relationships the human could not have requested in advance.</p>
                     <a className={styles.heroJump} href="#problem">Follow the investigation <span aria-hidden="true">↓</span></a>
                 </div>
                 <div className={styles.heroDiagram} aria-label="Overview of the human and agent learning loop">
@@ -195,7 +195,7 @@ export default function LlmTopologyDraftPage() {
                         <div className={styles.contrastGrid}>
                             <div className={styles.contrastCard}>
                                 <p className={styles.panelLabel}>Conventional interaction</p>
-                                <p>Ask a question → receive a plausible answer → accept the model's selection of what matters.</p>
+                                <p>Ask a question → receive a plausible answer → accept the model&apos;s selection of what matters.</p>
                                 <strong>Unseen alternatives remain unseen.</strong>
                             </div>
                             <div className={styles.contrastCard + " " + styles.contrastActive}>
@@ -209,7 +209,7 @@ export default function LlmTopologyDraftPage() {
 
                     <section className={styles.section} id="instruments">
                         <SectionHeading number="02" eyebrow="Two complementary instruments" title="Expose the structure behind the answer">
-                            <p>The project developed two different ways to enlarge what can be investigated. Neither instrument replaces the human's judgement about which relationships matter.</p>
+                            <p>The project developed two different ways to enlarge what can be investigated. Neither instrument replaces the human&apos;s judgement about which relationships matter.</p>
                         </SectionHeading>
                         <div className={styles.instrumentGrid}>
                             <div className={styles.instrument}>
@@ -222,7 +222,7 @@ export default function LlmTopologyDraftPage() {
                             <div className={styles.instrument}>
                                 <p className={styles.panelLabel}>Behavioural structural interrogation</p>
                                 <h3>SDA-3 and structural extraction</h3>
-                                <p>Interrogate the model's responses for dominant, adjacent, unresolved and missing structures. Apply constraints to test whether the resulting explanation survives questioning.</p>
+                                <p>Interrogate the model&apos;s responses for dominant, adjacent, unresolved and missing structures. Apply constraints to test whether the resulting explanation survives questioning.</p>
                                 <div className={styles.miniFlow}>Response <span>→</span> Challenge <span>→</span> Reconstruction</div>
                                 <Link href="/art/sda-3-analysing-embedding-space-structure-in-large-language-models">Read the original SDA-3 method →</Link>
                             </div>
@@ -336,7 +336,7 @@ export default function LlmTopologyDraftPage() {
 
                     <section className={styles.section} id="corrections">
                         <SectionHeading number="06" eyebrow="Meta-analysis" title="The failed interpretations were part of the evidence">
-                            <p>The experiment's numerical history is only one part of the research record. The human repeatedly identified where the agent had imposed a misleading interpretation or lost important information through premature compression.</p>
+                            <p>The experiment&apos;s numerical history is only one part of the research record. The human repeatedly identified where the agent had imposed a misleading interpretation or lost important information through premature compression.</p>
                         </SectionHeading>
                         <div className={styles.corrections}>
                             {correctionRecords.map((item, index) => (
@@ -360,7 +360,7 @@ export default function LlmTopologyDraftPage() {
                                 <span>Proposed interpretation</span><span aria-hidden="true">→</span><span>Human correction</span><span aria-hidden="true">→</span><span>Reconstructed interpretation</span>
                             </div>
                         </InteractivePlaceholder>
-                        <p className={styles.bodyCopy}>This revisits the earlier <Link href="/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it">human-supervised zombie-survival case</Link>, but with an accumulated record of measured networks, experimental controls and specific changes to the researcher's interpretation.</p>
+                        <p className={styles.bodyCopy}>This revisits the earlier <Link href="/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it">human-supervised zombie-survival case</Link>, but with an accumulated record of measured networks, experimental controls and specific changes to the researcher&apos;s interpretation.</p>
                     </section>
 
                     <section className={styles.section} id="insight">
@@ -375,7 +375,7 @@ export default function LlmTopologyDraftPage() {
                             <div><p className={styles.panelLabel}>Agent responsibility</p><h3>Exploration and reconstruction</h3><p>Generate possible relationships. Reconstruct alternatives under constraints. Make previously unseen structure available for inspection.</p></div>
                             <div><p className={styles.panelLabel}>Shared external memory</p><h3>Evidence and continuity</h3><p>Preserve experiments, failed abstractions, corrections and revised semantic maps so later work can test them.</p></div>
                         </div>
-                        <p className={styles.bodyCopy}>The same division of labour appears in a different form in the site's <Link href="/art/building-an-agent-native-after-effects-workflow">agent-native creative-production workflow</Link>: human intention remains authoritative while an agent operates on inspectable representations.</p>
+                        <p className={styles.bodyCopy}>The same division of labour appears in a different form in the site&apos;s <Link href="/art/building-an-agent-native-after-effects-workflow">agent-native creative-production workflow</Link>: human intention remains authoritative while an agent operates on inspectable representations.</p>
                     </section>
 
                     <section className={styles.section} id="archive">
