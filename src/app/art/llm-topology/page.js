@@ -10,7 +10,7 @@ const navigation = [
     ["learning-loop", "The learning mechanism"],
     ["research", "Twenty experiments"],
     ["r020", "Recoverable associations"],
-    ["corrections", "The correction trail"],
+    ["corrections", "Selection and correction"],
     ["insight", "The unexpected discovery"],
     ["archive", "Evidence and continuation"],
 ];
@@ -160,7 +160,7 @@ export default function LlmTopologyDraftPage() {
                     <p className={styles.eyebrow}>Experimental research / Human–agent discovery</p>
                     <h1>Discovering what you do not know to ask.</h1>
                     <p className={styles.standfirst}>How can a human discover knowledge when they do not understand the possibility space and cannot specify the correct answer?</p>
-                    <p className={styles.heroDetail}>Twenty experiments exploring semantic structure inside language models led to a second discovery: correcting an agent&apos;s inadequate representations can expose relationships the human could not have requested in advance.</p>
+                    <p className={styles.heroDetail}>Twenty experiments exploring semantic structure inside language models also revealed a method of human discovery: recognising promising relationships as well as inadequate interpretations, then directing the agent to explore and reconstruct them.</p>
                     <a className={styles.heroJump} href="#problem">Follow the investigation <span aria-hidden="true">↓</span></a>
                 </div>
                 <div className={styles.heroDiagram} aria-label="Overview of the human and agent learning loop">
@@ -172,7 +172,7 @@ export default function LlmTopologyDraftPage() {
                     <div className={styles.diagramStage}><span>HUMAN</span><strong>Recognises what resonates, or what is unsupported, missing or invalid</strong></div>
                     <div className={styles.diagramArrow} aria-hidden="true">↓</div>
                     <div className={styles.diagramStage + " " + styles.diagramResult}><span>DISCOVERY</span><strong>Agent reconstructs; new knowledge becomes available</strong></div>
-                    <div className={styles.diagramLoop}>New knowledge → new constraints → repeat</div>
+                    <div className={styles.diagramLoop}>New knowledge → new questions and constraints → repeat</div>
                 </div>
             </header>
 
@@ -199,8 +199,8 @@ export default function LlmTopologyDraftPage() {
                                 <strong>Unseen alternatives remain unseen.</strong>
                             </div>
                             <div className={styles.contrastCard + " " + styles.contrastActive}>
-                                <p className={styles.panelLabel}>Constrained reconstruction</p>
-                                <p>Ask → inspect the structure → reject inadequate abstractions → reconstruct under new constraints.</p>
+                                <p className={styles.panelLabel}>Human-directed reconstruction</p>
+                                <p>Ask → inspect the structure → select what resonates or challenge what fails → reconstruct and test.</p>
                                 <strong>The search space becomes more visible.</strong>
                             </div>
                         </div>
@@ -231,22 +231,34 @@ export default function LlmTopologyDraftPage() {
                     </section>
 
                     <section className={styles.section} id="learning-loop">
-                        <SectionHeading number="03" eyebrow="The mechanism" title="The human does not need to know the answer to recognise a mistake">
-                            <p>This asymmetry is the centre of the official article outline. Generating a valid representation and recognising an invalid one are different tasks.</p>
+                        <SectionHeading number="03" eyebrow="The mechanism" title="Recognising promise and recognising error">
+                            <p>The human may be unable to generate or explain an unfamiliar relationship, yet recognise that it deserves investigation. The same human can identify contradictions and omissions without knowing the correct answer. Both judgements direct the agent&apos;s next reconstruction.</p>
                         </SectionHeading>
                         <div className={styles.loopGrid}>
                             {[
                                 ["01", "Agent generates", "Candidate relationships and an organising hypothesis"],
-                                ["02", "Human constrains", "Finds a contradiction, omission or invalid transformation"],
-                                ["03", "Agent reconstructs", "Preserves evidence while considering alternatives"],
-                                ["04", "Human learns", "Examines a possibility that was not visible at the start"],
+                                ["02", "Human recognises", "Selects a promising direction or identifies an invalid interpretation"],
+                                ["03", "Agent reconstructs", "Explores selected possibilities, tests objections and preserves unresolved evidence"],
+                                ["04", "Human learns", "Examines newly accessible possibilities and sets the next direction"],
                             ].map(([number, title, body]) => (
                                 <div className={styles.loopStep} key={number}>
                                     <span>{number}</span><h3>{title}</h3><p>{body}</p>
                                 </div>
                             ))}
                         </div>
-                        <p className={styles.keyStatement}>The human supplies independent constraints without specifying the destination. The agent generates new representations that can be tested against those constraints.</p>
+                        <div className={styles.contrastGrid}>
+                            <div className={styles.contrastCard + " " + styles.contrastActive}>
+                                <p className={styles.panelLabel}>Positive recognition · resonance</p>
+                                <p>A relationship appears significant before the human can explain it.</p>
+                                <strong>Select, investigate and test; resonance is not proof.</strong>
+                            </div>
+                            <div className={styles.contrastCard}>
+                                <p className={styles.panelLabel}>Negative recognition · invalidity</p>
+                                <p>An interpretation contradicts the objective, loses evidence or assumes too much.</p>
+                                <strong>Challenge, constrain and reconstruct.</strong>
+                            </div>
+                        </div>
+                        <p className={styles.keyStatement}>The human does not need to know the destination. Recognising what warrants exploration and what cannot be justified gives the agent a direction for further reconstruction.</p>
                     </section>
 
                     <section className={styles.section} id="research">
@@ -335,9 +347,10 @@ export default function LlmTopologyDraftPage() {
                     </section>
 
                     <section className={styles.section} id="corrections">
-                        <SectionHeading number="06" eyebrow="Meta-analysis" title="The failed interpretations were part of the evidence">
-                            <p>The experiment&apos;s numerical history is only one part of the research record. The human repeatedly identified where the agent had imposed a misleading interpretation or lost important information through premature compression.</p>
+                        <SectionHeading number="06" eyebrow="Meta-analysis" title="The human chose directions and corrected interpretations">
+                            <p>The experimental measurements are only part of the research record. The human also chose which emerging relationships deserved further investigation and identified where the agent imposed misleading abstractions or lost important information.</p>
                         </SectionHeading>
+                        <p className={styles.bodyCopy}>A recorded example of directional selection appears after R014–R015. Having examined the reconstructed semantic map, the human asked what was central, adjacent, emerging, missing and highly correlated, turning an interesting structure into another investigation. <Outbound href={researchBase + "/META_ANALYSIS.md#ma-0099--next-inquiry-sda-3-interrogatives-applied-to-the-independently-reconstructed-r014r015-semantic-map"}>Read MA-0099</Outbound>. This records a chosen line of inquiry, not proof of its correctness.</p>
                         <div className={styles.corrections}>
                             {correctionRecords.map((item, index) => (
                                 <div className={styles.correction} key={item.error}>
@@ -350,14 +363,14 @@ export default function LlmTopologyDraftPage() {
                         </div>
                         <InteractivePlaceholder
                             slot="correction-ledger"
-                            heading="Trace a correction back to the research record"
-                            purpose="Future navigable record of candidate abstractions, human objections, revised hypotheses and their consequences."
-                            controls="Select meta-analysis entry or run; filter by correction type; open preceding and revised interpretations."
-                            expected="Display verbatim cited excerpts with entry IDs and links; do not retroactively overwrite the earlier interpretation."
-                            source="META_ANALYSIS.md (notably MA-0083, MA-0120, MA-0125–MA-0127) and relevant run conclusions."
+                            heading="Trace a selection or correction back to the research record"
+                            purpose="Future navigable record of promising relationships selected for exploration, human objections, revised hypotheses and their consequences."
+                            controls="Select meta-analysis entry or run; filter by positive selection or corrective challenge; open preceding and revised interpretations."
+                            expected="Display verbatim cited excerpts showing what was selected or challenged, with entry IDs and links; preserve prior interpretations and subsequent developments."
+                            source="META_ANALYSIS.md (notably MA-0083, MA-0099, MA-0120, MA-0125–MA-0130) and relevant run conclusions."
                         >
                             <div className={styles.ledgerPreview}>
-                                <span>Proposed interpretation</span><span aria-hidden="true">→</span><span>Human correction</span><span aria-hidden="true">→</span><span>Reconstructed interpretation</span>
+                                <span>Possible relationship</span><span aria-hidden="true">→</span><span>Human selection or challenge</span><span aria-hidden="true">→</span><span>Further reconstruction</span>
                             </div>
                         </InteractivePlaceholder>
                         <p className={styles.bodyCopy}>This revisits the earlier <Link href="/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it">human-supervised zombie-survival case</Link>, but with an accumulated record of measured networks, experimental controls and specific changes to the researcher&apos;s interpretation.</p>
@@ -368,12 +381,12 @@ export default function LlmTopologyDraftPage() {
                             <p>The original research sought to infer learned semantic structure. The interpretive process exposed a second, complementary result: human judgement can guide exploration of a possibility space the human does not yet understand.</p>
                         </SectionHeading>
                         <blockquote className={styles.largeQuote}>
-                            The human can recognise a violation without already possessing the correct solution.
+                            The human can recognise potential significance or invalidity without already knowing the solution.
                         </blockquote>
                         <div className={styles.labourGrid}>
-                            <div><p className={styles.panelLabel}>Human responsibility</p><h3>Objective and judgement</h3><p>Define the purpose. Identify conflicts, missing relations and invalid transformations. Decide what information is useful.</p></div>
-                            <div><p className={styles.panelLabel}>Agent responsibility</p><h3>Exploration and reconstruction</h3><p>Generate possible relationships. Reconstruct alternatives under constraints. Make previously unseen structure available for inspection.</p></div>
-                            <div><p className={styles.panelLabel}>Shared external memory</p><h3>Evidence and continuity</h3><p>Preserve experiments, failed abstractions, corrections and revised semantic maps so later work can test them.</p></div>
+                            <div><p className={styles.panelLabel}>Human responsibility</p><h3>Objective and judgement</h3><p>Define the purpose. Recognise what resonates, select promising directions, challenge invalid interpretations and judge usefulness.</p></div>
+                            <div><p className={styles.panelLabel}>Agent responsibility</p><h3>Exploration and reconstruction</h3><p>Generate possible relationships. Explore selected directions, test challenges and reconstruct alternatives that can be inspected.</p></div>
+                            <div><p className={styles.panelLabel}>Shared external memory</p><h3>Evidence and continuity</h3><p>Preserve experiments, selected questions, failed abstractions, corrective constraints and revised maps so later work can test them.</p></div>
                         </div>
                         <p className={styles.bodyCopy}>The same division of labour appears in a different form in the site&apos;s <Link href="/art/building-an-agent-native-after-effects-workflow">agent-native creative-production workflow</Link>: human intention remains authoritative while an agent operates on inspectable representations.</p>
                     </section>
@@ -402,7 +415,7 @@ export default function LlmTopologyDraftPage() {
                     <footer className={styles.conclusion}>
                         <p className={styles.eyebrow}>Return to the opening question</p>
                         <h2>A human can investigate an unknown possibility space without first knowing the answer.</h2>
-                        <p>The agent proposes representations. The human identifies where they fail. The record preserves what was learnt. New understanding becomes available through the next reconstruction.</p>
+                        <p>The agent proposes representations. The human recognises what merits investigation and what fails. The agent reconstructs under that direction, preserving evidence and alternative explanations. The human learns and asks the next question.</p>
                         <a href="#problem">Return to the question ↑</a>
                     </footer>
                 </article>
