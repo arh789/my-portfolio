@@ -414,7 +414,7 @@ export default function LlmTopologyArticleDraft() {
                                 <p>The answer repeats a false equivalence; it never explains why a bridge would be built.</p>
                             </div>
                         </div>
-                        <p className={styles.bodyCopy}>The experiment then examined the model's recorded internal states. Vocabulary communities associated with <strong>settlements, people, movement, routes and crossings</strong> contained measured connections that the generated text did not explain. The semantic family names are assigned during reconstruction; the underlying edges come from saved numerical measurements.</p>
+                        <p className={styles.bodyCopy}>The experiment then examined the model&apos;s recorded internal states. Vocabulary communities associated with <strong>settlements, people, movement, routes and crossings</strong> contained measured connections that the generated text did not explain. The semantic family names are assigned during reconstruction; the underlying edges come from saved numerical measurements.</p>
                         <StaticSemanticMap />
                         <div className={styles.metrics}>
                             <div><strong>32</strong><span>Generated-token decisions</span></div>
