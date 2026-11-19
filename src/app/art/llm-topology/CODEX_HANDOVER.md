@@ -52,7 +52,7 @@ The four snippets are extracted from these real sources and must remain traceabl
 
 - [R020 BlockRecorder](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/r020_pythia_generation_topology.py#L69-L74) (measured capture).
 - [R020 projection](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/r020_pythia_generation_topology.py#L840-L847) (derived vocabulary scores).
-- [Topology core community detection](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/topology_core.py#L183-L189) (derived networks and partitioning).
+- [Topology core community detection](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/topology_core.py#L185-L191) (derived networks and partitioning).
 - [R020 candidate relation screen](https://github.com/arh789/llm_topology/blob/main/single_prompt_topology/runs/R020_pythia-70m-representation-output-contrast/analysis/R020_SEMANTIC_CONTINUITY_REPRODUCER.js#L64-L67) (post-measurement screening; semantics remain interpreted).
 
 Do not imply these excerpts are all the code required to reproduce the full experiment. The complete implementation, dependencies, configurations and validation records are linked elsewhere on the page.
