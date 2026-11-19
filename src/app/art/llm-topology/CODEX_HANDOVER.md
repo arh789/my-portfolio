@@ -1,6 +1,6 @@
 # Codex handover — rebuilt evidence-led LLM Topology article
 
-**Status:** second structural first draft. The article was rebuilt on the existing draft branch following the owner's explicit decision that its earlier eight-section architecture was insufficient. Codex's next task is verification and targeted corrections, not restoring the previous architecture.
+**Status:** third editorial pass, necessity-driven first draft. The article's causal structure has been rebuilt from the actual run chronology. Codex's next task is source, build and visual verification—not reinserting decorative interactive placeholders.
 
 ## Objective
 
@@ -25,18 +25,32 @@ Check that the rebuilt first-draft article **demonstrates the experimental resea
 
 The research repository is **private**. Never assert public access merely because a GitHub link is present. Frozen public evidence-package and permalink work remain a later publication stage.
 
-## Current article architecture (replaces the former eight-section layout)
+## Current article architecture — why each operation was necessary
 
-| Section ID | Contents |
+The article was revised again on the existing draft branch because the first rebuild explained what was done and how, but not sufficiently **why the preceding evidence made the next operation necessary**. The current article has **seven sections**. Preserve the problem → necessary response → recorded evidence → unresolved limitation connections rather than reducing the article back to a decorative procedure diagram.
+
+| Section ID | Governing question and content |
 |---|---|
-| `observation` | The exact R020 prompt and complete output, static semantic network of recurring candidate relations, numerical summary and links to underlying source |
-| `measurement` | Distinct roles of tested model, measurement code, analysing agent and human; measured → derived → interpreted chain; four real code excerpts with exact source-line links |
-| `trajectory` | R001–R020 grouped into five research phases with source links; R019 deterministic repeatability control |
-| `human` | Documented cases of positive selection, negative correction, objective drift and unsupported evidential tests; links into the meta-analysis |
-| `discovery` | The MA-0083 → MA-0120 “happy accident”, cognitive division of labour and the official methodology |
-| `evidence` | Original GitHub repository, evidence index, code, compact measured exports, controls, audits, access boundaries and relevant portfolio connections |
+| `question` | **Why inspect a transformer at all?** The original hypothesis in MA-0119: infer learned higher-order structure from layerwise changes, not reconstruct original training documents; limitations of final-output-only inspection |
+| `observation` | **Why R020?** A deliberately small Pythia 70M model exposes the distinction between generated expression and recovered associations. Exact prompt and output, static recurrent map, numerical evidence and audit links. R020 is a later demonstration, not the starting experiment |
+| `measurement` | **Why each pipeline operation?** State capture, vocabulary projection, neighbourhood networks and semantic reconstruction are each presented as a response to what preceding evidence could not establish, with original code excerpts and remaining limitations |
+| `trajectory` | **Why twenty experiments?** Five phases R001–R020 show what was insufficient, which new operations followed, the actual findings, remaining uncertainty and where documented human direction changed the next inquiry. R002 strict cutoff, R006–R007 failed validations and R011 instrumentation failure are explicitly preserved; R019 excludes tested runtime variability |
+| `human` | **Why was human direction needed?** The agent could produce coherent but unjustified abstractions; the human selected promising lines of inquiry (MA-0099) and challenged wrong questions and added success conditions (MA-0119, MA-0127, MA-0128) |
+| `discovery` | **Why did the human learn?** MA-0083 → MA-0120 demonstrates the change from treating human learning as incidental to recognising knowledge acquisition through directing agent exploration, with both positive and negative recognition |
+| `evidence` | **What allows inspection and reproduction?** Direct primary-data, code, audit and method links. Explain repository-private and large-raw-data limits; never claim full public replication |
 
-Navigation must link to these six actual IDs. Preserve evidence distinctions and the main cognitive-division-of-labour claim.
+Navigation must link to these seven actual IDs. The experimental objective did not change when the human–agent learning insight emerged.
+
+### Source fidelity checkpoints
+
+- [RUN_OPTIMISATION_TRAJECTORY.md](https://github.com/arh789/llm_topology/blob/main/RUN_OPTIMISATION_TRAJECTORY.md) governs the necessity and order of the 20 runs. It records failures and explicitly distinguishes the information optimised by each experiment from the model's training objective.
+- [ARTICLE_EVIDENCE_INDEX.md](https://github.com/arh789/llm_topology/blob/main/ARTICLE_EVIDENCE_INDEX.md), C1–C10, governs factual and epistemic support for each claim. The current [REPORT_STATUS.md](https://github.com/arh789/llm_topology/blob/main/REPORT_STATUS.md) prevails over outdated historical comments.
+- R008 validated 66 networks; R009 examined 792 community instances; R010 reconstructed candidate parents. The page now links to their actual run artefacts, not only retrospective summaries.
+- R013 changed concept order; R014 changed surrounding context; R015 replaced the concept window with neighbouring terms. Recovered families can recur without one invariant graph.
+- R017 was a one-order map; R018 tested six permutations in the larger model; R019 repeated identical inputs in the tested local environment. Do not present the R019 result as universal determinism.
+- R020 follows both generation time and transformer depth; its semantic family labels are post-hoc interpretations grounded by measured edges. MA-0127 explicitly rejects continuous integration as an unrequested additional success criterion.
+- MA-0099 contains the human prompt that triggered a further map interrogation. Its response described process/change as most connected in R015 (versus spatial/measurement in R014) in the **interpreted principal parent networks**, not a directly measured token cosine ranking.
+
 
 ### R020 figure provenance
 
@@ -72,7 +86,7 @@ The earlier three interactive placeholders (`topology-explorer`, `generation-sta
 
 ## Success, failure and scope boundaries
 
-**Success:** A reader unfamiliar with the experiment can see the exact tested prompt, poor model response and inferred static map, understand how the measuring pipeline generated supporting evidence, follow R013–R019 controls, and inspect actual records of human selection/correction and the happy accident. All key links point to the relevant source. The page builds and reads at desktop and mobile sizes.
+**Success:** A reader unfamiliar with the experiment can identify why the original transformer-state hypothesis required measurement, see the exact R020 prompt, poor model response and inferred static map, understand why each pipeline stage was necessary and what it could not establish, follow the R001–R020 necessity chain, and inspect actual records of human selection/correction and the happy accident. All key links point to the relevant source. The page builds and reads at desktop and mobile sizes.
 
 **Failure:** The original response is omitted; the static map is presented as a single real network; technical code or research links become decoration instead of reproducible evidence; the model under test is confused with the analysing agent; private research links are implied to be publicly accessible; or the human-learning process is flattened into an unsupported success story.
 
