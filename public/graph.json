@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T21:39:46.387Z",
+  "generatedAt": "2026-11-20T05:12:14.799Z",
   "articles": [
     {
       "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
@@ -978,6 +978,31 @@
       "type": "article",
       "projects": [],
       "medium": "article"
+    },
+    {
+      "slug": "llm-topology",
+      "route": "/art/llm-topology",
+      "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+      "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+      "date": "",
+      "tags": [
+        "llm-structural-analysis",
+        "hidden-representations",
+        "model-structure-analysis",
+        "semantic-research-pipeline",
+        "clustering-method",
+        "research-methods"
+      ],
+      "type": "analysis",
+      "medium": "interactive-case-study",
+      "renderMode": "custom",
+      "projects": [
+        {
+          "slug": "sda3-structural-extraction",
+          "order": 5,
+          "role": "case-study"
+        }
+      ]
     }
   ],
   "tagIndex": {
@@ -1520,6 +1545,20 @@
           "research-methods",
           "aesthetic-analysis"
         ]
+      },
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
       }
     ],
     "python-nlp": [
@@ -1672,6 +1711,20 @@
           "research-methods",
           "aesthetic-analysis"
         ]
+      },
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
       }
     ],
     "dataset-structure": [
@@ -1762,6 +1815,20 @@
           "clustering-method",
           "research-methods",
           "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
         ]
       }
     ],
@@ -2825,6 +2892,20 @@
           "llm-failure-analysis",
           "model-structure-analysis"
         ]
+      },
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
       }
     ],
     "llm-failure-analysis": [
@@ -3133,6 +3214,20 @@
           "llm-structural-analysis",
           "llm-failure-analysis",
           "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
         ]
       }
     ],
@@ -3963,6 +4058,20 @@
           "zombie-survival",
           "model-structure-analysis"
         ]
+      },
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
       }
     ],
     "review-mining": [
@@ -4558,11 +4667,11 @@
   "tagCentrality": [
     {
       "tag": "llm-structural-analysis",
-      "count": 12
+      "count": 13
     },
     {
       "tag": "model-structure-analysis",
-      "count": 12
+      "count": 13
     },
     {
       "tag": "video-index-system",
@@ -4577,15 +4686,15 @@
       "count": 10
     },
     {
-      "tag": "llm-failure-analysis",
-      "count": 8
-    },
-    {
       "tag": "research-methods",
-      "count": 8
+      "count": 9
     },
     {
       "tag": "semantic-research-pipeline",
+      "count": 9
+    },
+    {
+      "tag": "llm-failure-analysis",
       "count": 8
     },
     {
@@ -4625,6 +4734,10 @@
       "count": 5
     },
     {
+      "tag": "clustering-method",
+      "count": 4
+    },
+    {
       "tag": "discovery-systems-map",
       "count": 4
     },
@@ -4637,15 +4750,15 @@
       "count": 4
     },
     {
-      "tag": "clustering-method",
-      "count": 3
-    },
-    {
       "tag": "dataset-structure",
       "count": 3
     },
     {
       "tag": "first-principles",
+      "count": 3
+    },
+    {
+      "tag": "hidden-representations",
       "count": 3
     },
     {
@@ -4722,10 +4835,6 @@
     },
     {
       "tag": "haunted-machine-video",
-      "count": 2
-    },
-    {
-      "tag": "hidden-representations",
       "count": 2
     },
     {
@@ -5460,6 +5569,33 @@
       ],
       "resources": [
         {
+          "slug": "llm-topology",
+          "route": "/art/llm-topology",
+          "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+          "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+          "date": "",
+          "tags": [
+            "llm-structural-analysis",
+            "hidden-representations",
+            "model-structure-analysis",
+            "semantic-research-pipeline",
+            "clustering-method",
+            "research-methods"
+          ],
+          "type": "analysis",
+          "medium": "interactive-case-study",
+          "renderMode": "custom",
+          "projects": [
+            {
+              "slug": "sda3-structural-extraction",
+              "order": 5,
+              "role": "case-study"
+            }
+          ],
+          "projectOrder": 5,
+          "projectRole": "case-study"
+        },
+        {
           "slug": "sda3-tldr",
           "title": "SDA-3 tl;dr",
           "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
@@ -6052,7 +6188,7 @@
           "dataset-structure",
           "clustering-method"
         ],
-        "centrality": 20
+        "centrality": 23
       },
       {
         "id": "building-an-agent-native-after-effects-workflow",
@@ -6081,7 +6217,7 @@
           "search-and-discovery-systems",
           "creative-search-system"
         ],
-        "centrality": 40
+        "centrality": 42
       },
       {
         "id": "tiktok-zombie-survival-series",
@@ -6100,7 +6236,7 @@
           "video-index-system",
           "how-to-stop-chatgpt-from-lying-video"
         ],
-        "centrality": 63
+        "centrality": 65
       },
       {
         "id": "how-to-stop-chatgpt-from-lying",
@@ -6119,7 +6255,7 @@
           "video-index-system",
           "how-to-stop-chatgpt-from-lying-video"
         ],
-        "centrality": 73
+        "centrality": 75
       },
       {
         "id": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
@@ -6135,7 +6271,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 67
+        "centrality": 69
       },
       {
         "id": "ai-zombie-survival-why-fortresses-fail",
@@ -6151,7 +6287,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 64
+        "centrality": 66
       },
       {
         "id": "the-zombie-survival-strategy-chatgpt-could-not-see",
@@ -6166,7 +6302,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 63
+        "centrality": 65
       },
       {
         "id": "ai-visibility-is-not-value",
@@ -6289,7 +6425,7 @@
           "hidden-representations",
           "model-structure-analysis"
         ],
-        "centrality": 23
+        "centrality": 26
       },
       {
         "id": "adversarial-questioning-chatgpt-zombie-survival",
@@ -6304,7 +6440,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 63
+        "centrality": 65
       },
       {
         "id": "google-maps-review-mining-unmet-demand",
@@ -6316,7 +6452,7 @@
           "strategic-positioning",
           "research-methods"
         ],
-        "centrality": 16
+        "centrality": 18
       },
       {
         "id": "ai-seo-strategy-why-your-creative-work-is-invisible",
@@ -6371,7 +6507,7 @@
           "python-nlp",
           "research-methods"
         ],
-        "centrality": 16
+        "centrality": 18
       },
       {
         "id": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
@@ -6382,7 +6518,7 @@
           "search-results-to-strategy",
           "research-methods"
         ],
-        "centrality": 16
+        "centrality": 18
       },
       {
         "id": "sda3-tldr",
@@ -6396,7 +6532,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 47
+        "centrality": 49
       },
       {
         "id": "research-pipeline",
@@ -6413,7 +6549,7 @@
           "discovery-systems-map",
           "research-methods"
         ],
-        "centrality": 32
+        "centrality": 35
       },
       {
         "id": "who-benefits-most-from-this-system",
@@ -6439,7 +6575,7 @@
           "research-methods",
           "aesthetic-analysis"
         ],
-        "centrality": 27
+        "centrality": 30
       },
       {
         "id": "data-structure-intermediate-stage",
@@ -6452,7 +6588,7 @@
           "research-methods",
           "aesthetic-analysis"
         ],
-        "centrality": 26
+        "centrality": 28
       },
       {
         "id": "methodology-evaluation-and-validity",
@@ -6512,7 +6648,7 @@
           "model-structure-analysis",
           "video-index-system"
         ],
-        "centrality": 58
+        "centrality": 60
       },
       {
         "id": "sda-3-analysing-embedding-space-structure-in-large-language-models",
@@ -6528,7 +6664,7 @@
           "zombie-survival",
           "model-structure-analysis"
         ],
-        "centrality": 38
+        "centrality": 41
       },
       {
         "id": "structural-extraction-protocol",
@@ -6539,7 +6675,7 @@
           "structural-extraction",
           "model-structure-analysis"
         ],
-        "centrality": 24
+        "centrality": 26
       },
       {
         "id": "art-forms-with-high-audience-resonance",
@@ -6572,7 +6708,7 @@
           "llm-failure-analysis",
           "model-structure-analysis"
         ],
-        "centrality": 29
+        "centrality": 31
       },
       {
         "id": "maximising-artistic-identity",
@@ -6610,6 +6746,20 @@
           "discovery-systems-map"
         ],
         "centrality": 10
+      },
+      {
+        "id": "llm-topology",
+        "label": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "type": "article",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ],
+        "centrality": 45
       }
     ],
     "edges": [
@@ -6778,6 +6928,16 @@
           "semantic-research-pipeline",
           "research-methods",
           "dataset-structure"
+        ]
+      },
+      {
+        "source": "dan-john-youtube-playlist-semantic-network-analysis",
+        "target": "llm-topology",
+        "weight": 3,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods",
+          "clustering-method"
         ]
       },
       {
@@ -7026,6 +7186,15 @@
         ]
       },
       {
+        "source": "tiktok-video-analysis-with-python",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
         "source": "tiktok-zombie-survival-series",
         "target": "how-to-stop-chatgpt-from-lying",
         "weight": 8,
@@ -7179,6 +7348,15 @@
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "tiktok-zombie-survival-series",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
           "model-structure-analysis"
         ]
       },
@@ -7338,6 +7516,15 @@
         ]
       },
       {
+        "source": "how-to-stop-chatgpt-from-lying",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "source": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
         "target": "ai-zombie-survival-why-fortresses-fail",
         "weight": 7,
@@ -7473,6 +7660,15 @@
         ]
       },
       {
+        "source": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "source": "ai-zombie-survival-why-fortresses-fail",
         "target": "the-zombie-survival-strategy-chatgpt-could-not-see",
         "weight": 7,
@@ -7593,6 +7789,15 @@
         ]
       },
       {
+        "source": "ai-zombie-survival-why-fortresses-fail",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
         "target": "hidden-representations-without-hidden-layers",
         "weight": 2,
@@ -7694,6 +7899,15 @@
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
           "model-structure-analysis"
         ]
       },
@@ -8172,6 +8386,16 @@
         ]
       },
       {
+        "source": "hidden-representations-without-hidden-layers",
+        "target": "llm-topology",
+        "weight": 3,
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
         "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "weight": 2,
@@ -8254,6 +8478,15 @@
         ]
       },
       {
+        "source": "adversarial-questioning-chatgpt-zombie-survival",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "python-nlp-semantic-seo",
         "weight": 2,
@@ -8301,6 +8534,15 @@
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "data-structure-intermediate-stage",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "google-maps-review-mining-unmet-demand",
+        "target": "llm-topology",
         "weight": 2,
         "tags": [
           "semantic-research-pipeline",
@@ -8490,6 +8732,15 @@
         ]
       },
       {
+        "source": "python-nlp-semantic-seo",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
         "target": "research-pipeline",
         "weight": 3,
@@ -8511,6 +8762,15 @@
       {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
         "target": "data-structure-intermediate-stage",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "target": "llm-topology",
         "weight": 2,
         "tags": [
           "semantic-research-pipeline",
@@ -8567,6 +8827,15 @@
         ]
       },
       {
+        "source": "sda3-tldr",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "source": "research-pipeline",
         "target": "who-benefits-most-from-this-system",
         "weight": 1,
@@ -8601,6 +8870,16 @@
         "tags": [
           "search-and-discovery-systems",
           "discovery-systems-map"
+        ]
+      },
+      {
+        "source": "research-pipeline",
+        "target": "llm-topology",
+        "weight": 3,
+        "tags": [
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
         ]
       },
       {
@@ -8660,6 +8939,16 @@
         ]
       },
       {
+        "source": "clustered-output-instagram-dataset",
+        "target": "llm-topology",
+        "weight": 3,
+        "tags": [
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
         "source": "data-structure-intermediate-stage",
         "target": "methodology-evaluation-and-validity",
         "weight": 2,
@@ -8693,6 +8982,15 @@
         "tags": [
           "aesthetic-research-system",
           "aesthetic-analysis"
+        ]
+      },
+      {
+        "source": "data-structure-intermediate-stage",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
         ]
       },
       {
@@ -8810,6 +9108,15 @@
         ]
       },
       {
+        "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "target": "structural-extraction-protocol",
         "weight": 3,
@@ -8830,8 +9137,27 @@
         ]
       },
       {
+        "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "target": "llm-topology",
+        "weight": 3,
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
         "source": "structural-extraction-protocol",
         "target": "gpt-misuse-is-not-what-people-think",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "structural-extraction-protocol",
+        "target": "llm-topology",
         "weight": 2,
         "tags": [
           "llm-structural-analysis",
@@ -8855,6 +9181,15 @@
           "creative-identity-system",
           "first-principles",
           "artistic-system-building"
+        ]
+      },
+      {
+        "source": "gpt-misuse-is-not-what-people-think",
+        "target": "llm-topology",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
         ]
       }
     ],
@@ -9129,6 +9464,12 @@
         "source": "hidden-representations-without-hidden-layers",
         "target": "project:sda3-structural-extraction",
         "type": "belongs-to-project",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "llm-topology",
+        "target": "project:sda3-structural-extraction",
+        "type": "parallel-case-study",
         "project": "sda3-structural-extraction"
       },
       {

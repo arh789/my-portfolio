@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-11-09T21:39:46.387Z",
+  "generatedAt": "2026-11-20T05:12:14.799Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -53,11 +53,11 @@
   },
   "counts": {
     "corePages": 10,
-    "articles": 44,
+    "articles": 45,
     "projects": 6,
-    "indexedUrls": 60,
-    "siteGraphNodes": 60,
-    "siteGraphEdges": 155,
+    "indexedUrls": 61,
+    "siteGraphNodes": 61,
+    "siteGraphEdges": 157,
     "semanticHubs": 9,
     "projectHubs": 6
   },
@@ -650,7 +650,7 @@
         "canonical": "https://decrepitfilth.art/art",
         "includeInSitemap": true,
         "priority": 0.8,
-        "lastModified": "2026-11-10"
+        "lastModified": "2026-11-20"
       },
       "questionsAnswered": [
         "What has been published?",
@@ -1214,6 +1214,12 @@
         }
       ],
       "supportingResources": [
+        {
+          "order": 5,
+          "path": "/art/llm-topology",
+          "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+          "role": "case-study"
+        },
         {
           "order": 10,
           "path": "/art/sda3-tldr",
@@ -3643,6 +3649,47 @@
         }
       },
       {
+        "id": "/art/llm-topology",
+        "path": "/art/llm-topology",
+        "url": "https://decrepitfilth.art/art/llm-topology",
+        "kind": "article",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "summary": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "architectureRole": "supporting",
+        "published": "",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ],
+        "contentType": "analysis",
+        "medium": "interactive-case-study",
+        "projects": [
+          {
+            "slug": "sda3-structural-extraction",
+            "order": 5,
+            "role": "case-study"
+          }
+        ],
+        "agentPriority": {
+          "context": "standard",
+          "traversal": "medium",
+          "evidence": "unassessed",
+          "roles": [
+            "published-article"
+          ]
+        },
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "llm-topology"
+        }
+      },
+      {
         "id": "/art/project/chatgpt-structural-failure",
         "path": "/art/project/chatgpt-structural-failure",
         "url": "https://decrepitfilth.art/art/project/chatgpt-structural-failure",
@@ -3711,7 +3758,7 @@
         "introduction": "The sequence moves from the misuse problem to the SDA-3 protocol, a practical structural-extraction method and the limits of analysing representations through observable outputs.",
         "articleCounts": {
           "chapters": 4,
-          "resources": 1
+          "resources": 2
         },
         "agentPriority": {
           "context": "medium",
@@ -4210,6 +4257,11 @@
       },
       {
         "source": "/art",
+        "target": "/art/llm-topology",
+        "type": "contains-article"
+      },
+      {
+        "source": "/art",
         "target": "/art/project/chatgpt-structural-failure",
         "type": "contains-project"
       },
@@ -4464,6 +4516,12 @@
         "source": "/art/hidden-representations-without-hidden-layers",
         "target": "/art/project/sda3-structural-extraction",
         "type": "belongs-to-project",
+        "project": "sda3-structural-extraction"
+      },
+      {
+        "source": "/art/llm-topology",
+        "target": "/art/project/sda3-structural-extraction",
+        "type": "parallel-case-study",
         "project": "sda3-structural-extraction"
       },
       {
@@ -4781,7 +4839,7 @@
         "key": "id",
         "value": "art"
       },
-      "lastModified": "2026-11-10",
+      "lastModified": "2026-11-20",
       "priority": 0.8
     },
     {
@@ -5326,6 +5384,18 @@
       "lastModified": "2026-07-08"
     },
     {
+      "path": "/art/llm-topology",
+      "url": "https://decrepitfilth.art/art/llm-topology",
+      "kind": "article",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "llm-topology"
+      },
+      "lastModified": "2026-11-20"
+    },
+    {
       "path": "/art/project/chatgpt-structural-failure",
       "url": "https://decrepitfilth.art/art/project/chatgpt-structural-failure",
       "kind": "project",
@@ -5359,7 +5429,7 @@
         "key": "slug",
         "value": "sda3-structural-extraction"
       },
-      "lastModified": "2026-11-10"
+      "lastModified": "2026-11-20"
     },
     {
       "path": "/art/project/semantic-seo-graph-positioning",
