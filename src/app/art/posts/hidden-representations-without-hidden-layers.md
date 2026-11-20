@@ -70,6 +70,8 @@ The difference is evidential access.
 
 One works with representations inside the model. The other works with the observable trace left by a completed output.
 
+The [LLM Topology instrumented case study](/art/llm-topology) provides the open-model counterpart: it directly records intermediate states during generation and compares the resulting token networks with the poor visible answer.
+
 ## SDA-3: Structured Dimensional Analysis
 
 [SDA-3](/art/sda-3-analysing-embedding-space-structure-in-large-language-models) is a framework for this second problem.

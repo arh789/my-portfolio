@@ -15,6 +15,8 @@ tags:
 
 The Structural Extraction Protocol (SEP) tests and refines structural reconstructions produced through SDA-3 using recursive questioning, constraint changes and adversarial testing.
 
+For an open-model complement that records transformer states directly instead of pressure-testing output prose, see the [LLM Topology experiment](/art/llm-topology).
+
 The system does not retrieve answers.  
 It forces the emergence of **what cannot be removed without collapse**.
 
