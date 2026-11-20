@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-11-20T05:12:14.799Z",
+  "generatedAt": "2026-11-20T07:16:44.786Z",
   "articles": [
+    {
+      "slug": "llm-topology",
+      "route": "/art/llm-topology",
+      "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+      "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+      "date": "2026-11-20",
+      "tags": [
+        "llm-structural-analysis",
+        "hidden-representations",
+        "model-structure-analysis",
+        "semantic-research-pipeline",
+        "clustering-method",
+        "research-methods"
+      ],
+      "type": "analysis",
+      "medium": "interactive-case-study",
+      "renderMode": "custom",
+      "projects": [
+        {
+          "slug": "sda3-structural-extraction",
+          "order": 5,
+          "role": "case-study"
+        }
+      ]
+    },
     {
       "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
       "title": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
@@ -978,34 +1003,746 @@
       "type": "article",
       "projects": [],
       "medium": "article"
-    },
-    {
-      "slug": "llm-topology",
-      "route": "/art/llm-topology",
-      "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-      "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-      "date": "",
-      "tags": [
-        "llm-structural-analysis",
-        "hidden-representations",
-        "model-structure-analysis",
-        "semantic-research-pipeline",
-        "clustering-method",
-        "research-methods"
-      ],
-      "type": "analysis",
-      "medium": "interactive-case-study",
-      "renderMode": "custom",
-      "projects": [
-        {
-          "slug": "sda3-structural-extraction",
-          "order": 5,
-          "role": "case-study"
-        }
-      ]
     }
   ],
   "tagIndex": {
+    "llm-structural-analysis": [
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "2026-11-20",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+        "date": "2026-07-31",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-zombie-survival-why-fortresses-fail",
+        "title": "AI Zombie Survival: Why Fortresses Fail",
+        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
+        "date": "2026-07-25",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "A machine-readable semantic case record of how human-supervised structural questioning moved ChatGPT from genre-shaped zombie-survival answers through contradiction, rejection and reconstruction to a pressure-stable strategy.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "gpt-misuse-is-not-what-people-think",
+        "title": "GPT Misuse Is Not What People Think",
+        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "date": "2026-03-15",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      }
+    ],
+    "hidden-representations": [
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "2026-11-20",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      }
+    ],
+    "model-structure-analysis": [
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "2026-11-20",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "tiktok-zombie-survival-series",
+        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
+        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
+        "date": "2026-08-14",
+        "tags": [
+          "tiktok",
+          "tiktok-zombie-series",
+          "short-form-video",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "how-to-stop-chatgpt-from-lying",
+        "title": "How to Stop ChatGPT From Lying",
+        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
+        "date": "2026-08-02",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "sda-3",
+          "structural-extraction",
+          "model-structure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival",
+          "video-index-system",
+          "how-to-stop-chatgpt-from-lying-video"
+        ]
+      },
+      {
+        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
+        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
+        "date": "2026-07-31",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "sda-3",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "ai-zombie-survival-why-fortresses-fail",
+        "title": "AI Zombie Survival: Why Fortresses Fail",
+        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
+        "date": "2026-07-25",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "zombie-survival-history",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
+        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
+        "date": "2026-07-18",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "hidden-representations-without-hidden-layers",
+        "title": "Hidden Representations Without Hidden Layers",
+        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
+        "date": "2026-07-03",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "adversarial-questioning-chatgpt-zombie-survival",
+        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
+        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
+        "date": "2026-06-27",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda3-tldr",
+        "title": "SDA-3 tl;dr",
+        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
+        "date": "2026-05-08",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "youtube",
+          "sda-3-tldr",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
+        "description": "A machine-readable semantic case record of how human-supervised structural questioning moved ChatGPT from genre-shaped zombie-survival answers through contradiction, rejection and reconstruction to a pressure-stable strategy.",
+        "date": "2026-04-08",
+        "tags": [
+          "llm-structural-analysis",
+          "zombie-survival",
+          "youtube",
+          "zombie-survival-video",
+          "zombie-survival-strategy",
+          "model-structure-analysis",
+          "video-index-system"
+        ]
+      },
+      {
+        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "title": "SDA-3 protocol",
+        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "sda-3",
+          "embedding-space",
+          "structural-extraction",
+          "hidden-representations",
+          "llm-failure-analysis",
+          "zombie-survival",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "structural-extraction-protocol",
+        "title": "Structural Extraction Protocol",
+        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
+        "date": "2026-04-06",
+        "tags": [
+          "llm-structural-analysis",
+          "structural-extraction",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "slug": "gpt-misuse-is-not-what-people-think",
+        "title": "GPT Misuse Is Not What People Think",
+        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
+        "date": "2026-03-15",
+        "tags": [
+          "llm-structural-analysis",
+          "llm-failure-analysis",
+          "model-structure-analysis"
+        ]
+      }
+    ],
+    "semantic-research-pipeline": [
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "2026-11-20",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "dan-john-youtube-playlist-semantic-network-analysis",
+        "title": "Dan John YouTube Playlist Semantic Network Analysis",
+        "description": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
+        "date": "2026-10-13",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "research-methods",
+          "dataset-structure",
+          "clustering-method"
+        ]
+      },
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "semantic-research-pipeline",
+          "review-mining",
+          "strategic-positioning",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "search-results-to-strategy",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Instagram Output: Model-Generated Symbolic Compression",
+        "description": "This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      }
+    ],
+    "clustering-method": [
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "2026-11-20",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "dan-john-youtube-playlist-semantic-network-analysis",
+        "title": "Dan John YouTube Playlist Semantic Network Analysis",
+        "description": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
+        "date": "2026-10-13",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "research-methods",
+          "dataset-structure",
+          "clustering-method"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Instagram Output: Model-Generated Symbolic Compression",
+        "description": "This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      }
+    ],
+    "research-methods": [
+      {
+        "slug": "llm-topology",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "date": "2026-11-20",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "dan-john-youtube-playlist-semantic-network-analysis",
+        "title": "Dan John YouTube Playlist Semantic Network Analysis",
+        "description": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
+        "date": "2026-10-13",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "research-methods",
+          "dataset-structure",
+          "clustering-method"
+        ]
+      },
+      {
+        "slug": "tiktok-video-analysis-with-python",
+        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
+        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
+        "date": "2026-09-04",
+        "tags": [
+          "tiktok",
+          "short-form-video",
+          "video-index-system",
+          "semantic-research-pipeline",
+          "research-methods",
+          "search-results-to-strategy",
+          "search-and-discovery-systems",
+          "creative-search-system"
+        ]
+      },
+      {
+        "slug": "google-maps-review-mining-unmet-demand",
+        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
+        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
+        "date": "2026-06-16",
+        "tags": [
+          "semantic-research-pipeline",
+          "review-mining",
+          "strategic-positioning",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "python-nlp-semantic-seo",
+        "title": "Python for NLP and Semantic SEO: A Practical Reference",
+        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
+        "date": "2026-05-31",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
+        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
+        "date": "2026-05-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "search-results-to-strategy",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "research-pipeline",
+        "title": "Research pipeline",
+        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
+        "date": "2026-04-25",
+        "tags": [
+          "semantic-research-pipeline",
+          "python-nlp",
+          "search-results-to-strategy",
+          "review-mining",
+          "dataset-structure",
+          "clustering-method",
+          "search-and-discovery-systems",
+          "discovery-systems-map",
+          "research-methods"
+        ]
+      },
+      {
+        "slug": "clustered-output-instagram-dataset",
+        "title": "Clustered Instagram Output: Model-Generated Symbolic Compression",
+        "description": "This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "instagram-dataset",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      },
+      {
+        "slug": "data-structure-intermediate-stage",
+        "title": "What the Data Actually Looks Like",
+        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
+        "date": "2026-04-24",
+        "tags": [
+          "aesthetic-research-system",
+          "dataset-structure",
+          "semantic-research-pipeline",
+          "research-methods",
+          "aesthetic-analysis"
+        ]
+      }
+    ],
     "search-and-discovery-systems": [
       {
         "slug": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
@@ -1438,129 +2175,6 @@
         ]
       }
     ],
-    "semantic-research-pipeline": [
-      {
-        "slug": "dan-john-youtube-playlist-semantic-network-analysis",
-        "title": "Dan John YouTube Playlist Semantic Network Analysis",
-        "description": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
-        "date": "2026-10-13",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "research-methods",
-          "dataset-structure",
-          "clustering-method"
-        ]
-      },
-      {
-        "slug": "tiktok-video-analysis-with-python",
-        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
-        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
-        "date": "2026-09-04",
-        "tags": [
-          "tiktok",
-          "short-form-video",
-          "video-index-system",
-          "semantic-research-pipeline",
-          "research-methods",
-          "search-results-to-strategy",
-          "search-and-discovery-systems",
-          "creative-search-system"
-        ]
-      },
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "semantic-research-pipeline",
-          "review-mining",
-          "strategic-positioning",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "search-results-to-strategy",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Instagram Output: Model-Generated Symbolic Compression",
-        "description": "This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "llm-topology",
-        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-        "date": "",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
-        ]
-      }
-    ],
     "python-nlp": [
       {
         "slug": "dan-john-youtube-playlist-semantic-network-analysis",
@@ -1600,129 +2214,6 @@
           "clustering-method",
           "search-and-discovery-systems",
           "discovery-systems-map",
-          "research-methods"
-        ]
-      }
-    ],
-    "research-methods": [
-      {
-        "slug": "dan-john-youtube-playlist-semantic-network-analysis",
-        "title": "Dan John YouTube Playlist Semantic Network Analysis",
-        "description": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
-        "date": "2026-10-13",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "research-methods",
-          "dataset-structure",
-          "clustering-method"
-        ]
-      },
-      {
-        "slug": "tiktok-video-analysis-with-python",
-        "title": "TikTok Trend Analysis With Python: A Story About CreepyTok",
-        "description": "How a Python pipeline turns TikTok search results, metadata, captions and transcripts into a reusable ChatGPT handoff for analysing trends and generating new video concepts.",
-        "date": "2026-09-04",
-        "tags": [
-          "tiktok",
-          "short-form-video",
-          "video-index-system",
-          "semantic-research-pipeline",
-          "research-methods",
-          "search-results-to-strategy",
-          "search-and-discovery-systems",
-          "creative-search-system"
-        ]
-      },
-      {
-        "slug": "google-maps-review-mining-unmet-demand",
-        "title": "Mining Google Maps Reviews for Unmet Customer Demand",
-        "description": "A JupyterLab workflow for extracting Google Maps reviews, filtering for causally useful customer experience signals, and turning local competitor reviews into unmet-demand analysis.",
-        "date": "2026-06-16",
-        "tags": [
-          "semantic-research-pipeline",
-          "review-mining",
-          "strategic-positioning",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "python-nlp-semantic-seo",
-        "title": "Python for NLP and Semantic SEO: A Practical Reference",
-        "description": "A plain-language companion to the SEO Python codebase, explaining how the workflow uses search-result collection, NLP text processing, keyphrase extraction, embeddings, network analysis, and association rule mining for semantic SEO research.",
-        "date": "2026-05-31",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "title": "Semantic SEO in Python: From Search Results to Original Content Strategy",
-        "description": "How Python can be used to collect search-result data, expose semantic structure, identify unresolved topic clusters, and develop original content strategy from evidence rather than imitation.",
-        "date": "2026-05-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "search-results-to-strategy",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Instagram Output: Model-Generated Symbolic Compression",
-        "description": "This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "data-structure-intermediate-stage",
-        "title": "What the Data Actually Looks Like",
-        "description": "This post documents the intermediate data produced after scraping and initial structuring. It shows what is actually being analysed before any creative conclusions are formed.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "dataset-structure",
-          "semantic-research-pipeline",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "llm-topology",
-        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-        "date": "",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis",
-          "semantic-research-pipeline",
-          "clustering-method",
           "research-methods"
         ]
       }
@@ -1769,66 +2260,6 @@
           "semantic-research-pipeline",
           "research-methods",
           "aesthetic-analysis"
-        ]
-      }
-    ],
-    "clustering-method": [
-      {
-        "slug": "dan-john-youtube-playlist-semantic-network-analysis",
-        "title": "Dan John YouTube Playlist Semantic Network Analysis",
-        "description": "What 382 Dan John strength-coaching transcripts reveal about the recurring decisions behind his programmes, with source-linked evidence, interactive network analysis and reproducible code.",
-        "date": "2026-10-13",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "research-methods",
-          "dataset-structure",
-          "clustering-method"
-        ]
-      },
-      {
-        "slug": "research-pipeline",
-        "title": "Research pipeline",
-        "description": "A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.",
-        "date": "2026-04-25",
-        "tags": [
-          "semantic-research-pipeline",
-          "python-nlp",
-          "search-results-to-strategy",
-          "review-mining",
-          "dataset-structure",
-          "clustering-method",
-          "search-and-discovery-systems",
-          "discovery-systems-map",
-          "research-methods"
-        ]
-      },
-      {
-        "slug": "clustered-output-instagram-dataset",
-        "title": "Clustered Instagram Output: Model-Generated Symbolic Compression",
-        "description": "This page preserves a model-generated symbolic compression of nine clusters derived from Instagram image-analysis data. It is an interpreted intermediate record, not the raw dataset or a measurement of audience response.",
-        "date": "2026-04-24",
-        "tags": [
-          "aesthetic-research-system",
-          "instagram-dataset",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods",
-          "aesthetic-analysis"
-        ]
-      },
-      {
-        "slug": "llm-topology",
-        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-        "date": "",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
         ]
       }
     ],
@@ -2714,200 +3145,6 @@
         ]
       }
     ],
-    "llm-structural-analysis": [
-      {
-        "slug": "tiktok-zombie-survival-series",
-        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
-        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
-        "date": "2026-08-14",
-        "tags": [
-          "tiktok",
-          "tiktok-zombie-series",
-          "short-form-video",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
-        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
-        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
-        "date": "2026-07-31",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-zombie-survival-why-fortresses-fail",
-        "title": "AI Zombie Survival: Why Fortresses Fail",
-        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
-        "date": "2026-07-25",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
-        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
-        "date": "2026-07-18",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "hidden-representations-without-hidden-layers",
-        "title": "Hidden Representations Without Hidden Layers",
-        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
-        "date": "2026-07-03",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "A machine-readable semantic case record of how human-supervised structural questioning moved ChatGPT from genre-shaped zombie-survival answers through contradiction, rejection and reconstruction to a pressure-stable strategy.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "gpt-misuse-is-not-what-people-think",
-        "title": "GPT Misuse Is Not What People Think",
-        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
-        "date": "2026-03-15",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "llm-topology",
-        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-        "date": "",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
-        ]
-      }
-    ],
     "llm-failure-analysis": [
       {
         "slug": "tiktok-zombie-survival-series",
@@ -3034,200 +3271,6 @@
           "llm-structural-analysis",
           "llm-failure-analysis",
           "model-structure-analysis"
-        ]
-      }
-    ],
-    "model-structure-analysis": [
-      {
-        "slug": "tiktok-zombie-survival-series",
-        "title": "TikTok Zombie Survival Series: How to Stop ChatGPT From Lying",
-        "description": "A sequential TikTok index for the zombie-survival ChatGPT series, moving from SDA-3, adversarial questioning and historical pressure-testing to bioweapons failure and the final method for forcing ChatGPT past weak coherence.",
-        "date": "2026-08-14",
-        "tags": [
-          "tiktok",
-          "tiktok-zombie-series",
-          "short-form-video",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "how-to-stop-chatgpt-from-lying",
-        "title": "How to Stop ChatGPT From Lying",
-        "description": "ChatGPT does not directly optimise for truth. This article explains how to force coherent but weak answers through contradiction, constraint and structural collapse until a more defensible answer remains.",
-        "date": "2026-08-02",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "sda-3",
-          "structural-extraction",
-          "model-structure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival",
-          "video-index-system",
-          "how-to-stop-chatgpt-from-lying-video"
-        ]
-      },
-      {
-        "slug": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
-        "title": "Why ChatGPT Recommended Bioweapons in a Zombie Apocalypse",
-        "description": "A zombie-survival case study showing how semantic association pulls ChatGPT towards bioweapons when narrative coherence outruns physical feasibility.",
-        "date": "2026-07-31",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "sda-3",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "ai-zombie-survival-why-fortresses-fail",
-        "title": "AI Zombie Survival: Why Fortresses Fail",
-        "description": "A Shorts companion to the zombie-survival sequence showing how historical scarcity warfare validates the move away from permanent fortresses and towards mobile, temporary micro-fortifications.",
-        "date": "2026-07-25",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "zombie-survival-history",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "title": "The Zombie Survival Strategy ChatGPT Couldn’t See",
-        "description": "A video case study showing how constraint-testing collapses ChatGPT’s broad zombie-survival answer into one pressure-stable defensive kernel: choke point, collapsible barrier, and spear.",
-        "date": "2026-07-18",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "hidden-representations-without-hidden-layers",
-        "title": "Hidden Representations Without Hidden Layers",
-        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
-        "date": "2026-07-03",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "adversarial-questioning-chatgpt-zombie-survival",
-        "title": "ChatGPT's Zombie Survival Plan Falls Apart When You Ask This",
-        "description": "A video case study demonstrating how adversarial questioning exposes hidden assumptions in large language model reasoning. Using a zombie survival scenario, the analysis shows how fuel logistics, dependency testing, and iterative contradiction reveal which parts of ChatGPT's answers remain structurally robust after their supporting assumptions collapse.",
-        "date": "2026-06-27",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda3-tldr",
-        "title": "SDA-3 tl;dr",
-        "description": "A short explanation of SDA-3 as a method for mapping LLM response structure without claiming access to hidden reasoning.",
-        "date": "2026-05-08",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "youtube",
-          "sda-3-tldr",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "title": "Zombie Survival by ChatGPT — Why the AI Lies (and How to Stop It)",
-        "description": "A machine-readable semantic case record of how human-supervised structural questioning moved ChatGPT from genre-shaped zombie-survival answers through contradiction, rejection and reconstruction to a pressure-stable strategy.",
-        "date": "2026-04-08",
-        "tags": [
-          "llm-structural-analysis",
-          "zombie-survival",
-          "youtube",
-          "zombie-survival-video",
-          "zombie-survival-strategy",
-          "model-structure-analysis",
-          "video-index-system"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "structural-extraction-protocol",
-        "title": "Structural Extraction Protocol",
-        "description": "A unified, procedural system for extracting structurally necessary logic from language model outputs through recursive constraint, adversarial interrogation, and collapse enforcement.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "structural-extraction",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "gpt-misuse-is-not-what-people-think",
-        "title": "GPT Misuse Is Not What People Think",
-        "description": "Most discussions about GPT misuse focus on malicious intent or careless users. In reality, misuse usually happens when people expect the model to do things it was never designed to do.",
-        "date": "2026-03-15",
-        "tags": [
-          "llm-structural-analysis",
-          "llm-failure-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "llm-topology",
-        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-        "date": "",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
         ]
       }
     ],
@@ -4028,49 +4071,6 @@
           "hostile-visibility",
           "ai-search",
           "discovery-systems-map"
-        ]
-      }
-    ],
-    "hidden-representations": [
-      {
-        "slug": "hidden-representations-without-hidden-layers",
-        "title": "Hidden Representations Without Hidden Layers",
-        "description": "What can be inferred about a language model’s semantic structure when its hidden states, weights, and intermediate representations are inaccessible?",
-        "date": "2026-07-03",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "title": "SDA-3 protocol",
-        "description": "This post introduces SDA-3, a protocol for inferring the structure of an LLM’s embedding space through observable outputs, without relying on access to internal weights or hidden states.",
-        "date": "2026-04-06",
-        "tags": [
-          "llm-structural-analysis",
-          "sda-3",
-          "embedding-space",
-          "structural-extraction",
-          "hidden-representations",
-          "llm-failure-analysis",
-          "zombie-survival",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "slug": "llm-topology",
-        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-        "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-        "date": "",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
         ]
       }
     ],
@@ -5573,7 +5573,7 @@
           "route": "/art/llm-topology",
           "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
           "description": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-          "date": "",
+          "date": "2026-11-20",
           "tags": [
             "llm-structural-analysis",
             "hidden-representations",
@@ -6163,6 +6163,20 @@
   "graph": {
     "nodes": [
       {
+        "id": "llm-topology",
+        "label": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "type": "article",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ],
+        "centrality": 45
+      },
+      {
         "id": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "label": "SEO Is an Information-Retrieval Engineering Problem, Not a Content-Marketing Problem",
         "type": "article",
@@ -6746,23 +6760,194 @@
           "discovery-systems-map"
         ],
         "centrality": 10
-      },
-      {
-        "id": "llm-topology",
-        "label": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-        "type": "article",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
-        ],
-        "centrality": 45
       }
     ],
     "edges": [
+      {
+        "source": "llm-topology",
+        "target": "dan-john-youtube-playlist-semantic-network-analysis",
+        "weight": 3,
+        "tags": [
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "tiktok-video-analysis-with-python",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "tiktok-zombie-survival-series",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "how-to-stop-chatgpt-from-lying",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "ai-zombie-survival-why-fortresses-fail",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "the-zombie-survival-strategy-chatgpt-could-not-see",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "hidden-representations-without-hidden-layers",
+        "weight": 3,
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "adversarial-questioning-chatgpt-zombie-survival",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "google-maps-review-mining-unmet-demand",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "python-nlp-semantic-seo",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "sda3-tldr",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "research-pipeline",
+        "weight": 3,
+        "tags": [
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "clustered-output-instagram-dataset",
+        "weight": 3,
+        "tags": [
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "data-structure-intermediate-stage",
+        "weight": 2,
+        "tags": [
+          "semantic-research-pipeline",
+          "research-methods"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "sda-3-analysing-embedding-space-structure-in-large-language-models",
+        "weight": 3,
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "structural-extraction-protocol",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
+      {
+        "source": "llm-topology",
+        "target": "gpt-misuse-is-not-what-people-think",
+        "weight": 2,
+        "tags": [
+          "llm-structural-analysis",
+          "model-structure-analysis"
+        ]
+      },
       {
         "source": "seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "target": "building-an-agent-native-after-effects-workflow",
@@ -6928,16 +7113,6 @@
           "semantic-research-pipeline",
           "research-methods",
           "dataset-structure"
-        ]
-      },
-      {
-        "source": "dan-john-youtube-playlist-semantic-network-analysis",
-        "target": "llm-topology",
-        "weight": 3,
-        "tags": [
-          "semantic-research-pipeline",
-          "research-methods",
-          "clustering-method"
         ]
       },
       {
@@ -7186,15 +7361,6 @@
         ]
       },
       {
-        "source": "tiktok-video-analysis-with-python",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "semantic-research-pipeline",
-          "research-methods"
-        ]
-      },
-      {
         "source": "tiktok-zombie-survival-series",
         "target": "how-to-stop-chatgpt-from-lying",
         "weight": 8,
@@ -7348,15 +7514,6 @@
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "source": "tiktok-zombie-survival-series",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
           "model-structure-analysis"
         ]
       },
@@ -7516,15 +7673,6 @@
         ]
       },
       {
-        "source": "how-to-stop-chatgpt-from-lying",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
         "source": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
         "target": "ai-zombie-survival-why-fortresses-fail",
         "weight": 7,
@@ -7660,15 +7808,6 @@
         ]
       },
       {
-        "source": "why-chatgpt-recommended-bioweapons-in-a-zombie-apocalypse",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
         "source": "ai-zombie-survival-why-fortresses-fail",
         "target": "the-zombie-survival-strategy-chatgpt-could-not-see",
         "weight": 7,
@@ -7789,15 +7928,6 @@
         ]
       },
       {
-        "source": "ai-zombie-survival-why-fortresses-fail",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
         "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
         "target": "hidden-representations-without-hidden-layers",
         "weight": 2,
@@ -7899,15 +8029,6 @@
         "tags": [
           "llm-structural-analysis",
           "llm-failure-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "source": "the-zombie-survival-strategy-chatgpt-could-not-see",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
           "model-structure-analysis"
         ]
       },
@@ -8386,16 +8507,6 @@
         ]
       },
       {
-        "source": "hidden-representations-without-hidden-layers",
-        "target": "llm-topology",
-        "weight": 3,
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis"
-        ]
-      },
-      {
         "source": "adversarial-questioning-chatgpt-zombie-survival",
         "target": "ai-seo-strategy-why-your-creative-work-is-invisible",
         "weight": 2,
@@ -8478,15 +8589,6 @@
         ]
       },
       {
-        "source": "adversarial-questioning-chatgpt-zombie-survival",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "python-nlp-semantic-seo",
         "weight": 2,
@@ -8534,15 +8636,6 @@
       {
         "source": "google-maps-review-mining-unmet-demand",
         "target": "data-structure-intermediate-stage",
-        "weight": 2,
-        "tags": [
-          "semantic-research-pipeline",
-          "research-methods"
-        ]
-      },
-      {
-        "source": "google-maps-review-mining-unmet-demand",
-        "target": "llm-topology",
         "weight": 2,
         "tags": [
           "semantic-research-pipeline",
@@ -8732,15 +8825,6 @@
         ]
       },
       {
-        "source": "python-nlp-semantic-seo",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "semantic-research-pipeline",
-          "research-methods"
-        ]
-      },
-      {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
         "target": "research-pipeline",
         "weight": 3,
@@ -8762,15 +8846,6 @@
       {
         "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
         "target": "data-structure-intermediate-stage",
-        "weight": 2,
-        "tags": [
-          "semantic-research-pipeline",
-          "research-methods"
-        ]
-      },
-      {
-        "source": "semantic-seo-in-python-from-search-results-to-original-content-strategy",
-        "target": "llm-topology",
         "weight": 2,
         "tags": [
           "semantic-research-pipeline",
@@ -8827,15 +8902,6 @@
         ]
       },
       {
-        "source": "sda3-tldr",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
         "source": "research-pipeline",
         "target": "who-benefits-most-from-this-system",
         "weight": 1,
@@ -8870,16 +8936,6 @@
         "tags": [
           "search-and-discovery-systems",
           "discovery-systems-map"
-        ]
-      },
-      {
-        "source": "research-pipeline",
-        "target": "llm-topology",
-        "weight": 3,
-        "tags": [
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
         ]
       },
       {
@@ -8939,16 +8995,6 @@
         ]
       },
       {
-        "source": "clustered-output-instagram-dataset",
-        "target": "llm-topology",
-        "weight": 3,
-        "tags": [
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
-        ]
-      },
-      {
         "source": "data-structure-intermediate-stage",
         "target": "methodology-evaluation-and-validity",
         "weight": 2,
@@ -8982,15 +9028,6 @@
         "tags": [
           "aesthetic-research-system",
           "aesthetic-analysis"
-        ]
-      },
-      {
-        "source": "data-structure-intermediate-stage",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "semantic-research-pipeline",
-          "research-methods"
         ]
       },
       {
@@ -9108,15 +9145,6 @@
         ]
       },
       {
-        "source": "zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
         "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
         "target": "structural-extraction-protocol",
         "weight": 3,
@@ -9137,27 +9165,8 @@
         ]
       },
       {
-        "source": "sda-3-analysing-embedding-space-structure-in-large-language-models",
-        "target": "llm-topology",
-        "weight": 3,
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis"
-        ]
-      },
-      {
         "source": "structural-extraction-protocol",
         "target": "gpt-misuse-is-not-what-people-think",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
-        ]
-      },
-      {
-        "source": "structural-extraction-protocol",
-        "target": "llm-topology",
         "weight": 2,
         "tags": [
           "llm-structural-analysis",
@@ -9181,15 +9190,6 @@
           "creative-identity-system",
           "first-principles",
           "artistic-system-building"
-        ]
-      },
-      {
-        "source": "gpt-misuse-is-not-what-people-think",
-        "target": "llm-topology",
-        "weight": 2,
-        "tags": [
-          "llm-structural-analysis",
-          "model-structure-analysis"
         ]
       }
     ],

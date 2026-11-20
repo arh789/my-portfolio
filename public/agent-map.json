@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-11-20T05:12:14.799Z",
+  "generatedAt": "2026-11-20T07:16:44.786Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -1868,6 +1868,47 @@
         }
       },
       {
+        "id": "/art/llm-topology",
+        "path": "/art/llm-topology",
+        "url": "https://decrepitfilth.art/art/llm-topology",
+        "kind": "article",
+        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
+        "summary": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+        "architectureRole": "supporting",
+        "published": "2026-11-20",
+        "tags": [
+          "llm-structural-analysis",
+          "hidden-representations",
+          "model-structure-analysis",
+          "semantic-research-pipeline",
+          "clustering-method",
+          "research-methods"
+        ],
+        "contentType": "analysis",
+        "medium": "interactive-case-study",
+        "projects": [
+          {
+            "slug": "sda3-structural-extraction",
+            "order": 5,
+            "role": "case-study"
+          }
+        ],
+        "agentPriority": {
+          "context": "standard",
+          "traversal": "medium",
+          "evidence": "unassessed",
+          "roles": [
+            "published-article"
+          ]
+        },
+        "source": {
+          "resource": "/graph.json",
+          "collection": "articles",
+          "key": "slug",
+          "value": "llm-topology"
+        }
+      },
+      {
         "id": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "path": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "url": "https://decrepitfilth.art/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
@@ -3649,47 +3690,6 @@
         }
       },
       {
-        "id": "/art/llm-topology",
-        "path": "/art/llm-topology",
-        "url": "https://decrepitfilth.art/art/llm-topology",
-        "kind": "article",
-        "title": "LLM Topology: Reconstructing Semantic Networks from Transformer States",
-        "summary": "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-        "architectureRole": "supporting",
-        "published": "",
-        "tags": [
-          "llm-structural-analysis",
-          "hidden-representations",
-          "model-structure-analysis",
-          "semantic-research-pipeline",
-          "clustering-method",
-          "research-methods"
-        ],
-        "contentType": "analysis",
-        "medium": "interactive-case-study",
-        "projects": [
-          {
-            "slug": "sda3-structural-extraction",
-            "order": 5,
-            "role": "case-study"
-          }
-        ],
-        "agentPriority": {
-          "context": "standard",
-          "traversal": "medium",
-          "evidence": "unassessed",
-          "roles": [
-            "published-article"
-          ]
-        },
-        "source": {
-          "resource": "/graph.json",
-          "collection": "articles",
-          "key": "slug",
-          "value": "llm-topology"
-        }
-      },
-      {
         "id": "/art/project/chatgpt-structural-failure",
         "path": "/art/project/chatgpt-structural-failure",
         "url": "https://decrepitfilth.art/art/project/chatgpt-structural-failure",
@@ -4037,6 +4037,11 @@
       },
       {
         "source": "/art",
+        "target": "/art/llm-topology",
+        "type": "contains-article"
+      },
+      {
+        "source": "/art",
         "target": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
         "type": "contains-article"
       },
@@ -4253,11 +4258,6 @@
       {
         "source": "/art",
         "target": "/art/visibility-under-hostile-conditions",
-        "type": "contains-article"
-      },
-      {
-        "source": "/art",
-        "target": "/art/llm-topology",
         "type": "contains-article"
       },
       {
@@ -4856,6 +4856,18 @@
       "priority": 0.8
     },
     {
+      "path": "/art/llm-topology",
+      "url": "https://decrepitfilth.art/art/llm-topology",
+      "kind": "article",
+      "source": {
+        "resource": "/graph.json",
+        "collection": "articles",
+        "key": "slug",
+        "value": "llm-topology"
+      },
+      "lastModified": "2026-11-20"
+    },
+    {
       "path": "/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
       "url": "https://decrepitfilth.art/art/seo-is-an-information-retrieval-engineering-problem-not-a-content-marketing-problem",
       "kind": "article",
@@ -5382,18 +5394,6 @@
         "value": "visibility-under-hostile-conditions"
       },
       "lastModified": "2026-07-08"
-    },
-    {
-      "path": "/art/llm-topology",
-      "url": "https://decrepitfilth.art/art/llm-topology",
-      "kind": "article",
-      "source": {
-        "resource": "/graph.json",
-        "collection": "articles",
-        "key": "slug",
-        "value": "llm-topology"
-      },
-      "lastModified": "2026-11-20"
     },
     {
       "path": "/art/project/chatgpt-structural-failure",

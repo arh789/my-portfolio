@@ -5,8 +5,7 @@ export const CUSTOM_ARTICLES = [
         title: "LLM Topology: Reconstructing Semantic Networks from Transformer States",
         description:
             "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
-        // No publication date until this draft is released.
-        date: "",
+        date: "2026-11-20",
         lastModified: "2026-11-20",
         tags: [
             "llm-structural-analysis",

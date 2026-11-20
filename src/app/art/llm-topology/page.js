@@ -218,7 +218,7 @@ export default function LlmTopologyArticle() {
 
                 <section className={styles.section} id="method">
                     <SectionHead n="05" eyebrow="Research methodology and source code" title="How we analysed transformer hidden states and reconstructed semantic networks">
-                        The R020 pipeline uses Python and JavaScript to turn numerical transformer representations into inspectable token graphs and candidate semantic relationships. <Link href="/art/sda-3-analysing-embedding-space-structure-in-large-language-models">SDA-3</Link> addresses the corresponding black-box problem when hidden states cannot be inspected directly.
+                        The R020 pipeline uses Python and JavaScript to turn numerical transformer representations into inspectable token graphs and candidate semantic relationships. <Link href="/art/sda-3-analysing-embedding-space-structure-in-large-language-models">SDA-3</Link> addresses the corresponding black-box problem when hidden states cannot be inspected directly. That black-box approach is demonstrated in the <Link href="/art/project/chatgpt-structural-failure">How to Stop ChatGPT From Lying</Link> investigation through a zombie-survival stress test.
                     </SectionHead>
                     <p className={styles.methodOverview}><strong>Programming languages and libraries:</strong> Python powers model execution and numerical analysis with <strong>PyTorch</strong>, <strong>Hugging Face Transformers</strong>, <strong>NumPy</strong> and <strong>pandas</strong>. <strong>NetworkX</strong> constructs the graphs and runs Louvain community detection. <strong>JavaScript (Node.js)</strong> performs a separate semantic reconstruction from the recorded evidence. The pipeline stores reusable data as <strong>CSV</strong>, <strong>JSON</strong> and <strong>Safetensors</strong> files. The experiment used a <a href="https://huggingface.co/EleutherAI/pythia-70m/tree/a39f36b100fe8a5377810d56c3f4789b9c53ac42" target="_blank" rel="noopener noreferrer">revision-pinned Pythia 70M snapshot</a>, documented in the <SourceLink href={r020 + "/run_config.json"}>R020 run configuration</SourceLink>.</p>
                     <div className={styles.methodSteps}>
@@ -340,7 +340,7 @@ if(affinity<0.30||e.token_edge_count<30)continue;`}</code></pre>
                         <p className={styles.kicker}>Continue through the research</p>
                         <div className={styles.projectLinks}>
                             <Link href="/art/project/sda3-structural-extraction">SDA-3 and structural extraction</Link>
-                            <Link href="/art/project/chatgpt-structural-failure">ChatGPT structural failure</Link>
+                            <Link href="/art/project/chatgpt-structural-failure">How to Stop ChatGPT From Lying</Link>
                             <Link href="/art/project/finding-hidden-structure-in-large-content-corpora">Finding hidden structure in large corpora</Link>
                         </div>
                     </nav>
