@@ -135,8 +135,8 @@ export default function LlmTopologyArticle() {
                     <h1>How can you search for what you do not know exists?</h1>
                     <p>Ask a language model a simple question, and sometimes it gives you a stupid answer. But that answer is only the visible result of a much richer process. As the model generates its response, its <Link href="/art/hidden-representations-without-hidden-layers">intermediate states</Link> contain associations between ideas that may never appear in the words it produces.</p>
                     <p className={styles.openQuestion}>What if we could <Link href="/datamining-llm">reconstruct those associations as a network</Link>, and use that network to discover things we didn&apos;t know to look for?</p>
-                    <p>To explore this, we asked <a href="https://huggingface.co/EleutherAI/pythia-70m" target="_blank" rel="noopener noreferrer"><strong>Pythia 70M</strong></a>, a very small open-weights language model, why a city would build a bridge across a river. It <Link href="/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it">failed to give a meaningful answer</Link>.</p>
-                    <p>Yet when we examined its intermediate states, we uncovered a much broader network of concepts and relationships, including possibilities the model never managed to express in its response.</p>
+                    <p>To test this, we asked <a href="https://huggingface.co/EleutherAI/pythia-70m" target="_blank" rel="noopener noreferrer"><strong>Pythia 70M</strong></a>, a deliberately weak, small open-weights language model, why a city would build a bridge across a river. It failed to explain why, as the recorded response below shows.</p>
+                    <p>This was a feasibility experiment: could we reconstruct and explore semantic relationships the model did not manage to express in its answer? The captured states gave us a wider map to investigate, not a hidden finished answer.</p>
                     <nav className={styles.jumpNav} aria-label="Article sections">
                         <span>Jump to</span>
                         <Link href="#experiment">Experiment</Link>
@@ -150,7 +150,7 @@ export default function LlmTopologyArticle() {
 
                 <section className={styles.section} id="experiment">
                     <SectionHead n="02" eyebrow="The experiment" title="A simple question. A stupid answer.">
-                        The experiment asked a small language model one ordinary question. The prompt and its continuation were saved exactly.
+                        The intentionally weak model gave us a useful contrast between its generated answer and its internal representations. Its open weights allowed direct inspection; its small size made comprehensive state capture practical. We kept the exact prompt and continuation without correcting the result.
                     </SectionHead>
                     <div className={styles.experimentTranscript} aria-label="Experimental question and model response">
                         <div className={styles.transcriptStep}>
@@ -169,39 +169,40 @@ export default function LlmTopologyArticle() {
                         </div>
                     </div>
                     <p className={styles.transition}>The answer goes nowhere.</p>
-                    <p className={styles.recordingExplanation}>We recorded the model&apos;s changing internal representations as it generated those 32 tokens. From them, we constructed networks showing which associated concepts appeared together, and how the connections changed.</p>
+                    <p className={styles.recordingExplanation}>We recorded eight states for each of the model&apos;s 32 next-token decisions: the input embedding, six transformer-block outputs and the final normalised state. Greedy decoding means choosing the highest-scoring next token each time, without random sampling. Those measurements supplied the networks we reconstructed and explored.</p>
                     <p className={styles.smallSource}><SourceLink href={r020 + "/prompt_records.json"}>Exact input, generated text and token record</SourceLink></p>
                 </section>
 
                 <section className={styles.section + " " + styles.discoverySection} id="network">
                     <SectionHead n="03" eyebrow="The discovery" title="What was happening inside the model?">
-                        The generated response contained no useful information about why a bridge would be built. Yet networks reconstructed from the model&apos;s intermediate states during generation provided somewhere else to look.
+                        The response did not explain the bridge, but the recorded states exposed associations it never expressed. The raw networks also contain punctuation and word fragments, so the main explorer presents a derived semantic map rather than making readers start with every token community.
                     </SectionHead>
+                    <p className={styles.recordingExplanation}>We first connected related tokens and grouped them into communities, then reconstructed candidate concepts from their vocabulary and measured links. The derived map consolidates these into <strong>14 named concepts and 53 traceable relationships</strong>, with a smaller contextual subset shown initially. Select a concept to explore its connections; the underlying measured networks remain available for closer inspection.</p>
                     <SemanticNetworkExplorer />
                 </section>
 
                 <section className={styles.section} id="adjacent">
                     <SectionHead n="04" eyebrow="Follow the unexpected branches" title="What else does the network reveal?">
-                        Some associations are familiar. Others make the next question less obvious — and potentially more interesting.
+                        Some associations are familiar. Others make the next question less obvious — and potentially more interesting. These examples distinguish the derived semantic map from the underlying measured networks, so the reader can find the relationships being discussed.
                     </SectionHead>
                     <div className={styles.findings}>
                         <div>
                             <span>01 / Disruption</span>
                             <h3>Why do rebuilding and catastrophe appear near bridges?</h3>
-                            <p>In the bridge neighbourhood, journeys connect to the bridge with <strong>120</strong> measured edges. Disruption connects with <strong>125</strong>; its community also links to reconstruction with <strong>67</strong>. That opens questions about repairs, flooding and infrastructure recovery — none of which the answer mentions.</p>
+                            <p>Switch the derived map to <strong>Input embedding S00</strong> to follow crossings, disruption and reconstruction. In the underlying <strong>D06 / S00 / positive</strong> network, the bridge community connects to journeys through <strong>120</strong> measured token-neighbour edges and to disruption through <strong>125</strong>; disruption links to rebuilding through <strong>67</strong>. These associations were already present at the input-embedding stage, yet the answer never mentioned them.</p>
                         </div>
                         <div>
                             <span>02 / Human activity</span>
                             <h3>What else connects settlements and movement?</h3>
-                            <p>The wider reconstruction contains inhabitants, roads, boats, built places and business-related vocabulary. These associations suggest investigating what infrastructure enables for people and communities, rather than treating a bridge solely as an object spanning water.</p>
+                            <p>In the default <strong>Contextual states S01–S05</strong> map, start with <strong>Connections and crossings</strong> and expand through <strong>Movement and routes</strong>, <strong>Settlements</strong>, <strong>Built places</strong>, <strong>Inhabitants</strong> and <strong>Commerce</strong>. The measured relationships invite a wider question: what does infrastructure enable for the people and places it connects?</p>
                         </div>
                         <div>
                             <span>03 / Unresolved</span>
                             <h3>What is the mathematical branch doing there?</h3>
-                            <p>At a later intermediate state, a connections community links to mathematical vocabulary including Poisson, Riemannian and manifold. The recorded link has <strong>74</strong> token-neighbour edges. Its significance is not established. That is a reason to inspect it, not to remove it from the map.</p>
+                            <p>This branch is outside the derived map&apos;s current selection, but remains in the raw evidence. Open <strong>Inspect the underlying measured community networks</strong> and select <strong>Inspect the mathematics branch</strong> to reach <strong>D32 / S05 / positive</strong>. There, a connections community (C7) links to mathematical vocabulary including Poisson, Riemannian and manifold (C12) through <strong>74</strong> token-neighbour edges. Whether to pursue that unexpected association is the reader&apos;s decision.</p>
                         </div>
                     </div>
-                    <p className={styles.sectionAfter}>The discovery is not a secret finished answer concealed in the model. It is the ability to see candidate relationships beyond the answer and choose which ones deserve investigation.</p>
+                    <p className={styles.sectionAfter}>The result was not a secret finished answer hidden inside Pythia. We demonstrated a working way to reconstruct associations absent from its response, organise them into a navigable map and let a person decide what deserves investigation. That establishes feasibility without deciding in advance which relationships will prove useful.</p>
                 </section>
 
                 <section className={styles.section} id="method">
@@ -221,6 +222,7 @@ export default function LlmTopologyArticle() {
                             </div>
                         ))}
                     </div>
+                    <p className={styles.recordingExplanation}>The article&apos;s derived semantic graph is a further processing step. A Python exporter combines the existing, classified community relationships into concept-level connections and checks their supporting community edges against the recorded measurements. Each concept link retains its source evidence. <SourceLink href="https://github.com/arh789/my-portfolio/blob/draft/llm-topology-visual-v1-20261119/scripts/buildR020Explorer.py#L394-L557">Inspect the derived-map exporter</SourceLink>.</p>
                     <div className={styles.methodCodeExamples}>
                         <div className={styles.methodExample}>
                             <div className={styles.methodExampleHeader}>
@@ -296,7 +298,7 @@ if(affinity<0.30||e.token_edge_count<30)continue;`}</code></pre>
                             </div>
                         ))}
                     </div>
-                    <p className={styles.evidenceBoundary}>The token communities and edges are measured or calculated from the captured model states. The higher-order family names and their possible meaning are interpretations. The experiments test those interpretations; they do not turn every interesting connection into an established explanation.</p>
+                    <p className={styles.evidenceBoundary}>R020 established that we could capture the internal states, reconstruct their networks, trace the reported connections and make a derived semantic map available for exploration. Its graph connections come from measured data; the concept names are interpretations. The human decides which associations are interesting enough to follow, while the evidence determines what can be established about them.</p>
                 </section>
 
                 <section className={styles.section} id="human">
@@ -316,7 +318,7 @@ if(affinity<0.30||e.token_edge_count<30)continue;`}</code></pre>
                 <footer className={styles.articleEnd}>
                     <p className={styles.kicker}>Back to the opening question</p>
                     <h2>You cannot search directly for a relationship you do not know exists. You can explore a map that makes it visible.</h2>
-                    <p>The value of the intermediate-state analysis is not that it supplies every answer. It is that it opens up directions of enquiry the final generated response never presented.</p>
+                    <p>Even when this deliberately weak model produced a poor answer, we could reconstruct and explore associations its response did not express. R020 established that this kind of exploratory instrument is possible. Its value lies in giving a person new relationships to notice, questions to ask and directions to investigate.</p>
                     <div className={styles.footerLinks}>
                         <SourceLink href={r020Analysis + "/R020_VERIFIED_CONSOLIDATED_SEMANTIC_MAP.md"}>R020 verified semantic map</SourceLink>
                         <SourceLink href={research + "/ARTICLE_EVIDENCE_INDEX.md"}>Claim–evidence index</SourceLink>
