@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-11-20T07:16:44.786Z",
+  "generatedAt": "2026-11-20T07:42:06.171Z",
   "site": {
     "name": "Decrepit Filth",
     "url": "https://decrepitfilth.art",
@@ -5213,7 +5213,7 @@
         "key": "slug",
         "value": "research-pipeline"
       },
-      "lastModified": "2026-10-14"
+      "lastModified": "2026-11-20"
     },
     {
       "path": "/art/who-benefits-most-from-this-system",
@@ -5441,7 +5441,7 @@
         "key": "slug",
         "value": "semantic-seo-graph-positioning"
       },
-      "lastModified": "2026-11-01"
+      "lastModified": "2026-11-20"
     },
     {
       "path": "/art/project/seer-clown-research",
@@ -5453,7 +5453,7 @@
         "key": "slug",
         "value": "seer-clown-research"
       },
-      "lastModified": "2026-10-14"
+      "lastModified": "2026-11-20"
     },
     {
       "path": "/art/project/finding-hidden-structure-in-large-content-corpora",
@@ -5465,7 +5465,7 @@
         "key": "slug",
         "value": "finding-hidden-structure-in-large-content-corpora"
       },
-      "lastModified": "2026-10-31"
+      "lastModified": "2026-11-20"
     }
   ]
 }
