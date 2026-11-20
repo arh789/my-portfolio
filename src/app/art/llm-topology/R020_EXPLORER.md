@@ -1,6 +1,6 @@
 # R020 semantic network explorer
 
-Open **The discovery** in the article at /art/llm-topology#r020-explorer. The default is a derived semantic map reconstructed from the R020 functional-hypothesis records. Nodes consolidate semantic concepts across measured communities. Edges aggregate only recorded cross-community links carrying the two displayed classifications. The default scope uses prompt-related candidates from contextual states S01–S05, with filters for input, output-proximal, adjacent cross-domain and anti-aligned evidence.
+Open **The discovery** in the article at /art/llm-topology#r020-explorer. The default is a derived semantic map reconstructed from the R020 functional-hypothesis records. Nodes consolidate semantic concepts across measured communities. Edges aggregate only recorded cross-community links carrying the two displayed classifications. The default scope uses prompt-related candidates across all recorded states S00–S07 and all 32 generation decisions, with filters for input, contextual, output-proximal, adjacent cross-domain and anti-aligned evidence.
 
 Punctuation, formatting and unresolved tokenizer communities do not enter the derived map. Select a concept to inspect its evidence terms and measured relationships. Selecting a relationship exposes each supporting decision, state, cosine sector, community pair, token-edge count, affinity and semantic-source record.
 
@@ -28,7 +28,7 @@ The package under public/llm-topology-r020 contains the derived semantic map, 32
 
 - The semantic default contains prompt-related candidate concepts only and contains no punctuation or formatting nodes.
 - Every displayed semantic relationship has at least one directly measured community edge and an inspectable evidence record.
-- The default contextual view starts at **Connections and crossings**, with four strongest neighbouring concepts available before full-map expansion.
+- The all-states default starts at **Connections and crossings**, with all 10 prompt-related concepts and 28 relationships visible.
 - D06/S00 positive starts with 5 of 14 communities and 10 of 91 connections. Expanding the initial community reveals all 91.
 - The peripheral C1–C13 connection has 18 undirected token edges. Its supporting-token view exposes the contributing token IDs and the recorded directed neighbour lists.
 - The disruption–reconstruction link C4–C11 has 67 edges at D06/S00 positive. The connections–mathematics link C7–C12 has 74 at D32/S05 positive. These are optional article examples.

@@ -205,7 +205,7 @@ export default function LlmTopologyArticle() {
                         <div>
                             <span>02 / Human activity</span>
                             <h3>What else connects settlements and movement?</h3>
-                            <p>In the default <strong>Contextual states S01–S05</strong> map, start with <strong>Connections and crossings</strong> and expand through <strong>Movement and routes</strong>, <strong>Settlements</strong>, <strong>Built places</strong>, <strong>Inhabitants</strong> and <strong>Commerce</strong>. The measured relationships invite a wider question: what does infrastructure enable for the people and places it connects?</p>
+                            <p>In the default <strong>All recorded states</strong> map, follow <strong>Connections and crossings</strong> through <strong>Movement and routes</strong>, <strong>Settlements</strong>, <strong>Built places</strong>, <strong>Inhabitants</strong> and <strong>Commerce</strong>. The measured relationships invite a wider question: what does infrastructure enable for the people and places it connects?</p>
                         </div>
                         <div>
                             <span>03 / Unresolved</span>
@@ -233,7 +233,7 @@ export default function LlmTopologyArticle() {
                             </div>
                         ))}
                     </div>
-                    <p className={styles.recordingExplanation}>The article&apos;s derived semantic graph is a further processing step. A Python exporter combines the existing, classified community relationships into concept-level connections and checks their supporting community edges against the recorded measurements. Each concept link retains its source evidence. <SourceLink href="https://github.com/arh789/my-portfolio/blob/draft/llm-topology-visual-v1-20261119/scripts/buildR020Explorer.py#L394-L557">Inspect the derived-map exporter</SourceLink>.</p>
+                    <p className={styles.recordingExplanation}>The article&apos;s derived semantic graph is a further processing step. A Python exporter combines the existing, classified community relationships into concept-level connections and checks their supporting community edges against the recorded measurements. Each concept link retains its source evidence. <SourceLink href="https://github.com/arh789/my-portfolio/blob/main/scripts/buildR020Explorer.py#L394-L557">Inspect the derived-map exporter</SourceLink>.</p>
                     <div className={styles.methodCodeExamples}>
                         <div className={styles.methodExample}>
                             <div className={styles.methodExampleHeader}>
@@ -344,7 +344,7 @@ if(affinity<0.30||e.token_edge_count<30)continue;`}</code></pre>
                             <Link href="/art/project/finding-hidden-structure-in-large-content-corpora">Finding hidden structure in large corpora</Link>
                         </div>
                     </nav>
-                    <p className={styles.publicationNote}>The research repository is currently private. Public source access and immutable publication references remain separate publication tasks.</p>
+                    <p className={styles.publicationNote}>The research repository remains private; public source access and immutable research references are not currently available.</p>
                     <Link className={styles.backLink} href="/art">← Return to the research archive</Link>
                 </footer>
             </article>
