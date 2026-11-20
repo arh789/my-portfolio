@@ -97,6 +97,39 @@
     margin: 1.7rem 0 !important;
     max-width: 980px !important;
 }
+.jumpNav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    max-width: 1040px;
+    margin-top: 2.3rem;
+    padding-top: 1.3rem;
+    border-top: 1px solid var(--line);
+}
+.jumpNav > span {
+    flex-basis: 100%;
+    color: var(--muted);
+    font: 700 0.88rem/1.45 var(--mono);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.jumpNav a,
+.projectLinks a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.6rem;
+    padding: 0.56rem 0.8rem;
+    border: 1px solid rgba(149, 227, 199, 0.33);
+    color: var(--mint);
+    background: rgba(8, 14, 11, 0.42);
+    font: 700 0.9rem/1.35 var(--mono);
+    text-decoration: none;
+}
+.jumpNav a:hover,
+.projectLinks a:hover {
+    border-color: var(--mint);
+    background: rgba(149, 227, 199, 0.1);
+}
 .section {
     padding: clamp(3rem, 5.8vw, 5.5rem) clamp(1.25rem, 3.4vw, 3.25rem);
     scroll-margin-top: 1.5rem;
@@ -277,6 +310,9 @@
 .articleEnd { max-width: 1060px; padding-top: clamp(3rem, 6vw, 6rem); }
 .articleEnd h2 { max-width: 975px; font: 800 clamp(2rem, 3.65vw, 3.7rem)/1.12 var(--display); margin: 0.75rem 0 1.1rem; text-transform: uppercase; color: #fdfbed; }
 .articleEnd > p:not(.kicker):not(.publicationNote) { max-width: 790px; font-size: 1.14rem; }
+.continueResearch { max-width: 1020px; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.continueResearch > .kicker { margin-bottom: 0.85rem !important; }
+.projectLinks { display: flex; flex-wrap: wrap; gap: 0.65rem; }
 .publicationNote { margin-top: 1.8rem !important; font-size: 0.88rem; color: var(--muted); }
 .backLink { display: inline-block; font: 750 0.95rem var(--mono); margin-top: 1.8rem; }
 

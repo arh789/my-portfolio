@@ -78,3 +78,5 @@ SDA-3 treats an LLM as a black-box system. Its responses provide evidence from w
 ## Related analysis
 
 [Hidden Representations Without Hidden Layers](/art/hidden-representations-without-hidden-layers) examines how this behavioural approach differs from research that directly measures representations inside a model.
+
+The [LLM Topology experiment](/art/llm-topology) presents a separate open-model case in which intermediate states are measured directly. It is an empirical comparison, not evidence that SDA-3 recovers literal hidden activations.

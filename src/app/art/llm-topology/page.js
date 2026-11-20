@@ -133,10 +133,19 @@ export default function LlmTopologyArticle() {
                 <header className={styles.introduction}>
                     <p className={styles.kicker}>01 / The problem · LLM topology</p>
                     <h1>How can you search for what you do not know exists?</h1>
-                    <p>Ask a language model a simple question, and sometimes it gives you a stupid answer. But that answer is only the visible result of a much richer process. As the model generates its response, its intermediate states contain associations between ideas that may never appear in the words it produces.</p>
-                    <p className={styles.openQuestion}>What if we could reconstruct those associations as a network, and use that network to discover things we didn&apos;t know to look for?</p>
-                    <p>To explore this, we asked <a href="https://huggingface.co/EleutherAI/pythia-70m" target="_blank" rel="noopener noreferrer"><strong>Pythia 70M</strong></a>, a very small open-weights language model, why a city would build a bridge across a river. It failed to give a meaningful answer.</p>
+                    <p>Ask a language model a simple question, and sometimes it gives you a stupid answer. But that answer is only the visible result of a much richer process. As the model generates its response, its <Link href="/art/hidden-representations-without-hidden-layers">intermediate states</Link> contain associations between ideas that may never appear in the words it produces.</p>
+                    <p className={styles.openQuestion}>What if we could <Link href="/datamining-llm">reconstruct those associations as a network</Link>, and use that network to discover things we didn&apos;t know to look for?</p>
+                    <p>To explore this, we asked <a href="https://huggingface.co/EleutherAI/pythia-70m" target="_blank" rel="noopener noreferrer"><strong>Pythia 70M</strong></a>, a very small open-weights language model, why a city would build a bridge across a river. It <Link href="/art/zombie-survival-chatgpt-why-the-ai-lies-and-how-to-stop-it">failed to give a meaningful answer</Link>.</p>
                     <p>Yet when we examined its intermediate states, we uncovered a much broader network of concepts and relationships, including possibilities the model never managed to express in its response.</p>
+                    <nav className={styles.jumpNav} aria-label="Article sections">
+                        <span>Jump to</span>
+                        <Link href="#experiment">Experiment</Link>
+                        <Link href="#network">Network explorer</Link>
+                        <Link href="#adjacent">Unexpected branches</Link>
+                        <Link href="#method">Method and code</Link>
+                        <Link href="#evidence">Evidence</Link>
+                        <Link href="#human">Human–agent process</Link>
+                    </nav>
                 </header>
 
                 <section className={styles.section} id="experiment">
@@ -197,7 +206,7 @@ export default function LlmTopologyArticle() {
 
                 <section className={styles.section} id="method">
                     <SectionHead n="05" eyebrow="Research methodology and source code" title="How we analysed transformer hidden states and reconstructed semantic networks">
-                        The R020 pipeline uses Python and JavaScript to turn numerical transformer representations into inspectable token graphs and candidate semantic relationships.
+                        The R020 pipeline uses Python and JavaScript to turn numerical transformer representations into inspectable token graphs and candidate semantic relationships. <Link href="/art/sda-3-analysing-embedding-space-structure-in-large-language-models">SDA-3</Link> addresses the corresponding black-box problem when hidden states cannot be inspected directly.
                     </SectionHead>
                     <p className={styles.methodOverview}><strong>Programming languages and libraries:</strong> Python powers model execution and numerical analysis with <strong>PyTorch</strong>, <strong>Hugging Face Transformers</strong>, <strong>NumPy</strong> and <strong>pandas</strong>. <strong>NetworkX</strong> constructs the graphs and runs Louvain community detection. <strong>JavaScript (Node.js)</strong> performs a separate semantic reconstruction from the recorded evidence. The pipeline stores reusable data as <strong>CSV</strong>, <strong>JSON</strong> and <strong>Safetensors</strong> files. The experiment used a <a href="https://huggingface.co/EleutherAI/pythia-70m/tree/a39f36b100fe8a5377810d56c3f4789b9c53ac42" target="_blank" rel="noopener noreferrer">revision-pinned Pythia 70M snapshot</a>, documented in the <SourceLink href={r020 + "/run_config.json"}>R020 run configuration</SourceLink>.</p>
                     <div className={styles.methodSteps}>
@@ -273,7 +282,7 @@ if(affinity<0.30||e.token_edge_count<30)continue;`}</code></pre>
 
                 <section className={styles.section} id="evidence">
                     <SectionHead n="06" eyebrow="Evidence and controls" title="Does the reconstructed structure stand up to scrutiny?">
-                        The bridge example shows why inspection might be useful. Earlier experiments tested how much of the reconstruction survives when the input, context and execution conditions change.
+                        The bridge example shows why inspection might be useful. Earlier experiments tested how much of the reconstruction survives when the input, context and execution conditions change. The <Link href="/art/structural-extraction-protocol">Structural Extraction Protocol</Link> describes the related black-box method for applying pressure to an interpretation.
                     </SectionHead>
                     <div className={styles.evidenceRows}>
                         {checks.map((item) => (
@@ -297,7 +306,7 @@ if(affinity<0.30||e.token_edge_count<30)continue;`}</code></pre>
                     <p>In the R014–R015 experiments, four original concepts were replaced with neighbouring ones. Six higher-order semantic families were reconstructed again, including process/change and information structures that were not supplied as seed concepts. The human then asked the agent to investigate the map from different structural directions:</p>
                     <blockquote className={styles.humanQuestion}>Based on that map, what tokens are central and what are adjacent? What logically emerges from this network? What logically should be there but isn&apos;t? When this network is treated purely as a vector, without trying to force coherence, what else highly correlates with it?</blockquote>
                     <p>The resulting investigation treated process/change as a potentially important organising family in the changed network. Instead of receiving an answer and stopping, the human used an unfamiliar structure to formulate another question, with the agent reconstructing the evidence in response.</p>
-                    <p>That is the division of labour the project made visible: the analysis exposes possibilities; the human recognises what might matter and directs further investigation; the evidence decides which interpretations survive.</p>
+                    <p>That is the division of labour the project made visible: the analysis exposes possibilities; the human recognises what might matter and directs further investigation; the evidence decides which interpretations survive. <Link href="/art/from-seo-keywords-to-the-haunted-machine">From SEO Keywords to the Haunted Machine</Link> follows the same human–agent discovery process in a different research setting.</p>
                     <div className={styles.humanSources}>
                         <SourceLink href={research + "/META_ANALYSIS.md"}>Human–agent meta-analysis</SourceLink>
                         <SourceLink href={r015 + "/R014_R015_COMPARISON.md"}>R014–R015 reconstruction comparison</SourceLink>
@@ -314,6 +323,14 @@ if(affinity<0.30||e.token_edge_count<30)continue;`}</code></pre>
                         <SourceLink href={research + "/REPRODUCIBILITY.md"}>Reproducibility</SourceLink>
                         <SourceLink href={repository}>Research repository</SourceLink>
                     </div>
+                    <nav className={styles.continueResearch} aria-label="Continue through related research">
+                        <p className={styles.kicker}>Continue through the research</p>
+                        <div className={styles.projectLinks}>
+                            <Link href="/art/project/sda3-structural-extraction">SDA-3 and structural extraction</Link>
+                            <Link href="/art/project/chatgpt-structural-failure">ChatGPT structural failure</Link>
+                            <Link href="/art/project/finding-hidden-structure-in-large-content-corpora">Finding hidden structure in large corpora</Link>
+                        </div>
+                    </nav>
                     <p className={styles.publicationNote}>The research repository is currently private. Public source access and immutable publication references remain separate publication tasks.</p>
                     <Link className={styles.backLink} href="/art">← Return to the research archive</Link>
                 </footer>
