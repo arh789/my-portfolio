@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import R020GraphCanvas from "./R020GraphCanvas";
 import { decisionLabel, stateLabel, traceToken } from "./r020ExplorerData";
 import styles from "./SemanticNetworkExplorer.module.css";
@@ -114,27 +114,38 @@ function evidenceTitle(item) {
         + " · C" + item.communityA + "–C" + item.communityB;
 }
 
+function defaultSelection(view) {
+    if (!view.concepts.length) {
+        return { role: preferredStart, visibleRoles: new Set(), selectedEdge: "" };
+    }
+    const role = view.byRole.has(preferredStart) ? preferredStart : view.concepts[0].id;
+    const neighbours = view.edgesByRole.get(role).slice(0, 4).map((edge) =>
+        edge.source === role ? edge.target : edge.source);
+    return {
+        role,
+        visibleRoles: new Set([role, ...neighbours]),
+        selectedEdge: view.edgesByRole.get(role)[0]?.id ?? "",
+    };
+}
+
 export default function R020SemanticExplorer({ data, index }) {
     const [scope, setScope] = useState("question");
     const [phase, setPhase] = useState("contextual");
     const [decision, setDecision] = useState(0);
     const view = useMemo(() => buildView(data, scope, phase, decision), [data, scope, phase, decision]);
-    const [focusRole, setFocusRole] = useState(preferredStart);
-    const [visibleRoles, setVisibleRoles] = useState(new Set());
-    const [selectedEdge, setSelectedEdge] = useState("");
+    const [focusRole, setFocusRole] = useState(() => defaultSelection(view).role);
+    const [visibleRoles, setVisibleRoles] = useState(() => defaultSelection(view).visibleRoles);
+    const [selectedEdge, setSelectedEdge] = useState(() => defaultSelection(view).selectedEdge);
     const [fit, setFit] = useState(0);
     const elements = useMemo(() => semanticElements(view), [view]);
 
-    useEffect(() => {
-        if (!view.concepts.length) return;
-        const role = view.byRole.has(preferredStart) ? preferredStart : view.concepts[0].id;
-        const neighbours = view.edgesByRole.get(role).slice(0, 4).map((edge) =>
-            edge.source === role ? edge.target : edge.source);
-        setFocusRole(role);
-        setVisibleRoles(new Set([role, ...neighbours]));
-        setSelectedEdge(view.edgesByRole.get(role)[0]?.id ?? "");
+    function resetSelection(nextView) {
+        const next = defaultSelection(nextView);
+        setFocusRole(next.role);
+        setVisibleRoles(next.visibleRoles);
+        setSelectedEdge(next.selectedEdge);
         setFit((value) => value + 1);
-    }, [view]);
+    }
 
     const controls = <>
         <div className={styles.semanticIntro}>
@@ -144,14 +155,22 @@ export default function R020SemanticExplorer({ data, index }) {
         </div>
         <div className={styles.semanticFilters}>
             <label>Map scope
-                <select value={scope} onChange={(event) => setScope(event.target.value)}>
+                <select value={scope} onChange={(event) => {
+                    const nextScope = event.target.value;
+                    setScope(nextScope);
+                    resetSelection(buildView(data, nextScope, phase, decision));
+                }}>
                     <option value="question">Prompt-related candidates</option>
                     <option value="adjacent">Add adjacent cross-domain candidates</option>
                     <option value="all">Add anti-aligned candidates</option>
                 </select>
             </label>
             <label>Transformer phase
-                <select value={phase} onChange={(event) => setPhase(event.target.value)}>
+                <select value={phase} onChange={(event) => {
+                    const nextPhase = event.target.value;
+                    setPhase(nextPhase);
+                    resetSelection(buildView(data, scope, nextPhase, decision));
+                }}>
                     <option value="contextual">Contextual states S01–S05</option>
                     <option value="input">Input embedding S00</option>
                     <option value="output_proximal">Output-proximal S06–S07</option>
@@ -159,7 +178,11 @@ export default function R020SemanticExplorer({ data, index }) {
                 </select>
             </label>
             <label>Generation decision
-                <select value={decision} onChange={(event) => setDecision(Number(event.target.value))}>
+                <select value={decision} onChange={(event) => {
+                    const nextDecision = Number(event.target.value);
+                    setDecision(nextDecision);
+                    resetSelection(buildView(data, scope, phase, nextDecision));
+                }}>
                     <option value={0}>All 32 decisions</option>
                     {index.decisions.map(({ id, input, prediction }) => <option key={id} value={id}>
                         {decisionLabel(id)} · {traceToken(input)} predicts {traceToken(prediction)}
@@ -196,13 +219,7 @@ export default function R020SemanticExplorer({ data, index }) {
     }
 
     function reset() {
-        const role = view.byRole.has(preferredStart) ? preferredStart : view.concepts[0].id;
-        const neighbours = view.edgesByRole.get(role).slice(0, 4).map((edge) =>
-            edge.source === role ? edge.target : edge.source);
-        setFocusRole(role);
-        setVisibleRoles(new Set([role, ...neighbours]));
-        setSelectedEdge(view.edgesByRole.get(role)[0]?.id ?? "");
-        setFit((value) => value + 1);
+        resetSelection(view);
     }
 
     return (
