@@ -16,6 +16,82 @@ from pathlib import Path
 
 RUN = "R020_pythia-70m-representation-output-contrast"
 SECTORS = {"positive_head": "p", "negative_tail": "n"}
+SEMANTIC_SHARDS = tuple(
+    f"R020_FUNCTIONAL_HYPOTHESIS_D{lower:02d}-{lower + 7:02d}.json"
+    for lower in range(1, 33, 8)
+)
+ROLE_METADATA = {
+    "connection_crossing": {
+        "label": "Connections and crossings",
+        "description": "Links, crossings, bridges and other joining structures.",
+        "group": "connection",
+    },
+    "movement_routes": {
+        "label": "Movement and routes",
+        "description": "Travel, passage, transport and routes between places.",
+        "group": "movement",
+    },
+    "settlement": {
+        "label": "Settlements",
+        "description": "Cities, towns, districts and inhabited places.",
+        "group": "place",
+    },
+    "built_places": {
+        "label": "Built places",
+        "description": "Buildings, streets and constructed environments.",
+        "group": "place",
+    },
+    "inhabitants": {
+        "label": "Inhabitants",
+        "description": "People, residents and communities occupying places.",
+        "group": "people",
+    },
+    "water_terrain": {
+        "label": "Water and terrain",
+        "description": "Rivers, waterways, landforms and surrounding terrain.",
+        "group": "environment",
+    },
+    "hazards": {
+        "label": "Hazards and disruption",
+        "description": "Floods, damage, catastrophe and disruptive events.",
+        "group": "constraint",
+    },
+    "repair_reconstruction": {
+        "label": "Repair and reconstruction",
+        "description": "Rebuilding, restoration, renovation and stabilisation.",
+        "group": "response",
+    },
+    "commerce": {
+        "label": "Commerce",
+        "description": "Trade, business and economic activity.",
+        "group": "activity",
+    },
+    "engineering_governance": {
+        "label": "Engineering and governance",
+        "description": "Construction, planning, regulation and institutional control.",
+        "group": "constraint",
+    },
+    "evaluation": {
+        "label": "Evaluation",
+        "description": "Assessment, judgement, intensity and evaluative language.",
+        "group": "adjacent",
+    },
+    "scholarship": {
+        "label": "Scholarship",
+        "description": "Research, expertise, academic work and knowledge production.",
+        "group": "adjacent",
+    },
+    "biology": {
+        "label": "Biology and medicine",
+        "description": "Biological, clinical and medical associations.",
+        "group": "adjacent",
+    },
+    "operations": {
+        "label": "Operations and control",
+        "description": "Operational actions, control, activation and regulation.",
+        "group": "adjacent",
+    },
+}
 MEASUREMENT_FILES = (
     "run_config.json", "measurement_results.json", "generation_trace.csv",
     "network_index.csv", "community_nodes.csv", "community_edges.csv",
@@ -307,6 +383,180 @@ def load_correspondences(run, graphs, memberships):
     return count
 
 
+def semantic_phase(state):
+    if state == 0:
+        return "input"
+    if state <= 5:
+        return "contextual"
+    return "output_proximal"
+
+
+def load_semantic_map(run, graphs, source_commit):
+    analysis = run / "analysis"
+    trajectory_path = analysis / "R020_CROSS_GENERATION_HYPOTHESIS_TRAJECTORY.json"
+    trajectory = read_json(trajectory_path)
+    require(trajectory["run_id"] == RUN and trajectory["source_measurement_commit"] == source_commit,
+            "Semantic reconstruction does not match the measured run")
+    require(trajectory["coverage"]["measured_networks"] == len(graphs)
+            and trajectory["coverage"]["all_original_communities"] == sum(len(g["nodes"]) for g in graphs.values()),
+            "Semantic reconstruction coverage differs from the measured graph")
+
+    expected = {item["path"]: item["git_blob_sha"] for item in trajectory["checkpoints"]}
+    require(set(expected) == set(SEMANTIC_SHARDS), "Unexpected semantic checkpoint set")
+    source_hashes = {"analysis/R020_CROSS_GENERATION_HYPOTHESIS_TRAJECTORY.json": file_digest(trajectory_path)}
+    decisions = {}
+    for name in SEMANTIC_SHARDS:
+        path = analysis / name
+        blob = file_digest(path, "sha1", f"blob {path.stat().st_size}\0".encode())
+        require(blob == expected[name], f"Semantic checkpoint hash mismatch: {name}")
+        source_hashes[f"analysis/{name}"] = file_digest(path)
+        shard = read_json(path)
+        require(shard["source_run_id"] == RUN
+                and shard["source_community_network_git_blob_sha"]
+                == trajectory["source_community_network_git_blob_sha"],
+                f"{name}: semantic checkpoint source differs")
+        for decision in shard["decision_maps"]:
+            number = int(decision["decision"])
+            require(number not in decisions, f"Repeated semantic decision D{number:02d}")
+            decisions[number] = (name, decision)
+    require(set(decisions) == set(range(1, 33)), "Semantic decision coverage is incomplete")
+
+    field_kinds = (
+        ("semantic_relations", "question_related"),
+        ("background_relations", "adjacent_cross_domain"),
+        ("negative_sector_relation_candidates", "anti_aligned_candidate"),
+    )
+    evidence_seen = set()
+    relationships = {}
+    concept_evidence = defaultdict(list)
+    semantic_pairs = defaultdict(set)
+
+    for decision_number, (source_file, decision) in sorted(decisions.items()):
+        for field, kind in field_kinds:
+            for relation in decision[field]:
+                statuses = relation.get("status")
+                for observation in relation["evidence"]:
+                    state = int(observation["state"])
+                    sector = observation["sector"]
+                    community_a, community_b = map(int, observation["communities"])
+                    role_a, role_b = observation["role_a"], observation["role_b"]
+                    require(role_a in ROLE_METADATA and role_b in ROLE_METADATA and role_a != role_b,
+                            f"D{decision_number:02d}: unknown or repeated semantic role")
+                    graph = graphs[key_for(decision_number, state, sector)]
+                    require(community_a in graph["nodes"] and community_b in graph["nodes"],
+                            f"D{decision_number:02d}/S{state:02d}: semantic community is missing")
+                    measured = next((edge for edge in graph["edges"]
+                                     if {edge["a"], edge["b"]} == {community_a, community_b}), None)
+                    require(measured is not None and measured["count"] == int(observation["token_edges"])
+                            and math.isclose(measured["affinity"], float(observation["affinity"]), abs_tol=0.0006),
+                            f"D{decision_number:02d}/S{state:02d}: semantic edge differs from measurement")
+                    identity = (kind, decision_number, state, sector, community_a, community_b, role_a, role_b)
+                    require(identity not in evidence_seen, "Repeated semantic evidence record")
+                    evidence_seen.add(identity)
+                    source = {
+                        "decision": decision_number,
+                        "state": state,
+                        "phase": semantic_phase(state),
+                        "sector": sector,
+                        "communityA": community_a,
+                        "communityB": community_b,
+                        "roleA": role_a,
+                        "roleB": role_b,
+                        "tokensA": observation.get("tokens_a", []),
+                        "tokensB": observation.get("tokens_b", []),
+                        "tokenEdges": measured["count"],
+                        "affinity": round(measured["affinity"], 6),
+                        "meanCosine": round(measured["meanCosine"], 6),
+                        "kind": kind,
+                        "status": statuses,
+                        "sourceFile": f"analysis/{source_file}",
+                    }
+                    pair = tuple(sorted((role_a, role_b)))
+                    edge = relationships.setdefault(pair, {"source": pair[0], "target": pair[1], "evidence": []})
+                    edge["evidence"].append(source)
+                    concept_evidence[role_a].append((source, observation.get("tokens_a", []), community_a))
+                    concept_evidence[role_b].append((source, observation.get("tokens_b", []), community_b))
+                    if kind == "question_related":
+                        semantic_pairs[pair].add(decision_number)
+
+    trajectory_pairs = {
+        tuple(sorted(item["pair"].split(" ↔ "))): set(item["decisions"])
+        for item in trajectory["cross_generation_relations"]
+    }
+    require(trajectory_pairs == dict(semantic_pairs),
+            "Question-related semantic pairs differ from the consolidated trajectory")
+
+    concepts = []
+    for role, observations in sorted(concept_evidence.items()):
+        tokens = Counter(token for _, exemplars, _ in observations for token in exemplars)
+        community_refs = {
+            (source["decision"], source["state"], source["sector"], community)
+            for source, _, community in observations
+        }
+        kinds = Counter(source["kind"] for source, _, _ in observations)
+        metadata = ROLE_METADATA[role]
+        concepts.append({
+            "id": role,
+            **metadata,
+            "evidenceCount": len(observations),
+            "communityCount": len(community_refs),
+            "decisions": sorted({source["decision"] for source, _, _ in observations}),
+            "states": sorted({source["state"] for source, _, _ in observations}),
+            "sectors": sorted({source["sector"] for source, _, _ in observations}),
+            "kindCounts": dict(sorted(kinds.items())),
+            "representativeTokens": [token for token, _ in tokens.most_common(12)],
+        })
+
+    edges = []
+    for pair, edge in sorted(relationships.items()):
+        evidence = sorted(edge["evidence"], key=lambda item: (
+            item["decision"], item["state"], item["sector"], item["communityA"], item["communityB"]
+        ))
+        kinds = Counter(item["kind"] for item in evidence)
+        edges.append({
+            "id": "--".join(pair),
+            "source": edge["source"],
+            "target": edge["target"],
+            "evidenceCount": len(evidence),
+            "tokenEdges": sum(item["tokenEdges"] for item in evidence),
+            "meanAffinity": round(sum(item["affinity"] for item in evidence) / len(evidence), 6),
+            "maxAffinity": max(item["affinity"] for item in evidence),
+            "decisions": sorted({item["decision"] for item in evidence}),
+            "states": sorted({item["state"] for item in evidence}),
+            "phases": sorted({item["phase"] for item in evidence}),
+            "sectors": sorted({item["sector"] for item in evidence}),
+            "kindCounts": dict(sorted(kinds.items())),
+            "evidence": evidence,
+        })
+
+    payload = {
+        "schemaVersion": 1,
+        "status": "successful",
+        "run": RUN,
+        "sourceCommit": source_commit,
+        "method": {
+            "unit": "semantic concepts reconstructed from measured community links",
+            "defaultScope": "question_related",
+            "relationshipMeaning": "Each relationship aggregates direct measured links between independently classified communities.",
+            "interpretationBoundary": "Concept identities are provisional semantic reconstructions, not measured latent labels.",
+            "selectionContract": trajectory["selection_contract"],
+        },
+        "counts": {
+            "concepts": len(concepts),
+            "relationships": len(edges),
+            "evidenceLinks": len(evidence_seen),
+            "questionRelatedConcepts": sum(bool(item["kindCounts"].get("question_related")) for item in concepts),
+            "questionRelatedRelationships": sum(bool(item["kindCounts"].get("question_related")) for item in edges),
+        },
+        "concepts": concepts,
+        "relationships": edges,
+    }
+    require(payload["counts"]["concepts"] == len(ROLE_METADATA)
+            and payload["counts"]["questionRelatedRelationships"] == len(trajectory_pairs),
+            "Derived semantic graph coverage is incomplete")
+    return payload, source_hashes
+
+
 def build(run, manifest):
     sources = verify_measurement(run)
     config = read_json(run / "run_config.json")
@@ -333,6 +583,8 @@ def build(run, manifest):
     files = {}
     memberships = export_tokens(run, graphs, k, files)
     totals["overlapRecords"] = load_correspondences(run, graphs, memberships)
+    semantic, semantic_hashes = load_semantic_map(run, graphs, source_commit)
+    files["semantic.json"] = write_asset(OUTPUT / "semantic.json", json_bytes(semantic))
     decisions = [{
         "id": int(row["generated_token_index"]),
         "input": row["decision_decoded_token"], "prediction": row["selected_decoded_token"],
@@ -347,10 +599,11 @@ def build(run, manifest):
         name = f"D{number:02d}.json"
         files[name] = write_asset(OUTPUT / name, json_bytes(cells))
     manifest.update({
-        "sourceCommit": source_commit, "sourceSha256": sources | module_hashes,
+        "sourceCommit": source_commit, "sourceSha256": sources | module_hashes | semantic_hashes,
         "decisions": decisions, "counts": totals,
         "states": [graphs[key_for(1, s, "positive_head")]["stateLabel"] for s in range(8)],
         "k": k, "assets": files,
+        "semantic": semantic["counts"],
         "validation": {
             "sourceHashes": "passed", "networkCoverage": "passed", "tokenMembership": "passed",
             "intercommunityEdgeReconciliation": "passed", "transitionTokenOverlap": "passed",

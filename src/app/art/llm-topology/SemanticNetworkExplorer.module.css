@@ -17,11 +17,37 @@
     font: 800 clamp(1.65rem, 3vw, 2.5rem)/1.13 var(--display);
 }
 
-.header p, .detail p, .matches p, .footer p {
+.header p, .detail p, .matches p, .footer p, .semanticIntro p,
+.semanticEvidence p, .rawIntroduction p {
     margin: 0;
     color: var(--muted);
     font-size: 1rem;
     line-height: 1.55;
+}
+
+.semanticIntro {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: .6rem 1.2rem;
+    padding: .85rem clamp(.85rem, 2.2vw, 1.4rem);
+    background: #111b15;
+}
+
+.semanticIntro strong { color: var(--mint); }
+
+.semanticIntro > span {
+    flex: 0 0 auto;
+    color: #b7d4c5;
+    font: 650 .875rem/1.35 var(--mono);
+}
+
+.semanticFilters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.25fr;
+    gap: .7rem;
+    padding: 1rem clamp(.85rem, 2.2vw, 1.4rem);
+    border-block-start: 1px solid var(--line);
 }
 
 .explorer button, .explorer select, .explorer input {
@@ -233,8 +259,70 @@
 .guide > span { color: var(--mint); }
 .status { padding: 1rem clamp(.85rem, 2.2vw, 1.4rem); color: var(--muted); }
 
+.semanticEvidence {
+    padding: 1.05rem clamp(.85rem, 2.2vw, 1.4rem);
+    border-block-start: 1px solid var(--line);
+    background: #0e1712;
+}
+
+.semanticEvidence h4 {
+    margin: 0 0 .35rem;
+    color: var(--ink);
+    font: 800 1.45rem/1.2 var(--display);
+}
+
+.semanticEvidenceList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .65rem;
+    max-height: 28rem;
+    margin: .9rem 0 0;
+    padding: 0 .25rem .25rem 1.2rem;
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+.semanticEvidenceList li {
+    min-width: 0;
+    padding: .7rem;
+    border: 1px solid var(--line);
+    background: #142019;
+}
+
+.semanticEvidenceList strong, .semanticEvidenceList span, .semanticEvidenceList a {
+    display: block;
+}
+
+.semanticEvidenceList strong { color: var(--mint); }
+
+.semanticEvidenceList span {
+    margin-top: .25rem;
+    color: var(--muted);
+    font-size: .9rem;
+    overflow-wrap: anywhere;
+}
+
+.semanticEvidenceList a { margin-top: .45rem; }
+
+.rawDisclosure {
+    border-block-start: 1px solid var(--line);
+    background: #0a100d;
+}
+
+.rawDisclosure > summary {
+    padding: 1rem clamp(.85rem, 2.2vw, 1.4rem);
+    color: var(--mint);
+    font: 750 1rem/1.4 var(--mono);
+    cursor: pointer;
+}
+
+.rawDisclosure[open] > summary { border-block-end: 1px solid var(--line); }
+
+.rawIntroduction { padding: .85rem clamp(.85rem, 2.2vw, 1.4rem); }
+
 @media (max-width: 760px) {
-    .filters, .details { grid-template-columns: minmax(0, 1fr); }
+    .filters, .semanticFilters, .details, .semanticEvidenceList { grid-template-columns: minmax(0, 1fr); }
+    .semanticIntro { display: grid; }
     .canvas { height: 21.5rem; }
     .scale { margin-left: 0; flex-basis: 100%; }
     .connections { max-height: 20rem; }

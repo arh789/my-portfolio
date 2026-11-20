@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import R020GraphCanvas from "./R020GraphCanvas";
+import R020SemanticExplorer from "./R020SemanticExplorer";
 import {
     communityIndex, communityLabel, decisionLabel, networkKey, readJson, readTokens,
     stateLabel, traceToken, validateIndex,
@@ -427,13 +428,27 @@ function Explorer({ index }) {
 
 export default function SemanticNetworkExplorer() {
     const index = useAsset("index.json", readIndex);
+    const semantic = useAsset("semantic.json");
+    const [showRaw, setShowRaw] = useState(false);
+    const ready = index.value && semantic.value;
+    const pending = !index.value || index.error ? index : semantic;
     return (
         <section className={styles.explorer} id="r020-explorer" aria-labelledby="r020-explorer-title">
             <header className={styles.header}>
-                <h3 id="r020-explorer-title">Explore the measured network</h3>
-                <p>Select a community to see its neighbours. Zoom in to inspect the tokens and follow their recorded links.</p>
+                <h3 id="r020-explorer-title">Explore the reconstructed semantic map</h3>
+                <p>Start with interpreted concepts, follow their measured relationships, then inspect the underlying evidence.</p>
             </header>
-            {index.value ? <Explorer index={index.value} /> : <AssetStatus asset={index} label="Loading R020 data…" />}
+            {ready ? <>
+                <R020SemanticExplorer data={semantic.value} index={index.value} />
+                <details className={styles.rawDisclosure} onToggle={(event) => setShowRaw(event.currentTarget.open)}>
+                    <summary>Inspect the underlying measured community networks</summary>
+                    <div className={styles.rawIntroduction}>
+                        <p>This evidence view retains every selected token community, including unresolved,
+                            formatting and punctuation structures. It supports audit rather than semantic discovery.</p>
+                    </div>
+                    {showRaw && <Explorer index={index.value} />}
+                </details>
+            </> : <AssetStatus asset={pending} label="Loading R020 semantic data…" />}
         </section>
     );
 }

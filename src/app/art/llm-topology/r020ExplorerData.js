@@ -27,7 +27,8 @@ export async function readJson(file, signal) {
 export function validateIndex(index) {
     if (index.status !== "successful" || index.formatVersion !== 1 ||
         index.counts?.networks !== 512 || index.decisions?.length !== 32 ||
-        index.states?.length !== 8 || index.k !== 10) {
+        index.states?.length !== 8 || index.k !== 10 ||
+        index.semantic?.concepts !== 14 || index.semantic?.questionRelatedRelationships !== 28) {
         throw Error("The R020 data export requires a successful build.");
     }
     return index;

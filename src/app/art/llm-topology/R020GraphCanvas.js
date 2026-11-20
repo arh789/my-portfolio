@@ -16,6 +16,9 @@ const graphStyle = [
             "min-zoomed-font-size": 10,
         },
     },
+    { selector: "node.semantic", style: {
+        "text-wrap": "wrap", "text-max-width": 150, "font-size": 14,
+    } },
     { selector: "node.landscape", style: { label: "data(shortLabel)" } },
     { selector: "node.landscape.focused", style: { label: "data(compactLabel)" } },
     { selector: "node.bridge", style: { "border-width": 4, "border-color": "#d3e4d8" } },
@@ -71,7 +74,7 @@ export default function R020GraphCanvas({
             return () => cancelAnimationFrame(frame);
         }
         renderer.current = cy;
-        if (mode === "community") {
+        if (mode !== "token") {
             if (cy.edges().length) {
                 cy.layout({
                     name: "cose", animate: false, randomize: false, fit: false, numIter: 700,
@@ -93,12 +96,13 @@ export default function R020GraphCanvas({
             const narrow = target.clientWidth < 500;
             setScale(ratio);
             cy.nodes().style({
-                "font-size": Math.max(15, 12 / zoom),
-                "text-max-width": narrow ? 88 / zoom : 130,
+                "font-size": mode === "semantic" ? Math.max(14, 11 / zoom) : Math.max(15, 12 / zoom),
+                "text-max-width": mode === "semantic" ? (narrow ? 120 / zoom : 150) : (narrow ? 88 / zoom : 130),
+                "text-wrap": mode === "semantic" ? "wrap" : "ellipsis",
             });
-            if (mode !== "community") return;
+            if (mode === "token") return;
             cy.nodes().toggleClass("landscape", ratio < 0.85 || (narrow && ratio < 1.25));
-            if (ratio >= tokenThreshold && !callbacks.current?.hidden && !depthTriggered.current) {
+            if (mode === "community" && ratio >= tokenThreshold && !callbacks.current?.hidden && !depthTriggered.current) {
                 depthTriggered.current = true;
                 const viewport = { x: target.clientWidth / 2, y: target.clientHeight / 2 };
                 cy.zoom({ level: baseZoom.current * 1.8, renderedPosition: viewport });
@@ -188,14 +192,16 @@ export default function R020GraphCanvas({
                 <button type="button" onClick={() => zoom(zoomStep)} disabled={!!rendererError}>Zoom in</button>
                 {actions}
                 <span className={styles.scale}>
-                    {mode === "token" ? "Token view" : scale < 0.85 ? "Landscape view" : "Community view"}
+                    {mode === "token" ? "Token view" : mode === "semantic" ? "Semantic map"
+                        : scale < 0.85 ? "Landscape view" : "Community view"}
                     {" · "}{Math.round(scale * 100)}%
                 </span>
             </div>
             <div className={styles.canvasFrame}>
                 <div
                     ref={container} className={styles.canvas} tabIndex={hidden ? -1 : 0} role="region"
-                    aria-label={mode === "community" ? "Community graph" : "Token-neighbour graph"}
+                    aria-label={mode === "semantic" ? "Derived semantic graph"
+                        : mode === "community" ? "Community graph" : "Token-neighbour graph"}
                     onKeyDown={keyboard}
                 />
                 {rendererError && <p className={styles.canvasMessage} role="status">{rendererError}</p>}
