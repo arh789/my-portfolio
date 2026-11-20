@@ -12,15 +12,26 @@ const r018 = runs + "/R018_olmo3-choke-point-barrier-spear-permutation-topology"
 const r019 = runs + "/R019_olmo3-order-repeatability-control";
 
 export const metadata = {
-    title: "How can you search for what you do not know exists? | LLM Topology",
+    title: "LLM Topology: Reconstructing Semantic Networks from Transformer States",
     description:
-        "A small language model gives a poor answer to a simple question. Its intermediate states reveal a wider network of semantic associations, and new directions to investigate.",
+        "A Pythia 70M feasibility experiment reconstructing semantic networks from transformer states, with an interactive map of associations absent from its poor generated answer.",
+    authors: [{ name: "Andrew Hale" }],
+    keywords: [
+        "LLM topology",
+        "transformer hidden states",
+        "semantic network analysis",
+        "Pythia 70M",
+        "language model interpretability",
+        "graph exploration",
+    ],
     alternates: { canonical: "/art/llm-topology" },
     openGraph: {
-        title: "How can you search for what you do not know exists?",
+        title: "LLM Topology: Reconstructing Semantic Networks from Transformer States",
         description:
-            "Explore the semantic relationships a language model's generated answer leaves out.",
+            "Explore semantic associations reconstructed from Pythia 70M's recorded transformer states, with traceable evidence and an interactive network.",
         type: "article",
+        authors: ["Andrew Hale"],
+        url: "/art/llm-topology",
     },
 };
 
