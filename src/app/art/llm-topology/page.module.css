@@ -219,73 +219,6 @@
 .sourceLink { display: inline-flex; gap: 0.35rem; align-items: baseline; line-height: 1.5; font-size: 0.97rem; }
 .sourceLink > span { white-space: nowrap; }
 .discoverySection { padding-bottom: 4.1rem; }
-.explorer { margin-top: 2.4rem; border: 1px solid rgba(149, 227, 199, 0.34); background: #0b100d; }
-.explorerTop {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    gap: 2rem;
-    padding: clamp(1.25rem, 3vw, 2.25rem);
-}
-.explorerTop > div { max-width: 760px; }
-.explorerTop h3 { margin: 0.6rem 0; font: 800 clamp(1.55rem, 2.7vw, 2.5rem)/1.1 var(--display); color: #fffdeb; }
-.explorerTop p:not(.kicker) { color: var(--muted); font-size: 1.04rem; }
-.explorerFullLink { flex: 0 0 auto; font: 700 0.89rem/1.5 var(--mono); }
-.networkTabs { display: flex; gap: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); overflow-x: auto; }
-.networkTabs button {
-    min-width: 145px;
-    flex: 1 0 0;
-    padding: 1rem;
-    border: 0;
-    border-right: 1px solid var(--line);
-    text-align: left;
-    background: #121b15;
-    color: #d1ddd1;
-    font: 750 1rem/1.35 var(--body);
-    cursor: pointer;
-}
-.networkTabs button:hover { background: #233227; }
-.networkTabs button:last-child { border-right: 0; }
-.networkTabs button span { display: inline-block; margin-right: 0.6rem; color: #90b8a5; font: 700 0.8rem var(--mono); }
-.networkTabs .networkTabActive { background: #2c4134; color: #fffef0; box-shadow: inset 0 -4px var(--signal); }
-.networkTabActive span { color: var(--signal) !important; }
-.graphHead { display: flex; align-items: end; gap: 1.4rem; justify-content: space-between; padding: 1.25rem 1.7rem; background: #101913; }
-.graphHead h4 { color: var(--ink); font: 800 clamp(1.3rem, 2vw, 1.8rem)/1.2 var(--display); }
-.graphHead p { color: var(--muted); font-size: 0.99rem; max-width: 650px; margin-top: 0.45rem; }
-.graphProvenance { color: var(--signal); font: 700 0.78rem/1.6 var(--mono); letter-spacing: 0.04em; text-align: right; flex: 0 0 auto; }
-.networkFrame { border-top: 1px solid var(--line); }
-.networkOverflow { overflow-x: auto; background: #080d0b; }
-.networkDiagram { display: block; min-width: 800px; width: 100%; height: auto; }
-.edgeHighlighted line { stroke: #f3d967; opacity: 0.95; }
-.edgeQuiet line { stroke: #76bda3; opacity: 0.68; }
-.edgeHighlighted rect { fill: #f3e8ad; stroke: #4f513d; }
-.edgeQuiet rect { fill: #20352b; stroke: #4e856e; }
-.edgeHighlighted text { fill: #1a261d; font: 800 16px var(--mono); }
-.edgeQuiet text { fill: #ecf6e8; font: 750 15px var(--mono); }
-.nodeSelected, .nodeLinked, .nodeOther { cursor: pointer; }
-.nodeSelected rect { fill: #dfd788; stroke: #fff7b7; stroke-width: 3; }
-.nodeLinked rect { fill: #245641; stroke: #8bdfb7; stroke-width: 2; }
-.nodeOther rect { fill: #182b22; stroke: #537b67; stroke-width: 1.7; }
-.nodeName { fill: #f3faf2; font: 800 18px var(--display); }
-.nodeId { fill: #9fdcb6; font: 750 12px var(--mono); }
-.nodeSelected .nodeName { fill: #162319; }
-.nodeSelected .nodeId { fill: #27483c; }
-.nodeSelected:focus-visible rect, .nodeLinked:focus-visible rect, .nodeOther:focus-visible rect { stroke: #fffbca; stroke-width: 4; }
-.networkUnderlay { display: flex; gap: 1rem 2rem; flex-wrap: wrap; justify-content: space-between; padding: 0.7rem 1.2rem; border-top: 1px solid var(--line); background: #101713; color: var(--muted); font: 650 0.77rem/1.4 var(--mono); }
-.networkDetails { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.45fr); gap: 1px; background: var(--line); border-top: 1px solid var(--line); }
-.networkSelected, .networkConnections { background: #101a14; padding: 1.4rem 1.6rem; }
-.detailEyebrow { display: block; color: var(--mint); font: 750 0.76rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.07em; }
-.networkSelected h5 { color: #f5f4e7; font: 800 1.75rem/1.25 var(--display); margin: 0.6rem 0 0.3rem; }
-.networkSelected p { font-size: 1rem; color: var(--muted); }
-.networkConnections ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.4rem 0.8rem; list-style: none; padding: 0; margin: 0.9rem 0 0; }
-.networkConnections li { display: flex; align-items: baseline; gap: 0.65rem; padding: 0.45rem 0; border-bottom: 1px solid var(--line); font-size: 0.95rem; }
-.networkConnections li strong { min-width: 2.25rem; color: var(--signal); font: 800 0.97rem var(--mono); }
-.networkConnections li span { color: #ecf0e7; }
-.networkConnections small { color: var(--muted); }
-.networkConnections > p { margin-top: 0.8rem; color: var(--muted); }
-.networkCaption { padding: 1.2rem 1.6rem; color: #bbc5b9; background: #0d140f; font-size: 0.93rem; }
-.networkCaption strong { color: #ecf0e7; }
-.findings { display: grid; gap: 0; max-width: 1000px; }
 .findings > div { border-top: 1px solid var(--line); padding: 1.55rem 0 1.65rem; }
 .findings > div > span { color: var(--mint); font: 700 0.78rem/1.6 var(--mono); text-transform: uppercase; letter-spacing: 0.08em; }
 .findings h3 { font: 800 clamp(1.4rem, 2.25vw, 1.85rem)/1.2 var(--display); margin: 0.45rem 0 0.8rem; }
@@ -349,9 +282,6 @@
 
 @media (max-width: 980px) {
     .methodSteps { grid-template-columns: 1fr; }
-    .explorerTop { align-items: start; flex-direction: column; gap: 0.9rem; }
-    .graphHead { align-items: start; flex-direction: column; gap: 0.55rem; }
-    .graphProvenance { text-align: left; }
 }
 @media (max-width: 700px) {
     .breadcrumb { padding-top: 1.1rem; }
@@ -359,14 +289,8 @@
     .introduction h1 { font-size: clamp(2.8rem, 10.9vw, 4.8rem); }
     .section { padding: 3rem 1.05rem; }
     .sectionHead h2 { font-size: clamp(2.2rem, 8vw, 3.6rem); }
-    .networkDetails { grid-template-columns: 1fr; }
-    .networkConnections ul { grid-template-columns: 1fr; }
-    .networkSelected, .networkConnections { padding: 1.1rem 1.3rem; }
     .evidenceRow { grid-template-columns: 1fr; gap: 0.5rem; }
     .codeNote { padding: 1rem; }
-    .explorerTop { padding: 1.1rem; }
-    .networkTabs button { min-width: 115px; }
-    .networkDiagram { min-width: 760px; }
 }
 @media (prefers-reduced-motion: reduce) {
     .page * { scroll-behavior: auto !important; transition: none !important; }
