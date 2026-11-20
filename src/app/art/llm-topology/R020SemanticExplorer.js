@@ -119,18 +119,16 @@ function defaultSelection(view) {
         return { role: preferredStart, visibleRoles: new Set(), selectedEdge: "" };
     }
     const role = view.byRole.has(preferredStart) ? preferredStart : view.concepts[0].id;
-    const neighbours = view.edgesByRole.get(role).slice(0, 4).map((edge) =>
-        edge.source === role ? edge.target : edge.source);
     return {
         role,
-        visibleRoles: new Set([role, ...neighbours]),
+        visibleRoles: new Set(view.concepts.map(({ id }) => id)),
         selectedEdge: view.edgesByRole.get(role)[0]?.id ?? "",
     };
 }
 
 export default function R020SemanticExplorer({ data, index }) {
     const [scope, setScope] = useState("question");
-    const [phase, setPhase] = useState("contextual");
+    const [phase, setPhase] = useState("all");
     const [decision, setDecision] = useState(0);
     const view = useMemo(() => buildView(data, scope, phase, decision), [data, scope, phase, decision]);
     const [focusRole, setFocusRole] = useState(() => defaultSelection(view).role);
