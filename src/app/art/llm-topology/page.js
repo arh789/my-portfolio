@@ -189,6 +189,7 @@ export default function LlmTopologyArticle() {
                         The response did not explain the bridge, but the recorded states exposed associations it never expressed. The raw networks also contain punctuation and word fragments, so the main explorer presents a derived semantic map rather than making readers start with every token community.
                     </SectionHead>
                     <p className={styles.recordingExplanation}>We first connected related tokens and grouped them into communities, then reconstructed candidate concepts from their vocabulary and measured links. The derived map consolidates these into <strong>14 named concepts and 53 traceable relationships</strong>, with a smaller contextual subset shown initially. Select a concept to explore its connections; the underlying measured networks remain available for closer inspection.</p>
+                    <p className={styles.sectionAfter}><strong>How to explore this network:</strong> Find a relationship you did not expect. Inspect its evidence. Decide what question it raises.</p>
                     <SemanticNetworkExplorer />
                 </section>
 

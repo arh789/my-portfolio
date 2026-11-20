@@ -2,7 +2,7 @@
 title: Research pipeline
 description: A multi-stage constraint system that reconstructs, filters, and stress-tests a search-space to identify which semantic structures are stable enough to act on.
 date: 2026-04-25
-lastModified: "2026-10-14"
+lastModified: "2026-11-20"
 projects:
   - slug: finding-hidden-structure-in-large-content-corpora
     order: 2
@@ -203,6 +203,12 @@ This pipeline behaves like an archaeological reconstruction of a black-box seman
 ## 6. Strategic Extraction (Selection Layer)
 
 **Function:** Decide what to act on
+
+**Human use of the reconstructed map:**
+
+> Find a relationship you did not expect. Inspect its evidence. Decide what question it raises.
+
+The map presents candidates for enquiry; the human decides which ones are worth pursuing. The selection criteria below govern which findings justify strategic action.
 
 **Process:**
 
